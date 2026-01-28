@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-01-28T21:17:19.164650",
+  "generated_at": "2026-01-28T21:46:47.049400",
   "summary": {
     "high": 5,
     "elevated": 12,
-    "normal": 21,
-    "quiet": 16
+    "normal": 22,
+    "quiet": 15
   },
   "countries": {
     "Morocco": {
@@ -53,8 +53,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -111,9 +111,9 @@
       ],
       "sources": [
         "Africanews",
+        "AllAfrica",
         "France24 Afrique",
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Tunisia": {
@@ -139,19 +139,15 @@
       ]
     },
     "Libya": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 4,
-      "ratio": 0.75,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
           "count": 1
         },
         {
@@ -161,10 +157,21 @@
         {
           "word": "Displaced",
           "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Pays-Bas: un Érythréen condamné à 20 ans de prison pour trafic d'êtres humains en Libye",
+          "url": "https://www.infomigrants.net/fr/post/69506/paysbas--un-erythreen-condamne-a-20-ans-de-prison-pour-trafic-detres-humains-en-libye",
+          "source": "RFI Afrique",
+          "published": "2026-01-28T19:20:00",
+          "lead": ""
+        },
         {
           "title": "Libye: le camp Haftar envoie des troupes à la frontière avec le Soudan, alors que l’Égypte demande la fin du soutien aux FSR",
           "url": "https://www.rfi.fr/fr/afrique/20260128-libye-le-camp-haftar-envoie-des-troupes-%C3%A0-la-fronti%C3%A8re-avec-le-soudan-alors-que-l-%C3%A9gypte-demande-la-fin-du-soutien-aux-fsr",
@@ -188,8 +195,8 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Egypt": {
@@ -205,15 +212,15 @@
           "count": 1
         },
         {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
           "word": "Violence",
           "count": 1
         },
         {
           "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -242,9 +249,9 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "AllAfrica",
         "RFI Afrique",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Sudan": {
@@ -362,10 +369,10 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "AllAfrica",
         "Human Rights Watch",
         "RFI Afrique",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Mauritania": {
@@ -436,10 +443,10 @@
       ]
     },
     "Burkina Faso": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 4,
-      "ratio": 1.25,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -465,13 +472,6 @@
           "source": "RFI Afrique",
           "published": "2026-01-28T04:40:10",
           "lead": "Tout commence par la rencontre improbable de deux hommes aux destins cabossés : Camille Louvel et Victor Démé. Le premie"
-        },
-        {
-          "title": "Burkina Faso: des purges dans l'armée après l'extradition de Paul-Henri Damiba",
-          "url": "https://www.rfi.fr/fr/afrique/20260128-burkina-faso-des-purges-dans-l-arm%C3%A9e-apr%C3%A8s-l-extradition-de-paul-henri-damiba",
-          "source": "RFI Afrique",
-          "published": "2026-01-28T04:03:58",
-          "lead": "Effet collatéral de l'interpellation et de l'extradition au Burkina Faso du lieutenant-colonel Damiba : depuis le 17 jan"
         },
         {
           "title": "Burkina Faso votes to join Vienna Convention as it continues path toward nuclear power",
@@ -517,8 +517,8 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Senegal": {
@@ -620,16 +620,31 @@
       "sources": []
     },
     "Sierra Leone": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.5,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "German development policy: Partners in the Global South",
+          "url": "https://www.dw.com/en/german-development-policy-partners-in-the-global-south/a-75702908?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-01-28T21:15:00",
+          "lead": "The Federal Minister for Economic Cooperation and Development is focusing on solidarity and partnership in turbulent geo"
+        }
+      ],
+      "sources": [
+        "DW Africa"
+      ]
     },
     "Liberia": {
       "article_count": 2,
@@ -678,11 +693,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -752,9 +767,9 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
         "BBC Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "Togo": {
@@ -819,15 +834,15 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Nigeria": {
-      "article_count": 14,
+      "article_count": 13,
       "source_count": 5,
       "baseline": 6,
-      "ratio": 2.33,
+      "ratio": 2.17,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -840,11 +855,11 @@
           "count": 3
         },
         {
-          "word": "President",
-          "count": 3
+          "word": "Minister",
+          "count": 2
         },
         {
-          "word": "Minister",
+          "word": "President",
           "count": 2
         },
         {
@@ -872,13 +887,6 @@
           "source": "BBC Africa",
           "published": "2026-01-28T21:01:18",
           "lead": "Prosecutors allege Diezani Alison-Madueke was given \"a life of luxury\" in the UK by people interested in Nigerian govern"
-        },
-        {
-          "title": "Nigeria president 'in great shape' after falling at Turkey reception",
-          "url": "https://www.bbc.com/news/articles/cvgpz16q2xdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-01-27T21:33:25",
-          "lead": "On a visit to Ankara, Bola Tinubu was filmed stumbling and falling after walking past soldiers and dignitaries."
         },
         {
           "title": "«Les mères de Chibok» au Fipadoc: un documentaire lumineux de Joel Kachi Benson",
@@ -949,11 +957,18 @@
           "source": "ReliefWeb",
           "published": "2026-01-28T13:33:07",
           "lead": "Country: Nigeria\n                                      Source: International Organization for Migration\n                "
+        },
+        {
+          "title": "Nigeria: Disability Working Group: 2025 Annual Report",
+          "url": "https://reliefweb.int/report/nigeria/disability-working-group-2025-annual-report",
+          "source": "ReliefWeb",
+          "published": "2026-01-28T13:23:14",
+          "lead": "Country: Nigeria\n                                      Sources: Protection Cluster, UN High Commissioner for Refugees\n  "
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
+        "Africanews",
         "AllAfrica",
         "BBC Africa",
         "ReliefWeb"
@@ -1000,15 +1015,15 @@
           "count": 1
         },
         {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "Humanitarian",
           "count": 1
         },
         {
           "word": "Rsf",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         }
       ],
@@ -1051,9 +1066,9 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "Jeune Afrique",
         "AllAfrica",
-        "Jeune Afrique"
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
@@ -1065,11 +1080,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Attack",
+          "word": "Killed",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -1111,8 +1126,8 @@
       "sources": [
         "DW Africa",
         "AllAfrica",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "CAR": {
@@ -1161,8 +1176,8 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "South Sudan": {
@@ -1202,7 +1217,7 @@
           "count": 1
         },
         {
-          "word": "Armed group",
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1275,8 +1290,8 @@
       "sources": [
         "Africanews",
         "Human Rights Watch",
-        "ReliefWeb",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -1369,15 +1384,15 @@
           "count": 1
         },
         {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
           "word": "Humanitarian",
           "count": 1
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1442,9 +1457,9 @@
       ],
       "sources": [
         "Africanews",
-        "ReliefWeb",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "ReliefWeb"
       ]
     },
     "São Tomé": {
@@ -1472,12 +1487,12 @@
       "sources": []
     },
     "Eritrea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2,
-      "ratio": 0.5,
+      "ratio": 1.0,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Refugees",
@@ -1487,6 +1502,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Pays-Bas: un Érythréen condamné à 20 ans de prison pour trafic d'êtres humains en Libye",
+          "url": "https://www.infomigrants.net/fr/post/69506/paysbas--un-erythreen-condamne-a-20-ans-de-prison-pour-trafic-detres-humains-en-libye",
+          "source": "RFI Afrique",
+          "published": "2026-01-28T19:20:00",
+          "lead": ""
+        },
+        {
           "title": "Regional Bureau for East, Horn of Africa, and the Great Lakes - Ethiopia Situation | Population of Concern to UNHCR as of 31 December 2025",
           "url": "https://reliefweb.int/report/ethiopia/regional-bureau-east-horn-africa-and-great-lakes-ethiopia-situation-population-concern-unhcr-31-december-2025",
           "source": "ReliefWeb",
@@ -1495,6 +1517,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "ReliefWeb"
       ]
     },
@@ -1629,8 +1652,8 @@
       ],
       "sources": [
         "Africanews",
-        "ReliefWeb",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Somalia": {
@@ -1662,11 +1685,11 @@
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -1741,9 +1764,9 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "AllAfrica",
         "The Guardian Africa",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Uganda": {
@@ -1767,7 +1790,7 @@
           "count": 2
         },
         {
-          "word": "Armed group",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -1775,11 +1798,11 @@
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Armed group",
           "count": 1
         },
         {
@@ -1849,8 +1872,8 @@
       "sources": [
         "Africanews",
         "Human Rights Watch",
-        "ReliefWeb",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Kenya": {
@@ -1886,11 +1909,11 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Killed",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Election",
           "count": 1
         }
       ],
@@ -1969,10 +1992,10 @@
       ],
       "sources": [
         "Africanews",
+        "Human Rights Watch",
         "AllAfrica",
-        "Le Monde Afrique",
         "ReliefWeb",
-        "Human Rights Watch"
+        "Le Monde Afrique"
       ]
     },
     "Rwanda": {
@@ -2027,11 +2050,11 @@
           "lead": "Le gouvernement congolais a déclaré cette journée du 27 janvier 2026 : « journée de mémoire aux victimes des atrocités c"
         },
         {
-          "title": "Le Rwanda poursuit en justice le Royaume-uni sur fond de tensions diplomatiques",
+          "title": "Le Rwanda poursuit en justice le Royaume-uni sur fond de tensions diplomatiques",
           "url": "https://www.lemonde.fr/afrique/article/2026/01/28/le-rwanda-poursuit-en-justice-le-royaume-uni-sur-fond-de-tensions-diplomatiques_6664526_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-01-28T21:00:06",
-          "lead": "Kigali a engagé une procédure contre Londres pour réclamer le versement de 100 millions de livres sterling dans le cadre"
+          "published": "2026-01-28T21:00:03",
+          "lead": "Kigali a engagé une procédure contre Londres pour réclamer le versement de 100 millions de livres sterling dans le cadre"
         },
         {
           "title": "Accord sur les migrants : le Rwanda poursuit le Royaume-Uni en justice pour avoir suspendu ses paiements",
@@ -2063,12 +2086,12 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "BBC Africa",
+        "DW Africa",
+        "Africanews",
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "DW Africa"
+        "BBC Africa",
+        "Le Monde Afrique"
       ]
     },
     "Burundi": {
@@ -2199,15 +2222,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "President",
-          "count": 1
-        },
-        {
           "word": "Humanitarian",
           "count": 1
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -2284,15 +2307,15 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 1
-        },
-        {
           "word": "Humanitarian",
           "count": 1
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -2328,9 +2351,9 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "AllAfrica",
         "The Guardian Africa",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Namibia": {
@@ -2366,19 +2389,19 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 2
-        },
-        {
           "word": "Government",
           "count": 2
         },
         {
-          "word": "Président",
-          "count": 1
+          "word": "Minister",
+          "count": 2
         },
         {
           "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Président",
           "count": 1
         },
         {
@@ -2464,9 +2487,9 @@
         }
       ],
       "sources": [
+        "AllAfrica",
         "Daily Maverick",
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
