@@ -2,7 +2,7 @@
 
 **Africa News Anomaly Detection Dashboard**
 
-Tracks news mentions across 54 African countries from 25 RSS feeds. Flags unusual spikes in coverage that may signal notable events, helping analysts prioritize attention where patterns shift significantly.
+Tracks news mentions across 54 African countries from 23 RSS feeds. Flags unusual spikes in coverage that may signal notable events, helping analysts prioritize attention where patterns shift significantly.
 
 ---
 
