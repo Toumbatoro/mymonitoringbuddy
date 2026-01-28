@@ -2,7 +2,7 @@
 
 **Africa News Anomaly Detection Dashboard**
 
-Tracks news mentions across 54 African countries from 40+ RSS feeds. Flags unusual spikes in coverage that may signal notable events, helping analysts prioritize attention where patterns shift significantly.
+Tracks news mentions across 54 African countries from 25 RSS feeds. Flags unusual spikes in coverage that may signal notable events, helping analysts prioritize attention where patterns shift significantly.
 
 ---
 
@@ -57,7 +57,7 @@ open http://localhost:8000
 | Feature | Description |
 |---------|-------------|
 | **54 Countries** | Complete coverage of all African nations |
-| **18+ RSS Feeds** | BBC, Al Jazeera, RFI, France24, Reuters, UN News, ReliefWeb |
+| **25 RSS Feeds** | BBC, Al Jazeera, RFI, France24, Reuters, VOA, HRW, Crisis Group |
 | **Smart Matching** | Word boundaries prevent false positives (Niger ≠ Nigeria) |
 | **Anomaly Detection** | Compares to 30-day rolling baseline |
 | **Confidence Scoring** | Requires 3+ sources for high confidence |
@@ -144,7 +144,7 @@ else:               # Normal
 ## 📡 Data Pipeline
 
 ```
-RSS Feeds (18+)
+25 RSS Feeds
      │
      ▼
 ┌─────────────────┐
