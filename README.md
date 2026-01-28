@@ -48,7 +48,7 @@ open http://localhost:8000
 1. Create a new GitHub repository
 2. Push all files to the `main` branch
 3. Go to Settings → Pages → Source: `main` branch
-4. The workflow runs automatically every 6 hours
+4. The workflow runs automatically every 3 hours
 
 ---
 
