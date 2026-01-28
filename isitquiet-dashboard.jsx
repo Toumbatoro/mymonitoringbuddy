@@ -397,8 +397,8 @@ const Treemap = ({ data, selectedCountry, onSelect, region }) => {
         // First by status (high → elevated → normal → quiet)
         const statusDiff = (statusPriority[b.status] || 0) - (statusPriority[a.status] || 0);
         if (statusDiff !== 0) return statusDiff;
-        // Then by article count (more = higher priority)
-        return (b.article_count || 0) - (a.article_count || 0);
+        // Then by baseline (higher baseline = higher priority within status)
+        return (b.baseline || 0) - (a.baseline || 0);
       });
   }, [data.countries, regionCountryNames]);
   
