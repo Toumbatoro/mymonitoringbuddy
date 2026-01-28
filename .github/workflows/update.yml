@@ -1,0 +1,56 @@
+name: Update MyMonitoringBuddy Data
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'fetcher.py'
+      - 'isitquiet_feeds.json'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Create data directory
+        run: mkdir -p data
+      
+      - name: Fetch and analyze feeds
+        run: python fetcher.py
+        timeout-minutes: 15
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain data/) ]]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          git commit -m "📊 Update data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
