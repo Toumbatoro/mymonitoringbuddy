@@ -930,6 +930,20 @@ function Dashboard() {
           </div>
         </div>
         
+        {/* Calibration Notice */}
+        <div style={{
+          background: 'rgba(255, 193, 7, 0.15)',
+          border: '1px solid rgba(255, 193, 7, 0.3)',
+          borderRadius: '8px',
+          padding: '12px 16px',
+          fontSize: '13px',
+          color: COLORS.textSec,
+          lineHeight: '1.5'
+        }}>
+          <strong style={{ color: COLORS.text }}>⚠️ Calibration period:</strong> This dashboard launched on January 28, 2026. 
+          Baselines require ~30 days of data to stabilize. Until then, anomaly detection may be less accurate.
+        </div>
+        
         {/* ROW 1: Explainer + Region Filter */}
         <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
           <Explainer />
