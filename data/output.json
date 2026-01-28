@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-01-28T21:09:51.394368",
+  "generated_at": "2026-01-28T21:17:19.164650",
   "summary": {
     "high": 5,
     "elevated": 12,
-    "normal": 20,
-    "quiet": 17
+    "normal": 21,
+    "quiet": 16
   },
   "countries": {
     "Morocco": {
@@ -151,11 +151,11 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Refugees",
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -188,8 +188,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "ReliefWeb",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
@@ -205,11 +205,11 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Refugees",
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -242,9 +242,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "ReliefWeb",
         "RFI Afrique",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Sudan": {
@@ -256,11 +256,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Violence",
+          "word": "Humanitarian",
           "count": 5
         },
         {
-          "word": "Humanitarian",
+          "word": "Violence",
           "count": 5
         },
         {
@@ -362,10 +362,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
         "ReliefWeb",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Mauritania": {
@@ -430,9 +430,9 @@
       ],
       "sources": [
         "Africanews",
+        "Le Monde Afrique",
         "France24 Afrique",
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
@@ -517,8 +517,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "ReliefWeb",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
@@ -678,11 +678,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -752,8 +752,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
         "ReliefWeb",
+        "BBC Africa",
         "Jeune Afrique"
       ]
     },
@@ -819,8 +819,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "ReliefWeb",
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
@@ -952,10 +952,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa",
         "Africanews",
         "RFI Afrique",
+        "AllAfrica",
+        "BBC Africa",
         "ReliefWeb"
       ]
     },
@@ -1000,11 +1000,11 @@
           "count": 1
         },
         {
-          "word": "Rsf",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Rsf",
           "count": 1
         },
         {
@@ -1109,9 +1109,9 @@
         }
       ],
       "sources": [
+        "DW Africa",
         "AllAfrica",
         "RFI Afrique",
-        "DW Africa",
         "Jeune Afrique"
       ]
     },
@@ -1274,9 +1274,9 @@
       ],
       "sources": [
         "Africanews",
-        "AllAfrica",
+        "Human Rights Watch",
         "ReliefWeb",
-        "Human Rights Watch"
+        "AllAfrica"
       ]
     },
     "Eq. Guinea": {
@@ -1314,16 +1314,31 @@
       ]
     },
     "Congo": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Two Norwegians charged over bribes to Congo-Brazzaville president",
+          "url": "http://www.africanews.com/2026/01/27/two-norwegians-charged-over-bribes-to-congo-brazzaville-president/",
+          "source": "Africanews",
+          "published": "2026-01-28T20:49:11",
+          "lead": "Prosecutors allege the oil executives paid millions of dollars to Denis Sassou Nguesso and his family."
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "DRC": {
       "article_count": 8,
@@ -1354,15 +1369,15 @@
           "count": 1
         },
         {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
           "word": "Government",
           "count": 1
         },
         {
           "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1614,8 +1629,8 @@
       ],
       "sources": [
         "Africanews",
-        "AllAfrica",
-        "ReliefWeb"
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "Somalia": {
@@ -1647,15 +1662,15 @@
           "count": 1
         },
         {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
           "word": "Drought",
           "count": 1
         },
         {
           "word": "Epidemic",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1726,9 +1741,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "ReliefWeb",
         "The Guardian Africa",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Uganda": {
@@ -1752,10 +1767,6 @@
           "count": 2
         },
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
           "word": "Armed group",
           "count": 1
         },
@@ -1764,11 +1775,15 @@
           "count": 1
         },
         {
-          "word": "Famine",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -1833,9 +1848,9 @@
       ],
       "sources": [
         "Africanews",
-        "AllAfrica",
+        "Human Rights Watch",
         "ReliefWeb",
-        "Human Rights Watch"
+        "AllAfrica"
       ]
     },
     "Kenya": {
@@ -1875,7 +1890,7 @@
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1953,11 +1968,11 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
         "Le Monde Afrique",
-        "Human Rights Watch",
-        "Africanews",
-        "ReliefWeb"
+        "ReliefWeb",
+        "Human Rights Watch"
       ]
     },
     "Rwanda": {
@@ -2048,12 +2063,12 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "BBC Africa",
-        "Le Monde Afrique",
-        "DW Africa",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "BBC Africa",
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "DW Africa"
       ]
     },
     "Burundi": {
@@ -2184,15 +2199,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "President",
           "count": 1
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -2269,15 +2284,15 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "President",
           "count": 1
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -2313,9 +2328,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "ReliefWeb",
         "The Guardian Africa",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Namibia": {
@@ -2351,19 +2366,19 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Government",
-          "count": 2
-        },
-        {
           "word": "Minister",
           "count": 2
         },
         {
-          "word": "Violence",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         },
         {
@@ -2449,9 +2464,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "Daily Maverick",
         "RFI Afrique",
-        "Daily Maverick"
+        "AllAfrica"
       ]
     },
     "Eswatini": {
