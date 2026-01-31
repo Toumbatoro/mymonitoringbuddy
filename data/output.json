@@ -1,20 +1,24 @@
 {
-  "generated_at": "2026-01-31T04:48:32.890653",
+  "generated_at": "2026-01-31T07:19:17.489769",
   "summary": {
     "high": 1,
-    "elevated": 6,
-    "normal": 24,
+    "elevated": 3,
+    "normal": 27,
     "quiet": 23
   },
   "countries": {
     "Morocco": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 7.0,
-      "ratio": 0.29,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 5.8,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
         {
           "word": "Minister",
           "count": 1
@@ -26,6 +30,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
+          "source": "Jeune Afrique",
+          "published": "2026-01-31T07:32:42",
+          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
+        },
         {
           "title": "Morocco's Foreign Minister Nasser Bourita in Brussels for 15th EU Association Council meeting",
           "url": "http://www.africanews.com/2026/01/30/morocco-fm-bourita-in-brussels-for-15th-eu-association-council-meeting/",
@@ -42,14 +53,15 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Africanews"
       ]
     },
     "Algeria": {
       "article_count": 5,
       "source_count": 3,
-      "baseline": 4.3,
-      "ratio": 1.15,
+      "baseline": 4.5,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -66,11 +78,11 @@
           "count": 1
         },
         {
-          "word": "Coup",
+          "word": "Tué",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Coup",
           "count": 1
         },
         {
@@ -137,7 +149,7 @@
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -149,7 +161,7 @@
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -159,18 +171,13 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "baseline": 3.0,
+      "ratio": 1.0,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -179,13 +186,6 @@
           "source": "RFI Afrique",
           "published": "2026-01-30T08:52:04",
           "lead": "Au Soudan, la tension s’est déplacée vers un nouvel État du sud du pays, le Nil Bleu, frontalier avec l'Éthiopie et le S"
-        },
-        {
-          "title": "Émirats arabes unis: l'or du Soudan «assure la prospérité des FSR et en même temps celle de Dubaï»",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260130-%C3%A9mirats-arabes-unis-l-or-du-soudan-assure-la-prosp%C3%A9rit%C3%A9-des-fsr-et-en-m%C3%AAme-temps-celle-de-duba%C3%AF",
-          "source": "RFI Afrique",
-          "published": "2026-01-30T06:03:47",
-          "lead": "Ce sont des acteurs de plus en plus présents dans les affaires africaines : les Émirats arabes unis ont une influence gr"
         },
         {
           "title": "« Ils tirent, arrêtent, rackettent, c’est la terreur en permanence » : au Soudan, l’« Etat FSR » raconté par ceux qui l’ont fui",
@@ -203,9 +203,9 @@
         }
       ],
       "sources": [
-        "UN News Africa",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "UN News Africa"
       ]
     },
     "Mauritania": {
@@ -223,8 +223,8 @@
     "Mali": {
       "article_count": 8,
       "source_count": 4,
-      "baseline": 4.0,
-      "ratio": 2.0,
+      "baseline": 5.0,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -301,17 +301,17 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "BBC Africa",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique",
+        "BBC Africa"
       ]
     },
     "Burkina Faso": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 3.7,
-      "ratio": 1.09,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 3.8,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -346,44 +346,36 @@
           "source": "Africanews",
           "published": "2026-01-30T09:02:52",
           "lead": "Burkina Faso's military government dissolved all political parties on Thursday, whose activities had been suspended sinc"
-        },
-        {
-          "title": "Burkina Faso: Burkina Faso Junta Dissolves All Political Parties",
-          "url": "https://allafrica.com/stories/202601300072.html",
-          "source": "AllAfrica",
-          "published": "2026-01-30T06:10:13",
-          "lead": "[DW] Political parties in Burkina Faso have already been banned from holding public events, but could still operate inte"
         }
       ],
       "sources": [
-        "Africanews",
-        "BBC Africa",
         "Jeune Afrique",
-        "AllAfrica"
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Niger": {
-      "article_count": 14,
+      "article_count": 16,
       "source_count": 8,
-      "baseline": 9.7,
-      "ratio": 1.45,
+      "baseline": 10.8,
+      "ratio": 1.49,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Attaque",
+          "count": 9
+        },
         {
           "word": "Attack",
           "count": 7
         },
         {
-          "word": "Attaque",
-          "count": 7
+          "word": "Président",
+          "count": 3
         },
         {
           "word": "Jihadist",
-          "count": 2
-        },
-        {
-          "word": "Président",
           "count": 2
         },
         {
@@ -391,7 +383,12 @@
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Attaque",
+          "Président"
+        ]
+      ],
       "articles": [
         {
           "title": "Suspected jihadists attack airport near Niger's capital",
@@ -443,6 +440,20 @@
           "lead": ""
         },
         {
+          "title": "Niger-Bénin : la tension monte encore après les accusations de Tiani contre Talon",
+          "url": "https://www.jeuneafrique.com/1761396/politique/niger-benin-la-tension-monte-encore-apres-les-accusations-de-tiani-contre-talon/",
+          "source": "Jeune Afrique",
+          "published": "2026-01-31T08:00:56",
+          "lead": "Après l’attaque de l’État islamique contre Niamey, le président nigérien Abdourahamane Tiani a accusé Patrice Talon, Ala"
+        },
+        {
+          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
+          "source": "Jeune Afrique",
+          "published": "2026-01-31T07:32:42",
+          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
+        },
+        {
           "title": "Base 101, renseignement, influence : ce que font les Russes d’Africa Corps au Niger",
           "url": "https://www.jeuneafrique.com/1761292/politique/base-101-renseignement-influence-ce-que-font-les-russes-dafrica-corps-au-niger/",
           "source": "Jeune Afrique",
@@ -462,47 +473,37 @@
           "source": "Jeune Afrique",
           "published": "2026-01-30T09:23:30",
           "lead": "Abdourahamane Tiani s’en est pris à la France, la Côte d’Ivoire et au Bénin, adoptant un ton menaçant : « Nous rappelons"
-        },
-        {
-          "title": "Niger's leader says France, Benin, Ivory Coast behind airport attack",
-          "url": "http://www.africanews.com/2026/01/30/nigers-leader-says-france-benin-ivory-coast-behind-airport-attack/",
-          "source": "Africanews",
-          "published": "2026-01-30T14:54:12",
-          "lead": "Niger's military leader has accused the presidents of France, Benin and Ivory Coast of supporting armed groups that atta"
-        },
-        {
-          "title": "Niger junta accuses France, Benin and Ivory Coast of backing airport attackers",
-          "url": "http://www.africanews.com/2026/01/30/niamey-residents-describe-horrific-gunfire-erupting-near-airport/",
-          "source": "Africanews",
-          "published": "2026-01-30T10:14:34",
-          "lead": "The head of Niger's military junta on Thursday accused France, Benin and Ivory Coast of being behind an assault on a mil"
         }
       ],
       "sources": [
         "Africanews",
-        "AllAfrica",
-        "France24 Afrique",
         "BBC Africa",
-        "RFI Afrique",
+        "AllAfrica",
         "Al Jazeera",
-        "The Guardian Africa",
-        "Jeune Afrique"
+        "France24 Afrique",
+        "Jeune Afrique",
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Senegal": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 7.0,
-      "ratio": 0.29,
+      "baseline": 5.8,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Coup",
+          "count": 1
+        },
         {
           "word": "Putsch",
           "count": 1
         },
         {
-          "word": "Coup",
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -514,6 +515,13 @@
           "source": "RFI Afrique",
           "published": "2026-01-31T04:09:10",
           "lead": "Un peu plus de deux mois après le coup d'État du 26 novembre en Guinée Bissau, un climat de détente semble s'installer d"
+        },
+        {
+          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
+          "source": "Jeune Afrique",
+          "published": "2026-01-31T07:32:42",
+          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
         },
         {
           "title": "Au Sénégal, Sedima abandonne son titre foncier à Ndingler",
@@ -524,14 +532,14 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -541,19 +549,19 @@
       "sources": []
     },
     "Guinea-Bissau": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 0.5,
+      "baseline": 0.8,
       "ratio": 4.0,
       "status": "high",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Putsch",
-          "count": 1
+          "word": "Coup",
+          "count": 2
         },
         {
-          "word": "Coup",
+          "word": "Putsch",
           "count": 1
         }
       ],
@@ -567,6 +575,13 @@
           "lead": "Un peu plus de deux mois après le coup d'État du 26 novembre en Guinée Bissau, un climat de détente semble s'installer d"
         },
         {
+          "title": "En Guinée-Bissau, «il n'y a pas de liberté d'expression ou bien de liberté de la presse»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260131-en-guin%C3%A9e-bissau-il-n-y-a-pas-de-libert%C3%A9-d-expression-ou-bien-de-libert%C3%A9-de-la-presse",
+          "source": "RFI Afrique",
+          "published": "2026-01-31T05:56:35",
+          "lead": "Chanteuse, mais aussi journaliste, engagée pour défendre les droits des plus démunis, la Bissau-Guinéenne Karyna Gomes s"
+        },
+        {
           "title": "En Guinée-Bissau, le chef de la junte promu au grade le plus élevé de l’armée",
           "url": "https://www.jeuneafrique.com/1761137/politique/en-guinee-bissau-le-chef-de-la-junte-promu-au-grade-le-plus-eleve-de-larmee/",
           "source": "Jeune Afrique",
@@ -575,24 +590,24 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Guinea": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.3,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 1.5,
+      "ratio": 1.33,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Putsch",
+          "word": "Coup",
           "count": 1
         },
         {
-          "word": "Coup",
+          "word": "Putsch",
           "count": 1
         },
         {
@@ -618,8 +633,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Sierra Leone": {
@@ -637,8 +652,8 @@
     "Liberia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 0.75,
+      "baseline": 1.2,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -668,8 +683,8 @@
     "Côte d'Ivoire": {
       "article_count": 9,
       "source_count": 8,
-      "baseline": 5.0,
-      "ratio": 1.8,
+      "baseline": 6.0,
+      "ratio": 1.5,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -762,19 +777,19 @@
       ],
       "sources": [
         "Africanews",
-        "France24 Afrique",
         "BBC Africa",
-        "RFI Afrique",
-        "Le Monde Afrique",
         "Al Jazeera",
-        "The Guardian Africa",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "France24 Afrique",
+        "Jeune Afrique",
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.3,
+      "baseline": 1.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -786,8 +801,8 @@
     "Togo": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 2.0,
+      "baseline": 1.2,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -800,11 +815,11 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -832,34 +847,22 @@
     },
     "Benin": {
       "article_count": 6,
-      "source_count": 5,
-      "baseline": 4.0,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "medium",
+      "source_count": 4,
+      "baseline": 4.5,
+      "ratio": 1.33,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Attack",
           "count": 4
         },
         {
-          "word": "Putsch",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Attentat",
-          "count": 1
+          "word": "Attaque",
+          "count": 2
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
           "count": 1
         }
       ],
@@ -873,11 +876,11 @@
           "lead": "Claim comes after military ruler Abdourahamane Tiani accused France, Benin, Ivory coast of involvement in the attack."
         },
         {
-          "title": "Bénin: le frère aîné de Pascal Tigri arrêté suite à l'enquête sur la tentative de putsch du 7 décembre",
-          "url": "https://www.rfi.fr/fr/afrique/20260130-b%C3%A9nin-le-fr%C3%A8re-a%C3%AEn%C3%A9-de-pascal-tigri-arr%C3%AAt%C3%A9-suite-%C3%A0-l-enqu%C3%AAte-sur-la-tentative-de-putsch-du-7-d%C3%A9cembre",
-          "source": "RFI Afrique",
-          "published": "2026-01-30T05:11:26",
-          "lead": "Allassane Tigri, ancien ministre et vice-président du parti d'opposition Les Démocrates, a été placé en détention provis"
+          "title": "Niger-Bénin : la tension monte encore après les accusations de Tiani contre Talon",
+          "url": "https://www.jeuneafrique.com/1761396/politique/niger-benin-la-tension-monte-encore-apres-les-accusations-de-tiani-contre-talon/",
+          "source": "Jeune Afrique",
+          "published": "2026-01-31T08:00:56",
+          "lead": "Après l’attaque de l’État islamique contre Niamey, le président nigérien Abdourahamane Tiani a accusé Patrice Talon, Ala"
         },
         {
           "title": "Attaque à Niamey : Tiani accuse Talon, Ouattara et Macron",
@@ -910,17 +913,16 @@
       ],
       "sources": [
         "Africanews",
+        "Jeune Afrique",
         "AllAfrica",
-        "RFI Afrique",
-        "Al Jazeera",
-        "Jeune Afrique"
+        "Al Jazeera"
       ]
     },
     "Nigeria": {
-      "article_count": 10,
+      "article_count": 9,
       "source_count": 3,
-      "baseline": 7.7,
-      "ratio": 1.3,
+      "baseline": 8.2,
+      "ratio": 1.09,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -931,10 +933,6 @@
         {
           "word": "Government",
           "count": 2
-        },
-        {
-          "word": "Attaque",
-          "count": 1
         },
         {
           "word": "Coup",
@@ -961,13 +959,6 @@
           "source": "France24 Afrique",
           "published": "2026-01-30T17:05:06",
           "lead": "Des compositeurs venus de France ont travaillé pendant une semaine à Lagos, capitale nigériane, avec des talents locaux "
-        },
-        {
-          "title": "Nigeria : des dizaines de personnes tuées lors d'une attaque jihadiste dans l'État de Borno",
-          "url": "https://www.france24.com/fr/afrique/20260130-nigeria-dizaines-personnes-tuees-attaque-jihadiste-etat-borno-violences",
-          "source": "France24 Afrique",
-          "published": "2026-01-30T05:22:37",
-          "lead": "Une embuscade a été tendue, dans la nuit de mercredi à jeudi, à des ouvriers qui travaillaient sur le pont de Wajiroko, "
         },
         {
           "title": "French-Nigerian artists team up to craft future hits",
@@ -1027,9 +1018,9 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "France24 Afrique",
         "AllAfrica",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -1047,8 +1038,8 @@
     "Chad": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 3.3,
-      "ratio": 1.2,
+      "baseline": 3.5,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1089,20 +1080,24 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
         "Le Monde Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Jeune Afrique"
       ]
     },
     "Cameroon": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 3.7,
-      "ratio": 0.82,
+      "baseline": 3.5,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
         {
           "word": "Guerre",
           "count": 1
@@ -1110,6 +1105,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
+          "source": "Jeune Afrique",
+          "published": "2026-01-31T07:32:42",
+          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
+        },
         {
           "title": "Le Cameroun s’achète un répit grâce à une sortie réussie sur les marchés internationaux",
           "url": "https://www.jeuneafrique.com/1761510/economie-entreprises/le-cameroun-sachete-un-repit-grace-a-une-sortie-reussie-sur-les-marches-internationaux/",
@@ -1123,13 +1125,6 @@
           "source": "Jeune Afrique",
           "published": "2026-01-30T17:40:24",
           "lead": "Le bras de fer qui oppose Louis Paul Motaze, le ministre des Finances, à Cyrus Ngo’o, le directeur général du Port auton"
-        },
-        {
-          "title": "Cameroun : Maroua, la « fille aînée du renouveau » qui se détourne de Paul Biya",
-          "url": "https://www.jeuneafrique.com/1759648/politique/cameroun-maroua-la-fille-ainee-du-renouveau-qui-se-detourne-de-paul-biya/",
-          "source": "Jeune Afrique",
-          "published": "2026-01-30T06:55:18",
-          "lead": "À Maroua, épicentre politique de l’Extrême-Nord, la présidentielle a laissé des traces durables. Au-delà des discours of"
         }
       ],
       "sources": [
@@ -1161,8 +1156,8 @@
     "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.6,
+      "baseline": 1.5,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1195,8 +1190,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.5,
+      "baseline": 0.8,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1228,7 +1223,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "M23",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -1236,7 +1231,7 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "M23",
           "count": 1
         }
       ],
@@ -1255,10 +1250,10 @@
       ]
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 6,
       "source_count": 3,
-      "baseline": 5.0,
-      "ratio": 0.8,
+      "baseline": 4.8,
+      "ratio": 1.26,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1267,15 +1262,15 @@
           "count": 3
         },
         {
-          "word": "Rebel",
-          "count": 1
+          "word": "Président",
+          "count": 2
         },
         {
           "word": "Killed",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Rebel",
           "count": 1
         },
         {
@@ -1295,6 +1290,20 @@
           "source": "The Guardian Africa",
           "published": "2026-01-30T22:11:57",
           "lead": "Rubaya mine produces about 15% of the world’s coltan, which is processed into tantalum, used in mobile phonesMore than 2"
+        },
+        {
+          "title": "Kinshasa mise sur un partenariat avec Abou Dhabi pour reprendre la main sur l’or de l’Est de la RDC",
+          "url": "https://www.rfi.fr/fr/afrique/20260131-kinshasa-mise-sur-un-partenariat-avec-abou-dhabi-pour-reprendre-la-main-sur-l-or-de-l-est-de-la-rdc",
+          "source": "RFI Afrique",
+          "published": "2026-01-31T06:10:04",
+          "lead": "La RDC veut renforcer ses liens avec les Émirats arabes unis. Kinshasa et Abou Dhabi s’apprêtent à signer plusieurs acco"
+        },
+        {
+          "title": "Anado Kabika, la mode pour promouvoir la beauté congolaise",
+          "url": "https://www.rfi.fr/fr/culture/20260131-anado-kabika-la-mode-pour-promouvoir-la-beaut%C3%A9-congolaise",
+          "source": "RFI Afrique",
+          "published": "2026-01-31T07:03:50",
+          "lead": "Ancienne première dauphine de Miss Congo 2016 et désormais installée à New York, le mannequin Anado Kabika a une mission"
         },
         {
           "title": "Est de la RDC: après Félix Tshisekedi, les facilitateurs de l'UA s'entretiennent avec Paul Kagame",
@@ -1319,9 +1328,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "The Guardian Africa",
-        "RFI Afrique"
+        "The Guardian Africa"
       ]
     },
     "São Tomé": {
@@ -1375,8 +1384,8 @@
     "Ethiopia": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 7.0,
-      "ratio": 0.29,
+      "baseline": 5.8,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1403,15 +1412,15 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Somalia": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 4.0,
-      "ratio": 0.5,
+      "baseline": 3.5,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1453,8 +1462,8 @@
     "Uganda": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 6.3,
-      "ratio": 0.63,
+      "baseline": 5.8,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1506,8 +1515,8 @@
     "Kenya": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 4.3,
-      "ratio": 0.46,
+      "baseline": 3.8,
+      "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1538,36 +1547,43 @@
       ]
     },
     "Rwanda": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 4.0,
-      "ratio": 0.75,
+      "baseline": 3.8,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "M23",
+          "word": "Président",
           "count": 2
         },
         {
-          "word": "Président",
-          "count": 1
+          "word": "M23",
+          "count": 2
         },
         {
           "word": "Rebelle",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Kinshasa mise sur un partenariat avec Abou Dhabi pour reprendre la main sur l’or de l’Est de la RDC",
+          "url": "https://www.rfi.fr/fr/afrique/20260131-kinshasa-mise-sur-un-partenariat-avec-abou-dhabi-pour-reprendre-la-main-sur-l-or-de-l-est-de-la-rdc",
+          "source": "RFI Afrique",
+          "published": "2026-01-31T06:10:04",
+          "lead": "La RDC veut renforcer ses liens avec les Émirats arabes unis. Kinshasa et Abou Dhabi s’apprêtent à signer plusieurs acco"
+        },
         {
           "title": "Est de la RDC: après Félix Tshisekedi, les facilitateurs de l'UA s'entretiennent avec Paul Kagame",
           "url": "https://www.rfi.fr/fr/afrique/20260130-est-de-la-rdc-apr%C3%A8s-f%C3%A9lix-tshisekedi-les-facilitateurs-de-l-ua-s-entretiennent-avec-paul-kagame",
@@ -1591,9 +1607,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "AllAfrica",
-        "RFI Afrique"
+        "AllAfrica"
       ]
     },
     "Burundi": {
@@ -1611,8 +1627,8 @@
     "Tanzania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.6,
+      "baseline": 1.5,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1693,7 +1709,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1705,8 +1721,8 @@
     "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.3,
-      "ratio": 0.19,
+      "baseline": 4.2,
+      "ratio": 0.24,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1725,18 +1741,6 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Namibia": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
@@ -1747,22 +1751,34 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Seven in 10 Africans are under 30 – invest in them and they will change the world | Monica Geingos",
-          "url": "https://www.theguardian.com/global-development/2026/jan/30/seven-10-africans-under-30-leadership-young-people-leadership",
-          "source": "The Guardian Africa",
-          "published": "2026-01-30T06:00:13",
-          "lead": "The countries that invest in youth now will be the ones that define global innovation in the coming yearsMonica Geingos "
+          "title": "Zimbabwe: High Court Strikes Off Urgent Application in Botha Gold Mine Dispute",
+          "url": "https://allafrica.com/stories/202601300411.html",
+          "source": "AllAfrica",
+          "published": "2026-01-30T12:10:14",
+          "lead": "[263Chat] The High Court has struck off the roll the latest urgent application brought against Side Electrical (Pvt) Ltd"
         }
       ],
       "sources": [
-        "The Guardian Africa"
+        "AllAfrica"
       ]
+    },
+    "Namibia": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.5,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
     },
     "Botswana": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.5,
+      "baseline": 0.8,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1781,24 +1797,20 @@
       ]
     },
     "South Africa": {
-      "article_count": 19,
-      "source_count": 9,
-      "baseline": 14.3,
-      "ratio": 1.33,
+      "article_count": 20,
+      "source_count": 8,
+      "baseline": 15.5,
+      "ratio": 1.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
-          "count": 3
+          "count": 4
         },
         {
           "word": "President",
           "count": 2
-        },
-        {
-          "word": "Killed",
-          "count": 1
         },
         {
           "word": "Crisis",
@@ -1813,13 +1825,6 @@
           "source": "BBC Africa",
           "published": "2026-01-30T16:10:24",
           "lead": "South Africa accuses the Israeli envoy of insulting President Ramaphosa. Israel says the expulsion is \"baseless\"."
-        },
-        {
-          "title": "South Africa orders expulsion of Israeli envoy, declared persona non grata",
-          "url": "https://www.aljazeera.com/news/2026/1/30/south-africa-orders-expulsion-of-israeli-envoy-declared-persona-non-grata?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-01-30T17:00:19",
-          "lead": "South Africa accuses Israeli representative of &#039;gross abuse of diplomatic privilege&#039; as Israel orders reciproc"
         },
         {
           "title": "South Africa tells Israel's ambassador to leave",
@@ -1878,30 +1883,36 @@
           "lead": "[Scrolla] Inspectors found 94% of scholar transport vehicles in Gauteng failed roadworthiness tests at Jabulani testing "
         },
         {
-          "title": "South Africa: Why the Rand Exchange Rate Matters",
-          "url": "https://allafrica.com/stories/202601300083.html",
+          "title": "South Africa: Where Has All Our Money Gone? a Look At Government's Wasted Billions",
+          "url": "https://allafrica.com/stories/202601300281.html",
           "source": "AllAfrica",
-          "published": "2026-01-30T07:07:09",
-          "lead": "[GroundUp] The Reserve Bank points out that inflation is lower thanks to the strength of the rand"
+          "published": "2026-01-30T11:04:25",
+          "lead": "[GroundUp] Auditor-General has condemned \"no-consequence culture\" in government"
         },
         {
-          "title": "South Africa: Four Crime Suspects Killed in KwaZulu-Natal - South African News Briefs - January 30, 2026",
-          "url": "https://allafrica.com/stories/202601300071.html",
+          "title": "South Africa: Explainer - How Much South African MPs Earn and What They Do for It",
+          "url": "https://allafrica.com/stories/202601300198.html",
           "source": "AllAfrica",
-          "published": "2026-01-30T05:40:37",
-          "lead": "[allAfrica]"
+          "published": "2026-01-30T09:57:46",
+          "lead": "[Africa Check] EXPLAINER: How much South African MPs earn and what they do for it"
+        },
+        {
+          "title": "South Africa: Israeli Charg&#xe9; d'Affaires Declared Persona Non Grata",
+          "url": "https://allafrica.com/stories/202601300445.html",
+          "source": "AllAfrica",
+          "published": "2026-01-30T12:43:42",
+          "lead": "[Govt of SA] The Department of International Relations and Cooperation has informed the Government of the State of Israe"
         }
       ],
       "sources": [
         "Africanews",
-        "AllAfrica",
+        "Daily Maverick",
         "BBC Africa",
         "RFI Afrique",
-        "DW Africa",
+        "AllAfrica",
         "Le Monde Afrique",
-        "Al Jazeera",
-        "The Guardian Africa",
-        "Daily Maverick"
+        "DW Africa",
+        "The Guardian Africa"
       ]
     },
     "Eswatini": {
