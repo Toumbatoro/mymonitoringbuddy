@@ -333,16 +333,19 @@ def update_history(history: dict, counts: dict) -> dict:
     today = datetime.now().strftime('%Y-%m-%d')
     history['days'] = [d for d in history['days'] if d['date'] != today]
     history['days'].append({'date': today, 'counts': counts})
-    history['days'] = sorted(history['days'], key=lambda x: x['date'])[-30:]
+    history['days'] = sorted(history['days'], key=lambda x: x['date'])
     return history
 
 
 def calculate_baselines(history: dict) -> dict:
-    """Get baseline from history or use defaults."""
+    """Get baseline from last 30 days of history or use defaults."""
     baselines = {}
     
+    # Use only last 30 days for baseline calculation
+    recent_days = history.get('days', [])[-30:]
+    
     for country, info in COUNTRIES.items():
-        counts = [d['counts'].get(country, 0) for d in history.get('days', []) 
+        counts = [d['counts'].get(country, 0) for d in recent_days 
                   if country in d.get('counts', {})]
         
         if len(counts) >= 3:
