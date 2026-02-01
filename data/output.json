@@ -1,25 +1,20 @@
 {
-  "generated_at": "2026-02-01T05:17:43.256029",
+  "generated_at": "2026-02-01T07:50:43.999737",
   "summary": {
-    "high": 1,
-    "elevated": 2,
+    "high": 0,
+    "elevated": 4,
     "normal": 25,
-    "quiet": 26
+    "quiet": 25
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 5.8,
-      "ratio": 0.52,
+      "baseline": 5.2,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -30,30 +25,30 @@
           "lead": "Après la finale de la CAN 2025 très tendue entre le Maroc et le Sénégal, le 18 janvier 2026, la CAF avait annoncé de nom"
         },
         {
+          "title": "Au Maroc et chez les autres pays participants, quels lendemains après la CAN ?",
+          "url": "https://www.jeuneafrique.com/1758550/politique/au-maroc-et-chez-les-autres-pays-participants-quels-lendemains-apres-la-can/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-01T08:03:27",
+          "lead": "C’est un classique dans les grandes compétitions : les performances des équipes nationales provoquent parfois des réacti"
+        },
+        {
           "title": "Organisation, affluence, sécurité : quel bilan pour la CAN marocaine ?",
           "url": "https://www.jeuneafrique.com/1758548/politique/organisation-affluence-securite-quel-bilan-pour-la-can-marocaine/",
           "source": "Jeune Afrique",
           "published": "2026-01-31T16:58:22",
           "lead": "Si les polémiques nées de la finale ont en partie éclipsé le reste de la compétition, un bilan de l’organisation de la C"
-        },
-        {
-          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
-          "source": "Jeune Afrique",
-          "published": "2026-01-31T07:32:42",
-          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.5,
-      "ratio": 0.29,
+      "baseline": 3.0,
+      "ratio": 0.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -74,8 +69,8 @@
     "Tunisia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 2.0,
+      "baseline": 0.6,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -111,31 +106,46 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.6,
+      "ratio": 1.67,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Killed",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "LIVE: Israel opens Rafah crossing in Gaza as dozens killed in attacks",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/2/1/live-israel-to-partially-open-rafah-in-gaza-as-dozens-killed-in-attacks?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-01T05:57:17",
+          "lead": "Key Rafah border with Egypt reopens after nearly two years for &#039;limited movement of people&#039; during security tr"
+        }
+      ],
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     "Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.8,
-      "ratio": 0.73,
+      "baseline": 2.6,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -181,7 +191,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 3.2,
-      "ratio": 0.92,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -215,15 +225,15 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 3,
       "source_count": 1,
       "baseline": 3.2,
-      "ratio": 0.92,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -265,16 +275,16 @@
       ]
     },
     "Niger": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 3,
-      "baseline": 8.2,
-      "ratio": 0.73,
+      "baseline": 7.8,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Président",
@@ -317,35 +327,32 @@
           "source": "Jeune Afrique",
           "published": "2026-01-31T08:00:56",
           "lead": "Après l’attaque de l’État islamique contre Niamey, le président nigérien Abdourahamane Tiani a accusé Patrice Talon, Ala"
-        },
-        {
-          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
-          "source": "Jeune Afrique",
-          "published": "2026-01-31T07:32:42",
-          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "RFI Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Senegal": {
       "article_count": 7,
-      "source_count": 5,
+      "source_count": 4,
       "baseline": 6.8,
-      "ratio": 1.04,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Élection",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Coup",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         },
         {
@@ -355,6 +362,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Guinée-Bissau: les principaux opposants libérés, Domingos Simoes Pereira reste en résidence surveillée",
+          "url": "https://www.rfi.fr/fr/afrique/20260201-guin%C3%A9e-bissau-les-principaux-opposants-lib%C3%A9r%C3%A9s-domingos-simoes-pereira-reste-en-r%C3%A9sidence-surveill%C3%A9e",
+          "source": "RFI Afrique",
+          "published": "2026-02-01T07:01:56",
+          "lead": "En Guinée-Bissau, l’opposition, la société civile et la Cédeao se réjouissent du retour à leur domicile des principaux o"
+        },
         {
           "title": "La Fédération sénégalaise de football ne fera pas appel des sanctions de la CAF après la CAN 2025",
           "url": "https://www.rfi.fr/fr/afrique/20260131-la-f%C3%A9d%C3%A9ration-s%C3%A9n%C3%A9galaise-de-football-ne-fera-pas-appel-des-sanctions-de-la-caf-apr%C3%A8s-la-can-2025",
@@ -391,13 +405,6 @@
           "lead": "L’influenceur sénégalo-italien a cédé sa société pour près d’un milliard de dollars, dans un accord prévoyant la créatio"
         },
         {
-          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
-          "source": "Jeune Afrique",
-          "published": "2026-01-31T07:32:42",
-          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
-        },
-        {
           "title": "Senegal says it will appeal CAF sanctions imposed after AFCON final chaos",
           "url": "http://www.africanews.com/2026/01/31/senegal-says-it-will-appeal-caf-sanctions-imposed-after-afcon-final-chaos/",
           "source": "Africanews",
@@ -406,17 +413,16 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique",
-        "France24 Afrique",
+        "RFI Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -426,24 +432,35 @@
       "sources": []
     },
     "Guinea-Bissau": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 1.5,
-      "ratio": 2.0,
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 1.8,
+      "ratio": 2.22,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Coup",
-          "count": 3
+          "count": 4
         },
         {
           "word": "Président",
           "count": 2
+        },
+        {
+          "word": "Élection",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Guinée-Bissau: les principaux opposants libérés, Domingos Simoes Pereira reste en résidence surveillée",
+          "url": "https://www.rfi.fr/fr/afrique/20260201-guin%C3%A9e-bissau-les-principaux-opposants-lib%C3%A9r%C3%A9s-domingos-simoes-pereira-reste-en-r%C3%A9sidence-surveill%C3%A9e",
+          "source": "RFI Afrique",
+          "published": "2026-02-01T07:01:56",
+          "lead": "En Guinée-Bissau, l’opposition, la société civile et la Cédeao se réjouissent du retour à leur domicile des principaux o"
+        },
         {
           "title": "Coup d’Etat en Guinée-Bissau : plusieurs opposants, dont Fernando Dias, ont été libérés",
           "url": "https://www.lemonde.fr/international/article/2026/01/31/coup-d-etat-en-guinee-bissau-plusieurs-opposants-dont-fernando-dias-ont-ete-liberes_6664901_3210.html",
@@ -467,6 +484,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Le Monde Afrique",
         "Africanews",
         "Jeune Afrique"
@@ -476,7 +494,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.14,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -526,7 +544,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -536,10 +554,10 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 4.0,
-      "ratio": 0.5,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 3.6,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -550,6 +568,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Côte d'Ivoire: à bord des «wôrô-wôrô», la monnaie électronique est de plus en plus utilisée",
+          "url": "https://www.rfi.fr/fr/afrique/20260201-c%C3%B4te-d-ivoire-%C3%A0-bord-des-w%C3%B4r%C3%B4-w%C3%B4r%C3%B4-la-monnaie-%C3%A9lectronique-est-de-plus-en-plus-utilis%C3%A9e",
+          "source": "RFI Afrique",
+          "published": "2026-02-01T05:31:49",
+          "lead": "La monnaie électronique est en plein boom dans l’Union économique et monétaire de l’Afrique de l’Ouest. Le volume des tr"
+        },
         {
           "title": "L'organisation état islamique revendique l'attaque de jeudi sur l'aéroport de Niamey",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260131-l-organisation-%C3%A9tat-islamique-revendique-l-attaque-de-jeudi-sur-l-a%C3%A9roport-de-niamey",
@@ -566,13 +591,14 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "France24 Afrique"
       ]
     },
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.8,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -609,10 +635,10 @@
       ]
     },
     "Benin": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 3.8,
-      "ratio": 1.07,
+      "ratio": 1.32,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -627,6 +653,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Côte d'Ivoire: à bord des «wôrô-wôrô», la monnaie électronique est de plus en plus utilisée",
+          "url": "https://www.rfi.fr/fr/afrique/20260201-c%C3%B4te-d-ivoire-%C3%A0-bord-des-w%C3%B4r%C3%B4-w%C3%B4r%C3%B4-la-monnaie-%C3%A9lectronique-est-de-plus-en-plus-utilis%C3%A9e",
+          "source": "RFI Afrique",
+          "published": "2026-02-01T05:31:49",
+          "lead": "La monnaie électronique est en plein boom dans l’Union économique et monétaire de l’Afrique de l’Ouest. Le volume des tr"
+        },
         {
           "title": "L'organisation état islamique revendique l'attaque de jeudi sur l'aéroport de Niamey",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260131-l-organisation-%C3%A9tat-islamique-revendique-l-attaque-de-jeudi-sur-l-a%C3%A9roport-de-niamey",
@@ -657,20 +690,37 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
         "France24 Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 6.0,
-      "ratio": 0.17,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 5.0,
+      "ratio": 0.4,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Élection",
+          "count": 1
+        },
+        {
+          "word": "Coup",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Guinée-Bissau: les principaux opposants libérés, Domingos Simoes Pereira reste en résidence surveillée",
+          "url": "https://www.rfi.fr/fr/afrique/20260201-guin%C3%A9e-bissau-les-principaux-opposants-lib%C3%A9r%C3%A9s-domingos-simoes-pereira-reste-en-r%C3%A9sidence-surveill%C3%A9e",
+          "source": "RFI Afrique",
+          "published": "2026-02-01T07:01:56",
+          "lead": "En Guinée-Bissau, l’opposition, la société civile et la Cédeao se réjouissent du retour à leur domicile des principaux o"
+        },
         {
           "title": "Deadly extremist attacks kill dozens in north-eastern Nigeria",
           "url": "http://www.africanews.com/2026/01/31/deadly-extremist-attacks-kill-dozens-in-north-eastern-nigeria/",
@@ -680,6 +730,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Africanews"
       ]
     },
@@ -717,8 +768,8 @@
     "Chad": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 3.2,
-      "ratio": 0.62,
+      "baseline": 3.0,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -749,36 +800,21 @@
       ]
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 3.2,
-      "ratio": 0.31,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.8,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Ce que l’on sait de l’attaque à Niamey, la promotion de Téné Birahima Ouattara, comment Canal+ va rentabiliser le rachat de MultiChoice… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1761100/politique/que-sest-il-passe-a-niamey-que-signifie-la-promotion-de-tene-birahima-ouattara-en-cote-divoire-comment-canal-va-rentabiliser-le-rachat-de-multichoice-les-5-infos-quil-ne-fallait-pas/",
-          "source": "Jeune Afrique",
-          "published": "2026-01-31T07:32:42",
-          "lead": "Chaque semaine, le Brief de Jeune Afrique décrypte les dossiers qui font l’actualité politique et économique du continen"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -790,7 +826,7 @@
     "South Sudan": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -812,24 +848,31 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
+      "baseline": 0.6,
+      "ratio": 3.33,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Crise",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La légende de la musique gabonaise Pierre Akendengue donne deux concerts à guichets fermés à Libreville",
+          "url": "https://www.rfi.fr/fr/musique/20260201-la-l%C3%A9gende-de-la-musique-gabonaise-pierre-akendengue-donne-deux-concerts-%C3%A0-guichets-ferm%C3%A9s-%C3%A0-libreville",
+          "source": "RFI Afrique",
+          "published": "2026-02-01T05:46:57",
+          "lead": "Ses sorties publiques et ses concerts sont de plus en plus rares. L’artiste Pierre Claver Akendengue, monument de la mus"
+        },
         {
           "title": "Gabon: les enseignants en grève votent à l'unanimité la poursuite du mouvement",
           "url": "https://www.rfi.fr/fr/afrique/20260201-gabon-les-enseignants-en-gr%C3%A8ve-votent-%C3%A0-l-unanimit%C3%A9-la-poursuite-du-mouvement",
@@ -846,7 +889,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.33,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -855,11 +898,11 @@
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Rebel",
           "count": 1
         }
       ],
@@ -878,10 +921,10 @@
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 7,
       "source_count": 4,
-      "baseline": 6.2,
-      "ratio": 1.28,
+      "baseline": 6.6,
+      "ratio": 1.06,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -948,13 +991,6 @@
           "lead": "Dans l’Est de la RDC, au moins 200 creuseurs artisanaux ont péri dans un grave éboulement survenu, dans les mines de Rub"
         },
         {
-          "title": "Anado Kabika, la mode pour promouvoir la beauté congolaise",
-          "url": "https://www.rfi.fr/fr/culture/20260131-anado-kabika-la-mode-pour-promouvoir-la-beaut%C3%A9-congolaise",
-          "source": "RFI Afrique",
-          "published": "2026-01-31T07:03:50",
-          "lead": "Ancienne première dauphine de Miss Congo 2016 et désormais installée à New York, le mannequin Anado Kabika a une mission"
-        },
-        {
           "title": "En RDC, les images de la mine de Rubaya après un glissement de terrain meurtrier",
           "url": "https://www.lemonde.fr/afrique/video/2026/01/31/en-rdc-les-images-de-la-mine-de-rubaya-apres-un-glissement-de-terrain-meurtrier_6664891_3212.html",
           "source": "Le Monde Afrique",
@@ -970,10 +1006,10 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Jeune Afrique",
+        "RFI Afrique",
         "DW Africa",
-        "RFI Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -991,8 +1027,8 @@
     "Angola": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 4.0,
+      "baseline": 0.6,
+      "ratio": 3.33,
       "status": "elevated",
       "confidence": "low",
       "keywords": [],
@@ -1042,39 +1078,24 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 6.0,
-      "ratio": 0.5,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 5.4,
+      "ratio": 0.37,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Government",
+          "word": "Gouvernement",
           "count": 1
         },
         {
           "word": "Guerre",
           "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Drone strikes in Ethiopia’s Tigray kill one amid fears of renewed conflict",
-          "url": "https://www.aljazeera.com/news/2026/1/31/drone-strikes-in-ethiopias-tigray-kill-one-amid-fears-of-renewed-conflict?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-01-31T13:49:45",
-          "lead": "The attack comes amid fears of a return to conflict following clashes between government troops and Tigrayan forces."
-        },
         {
           "title": "Éthiopie: des frappes de drones au Tigré renforcent les craintes d'une reprise du conflit",
           "url": "https://www.rfi.fr/fr/afrique/20260131-%C3%A9thiopie-des-frappes-de-drones-au-tigr%C3%A9-renforcent-les-craintes-d-une-reprise-du-conflit",
@@ -1091,15 +1112,14 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Somalia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.0,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1111,8 +1131,8 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.0,
-      "ratio": 0.2,
+      "baseline": 4.2,
+      "ratio": 0.24,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1138,7 +1158,7 @@
     "Kenya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.2,
+      "baseline": 2.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1150,8 +1170,8 @@
     "Rwanda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.8,
-      "ratio": 0.27,
+      "baseline": 3.2,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1177,8 +1197,8 @@
     "Burundi": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 2.0,
+      "baseline": 0.6,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1204,7 +1224,7 @@
     "Tanzania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1216,17 +1236,17 @@
     "Madagascar": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.67,
-      "status": "high",
+      "baseline": 1.0,
+      "ratio": 2.0,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Crise",
           "count": 1
         },
         {
@@ -1252,8 +1272,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Comoros": {
@@ -1307,7 +1327,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1319,8 +1339,8 @@
     "Mozambique": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 4.2,
-      "ratio": 0.47,
+      "baseline": 3.8,
+      "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1355,16 +1375,26 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "LIVE: India vs Pakistan – U19 Cricket World Cup 2026",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/2/1/live-india-vs-pakistan-u19-cricket-world-cup-2026?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-01T06:31:37",
+          "lead": "Follow our live build-up, with toss and team news, ahead of the crucial group stage match in Bulawayo, Zimbabwe."
+        }
+      ],
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     "Namibia": {
       "article_count": 0,
@@ -1393,13 +1423,17 @@
     "South Africa": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 11.5,
-      "ratio": 0.26,
+      "baseline": 9.8,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1420,17 +1454,17 @@
           "lead": "It said the violations include using official Israeli social media platforms to launch attacks against President Cyril R"
         },
         {
-          "title": "WHAT WE'RE WATCHING: Cringe with a helping of polony as The Office gets a lekker local twist",
-          "url": "https://www.dailymaverick.co.za/article/cringe-with-a-helping-of-polony-as-the-office-gets-a-lekker-local-twist",
+          "title": "POLITRIX: GNU braces for big ‘test’ as local elections could threaten coalition’s stability",
+          "url": "https://www.dailymaverick.co.za/article/gnu-braces-for-big-test-as-local-elections-could-threaten-coalitions-stability",
           "source": "Daily Maverick",
-          "published": "2026-01-31T07:00:00",
-          "lead": "With cutting humour and a local edge, Die Kantoor reworks the mockumentary sitcom franchise The Office for South African"
+          "published": "2026-02-01T09:32:26",
+          "lead": "South Africa’s Government of National Unity seems to be more stable since some teething problems have been overcome and "
         }
       ],
       "sources": [
-        "BBC Africa",
         "Daily Maverick",
-        "Africanews"
+        "Africanews",
+        "BBC Africa"
       ]
     },
     "Eswatini": {
