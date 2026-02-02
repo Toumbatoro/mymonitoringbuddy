@@ -1,22 +1,34 @@
 {
-  "generated_at": "2026-02-02T08:00:36.233199",
+  "generated_at": "2026-02-02T11:23:30.852176",
   "summary": {
     "high": 2,
-    "elevated": 4,
-    "normal": 23,
+    "elevated": 3,
+    "normal": 24,
     "quiet": 25
   },
   "countries": {
     "Morocco": {
       "article_count": 4,
-      "source_count": 3,
-      "baseline": 4.8,
-      "ratio": 0.83,
+      "source_count": 4,
+      "baseline": 5.0,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "McKenzie clarifies claim South Africa will host Wafcon 2026",
+          "url": "https://www.bbc.com/sport/football/articles/c5yd4e6xlx0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-02T09:56:52",
+          "lead": "South Africa's sports minister Gayton McKenzie says \"no formal decision\" has been taken to relocate the 2026 Women's Afr"
+        },
         {
           "title": "Maroc: nouvelle visite du ministre français de la Justice sur fond de lutte contre le narcotrafic",
           "url": "https://www.rfi.fr/fr/afrique/20260202-maroc-nouvelle-visite-du-ministre-fran%C3%A7ais-de-la-justice-sur-fond-de-lutte-contre-le-narcotrafic",
@@ -32,13 +44,6 @@
           "lead": "Jeune Afrique dévoile le palmarès des pays africains les plus attractifs pour les investisseurs du secteur des mines. Da"
         },
         {
-          "title": "Au Maroc et chez les autres pays participants, quels lendemains après la CAN ?",
-          "url": "https://www.jeuneafrique.com/1758550/politique/au-maroc-et-chez-les-autres-pays-participants-quels-lendemains-apres-la-can/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-01T08:03:27",
-          "lead": "C’est un classique dans les grandes compétitions : les performances des équipes nationales provoquent parfois des réacti"
-        },
-        {
           "title": "Senegal's football federation says it will not appeal CAF sanctions",
           "url": "http://www.africanews.com/2026/02/01/senegals-football-federation-says-it-will-not-appeal-caf-sanctions/",
           "source": "Africanews",
@@ -48,17 +53,18 @@
       ],
       "sources": [
         "RFI Afrique",
+        "BBC Africa",
         "Jeune Afrique",
         "Africanews"
       ]
     },
     "Algeria": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.71,
+      "ratio": 0.35,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -68,18 +74,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-01T21:59:58",
           "lead": "Un panneau « Zone dangereuse », un nuage radioactif d'un essai nucléaire échoué, des hommes et des femmes contaminés… Ce"
-        },
-        {
-          "title": "L’Algérie lance un deuxième satellite pour renforcer la surveillance",
-          "url": "https://www.jeuneafrique.com/1761604/politique/lalgerie-lance-un-deuxieme-satellite-pour-renforcer-la-surveillance/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-01T11:00:32",
-          "lead": "Quinze jours après un premier lancement, un deuxième satellite algérien d’observation terrestre a été mis en orbite same"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Tunisia": {
@@ -117,13 +115,17 @@
       ]
     },
     "Egypt": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 3.0,
-      "status": "elevated",
-      "confidence": "low",
+      "article_count": 6,
+      "source_count": 3,
+      "baseline": 0.8,
+      "ratio": 7.2,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Ceasefire",
+          "count": 2
+        },
         {
           "word": "Wounded",
           "count": 1
@@ -132,7 +134,14 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "LIVE: Wounded Palestinians prepare to leave Gaza as Israel opens Rafah",
+          "title": "Gaza’s Rafah crossing reopens for limited traffic",
+          "url": "https://www.aljazeera.com/news/2026/2/2/gazas-rafah-crossing-reopens-for-limited-traffic?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-02T07:44:21",
+          "lead": "Reopening of the link between the Strip and Egypt is stipulated under the second phase of the US-brokered &#039;ceasefir"
+        },
+        {
+          "title": "LIVE: Wounded Palestinians leave Gaza as Israel finally opens Rafah",
           "url": "https://www.aljazeera.com/news/liveblog/2026/2/2/live-wounded-palestinians-prepare-to-leave-gaza-as-israel-opens-checkpoint?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-02T06:04:20",
@@ -144,30 +153,53 @@
           "source": "Al Jazeera",
           "published": "2026-02-01T22:47:11",
           "lead": "Gaza&#039;s crossing with Egypt to reopen under tight security and international monitoring for medical evacuations."
+        },
+        {
+          "title": "Gaza: Rafah border crossing partially reopens",
+          "url": "https://www.dw.com/en/gaza-rafah-border-crossing-partially-reopens/a-75762674?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-02-02T08:34:00",
+          "lead": "The reopening between the Gaza Strip and Egypt is a key step in the ceasefire plan between Israel and the Palestinian mi"
+        },
+        {
+          "title": "Gaza reacts as Rafah crossing set to reopen",
+          "url": "http://www.africanews.com/2026/02/02/gaza-reacts-as-rafah-crossing-set-to-reopen/",
+          "source": "Africanews",
+          "published": "2026-02-02T10:17:22",
+          "lead": "After months of isolation, residents of Gaza are cautiously optimistic about the reopening of the Rafah crossing with Eg"
+        },
+        {
+          "title": "Leaders of Egypt and Jordan reiterate opposition to Gaza displacement as Rafah crossing reopens",
+          "url": "http://www.africanews.com/2026/02/02/leaders-of-egypt-and-jordan-reiterate-opposition-to-gaza-displacement-as-rafah-crossing-re/",
+          "source": "Africanews",
+          "published": "2026-02-02T08:03:55",
+          "lead": "T\nThe leaders of Egypt and Jordan on Sunday renewed their rejection of any attempts to displace Palestinians as Israel a"
         }
       ],
       "sources": [
+        "DW Africa",
+        "Africanews",
         "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 7,
-      "source_count": 4,
-      "baseline": 2.5,
-      "ratio": 2.8,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 3.2,
+      "ratio": 1.26,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "War",
-          "count": 3
-        },
-        {
-          "word": "Minister",
           "count": 2
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         },
         {
@@ -182,18 +214,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Khartoum airport receives first scheduled flight since start of Sudan war",
-          "url": "https://www.aljazeera.com/news/2026/2/1/khartoum-airport-receives-first-scheduled-flight-since-start-of-sudan-war?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-01T14:27:09",
-          "lead": "Celebrations as flight carries dozens of passengers from Port Sudan to Sudanese capital."
-        },
-        {
           "title": "Soudan: un vol commercial atterrit à Khartoum, un événement en forme de message",
           "url": "https://www.rfi.fr/fr/afrique/20260201-soudan-un-vol-commercial-atterrit-%C3%A0-khartoum-un-%C3%A9v%C3%A9nement-en-forme-de-message",
           "source": "RFI Afrique",
           "published": "2026-02-01T22:34:57",
-          "lead": "Un avion de ligne a atterri, dimanche 1er février 2026, dans la capitale Khartoum, après quasiment trois ans d'interrupt"
+          "lead": "Un avion de ligne de Sudan Airways a atterri, dimanche 1er février 2026, dans la capitale Khartoum, après quasiment troi"
         },
         {
           "title": "Soudan: les FSR annoncent la création d'une banque pour pallier l'absence d'institutions financières",
@@ -215,27 +240,12 @@
           "source": "AllAfrica",
           "published": "2026-02-02T04:48:30",
           "lead": "[Dabanga] The Hague -- Amid the ongoing war that has displaced millions of Sudanese and caused widespread collapse of th"
-        },
-        {
-          "title": "Sudan: Khartoum Health Ministry Announces Full Operation of 41 Hospitals, 243 Health Centres - Moves to Reactivate Specialized Facilities",
-          "url": "https://allafrica.com/stories/202602020096.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T05:28:23",
-          "lead": "[SNA] Khartoum, Feb. 1, 2026 (SUNA) - The Khartoum State Ministry of Health announced the full operation of 41 hospitals"
-        },
-        {
-          "title": "Sudan: Federal Health Minister Pledges Support to White Nile State to Enhance Services",
-          "url": "https://allafrica.com/stories/202602020097.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T05:28:23",
-          "lead": "[SNA] Khartoum, Feb. 1, 2026 (SUNA) - Federal Minister of Health, Professor Haitham Mohamed Ibrahim, met today in Kharto"
         }
       ],
       "sources": [
-        "AllAfrica",
         "RFI Afrique",
-        "Africanews",
-        "Al Jazeera"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -252,16 +262,12 @@
     },
     "Mali": {
       "article_count": 4,
-      "source_count": 4,
-      "baseline": 3.3,
-      "ratio": 1.2,
+      "source_count": 3,
+      "baseline": 3.5,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        },
         {
           "word": "Président",
           "count": 1
@@ -277,18 +283,18 @@
           "lead": "The US signals that restoring democracy is no longer a priority and it is ready to work with Burkina Faso, Mali and Nige"
         },
         {
+          "title": "Au Mali, les autorités veulent sécuriser l'apprivisionnement de carburant pour le mois de ramadan",
+          "url": "https://www.rfi.fr/fr/afrique/20260202-au-mali-les-autorit%C3%A9s-veulent-s%C3%A9curiser-l-apprivisionnement-de-carburant-pour-le-mois-de-ramadan",
+          "source": "RFI Afrique",
+          "published": "2026-02-02T09:06:11",
+          "lead": "Au Mali, les attaques de camions-citernes par les jihadistes affiliés à al-Qaïda reprennent. Plusieurs dizaines de camio"
+        },
+        {
           "title": "Le Mali s'accorde avec la Guinée pour développer une voie alternative au transit de ses marchandises",
           "url": "https://www.rfi.fr/fr/afrique/20260201-le-mali-s-accorde-avec-la-guin%C3%A9e-pour-d%C3%A9velopper-une-voie-alternative-au-transit-de-ses-marchandises",
           "source": "RFI Afrique",
           "published": "2026-02-01T19:09:55",
           "lead": "À l'issue du dernier Conseil des ministres, mercredi 28 janvier, le Mali a annoncé une série de mesures visant à sécuris"
-        },
-        {
-          "title": "Camions-citernes incendiés au Mali : nouvelle attaque jihadiste présumée",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260201-camions-citernes-incendi%C3%A9s-au-mali-nouvelle-attaque-jihadiste-pr%C3%A9sum%C3%A9e",
-          "source": "France24 Afrique",
-          "published": "2026-02-01T10:23:40",
-          "lead": "Un convoi de plusieurs dizaines de camions-citernes a été incendié jeudi au Mali. Cette attaque a été attribuée aux djih"
         },
         {
           "title": "Mali-France : quand Bamako accueillait François Hollande en héros",
@@ -299,19 +305,18 @@
         }
       ],
       "sources": [
-        "BBC Africa",
         "RFI Afrique",
-        "France24 Afrique",
+        "BBC Africa",
         "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.5,
-      "ratio": 0.4,
+      "ratio": 0.8,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -321,9 +326,17 @@
           "source": "BBC Africa",
           "published": "2026-02-02T01:12:17",
           "lead": "The US signals that restoring democracy is no longer a priority and it is ready to work with Burkina Faso, Mali and Nige"
+        },
+        {
+          "title": "Burkina Faso: le régime annonce de nouvelles mesures contre la corruption",
+          "url": "https://www.rfi.fr/fr/afrique/20260202-burkina-faso-le-r%C3%A9gime-annonce-de-nouvelles-mesures-contre-la-corruption",
+          "source": "RFI Afrique",
+          "published": "2026-02-02T09:46:06",
+          "lead": "Au Burkina Faso, une dizaine de magistrats et avocats sont à la barre ce lundi 2 février pour répondre d'accusations de "
         }
       ],
       "sources": [
+        "RFI Afrique",
         "BBC Africa"
       ]
     },
@@ -340,11 +353,11 @@
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Jihadist",
           "count": 1
         }
       ],
@@ -358,7 +371,7 @@
           "lead": "The US signals that restoring democracy is no longer a priority and it is ready to work with Burkina Faso, Mali and Nige"
         },
         {
-          "title": "Attaque de l'aéroport de Niamey: Abidjan et Cotonou rejettent les accusation de Tiani",
+          "title": "Attaque de l'aéroport de Niamey : Abidjan et Cotonou rejettent les accusations de Tiani",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260201-attaque-de-l-a%C3%A9roport-de-niamey-abidjan-et-cotonou-rejettent-les-accusation-de-tiani",
           "source": "France24 Afrique",
           "published": "2026-02-01T22:09:52",
@@ -374,20 +387,32 @@
       ],
       "sources": [
         "BBC Africa",
-        "France24 Afrique",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 5.8,
-      "ratio": 0.34,
+      "baseline": 5.7,
+      "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Combat",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sénégal: un lutteur frappe son adversaire avant une rencontre et suscite l'indignation",
+          "url": "https://www.rfi.fr/fr/afrique/20260202-s%C3%A9n%C3%A9gal-un-lutteur-frappe-son-adversaire-avant-une-rencontre-et-suscite-l-indignation",
+          "source": "RFI Afrique",
+          "published": "2026-02-02T11:14:18",
+          "lead": "Au Sénégal, la scène est devenue virale. Ce vendredi 30 janvier à Dakar, deux jeunes espoirs de la lutte étaient réunis "
+        },
         {
           "title": "Le Mali s'accorde avec la Guinée pour développer une voie alternative au transit de ses marchandises",
           "url": "https://www.rfi.fr/fr/afrique/20260201-le-mali-s-accorde-avec-la-guin%C3%A9e-pour-d%C3%A9velopper-une-voie-alternative-au-transit-de-ses-marchandises",
@@ -423,7 +448,7 @@
     "Guinea-Bissau": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.7,
+      "baseline": 1.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -433,12 +458,12 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 1.33,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -448,10 +473,18 @@
           "source": "RFI Afrique",
           "published": "2026-02-01T19:09:55",
           "lead": "À l'issue du dernier Conseil des ministres, mercredi 28 janvier, le Mali a annoncé une série de mesures visant à sécuris"
+        },
+        {
+          "title": "Fadi Wazni : « Notre ambition : devenir un acteur majeur de l’ensemble de la filière aluminium »",
+          "url": "https://www.jeuneafrique.com/1757698/economie-entreprises/fadi-wazni-notre-ambition-devenir-un-acteur-majeur-de-lensemble-de-la-filiere-aluminium/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-02T12:06:18",
+          "lead": "Le patron d’Umsi, l’un des actionnaires du consortium SMB-Winning, premier producteur de bauxite de Guinée, revient sur "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -467,10 +500,10 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 3.0,
+      "baseline": 1.2,
+      "ratio": 3.43,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -483,7 +516,7 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -497,30 +530,37 @@
           "lead": "Un pas de plus vers le futur tribunal au Libéria chargé de juger les responsables des atrocités commises pendant les deu"
         },
         {
-          "title": "Liberia: How Community Radio Stations Are Raising Awareness of FGM and Violence Against Women and Girls",
-          "url": "https://allafrica.com/stories/202602020101.html",
+          "title": "Liberia: Piah Fires Back At Cummings Over Facebook Post",
+          "url": "https://allafrica.com/stories/202602020246.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T05:31:22",
-          "lead": "[Spotlight Initiative] GANTA, Liberia - Community radio stations are a key way of raising awareness about sexual and gen"
+          "published": "2026-02-02T10:20:08",
+          "lead": "[New Dawn] Information Minister Jerolinmek Matthew Piah has reacted strongly to a recent Facebook post by Alternative Na"
         },
         {
-          "title": "Liberia: Margibi Court Sentences Nigerian National to 15 Years for Drug Trafficking",
-          "url": "https://allafrica.com/stories/202602020044.html",
+          "title": "Liberia: Court Eviction Leaves Thousands Homeless in Saytown",
+          "url": "https://allafrica.com/stories/202602020195.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T04:55:39",
-          "lead": "[New Dawn] Margibi County, February 2, 2026: The 13th Judicial Circuit Court in Margibi County has sentenced a Nigerian "
+          "published": "2026-02-02T09:48:54",
+          "lead": "[New Dawn] Thousands of residents of Say-Town, a suburb of Monrovia, are now homeless following a court-ordered eviction"
+        },
+        {
+          "title": "Liberia: Aviation Investigators to Probe Ethiopian Airlines Mechanical Incident At RIA",
+          "url": "https://allafrica.com/stories/202602020243.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T10:19:04",
+          "lead": "[New Dawn] Margibi -- Liberian Aviation Authorities have requested an independent investigation after an Ethiopian Airli"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 3.7,
-      "ratio": 0.55,
+      "baseline": 3.5,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -532,6 +572,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "En Côte d'Ivoire, la plus célèbre friperie d'Abidjan démolie au nom de «l'ordre urbain»",
+          "url": "https://www.rfi.fr/fr/afrique/20260202-en-c%C3%B4te-d-ivoire-la-plus-c%C3%A9l%C3%A8bre-friperie-d-abidjan-d%C3%A9molie-au-nom-de-l-ordre-urbain",
+          "source": "RFI Afrique",
+          "published": "2026-02-02T11:17:30",
+          "lead": "C’était l’une des plus célèbres friperies de Côte d’Ivoire. Le « marché du mercredi » de Treichville a été démoli la sem"
+        },
+        {
           "title": "Le Mali s'accorde avec la Guinée pour développer une voie alternative au transit de ses marchandises",
           "url": "https://www.rfi.fr/fr/afrique/20260201-le-mali-s-accorde-avec-la-guin%C3%A9e-pour-d%C3%A9velopper-une-voie-alternative-au-transit-de-ses-marchandises",
           "source": "RFI Afrique",
@@ -539,7 +586,7 @@
           "lead": "À l'issue du dernier Conseil des ministres, mercredi 28 janvier, le Mali a annoncé une série de mesures visant à sécuris"
         },
         {
-          "title": "Attaque de l'aéroport de Niamey: Abidjan et Cotonou rejettent les accusation de Tiani",
+          "title": "Attaque de l'aéroport de Niamey : Abidjan et Cotonou rejettent les accusations de Tiani",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260201-attaque-de-l-a%C3%A9roport-de-niamey-abidjan-et-cotonou-rejettent-les-accusation-de-tiani",
           "source": "France24 Afrique",
           "published": "2026-02-01T22:09:52",
@@ -552,30 +599,37 @@
       ]
     },
     "Ghana": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 1.33,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Pourquoi la crise du cacao fait vaciller le Ghana",
-          "url": "https://www.jeuneafrique.com/1761285/economie-entreprises/pourquoi-la-crise-du-cacao-fait-vaciller-le-ghana/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-01T09:58:43",
-          "lead": "Sous tensions en Côte d’Ivoire, premier producteur mondial de fèves, le monde de l’or brun est en crise au Ghana, le num"
+          "title": "Ghana: High Court Adjourns Trial of Former Finance Minister, Others",
+          "url": "https://allafrica.com/stories/202602020227.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T10:02:04",
+          "lead": "[Ghanaian Times] THE High Court has adjourned proceedings in the ongoing trial of the former Minister of Finance, Mr Ken"
+        },
+        {
+          "title": "Ghana: Taxi Driver's Gh&#xa2;5,000 Bribe Fails As Police Seize Suspected Narcotics",
+          "url": "https://allafrica.com/stories/202602020318.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T11:13:05",
+          "lead": "[Ghanaian Times] THE Ho West District Police in the Volta Region have arrested a taxi driver who allegedly attempted to "
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -593,8 +647,8 @@
     "Benin": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.2,
-      "ratio": 0.32,
+      "baseline": 3.0,
+      "ratio": 0.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -606,7 +660,7 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Attaque de l'aéroport de Niamey: Abidjan et Cotonou rejettent les accusation de Tiani",
+          "title": "Attaque de l'aéroport de Niamey : Abidjan et Cotonou rejettent les accusations de Tiani",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260201-attaque-de-l-a%C3%A9roport-de-niamey-abidjan-et-cotonou-rejettent-les-accusation-de-tiani",
           "source": "France24 Afrique",
           "published": "2026-02-01T22:09:52",
@@ -618,24 +672,20 @@
       ]
     },
     "Nigeria": {
-      "article_count": 13,
+      "article_count": 6,
       "source_count": 2,
-      "baseline": 5.7,
-      "ratio": 2.29,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 6.5,
+      "ratio": 0.92,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
-          "count": 2
-        },
-        {
           "word": "Attack",
-          "count": 2
+          "count": 1
         },
         {
-          "word": "President",
-          "count": 2
+          "word": "Government",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -646,6 +696,13 @@
           "source": "BBC Africa",
           "published": "2026-02-01T22:31:53",
           "lead": "Ifunanya Nwangene, a former contestant in The Voice Nigeria, died after not getting the antivenom she needed."
+        },
+        {
+          "title": "Nigeria: Prominent Nigerian Singer Dies After Snake Bite",
+          "url": "https://allafrica.com/stories/202602020283.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T10:48:03",
+          "lead": "[Premium Times] The hospital expressed sympathy with the family of the deceased, describing her death as a painful loss."
         },
         {
           "title": "Nigeria: Full List of 40 Suspects Detained for Alleged Plot to Overthrow Tinubu Govt",
@@ -662,100 +719,29 @@
           "lead": "[Leadership] The Village Head of Kurmin Wali, Ishaku Dan'azumi, has confirmed that at least 80 worshippers who escaped a"
         },
         {
+          "title": "Nigeria: Senator Seeks Judicial Reforms On Conflicting Supreme Court Rulings",
+          "url": "https://allafrica.com/stories/202602020201.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T09:50:59",
+          "lead": "[Leadership] Chairman of the Senate Committee on Ethics, Privileges and Public Petitions, Senator Neda Imasuen, has rais"
+        },
+        {
           "title": "Nigeria: Twice-Yearly Lenacapavir Injection for HIV Prevention in Nigeria - the Real Test Is Access",
           "url": "https://allafrica.com/stories/202602020077.html",
           "source": "AllAfrica",
           "published": "2026-02-02T05:26:41",
           "lead": "[Nigeria Health Watch] On 14 July 2025, the World Health Organization (WHO) issued new guidelines recommending twice-yea"
-        },
-        {
-          "title": "Nigeria: Grammys 2026 - Tyla Retains Best African Music Performance, Defeats Wizkid, Burna Boy, Others (Full Winners List)",
-          "url": "https://allafrica.com/stories/202602020106.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T06:40:55",
-          "lead": "[Premium Times] With the latest win, Tyla becomes the first artiste to claim the title twice since the category was crea"
-        },
-        {
-          "title": "Nigeria: World Bank's Nigeria Portfolio Hits $16bn Amid Efforts to Accelerate Growth, Job Creation",
-          "url": "https://allafrica.com/stories/202602020105.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T06:40:54",
-          "lead": "[This Day] The World Bank yesterday put its total ongoing, approved development projects and lending operations in the c"
-        },
-        {
-          "title": "Nigeria: Dangote, NNPC Seal Strategic Gas Agreements to Aid African Conglomerate's Expansion",
-          "url": "https://allafrica.com/stories/202602020104.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T06:40:52",
-          "lead": "[This Day] Three subsidiaries of Dangote Industries Limited - Dangote Petroleum Refinery, Dangote Fertiliser Plant, and "
-        },
-        {
-          "title": "Liberia: Margibi Court Sentences Nigerian National to 15 Years for Drug Trafficking",
-          "url": "https://allafrica.com/stories/202602020044.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T04:55:39",
-          "lead": "[New Dawn] Margibi County, February 2, 2026: The 13th Judicial Circuit Court in Margibi County has sentenced a Nigerian "
-        },
-        {
-          "title": "Nigeria: Eighty of Abducted Worshippers in Kaduna Community Escape, Village Head Confirms",
-          "url": "https://allafrica.com/stories/202602020040.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T04:55:37",
-          "lead": "[This Day] The Village Head of Kurmin Wali in Kajuru Local Government Area of Kaduna State, Mr. Ishaku Dan'azumi, has di"
-        },
-        {
-          "title": "Nigeria: Tinubu Hails Fela's Grammy Honour, Calls Him 'Fearless Voice of the People'",
-          "url": "https://allafrica.com/stories/202602020099.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T05:28:46",
-          "lead": "[Vanguard] President Bola Tinubu has celebrated Fela Anikulapo Kuti as an eternal icon after the legendary Nigerian musi"
-        },
-        {
-          "title": "Nigeria: Nigeria's Oil Exports to Drop As Bonga FPSO Undergoes Maintenance",
-          "url": "https://allafrica.com/stories/202602020100.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T05:28:46",
-          "lead": "[Vanguard] Nigeria's oil exports will fall by 225,000 barrels per day in February following the shutdown of the Bonga FP"
-        },
-        {
-          "title": "Nigeria: Grammys Honour Fela Anikulapo Kuti With 2026 Lifetime Achievement Award",
-          "url": "https://allafrica.com/stories/202602020094.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T05:28:22",
-          "lead": "[Premium Times] His children, Yeni, Kunle, Shalewa and Femi Kuti accepted the award on their father's behalf at the cere"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "AllAfrica"
-      ]
-    },
-    "Cape Verde": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Four Britons die after holiday sickness in Cape Verde, say lawyers",
-          "url": "https://www.bbc.com/news/articles/c3015q8jqero?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-01T17:00:20",
-          "lead": "A law firm says it is representing the families of six people who holidayed in Cape Verde."
-        }
-      ],
-      "sources": [
+        "AllAfrica",
         "BBC Africa"
       ]
     },
-    "Chad": {
+    "Cape Verde": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.2,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -764,6 +750,33 @@
       "articles": [],
       "sources": []
     },
+    "Chad": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.2,
+      "ratio": 0.46,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "France-Tchad: «Il y a des intérêts géostratégiques qui vont au-delà de l’économie»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260202-france-tchad-il-y-a-des-int%C3%A9r%C3%AAts-g%C3%A9ostrat%C3%A9giques-qui-vont-au-del%C3%A0-de-l-%C3%A9conomie",
+          "source": "RFI Afrique",
+          "published": "2026-02-02T05:39:00",
+          "lead": "Un nouveau chapitre qui s'ouvre dans la relation entre le Tchad et la France. La semaine dernière, le président Mahamat "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
+    },
     "Cameroon": {
       "article_count": 1,
       "source_count": 1,
@@ -771,34 +784,25 @@
       "ratio": 0.4,
       "status": "normal",
       "confidence": "low",
-      "keywords": [
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "“Yaoundé ville propre” : le gouvernement camerounais lutte contre la crise de gestion des déchets",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260201-yaound%C3%A9-ville-propre-le-gouvernement-camerounais-lutte-contre-la-crise-de-gestion-des-d%C3%A9chets",
-          "source": "France24 Afrique",
-          "published": "2026-02-01T10:26:30",
-          "lead": "La production de déchets solides à Yaoundé est estimée à 700 000 tonnes par an, avec une augmentation constante due à la"
+          "title": "Haman Mana : « Paul Biya n’a jamais eu de projet de société pour le Cameroun »",
+          "url": "https://www.jeuneafrique.com/1759028/politique/haman-mana-paul-biya-na-jamais-eu-de-projet-de-societe-pour-le-cameroun/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-02T11:59:37",
+          "lead": "Depuis son exil aux États-Unis, Haman Mana, directeur de publication du journal « Le Jour », dresse, dans « Les Années B"
         }
       ],
       "sources": [
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -834,7 +838,7 @@
     "Gabon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -856,10 +860,10 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 6,
-      "baseline": 6.0,
-      "ratio": 1.17,
+      "baseline": 6.2,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -895,6 +899,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-02T04:01:39",
           "lead": "Au lendemain du cadre posé par le chef de l'État congolais pour la tenue du dialogue national réclamé par une partie de "
+        },
+        {
+          "title": "À la Une: Félix Tshisekedi affirme son ouverture à un dialogue inclusif et apaisé en RDC",
+          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260202-%C3%A0-la-une-f%C3%A9lix-tshisekedi-affirme-son-ouverture-%C3%A0-un-dialogue-inclusif-et-apais%C3%A9-en-rdc",
+          "source": "RFI Afrique",
+          "published": "2026-02-02T08:19:11",
+          "lead": ""
         },
         {
           "title": "Éboulement sur un site minier en RD Congo, Kinshasa dit craindre \"au moins 200 morts\"",
@@ -933,12 +944,12 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
         "The Guardian Africa",
+        "France24 Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -990,12 +1001,12 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.8,
-      "ratio": 0.21,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 4.2,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
@@ -1010,40 +1021,59 @@
           "source": "RFI Afrique",
           "published": "2026-02-02T04:54:56",
           "lead": "Le TPLF, principale force politique de la région du nord de l'Éthiopie, a réaffirmé son engagement en faveur du processu"
+        },
+        {
+          "title": "Liberia: Aviation Investigators to Probe Ethiopian Airlines Mechanical Incident At RIA",
+          "url": "https://allafrica.com/stories/202602020243.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T10:19:04",
+          "lead": "[New Dawn] Margibi -- Liberian Aviation Authorities have requested an independent investigation after an Ethiopian Airli"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Somalia": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.92,
+      "baseline": 2.5,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Al-shabaab",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Somalia: Somalia Blocks Regional Leaders' Security Flights Amid Political Tension",
-          "url": "https://allafrica.com/stories/202602020092.html",
+          "title": "Somalia: EU Urges Dialogue After Flights Carrying Regional Leaders' Security Teams Turned Back From Mogadishu",
+          "url": "https://allafrica.com/stories/202602020315.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T05:28:21",
-          "lead": "[Shabelle] Mogadishu, Somalia -- The Somali government has ordered aircraft carrying security personnel for the presiden"
+          "published": "2026-02-02T11:12:49",
+          "lead": "[Shabelle] Mogadishu -- The European Union on Sunday called for calm and dialogue after two aircraft carrying security p"
         },
         {
-          "title": "Somalia: Somalia Parliament Suspends Lawmakers Over Disruption of Joint Sessions",
-          "url": "https://allafrica.com/stories/202602020091.html",
+          "title": "Somalia: Somalia Intelligence Agency Says 13 Al-Shabaab Members Killed in Central Region Raid",
+          "url": "https://allafrica.com/stories/202602020316.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T05:28:20",
-          "lead": "[Shabelle] Mogadishu, Somalia -- Somalia's House of the People and Upper House have suspended two lawmakers from attendi"
+          "published": "2026-02-02T11:12:49",
+          "lead": "[Shabelle] Mogadishu -- Somalia's National Intelligence and Security Agency (NISA) said it carried out a planned operati"
+        },
+        {
+          "title": "Somalia: UN Voices Concern As Puntland, Jubaland Delegations Miss Somalia National Talks",
+          "url": "https://allafrica.com/stories/202602020317.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T11:12:49",
+          "lead": "[Shabelle] Mogadishu -- The United Nations Assistance Mission in Somalia (UNTMIS) on Sunday expressed concern and disapp"
         }
       ],
       "sources": [
@@ -1051,15 +1081,22 @@
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 4.0,
-      "ratio": 0.75,
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 4.2,
+      "ratio": 0.96,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "South African singer Tyla edges out Davido to clinch Grammy",
+          "url": "https://www.bbc.com/news/articles/c5y27872qz0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-02T10:54:24",
+          "lead": "The 24-year-old bagged her second-ever Grammy beating three Nigerians and a Ugandan."
+        },
         {
           "title": "Football : les CAN 2027 et 2028, le casse-tête de la CAF",
           "url": "https://www.jeuneafrique.com/1760910/societe/football-les-can-2027-et-2028-le-casse-tete-de-la-caf/",
@@ -1084,29 +1121,49 @@
       ],
       "sources": [
         "AllAfrica",
+        "BBC Africa",
         "Jeune Afrique",
         "UN News Africa"
       ]
     },
     "Kenya": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 5.0,
-      "ratio": 0.6,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 6,
+      "source_count": 4,
+      "baseline": 3.0,
+      "ratio": 2.0,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "President",
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
           "count": 1
         },
         {
           "word": "Violence",
           "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Family seeks answers as Kenyan fighting for Russia killed in Ukraine",
+          "url": "https://www.bbc.com/news/articles/c4gr54n8260o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-02T09:02:28",
+          "lead": "Clinton Nyapara Mogesa is said to have been recruited in Qatar to fight for Russian forces in Ukraine."
+        },
         {
           "title": "Football : les CAN 2027 et 2028, le casse-tête de la CAF",
           "url": "https://www.jeuneafrique.com/1760910/societe/football-les-can-2027-et-2028-le-casse-tete-de-la-caf/",
@@ -1122,15 +1179,30 @@
           "lead": "It explored how designers can reduce their environmental impact and embrace ethical practices."
         },
         {
+          "title": "Kenya: Kenyans Ask - Who Is Really in Control of Matatus After the Chaos?",
+          "url": "https://allafrica.com/stories/202602020262.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T10:39:00",
+          "lead": "[Capital FM] Nairobi -- Nairobi woke up to confusion and traffic chaos on Monday morning, just hours after transport lea"
+        },
+        {
           "title": "Kenya: Ruto Warns Politicians Against Turning Churches Into Theatres of Violence",
           "url": "https://allafrica.com/stories/202602020060.html",
           "source": "AllAfrica",
           "published": "2026-02-02T05:05:56",
           "lead": "[Capital FM] Nairobi -- President William Ruto has urged political leaders to keep politics out of places of worship fol"
+        },
+        {
+          "title": "Kenya: I Am Worth About Sh1bn, Eliud Owalo Says",
+          "url": "https://allafrica.com/stories/202602020310.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T11:06:06",
+          "lead": "[Capital FM] Nairobi -- Former Deputy Chief of Staff in charge of Delivery and Government Efficiency, Eliud Owalo, has s"
         }
       ],
       "sources": [
         "AllAfrica",
+        "BBC Africa",
         "Jeune Afrique",
         "Africanews"
       ]
@@ -1197,11 +1269,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Élection",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Élection",
           "count": 1
         }
       ],
@@ -1230,15 +1302,11 @@
     "Madagascar": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.4,
+      "baseline": 1.0,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
         {
           "word": "Dead",
           "count": 1
@@ -1247,11 +1315,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "À Madagascar, le passage du cyclone Fytia fait un mort, un disparu et plus de 8000 sinistrés",
+          "title": "À Madagascar, le passage de la tempête tropicale Fytia fait au moins 7 morts et des milliers de sinistrés",
           "url": "https://www.rfi.fr/fr/afrique/20260201-madagascarnr",
           "source": "RFI Afrique",
           "published": "2026-02-01T23:57:35",
-          "lead": "Balayée d'ouest en est par le cyclone Fytia pendant une grande partie du week-end du 31 janvier-1er février, l'île tente"
+          "lead": "Balayée d'ouest en est par la tempête tropicale Fytia le week-end du 31 janvier au 1er février, Madagascar tente désorma"
         },
         {
           "title": "Madagascar: Cyclone Fytia in Madagascar Leaves Three Dead, Flooding Affects Nearly 30,000",
@@ -1262,8 +1330,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Comoros": {
@@ -1317,8 +1385,8 @@
     "Malawi": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 2.0,
+      "baseline": 0.7,
+      "ratio": 1.5,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1364,15 +1432,15 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Football tournament in Zimbabwe spreads awareness of cervical cancer",
-          "url": "http://www.africanews.com/2026/02/01/football-tournament-in-zimbabwe-spreads-awareness-of-cervical-cancer/",
-          "source": "Africanews",
-          "published": "2026-02-01T10:27:18",
-          "lead": "It was part of the Goal Getters campaign, launched last year in a joint initiative by Gavi vaccine alliance, CAF, and UE"
+          "title": "Africa: To Develop a Continent, Africa Must Nourish Its Children",
+          "url": "https://allafrica.com/stories/202602020258.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T10:35:23",
+          "lead": "[IPS] Bulawayo, Zimbabwe -- Hunger shadowed Mercy Lung'aho's childhood, fueling her campaign to promote nutrition as a f"
         }
       ],
       "sources": [
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "Namibia": {
@@ -1401,14 +1469,18 @@
     },
     "South Africa": {
       "article_count": 16,
-      "source_count": 5,
+      "source_count": 6,
       "baseline": 12.0,
       "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Minister",
+          "count": 2
+        },
+        {
+          "word": "President",
           "count": 2
         },
         {
@@ -1420,33 +1492,36 @@
           "count": 1
         },
         {
-          "word": "Flood",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "President",
+          "word": "War",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "South African singer Tyla edges out Davido to clinch Grammy",
+          "url": "https://www.bbc.com/news/articles/c5y27872qz0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-02T10:54:24",
+          "lead": "The 24-year-old bagged her second-ever Grammy beating three Nigerians and a Ugandan."
+        },
+        {
+          "title": "McKenzie clarifies claim South Africa will host Wafcon 2026",
+          "url": "https://www.bbc.com/sport/football/articles/c5yd4e6xlx0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-02T09:56:52",
+          "lead": "South Africa's sports minister Gayton McKenzie says \"no formal decision\" has been taken to relocate the 2026 Women's Afr"
+        },
+        {
           "title": "En Afrique du Sud, la guerre du tabac est déclarée avec le géant British American Tobacco",
           "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260201-en-afrique-du-sud-la-guerre-du-tabac-est-d%C3%A9clar%C3%A9e-avec-le-g%C3%A9ant-british-american-tobacco",
           "source": "RFI Afrique",
           "published": "2026-02-01T23:02:05",
           "lead": "Le groupe British American Tobacco (BAT) menace de fermer sa seule usine de production sud-africaine. BAT se dit victime"
-        },
-        {
-          "title": "Afrique du Sud: un réseau d’escroquerie estimé à plus de 50 millions d’euros démantelé par la police",
-          "url": "https://www.rfi.fr/fr/afrique/20260201-afrique-du-sud-un-r%C3%A9seau-d-escroquerie-estim%C3%A9-%C3%A0-plus-de-50-millions-d-euros-d%C3%A9mantel%C3%A9-par-la-police",
-          "source": "RFI Afrique",
-          "published": "2026-02-01T10:29:56",
-          "lead": "« La plus grande escroquerie du genre en Afrique du Sud », peut-on lire dans la presse locale. À Johannesburg, un suppos"
         },
         {
           "title": "En Afrique du Sud, de luxueuses maisons squattées et exploitées par des marchands de sommeil",
@@ -1470,25 +1545,39 @@
           "lead": "[allAfrica]"
         },
         {
-          "title": "South Africa: Rights Organisations Criticise Proposed Refugee Law",
-          "url": "https://allafrica.com/stories/202602020041.html",
+          "title": "South Africa: Anti-Corruption Watchdog Blames Politicians for Dire State of Road Accident Fund",
+          "url": "https://allafrica.com/stories/202602020267.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T04:55:37",
-          "lead": "[GroundUp] Scalabrini warns that adopting the First Safe Country Principle could erode refugee protection and disproport"
+          "published": "2026-02-02T10:40:18",
+          "lead": "[GroundUp] Parliament's Standing Committee on Public Accounts is conducting an inquiry into the fund"
         },
         {
-          "title": "South Africa: Government Delivers Relief to Flood-Affected Communities in Limpopo",
-          "url": "https://allafrica.com/stories/202602020093.html",
+          "title": "South Africa: Zuma Had Dinner With Dead Child Sex Offender Jeffrey Epstein in London",
+          "url": "https://allafrica.com/stories/202602020164.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T05:28:21",
-          "lead": "[SAnews.gov.za] Minister in the Presidency, Khumbudzo Ntshavheni, has delivered essential supplies to individuals and co"
+          "published": "2026-02-02T09:32:27",
+          "lead": "[Scrolla] The US Justice Department released three million pages of documents about Jeffrey Epstein on 23 January showin"
         },
         {
-          "title": "South Africa: Move to Strengthen Global Alignment in Higher Education Sector",
-          "url": "https://allafrica.com/stories/202602020090.html",
+          "title": "South Africa: South Africa Clarifies Position On 2026 Wafcon Hosting",
+          "url": "https://allafrica.com/stories/202602020215.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T05:28:20",
-          "lead": "[SAnews.gov.za] The Department of Higher Education and Training is in the process of conducting a sector-wide workshop o"
+          "published": "2026-02-02T09:56:54",
+          "lead": "[Premium Times] In a media statement, the Ministry of Sport, Arts and Culture addressed remarks previously made by the D"
+        },
+        {
+          "title": "South Africa: A Sealed Universe - South African Survivor Recalls Jeffrey Epstein's Desert Fortress",
+          "url": "https://allafrica.com/stories/202602020322.html",
+          "source": "AllAfrica",
+          "published": "2026-02-02T11:17:40",
+          "lead": "[Daily Maverick] Not only did Zorro Ranch isolate his victims, it also hosted scientists and celebrities flown in to lis"
+        },
+        {
+          "title": "GEOPOLITICS ANALYSIS: SA-Israel diplomatic expulsions: ‘A squabble between two kids in a sandbox’",
+          "url": "https://www.dailymaverick.co.za/article/saisrael-diplomatic-expulsions-a-squabble-between-two-kids-in-a-sandbox",
+          "source": "Daily Maverick",
+          "published": "2026-02-02T11:31:04",
+          "lead": "South Africa’s expulsion of the Israeli chargé d’affaires and Israel’s reciprocal response emphasise a collapse in relat"
         },
         {
           "title": "BROKEN HOMES: How to hijack a house — Bryanston’s cautionary tale",
@@ -1496,34 +1585,14 @@
           "source": "Daily Maverick",
           "published": "2026-02-01T19:30:05",
           "lead": "Residential hijackings are on the increase in Johannesburg’s northern suburbs, with the City confirming that 17 properti"
-        },
-        {
-          "title": "ANALYSIS: Why there is hope for the NPA of the future",
-          "url": "https://www.dailymaverick.co.za/article/why-there-is-hope-for-the-npa-of-the-future",
-          "source": "Daily Maverick",
-          "published": "2026-02-01T19:17:25",
-          "lead": "As Andy Mothibi takes the reins as National Director of Public Prosecutions, a potential opportunity for reform arises a"
-        },
-        {
-          "title": "JSC Tribunal: Judge President Mbenenge: Conduct with court secretary ‘falls short of judicial standards’",
-          "url": "https://www.dailymaverick.co.za/article/judge-president-mbenenge-conduct-with-co-court-secretary-falls-short-of-judicial",
-          "source": "Daily Maverick",
-          "published": "2026-02-01T18:58:36",
-          "lead": "Eastern Cape Judge President Selby Mbenenge escapes gross misconduct charges, but faces criticism from a Judicial Conduc"
-        },
-        {
-          "title": "PONDOLAND PLANT DISASTER: N2 contractor destroys endangered Wild Coast plants, igniting Amadiba community dispute",
-          "url": "https://www.dailymaverick.co.za/article/n2-contractor-destroys-endangered-wild-c-coast-plants-igniting-amadiba-community",
-          "source": "Daily Maverick",
-          "published": "2026-02-01T14:35:47",
-          "lead": "A contractor employed by the South African National Roads Agency has been accused of destroying hectares of the highly e"
         }
       ],
       "sources": [
+        "RFI Afrique",
         "AllAfrica",
         "Daily Maverick",
         "Le Monde Afrique",
-        "RFI Afrique",
+        "BBC Africa",
         "UN News Africa"
       ]
     },
