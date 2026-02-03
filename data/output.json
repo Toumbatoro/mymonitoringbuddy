@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-03T05:06:51.716679",
+  "generated_at": "2026-02-03T07:58:04.893026",
   "summary": {
     "high": 1,
-    "elevated": 7,
-    "normal": 21,
-    "quiet": 25
+    "elevated": 6,
+    "normal": 24,
+    "quiet": 23
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 5.0,
-      "ratio": 0.6,
+      "baseline": 4.7,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -49,16 +49,16 @@
         }
       ],
       "sources": [
-        "BBC Africa",
         "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "BBC Africa"
       ]
     },
     "Algeria": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.71,
+      "baseline": 2.7,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -113,10 +113,10 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 4,
-      "baseline": 1.7,
-      "ratio": 4.2,
+      "baseline": 2.4,
+      "ratio": 3.29,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -135,6 +135,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Trickle of Palestinians get to leave, enter Gaza as Rafah crossing reopens",
+          "url": "https://www.aljazeera.com/news/2026/2/3/trickle-of-palestinians-get-to-leave-enter-gaza-as-rafah-crossing-reopens?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-03T06:41:44",
+          "lead": "Only 12 Palestinians entered Gaza through Rafah while five patients and their escorts were allowed to leave for Egypt."
+        },
         {
           "title": "UN welcomes reopening of Gaza’s Rafah border with Egypt",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/2/2/un-welcomes-reopening-of-gazas-rafah-border-with-egypt?traffic_source=rss",
@@ -186,20 +193,24 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "Africanews",
         "DW Africa",
-        "Al Jazeera"
+        "Al Jazeera",
+        "The Guardian Africa"
       ]
     },
     "Sudan": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 2.8,
-      "ratio": 1.41,
+      "baseline": 3.0,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Attack",
+          "count": 1
+        },
         {
           "word": "Humanitarian",
           "count": 1
@@ -215,14 +226,17 @@
         {
           "word": "Blessé",
           "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "The drones being used in Sudan: 1,000 attacks since April 2023",
+          "url": "https://www.aljazeera.com/news/longform/2026/2/3/drone-warfare-in-sudan-tracking-1000-aerial-attacks-since-april-2023?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-03T06:24:33",
+          "lead": "A visual analysis into the types of drones, sourcing methods, attack locations and the human toll of aerial warfare."
+        },
         {
           "title": "Nick Cater obituary",
           "url": "https://www.theguardian.com/media/2026/feb/02/nick-cater-obituary",
@@ -243,19 +257,12 @@
           "source": "RFI Afrique",
           "published": "2026-02-02T23:08:03",
           "lead": "L'Arabie saoudite s'intéresse à l'or du Soudan. Une des raffineries du pays – Saoudi Gold Refinery – a fait part de son "
-        },
-        {
-          "title": "Second commercial flight since start of Sudanese war lands at Khartoum airport",
-          "url": "http://www.africanews.com/2026/02/02/second-commercial-flight-since-start-of-sudanese-war-lands-at-khartoum-airport/",
-          "source": "Africanews",
-          "published": "2026-02-02T06:17:26",
-          "lead": "A commercial flight landed in the Sudanese capital on Sunday for the second time since a devastating war broke out in th"
         }
       ],
       "sources": [
+        "RFI Afrique",
         "The Guardian Africa",
-        "Africanews",
-        "RFI Afrique"
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
@@ -271,27 +278,27 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 8,
+      "article_count": 7,
       "source_count": 4,
-      "baseline": 4.0,
-      "ratio": 2.0,
+      "baseline": 4.6,
+      "ratio": 1.53,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 2
-        },
         {
           "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Président",
           "count": 1
         },
         {
           "word": "Jihadist",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         },
         {
@@ -341,13 +348,6 @@
           "lead": "Si Washington insiste sur la coopération avec Bamako pour contenir l’avancée jihadiste au Sahel, la fin du contrat signé"
         },
         {
-          "title": "Mali-France : quand Bamako accueillait François Hollande en héros",
-          "url": "https://www.jeuneafrique.com/1760758/politique/mali-france-quand-bamako-accueillait-francois-hollande-en-heros/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-02T07:55:00",
-          "lead": "Ancien ambassadeur de France au Mali, Christian Rouyer livre à Jeune Afrique un témoignage de première main sur les coul"
-        },
-        {
           "title": "Deadly Jihadist attack hits fuel convoy in Western Mali",
           "url": "http://www.africanews.com/2026/02/02/deadly-jihadist-attack-hits-fuel-convoy-in-western-mali/",
           "source": "Africanews",
@@ -363,10 +363,10 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
         "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Burkina Faso": {
@@ -416,17 +416,13 @@
       ]
     },
     "Niger": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 6.8,
-      "ratio": 0.73,
+      "baseline": 6.6,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Attack",
-          "count": 2
-        },
         {
           "word": "Wounded",
           "count": 1
@@ -436,15 +432,15 @@
           "count": 1
         },
         {
+          "word": "Attack",
+          "count": 1
+        },
+        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Jihadist",
           "count": 1
         }
       ],
@@ -477,13 +473,6 @@
           "source": "Africanews",
           "published": "2026-02-02T11:56:12",
           "lead": "In a display of cultural solidarity, Burkina Faso, Mali, and Niger have joined forces to produce a musical comedy titled"
-        },
-        {
-          "title": "Jihadist group releases video it claims shows attack on Niamey airbase",
-          "url": "http://www.africanews.com/2026/02/02/jihadist-group-releases-video-it-claims-shows-attack-on-niamey-airbase/",
-          "source": "Africanews",
-          "published": "2026-02-02T07:14:42",
-          "lead": "The Islamic State extremist group released a video on Sunday said to show its attack on an air force base in Niger's cap"
         }
       ],
       "sources": [
@@ -495,8 +484,8 @@
     "Senegal": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 5.8,
-      "ratio": 0.51,
+      "baseline": 5.4,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -537,8 +526,8 @@
     "Gambia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.2,
+      "baseline": 0.9,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -565,7 +554,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.75,
+      "ratio": 0.78,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -595,15 +584,15 @@
     "Guinea": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 1.09,
+      "baseline": 1.9,
+      "ratio": 1.08,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "RDC – Cameroun : deux rêves de fer face à la promesse Simandou",
+          "title": "RDC-Cameroun : deux rêves de fer face à la promesse Simandou",
           "url": "https://www.jeuneafrique.com/1761633/economie-entreprises/rdc-cameroun-deux-reves-de-fer-face-a-la-promesse-simandou/",
           "source": "Jeune Afrique",
           "published": "2026-02-02T13:58:05",
@@ -636,8 +625,8 @@
     "Liberia": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 1.71,
+      "baseline": 1.3,
+      "ratio": 1.56,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -670,8 +659,8 @@
     "Côte d'Ivoire": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 3.7,
-      "ratio": 0.55,
+      "baseline": 3.4,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -699,8 +688,8 @@
     "Ghana": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.5,
-      "ratio": 2.0,
+      "baseline": 1.7,
+      "ratio": 1.75,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -734,15 +723,15 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "BBC Africa",
-        "AllAfrica",
-        "RFI Afrique"
+        "AllAfrica"
       ]
     },
     "Togo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -754,7 +743,7 @@
     "Benin": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.0,
+      "baseline": 2.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -766,8 +755,8 @@
     "Nigeria": {
       "article_count": 12,
       "source_count": 3,
-      "baseline": 6.0,
-      "ratio": 2.0,
+      "baseline": 6.9,
+      "ratio": 1.75,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -780,7 +769,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -788,11 +777,7 @@
           "count": 1
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Coup",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -841,6 +826,13 @@
           "lead": "Nigeria’s Afrobeat pioneer Fela Anikulapo Kuti has been posthumously honoured with a Grammy Lifetime Achievement Award, "
         },
         {
+          "title": "Nigeria: Inside 57 Terrorism Charges Detailing Alleged Roles of Nine Defendants in June 2025 Benue Massacre",
+          "url": "https://allafrica.com/stories/202602030073.html",
+          "source": "AllAfrica",
+          "published": "2026-02-03T05:20:45",
+          "lead": "[Premium Times] In counts 3 to 16 and 25, the prosecution accused Mr Ardo, who appeared to be the prime suspect, of dire"
+        },
+        {
           "title": "Nigeria: Plateau Suspends Mining, Imposes Curfew Amid Fresh Attacks",
           "url": "https://allafrica.com/stories/202602020516.html",
           "source": "AllAfrica",
@@ -869,24 +861,17 @@
           "lead": "[Leadership] Chairman of the Senate Committee on Ethics, Privileges and Public Petitions, Senator Neda Imasuen, has rais"
         },
         {
-          "title": "Nigeria: Late Submission of Audit Reports Affecting Our Work, Reps Panel Cries Out",
-          "url": "https://allafrica.com/stories/202602030019.html",
+          "title": "Nigeria: How Wale Tinubu Redefined Success for a New Generation of Graduates",
+          "url": "https://allafrica.com/stories/202602030093.html",
           "source": "AllAfrica",
-          "published": "2026-02-03T04:46:34",
-          "lead": "[Leadership] The Public Accounts Committee (PAC) of the House of Representatives has lamented the delay in the submissio"
-        },
-        {
-          "title": "Nigeria: Coup Was Planned Before Tinubu's Inauguration - Defence Minister",
-          "url": "https://allafrica.com/stories/202602030016.html",
-          "source": "AllAfrica",
-          "published": "2026-02-03T04:46:33",
-          "lead": "[Daily Trust] In this interview on Channels TV's Sunday Politics, the Minister of Defence, General Christopher Musa (rtd"
+          "published": "2026-02-03T07:50:56",
+          "lead": "[This Day] At a defining moment for a new generation of graduates, where he was recently conferred with an honourary doc"
         }
       ],
       "sources": [
-        "BBC Africa",
+        "Africanews",
         "AllAfrica",
-        "Africanews"
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -905,7 +890,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 2.3,
-      "ratio": 0.86,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -948,17 +933,24 @@
       ]
     },
     "Cameroon": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
-      "baseline": 2.7,
-      "ratio": 0.75,
+      "baseline": 2.6,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "RDC – Cameroun : deux rêves de fer face à la promesse Simandou",
+          "title": "Avec ou contre Biya : au Cameroun, Bello Bouba Maïgari a-t-il encore un avenir politique ?",
+          "url": "https://www.jeuneafrique.com/1761617/politique/avec-ou-contre-biya-au-cameroun-bello-bouba-maigari-a-t-il-encore-un-avenir-politique/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-03T07:00:19",
+          "lead": "Trente-quatre ans après sa percée de 1992, Bello Bouba Maïgari n’a pas réussi à rééditer l’exploit lors de la présidenti"
+        },
+        {
+          "title": "RDC-Cameroun : deux rêves de fer face à la promesse Simandou",
           "url": "https://www.jeuneafrique.com/1761633/economie-entreprises/rdc-cameroun-deux-reves-de-fer-face-a-la-promesse-simandou/",
           "source": "Jeune Afrique",
           "published": "2026-02-02T13:58:05",
@@ -979,7 +971,7 @@
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -991,8 +983,8 @@
     "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.2,
+      "baseline": 0.9,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1034,7 +1026,7 @@
     "Gabon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1057,9 +1049,9 @@
     },
     "DRC": {
       "article_count": 8,
-      "source_count": 3,
-      "baseline": 6.5,
-      "ratio": 1.23,
+      "source_count": 4,
+      "baseline": 6.7,
+      "ratio": 1.19,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1122,7 +1114,7 @@
           "lead": "S’il se dit favorable à des discussions, le chef de l’État congolais tient à en définir lui-même les contours, les limit"
         },
         {
-          "title": "RDC – Cameroun : deux rêves de fer face à la promesse Simandou",
+          "title": "RDC-Cameroun : deux rêves de fer face à la promesse Simandou",
           "url": "https://www.jeuneafrique.com/1761633/economie-entreprises/rdc-cameroun-deux-reves-de-fer-face-a-la-promesse-simandou/",
           "source": "Jeune Afrique",
           "published": "2026-02-02T13:58:05",
@@ -1136,17 +1128,18 @@
           "lead": "Ce week-end, « huit drones ennemis ont été neutralisés avant d’atteindre leur cible », un aéroport civil qui sert égalem"
         },
         {
-          "title": "Matata Ponyo Mapon : « Je suis fier d’avoir refusé de travailler avec Félix Tshisekedi »",
-          "url": "https://www.jeuneafrique.com/1761480/politique/matata-ponyo-mapon-je-suis-fier-davoir-refuse-de-travailler-avec-felix-tshisekedi/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-02T06:57:19",
-          "lead": "L’ancien Premier ministre de Joseph Kabila, désormais opposant en exil, sort de son silence huit mois après sa condamnat"
+          "title": "Families mourn victims of Congo mine collapse as search for survivors continues",
+          "url": "http://www.africanews.com/2026/02/03/families-mourn-victims-of-congo-mine-collapse-as-search-for-survivors-continues/",
+          "source": "Africanews",
+          "published": "2026-02-03T06:12:37",
+          "lead": "Family members of victims of last week’s mine collapse in eastern Congo gathered in Goma on Monday to mourn."
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1200,8 +1193,8 @@
     "Ethiopia": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 4.7,
-      "ratio": 0.64,
+      "baseline": 4.4,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1254,8 +1247,8 @@
     "Somalia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.43,
+      "baseline": 2.1,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1281,8 +1274,8 @@
     "Uganda": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 4.2,
-      "ratio": 0.72,
+      "baseline": 4.0,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1316,25 +1309,25 @@
         }
       ],
       "sources": [
+        "AllAfrica",
         "BBC Africa",
-        "The Guardian Africa",
-        "AllAfrica"
+        "The Guardian Africa"
       ]
     },
     "Kenya": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 3.5,
-      "ratio": 0.86,
+      "baseline": 3.4,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1363,8 +1356,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Rwanda": {
@@ -1417,8 +1410,8 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Burundi": {
@@ -1436,8 +1429,8 @@
     "Tanzania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.67,
+      "baseline": 1.4,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1456,18 +1449,13 @@
       ]
     },
     "Madagascar": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.2,
-      "ratio": 1.71,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Dead",
-          "count": 1
-        }
-      ],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.3,
+      "ratio": 0.78,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1476,18 +1464,10 @@
           "source": "The Guardian Africa",
           "published": "2026-02-02T12:25:58",
           "lead": "Island’s first tropical storm of season may bring 150mm of rain – meanwhile, eastern Europe freezes with possible night-"
-        },
-        {
-          "title": "Madagascar: Cyclone Fytia in Madagascar Leaves Three Dead, Flooding Affects Nearly 30,000",
-          "url": "https://allafrica.com/stories/202602020108.html",
-          "source": "AllAfrica",
-          "published": "2026-02-02T07:40:19",
-          "lead": "[RFI] Cyclone Fytia hit Madagascar at the weekend, flooding large parts of the northwest of the main island and leaving "
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "AllAfrica"
+        "The Guardian Africa"
       ]
     },
     "Comoros": {
@@ -1527,34 +1507,63 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Dans la Copperbelt, KoBold Metals teste la reconquête minière américaine en Afrique",
+          "url": "https://www.jeuneafrique.com/1755434/economie-entreprises/dans-la-copperbelt-kobold-metals-teste-la-reconquete-miniere-americaine-en-afrique/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-03T07:30:18",
+          "lead": "La junior américaine mise notamment sur le soutien de l’administration Trump et sur l’intelligence artificielle pour dev"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.6,
+      "ratio": 1.75,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Malawi: Govt Declares Polio Outbreak, Virus Detected in Blantyre Toilet Samples",
+          "url": "https://allafrica.com/stories/202602030048.html",
+          "source": "AllAfrica",
+          "published": "2026-02-03T05:08:59",
+          "lead": "[Nyasa Times] Government has declared a polio outbreak in Malawi, raising fresh public health fears and reviving memorie"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Mozambique": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.3,
-      "ratio": 0.6,
+      "baseline": 3.1,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1581,15 +1590,15 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Africanews"
+        "Africanews",
+        "The Guardian Africa"
       ]
     },
     "Zimbabwe": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 2.0,
+      "baseline": 1.1,
+      "ratio": 1.75,
       "status": "elevated",
       "confidence": "low",
       "keywords": [],
@@ -1641,8 +1650,8 @@
     "South Africa": {
       "article_count": 19,
       "source_count": 5,
-      "baseline": 11.3,
-      "ratio": 1.68,
+      "baseline": 12.4,
+      "ratio": 1.53,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1667,11 +1676,11 @@
           "count": 2
         },
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -1706,10 +1715,10 @@
           "lead": "The Jacob Zuma Foundation has issued a fierce denial after the former South African president’s name appeared in newly u"
         },
         {
-          "title": "South Africa: Tyla Wins Second Grammy - South African News Briefs - February 2, 2025",
-          "url": "https://allafrica.com/stories/202602020102.html",
+          "title": "South Africa: Doornfontein Blast Under Investigation - South African News Briefs - February 3, 2025",
+          "url": "https://allafrica.com/stories/202602030076.html",
           "source": "AllAfrica",
-          "published": "2026-02-02T05:41:53",
+          "published": "2026-02-03T05:45:22",
           "lead": "[allAfrica]"
         },
         {
@@ -1763,10 +1772,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Daily Maverick",
         "Le Monde Afrique",
         "BBC Africa",
+        "AllAfrica",
         "Africanews"
       ]
     },
