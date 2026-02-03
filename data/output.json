@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-03T19:55:39.606372",
+  "generated_at": "2026-02-03T22:02:59.589390",
   "summary": {
     "high": 7,
-    "elevated": 4,
-    "normal": 25,
+    "elevated": 5,
+    "normal": 24,
     "quiet": 18
   },
   "countries": {
     "Morocco": {
       "article_count": 5,
       "source_count": 4,
-      "baseline": 4.9,
-      "ratio": 1.03,
+      "baseline": 5.0,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -60,8 +60,8 @@
       ],
       "sources": [
         "Africanews",
-        "Le Monde Afrique",
         "RFI Afrique",
+        "Le Monde Afrique",
         "Jeune Afrique"
       ]
     },
@@ -80,8 +80,8 @@
     "Tunisia": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 0.7,
-      "ratio": 5.6,
+      "baseline": 0.9,
+      "ratio": 4.67,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -123,21 +123,29 @@
       ],
       "sources": [
         "Africanews",
+        "France24 Afrique",
         "Le Monde Afrique",
-        "Jeune Afrique",
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "Libya": {
-      "article_count": 5,
-      "source_count": 4,
-      "baseline": 0.9,
-      "ratio": 5.83,
+      "article_count": 10,
+      "source_count": 7,
+      "baseline": 1.1,
+      "ratio": 8.75,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Killed",
+          "count": 4
+        },
+        {
+          "word": "Mort",
+          "count": 4
+        },
+        {
+          "word": "Tué",
           "count": 2
         },
         {
@@ -145,22 +153,32 @@
           "count": 2
         },
         {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Tué",
+          "word": "Dead",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Saif al-Islam Gaddafi, son of ex-Libyan leader, reportedly shot dead",
+          "url": "https://www.bbc.com/news/articles/cp37g4xgkxdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-03T21:57:16",
+          "lead": "The 53-year-old, who was once widely seen as the second most powerful person in Libya, was killed on Tuesday according t"
+        },
+        {
+          "title": "Saif al-Islam Gaddafi, son of Libyan former leader, killed",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/3/saif-al-islam-gaddafi-son-of-libyan-former-leader-killed?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-03T20:51:48",
+          "lead": "Saif al-Islam Gaddafi, son of former Libyan leader Muammar Gaddafi, has been killed in Libya, Al Jazeera Arabic reports."
+        },
+        {
           "title": "Saif al-Islam Gaddafi, son of former leader, killed in Libya",
           "url": "https://www.aljazeera.com/news/2026/2/3/saif-al-islam-gaddafi-son-of-former-leader-killed-in-libya?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-03T19:29:35",
-          "lead": "This is a breaking news story."
+          "lead": "Saif al-Islam Gaddafi had been considered the number two in Libya before the 2011 death of his father, Muammar Gaddafi."
         },
         {
           "title": "Libye: Saïf al-Islam Kadhafi, fils de l'ancien dirigeant libyen, est mort",
@@ -175,6 +193,27 @@
           "source": "RFI Afrique",
           "published": "2026-02-03T11:43:45",
           "lead": "En Libye, l'attaque surprise menée samedi 31 janvier par un groupe armé contre plusieurs positions militaires de l'Armée"
+        },
+        {
+          "title": "Libye : Seif al-Islam Kadhafi, l'un des fils de l'ex-dictateur, a été tué par des hommes armés",
+          "url": "https://www.france24.com/fr/afrique/20260203-libye-seif-al-islam-kadhafi-l-un-des-fils-de-l-ex-dictateur-a-%C3%A9t%C3%A9-tu%C3%A9-par-des-hommes-arm%C3%A9s",
+          "source": "France24 Afrique",
+          "published": "2026-02-03T20:06:02",
+          "lead": "Seif al-Islam Kadhafi, l'un des fils de Mouammar Kadhafi est mort, assassiné par des hommes armés qui ont lancé un assau"
+        },
+        {
+          "title": "Libye : Saïf Al-Islam Kadhafi, l’un des fils de l’ancien dictateur Mouammar Kadhafi, est mort, annonce son conseiller",
+          "url": "https://www.lemonde.fr/international/article/2026/02/03/libye-saif-al-islam-kadhafi-l-un-des-fils-de-l-ancien-dictateur-mouammar-kadhafi-est-mort-annonce-son-conseiller_6665283_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-03T20:46:38",
+          "lead": "Les circonstances du décès du Libyen de 53 ans, longtemps vu comme le successeur potentiel de son père avant la chute du"
+        },
+        {
+          "title": "Libye : Seif el-Islam Kadhafi annoncé mort",
+          "url": "https://www.jeuneafrique.com/1762179/politique/libye-seif-al-islam-kadhafi-annonce-mort/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-03T21:06:26",
+          "lead": "Recherché par la Cour pénale internationale (CPI) pour crimes contre l’humanité, le fils du dirigeant libyen Mouammar Ka"
         },
         {
           "title": "En Libye, trois soldats de Khalifa Haftar tués dans des combats à la frontière avec le Niger",
@@ -192,10 +231,13 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "Africanews",
-        "Jeune Afrique",
         "RFI Afrique",
-        "Al Jazeera"
+        "Le Monde Afrique",
+        "BBC Africa",
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Egypt": {
@@ -252,23 +294,19 @@
       ]
     },
     "Sudan": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 5,
-      "baseline": 3.6,
-      "ratio": 1.96,
+      "baseline": 3.4,
+      "ratio": 2.33,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Rsf",
           "count": 1
         },
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -280,22 +318,30 @@
           "count": 1
         },
         {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
           "word": "Famine",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Ceasefire",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Sudan military claims to break siege of key Kordofan city of Kadugli",
-          "url": "https://www.aljazeera.com/news/2026/2/3/sudan-military-claims-to-break-siege-of-key-kordofan-city-of-kadugli?traffic_source=rss",
+          "title": "Sudan’s military breaks through years-long RSF blockade in Kadugli",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/3/sudans-military-breaks-through-years-long-rsf-blockade-in-kadugli?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-03T13:45:10",
-          "lead": "Government forces have entered South Kordofan&#039;s capital, Kadugli, days after breaking a siege in nearby Dilling."
+          "published": "2026-02-03T20:58:46",
+          "lead": "Sudanese military officials say they’ve broken through a siege by the Rapid Support Forces (RSF) in Kadugli."
         },
         {
           "title": "Libye: des positions du camp Haftar attaquées dans le sud du pays",
@@ -315,7 +361,7 @@
           "title": "Au Tchad, la situation désespérée des réfugiés soudanais face à une aide humanitaire qui se tarit",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/03/au-tchad-la-situation-desesperee-des-refugies-soudanais-face-a-une-aide-humanitaire-qui-se-tarit_6665277_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-03T19:00:22",
+          "published": "2026-02-03T19:00:12",
           "lead": "Les ONG, privées de financements, ne parviennent plus à répondre aux besoins du million de Soudanais déplacés à la front"
         },
         {
@@ -333,6 +379,13 @@
           "lead": "It says a crucial supply route to the famine-stricken Kadugli has now been opened."
         },
         {
+          "title": "Sudan: Washington's Quiet Intelligence Engagement with Port Sudan",
+          "url": "https://allafrica.com/stories/202602030608.html",
+          "source": "AllAfrica",
+          "published": "2026-02-03T20:08:20",
+          "lead": "[Ayin Network] Multiple sources confirmed to Ayin that Sudan's Armed Forces (SAF)-aligned government intelligence direct"
+        },
+        {
           "title": "Nigeria: Bishop of Sokoto - 'Every Day There Are Massacres in Nigeria: How Can Such a Country Move Forward?'",
           "url": "https://allafrica.com/stories/202602030511.html",
           "source": "AllAfrica",
@@ -341,11 +394,11 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "Al Jazeera",
+        "Africanews",
         "RFI Afrique",
         "Le Monde Afrique",
-        "Africanews",
-        "Al Jazeera"
+        "AllAfrica"
       ]
     },
     "Mauritania": {
@@ -380,10 +433,10 @@
       ]
     },
     "Mali": {
-      "article_count": 5,
-      "source_count": 4,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 4.1,
-      "ratio": 1.21,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -417,13 +470,6 @@
           "lead": "Nommé début janvier à la tête du bureau des affaires africaines du département d'État américain, Nick Checker était en v"
         },
         {
-          "title": "Attaques sur les camions de carburant : Bamako veut stocker avant le ramadan",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260202-attaque-des-camions-citernes-par-le-jnim-bamako-veut-faire-le-stock-avant-le-ramadan",
-          "source": "France24 Afrique",
-          "published": "2026-02-02T21:31:17",
-          "lead": "Après une accalmie, les attaques jihadistes de camions de carburant qui viennent de pays voisins reprennent au Mali. La "
-        },
-        {
           "title": "Jeune Afrique suspendu au Mali : comment contourner la censure",
           "url": "https://www.jeuneafrique.com/1762043/politique/jeune-afrique-suspendu-au-mali-comment-contourner-la-censure/",
           "source": "Jeune Afrique",
@@ -440,9 +486,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Jeune Afrique",
         "RFI Afrique",
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
@@ -468,16 +513,16 @@
       ]
     },
     "Niger": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 5,
       "baseline": 6.7,
-      "ratio": 0.89,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Killed",
@@ -492,13 +537,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-03T11:43:45",
           "lead": "En Libye, l'attaque surprise menée samedi 31 janvier par un groupe armé contre plusieurs positions militaires de l'Armée"
-        },
-        {
-          "title": "Niger: le groupe État islamique diffuse une vidéo de l'attaque de l'aéroport de Niamey",
-          "url": "https://www.rfi.fr/fr/afrique/20260202-niger-le-groupe-%C3%A9tat-islamique-diffuse-une-vid%C3%A9o-de-l-attaque-de-l-a%C3%A9roport-de-niamey",
-          "source": "RFI Afrique",
-          "published": "2026-02-02T21:30:24",
-          "lead": "Le groupe État islamique au Sahel (EIS) a diffusé une vidéo présentée comme ayant été filmée pendant l'attaque de la zon"
         },
         {
           "title": "Au Sahel, « l’EI a montré qu’il était capable de frapper fort » en attaquant l’aéroport de la capitale du Niger",
@@ -530,18 +568,18 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique",
+        "Africanews",
         "RFI Afrique",
         "Le Monde Afrique",
-        "Africanews"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Senegal": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 5.6,
-      "ratio": 0.54,
+      "baseline": 5.4,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -570,15 +608,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.0,
+      "baseline": 0.9,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -610,11 +648,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Coup",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Coup",
           "count": 1
         },
         {
@@ -653,11 +691,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -749,8 +787,8 @@
     "Ghana": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.9,
-      "ratio": 1.62,
+      "baseline": 1.7,
+      "ratio": 1.75,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -814,18 +852,18 @@
     },
     "Nigeria": {
       "article_count": 9,
-      "source_count": 4,
-      "baseline": 6.6,
-      "ratio": 1.37,
+      "source_count": 5,
+      "baseline": 6.4,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 3
+          "word": "Government",
+          "count": 2
         },
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 2
         },
         {
@@ -858,6 +896,13 @@
           "lead": "Depuis fin janvier, l’armée a annoncé avoir tué plusieurs hauts commandants du groupe islamiste radical Boko Haram, dans"
         },
         {
+          "title": "Les Etats-Unis déclarent avoir déployé une équipe militaire au Nigeria pour renforcer la lutte contre les djihadistes",
+          "url": "https://www.lemonde.fr/international/article/2026/02/03/les-etats-unis-declarent-avoir-deploye-une-equipe-militaire-au-nigeria-pour-renforcer-la-lutte-contre-les-djihadistes_6665284_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-03T21:22:04",
+          "lead": "Donald Trump avait affirmé que les chrétiens du Nigeria étaient « persécutés » et victimes d’un « génocide » perpétré pa"
+        },
+        {
           "title": "Nigeria hires US lobby firms amid Trump claims of christian ‘genocide’",
           "url": "http://www.africanews.com/2026/02/03/nigeria-hires-us-lobby-firms-amid-trump-claims-of-christian-genocide/",
           "source": "Africanews",
@@ -870,13 +915,6 @@
           "source": "Africanews",
           "published": "2026-02-03T11:48:09",
           "lead": "Domingos Simões Pereira and Fernando Dias were liberated last Friday after having been respectively detained and blocked"
-        },
-        {
-          "title": "Nigeria charges 9 over 2025 Yelwata massacre that killed 150",
-          "url": "http://www.africanews.com/2026/02/02/nigeria-charges-9-over-2025-yelwata-massacre-that-killed-150/",
-          "source": "Africanews",
-          "published": "2026-02-02T20:40:29",
-          "lead": "Prosecutors have charged nine individuals on grounds of terrorism related to one of the deadliest massacres of the past "
         },
         {
           "title": "Nigeria: Nigerian Govt Disclaims Approval of Textbook Excluding Igbo History",
@@ -908,10 +946,11 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "Le Monde Afrique",
         "BBC Africa",
-        "France24 Afrique"
+        "France24 Afrique",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -939,15 +978,15 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
           "word": "Déplacés",
           "count": 1
         },
         {
           "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -964,20 +1003,20 @@
           "title": "Au Tchad, la situation désespérée des réfugiés soudanais face à une aide humanitaire qui se tarit",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/03/au-tchad-la-situation-desesperee-des-refugies-soudanais-face-a-une-aide-humanitaire-qui-se-tarit_6665277_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-03T19:00:22",
+          "published": "2026-02-03T19:00:12",
           "lead": "Les ONG, privées de financements, ne parviennent plus à répondre aux besoins du million de Soudanais déplacés à la front"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Cameroon": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.47,
+      "baseline": 2.9,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1019,8 +1058,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
@@ -1038,8 +1077,8 @@
     "South Sudan": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.0,
-      "ratio": 3.0,
+      "baseline": 1.1,
+      "ratio": 2.62,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1107,15 +1146,43 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.7,
-      "ratio": 2.8,
+      "ratio": 4.2,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -1134,24 +1201,32 @@
           "source": "AllAfrica",
           "published": "2026-02-03T14:39:34",
           "lead": "[Global Witness] Global Witness is calling for businesses and governments to better consider the human cost of rare eart"
+        },
+        {
+          "title": "End to Abuses Still Distant in DR Congo",
+          "url": "https://www.hrw.org/news/2026/02/03/end-to-abuses-still-distant-in-dr-congo",
+          "source": "Human Rights Watch",
+          "published": "2026-02-03T21:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              US Pre"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 8,
-      "source_count": 3,
+      "article_count": 9,
+      "source_count": 4,
       "baseline": 6.7,
-      "ratio": 1.19,
+      "ratio": 1.34,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Gouvernement",
@@ -1159,10 +1234,26 @@
         },
         {
           "word": "Government",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1223,11 +1314,19 @@
           "source": "AllAfrica",
           "published": "2026-02-03T14:39:34",
           "lead": "[Global Witness] Global Witness is calling for businesses and governments to better consider the human cost of rare eart"
+        },
+        {
+          "title": "End to Abuses Still Distant in DR Congo",
+          "url": "https://www.hrw.org/news/2026/02/03/end-to-abuses-still-distant-in-dr-congo",
+          "source": "Human Rights Watch",
+          "published": "2026-02-03T21:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              US Pre"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "Human Rights Watch",
+        "AllAfrica",
         "RFI Afrique"
       ]
     },
@@ -1307,17 +1406,13 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 4.6,
-      "ratio": 1.09,
+      "baseline": 4.7,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "President",
-          "count": 2
-        },
         {
           "word": "Killed",
           "count": 1
@@ -1328,6 +1423,10 @@
         },
         {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -1355,13 +1454,6 @@
           "lead": "Ethiopian Prime Minister Abiy Ahmed on Tuesday denied claims by President Donald Trump that the country's new mega-dam w"
         },
         {
-          "title": "Uganda: Museveni Taps Former Ethiopian Airlines CEO to Replace Bamuturaki",
-          "url": "https://allafrica.com/stories/202602030121.html",
-          "source": "AllAfrica",
-          "published": "2026-02-03T08:55:50",
-          "lead": "[Nile Post] Uganda Airlines Chief Executive Jenifer Bamuturaki has stepped down from her role under pressure with Presid"
-        },
-        {
           "title": "Ethiopia: PM Abiy Shoots Down Trump's GERD Funding Claims",
           "url": "https://allafrica.com/stories/202602030400.html",
           "source": "AllAfrica",
@@ -1370,8 +1462,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "AllAfrica",
         "BBC Africa"
       ]
     },
@@ -1384,11 +1476,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Crisis",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1415,17 +1507,13 @@
       ]
     },
     "Uganda": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 1,
-      "baseline": 4.4,
-      "ratio": 1.13,
+      "baseline": 4.3,
+      "ratio": 0.93,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        },
         {
           "word": "Dead",
           "count": 1
@@ -1443,13 +1531,6 @@
           "source": "AllAfrica",
           "published": "2026-02-03T15:12:11",
           "lead": "[Capital FM] Nairobi -- Ugandan opposition leader Robert Kyagulanyi, popularly known as Bobi Wine, has claimed that the "
-        },
-        {
-          "title": "Uganda: Museveni Taps Former Ethiopian Airlines CEO to Replace Bamuturaki",
-          "url": "https://allafrica.com/stories/202602030121.html",
-          "source": "AllAfrica",
-          "published": "2026-02-03T08:55:50",
-          "lead": "[Nile Post] Uganda Airlines Chief Executive Jenifer Bamuturaki has stepped down from her role under pressure with Presid"
         },
         {
           "title": "Uganda: Ugandan Housemaid Confesses to Killing Syrian Actress",
@@ -1524,25 +1605,49 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "AllAfrica",
         "BBC Africa"
       ]
     },
     "Rwanda": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 3.1,
-      "ratio": 1.27,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.59,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1575,12 +1680,20 @@
           "source": "AllAfrica",
           "published": "2026-02-03T15:10:40",
           "lead": "[New Times] The court of appeal in Paris on Tuesday, on February 3, opened the appeal trial of genocide suspect Claude M"
+        },
+        {
+          "title": "End to Abuses Still Distant in DR Congo",
+          "url": "https://www.hrw.org/news/2026/02/03/end-to-abuses-still-distant-in-dr-congo",
+          "source": "Human Rights Watch",
+          "published": "2026-02-03T21:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              US Pre"
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "AllAfrica",
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Burundi": {
@@ -1686,8 +1799,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Malawi": {
@@ -1707,11 +1820,11 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1740,8 +1853,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Mozambique": {
@@ -1792,8 +1905,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Namibia": {
@@ -1848,8 +1961,8 @@
     "South Africa": {
       "article_count": 17,
       "source_count": 5,
-      "baseline": 12.3,
-      "ratio": 1.38,
+      "baseline": 12.1,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1954,11 +2067,11 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique",
+        "Africanews",
         "BBC Africa",
-        "Daily Maverick",
-        "Africanews"
+        "Jeune Afrique",
+        "AllAfrica",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
