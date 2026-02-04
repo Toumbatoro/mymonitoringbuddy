@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-02-04T07:58:59.288003",
+  "generated_at": "2026-02-04T11:07:20.449116",
   "summary": {
-    "high": 6,
+    "high": 5,
     "elevated": 7,
-    "normal": 27,
-    "quiet": 14
+    "normal": 32,
+    "quiet": 10
   },
   "countries": {
     "Morocco": {
-      "article_count": 7,
-      "source_count": 4,
-      "baseline": 5.1,
-      "ratio": 1.37,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 8,
+      "source_count": 5,
+      "baseline": 5.2,
+      "ratio": 1.52,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Displaced",
@@ -37,10 +37,17 @@
           "lead": "Après les nombreux incidents survenus lors de la finale de la Coupe d’Afrique des nations remportée par le Sénégal face "
         },
         {
-          "title": "Algérie : la ligne Oran-Tindouf, un mégaprojet ferroviaire sur fond de rivalité avec le Maroc",
+          "title": "Maroc : plus de 50 000 personnes évacuées dans le nord en raison de fortes précipitations",
+          "url": "https://www.france24.com/fr/afrique/20260204-en-images-50-000-personnes-%C3%A9vacu%C3%A9es-nord-maroc-fortes-pr%C3%A9cipitations",
+          "source": "France24 Afrique",
+          "published": "2026-02-04T09:42:58",
+          "lead": "Alors que de fortes précipitations ont touché plusieurs provinces du pays placées en alerte météorologique, plus de 50 0"
+        },
+        {
+          "title": "La ligne de train Oran-Tindouf, un mégaprojet ferroviaire de l’Algérie sur fond de rivalité avec le Maroc",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/04/algerie-la-ligne-oran-tindouf-un-megaprojet-ferroviaire-sur-fond-de-rivalite-avec-le-maroc_6665318_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-04T05:30:06",
+          "published": "2026-02-04T05:30:01",
           "lead": "La mine de Gara Djebilet, située dans le sud-ouest du pays, approvisionnera Oran en minerai en empruntant un circuit fer"
         },
         {
@@ -74,26 +81,27 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
+        "Le Monde Afrique",
         "Africanews",
-        "Le Monde Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.47,
+      "baseline": 2.2,
+      "ratio": 0.44,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Algérie : la ligne Oran-Tindouf, un mégaprojet ferroviaire sur fond de rivalité avec le Maroc",
+          "title": "La ligne de train Oran-Tindouf, un mégaprojet ferroviaire de l’Algérie sur fond de rivalité avec le Maroc",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/04/algerie-la-ligne-oran-tindouf-un-megaprojet-ferroviaire-sur-fond-de-rivalite-avec-le-maroc_6665318_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-04T05:30:06",
+          "published": "2026-02-04T05:30:01",
           "lead": "La mine de Gara Djebilet, située dans le sud-ouest du pays, approvisionnera Oran en minerai en empruntant un circuit fer"
         }
       ],
@@ -104,8 +112,8 @@
     "Tunisia": {
       "article_count": 5,
       "source_count": 5,
-      "baseline": 1.2,
-      "ratio": 4.0,
+      "baseline": 1.4,
+      "ratio": 3.64,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -166,26 +174,30 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Africanews",
+        "Human Rights Watch",
         "Le Monde Afrique",
-        "France24 Afrique",
-        "Human Rights Watch"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Libya": {
-      "article_count": 16,
-      "source_count": 9,
-      "baseline": 3.2,
-      "ratio": 4.92,
+      "article_count": 14,
+      "source_count": 8,
+      "baseline": 3.6,
+      "ratio": 3.86,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 7
+          "word": "Mort",
+          "count": 6
         },
         {
-          "word": "Mort",
+          "word": "Killed",
+          "count": 4
+        },
+        {
+          "word": "Tué",
           "count": 4
         },
         {
@@ -193,12 +205,8 @@
           "count": 3
         },
         {
-          "word": "Tué",
-          "count": 2
-        },
-        {
           "word": "Attaque",
-          "count": 2
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -209,27 +217,6 @@
           "source": "BBC Africa",
           "published": "2026-02-04T01:37:22",
           "lead": "The 53-year-old, who was once widely seen as the second most powerful person in Libya, was killed on Tuesday according t"
-        },
-        {
-          "title": "Who was Saif al-Islam Gaddafi, the man once seen as Libya’s next leader?",
-          "url": "https://www.aljazeera.com/news/2026/2/3/who-was-libyas-saif-al-islam-gaddafi?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-03T22:23:27",
-          "lead": "Saif al-Islam, son of former Libyan leader Muammar Gaddafi, has been killed in the west of the North African country."
-        },
-        {
-          "title": "Saif al-Islam Gaddafi, son of Libyan former leader, killed",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/3/saif-al-islam-gaddafi-son-of-libyan-former-leader-killed?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-03T20:51:48",
-          "lead": "Saif al-Islam Gaddafi, son of former Libyan leader Muammar Gaddafi, has been killed in Libya, Al Jazeera Arabic reports."
-        },
-        {
-          "title": "Saif al-Islam Gaddafi, son of former leader, killed in Libya",
-          "url": "https://www.aljazeera.com/news/2026/2/3/saif-al-islam-gaddafi-son-of-former-leader-killed-in-libya?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-03T19:29:35",
-          "lead": "Gaddafi&#039;s political team says masked men killed him at his home in Zintan in a &#039;cowardly and treacherous assas"
         },
         {
           "title": "Libya: Gadhafi's son shot dead",
@@ -260,6 +247,20 @@
           "lead": "En Libye, l'attaque surprise menée samedi 31 janvier par un groupe armé contre plusieurs positions militaires de l'Armée"
         },
         {
+          "title": "Libye : Saïf al-Islam Kadhafi tué chez lui par un \"commando de personnes\"",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260204-libye-sa%C3%AFf-al-islam-kadhafi-tu%C3%A9-chez-lui-par-un-commando-de-personnes",
+          "source": "France24 Afrique",
+          "published": "2026-02-04T10:55:46",
+          "lead": "Le controversé fils de l'ancien dirigeant libyen Mouammar Kadhafi, recherché par la Cour pénale internationale pour crim"
+        },
+        {
+          "title": "Libye : ouverture d'une enquête sur la mort de Seif al-Islam Kadhafi",
+          "url": "https://www.france24.com/fr/afrique/20260204-assassinat-seif-al-islam-kadhafi-ouverture-enqu%C3%AAte-libye",
+          "source": "France24 Afrique",
+          "published": "2026-02-04T10:22:42",
+          "lead": "Après la confirmation de la mort par balle la veille de Seif al-Islam Kadhafi, fils du dictateur défunt Mouammar Kadhafi"
+        },
+        {
           "title": "Libye : Seif al-Islam Kadhafi, l'un des fils de l'ex-dictateur, a été tué par des hommes armés",
           "url": "https://www.france24.com/fr/afrique/20260203-libye-seif-al-islam-kadhafi-l-un-des-fils-de-l-ex-dictateur-a-%C3%A9t%C3%A9-tu%C3%A9-par-des-hommes-arm%C3%A9s",
           "source": "France24 Afrique",
@@ -281,30 +282,36 @@
           "lead": "Les circonstances du décès du Libyen de 53 ans, longtemps vu comme le successeur potentiel de son père avant la chute du"
         },
         {
-          "title": "Libye : Seif el-Islam Kadhafi annoncé mort",
+          "title": "Libye : Seif el-Islam Kadhafi est mort",
           "url": "https://www.jeuneafrique.com/1762179/politique/libye-seif-al-islam-kadhafi-annonce-mort/",
           "source": "Jeune Afrique",
           "published": "2026-02-03T21:06:26",
           "lead": "Recherché par la Cour pénale internationale (CPI) pour crimes contre l’humanité, le fils du dirigeant libyen Mouammar Ka"
+        },
+        {
+          "title": "Son of Moammar Gadhafi, Seif al-Islam Gadhafi, killed in Libya",
+          "url": "http://www.africanews.com/2026/02/04/son-of-moammar-gadhafi-seif-al-islam-gadhafi-killed-in-libya/",
+          "source": "Africanews",
+          "published": "2026-02-04T08:19:55",
+          "lead": "Seif al-Islam Gadhafi, the son and one-time heir apparent of Libya ’s late dictator Moammar Gadhafi, was killed in the n"
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "AllAfrica",
         "BBC Africa",
-        "Al Jazeera",
-        "Africanews",
         "Le Monde Afrique",
-        "France24 Afrique",
+        "Africanews",
+        "RFI Afrique",
+        "AllAfrica",
         "DW Africa",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.4,
-      "ratio": 1.26,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.1,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -317,11 +324,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         },
         {
@@ -339,13 +346,6 @@
           "lead": "A dozen Palestinian returnees were allowed into Gaza from Egypt late on Monday night after the long-awaited reopening of"
         },
         {
-          "title": "Emotional reunions at Rafah as Palestinians cross Gaza-Egypt border",
-          "url": "http://www.africanews.com/2026/02/03/emotional-reunions-at-rafah-as-palestinians-cross-gaza-egypt-border/",
-          "source": "Africanews",
-          "published": "2026-02-03T09:49:24",
-          "lead": "Emotional reunions in Gaza as Rafah crossing partially reopens, allowing limited medical evacuations and family returns "
-        },
-        {
           "title": "EU: Rights Failings Undermine Democracy, Rule of Law",
           "url": "https://www.hrw.org/news/2026/02/04/eu-rights-failings-undermine-democracy-rule-of-law",
           "source": "Human Rights Watch",
@@ -354,25 +354,36 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "Africanews",
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "Human Rights Watch"
       ]
     },
     "Sudan": {
-      "article_count": 8,
-      "source_count": 6,
-      "baseline": 4.8,
-      "ratio": 1.68,
+      "article_count": 10,
+      "source_count": 8,
+      "baseline": 4.1,
+      "ratio": 2.42,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "War",
+          "count": 3
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
         {
           "word": "Government",
           "count": 2
         },
         {
-          "word": "Rsf",
+          "word": "Fighting",
           "count": 1
         },
         {
@@ -384,30 +395,25 @@
           "count": 1
         },
         {
-          "word": "Déplacés",
-          "count": 1
-        },
-        {
           "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Famine",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Sudan’s military breaks through years-long RSF blockade in Kadugli",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/3/sudans-military-breaks-through-years-long-rsf-blockade-in-kadugli?traffic_source=rss",
+          "title": "The cold, hungry reality of displacement in war-torn Sudan’s Tawila",
+          "url": "https://www.aljazeera.com/news/2026/2/4/the-cold-hungry-reality-of-displacement-in-war-torn-sudans-tawila?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-03T20:58:46",
-          "lead": "Sudanese military officials say they’ve broken through a siege by the Rapid Support Forces (RSF) in Kadugli."
+          "published": "2026-02-04T08:45:31",
+          "lead": "Displaced families who fled el-Fasher face dire conditions with no blankets, food shortages, and few medical supplies."
+        },
+        {
+          "title": "Sudan: Khartoum presents a picture of normalcy despite ongoing fighting",
+          "url": "https://www.dw.com/en/sudan-khartoum-presents-a-picture-of-normalcy-despite-ongoing-fighting/a-75790769?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-02-04T07:48:00",
+          "lead": "After almost three years of war, Khartoum is promoting reconstruction and civilian returns, as clashes continue and a hu"
         },
         {
           "title": "Libye: des positions du camp Haftar attaquées dans le sud du pays",
@@ -452,6 +458,13 @@
           "lead": "[OCHA] Remarks by UN Under-Secretary-General and Emergency Relief Coordinator, Tom Fletcher, at event to catalyze new fu"
         },
         {
+          "title": "Rights group criticises detention of Chinese journalists after graft report",
+          "url": "https://www.dailymaverick.co.za/article/rights-group-criticises-detention-of-chinese-journalists-after-graft-report",
+          "source": "Daily Maverick",
+          "published": "2026-02-04T12:23:26",
+          "lead": "Reporters Without Borders (RSF) condemned on Tuesday the detention of two independent Chinese journalists, one a promine"
+        },
+        {
           "title": "Horn/East Africa: War Crimes, Election Repression",
           "url": "https://www.hrw.org/news/2026/02/04/horn/east-africa-war-crimes-election-repression",
           "source": "Human Rights Watch",
@@ -460,12 +473,14 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Al Jazeera",
-        "Africanews",
-        "Le Monde Afrique",
         "Human Rights Watch",
-        "RFI Afrique"
+        "Daily Maverick",
+        "Le Monde Afrique",
+        "Africanews",
+        "RFI Afrique",
+        "AllAfrica",
+        "DW Africa",
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
@@ -483,8 +498,8 @@
     "Mali": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 3.9,
-      "ratio": 1.03,
+      "baseline": 4.0,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -497,7 +512,15 @@
           "count": 1
         },
         {
+          "word": "Minister",
+          "count": 1
+        },
+        {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         },
         {
@@ -509,15 +532,7 @@
           "count": 1
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "Boko haram",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -553,21 +568,29 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
+        "Jeune Afrique",
         "Human Rights Watch"
       ]
     },
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.42,
+      "baseline": 2.5,
+      "ratio": 0.4,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
+          "word": "Minister",
+          "count": 1
+        },
+        {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         },
         {
@@ -579,15 +602,7 @@
           "count": 1
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "Boko haram",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -606,23 +621,31 @@
       ]
     },
     "Niger": {
-      "article_count": 5,
-      "source_count": 5,
-      "baseline": 6.5,
-      "ratio": 0.77,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 6.4,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 3
+          "count": 1
         },
         {
           "word": "Killed",
           "count": 1
         },
         {
+          "word": "Minister",
+          "count": 1
+        },
+        {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         },
         {
@@ -634,15 +657,7 @@
           "count": 1
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "Boko haram",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -654,20 +669,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-03T11:43:45",
           "lead": "En Libye, l'attaque surprise menée samedi 31 janvier par un groupe armé contre plusieurs positions militaires de l'Armée"
-        },
-        {
-          "title": "Au Sahel, « l’EI a montré qu’il était capable de frapper fort » en attaquant l’aéroport de la capitale du Niger",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/03/au-sahel-l-ei-a-montre-qu-il-etait-capable-de-frapper-fort-en-attaquant-l-aeroport-de-la-capitale-du-niger_6665187_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-03T08:30:02",
-          "lead": "La junte au pouvoir à Niamey et ses alliés russes d’Africa Corps ont subi une attaque sans précédent avec l’assaut de l’"
-        },
-        {
-          "title": "En Libye, trois soldats de Khalifa Haftar tués dans des combats à la frontière avec le Niger",
-          "url": "https://www.jeuneafrique.com/1761823/politique/en-libye-trois-soldats-de-khalifa-haftar-tues-dans-des-combats-a-la-frontiere-avec-le-niger/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-03T09:40:37",
-          "lead": "Les forces armées de Khalifa Haftar (LNA), qui contrôlent l’est et une grande partie du sud de la Libye, ont évoqué une "
         },
         {
           "title": "Three Haftar forces killed in Libya-Niger border clash",
@@ -685,18 +686,16 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
-        "Le Monde Afrique",
-        "Human Rights Watch",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Human Rights Watch"
       ]
     },
     "Senegal": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 5.2,
-      "ratio": 0.76,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -717,13 +716,6 @@
           "lead": "Après les nombreux incidents survenus lors de la finale de la Coupe d’Afrique des nations remportée par le Sénégal face "
         },
         {
-          "title": "Samba Peuzzi: «Culture», l’album qui célèbre la diversité de la musique sénégalaise",
-          "url": "https://www.rfi.fr/fr/musique/20260203-samba-peuzzi-culture-l-album-qui-c%C3%A9l%C3%A8bre-la-diversit%C3%A9-de-la-musique-s%C3%A9n%C3%A9galaise",
-          "source": "RFI Afrique",
-          "published": "2026-02-03T09:31:44",
-          "lead": "Le rappeur sénégalais Samba Tine, alias Samba Peuzzi, débarque avec un deuxième album Culture, sorti le 16 janvier. A 30"
-        },
-        {
           "title": "Extradition de Madiambal Diagne : pourquoi sa défense et le Parquet général s’opposent",
           "url": "https://www.jeuneafrique.com/1761955/politique/extradition-de-madiambal-diagne-pourquoi-sa-defense-et-le-parquet-general-sopposent/",
           "source": "Jeune Afrique",
@@ -732,14 +724,14 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -776,23 +768,19 @@
       ]
     },
     "Guinea": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 1.6,
-      "ratio": 1.85,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 1.9,
+      "ratio": 1.07,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 2
-        },
-        {
-          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -811,18 +799,11 @@
           "source": "Jeune Afrique",
           "published": "2026-02-04T07:57:42",
           "lead": "Alors que les principaux corridors d’approvisionnement du Mali en carburant sont fragilisés par les attaques incessantes"
-        },
-        {
-          "title": "Nouveau gouvernement en Guinée : des changements à la Justice, à la Sécurité et aux Finances",
-          "url": "https://www.jeuneafrique.com/1761832/politique/nouveau-gouvernement-en-guinee-des-changements-a-la-justice-a-la-securite-et-aux-finances/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-03T10:05:32",
-          "lead": "Ce gouvernement est le premier de la présidence de Mamadi Doumbouya. Le ministère de la Justice sera dirigé par Ibrahima"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -848,16 +829,35 @@
       ]
     },
     "Liberia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Liberia: Govt Denies Role in Sayetown Demolition",
+          "url": "https://allafrica.com/stories/202602040337.html",
+          "source": "AllAfrica",
+          "published": "2026-02-04T10:59:33",
+          "lead": "[New Dawn] Monrovia, Liberia, February 3, 2026: The Government of Liberia, through the Ministry of Information, has deni"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Côte d'Ivoire": {
       "article_count": 1,
@@ -882,16 +882,31 @@
       ]
     },
     "Ghana": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.5,
+      "ratio": 0.67,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ghana: Govt Plans To  Rename Kotoka Airport 'In Honor Of Accra Residents'",
+          "url": "https://allafrica.com/stories/202602040286.html",
+          "source": "AllAfrica",
+          "published": "2026-02-04T10:13:02",
+          "lead": "[Ghanaian Times] A bill to ensure the renaming of the Kotoka International Airport (KIA) to Accra International Airport "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Togo": {
       "article_count": 0,
@@ -918,10 +933,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 11,
-      "source_count": 6,
-      "baseline": 6.8,
-      "ratio": 1.63,
+      "article_count": 13,
+      "source_count": 7,
+      "baseline": 7.0,
+      "ratio": 1.86,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -931,18 +946,14 @@
         },
         {
           "word": "Government",
-          "count": 3
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 1
         },
         {
           "word": "Tué",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
-          "count": 1
-        },
-        {
-          "word": "Attack",
           "count": 1
         },
         {
@@ -951,6 +962,14 @@
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -962,6 +981,13 @@
           "source": "DW Africa",
           "published": "2026-02-04T04:25:00",
           "lead": "First enacted in 2000, the African Growth and Opportunity Act (AGOA) allows qualifying sub-Saharan African countries to "
+        },
+        {
+          "title": "Death of Nigerian singer after snakebite highlights crisis of ‘preventable’ fatalities",
+          "url": "https://www.theguardian.com/global-development/2026/feb/04/death-of-nigerian-singer-highlights-crisis-of-preventable-snakebite-fatalities",
+          "source": "The Guardian Africa",
+          "published": "2026-02-04T10:00:39",
+          "lead": "Ifunanya Nwangene died in hospital after being bitten in her Abuja home, raising questions about&nbsp;the availability o"
         },
         {
           "title": "Recrutements, aviation et aide américaine : comment le Nigeria accentue la lutte antiterroriste",
@@ -976,6 +1002,13 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-03T21:22:04",
           "lead": "Donald Trump avait affirmé que les chrétiens du Nigeria étaient « persécutés » et victimes d’un « génocide » perpétré pa"
+        },
+        {
+          "title": "Lagos State Assembly orders pause in Makoko demolitions after protests",
+          "url": "http://www.africanews.com/2026/02/04/lagos-state-assembly-orders-pause-in-makoko-demolitions-after-protests/",
+          "source": "Africanews",
+          "published": "2026-02-04T09:55:39",
+          "lead": "Lawmakers in Lagos have ordered an immediate stop to ongoing demolitions in the Makoko waterfront community following re"
         },
         {
           "title": "Nigeria hires US lobby firms amid Trump claims of christian ‘genocide’",
@@ -1020,27 +1053,21 @@
           "lead": "[Premium Times] The textbook, \"Living History\", reportedly excluded the history and culture of the Igbo people, accordin"
         },
         {
-          "title": "Nigeria: Lagos Govt Announces $10m Makoko Water City Plan Amid Tension Over Mass Demolition",
-          "url": "https://allafrica.com/stories/202602030265.html",
+          "title": "Nigeria: Nigerian Press Bodies Urge FG, Nass to Act Against 'Big Tech Threat' to Information Sovereignty",
+          "url": "https://allafrica.com/stories/202602040339.html",
           "source": "AllAfrica",
-          "published": "2026-02-03T10:34:51",
-          "lead": "[Premium Times] The Lagos State Government said the state will contribute $2 million, with the United Nations expected t"
-        },
-        {
-          "title": "West Africa: Further Crackdowns by Military Juntas",
-          "url": "https://www.hrw.org/news/2026/02/04/west-africa-further-crackdowns-by-military-juntas",
-          "source": "Human Rights Watch",
-          "published": "2026-02-04T05:01:00",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Burkin"
+          "published": "2026-02-04T11:00:53",
+          "lead": "[Premium Times] The groups warned that Nigeria risks surrendering control of its democratic conversation, national cohes"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews",
-        "Le Monde Afrique",
-        "France24 Afrique",
         "Human Rights Watch",
-        "DW Africa"
+        "Le Monde Afrique",
+        "Africanews",
+        "AllAfrica",
+        "The Guardian Africa",
+        "DW Africa",
+        "France24 Afrique"
       ]
     },
     "Cape Verde": {
@@ -1058,8 +1085,8 @@
     "Chad": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 0.84,
+      "baseline": 2.2,
+      "ratio": 0.89,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1068,15 +1095,23 @@
           "count": 1
         },
         {
-          "word": "Déplacés",
-          "count": 1
-        },
-        {
           "word": "Humanitaire",
           "count": 1
         },
         {
+          "word": "Déplacés",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         },
         {
@@ -1085,14 +1120,6 @@
         },
         {
           "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Boko haram",
           "count": 1
         }
       ],
@@ -1114,15 +1141,15 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Human Rights Watch"
       ]
     },
     "Cameroon": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 3.1,
-      "ratio": 1.28,
+      "baseline": 3.0,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1141,13 +1168,6 @@
           "lead": "Au Cameroun, le 23 janvier 2026, des décrets présidentiels signés par Paul Biya ont autorisé huit nouvelles Églises à ex"
         },
         {
-          "title": "CAN féminine 2026: pas de staff, ni de préparation, les Camerounaises inquiètent avant le tournoi",
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260203-can-f%C3%A9minine-2026-pas-de-staff-ni-de-pr%C3%A9paration-les-camerounaises-inqui%C3%A8tent-avant-le-tournoi",
-          "source": "RFI Afrique",
-          "published": "2026-02-03T08:37:55",
-          "lead": "Repêchée in extremis pour la CAN 2026 après une période de turbulences, l'équipe nationale de football féminin du Camero"
-        },
-        {
           "title": "Port de Douala : Paul Biya ordonne une enquête sur son chef d’état-major particulier",
           "url": "https://www.jeuneafrique.com/1762018/politique/port-de-douala-paul-biya-ordonne-une-enquete-sur-son-chef-detat-major-particulier/",
           "source": "Jeune Afrique",
@@ -1155,7 +1175,7 @@
           "lead": "L’intervention du général Emmanuel Amougou dans un dossier relevant de la gestion portuaire soulève de lourdes interroga"
         },
         {
-          "title": "Cameroun : comment le clan Moudiki a verrouillé son emprise sur la SNH",
+          "title": "Cameroun : comment le clan Moudiki a verrouillé son emprise sur la SNH",
           "url": "https://www.jeuneafrique.com/1761807/economie-entreprises/cameroun-comment-le-clan-moudiki-a-verrouille-son-emprise-sur-la-snh/",
           "source": "Jeune Afrique",
           "published": "2026-02-03T18:51:48",
@@ -1163,8 +1183,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
@@ -1176,23 +1196,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
           "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Militia",
           "count": 1
         },
         {
@@ -1200,11 +1204,27 @@
           "count": 1
         },
         {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "Militia",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -1225,13 +1245,21 @@
     "South Sudan": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.9,
-      "ratio": 1.6,
+      "baseline": 1.4,
+      "ratio": 2.18,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Election",
           "count": 1
         },
         {
@@ -1243,15 +1271,7 @@
           "count": 1
         },
         {
-          "word": "Election",
-          "count": 1
-        },
-        {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         },
         {
@@ -1302,55 +1322,70 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Mort",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Jean-Fidèle Otandault : « Le principal enjeu pour les économies africaines, ce n’est pas le niveau de la dette, c’est son coût »",
+          "url": "https://www.jeuneafrique.com/1761944/economie-entreprises/jean-fidele-otandault-le-principal-enjeu-pour-les-economies-africaines-ce-nest-pas-le-niveau-de-la-dette-cest-son-cout/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-04T09:00:07",
+          "lead": "Alors que plusieurs pays africains renégocient avec le FMI, l’ancien ministre du Budget du Gabon alerte sur un angle mor"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Congo": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 1.1,
-      "ratio": 2.67,
+      "ratio": 3.56,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Government",
+          "count": 3
+        },
+        {
+          "word": "M23",
           "count": 2
         },
         {
-          "word": "Violence",
-          "count": 1
+          "word": "Attack",
+          "count": 2
         },
         {
-          "word": "Attack",
-          "count": 1
+          "word": "Rebel",
+          "count": 2
         },
         {
           "word": "Minister",
           "count": 1
         },
         {
-          "word": "Militia",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Displaced",
           "count": 1
         },
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Rebel",
           "count": 1
         }
       ],
@@ -1371,6 +1406,13 @@
           "lead": "[Global Witness] Global Witness is calling for businesses and governments to better consider the human cost of rare eart"
         },
         {
+          "title": "Congo rebel leader claims responsibility for drone attack on strategic northeast airport",
+          "url": "https://www.dailymaverick.co.za/article/congo-rebel-leader-claims-responsibility-for-drone-attack-on-strategic-northeast",
+          "source": "Daily Maverick",
+          "published": "2026-02-04T12:05:43",
+          "lead": "The leader of the AFC/M23 rebel movement in Democratic Republic of Congo has claimed responsibility for a drone attack t"
+        },
+        {
           "title": "Central Africa: Civilians at Risk in Eastern Congo",
           "url": "https://www.hrw.org/news/2026/02/04/central-africa-civilians-at-risk-in-eastern-congo",
           "source": "Human Rights Watch",
@@ -1379,54 +1421,62 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
+        "Daily Maverick",
+        "Africanews",
         "AllAfrica",
-        "Africanews"
+        "Human Rights Watch"
       ]
     },
     "DRC": {
-      "article_count": 8,
-      "source_count": 4,
-      "baseline": 7.2,
-      "ratio": 1.1,
+      "article_count": 10,
+      "source_count": 6,
+      "baseline": 7.0,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 3
-        },
-        {
-          "word": "Gouvernement",
-          "count": 2
+          "count": 4
         },
         {
           "word": "Government",
-          "count": 2
+          "count": 3
         },
         {
           "word": "President",
           "count": 2
         },
         {
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Rebel",
+          "count": 2
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Attack",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Est de la RDC: l'AFC/M23 revendique les attaques de drones sur l'aéroport de Kisangani",
+          "url": "https://www.rfi.fr/fr/afrique/20260204-est-de-la-rdc-l-afc-m23-revendique-les-attaques-de-drones-sur-l-a%C3%A9roport-de-kisangani",
+          "source": "RFI Afrique",
+          "published": "2026-02-04T09:51:50",
+          "lead": "Les rebelles de l’AFC/M23 ont revendiqué l’attaque par drones de l’aéroport de Bangoka dans la ville de Kisangani, dans "
+        },
         {
           "title": "États-Unis: plusieurs délégations africaines à Washington pour un sommet sur les minerais critiques",
           "url": "https://www.rfi.fr/fr/afrique/20260204-%C3%A9tats-unis-plusieurs-d%C3%A9l%C3%A9gations-africaines-%C3%A0-washington-pour-un-sommet-sur-les-minerais-critiques",
@@ -1442,11 +1492,11 @@
           "lead": "C’est une nouvelle avancée pour les processus de paix concernant l’est de la République démocratique du Congo (RDC). Le "
         },
         {
-          "title": "Est de la RDC: les autorités appellent au calme après des attaques de drones sur l’aéroport de Kisangani",
-          "url": "https://www.rfi.fr/fr/afrique/20260203-est-de-la-rdc-les-autorit%C3%A9s-appellent-au-calme-apr%C3%A8s-des-attaques-de-drones-sur-l-a%C3%A9roport-de-kisangani",
-          "source": "RFI Afrique",
-          "published": "2026-02-03T08:56:06",
-          "lead": "Dans l'est de la République démocratique du Congo (RDC), le gouvernement provincial de la Tshopo a accusé dans un commun"
+          "title": "Duel RDC-Rwanda pour la tête de l’OIF : la ministre française de la Francophonie s’invite dans le débat",
+          "url": "https://www.jeuneafrique.com/1762194/politique/duel-rdc-rwanda-pour-la-tete-de-loif-la-ministre-francaise-de-la-francophonie-sinvite-dans-le-debat/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-04T11:25:00",
+          "lead": "Éléonore Caroit a affirme que « la France est ouverte à l’examen de toutes les candidatures », précisant que celles-ci s"
         },
         {
           "title": "DR Congo: authorities call for calm after drone attacks on airport",
@@ -1477,6 +1527,13 @@
           "lead": "[Global Witness] Global Witness is calling for businesses and governments to better consider the human cost of rare eart"
         },
         {
+          "title": "Congo rebel leader claims responsibility for drone attack on strategic northeast airport",
+          "url": "https://www.dailymaverick.co.za/article/congo-rebel-leader-claims-responsibility-for-drone-attack-on-strategic-northeast",
+          "source": "Daily Maverick",
+          "published": "2026-02-04T12:05:43",
+          "lead": "The leader of the AFC/M23 rebel movement in Democratic Republic of Congo has claimed responsibility for a drone attack t"
+        },
+        {
           "title": "Central Africa: Civilians at Risk in Eastern Congo",
           "url": "https://www.hrw.org/news/2026/02/04/central-africa-civilians-at-risk-in-eastern-congo",
           "source": "Human Rights Watch",
@@ -1485,10 +1542,12 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Human Rights Watch",
-        "AllAfrica",
+        "Daily Maverick",
+        "Africanews",
         "RFI Afrique",
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "São Tomé": {
@@ -1516,15 +1575,15 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Election",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Protest",
           "count": 1
         },
         {
@@ -1532,7 +1591,7 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1553,8 +1612,8 @@
     "Eritrea": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 0.6,
-      "ratio": 4.8,
+      "baseline": 0.8,
+      "ratio": 4.0,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1567,11 +1626,7 @@
           "count": 2
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Militia",
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1579,7 +1634,11 @@
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Militia",
           "count": 1
         }
       ],
@@ -1608,8 +1667,8 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
         "Africanews",
+        "Human Rights Watch",
         "BBC Africa"
       ]
     },
@@ -1628,8 +1687,8 @@
     "Ethiopia": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 4.8,
-      "ratio": 0.84,
+      "baseline": 4.5,
+      "ratio": 0.89,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1650,11 +1709,7 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Militia",
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1662,7 +1717,11 @@
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Militia",
           "count": 1
         }
       ],
@@ -1698,28 +1757,19 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
         "Africanews",
+        "Human Rights Watch",
         "BBC Africa"
       ]
     },
     "Somalia": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 0.76,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.2,
+      "ratio": 0.44,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1728,28 +1778,32 @@
           "source": "BBC Africa",
           "published": "2026-02-03T14:09:19",
           "lead": "Hodan Mohamud Diiriye faced a firing squad after being found guilty of beating Saabirin Saylaan to death."
-        },
-        {
-          "title": "Somalia: Somalia Launches Emergency Talks As Severe Drought Worsens",
-          "url": "https://allafrica.com/stories/202602030244.html",
-          "source": "AllAfrica",
-          "published": "2026-02-03T10:21:42",
-          "lead": "[Shabelle] Mogadishu -- Somali officials on Monday held an emergency meeting to address a deepening drought affecting la"
         }
       ],
       "sources": [
-        "AllAfrica",
         "BBC Africa"
       ]
     },
     "Uganda": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 2,
       "baseline": 4.1,
-      "ratio": 0.97,
+      "ratio": 1.21,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Election",
+          "count": 2
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
         {
           "word": "Government",
           "count": 1
@@ -1759,15 +1813,7 @@
           "count": 1
         },
         {
-          "word": "Election",
-          "count": 1
-        },
-        {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         },
         {
@@ -1777,6 +1823,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Uganda: Museveni Lines Up Six Witnesses to Defend 2026 Election Victory in Court",
+          "url": "https://allafrica.com/stories/202602040206.html",
+          "source": "AllAfrica",
+          "published": "2026-02-04T09:24:08",
+          "lead": "[Nile Post] President Museveni has lined up six witnesses who will defend his 2026 election victory in the Supreme Court"
+        },
         {
           "title": "Uganda: Bobi Wine Says Military Has Occupied His Magere Home",
           "url": "https://allafrica.com/stories/202602040045.html",
@@ -1812,27 +1865,23 @@
       ]
     },
     "Kenya": {
-      "article_count": 10,
-      "source_count": 5,
-      "baseline": 3.6,
-      "ratio": 2.76,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 8,
+      "source_count": 4,
+      "baseline": 4.5,
+      "ratio": 1.78,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Government",
           "count": 3
         },
         {
-          "word": "Attack",
-          "count": 2
-        },
-        {
           "word": "Minister",
           "count": 2
         },
         {
-          "word": "Militia",
+          "word": "Displaced",
           "count": 2
         },
         {
@@ -1840,7 +1889,11 @@
           "count": 2
         },
         {
-          "word": "Displaced",
+          "word": "Militia",
+          "count": 2
+        },
+        {
+          "word": "Attack",
           "count": 2
         },
         {
@@ -1854,13 +1907,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Banknote bouquets could land you in jail, Kenya's central bank warns",
-          "url": "https://www.bbc.com/news/articles/c4g012lz1l0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-03T09:28:35",
-          "lead": "Those defacing the currency could face seven years in jail, the central bank says ahead of Valentine's Day."
-        },
         {
           "title": "États-Unis: plusieurs délégations africaines à Washington pour un sommet sur les minerais critiques",
           "url": "https://www.rfi.fr/fr/afrique/20260204-%C3%A9tats-unis-plusieurs-d%C3%A9l%C3%A9gations-africaines-%C3%A0-washington-pour-un-sommet-sur-les-minerais-critiques",
@@ -1897,13 +1943,6 @@
           "lead": "[Capital FM] Nairobi -- Ugandan opposition leader Robert Kyagulanyi, popularly known as Bobi Wine, has claimed that the "
         },
         {
-          "title": "Kenya: Njoro Girls' High School Shut Indefinitely Following Student's Death",
-          "url": "https://allafrica.com/stories/202602030147.html",
-          "source": "AllAfrica",
-          "published": "2026-02-03T09:21:16",
-          "lead": "[Capital FM] Nakuru -- Njoro Girls' High School in Nakuru County has been closed indefinitely on after unrest erupted fo"
-        },
-        {
           "title": "Central Africa: Civilians at Risk in Eastern Congo",
           "url": "https://www.hrw.org/news/2026/02/04/central-africa-civilians-at-risk-in-eastern-congo",
           "source": "Human Rights Watch",
@@ -1926,27 +1965,26 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa",
         "Africanews",
-        "Human Rights Watch",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Rwanda": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 4,
-      "baseline": 3.6,
-      "ratio": 1.38,
+      "baseline": 3.5,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "M23",
-          "count": 2
+          "word": "Minister",
+          "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "M23",
           "count": 1
         },
         {
@@ -1954,15 +1992,15 @@
           "count": 1
         },
         {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Minister",
+          "word": "President",
           "count": 1
         },
         {
@@ -1970,25 +2008,18 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Attack",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Est de la RDC: les autorités appellent au calme après des attaques de drones sur l’aéroport de Kisangani",
-          "url": "https://www.rfi.fr/fr/afrique/20260203-est-de-la-rdc-les-autorit%C3%A9s-appellent-au-calme-apr%C3%A8s-des-attaques-de-drones-sur-l-a%C3%A9roport-de-kisangani",
-          "source": "RFI Afrique",
-          "published": "2026-02-03T08:56:06",
-          "lead": "Dans l'est de la République démocratique du Congo (RDC), le gouvernement provincial de la Tshopo a accusé dans un commun"
-        },
-        {
-          "title": "Génocide des Tutsis au Rwanda: le procès en appel de Claude Muhayimana s'ouvre à Paris",
-          "url": "https://www.rfi.fr/fr/afrique/20260203-g%C3%A9nocide-des-tutsis-au-rwanda-le-proc%C3%A8s-en-appel-de-claude-muhayimana-s-ouvre-%C3%A0-paris",
-          "source": "RFI Afrique",
-          "published": "2026-02-03T10:34:59",
-          "lead": "Claude Muhayimana est de retour devant la justice française. Son procès en appel pour complicité de génocide et crimes c"
+          "title": "Duel RDC-Rwanda pour la tête de l’OIF : la ministre française de la Francophonie s’invite dans le débat",
+          "url": "https://www.jeuneafrique.com/1762194/politique/duel-rdc-rwanda-pour-la-tete-de-loif-la-ministre-francaise-de-la-francophonie-sinvite-dans-le-debat/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-04T11:25:00",
+          "lead": "Éléonore Caroit a affirme que « la France est ouverte à l’examen de toutes les candidatures », précisant que celles-ci s"
         },
         {
           "title": "Appeal trial of accused Franco-Rwandan genocidaire opens in Paris",
@@ -2013,10 +2044,10 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
+        "Africanews",
         "AllAfrica",
-        "RFI Afrique",
-        "Africanews"
+        "Jeune Afrique",
+        "Human Rights Watch"
       ]
     },
     "Burundi": {
@@ -2028,23 +2059,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
           "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Militia",
           "count": 1
         },
         {
@@ -2052,11 +2067,27 @@
           "count": 1
         },
         {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "Militia",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -2083,6 +2114,14 @@
       "confidence": "low",
       "keywords": [
         {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        },
+        {
           "word": "Government",
           "count": 1
         },
@@ -2091,15 +2130,7 @@
           "count": 1
         },
         {
-          "word": "Election",
-          "count": 1
-        },
-        {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         },
         {
@@ -2124,7 +2155,7 @@
     "Madagascar": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 0.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -2134,16 +2165,26 @@
       "sources": []
     },
     "Comoros": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Comment la Française des jeux nourrit l’écosystème nocif des casinos en ligne aux Comores",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2026/02/04/comment-la-francaise-des-jeux-nourrit-l-ecosysteme-nocif-des-casinos-en-ligne-aux-comores_6665347_4355770.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-04T09:40:25",
+          "lead": "L’île comorienne d’Anjouan est un refuge réputé pour des casinos numériques aux pratiques illégales et néfastes. Une fil"
+        }
+      ],
+      "sources": [
+        "Le Monde Afrique"
+      ]
     },
     "Mauritius": {
       "article_count": 1,
@@ -2154,19 +2195,19 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Crisis",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Government",
           "count": 1
         },
         {
           "word": "Protest",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         }
       ],
@@ -2207,23 +2248,15 @@
       ]
     },
     "Zambia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.6,
-      "ratio": 3.2,
-      "status": "high",
-      "confidence": "medium",
+      "ratio": 1.6,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "President",
-          "count": 1
-        },
-        {
           "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         },
         {
@@ -2231,7 +2264,11 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Protest",
           "count": 1
         },
         {
@@ -2239,19 +2276,12 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Zambia awaits Edgar Lungu’s funeral as burial dispute drags on",
-          "url": "http://www.africanews.com/2026/02/03/zambia-awaits-edgar-lungus-funeral-as-burial-dispute-drags-on/",
-          "source": "Africanews",
-          "published": "2026-02-03T09:24:16",
-          "lead": "Eight months after the death of former Zambian president Edgar Lungu, on 5 June 2025 in South Africa, the question of wh"
-        },
         {
           "title": "Southern Africa: Grave Rights Abuses, Impunity Persist",
           "url": "https://www.hrw.org/news/2026/02/04/southern-africa-grave-rights-abuses-impunity-persist",
@@ -2261,8 +2291,7 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "Africanews"
+        "Human Rights Watch"
       ]
     },
     "Malawi": {
@@ -2290,7 +2319,7 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Protest",
           "count": 1
         },
         {
@@ -2298,7 +2327,7 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -2327,16 +2356,16 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
+        "Africanews",
         "AllAfrica",
-        "Africanews"
+        "Human Rights Watch"
       ]
     },
     "Mozambique": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.2,
-      "ratio": 0.62,
+      "baseline": 2.9,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2345,15 +2374,15 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Election",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Protest",
           "count": 1
         },
         {
@@ -2361,7 +2390,7 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -2390,8 +2419,8 @@
     "Zimbabwe": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 1.78,
+      "baseline": 1.2,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -2400,15 +2429,15 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Election",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Protest",
           "count": 1
         },
         {
@@ -2416,7 +2445,7 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -2438,8 +2467,8 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "Africanews"
+        "Africanews",
+        "Human Rights Watch"
       ]
     },
     "Namibia": {
@@ -2492,19 +2521,19 @@
       ]
     },
     "South Africa": {
-      "article_count": 23,
-      "source_count": 8,
-      "baseline": 13.1,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 19,
+      "source_count": 7,
+      "baseline": 13.5,
+      "ratio": 1.41,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 2
+          "word": "Government",
+          "count": 3
         },
         {
-          "word": "Government",
+          "word": "Election",
           "count": 2
         },
         {
@@ -2520,33 +2549,29 @@
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "Killed",
           "count": 1
         },
         {
           "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Leader of South Africa's second largest party will not seek re-election",
+          "url": "https://www.bbc.com/news/articles/c5yvneqg1xxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-04T09:32:09",
+          "lead": "The surprise move may threaten the stability of the coalition government of which the DA is a key partner."
+        },
+        {
           "title": "Why a beauty spot in South Africa could be about to run out of water",
           "url": "https://www.bbc.com/news/articles/cy8pleg24rvo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
           "published": "2026-02-04T00:41:49",
           "lead": "Official estimates suggest that around 55% of the town's drinkable water is lost to leaking pipes."
-        },
-        {
-          "title": "South Africa's ex-President Zuma mentioned in Epstein emails over London dinner plan",
-          "url": "https://www.bbc.com/news/articles/clym08n2kggo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-03T12:25:24",
-          "lead": "The correspondence describes arrangements for a meal and there is no indication of wrongdoing by Zuma."
         },
         {
           "title": "Trump renews lapsed trade subsidy pact with Africa",
@@ -2568,20 +2593,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-03T14:21:54",
           "lead": "Alors que l’Union européenne entend développer ses relations avec le continent, l’entrée en vigueur d’une nouvelle taxe "
-        },
-        {
-          "title": "Zambia awaits Edgar Lungu’s funeral as burial dispute drags on",
-          "url": "http://www.africanews.com/2026/02/03/zambia-awaits-edgar-lungus-funeral-as-burial-dispute-drags-on/",
-          "source": "Africanews",
-          "published": "2026-02-03T09:24:16",
-          "lead": "Eight months after the death of former Zambian president Edgar Lungu, on 5 June 2025 in South Africa, the question of wh"
-        },
-        {
-          "title": "South Africa’s Tyla secures second Grammy win",
-          "url": "http://www.africanews.com/2026/02/03/south-africas-tyla-secures-second-grammy-win/",
-          "source": "Africanews",
-          "published": "2026-02-03T08:58:12",
-          "lead": "South African pop star Tyla has claimed another major milestone in her fast-rising career, winning the Grammy Award for "
         },
         {
           "title": "South Africa: Johannesburg Races to Restore Water in Midrand - South African News Briefs - February 4, 2025",
@@ -2612,38 +2623,51 @@
           "lead": "[Scrolla] MEC Xolile Nqatha said 82 prisoners remain at large after escaping Eastern Cape police custody over three fina"
         },
         {
-          "title": "THEATRE REVIEW: Maynardville’s Twelfth Night: Shakespeare’s middle finger to romantic convention",
-          "url": "https://www.dailymaverick.co.za/article/maynardvilles-twelfth-night-shakespeares-middle-finger-to-romantic-convention",
+          "title": "South Africa: South Africa Joins Afreximbank, Announces US$8bn Country Programme",
+          "url": "https://allafrica.com/stories/202602040333.html",
+          "source": "AllAfrica",
+          "published": "2026-02-04T10:57:51",
+          "lead": "[Afreximbank] The Republic of South Africa has today officially acceded to the Establishment Agreement of the African Ex"
+        },
+        {
+          "title": "INTERNATIONAL RELATIONS: US condemns South Africa’s expulsion of Israeli diplomat",
+          "url": "https://www.dailymaverick.co.za/article/us-condemns-south-africas-expulsion-of-israeli-diplomat",
           "source": "Daily Maverick",
-          "published": "2026-02-04T07:00:00",
-          "lead": "At Maynardville in Cape Town, director Steven Stead and a formidable cast have created a Twelfth Night that’s a genuinel"
+          "published": "2026-02-04T04:38:28",
+          "lead": "The United States on Tuesday condemned South Africa’s decision to expel Israel’s top diplomat last week, a State Departm"
+        },
+        {
+          "title": "AGE OF THE ASSASSIN: Cape Town ANC councillor Lazola Gungxe gunned down after community meeting",
+          "url": "https://www.dailymaverick.co.za/article/cape-town-anc-councillor-lazola-gungxe-gunned-down-after-community-meeting",
+          "source": "Daily Maverick",
+          "published": "2026-02-03T20:13:30",
+          "lead": "The ANC described Councillor Lazola Gungxe as ‘not only a colleague, but a comrade and a friend’, while the police say t"
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "AllAfrica",
         "BBC Africa",
-        "Daily Maverick",
-        "Africanews",
         "Human Rights Watch",
-        "DW Africa",
-        "RFI Afrique"
+        "Daily Maverick",
+        "AllAfrica",
+        "RFI Afrique",
+        "DW Africa"
       ]
     },
     "Eswatini": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 4.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Violence",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
-          "word": "Government",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -2651,7 +2675,7 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Protest",
           "count": 1
         },
         {
@@ -2659,12 +2683,19 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Eswatini high court dismisses case challenging deal on U.S. deportees",
+          "url": "https://www.dailymaverick.co.za/article/eswatini-high-court-dismisses-case-challenging-deal-on-us-deportees",
+          "source": "Daily Maverick",
+          "published": "2026-02-04T12:26:42",
+          "lead": "Eswatini's high court has dismissed a case filed by human rights lawyers who argued that the government's deal with the "
+        },
         {
           "title": "Southern Africa: Grave Rights Abuses, Impunity Persist",
           "url": "https://www.hrw.org/news/2026/02/04/southern-africa-grave-rights-abuses-impunity-persist",
@@ -2674,6 +2705,7 @@
         }
       ],
       "sources": [
+        "Daily Maverick",
         "Human Rights Watch"
       ]
     },
