@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-07T07:44:46.501560",
+  "generated_at": "2026-02-07T09:55:59.527111",
   "summary": {
-    "high": 5,
+    "high": 0,
     "elevated": 4,
-    "normal": 30,
-    "quiet": 15
+    "normal": 29,
+    "quiet": 21
   },
   "countries": {
     "Morocco": {
@@ -59,11 +59,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
         "The Guardian Africa",
-        "Le Monde Afrique"
+        "Africanews",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -113,8 +113,8 @@
     "Libya": {
       "article_count": 5,
       "source_count": 5,
-      "baseline": 4.2,
-      "ratio": 1.2,
+      "baseline": 4.1,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -162,30 +162,21 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "France24 Afrique",
         "Al Jazeera",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "France24 Afrique",
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.96,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -194,67 +185,54 @@
           "source": "Al Jazeera",
           "published": "2026-02-07T06:49:42",
           "lead": "Toxic waters of Lake Qarun devastate fishermen&#039;s livelihoods, leaving boats idle and restaurants empty along its sh"
-        },
-        {
-          "title": "UAE aid ships reach Egypt as Gaza crossings reopen amid ongoing violence",
-          "url": "http://www.africanews.com/2026/02/06/uae-aid-ships-reach-egypt-as-gaza-crossings-reopen-amid-ongoing-violence/",
-          "source": "Africanews",
-          "published": "2026-02-06T09:39:37",
-          "lead": "UAE aid and field hospital vessels have arrived at the port of Arish in Egypt’s North Sinai, just miles from the Rafah c"
         }
       ],
       "sources": [
-        "Africanews",
         "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 8,
-      "source_count": 4,
-      "baseline": 5.4,
-      "ratio": 1.49,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 5.5,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 5
+          "word": "Attack",
+          "count": 1
         },
         {
           "word": "Famine",
-          "count": 3
+          "count": 1
         },
         {
-          "word": "Attack",
-          "count": 3
+          "word": "Humanitarian",
+          "count": 1
         },
         {
-          "word": "Displaced",
-          "count": 3
-        },
-        {
-          "word": "Refugees",
-          "count": 2
+          "word": "Rsf",
+          "count": 1
         },
         {
           "word": "War",
-          "count": 2
+          "count": 1
         },
         {
-          "word": "Government",
-          "count": 2
+          "word": "Refugees",
+          "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 2
+          "word": "Élection",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Attack",
-          "Humanitarian"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "UN, US condemn RSF drone strikes on aid deliveries in famine-hit Sudan",
@@ -276,48 +254,12 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-06T17:33:28",
           "lead": "Au Soudan du Sud, le gouvernement a nommé par erreur au comité chargé de préparer l’élection présidentielle un homme mor"
-        },
-        {
-          "title": "South Sudan: Conflict in Jonglei State - Flash Update No. 5 (as of 6 February 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-5-6-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T18:40:45",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
-        },
-        {
-          "title": "Attack on aid trucks transporting food in North Kordofan, Statement by the United Nations Resident and Humanitarian Coordinator in Sudan, Denise Brown [EN]",
-          "url": "https://reliefweb.int/report/sudan/attack-aid-trucks-transporting-food-north-kordofan-statement-united-nations-resident-and-humanitarian-coordinator-sudan-denise-brown-en",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T16:57:55",
-          "lead": "Country: Sudan\n                                      Sources: UN Office for the Coordination of Humanitarian Affairs, UN"
-        },
-        {
-          "title": "South Sudan: Protection Cluster Information Management Strategy (February 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-protection-cluster-information-management-strategy-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:33:07",
-          "lead": "Country: South Sudan\n                                      Source: Protection Cluster\n                                  "
-        },
-        {
-          "title": "WFP Sudan Market Monitor - January 2026",
-          "url": "https://reliefweb.int/report/sudan/wfp-sudan-market-monitor-january-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T12:42:25",
-          "lead": "Country: Sudan\n                                      Source: World Food Programme\n                                      "
-        },
-        {
-          "title": "22 INGOs raise concerns about deepening starvation in Sudan",
-          "url": "https://reliefweb.int/report/sudan/22-ingos-raise-concerns-about-deepening-starvation-sudan",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T11:03:10",
-          "lead": "Country: Sudan\n                                      Source: Plan International\n                                        "
         }
       ],
       "sources": [
-        "DW Africa",
-        "ReliefWeb",
+        "Al Jazeera",
         "Le Monde Afrique",
-        "Al Jazeera"
+        "DW Africa"
       ]
     },
     "Mauritania": {
@@ -334,30 +276,18 @@
     },
     "Mali": {
       "article_count": 4,
-      "source_count": 4,
+      "source_count": 3,
       "baseline": 4.1,
       "ratio": 0.98,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
           "word": "Combat",
           "count": 1
         },
         {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -369,6 +299,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-06T14:47:54",
           "lead": "Au Mali, les jihadistes du Jnim ont mené une attaque meurtrière le 4 février 2026 à Kendié, dans la région de Bandiagara"
+        },
+        {
+          "title": "« De maigres gains pour les pauvres » : le poids des inégalités sociales dans le Mali d’Assimi Goïta",
+          "url": "https://www.jeuneafrique.com/1762741/politique/de-maigres-gains-pour-les-pauvres-le-poids-des-inegalites-sociales-dans-le-mali-dassimi-goita/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-07T10:09:29",
+          "lead": "La hausse des revenus aurifères et les réformes menées au nom du souverainisme ont renforcé la junte malienne et ses all"
         },
         {
           "title": "Au Mali, Youssouf Sissoko, directeur du journal L’Alternance, arrêté pour avoir critiqué le général Tiani",
@@ -383,44 +320,24 @@
           "source": "Africanews",
           "published": "2026-02-06T11:33:32",
           "lead": "Dubbed \"the blind couple from Mali\", Amadou and Mariam became one of Africa's best-selling and beloved pairs, playing al"
-        },
-        {
-          "title": "UNHCR Niger: Personnes relevant de la compétence du HCR - 31 Janvier 2026",
-          "url": "https://reliefweb.int/report/niger/unhcr-niger-personnes-relevant-de-la-competence-du-hcr-31-janvier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T10:03:14",
-          "lead": "Country: Niger\n                                      Source: UN High Commissioner for Refugees\n                         "
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.9,
-      "ratio": 0.69,
+      "ratio": 0.34,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -432,42 +349,22 @@
           "source": "AllAfrica",
           "published": "2026-02-06T10:32:04",
           "lead": "[Daily Trust] The United Nations rights chief, on Thursday, called on the Burkina Faso government to halt all repression"
-        },
-        {
-          "title": "UNHCR Niger: Personnes relevant de la compétence du HCR - 31 Janvier 2026",
-          "url": "https://reliefweb.int/report/niger/unhcr-niger-personnes-relevant-de-la-competence-du-hcr-31-janvier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T10:03:14",
-          "lead": "Country: Niger\n                                      Source: UN High Commissioner for Refugees\n                         "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Niger": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 5.5,
-      "ratio": 0.54,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 5.6,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -486,26 +383,18 @@
           "source": "Jeune Afrique",
           "published": "2026-02-06T10:23:58",
           "lead": "Le journaliste Youssouf Sissoko reproche à Abdourahamane Tiani de faire du Niger un « laboratoire pour une expérimentati"
-        },
-        {
-          "title": "UNHCR Niger: Personnes relevant de la compétence du HCR - 31 Janvier 2026",
-          "url": "https://reliefweb.int/report/niger/unhcr-niger-personnes-relevant-de-la-competence-du-hcr-31-janvier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T10:03:14",
-          "lead": "Country: Niger\n                                      Source: UN High Commissioner for Refugees\n                         "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
       "article_count": 6,
       "source_count": 3,
-      "baseline": 4.9,
-      "ratio": 1.22,
+      "baseline": 5.0,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -555,38 +444,28 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Gambia": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.1,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.8,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "The Gambia : Departure Areas Monitoring Tool — Movements to the Canary Islands (November - December 2025)",
-          "url": "https://reliefweb.int/report/gambia/gambia-departure-areas-monitoring-tool-movements-canary-islands-november-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:33:38",
-          "lead": "Country: Gambia\n                                      Source: International Organization for Migration\n                 "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Guinea-Bissau": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.0,
+      "baseline": 1.1,
+      "ratio": 0.92,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -607,8 +486,8 @@
     "Guinea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 0.5,
+      "baseline": 2.1,
+      "ratio": 0.48,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -639,32 +518,22 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.3,
-      "ratio": 0.79,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "West Africa: Ecowas Single Currency Agenda Takes Center Stage",
-          "url": "https://allafrica.com/stories/202602060103.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T08:35:11",
-          "lead": "[Liberian Observer] Liberia on Thursday, February 5, 2026, firmly positioned itself at the heart of regional economic in"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Côte d'Ivoire": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 0.79,
+      "baseline": 2.6,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -686,15 +555,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Ghana": {
       "article_count": 4,
       "source_count": 3,
       "baseline": 2.5,
-      "ratio": 1.63,
+      "ratio": 1.57,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -743,9 +612,9 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "AllAfrica",
-        "Africanews",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Togo": {
@@ -773,10 +642,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 12,
-      "source_count": 7,
+      "article_count": 11,
+      "source_count": 6,
       "baseline": 9.8,
-      "ratio": 1.22,
+      "ratio": 1.12,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -798,18 +667,6 @@
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -891,20 +748,12 @@
           "source": "AllAfrica",
           "published": "2026-02-06T10:39:36",
           "lead": "[Leadership] Three men have been sentenced to death by hanging by an Osun State High Court sitting in Iwo for murder."
-        },
-        {
-          "title": "UNHCR Niger: Personnes relevant de la compétence du HCR - 31 Janvier 2026",
-          "url": "https://reliefweb.int/report/niger/unhcr-niger-personnes-relevant-de-la-competence-du-hcr-31-janvier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T10:03:14",
-          "lead": "Country: Niger\n                                      Source: UN High Commissioner for Refugees\n                         "
         }
       ],
       "sources": [
         "BBC Africa",
-        "The Guardian Africa",
-        "ReliefWeb",
         "France24 Afrique",
+        "The Guardian Africa",
         "Africanews",
         "RFI Afrique",
         "AllAfrica"
@@ -923,22 +772,13 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 2.5,
-      "ratio": 1.57,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.6,
+      "ratio": 0.76,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -954,35 +794,20 @@
           "source": "France24 Afrique",
           "published": "2026-02-06T22:53:28",
           "lead": "Chaque 6 février, la communauté internationale se mobilise contre les mutilations génitales féminines. Au Tchad, cette p"
-        },
-        {
-          "title": "UNHCR Chad | Mapping of Displaced and Migrant Populations in Chad by Province (jan. 2026)",
-          "url": "https://reliefweb.int/map/chad/unhcr-chad-mapping-displaced-and-migrant-populations-chad-province-jan-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T10:03:20",
-          "lead": "Country: Chad\n                                      Source: UN High Commissioner for Refugees\n                          "
-        },
-        {
-          "title": "UNHCR Tchad | Cartographie des Populations Déplacées de forceet Migrantes au Tchad par Province",
-          "url": "https://reliefweb.int/map/chad/unhcr-tchad-cartographie-des-populations-deplacees-de-forceet-migrantes-au-tchad-par-province",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T10:03:17",
-          "lead": "Country: Chad\n                                      Source: UN High Commissioner for Refugees\n                          "
         }
       ],
       "sources": [
         "RFI Afrique",
-        "ReliefWeb",
         "France24 Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.71,
+      "baseline": 2.7,
+      "ratio": 0.37,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -992,13 +817,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-06T13:00:16",
           "lead": "Au Cameroun, une vidéo mensongère sème le doute sur Tik Tok. Ce clip prétend montrer, à tort, l’arrivée de plusieurs mis"
-        },
-        {
-          "title": "Cameroun: une liste d’agents publics supposés absents du pays agace dans l'Enseignement supérieur",
-          "url": "https://www.rfi.fr/fr/afrique/20260206-cameroun-une-liste-d-agents-publics-suppos%C3%A9s-absents-du-pays-agace-dans-l-enseignement-sup%C3%A9rieur",
-          "source": "RFI Afrique",
-          "published": "2026-02-06T12:48:55",
-          "lead": "Au Cameroun, une liste fait grincer quelques dents. Elle est en circulation sur les réseaux sociaux depuis fin janvier, "
         }
       ],
       "sources": [
@@ -1006,78 +824,39 @@
       ]
     },
     "CAR": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.1,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 0.92,
+      "baseline": 2.4,
+      "ratio": 0.42,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitaire",
+          "word": "Élection",
           "count": 1
         },
         {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "CAR: ASSISTANCE EN ESPÈCES ET BONS D’ACHAT (CVA) : 1er janvier - 30 septembre 2025",
-          "url": "https://reliefweb.int/report/central-african-republic/assistance-en-especes-et-bons-dachat-cva-1er-janvier-30-septembre-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T14:26:59",
-          "lead": "Country: Central African Republic\n                                      Sources: UN Office for the Coordination of Human"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
-    },
-    "South Sudan": {
-      "article_count": 7,
-      "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 2.96,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Crisis",
-          "count": 4
-        },
-        {
-          "word": "Humanitarian",
-          "count": 4
-        },
-        {
-          "word": "Government",
-          "count": 3
-        },
-        {
-          "word": "Displaced",
-          "count": 3
-        },
-        {
-          "word": "Violence",
-          "count": 2
-        },
-        {
-          "word": "Fighting",
-          "count": 2
-        },
-        {
-          "word": "Mort",
+          "word": "Président",
           "count": 1
         },
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -1089,52 +868,9 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-06T17:33:28",
           "lead": "Au Soudan du Sud, le gouvernement a nommé par erreur au comité chargé de préparer l’élection présidentielle un homme mor"
-        },
-        {
-          "title": "South Sudan: Conflict in Jonglei State - Flash Update No. 5 (as of 6 February 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-5-6-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T18:40:45",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
-        },
-        {
-          "title": "South Sudan: Humanitarian Snapshot (January 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-snapshot-january-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T18:03:35",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
-        },
-        {
-          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 6 Feb 2026",
-          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-6-feb-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T17:48:55",
-          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
-        },
-        {
-          "title": "South Sudan - Intersectoral Needs Assessment (September - November 2025)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-intersectoral-needs-assessment-september-november-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:33:41",
-          "lead": "Country: South Sudan\n                                      Source: International Organization for Migration\n            "
-        },
-        {
-          "title": "South Sudan: Protection Cluster Information Management Strategy (February 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-protection-cluster-information-management-strategy-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:33:07",
-          "lead": "Country: South Sudan\n                                      Source: Protection Cluster\n                                  "
-        },
-        {
-          "title": "South Sudan - Physical Access Constraints Map, 05 February 2026",
-          "url": "https://reliefweb.int/map/south-sudan/south-sudan-physical-access-constraints-map-05-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:10:05",
-          "lead": "Country: South Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n            "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Le Monde Afrique"
       ]
     },
@@ -1151,16 +887,26 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.57,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Finance : pourquoi l’IPO de BGFI était aussi un test de confiance pour Henri-Claude Oyima",
+          "url": "https://www.jeuneafrique.com/1762950/economie-entreprises/finance-pourquoi-lipo-de-bgfi-etait-aussi-un-test-de-confiance-pour-henri-claude-oyima/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-07T10:05:34",
+          "lead": "La maison mère de BGFIBank a fait son entrée à la Bourse après une campagne de souscription qui s’est terminée le vendre"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Congo": {
       "article_count": 2,
@@ -1199,9 +945,9 @@
     },
     "DRC": {
       "article_count": 11,
-      "source_count": 4,
-      "baseline": 8.3,
-      "ratio": 1.33,
+      "source_count": 3,
+      "baseline": 8.1,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1214,12 +960,16 @@
           "count": 2
         },
         {
+          "word": "Terroriste",
+          "count": 2
+        },
+        {
           "word": "Attaque",
           "count": 2
         },
         {
-          "word": "Terroriste",
-          "count": 2
+          "word": "Guerre",
+          "count": 1
         },
         {
           "word": "Coup",
@@ -1241,6 +991,13 @@
         ]
       ],
       "articles": [
+        {
+          "title": "Les Congolais sont désormais majoritaires parmi les primo-demandeurs d'asile à Mayotte",
+          "url": "https://www.rfi.fr/fr/afrique/20260207-les-congolais-sont-d%C3%A9sormais-majoritaires-parmi-les-primo-demandeurs-d-asile-%C3%A0-mayotte",
+          "source": "RFI Afrique",
+          "published": "2026-02-07T08:32:01",
+          "lead": "Mayotte, le département français de l’océan Indien s’impose comme une nouvelle destination pour les Congolais issus de l"
+        },
         {
           "title": "Félix Tshisekedi et l'opposant Martin Fayulu se sont rencontrés à Washington",
           "url": "https://www.rfi.fr/fr/afrique/20260207-f%C3%A9lix-tshisekedi-et-l-opposant-martin-fayulu-se-sont-rencontr%C3%A9s-%C3%A0-washington",
@@ -1310,20 +1067,12 @@
           "source": "AllAfrica",
           "published": "2026-02-06T10:33:32",
           "lead": "[Nile Post] Rwandan President Paul Kagame on Thursday chaired the 2026 Umushyikirano National Dialogue at the Kigali Con"
-        },
-        {
-          "title": "DR Congo: RDC — Ituri: Suivi des mouvements 14 (décembre 2025)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/rdc-ituri-suivi-des-mouvements-14-decembre-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:33:19",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Organization for M"
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "Jeune Afrique",
         "RFI Afrique",
-        "AllAfrica",
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "São Tomé": {
@@ -1339,26 +1088,13 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 3.67,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "ratio": 1.83,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1367,17 +1103,9 @@
           "source": "AllAfrica",
           "published": "2026-02-06T16:32:46",
           "lead": "[Maka] On the first day of Angola's taxi drivers' strike, two teenage cousins left home in different parts of Luanda on "
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -1406,27 +1134,15 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.5,
-      "ratio": 0.58,
+      "ratio": 0.29,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1438,54 +1154,23 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-06T16:30:09",
           "lead": "Dans un discours au Parlement, le premier ministre éthiopien, Abiy Ahmed, a accusé, pour la première fois, les troupes é"
-        },
-        {
-          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 6 Feb 2026",
-          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-6-feb-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T17:48:55",
-          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Le Monde Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.9,
-      "ratio": 0.52,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 6 Feb 2026",
-          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-6-feb-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T17:48:55",
-          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Uganda": {
       "article_count": 2,
@@ -1496,11 +1181,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Refugees",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -1529,8 +1214,8 @@
     "Kenya": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 3.9,
-      "ratio": 1.02,
+      "baseline": 4.0,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1545,7 +1230,7 @@
           "title": "Drought in Kenya spreads beyond arid north",
           "url": "http://www.africanews.com/2026/02/07/drought-in-kenya-spreads-beyond-arid-north/",
           "source": "Africanews",
-          "published": "2026-02-07T07:24:58",
+          "published": "2026-02-07T08:11:22",
           "lead": "After one of the driest rainy seasons on record at the end of 2025, drought is spreading in Kenya. This time, it is also"
         },
         {
@@ -1634,26 +1319,13 @@
       "sources": []
     },
     "Tanzania": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.29,
+      "ratio": 0.65,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1662,41 +1334,20 @@
           "source": "AllAfrica",
           "published": "2026-02-06T11:48:24",
           "lead": "[Daily News] Nairobi -- THE Ethics and Anti-Corruption Commission (EACC) recently released a 2024 report on corruption i"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Madagascar": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 2.59,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "ratio": 0.65,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1705,32 +1356,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-06T13:38:47",
           "lead": "À Madagascar, on l’appelle la « maladie de la honte », mais c’est avant tout une pathologie de l'isolement. La fistule o"
-        },
-        {
-          "title": "Tropical Cyclone Fytia in Madagascar - 5 February 2026",
-          "url": "https://reliefweb.int/report/madagascar/tropical-cyclone-fytia-madagascar-5-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T17:59:25",
-          "lead": "Country: Madagascar\n                                      Source: Data Friendly Space\n                                  "
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
-        },
-        {
-          "title": "Madagascar - Tropical cyclone 10-20252026 (BNGRC, GDACS, Meteo Madagascar, MeteoFrance - La Reunion) (ECHO Daily Flash of 6 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/madagascar-tropical-cyclone-10-20252026-bngrc-gdacs-meteo-madagascar-meteofrance-la-reunion-echo-daily-flash-6-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T12:29:10",
-          "lead": "Countries: Madagascar, Mauritius, Réunion (France)\n                                      Source: European Commission's D"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -1746,35 +1375,16 @@
       "sources": []
     },
     "Mauritius": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Madagascar - Tropical cyclone 10-20252026 (BNGRC, GDACS, Meteo Madagascar, MeteoFrance - La Reunion) (ECHO Daily Flash of 6 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/madagascar-tropical-cyclone-10-20252026-bngrc-gdacs-meteo-madagascar-meteofrance-la-reunion-echo-daily-flash-6-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T12:29:10",
-          "lead": "Countries: Madagascar, Mauritius, Réunion (France)\n                                      Source: European Commission's D"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Seychelles": {
       "article_count": 0,
@@ -1789,27 +1399,15 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.3,
-      "ratio": 2.36,
+      "ratio": 1.57,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1828,51 +1426,31 @@
           "source": "AllAfrica",
           "published": "2026-02-06T11:23:36",
           "lead": "[Ghanaian Times] Ghana and Zambia have agreed to deepen their decades-old bilateral relations, with a renewed focus on e"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "BBC Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Malawi": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 3.24,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.94,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        },
         {
           "word": "Crisis",
           "count": 1
         },
         {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "Election",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1898,35 +1476,20 @@
           "source": "AllAfrica",
           "published": "2026-02-06T11:36:13",
           "lead": "[Nyasa Times] Every election season, Malawi's politically active youths give their all. They knock on doors, mobilize vo"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
-        },
-        {
-          "title": "WFP Malawi Markets and Minimum Expenditure Basket Monitoring Bulletin, January 2026",
-          "url": "https://reliefweb.int/report/malawi/wfp-malawi-markets-and-minimum-expenditure-basket-monitoring-bulletin-january-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T12:32:50",
-          "lead": "Country: Malawi\n                                      Source: World Food Programme\n                                     "
         }
       ],
       "sources": [
         "AllAfrica",
-        "ReliefWeb",
         "Africanews"
       ]
     },
     "Mozambique": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 2.9,
-      "ratio": 1.72,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.03,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Violence",
@@ -1935,29 +1498,10 @@
         {
           "word": "President",
           "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Cholera vaccination resumes in Mozambique after nearly 4-year halt",
-          "url": "http://www.africanews.com/2026/02/06/cholera-vaccination-resumes-in-mozambique-after-nearly-4-year-halt/",
-          "source": "Africanews",
-          "published": "2026-02-06T08:30:56",
-          "lead": "Mozambique is one of the priority countries after devastating flooding in the southern African nation last month affecte"
-        },
         {
           "title": "Mozambique: Terrorists Claim Deaths of Nine Soldiers",
           "url": "https://allafrica.com/stories/202602060497.html",
@@ -1973,33 +1517,24 @@
           "lead": "[AIM] Maputo -- Mozambican President Daniel Chapo on Thursday strongly condemned the attempt the previous day to assassi"
         },
         {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
-        },
-        {
-          "title": "Mozambique — Floods - Flash Update #6 (5 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/mozambique-floods-flash-update-6-5-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:33:47",
-          "lead": "Country: Mozambique\n                                      Sources: CCCM Cluster, International Organization for Migratio"
+          "title": "Mozambique: Mozambique and UAE to Deepen Cooperation in Agriculture",
+          "url": "https://allafrica.com/stories/202602060496.html",
+          "source": "AllAfrica",
+          "published": "2026-02-06T16:00:52",
+          "lead": "[AIM] Maputo -- The governments of Mozambique and the United Arab Emirates (UAE) have expressed their willingness to dee"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb",
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "Zimbabwe": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 1.8,
-      "ratio": 2.75,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 1.9,
+      "ratio": 2.1,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "War",
@@ -2011,18 +1546,6 @@
         },
         {
           "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -2055,55 +1578,24 @@
           "source": "AllAfrica",
           "published": "2026-02-06T18:10:01",
           "lead": "[263Chat] President Emmerson Mnangagwa has called on ZANU PF Central Committee members to take a leading role in fightin"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
         }
       ],
       "sources": [
         "AllAfrica",
-        "ReliefWeb",
         "Africanews"
       ]
     },
     "Namibia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.38,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Botswana": {
       "article_count": 0,
@@ -2118,10 +1610,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 8,
-      "source_count": 4,
+      "article_count": 7,
+      "source_count": 3,
       "baseline": 11.5,
-      "ratio": 0.7,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2130,23 +1622,7 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -2181,13 +1657,6 @@
           "lead": "[Health-e] South Africa has moved a step closer to an HIV vaccine with the launch of the BRILLIANT 011 clinical trial at"
         },
         {
-          "title": "South Africa: 'There Are Good People Out There Who Want to Do Good Things' - How Healthcare Services Are Being Taken to Rural Western Cape Farms",
-          "url": "https://allafrica.com/stories/202602060110.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T08:47:55",
-          "lead": "[spotlight] The health department in the Western Cape is partnering with farms in the Cape Winelands to provide easier a"
-        },
-        {
           "title": "South Africa: Home Affairs Committee Concludes Nationwide Public Hearings On Marriage Bill",
           "url": "https://allafrica.com/stories/202602060510.html",
           "source": "AllAfrica",
@@ -2195,61 +1664,37 @@
           "lead": "[Parliament of South Africa] The Portfolio Committee on Home Affairs has concluded its provincial public participation p"
         },
         {
+          "title": "South Africa: State Forestry Company Troubled By Timber Theft and Illegal Mining in Its Mpumalanga Plantations",
+          "url": "https://allafrica.com/stories/202602060508.html",
+          "source": "AllAfrica",
+          "published": "2026-02-06T16:09:40",
+          "lead": "[Parliament of South Africa] The South African Forestry Company Limited (SAFCOL) is losing millions of rands from timber"
+        },
+        {
           "title": "WATER CRISIS: Nobody cares, rage Joburg residents as water outages worsen",
           "url": "https://www.dailymaverick.co.za/article/nobody-cares-rage-joburg-residents-as-water-outages-worsen",
           "source": "Daily Maverick",
           "published": "2026-02-06T13:21:39",
           "lead": "The current water outages in parts of Johannesburg caused by a multi-system failure have led to residents being without "
-        },
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "BBC Africa",
         "Daily Maverick",
-        "AllAfrica"
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Eswatini": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Southern Africa: Flooding Update (As of 4 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-flooding-update-4-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-06T13:37:59",
-          "lead": "Countries: Mozambique, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia, Zimbabwe\n       "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Lesotho": {
       "article_count": 0,
