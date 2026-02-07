@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-07T19:04:32.934576",
+  "generated_at": "2026-02-07T21:52:42.952687",
   "summary": {
     "high": 0,
     "elevated": 2,
@@ -8,10 +8,10 @@
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 4,
-      "baseline": 5.2,
-      "ratio": 0.77,
+      "baseline": 5.3,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -28,6 +28,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-07T13:04:20",
           "lead": "Au Maroc, les dix-huit supporters sénégalais - toujours détenus au Maroc, après les incidents violents, en fin de match "
+        },
+        {
+          "title": "Inondations au Maroc, environ 150.000 personnes évacuées selon les autorités",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260207-inondations-au-maroc-environ-150-000-personnes-%C3%A9vacu%C3%A9es-selon-les-autorit%C3%A9s",
+          "source": "France24 Afrique",
+          "published": "2026-02-07T21:26:52",
+          "lead": "Une succession de dépression s'abat depuis une semaine sur le nord-ouest du Maroc. De larges zones des provinces de Sidi"
         },
         {
           "title": "Au Maroc, lancement de la 11ème édition du Raid Sahraouiya, un défi sportif 100% féminin",
@@ -61,8 +68,8 @@
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.48,
+      "baseline": 2.2,
+      "ratio": 0.46,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -100,8 +107,8 @@
     "Libya": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 4.1,
-      "ratio": 0.49,
+      "baseline": 3.8,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -139,7 +146,7 @@
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -149,10 +156,10 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 4.9,
-      "ratio": 0.41,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -162,18 +169,35 @@
         },
         {
           "word": "Attack",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Rsf",
-          "count": 1
+          "count": 2
         },
         {
           "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Attack",
+          "Rsf"
+        ]
+      ],
       "articles": [
         {
           "title": "Sudan: Suspected RSF drone attack on aid convoy kills dozens",
@@ -181,6 +205,13 @@
           "source": "DW Africa",
           "published": "2026-02-07T17:14:00",
           "lead": "Observers said the Rapid Support Forces paramilitary group killed at least 24 people fleeing to safety, eight of them ch"
+        },
+        {
+          "title": "RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group",
+          "url": "https://www.theguardian.com/world/2026/feb/07/sudan-rsf-drone-attack-rahad-kills-displaced-people",
+          "source": "The Guardian Africa",
+          "published": "2026-02-07T20:03:07",
+          "lead": "Eight children including two infants among dead in vehicle carrying displaced people, says Sudan Doctors NetworkA drone "
         },
         {
           "title": "Sudan: Deadly Attacks Hit Kordofan As Scrutiny Grows Over Drone Warfare in Sudan",
@@ -191,6 +222,7 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
         "AllAfrica",
         "DW Africa"
       ]
@@ -225,8 +257,8 @@
     "Mali": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.8,
-      "ratio": 0.52,
+      "baseline": 3.9,
+      "ratio": 0.51,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -248,8 +280,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Burkina Faso": {
@@ -306,8 +338,8 @@
     "Senegal": {
       "article_count": 7,
       "source_count": 4,
-      "baseline": 5.2,
-      "ratio": 1.35,
+      "baseline": 5.1,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -370,8 +402,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Africanews",
         "RFI Afrique",
+        "Africanews",
         "France24 Afrique"
       ]
     },
@@ -511,8 +543,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "BBC Africa"
       ]
     },
     "Togo": {
@@ -542,7 +574,7 @@
     "Nigeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 9.7,
+      "baseline": 8.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -627,7 +659,7 @@
     "South Sudan": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.8,
+      "baseline": 1.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -695,8 +727,8 @@
     "DRC": {
       "article_count": 4,
       "source_count": 1,
-      "baseline": 7.6,
-      "ratio": 0.52,
+      "baseline": 7.5,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -799,7 +831,7 @@
     "Ethiopia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.4,
+      "baseline": 3.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -961,8 +993,8 @@
     "Zambia": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 1.83,
+      "baseline": 1.2,
+      "ratio": 1.69,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -981,11 +1013,11 @@
           "lead": "Some Zambians outraged Ghanaians by describing the outfit worn by their president as a \"blouse\"."
         },
         {
-          "title": "Ligue des champions CAF: la Renaissance de Berkane rate le coche",
+          "title": "Ligue des champions CAF: la Renaissance de Berkane rate le coche, la JSK plus dans la course",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260207-ligue-des-champions-caf-la-renaissance-de-berkane-rate-le-coche",
           "source": "RFI Afrique",
           "published": "2026-02-07T16:22:11",
-          "lead": "La qualification pour les rencontres à qualification directe attendra. Les Marocains se sont inclinés 2-0 chez les Power"
+          "lead": "La qualification pour les rencontres à qualification directe attendra. Les Marocains de Berkane se sont inclinés 2-0 che"
         }
       ],
       "sources": [
@@ -1023,7 +1055,7 @@
     "Mozambique": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.7,
+      "baseline": 2.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1035,7 +1067,7 @@
     "Zimbabwe": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1047,8 +1079,8 @@
     "Namibia": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 4.12,
+      "baseline": 0.9,
+      "ratio": 3.3,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1104,17 +1136,17 @@
     "South Africa": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 11.3,
+      "baseline": 10.8,
       "ratio": 0.09,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Combat",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Combat",
           "count": 1
         }
       ],
