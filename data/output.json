@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-07T13:55:04.410331",
+  "generated_at": "2026-02-07T15:49:40.558334",
   "summary": {
     "high": 0,
-    "elevated": 4,
-    "normal": 24,
-    "quiet": 26
+    "elevated": 1,
+    "normal": 25,
+    "quiet": 28
   },
   "countries": {
     "Morocco": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 5.4,
-      "ratio": 0.37,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 5.1,
+      "ratio": 0.59,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -25,6 +25,13 @@
           "lead": "Au Maroc, les dix-huit supporters sénégalais - toujours détenus au Maroc, après les incidents violents, en fin de match "
         },
         {
+          "title": "Au Maroc, lancement de la 11ème édition du Raid Sahraouiya, un défi sportif 100% féminin",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260207-au-maroc-lancement-de-la-11%C3%A8me-%C3%A9dition-du-raid-sahraouiya-un-d%C3%A9fi-sportif-100-f%C3%A9minin",
+          "source": "France24 Afrique",
+          "published": "2026-02-07T14:54:10",
+          "lead": "Avec des épreuves de boot camp, canoë, run & bike, trail, course d’orientation et VTT, le raid Sahraouiya est de retour "
+        },
+        {
           "title": "Au Maroc, pourquoi le retrait d’Aziz Akhannouch pourrait fragiliser le RNI",
           "url": "https://www.jeuneafrique.com/1763018/politique/au-maroc-pourquoi-le-retrait-daziz-akhannouch-pourrait-fragiliser-le-rni/",
           "source": "Jeune Afrique",
@@ -34,13 +41,14 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Algeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.2,
+      "baseline": 2.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -50,26 +58,16 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.0,
-      "ratio": 1.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tunisie: village très touristique, Sidi Bou Saïd doit composer avec la menace des glissements de terrain",
-          "url": "https://www.rfi.fr/fr/afrique/20260206-tunisie-village-tr%C3%A8s-touristique-sidi-bou-sa%C3%AFd-doit-composer-avec-la-menace-des-glissements-de-terrain",
-          "source": "RFI Afrique",
-          "published": "2026-02-06T15:13:30",
-          "lead": "Les glissements de terrain causés par les intempéries de la fin janvier sur la colline de 130 mètres qui abrite le villa"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Libya": {
       "article_count": 5,
@@ -133,23 +131,18 @@
       "sources": [
         "RFI Afrique",
         "Le Monde Afrique",
-        "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.0,
-      "ratio": 1.0,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.1,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -158,38 +151,26 @@
           "source": "Al Jazeera",
           "published": "2026-02-07T06:49:42",
           "lead": "Toxic waters of Lake Qarun devastate fishermen&#039;s livelihoods, leaving boats idle and restaurants empty along its sh"
-        },
-        {
-          "title": "Egypt: Somalia, Egypt Hold Talks in Cairo, Reaffirm Strategic Ties",
-          "url": "https://allafrica.com/stories/202602060459.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:37:05",
-          "lead": "[Shabelle] Cairo -- Somalia's Minister of Foreign Affairs and International Cooperation, Abdulsalam Ali, held formal con"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 5.0,
-      "ratio": 0.6,
+      "ratio": 0.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Rsf",
           "count": 1
         },
         {
@@ -197,7 +178,11 @@
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Mort",
           "count": 1
         },
         {
@@ -209,7 +194,7 @@
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Élection",
           "count": 1
         }
       ],
@@ -223,13 +208,6 @@
           "lead": "The United States and United Nations have condemned drone attacks targeting civilians and aid convoys."
         },
         {
-          "title": "Sudanese refugee dentists rebuild care in Uganda",
-          "url": "https://www.dw.com/en/sudanese-refugee-dentists-rebuild-care-in-uganda/a-75823185?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-02-06T14:02:00",
-          "lead": "Sudanese doctors who fled the war are rebuilding their medical careers in Kampala, offering free treatment to refugees a"
-        },
-        {
           "title": "Au Soudan du Sud, un homme mort depuis cinq ans nommé par le président pour organiser les élections",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/06/un-homme-mort-depuis-cinq-ans-nomme-par-le-president-du-soudan-du-sud-pour-organiser-les-elections_6665712_3212.html",
           "source": "Le Monde Afrique",
@@ -239,8 +217,7 @@
       ],
       "sources": [
         "Le Monde Afrique",
-        "Al Jazeera",
-        "DW Africa"
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
@@ -256,31 +233,15 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 4.1,
-      "ratio": 0.49,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.9,
+      "ratio": 0.26,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Combat",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Mali: les chasseurs dozos en première ligne face aux jihadistes du Jnim à Bandiagara",
-          "url": "https://www.rfi.fr/fr/afrique/20260206-mali-les-chasseurs-dozos-en-premi%C3%A8re-ligne-face-aux-jihadistes-du-jnim-%C3%A0-bandiagara",
-          "source": "RFI Afrique",
-          "published": "2026-02-06T14:47:54",
-          "lead": "Au Mali, les jihadistes du Jnim ont mené une attaque meurtrière le 4 février 2026 à Kendié, dans la région de Bandiagara"
-        },
         {
           "title": "« De maigres gains pour les pauvres » : le poids des inégalités sociales dans le Mali d’Assimi Goïta",
           "url": "https://www.jeuneafrique.com/1762741/politique/de-maigres-gains-pour-les-pauvres-le-poids-des-inegalites-sociales-dans-le-mali-dassimi-goita/",
@@ -290,14 +251,13 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.8,
+      "baseline": 2.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -348,8 +308,8 @@
     "Senegal": {
       "article_count": 8,
       "source_count": 4,
-      "baseline": 5.0,
-      "ratio": 1.6,
+      "baseline": 5.2,
+      "ratio": 1.54,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -396,6 +356,13 @@
           "lead": "La Direction de l’automatisation des fichiers, rattachée au ministère de l’Intérieur, a été piratée au début de 2026. Ce"
         },
         {
+          "title": "2026 edition of Africa Eco Race comes to an end in Dakar",
+          "url": "http://www.africanews.com/2026/02/07/2026-edition-of-africa-eco-race-comes-to-an-end-in-dakar/",
+          "source": "Africanews",
+          "published": "2026-02-07T15:36:49",
+          "lead": "The final competitive stage of the Africa Eco Race 2026 marked the transition toward the conclusion of an exceptional ad"
+        },
+        {
           "title": "Dakar universities rocked by renewed clashes between students and police",
           "url": "http://www.africanews.com/2026/02/07/dakar-universities-rocked-by-renewed-clashes-between-students-and-police/",
           "source": "Africanews",
@@ -408,20 +375,13 @@
           "source": "Africanews",
           "published": "2026-02-06T17:02:32",
           "lead": "For generations, Seynabou Tall's ancestors have fished, dived and rowed off the coast of Dakar. It's the same place wher"
-        },
-        {
-          "title": "Senegal surf school in Dakar brings girls back to class",
-          "url": "http://www.africanews.com/2026/02/06/senegal-surf-school-in-dakar-brings-girls-back-to-class/",
-          "source": "Africanews",
-          "published": "2026-02-06T14:28:56",
-          "lead": "In a Dakar fishing village, a surf academy run by Black Girls Surf swaps waves for school, helping 20 girls return to ed"
         }
       ],
       "sources": [
         "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -466,7 +426,7 @@
     "Guinea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.1,
+      "baseline": 2.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -502,8 +462,8 @@
     "Côte d'Ivoire": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.6,
-      "ratio": 0.38,
+      "baseline": 2.5,
+      "ratio": 0.39,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -524,8 +484,8 @@
     "Ghana": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 0.79,
+      "baseline": 2.4,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -560,8 +520,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "Jeune Afrique"
       ]
     },
     "Togo": {
@@ -589,10 +549,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 14,
+      "article_count": 11,
       "source_count": 3,
-      "baseline": 9.7,
-      "ratio": 1.44,
+      "baseline": 10.0,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -605,15 +565,11 @@
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
           "word": "Violence",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -627,32 +583,11 @@
           "lead": "The colonial police, made up of Nigerians and Europeans, shot dead workers striking for better conditions."
         },
         {
-          "title": "Nigerian film shows masculinity and vulnerability aren't exclusive",
-          "url": "https://www.bbc.com/news/articles/c1wzvpw9g8jo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-06T14:45:50",
-          "lead": "Film-maker Akinola Davies Jr says he wanted to explore the depiction of father-son relationships."
-        },
-        {
           "title": "Survivors of deadly attack on villages in Nigeria left reeling",
           "url": "http://www.africanews.com/2026/02/06/survivors-of-deadly-attack-on-villages-in-nigeria-left-reeling/",
           "source": "Africanews",
           "published": "2026-02-06T16:53:25",
           "lead": "Despite the presence of the army, residents of Woro and Nuku wonder how they will rebuild their lives amid all the destr"
-        },
-        {
-          "title": "Deadly Kwara massacre exposes Nigeria’s worsening security crisis",
-          "url": "http://www.africanews.com/2026/02/06/deadly-kwara-massacre-exposes-nigerias-worsening-security-crisis/",
-          "source": "Africanews",
-          "published": "2026-02-06T14:20:32",
-          "lead": "Nigeria is reeling after one of its deadliest attacks in recent months. Gunmen stormed a village in Kwara State, killing"
-        },
-        {
-          "title": "Nigeria: No Ban On Undergraduate Registration for University Entrance Exams, Says Nigeria's Matriculation Body",
-          "url": "https://allafrica.com/stories/202602060451.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T14:21:57",
-          "lead": "[Africa Check] IN SHORT: Contrary to online claims, Nigeria's Joint Admissions and Matriculation Board says undergraduat"
         },
         {
           "title": "Nigeria: Elections - NSA Warns Political Actors Against Violence, Vote-Buying",
@@ -690,18 +625,32 @@
           "lead": "[Daily Trust] The Taminu Turaki-led National Working Committee (NWC) of Peoples Democratic Party (PDP) has said that Ind"
         },
         {
-          "title": "Nigeria: Sealed PDP National Secretariat Will Be Reopened Monday - Anyanwu",
-          "url": "https://allafrica.com/stories/202602060479.html",
+          "title": "Nigeria: 'This Isn't Justice,' Ipob Accuses Justice Omotosho of Bias in Kanu's Case",
+          "url": "https://allafrica.com/stories/202602060507.html",
           "source": "AllAfrica",
-          "published": "2026-02-06T15:49:05",
-          "lead": "[Daily Trust] The Peoples Democratic Party (PDP) faction loyal to Minister of Federal Capital Territory (FCT), Nyesom Wi"
+          "published": "2026-02-06T16:09:12",
+          "lead": "[Leadership] The proscribed Indigenous People of Biafra (IPOB) has accused Justice James Omotosho of the Federal High Co"
         },
         {
-          "title": "Africa: NCDMB Pledges Enduring Support for Appo, Africa Energy Bank",
-          "url": "https://allafrica.com/stories/202602060477.html",
+          "title": "Nigeria: Captain Yakubu to Be Turbaned Abeneche-Attah Igala April 4",
+          "url": "https://allafrica.com/stories/202602060506.html",
           "source": "AllAfrica",
-          "published": "2026-02-06T15:41:20",
-          "lead": "[Premium Times] The Executive Secretary of NCDMB, Felix Omatsola Ogbe, an engineer made the pledge on Thursday when the "
+          "published": "2026-02-06T16:08:40",
+          "lead": "[Leadership] The Attah-Igala and chairman of the Kogi State Council of Traditional Rulers, Dr. Matthew Alaji Opaluwa Ogu"
+        },
+        {
+          "title": "Nigeria: Kurmin Wali - NBA Commends UBA Sani, Security Agents' Efforts",
+          "url": "https://allafrica.com/stories/202602060500.html",
+          "source": "AllAfrica",
+          "published": "2026-02-06T16:07:48",
+          "lead": "[Leadership] The Kaduna Branch of Nigerian Bar Association (NBA) has commended Kaduna State Government, security agencie"
+        },
+        {
+          "title": "Nigeria: Machina Emirate Celebrates Kole Shettima, By Jibrin Ibrahim",
+          "url": "https://allafrica.com/stories/202602060490.html",
+          "source": "AllAfrica",
+          "published": "2026-02-06T15:58:04",
+          "lead": "[Premium Times] This weekend, the Emir of Machina, Alhaji Dr Bashir Albishir Bukar Machinama turbaned Dr. Kole Shettima "
         }
       ],
       "sources": [
@@ -726,7 +675,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.5,
-      "ratio": 1.22,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -762,7 +711,7 @@
     "Cameroon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.6,
+      "baseline": 2.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -784,13 +733,17 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.1,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 0.52,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
+        {
+          "word": "Mort",
+          "count": 1
+        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -800,15 +753,7 @@
           "count": 1
         },
         {
-          "word": "Mort",
-          "count": 1
-        },
-        {
           "word": "Élection",
-          "count": 1
-        },
-        {
-          "word": "Al-shabaab",
           "count": 1
         }
       ],
@@ -820,17 +765,9 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-06T17:33:28",
           "lead": "Au Soudan du Sud, le gouvernement a nommé par erreur au comité chargé de préparer l’élection présidentielle un homme mor"
-        },
-        {
-          "title": "Somalia: Somalia Intelligence, Partners Destroy Key Al-Shabaab Facilities in Central Region",
-          "url": "https://allafrica.com/stories/202602060461.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:38:50",
-          "lead": "[Shabelle] Mogadishu -- Somalia's National Intelligence and Security Agency (NISA), with support from international part"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Le Monde Afrique"
       ]
     },
@@ -871,8 +808,8 @@
     "Congo": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.69,
+      "baseline": 1.4,
+      "ratio": 0.73,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -891,17 +828,13 @@
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 6,
       "source_count": 3,
-      "baseline": 8.1,
-      "ratio": 0.99,
+      "baseline": 7.8,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "M23",
-          "count": 2
-        },
         {
           "word": "Guerre",
           "count": 1
@@ -912,14 +845,6 @@
         },
         {
           "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Terroriste",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
           "count": 1
         }
       ],
@@ -954,25 +879,11 @@
           "lead": "C’est un outil de transmission du savoir qui nous replonge dans l'histoire de l'Afrique ancienne. Au centre de la Républ"
         },
         {
-          "title": "Nord-Est de la RDC: l’UA «condamne avec la plus grande fermeté» l'attaque de drones de l’AFC/M23 à Kisangani",
-          "url": "https://www.rfi.fr/fr/afrique/20260206-nord-est-de-la-rdc-l-ua-condamne-avec-la-plus-grande-fermet%C3%A9-l-attaque-de-drones-de-l-afc-m23-%C3%A0-kisangani",
-          "source": "RFI Afrique",
-          "published": "2026-02-06T14:34:48",
-          "lead": "L'attaque de drones revendiquée par le groupe politico-militaire AFC/M23, qui a visé le week-end précédent l'aéroport st"
-        },
-        {
           "title": "Comment Vodacom RDC tire la croissance du groupe de télécoms africain",
           "url": "https://www.jeuneafrique.com/1762860/economie-entreprises/comment-vodacom-rdc-tire-la-croissance-du-groupe-de-telecoms-africain/",
           "source": "Jeune Afrique",
           "published": "2026-02-06T17:24:45",
           "lead": "Avec la filiale égyptienne, Vodacom RDC affiche « une solide performance » et contribue à la consolidation de la perform"
-        },
-        {
-          "title": "Congo-Kinshasa: U.S. Pressure Forces M23 to Abandon Uvira",
-          "url": "https://allafrica.com/stories/202602060458.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:36:43",
-          "lead": "[Agenzia Fides] Kinshasa -- \"US pressure has forced the M23 to withdraw from Uvira,\" local sources in the second largest"
         },
         {
           "title": "Congo-Kinshasa: Joint Statement on the Inaugural Meeting of the Joint Steering Committee of the U.S.-DRC Strategic Partnership Agreement",
@@ -983,8 +894,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "RFI Afrique",
+        "AllAfrica",
         "Jeune Afrique"
       ]
     },
@@ -1074,132 +985,54 @@
       ]
     },
     "Somalia": {
-      "article_count": 6,
+      "article_count": 1,
       "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 3.3,
-      "status": "elevated",
+      "baseline": 2.4,
+      "ratio": 0.42,
+      "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Al-shabaab",
-          "count": 4
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Somalia: Somali Army Launches Operations Against Al-Shabaab in Hiraan Region",
-          "url": "https://allafrica.com/stories/202602060464.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:40:28",
-          "lead": "[Shabelle] Beledweyne -- The Somali National Army (SNA) has carried out planned security operations in eastern parts of "
-        },
-        {
-          "title": "Somalia: Nisa Kills Senior Al-Shabaab Finance Commander in Targeted Lower Shabelle Operation",
-          "url": "https://allafrica.com/stories/202602060463.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:39:47",
-          "lead": "[Shabelle] Mogadishu -- The National Intelligence and Security Agency (NISA) has announced the killing of a senior Al-Sh"
-        },
-        {
-          "title": "Somalia: Somali Council of Ministers Discusses Drought Crisis, Issues National Appeal",
-          "url": "https://allafrica.com/stories/202602060462.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:39:15",
-          "lead": "[Shabelle] Mogadishu -- The Council of Ministers of the Federal Government of Somalia held a meeting to discuss the wors"
-        },
-        {
-          "title": "Somalia: Somalia Intelligence, Partners Destroy Key Al-Shabaab Facilities in Central Region",
-          "url": "https://allafrica.com/stories/202602060461.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:38:50",
-          "lead": "[Shabelle] Mogadishu -- Somalia's National Intelligence and Security Agency (NISA), with support from international part"
-        },
-        {
-          "title": "Somalia: Jubaland Leader Praises U.S. Africom Special Forces for Security Cooperation",
-          "url": "https://allafrica.com/stories/202602060460.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:37:50",
-          "lead": "[Shabelle] Kismayo -- Jubaland President Ahmed Mohamed Islam met with United States Africa Command (AFRICOM) special ope"
-        },
-        {
-          "title": "Egypt: Somalia, Egypt Hold Talks in Cairo, Reaffirm Strategic Ties",
-          "url": "https://allafrica.com/stories/202602060459.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:37:05",
-          "lead": "[Shabelle] Cairo -- Somalia's Minister of Foreign Affairs and International Cooperation, Abdulsalam Ali, held formal con"
+          "title": "Somali president slams Israeli recognition of Somaliland at Doha forum",
+          "url": "http://www.africanews.com/2026/02/07/somali-president-slams-israeli-recognition-of-somaliland-at-doha-forum/",
+          "source": "Africanews",
+          "published": "2026-02-07T14:45:50",
+          "lead": "The Somali president described the situation in Gaza as \"another level of inhumane engagement\" in the history of the wor"
         }
       ],
       "sources": [
-        "AllAfrica"
+        "Africanews"
       ]
     },
     "Uganda": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 3.5,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Kenya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.6,
-      "ratio": 0.28,
+      "baseline": 4.0,
+      "ratio": 0.25,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Sudanese refugee dentists rebuild care in Uganda",
-          "url": "https://www.dw.com/en/sudanese-refugee-dentists-rebuild-care-in-uganda/a-75823185?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-02-06T14:02:00",
-          "lead": "Sudanese doctors who fled the war are rebuilding their medical careers in Kampala, offering free treatment to refugees a"
-        }
-      ],
-      "sources": [
-        "DW Africa"
-      ]
-    },
-    "Kenya": {
-      "article_count": 4,
-      "source_count": 2,
-      "baseline": 4.0,
-      "ratio": 1.0,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
           "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -1211,60 +1044,23 @@
           "source": "Africanews",
           "published": "2026-02-07T08:11:22",
           "lead": "After one of the driest rainy seasons on record at the end of 2025, drought is spreading in Kenya. This time, it is also"
-        },
-        {
-          "title": "Shutdown of Kenya’s Koko biofuel firm wipes out clean cooking options",
-          "url": "http://www.africanews.com/2026/02/06/shutdown-of-kenyas-koko-biofuel-firm-wipes-out-clean-cooking-options/",
-          "source": "Africanews",
-          "published": "2026-02-06T15:12:59",
-          "lead": "With Koko Networks shutting down its bioethanol fuel distribution system across Kenya, more than 3,000 Koko fuel points "
-        },
-        {
-          "title": "Meet the Kenyan teaching robotics to children in rural areas",
-          "url": "http://www.africanews.com/2026/02/06/meet-the-kenyan-teaching-robotics-to-children-in-rural-areas/",
-          "source": "Africanews",
-          "published": "2026-02-06T14:21:16",
-          "lead": "Jeremiah Kithinji had never touched a computer before he finished high school. A decade later, he is teaching robotics, "
-        },
-        {
-          "title": "Kenya: Altered Image Used to Claim That Kenyan President's Son Bought an Expensive Car Worth Millions",
-          "url": "https://allafrica.com/stories/202602060454.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T14:22:48",
-          "lead": "[Africa Check] Altered image used to claim that Kenyan president's son bought an expensive car worth millions"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews"
       ]
     },
     "Rwanda": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 3.5,
-      "ratio": 0.28,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "M23",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 3.4,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo-Kinshasa: U.S. Pressure Forces M23 to Abandon Uvira",
-          "url": "https://allafrica.com/stories/202602060458.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T15:36:43",
-          "lead": "[Agenzia Fides] Kinshasa -- \"US pressure has forced the M23 to withdraw from Uvira,\" local sources in the second largest"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Burundi": {
       "article_count": 0,
@@ -1281,7 +1077,7 @@
     "Tanzania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1293,7 +1089,7 @@
     "Madagascar": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1339,19 +1135,15 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 1.69,
-      "status": "elevated",
+      "ratio": 0.85,
+      "status": "normal",
       "confidence": "low",
       "keywords": [
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         }
       ],
@@ -1363,13 +1155,6 @@
           "source": "BBC Africa",
           "published": "2026-02-07T09:54:55",
           "lead": "Some Zambians outraged Ghanaians by describing the outfit worn by their president as a \"blouse\"."
-        },
-        {
-          "title": "Fisherman fleeing elephants killed by crocodile in Zambia",
-          "url": "https://www.bbc.com/news/articles/czx1xl98qkpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-06T14:47:22",
-          "lead": "The fisherman ran into a stream near the river after he and two friends encountered a herd of elephants."
         }
       ],
       "sources": [
@@ -1377,23 +1162,15 @@
       ]
     },
     "Malawi": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.4,
-      "ratio": 1.47,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.3,
+      "ratio": 0.79,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Protest",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -1405,17 +1182,9 @@
           "source": "The Guardian Africa",
           "published": "2026-02-07T12:00:01",
           "lead": "Peaceful demonstrations force a delay in measures aimed at improving revenue collection but which many fear will be fata"
-        },
-        {
-          "title": "Malawi: supply stocks improve, but fuel crisis far from over",
-          "url": "http://www.africanews.com/2026/02/06/malawi-supply-stocks-improve-but-fuel-crisis-far-from-over/",
-          "source": "Africanews",
-          "published": "2026-02-06T15:29:11",
-          "lead": "For the first time in about five years, Malawi has managed to accumulate sufficient fuel stocks to last the country for "
         }
       ],
       "sources": [
-        "Africanews",
         "The Guardian Africa"
       ]
     },
@@ -1465,12 +1234,12 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.65,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 1.7,
+      "ratio": 1.16,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "War",
@@ -1488,13 +1257,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Zimbabwe agrees to staff-monitored programme with the IMF",
-          "url": "http://www.africanews.com/2026/02/06/zimbabwe-agrees-to-staff-monitored-programme-with-the-imf/",
-          "source": "Africanews",
-          "published": "2026-02-06T15:27:09",
-          "lead": "The 10-month programme could potentially open the door to financial support from the Fund."
-        },
-        {
           "title": "Zimbabwe: Blessed 'Bombshell' Geza Dies in South Africa",
           "url": "https://allafrica.com/stories/202602060550.html",
           "source": "AllAfrica",
@@ -1510,21 +1272,35 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.57,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Namibia: Geingob Blossoms Even In Death",
+          "url": "https://allafrica.com/stories/202602070178.html",
+          "source": "AllAfrica",
+          "published": "2026-02-07T15:27:37",
+          "lead": "[New Era] This week marked exactly two years since the demise of former president Hage Geingob, a towering African polit"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Botswana": {
       "article_count": 0,
@@ -1541,7 +1317,7 @@
     "South Africa": {
       "article_count": 6,
       "source_count": 3,
-      "baseline": 11.4,
+      "baseline": 11.3,
       "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
@@ -1583,13 +1359,6 @@
           "lead": "[263Chat] Outspoken war Veteran and former Zanu PF Blessed Runesu Geza, popularly known as \"Bombshell\" has died at a car"
         },
         {
-          "title": "South Africa: Nobody Cares, Rage Joburg Residents As Water Outages Worsen",
-          "url": "https://allafrica.com/stories/202602060450.html",
-          "source": "AllAfrica",
-          "published": "2026-02-06T14:20:57",
-          "lead": "[Daily Maverick] The current water outages in parts of Johannesburg caused by a multi-system failure have led to residen"
-        },
-        {
           "title": "South Africa: Home Affairs Committee Concludes Nationwide Public Hearings On Marriage Bill",
           "url": "https://allafrica.com/stories/202602060510.html",
           "source": "AllAfrica",
@@ -1602,6 +1371,13 @@
           "source": "AllAfrica",
           "published": "2026-02-06T16:09:40",
           "lead": "[Parliament of South Africa] The South African Forestry Company Limited (SAFCOL) is losing millions of rands from timber"
+        },
+        {
+          "title": "South Africa: Transport Committee Notes Six Months Suspension of Aarto As Municipalities Are Not Ready to Implement",
+          "url": "https://allafrica.com/stories/202602060513.html",
+          "source": "AllAfrica",
+          "published": "2026-02-06T16:14:48",
+          "lead": "[Parliament of South Africa] The Portfolio Committee on Transport has noted the suspension of the Administrative Adjudic"
         }
       ],
       "sources": [
