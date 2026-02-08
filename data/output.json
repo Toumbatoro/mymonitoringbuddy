@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-08T05:18:42.742432",
+  "generated_at": "2026-02-08T07:51:45.368474",
   "summary": {
     "high": 1,
-    "elevated": 2,
-    "normal": 23,
+    "elevated": 3,
+    "normal": 22,
     "quiet": 28
   },
   "countries": {
@@ -11,7 +11,7 @@
       "article_count": 6,
       "source_count": 4,
       "baseline": 5.4,
-      "ratio": 1.12,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -66,10 +66,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique",
         "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -103,14 +103,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Tunisia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -122,17 +122,17 @@
     "Libya": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.8,
-      "ratio": 0.52,
+      "baseline": 3.7,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Attaque",
+          "word": "Réfugiés",
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -154,14 +154,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.9,
+      "baseline": 1.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -173,8 +173,8 @@
     "Sudan": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 5.0,
-      "ratio": 0.8,
+      "baseline": 4.9,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -183,11 +183,11 @@
           "count": 2
         },
         {
-          "word": "Rsf",
+          "word": "Killed",
           "count": 2
         },
         {
-          "word": "Killed",
+          "word": "Rsf",
           "count": 2
         },
         {
@@ -195,11 +195,11 @@
           "count": 2
         },
         {
-          "word": "Fighting",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Fighting",
           "count": 1
         },
         {
@@ -248,10 +248,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "The Guardian Africa",
+        "AllAfrica",
         "DW Africa",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Mauritania": {
@@ -285,20 +285,27 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Mali": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 3.9,
-      "ratio": 1.02,
+      "ratio": 1.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "US, Russia vie for influence in Mali, Niger and Burkina Faso",
+          "url": "https://www.dw.com/en/us-russia-vie-for-influence-in-mali-niger-and-burkina-faso/a-75789462?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-02-08T05:58:00",
+          "lead": "The United States is reshaping its approach to Mali, Niger and Burkina Faso as Russia expands the footprint of its Afric"
+        },
         {
           "title": "Mali: plus de 550 personnes tuées parmi les populations civiles en 2025, selon un rapport",
           "url": "https://www.rfi.fr/fr/afrique/20260207-mali-plus-de-550-personnes-tu%C3%A9es-parmi-les-populations-civiles-en-2025-selon-un-rapport",
@@ -329,34 +336,45 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "DW Africa",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.5,
+      "ratio": 0.4,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "US, Russia vie for influence in Mali, Niger and Burkina Faso",
+          "url": "https://www.dw.com/en/us-russia-vie-for-influence-in-mali-niger-and-burkina-faso/a-75789462?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-02-08T05:58:00",
+          "lead": "The United States is reshaping its approach to Mali, Niger and Burkina Faso as Russia expands the footprint of its Afric"
+        }
+      ],
+      "sources": [
+        "DW Africa"
+      ]
     },
     "Niger": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 5.5,
-      "ratio": 0.36,
+      "baseline": 5.2,
+      "ratio": 0.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Coup",
@@ -366,11 +384,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Niger: l'État islamique au Sahel précise sa version de l'attaque de l'aéroport de Niamey",
-          "url": "https://www.rfi.fr/fr/afrique/20260207-niger-l-%C3%A9tat-islamique-au-sahel-pr%C3%A9cise-sa-version-de-l-attaque-de-l-a%C3%A9roport-de-niamey",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T06:02:55",
-          "lead": "Au Niger, une semaine après l'attaque qui a visé l'aéroport international de Niamey, le ministre des Transports s'est re"
+          "title": "US, Russia vie for influence in Mali, Niger and Burkina Faso",
+          "url": "https://www.dw.com/en/us-russia-vie-for-influence-in-mali-niger-and-burkina-faso/a-75789462?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-02-08T05:58:00",
+          "lead": "The United States is reshaping its approach to Mali, Niger and Burkina Faso as Russia expands the footprint of its Afric"
         },
         {
           "title": "Niger : quel est le vrai bilan sécuritaire d’Abdourahamane Tiani ?",
@@ -381,15 +399,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "DW Africa"
       ]
     },
     "Senegal": {
       "article_count": 6,
       "source_count": 4,
-      "baseline": 5.1,
-      "ratio": 1.18,
+      "baseline": 5.2,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -401,18 +419,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Sénégal: le calme revient dans les universités de Dakar et Saint-Louis mais les «restos U» restent fermés",
+          "url": "https://www.rfi.fr/fr/afrique/20260208-s%C3%A9n%C3%A9gal-le-calme-revient-dans-les-universit%C3%A9s-de-dakar-et-saint-louis-mais-les-restos-u-restent-ferm%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-02-08T07:14:09",
+          "lead": "De vives tensions persistent autour des bourses étudiantes au Sénégal. Les facs de Dakar, Saint-Louis et Thiès ont fermé"
+        },
+        {
           "title": "«Personne ne parle wolof»: l’avocat des supporters sénégalais détenus à Rabat s'exprime",
           "url": "https://www.rfi.fr/fr/afrique/20260207-personne-ne-parle-wolof-l-avocat-des-supporters-s%C3%A9n%C3%A9galais-d%C3%A9tenus-%C3%A0-rabat-s-exprime",
           "source": "RFI Afrique",
           "published": "2026-02-07T13:04:20",
           "lead": "Au Maroc, les dix-huit supporters sénégalais - toujours détenus au Maroc, après les incidents violents, en fin de match "
-        },
-        {
-          "title": "Sénégal: les arriérés de bourses non payés font encore monter la tension à l’université Cheikh-Anta-Diop",
-          "url": "https://www.rfi.fr/fr/afrique/20260207-s%C3%A9n%C3%A9gal-les-arri%C3%A9r%C3%A9s-de-bourses-non-pay%C3%A9s-font-encore-monter-la-tension-%C3%A0-l-universit%C3%A9-cheikh-anta-diop",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T05:54:00",
-          "lead": "Au Sénégal, la tension était vive, vendredi 6 février, à l’université Cheikh-Anta-Diop de Dakar. Toute la journée, des é"
         },
         {
           "title": "Starlink disponible au Sénégal : vers une généralisation de l'accès à Internet ?",
@@ -444,10 +462,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -492,7 +510,7 @@
     "Guinea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -516,7 +534,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -526,45 +544,27 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.4,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Côte d'Ivoire: trois députés-maires du PDCI refusent d'intégrer le groupe du parti au Parlement",
-          "url": "https://www.rfi.fr/fr/afrique/20260207-c%C3%B4te-d-ivoire-trois-d%C3%A9put%C3%A9s-maires-du-pdci-refusent-d-int%C3%A9grer-le-groupe-du-parti-au-parlement",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T06:37:35",
-          "lead": "C’est un énième épisode, qui illustre les divisions internes au sein du PDCI. Alors que l’Assemblée nationale a mis en p"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Ghana": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 0.85,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.3,
+      "ratio": 0.43,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -576,17 +576,9 @@
           "source": "BBC Africa",
           "published": "2026-02-07T09:54:55",
           "lead": "Some Zambians outraged Ghanaians by describing the outfit worn by their president as a \"blouse\"."
-        },
-        {
-          "title": "La surprise Chaouki au RNI marocain, l’attaque de l’aéroport de Kisangani, la crise du cacao… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1762913/politique/la-surprise-chaouki-au-rni-marocain-lattaque-de-laeroport-de-kisangani-la-crise-du-cacao-les-5-infos-quil-ne-fallait-pas-manquer/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-07T07:49:00",
-          "lead": "Cette semaine, Le Brief de Jeune Afrique revient sur le candidat marocain Chaouki à la tête du RNI ; sur l’attaque de l’"
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "BBC Africa"
       ]
     },
@@ -605,7 +597,7 @@
     "Benin": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.7,
+      "baseline": 1.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -615,10 +607,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 8.7,
-      "ratio": 0.34,
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 8.2,
+      "ratio": 0.48,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -632,6 +624,14 @@
         },
         {
           "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -657,11 +657,19 @@
           "source": "Al Jazeera",
           "published": "2026-02-07T21:26:39",
           "lead": "More than 200 people have been killed in attacks, but the abducted Christians have been freed."
+        },
+        {
+          "title": "Nigeria: les combattants jihadistes profitent de «l’absence de l’État» et infiltrent le pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260208-nigeria-les-combattants-jihadistes-profitent-de-l-absence-de-l-%C3%A9tat-et-infiltrent-le-pays",
+          "source": "RFI Afrique",
+          "published": "2026-02-08T07:04:17",
+          "lead": "Au Nigeria, le président Bola Tinubu a ordonné le déploiement d’un bataillon de l’armée dans le district de Kaiama (État"
         }
       ],
       "sources": [
+        "Al Jazeera",
         "BBC Africa",
-        "Al Jazeera"
+        "RFI Afrique"
       ]
     },
     "Cape Verde": {
@@ -687,22 +695,15 @@
       ]
     },
     "Chad": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.79,
+      "ratio": 0.4,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Afrotronix explore le patrimoine africain dans «KÖD», son nouvel album",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260207-afrotronix-explore-le-patrimoine-africains-dans-k%C3%B6d-son-nouvel-album",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T06:06:49",
-          "lead": "Afrotronix, le musicien et compositeur tchadien, revient avec un nouvel album intitulé KÖD. 27 pistes aussi variées que "
-        },
         {
           "title": "Au Tchad, mobilisation contre les mutilations génitales féminines",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260207-au-tchad-mobilisation-contre-les-mutilations-g%C3%A9nitales-f%C3%A9minines",
@@ -712,14 +713,13 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "France24 Afrique"
       ]
     },
     "Cameroon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -737,11 +737,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rebelle",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Rebelle",
           "count": 1
         }
       ],
@@ -762,17 +762,17 @@
     "South Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.7,
-      "ratio": 1.16,
+      "baseline": 1.8,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Violence",
           "count": 2
         },
         {
-          "word": "Violence",
+          "word": "Humanitarian",
           "count": 2
         }
       ],
@@ -813,8 +813,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.38,
+      "baseline": 0.8,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -835,7 +835,7 @@
     "Congo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.4,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -845,10 +845,10 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 7.5,
-      "ratio": 0.4,
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 7.1,
+      "ratio": 0.56,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -858,6 +858,10 @@
         },
         {
           "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -883,11 +887,19 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-08T00:16:00",
           "lead": "Selon les Nations unies, quelque 700 militaires sud-africains participent au contingent militaire de la Monusco, qui com"
+        },
+        {
+          "title": "En RDC, l’histoire d’un conflit foncier devenu insurrection armée à deux pas de Kinshasa",
+          "url": "https://www.jeuneafrique.com/1762580/politique/en-rdc-lhistoire-dun-conflit-foncier-devenu-insurrection-armee-a-deux-pas-de-kinshasa/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-08T08:00:00",
+          "lead": "Alors que l’attention reste braquée sur l’est du Congo, une autre crise sécuritaire s’aggrave aux portes de la capitale."
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -939,15 +951,31 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 3.3,
-      "ratio": 0.31,
+      "baseline": 3.1,
+      "ratio": 0.65,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Éthiopie: regain de tension au Tigré, les réfugiés affluent dans les camps de déplacés",
+          "url": "https://www.rfi.fr/fr/afrique/20260208-%C3%A9thiopie-regain-de-tension-au-tigr%C3%A9-les-r%C3%A9fugi%C3%A9s-affluent-dans-les-camps-de-d%C3%A9plac%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-02-08T05:16:08",
+          "lead": "Depuis quelques semaines, le Tigré, cette région du nord-ouest de l'Éthiopie, connaît un regain de tension. Conséquence "
+        },
         {
           "title": "Éthiopie: Solomon Shiferaw, un artiste peintre qui travaille et alerte sur la migration",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260207-%C3%A9thiopie-solomon-shiferaw-un-artiste-peintre-qui-travaille-et-alerte-sur-la-migration",
@@ -964,7 +992,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.05,
+      "ratio": 1.04,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -991,14 +1019,14 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Africanews"
       ]
     },
     "Uganda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.5,
+      "baseline": 3.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1010,8 +1038,8 @@
     "Kenya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.7,
-      "ratio": 0.27,
+      "baseline": 3.5,
+      "ratio": 0.29,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1037,7 +1065,7 @@
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.3,
+      "baseline": 3.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1061,7 +1089,7 @@
     "Tanzania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.4,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1071,13 +1099,17 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.85,
-      "status": "normal",
+      "ratio": 1.71,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Inondation",
+          "count": 1
+        },
         {
           "word": "Coup",
           "count": 1
@@ -1085,6 +1117,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Madagascar: quelles solutions pour éviter les inondations à Antananarivo?",
+          "url": "https://www.rfi.fr/fr/afrique/20260208-madagascar-quelles-solutions-pour-%C3%A9viter-les-inondations-%C3%A0-antananarivo",
+          "source": "RFI Afrique",
+          "published": "2026-02-08T06:26:58",
+          "lead": "Douze décès et près de 85 000 sinistrés : c’est le dernier bilan du passage de la tempête tropicale Fytia qui a traversé"
+        },
         {
           "title": "Madagascar: l'agence S&P Global Ratings lève la «surveillance négative» et maintient la note à B-",
           "url": "https://www.rfi.fr/fr/afrique/20260207-madagascar-l-agence-s-p-global-ratings-l%C3%A8ve-la-surveillance-n%C3%A9gative-et-maintient-la-note-%C3%A0-b",
@@ -1137,7 +1176,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 1.69,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1164,15 +1203,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "RFI Afrique"
       ]
     },
     "Malawi": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.85,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1198,7 +1237,7 @@
     "Mozambique": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1210,7 +1249,7 @@
     "Zimbabwe": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1222,8 +1261,8 @@
     "Namibia": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 3.3,
+      "baseline": 1.1,
+      "ratio": 2.77,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1279,8 +1318,8 @@
     "South Africa": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 10.8,
-      "ratio": 0.18,
+      "baseline": 10.1,
+      "ratio": 0.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1289,11 +1328,11 @@
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Combat",
           "count": 1
         }
       ],
