@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-08T07:51:45.368474",
+  "generated_at": "2026-02-08T09:56:00.299561",
   "summary": {
     "high": 1,
     "elevated": 3,
-    "normal": 22,
-    "quiet": 28
+    "normal": 20,
+    "quiet": 30
   },
   "countries": {
     "Morocco": {
@@ -66,9 +66,9 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "Jeune Afrique",
         "Africanews",
-        "France24 Afrique",
         "RFI Afrique"
       ]
     },
@@ -128,11 +128,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -154,8 +154,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Egypt": {
@@ -171,23 +171,23 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 5,
+      "source_count": 5,
       "baseline": 4.9,
-      "ratio": 0.81,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Rsf",
+          "count": 3
+        },
         {
           "word": "Attack",
           "count": 2
         },
         {
           "word": "Killed",
-          "count": 2
-        },
-        {
-          "word": "Rsf",
           "count": 2
         },
         {
@@ -219,6 +219,13 @@
       ],
       "articles": [
         {
+          "title": "Saudi Arabia denounces ‘foreign interference’ in Sudan after RSF attacks",
+          "url": "https://www.aljazeera.com/news/2026/2/8/saudi-arabia-slams-foreign-interference-in-sudan-after-deadly-rsf-attacks?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-08T07:34:12",
+          "lead": "Riyadh condemns RSF attacks in Kordofan, blames foreign fighters and weapons for fuelling Sudan&#039;s three-year confli"
+        },
+        {
           "title": "Sudan: Suspected RSF drone attack on aid convoy kills dozens",
           "url": "https://www.dw.com/en/sudan-suspected-rsf-drone-attack-on-aid-convoy-kills-dozens/a-75855616?maca=en-rss-en-africa-8291-xml-mrss",
           "source": "DW Africa",
@@ -248,10 +255,11 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "AllAfrica",
         "DW Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "The Guardian Africa",
+        "Al Jazeera",
+        "AllAfrica"
       ]
     },
     "Mauritania": {
@@ -292,8 +300,8 @@
     "Mali": {
       "article_count": 5,
       "source_count": 4,
-      "baseline": 3.9,
-      "ratio": 1.28,
+      "baseline": 4.0,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -337,16 +345,16 @@
       ],
       "sources": [
         "Jeune Afrique",
+        "RFI Afrique",
         "AllAfrica",
-        "DW Africa",
-        "RFI Afrique"
+        "DW Africa"
       ]
     },
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 0.4,
+      "baseline": 2.6,
+      "ratio": 0.39,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -462,10 +470,10 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica",
         "France24 Afrique",
-        "RFI Afrique"
+        "Africanews",
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Gambia": {
@@ -546,7 +554,7 @@
     "Côte d'Ivoire": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -556,31 +564,16 @@
       "sources": []
     },
     "Ghana": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.43,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.2,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Zambian leader backs traditional Ghanaian outfit after online trolling",
-          "url": "https://www.bbc.com/news/articles/cq5y5w2z344o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-07T09:54:55",
-          "lead": "Some Zambians outraged Ghanaians by describing the outfit worn by their president as a \"blouse\"."
-        }
-      ],
-      "sources": [
-        "BBC Africa"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Togo": {
       "article_count": 0,
@@ -609,7 +602,7 @@
     "Nigeria": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 8.2,
+      "baseline": 8.3,
       "ratio": 0.48,
       "status": "normal",
       "confidence": "normal",
@@ -627,11 +620,11 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -667,9 +660,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Al Jazeera",
-        "BBC Africa",
-        "RFI Afrique"
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -697,8 +690,8 @@
     "Chad": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 0.4,
+      "baseline": 2.4,
+      "ratio": 0.41,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -760,20 +753,20 @@
       ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 1.14,
+      "ratio": 0.57,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Violence",
-          "count": 2
+          "word": "Humanitarian",
+          "count": 1
         },
         {
-          "word": "Humanitarian",
-          "count": 2
+          "word": "Violence",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -784,18 +777,10 @@
           "source": "UN News Africa",
           "published": "2026-02-07T12:00:00",
           "lead": "The UN Secretary-General has strongly condemned the surge in violence across South Sudan, warning that civilians and aid"
-        },
-        {
-          "title": "Press statement: “Attacks against humanitarian personnel and facilities must stop.” Statement by Ms. Anita Gbeho, Humanitarian Coordinator for South Sudan",
-          "url": "https://reliefweb.int/report/south-sudan/press-statement-attacks-against-humanitarian-personnel-and-facilities-must-stop-statement-ms-anita-gbeho-humanitarian-coordinator-south-sudan",
-          "source": "ReliefWeb",
-          "published": "2026-02-07T17:50:17",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
-        "UN News Africa",
-        "ReliefWeb"
+        "UN News Africa"
       ]
     },
     "Eq. Guinea": {
@@ -845,17 +830,13 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
-      "baseline": 7.1,
-      "ratio": 0.56,
+      "baseline": 7.2,
+      "ratio": 0.42,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
         {
           "word": "M23",
           "count": 1
@@ -875,13 +856,6 @@
           "lead": "Au terme d'intenses tractations et d'une forte pression des autorités britanniques, Londres et Kinshasa ont fini par con"
         },
         {
-          "title": "Les Congolais sont désormais majoritaires parmi les primo-demandeurs d'asile à Mayotte",
-          "url": "https://www.rfi.fr/fr/afrique/20260207-les-congolais-sont-d%C3%A9sormais-majoritaires-parmi-les-primo-demandeurs-d-asile-%C3%A0-mayotte",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T08:32:01",
-          "lead": "Mayotte, le département français de l’océan Indien s’impose comme une nouvelle destination pour les Congolais issus de l"
-        },
-        {
           "title": "L’Afrique du Sud annonce se retirer de la mission militaire de l’ONU en RDC",
           "url": "https://www.lemonde.fr/international/article/2026/02/08/l-afrique-du-sud-annonce-se-retirer-de-la-mission-de-l-onu-en-rdc_6665831_3210.html",
           "source": "Le Monde Afrique",
@@ -898,8 +872,8 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "São Tomé": {
@@ -953,17 +927,17 @@
     "Ethiopia": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 3.1,
-      "ratio": 0.65,
+      "baseline": 3.2,
+      "ratio": 0.63,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "Déplacés",
           "count": 1
         },
         {
-          "word": "Déplacés",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -989,12 +963,12 @@
       ]
     },
     "Somalia": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.04,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.57,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
@@ -1004,7 +978,14 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Somalia’s Mohamud slams Israel’s interference, rejects base on Somaliland",
+          "title": "Somalia is the missing pillar of Red Sea and Gulf of Aden stability",
+          "url": "https://www.aljazeera.com/opinions/2026/2/8/somalia-is-the-missing-pillar-of-red-sea-and-gulf-of-aden-stability?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-08T08:00:07",
+          "lead": "Somalia’s stability is essential to securing global trade corridors and regional security."
+        },
+        {
+          "title": "Somalia’s Mohamud slams Israel’s ‘interference’, rejects base on Somaliland",
           "url": "https://www.aljazeera.com/news/2026/2/8/somalias-mohamud-slams-israels-interference-rejects-base-on-somaliland?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-08T05:04:57",
@@ -1019,8 +1000,8 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
-        "Africanews"
+        "Africanews",
+        "Al Jazeera"
       ]
     },
     "Uganda": {
@@ -1036,31 +1017,16 @@
       "sources": []
     },
     "Kenya": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 3.5,
-      "ratio": 0.29,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Drought in Kenya spreads beyond arid north",
-          "url": "http://www.africanews.com/2026/02/07/drought-in-kenya-spreads-beyond-arid-north/",
-          "source": "Africanews",
-          "published": "2026-02-07T08:11:22",
-          "lead": "After one of the driest rainy seasons on record at the end of 2025, drought is spreading in Kenya. This time, it is also"
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Rwanda": {
       "article_count": 0,
@@ -1102,7 +1068,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 1.71,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1173,27 +1139,15 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 1.6,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 0.8,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Zambian leader backs traditional Ghanaian outfit after online trolling",
-          "url": "https://www.bbc.com/news/articles/cq5y5w2z344o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-07T09:54:55",
-          "lead": "Some Zambians outraged Ghanaians by describing the outfit worn by their president as a \"blouse\"."
-        },
         {
           "title": "Ligue des champions CAF: la Renaissance de Berkane rate le coche, la JSK plus dans la course",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260207-ligue-des-champions-caf-la-renaissance-de-berkane-rate-le-coche",
@@ -1203,7 +1157,6 @@
         }
       ],
       "sources": [
-        "BBC Africa",
         "RFI Afrique"
       ]
     },
@@ -1316,10 +1269,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 10.1,
-      "ratio": 0.2,
+      "ratio": 0.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1351,9 +1304,17 @@
           "source": "Africanews",
           "published": "2026-02-07T13:29:29",
           "lead": "The country is facing its worst outbreak of the illness that infects cattle herds. But the first locally-produced vaccin"
+        },
+        {
+          "title": "SMASH HIT: Proteas fired up by Test success in quest for T20 World Cup triumph",
+          "url": "https://www.dailymaverick.co.za/article/proteas-fired-up-by-test-success-in-quest-for-t20-world-cup-triumph",
+          "source": "Daily Maverick",
+          "published": "2026-02-08T10:37:04",
+          "lead": "They will take another shot at erasing South Africa’s painful memories of limited-overs World Cups when they battle for "
         }
       ],
       "sources": [
+        "Daily Maverick",
         "Africanews",
         "Le Monde Afrique"
       ]
