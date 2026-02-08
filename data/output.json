@@ -1,25 +1,20 @@
 {
-  "generated_at": "2026-02-08T15:52:32.082467",
+  "generated_at": "2026-02-08T19:05:45.329451",
   "summary": {
     "high": 1,
     "elevated": 1,
-    "normal": 22,
-    "quiet": 30
+    "normal": 25,
+    "quiet": 27
   },
   "countries": {
     "Morocco": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 5.5,
-      "ratio": 1.09,
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 5.4,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -49,42 +44,22 @@
           "source": "Jeune Afrique",
           "published": "2026-02-08T12:00:00",
           "lead": "Arrêté au Maroc en novembre 2025 après plus d’un an de fuite, le chef du clan mafieux d’Aprilia est au cœur d’un dossier"
-        },
-        {
-          "title": "Sahara : Washington réunit le Maroc, l’Algérie, la Mauritanie et le Polisario, à Madrid",
-          "url": "https://www.jeuneafrique.com/1763424/politique/sahara-washington-reunit-le-maroc-lalgerie-la-mauritanie-et-le-polisario-a-madrid/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-07T16:52:41",
-          "lead": "Sous l’égide directe des États-Unis, un conclave ultra-confidentiel doit réunir ce week-end, à Madrid, le Maroc, l’Algér"
-        },
-        {
-          "title": "Morocco still battling disastrous floods, rescue efforts underway",
-          "url": "http://www.africanews.com/2026/02/07/morocco-still-battling-disastrous-floods-rescue-efforts-underway/",
-          "source": "Africanews",
-          "published": "2026-02-07T16:10:57",
-          "lead": "More than 140 000 people in total have been evacuated as authorities attempt to bring the population to safety following"
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "Africanews",
         "RFI Afrique",
         "France24 Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.2,
-      "ratio": 0.92,
+      "ratio": 0.46,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -93,17 +68,9 @@
           "source": "RFI Afrique",
           "published": "2026-02-08T04:15:59",
           "lead": "Dans le cadre du processus lancé à la fin du mois de janvier à Washington, l'Algérie, le Maroc, la Mauritanie et le Fron"
-        },
-        {
-          "title": "Sahara : Washington réunit le Maroc, l’Algérie, la Mauritanie et le Polisario, à Madrid",
-          "url": "https://www.jeuneafrique.com/1763424/politique/sahara-washington-reunit-le-maroc-lalgerie-la-mauritanie-et-le-polisario-a-madrid/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-07T16:52:41",
-          "lead": "Sous l’égide directe des États-Unis, un conclave ultra-confidentiel doit réunir ce week-end, à Madrid, le Maroc, l’Algér"
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
@@ -120,26 +87,16 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 3.6,
-      "ratio": 0.28,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Libya: Kadhafi Clan's Path Back to Power Fades With Killing of Sa&#xef;f Al-Islam",
-          "url": "https://allafrica.com/stories/202602070215.html",
-          "source": "AllAfrica",
-          "published": "2026-02-07T18:25:21",
-          "lead": "[RFI] The death of Sa&#xef;f al-Islam Kadhafi - the last political heir of Libya's former ruling family - is reshaping t"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Egypt": {
       "article_count": 0,
@@ -154,33 +111,13 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 5.0,
-      "ratio": 0.8,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 4.9,
+      "ratio": 0.41,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Killed",
-          "count": 2
-        },
-        {
-          "word": "Attack",
-          "count": 2
-        },
-        {
-          "word": "Rsf",
-          "count": 2
-        },
-        {
-          "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Dead",
-          "count": 1
-        },
         {
           "word": "Fighting",
           "count": 1
@@ -190,24 +127,32 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Attack",
-          "Rsf"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Sudan: Suspected RSF drone attack on aid convoy kills dozens",
-          "url": "https://www.dw.com/en/sudan-suspected-rsf-drone-attack-on-aid-convoy-kills-dozens/a-75855616?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-02-07T17:14:00",
-          "lead": "Observers said the Rapid Support Forces paramilitary group killed at least 24 people fleeing to safety, eight of them ch"
-        },
         {
           "title": "RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group",
           "url": "https://www.theguardian.com/world/2026/feb/07/sudan-rsf-drone-attack-rahad-kills-displaced-people",
@@ -221,35 +166,21 @@
           "source": "RFI Afrique",
           "published": "2026-02-08T00:04:13",
           "lead": "Attribuée aux Forces de soutien rapide (FSR) du général Hamdan Daglo, l'attaque survenue à l'aube du vendredi 6 février "
-        },
-        {
-          "title": "Sudan: Deadly Attacks Hit Kordofan As Scrutiny Grows Over Drone Warfare in Sudan",
-          "url": "https://allafrica.com/stories/202602070214.html",
-          "source": "AllAfrica",
-          "published": "2026-02-07T18:24:43",
-          "lead": "[Dabanga] Kordofan / East Oweinat -- Nearly 40 people were killed and dozens injured this week in a series of attacks ac"
         }
       ],
       "sources": [
-        "DW Africa",
-        "The Guardian Africa",
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Mauritania": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -258,25 +189,17 @@
           "source": "RFI Afrique",
           "published": "2026-02-08T04:15:59",
           "lead": "Dans le cadre du processus lancé à la fin du mois de janvier à Washington, l'Algérie, le Maroc, la Mauritanie et le Fron"
-        },
-        {
-          "title": "Sahara : Washington réunit le Maroc, l’Algérie, la Mauritanie et le Polisario, à Madrid",
-          "url": "https://www.jeuneafrique.com/1763424/politique/sahara-washington-reunit-le-maroc-lalgerie-la-mauritanie-et-le-polisario-a-madrid/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-07T16:52:41",
-          "lead": "Sous l’égide directe des États-Unis, un conclave ultra-confidentiel doit réunir ce week-end, à Madrid, le Maroc, l’Algér"
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
     "Mali": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.9,
-      "ratio": 1.02,
+      "ratio": 0.51,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -295,26 +218,11 @@
           "source": "RFI Afrique",
           "published": "2026-02-07T20:39:02",
           "lead": "Au Mali, le Collectif pour la défense des droits du peuple de l'Azawad a diffusé, vendredi 6 février, son rapport annuel"
-        },
-        {
-          "title": "Mali: reprise de la production de la mine d'or de Loulo après l'accord entre Barrick Gold et Bamako",
-          "url": "https://www.rfi.fr/fr/afrique/20260207-mali-reprise-de-la-production-de-la-mine-d-or-de-loulo-apr%C3%A8s-l-accord-entre-barrick-gold-et-bamako",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T18:04:15",
-          "lead": "On en sait plus sur la reprise de la production de la mine d'or de Loulo Gounkoto, la plus grande du Mali, exploitée par"
-        },
-        {
-          "title": "Senegal: Deadly Attacks Stall Trade in Key Corridor Between Senegal and Mali",
-          "url": "https://allafrica.com/stories/202602070216.html",
-          "source": "AllAfrica",
-          "published": "2026-02-07T18:25:58",
-          "lead": "[RFI] More than 4,000 empty shipping containers are stranded inside Mali as insecurity on the main trade route to Senega"
         }
       ],
       "sources": [
-        "DW Africa",
         "RFI Afrique",
-        "AllAfrica"
+        "DW Africa"
       ]
     },
     "Burkina Faso": {
@@ -343,8 +251,8 @@
         }
       ],
       "sources": [
-        "DW Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "DW Africa"
       ]
     },
     "Niger": {
@@ -370,12 +278,12 @@
       ]
     },
     "Senegal": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.9,
-      "ratio": 0.61,
+      "ratio": 0.2,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -385,26 +293,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-08T07:14:09",
           "lead": "De vives tensions persistent autour des bourses étudiantes au Sénégal. Les facs de Dakar, Saint-Louis et Thiès ont fermé"
-        },
-        {
-          "title": "2026 edition of Africa Eco Race comes to an end in Dakar",
-          "url": "http://www.africanews.com/2026/02/07/2026-edition-of-africa-eco-race-comes-to-an-end-in-dakar/",
-          "source": "Africanews",
-          "published": "2026-02-07T15:54:45",
-          "lead": "The final competitive stage of the Africa Eco Race 2026 marked the transition toward the conclusion of an exceptional ad"
-        },
-        {
-          "title": "Senegal: Deadly Attacks Stall Trade in Key Corridor Between Senegal and Mali",
-          "url": "https://allafrica.com/stories/202602070216.html",
-          "source": "AllAfrica",
-          "published": "2026-02-07T18:25:58",
-          "lead": "[RFI] More than 4,000 empty shipping containers are stranded inside Mali as insecurity on the main trade route to Senega"
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -420,16 +312,31 @@
       "sources": []
     },
     "Guinea-Bissau": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Coup",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Guinée-Bissau : l’opposant Domingos Simões Pereira, soupçonné de tentatives de coup d’État, convoqué par un tribunal militaire",
+          "url": "https://www.jeuneafrique.com/1763439/politique/guinee-bissau-lopposant-domingos-simoes-pereira-soupconne-de-tentatives-de-coup-detat-convoque-par-un-tribunal-militaire/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-08T17:07:40",
+          "lead": "Domingos Simões Pereira est soupçonné d’être impliqué dans au moins deux tentatives de coup d’État en Guinée-Bissau fin "
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Guinea": {
       "article_count": 0,
@@ -490,16 +397,26 @@
       ]
     },
     "Ghana": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.46,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Influential Ghanaian highlife musician Ebo Taylor dies at 90",
+          "url": "https://www.bbc.com/news/articles/c1e9p04n8y9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-08T18:18:10",
+          "lead": "The guitarist, composer and band leader fused Ghanaian music and funk to create tracks sampled around the world."
+        }
+      ],
+      "sources": [
+        "BBC Africa"
+      ]
     },
     "Togo": {
       "article_count": 0,
@@ -526,10 +443,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 8.2,
-      "ratio": 0.36,
+      "ratio": 0.48,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -547,6 +464,14 @@
         },
         {
           "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -572,11 +497,19 @@
           "source": "RFI Afrique",
           "published": "2026-02-08T07:04:17",
           "lead": "Au Nigeria, le président Bola Tinubu a ordonné le déploiement d’un bataillon de l’armée dans le district de Kaiama (État"
+        },
+        {
+          "title": "Catholic Pope Leo XIV calls for an end to violence in Nigeria",
+          "url": "http://www.africanews.com/2026/02/08/catholic-pope-leo-xiv-calls-for-an-end-to-violence-in-nigeria/",
+          "source": "Africanews",
+          "published": "2026-02-08T15:47:53",
+          "lead": "Gunmen killed three villagers and abducted 11 people Saturday, including a Catholic priest, while at least 170 were kill"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique"
+        "Africanews",
+        "RFI Afrique",
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -604,12 +537,12 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.41,
+      "ratio": 0.83,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Crise",
@@ -619,6 +552,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Clap de fin pour l'international camerounais Nicolas Nkoulou",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260208-clap-de-fin-pour-l-international-camerounais-nicolas-nkoulou",
+          "source": "RFI Afrique",
+          "published": "2026-02-08T17:23:28",
+          "lead": "Nicolas Nkoulou raccroche les crampons. Le défenseur camerounais était notamment passé par la Ligue 1 avec Monaco, Marse"
+        },
+        {
           "title": "Détenus de la crise post-électorale au Cameroun : les familles dénoncent une injustice",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260208-d%C3%A9tenus-de-la-crise-post-%C3%A9lectorale-au-cameroun-les-familles-d%C3%A9noncent-une-injustice",
           "source": "France24 Afrique",
@@ -627,6 +567,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "France24 Afrique"
       ]
     },
@@ -639,11 +580,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rebelle",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Rebelle",
           "count": 1
         }
       ],
@@ -686,37 +627,74 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.5,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Clap de fin pour l'international camerounais Nicolas Nkoulou",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260208-clap-de-fin-pour-l-international-camerounais-nicolas-nkoulou",
+          "source": "RFI Afrique",
+          "published": "2026-02-08T17:23:28",
+          "lead": "Nicolas Nkoulou raccroche les crampons. Le défenseur camerounais était notamment passé par la Ligue 1 avec Monaco, Marse"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Congo": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.8,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "The Guardian view on the scramble for critical minerals: while powers vie for access, labourers die | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/feb/08/the-guardian-view-on-the-scramble-for-critical-minerals-while-powers-vie-for-access-labourers-die",
+          "source": "The Guardian Africa",
+          "published": "2026-02-08T17:30:36",
+          "lead": "A mining disaster in the Democratic Republic of Congo underscores the human cost of extraction. Intensified competition "
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "DRC": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 7.2,
-      "ratio": 0.56,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -732,6 +710,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "The Guardian view on the scramble for critical minerals: while powers vie for access, labourers die | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/feb/08/the-guardian-view-on-the-scramble-for-critical-minerals-while-powers-vie-for-access-labourers-die",
+          "source": "The Guardian Africa",
+          "published": "2026-02-08T17:30:36",
+          "lead": "A mining disaster in the Democratic Republic of Congo underscores the human cost of extraction. Intensified competition "
+        },
         {
           "title": "L’Afrique du Sud retire ses 700 soldats de la mission de paix de l’ONU en RDC pour raison budgétaire",
           "url": "https://www.rfi.fr/fr/afrique/20260208-l-afrique-du-sud-retire-ses-700-soldats-de-la-mission-de-paix-de-l-onu-en-rdc-pour-raison-budg%C3%A9taire",
@@ -762,9 +747,10 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
+        "The Guardian Africa",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -792,13 +778,22 @@
       "sources": []
     },
     "Eritrea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 6.0,
+      "status": "high",
+      "confidence": "high",
+      "keywords": [
+        {
+          "word": "Rebel",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -807,9 +802,25 @@
           "source": "BBC Africa",
           "published": "2026-02-08T13:45:38",
           "lead": "Eritrea has previously denied accusations that its soldiers are in Ethiopia supporting rebels."
+        },
+        {
+          "title": "Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory",
+          "url": "https://www.aljazeera.com/news/2026/2/8/ethiopia-demands-eritrea-immediately-withdraw-troops-from-its-territory?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-08T18:42:22",
+          "lead": "In recent months, Addis Ababa has accused Eritrea of supporting rebel fighters on Ethiopian soil."
+        },
+        {
+          "title": "« Ce ne sont pas de simples provocations, mais des actes d’agression » : l’Éthiopie somme l’Érythrée de retirer ses troupes de son territoire",
+          "url": "https://www.jeuneafrique.com/1763452/politique/ce-ne-sont-pas-de-simples-provocations-mais-des-actes-dagression-lethiopie-somme-lerythree-de-retirer-immediatement-ses-troupes-de-son-territoire/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-08T18:24:09",
+          "lead": "Le ministre éthiopien des Affaires étrangères a notamment accusé le gouvernement érythréen de choisir « la voie d’une es"
         }
       ],
       "sources": [
+        "Jeune Afrique",
+        "Al Jazeera",
         "BBC Africa"
       ]
     },
@@ -826,19 +837,27 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 3.2,
-      "ratio": 0.92,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.54,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Rebel",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        },
         {
           "word": "Réfugiés",
           "count": 1
         },
         {
-          "word": "Déplacés",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -850,6 +869,13 @@
           "source": "BBC Africa",
           "published": "2026-02-08T13:45:38",
           "lead": "Eritrea has previously denied accusations that its soldiers are in Ethiopia supporting rebels."
+        },
+        {
+          "title": "Ethiopia demands Eritrea ‘immediately withdraw’ troops from its territory",
+          "url": "https://www.aljazeera.com/news/2026/2/8/ethiopia-demands-eritrea-immediately-withdraw-troops-from-its-territory?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-08T18:42:22",
+          "lead": "In recent months, Addis Ababa has accused Eritrea of supporting rebel fighters on Ethiopian soil."
         },
         {
           "title": "Éthiopie: regain de tension au Tigré, les réfugiés affluent dans les camps de déplacés",
@@ -864,20 +890,29 @@
           "source": "RFI Afrique",
           "published": "2026-02-07T23:14:38",
           "lead": "D'après le dernier bilan de l'Organisation internationale pour les migrations (OIM), un peu plus de 350 000 personnes on"
+        },
+        {
+          "title": "« Ce ne sont pas de simples provocations, mais des actes d’agression » : l’Éthiopie somme l’Érythrée de retirer ses troupes de son territoire",
+          "url": "https://www.jeuneafrique.com/1763452/politique/ce-ne-sont-pas-de-simples-provocations-mais-des-actes-dagression-lethiopie-somme-lerythree-de-retirer-immediatement-ses-troupes-de-son-territoire/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-08T18:24:09",
+          "lead": "Le ministre éthiopien des Affaires étrangères a notamment accusé le gouvernement érythréen de choisir « la voie d’une es"
         }
       ],
       "sources": [
+        "RFI Afrique",
+        "Al Jazeera",
         "BBC Africa",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.9,
-      "ratio": 1.04,
+      "ratio": 0.52,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "President",
@@ -892,13 +927,6 @@
           "source": "Al Jazeera",
           "published": "2026-02-08T14:39:17",
           "lead": "Hassan Sheikh Mohamud on Israel’s Somaliland move, US pressure, security fears and Somalia’s political future."
-        },
-        {
-          "title": "Somalia is the missing pillar of Red Sea and Gulf of Aden stability",
-          "url": "https://www.aljazeera.com/opinions/2026/2/8/somalia-is-the-missing-pillar-of-red-sea-and-gulf-of-aden-stability?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-08T08:00:07",
-          "lead": "Somalia’s stability is essential to securing global trade corridors and regional security."
         }
       ],
       "sources": [
@@ -955,28 +983,66 @@
       ]
     },
     "Rwanda": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.33,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "The Guardian view on the scramble for critical minerals: while powers vie for access, labourers die | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/feb/08/the-guardian-view-on-the-scramble-for-critical-minerals-while-powers-vie-for-access-labourers-die",
+          "source": "The Guardian Africa",
+          "published": "2026-02-08T17:30:36",
+          "lead": "A mining disaster in the Democratic Republic of Congo underscores the human cost of extraction. Intensified competition "
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "The Guardian view on the scramble for critical minerals: while powers vie for access, labourers die | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/feb/08/the-guardian-view-on-the-scramble-for-critical-minerals-while-powers-vie-for-access-labourers-die",
+          "source": "The Guardian Africa",
+          "published": "2026-02-08T17:30:36",
+          "lead": "A mining disaster in the Democratic Republic of Congo underscores the human cost of extraction. Intensified competition "
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "Tanzania": {
       "article_count": 1,
@@ -1009,7 +1075,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.8,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1069,26 +1135,16 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.2,
-      "ratio": 0.86,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Ligue des champions CAF: la Renaissance de Berkane rate le coche, la JSK plus dans la course",
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260207-ligue-des-champions-caf-la-renaissance-de-berkane-rate-le-coche",
-          "source": "RFI Afrique",
-          "published": "2026-02-07T16:22:11",
-          "lead": "La qualification pour les rencontres à qualification directe attendra. Les Marocains de Berkane se sont inclinés 2-0 che"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Malawi": {
       "article_count": 0,
@@ -1127,42 +1183,16 @@
       "sources": []
     },
     "Namibia": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 1.85,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 2
-        },
-        {
-          "word": "Government",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.0,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Namibia: Nujoma and Geingob Remembered As Namibia's Foundational Leaders",
-          "url": "https://allafrica.com/stories/202602070180.html",
-          "source": "AllAfrica",
-          "published": "2026-02-07T15:56:04",
-          "lead": "[Namibian] Windhoek -- Several leaders have praised the late founding president Sam Nujoma and Namibia's third president"
-        },
-        {
-          "title": "Namibia: President Nandi-Ndaitwah Pays Tribute to Founding President Sam Nujoma and the Third President Hage Geingob",
-          "url": "https://allafrica.com/stories/202602070181.html",
-          "source": "AllAfrica",
-          "published": "2026-02-07T16:44:33",
-          "lead": "[Government of Namibia] President Netumbo Nandi-Ndaitwah delivered a keynote address at the candlelight remembrance cere"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Botswana": {
       "article_count": 0,
@@ -1177,10 +1207,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 10.3,
-      "ratio": 0.58,
+      "article_count": 8,
+      "source_count": 5,
+      "baseline": 10.4,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1197,11 +1227,11 @@
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1229,6 +1259,20 @@
           "lead": "Selon les Nations unies, quelque 700 militaires sud-africains participent au contingent militaire de la Monusco, qui com"
         },
         {
+          "title": "South Africa to withdraw troops from UN mission in DR Congo",
+          "url": "http://www.africanews.com/2026/02/08/south-africa-to-withdraw-troops-from-un-mission-in-dr-congo/",
+          "source": "Africanews",
+          "published": "2026-02-08T16:33:12",
+          "lead": "It said the decision to leave MONUSCO was influenced by the need to consolidate and realign the resources of the nationa"
+        },
+        {
+          "title": "POWER GUZZLERS (PART ONE): Growth spurt of data centres could threaten SA’s electricity and water supply",
+          "url": "https://www.dailymaverick.co.za/article/growth-spurt-of-data-centres-could-threaten-sas-electricity-and-water-supply",
+          "source": "Daily Maverick",
+          "published": "2026-02-08T20:55:25",
+          "lead": "Hype and hope are running high with the spread of artificial intelligence. But is South Africa paying sufficient attenti"
+        },
+        {
           "title": "TAPPED OUT: Civil society body calls for Joburg’s water crisis to be declared a national disaster",
           "url": "https://www.dailymaverick.co.za/article/civil-society-body-calls-for-joburgs-wats-water-crisis-to-be-declared-a-national",
           "source": "Daily Maverick",
@@ -1251,10 +1295,11 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
+        "RFI Afrique",
         "BBC Africa",
+        "Le Monde Afrique",
         "Daily Maverick",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Eswatini": {
