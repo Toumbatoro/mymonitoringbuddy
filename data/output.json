@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-02-09T20:06:47.013860",
+  "generated_at": "2026-02-09T23:03:44.851964",
   "summary": {
-    "high": 4,
-    "elevated": 8,
-    "normal": 21,
-    "quiet": 21
+    "high": 9,
+    "elevated": 9,
+    "normal": 17,
+    "quiet": 19
   },
   "countries": {
     "Morocco": {
-      "article_count": 5,
-      "source_count": 4,
-      "baseline": 5.1,
-      "ratio": 0.98,
+      "article_count": 6,
+      "source_count": 5,
+      "baseline": 5.2,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
         {
           "word": "Dead",
           "count": 1
         },
         {
           "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -38,11 +38,11 @@
           "lead": "Selon la revue espagnole El Confidencial, les États-Unis ont réuni l’Algérie, le Maroc, la Mauritanie et le Front Polisa"
         },
         {
-          "title": "Au moins quatre morts dans les violentes crues frappant le nord du Maroc",
-          "url": "https://www.france24.com/fr/afrique/20260208-inondations-evacuation-quatre-morts-dans-des-crues-dans-le-nord-du-maroc",
-          "source": "France24 Afrique",
-          "published": "2026-02-08T21:52:30",
-          "lead": "Au Maroc, au moins quatre personnes, dont trois enfants, ont trouvé la mort après avoir été emportées par de violentes c"
+          "title": "Sahara occidental : les Etats-Unis parviennent à réunir tous les acteurs du conflit",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/09/sahara-occidental-les-etats-unis-parviennent-a-reunir-tous-les-acteurs-du-conflit_6666063_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-09T21:03:38",
+          "lead": "Plus de six ans après leurs dernières négociations directes, des représentants du Maroc, des indépendantistes du Front P"
         },
         {
           "title": "Orange, MTN, Maroc Telecom… Pourquoi les opérateurs parient sur les réseaux partagés",
@@ -64,20 +64,28 @@
           "source": "Africanews",
           "published": "2026-02-09T07:45:18",
           "lead": "Tens of thousands of people have been evacuated in northern Morocco due to heavy rains and flooding."
+        },
+        {
+          "title": "Morocco - Floods and landslides (media, Maroco Meteo, NOAA-CPC) (ECHO Daily Flash of 9 February 2026)",
+          "url": "https://reliefweb.int/report/morocco/morocco-floods-and-landslides-media-maroco-meteo-noaa-cpc-echo-daily-flash-9-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:29:13",
+          "lead": "Country: Morocco\n                                      Source: European Commission's Directorate-General for European Ci"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "ReliefWeb",
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 2.2,
-      "ratio": 1.79,
+      "ratio": 2.24,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -107,6 +115,13 @@
           "lead": "Selon la revue espagnole El Confidencial, les États-Unis ont réuni l’Algérie, le Maroc, la Mauritanie et le Front Polisa"
         },
         {
+          "title": "Sahara occidental : les Etats-Unis parviennent à réunir tous les acteurs du conflit",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/09/sahara-occidental-les-etats-unis-parviennent-a-reunir-tous-les-acteurs-du-conflit_6666063_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-09T21:03:38",
+          "lead": "Plus de six ans après leurs dernières négociations directes, des représentants du Maroc, des indépendantistes du Front P"
+        },
+        {
           "title": "Algérie : Abdelmadjid Tebboune dément l’hypothèse d’un troisième mandat",
           "url": "https://www.jeuneafrique.com/1763493/politique/algerie-abdelmadjid-tebboune-dement-lhypothese-dun-troisieme-mandat/",
           "source": "Jeune Afrique",
@@ -122,8 +137,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
+        "RFI Afrique",
+        "Le Monde Afrique",
         "Jeune Afrique"
       ]
     },
@@ -140,19 +156,43 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 5,
+      "article_count": 7,
       "source_count": 5,
-      "baseline": 3.8,
-      "ratio": 1.3,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 3.7,
+      "ratio": 1.9,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Dead",
           "count": 3
         },
         {
-          "word": "Killed",
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
           "count": 1
         }
       ],
@@ -180,38 +220,80 @@
           "lead": "Seules deux femmes nigérianes ont été secourues lors de l’opération de sauvetage. L’une d’entre elles a perdu ses deux b"
         },
         {
-          "title": "Building collapse in Lebanon kills at least six people, local official says",
-          "url": "https://www.dailymaverick.co.za/article/building-collapse-in-lebanon-kills-at-least-six-people-local-official-says",
-          "source": "Daily Maverick",
-          "published": "2026-02-08T21:44:05",
-          "lead": "BEIRUT, Feb 8 (Reuters) - At least six people were killed and seven others were injured when two adjoining buildings col"
-        },
-        {
           "title": "53 migrants die in latest shipwreck tragedy off Libya coast",
           "url": "https://news.un.org/feed/view/en/story/2026/02/1166922",
           "source": "UN News Africa",
           "published": "2026-02-09T12:00:00",
           "lead": "Fifty-three migrants including two babies are dead or missing after a large rubber dinghy capsized off the coast of Liby"
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
+          "title": "Libya: Deux bébés parmi les 53 morts ou disparus après le naufrage d'un bateau de migrants au large de la Libye",
+          "url": "https://reliefweb.int/report/libya/deux-bebes-parmi-les-53-morts-ou-disparus-apres-le-naufrage-dun-bateau-de-migrants-au-large-de-la-libye",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:33:06",
+          "lead": "Countries: Libya, World\n                                      Source: International Organization for Migration\n         "
+        },
+        {
+          "title": "Libya: Dos bebés entre las 53 personas fallecidas o desaparecidas tras el naufragio de un bote con migrantes a bordo cerca de Libia",
+          "url": "https://reliefweb.int/report/libya/dos-bebes-entre-las-53-personas-fallecidas-o-desaparecidas-tras-el-naufragio-de-un-bote-con-migrantes-bordo-cerca-de-libia",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:33:04",
+          "lead": "Countries: Libya, World\n                                      Source: International Organization for Migration\n         "
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "BBC Africa",
+        "ReliefWeb",
+        "UN News Africa",
         "Le Monde Afrique",
-        "Daily Maverick",
-        "UN News Africa"
+        "The Guardian Africa"
       ]
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 0.59,
+      "ratio": 1.18,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
           "count": 1
         }
       ],
@@ -223,47 +305,77 @@
           "source": "Africanews",
           "published": "2026-02-09T06:01:25",
           "lead": "President Abdel-Fattah el-Sissi welcomed his Somali counterpart, Hassan Sheikh Mohamud, to Cairo on Sunday, and reaffirm"
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Sudan": {
-      "article_count": 7,
-      "source_count": 6,
-      "baseline": 4.7,
-      "ratio": 1.49,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 12,
+      "source_count": 7,
+      "baseline": 4.8,
+      "ratio": 2.48,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Attaque",
-          "count": 2
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
           "word": "Rsf",
-          "count": 1
+          "count": 4
         },
         {
           "word": "Government",
-          "count": 1
+          "count": 3
+        },
+        {
+          "word": "Fighting",
+          "count": 3
+        },
+        {
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 3
         },
         {
           "word": "War",
-          "count": 1
+          "count": 2
+        },
+        {
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Attack",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Deadly drone attacks on civilians continue in Sudan’s Kordofan, UN says",
+          "url": "https://www.aljazeera.com/news/2026/2/9/deadly-drone-attacks-on-civilians-continue-in-sudans-kordofan-un-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-09T20:48:43",
+          "lead": "United Nations human rights chief also decries &#039;preventable human rights catastrophe&#039; in Sudan&#039;s el-Fashe"
+        },
+        {
+          "title": "Soudan: «El-Fasher est détruite, et bien que la ville ait été nettoyée, il reste des munitions au sol»",
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260209-soudan-el-fasher-est-d%C3%A9truite-et-bien-que-la-ville-ait-%C3%A9t%C3%A9-nettoy%C3%A9e-il-reste-des-munitions-au-sol",
+          "source": "RFI Afrique",
+          "published": "2026-02-09T17:38:17",
+          "lead": "Au Soudan, une délégation de l'ONG Médecins sans frontières (MSF) a pu se rendre à El-Fasher, la capitale du Darfour-Nor"
+        },
         {
           "title": "«J’ai vu des corps d’enfants et de femmes»: le récit d’un Soudanais forcé de creuser des fosses communes à El-Fasher",
           "url": "https://www.rfi.fr/fr/afrique/20260209-au-soudan-le-t%C3%A9moignage-d-un-rescap%C3%A9-d-el-fasher-oblig%C3%A9-de-creuser-des-fosses-communes",
@@ -277,13 +389,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-09T04:08:36",
           "lead": "Les Forces de soutien rapide (FSR) disposaient d’au moins 85 nouveaux drones kamikazes au début du mois de janvier 2026,"
-        },
-        {
-          "title": "Soudan : un convoi du PAM victime d'une attaque de drones des FSR",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260208-soudan-un-convoi-du-pam-victime-d-une-attaque-de-drones-des-fsr",
-          "source": "France24 Afrique",
-          "published": "2026-02-08T22:25:39",
-          "lead": "Des attaques de drones aux conséquences particulièrement grave ont frappé la région du Kordofan, au Soudan, en cette fin"
         },
         {
           "title": "Faustin-Archange Touadéra : anatomie d’un pouvoir sous haute protection",
@@ -312,24 +417,53 @@
           "source": "UN News Africa",
           "published": "2026-02-09T12:00:00",
           "lead": "As the brutal Sudan war shows no signs of ending, UN human rights chief Volker Türk on Monday called on the internationa"
+        },
+        {
+          "title": "Attacks on Health Care in Sudan, 21 January - 03 February 2026",
+          "url": "https://reliefweb.int/report/sudan/attacks-health-care-sudan-21-january-03-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:49:08",
+          "lead": "Country: Sudan\n                                      Source: Insecurity Insight\n                                        "
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
+        },
+        {
+          "title": "Ethiopia - Sudanese asylum seekers fleeing to Ethiopia (DG ECHO, media, DG ECHO Partners) (ECHO Daily Flash of 9 February 2026)",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-sudanese-asylum-seekers-fleeing-ethiopia-dg-echo-media-dg-echo-partners-echo-daily-flash-9-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:29:18",
+          "lead": "Countries: Ethiopia, Sudan\n                                      Source: European Commission's Directorate-General for E"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "AllAfrica",
-        "France24 Afrique",
+        "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique",
+        "AllAfrica",
+        "Al Jazeera",
         "UN News Africa"
       ]
     },
     "Mauritania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 6.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -339,30 +473,50 @@
           "source": "RFI Afrique",
           "published": "2026-02-09T07:48:19",
           "lead": "Selon la revue espagnole El Confidencial, les États-Unis ont réuni l’Algérie, le Maroc, la Mauritanie et le Front Polisa"
+        },
+        {
+          "title": "Sahara occidental : les Etats-Unis parviennent à réunir tous les acteurs du conflit",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/09/sahara-occidental-les-etats-unis-parviennent-a-reunir-tous-les-acteurs-du-conflit_6666063_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-09T21:03:38",
+          "lead": "Plus de six ans après leurs dernières négociations directes, des représentants du Maroc, des indépendantistes du Front P"
+        },
+        {
+          "title": "WFP Mauritania Country Brief, December 2025",
+          "url": "https://reliefweb.int/report/mauritania/wfp-mauritania-country-brief-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:32:47",
+          "lead": "Country: Mauritania\n                                      Source: World Food Programme\n                                 "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb",
+        "Le Monde Afrique"
       ]
     },
     "Mali": {
-      "article_count": 10,
-      "source_count": 5,
-      "baseline": 3.8,
-      "ratio": 2.6,
+      "article_count": 11,
+      "source_count": 6,
+      "baseline": 4.2,
+      "ratio": 2.65,
       "status": "high",
       "confidence": "high",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
         {
           "word": "Attack",
           "count": 2
         },
         {
-          "word": "Coup",
+          "word": "Armed group",
           "count": 2
         },
         {
-          "word": "Armed group",
+          "word": "Coup",
           "count": 2
         },
         {
@@ -374,15 +528,11 @@
           "count": 1
         },
         {
-          "word": "Killed",
-          "count": 1
-        },
-        {
           "word": "War",
           "count": 1
         },
         {
-          "word": "Explosion",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -445,6 +595,13 @@
           "lead": "The creation of a mining company comes after the conclusion of Bamako's long fight with Canadian miner Barrick Gold"
         },
         {
+          "title": "Mali : Liste de Contacts des Clusters Janvier 2026",
+          "url": "https://reliefweb.int/report/mali/mali-liste-de-contacts-des-clusters-janvier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T17:16:38",
+          "lead": "Country: Mali\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n     "
+        },
+        {
           "title": "Press Freedom Under Fire in Mali",
           "url": "https://www.hrw.org/news/2026/02/09/press-freedom-under-fire-in-mali",
           "source": "Human Rights Watch",
@@ -460,35 +617,36 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "Le Monde Afrique",
+        "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "Le Monde Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.6,
-      "ratio": 0.76,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.53,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Humanitaire",
+          "count": 2
+        },
         {
           "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Explosion",
+          "word": "Crise",
           "count": 1
         },
         {
@@ -496,11 +654,11 @@
           "count": 1
         },
         {
-          "word": "Coup",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "Wounded",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -508,7 +666,12 @@
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Humanitaire",
+          "Humanitarian"
+        ]
+      ],
       "articles": [
         {
           "title": "Au Niger, au moins 17 civils tués par une frappe de drone militaire",
@@ -516,6 +679,20 @@
           "source": "Jeune Afrique",
           "published": "2026-02-09T12:32:18",
           "lead": "L’attaque a eu lieu le 6 janvier à la frontière du Burkina Faso, dans le Tillabéri, selon une enquête menée par l’ONG Hu"
+        },
+        {
+          "title": "Atelier de validation et d’adoption du rapport de l’analyse genre conjointe de la reponse humanitaire au Burkina Faso, novembre 2025",
+          "url": "https://reliefweb.int/report/burkina-faso/atelier-de-validation-et-dadoption-du-rapport-de-lanalyse-genre-conjointe-de-la-reponse-humanitaire-au-burkina-faso-novembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T11:09:07",
+          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
+        },
+        {
+          "title": "Burkina Faso: Atelier de relecture du rapport provisoire de l’analyse genre conjointe de la reponse humanitaire, novembre 2025",
+          "url": "https://reliefweb.int/report/burkina-faso/atelier-de-relecture-du-rapport-provisoire-de-lanalyse-genre-conjointe-de-la-reponse-humanitaire-novembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T11:05:29",
+          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
         },
         {
           "title": "Niger: Military Drone Strike Kills 17 Civilians",
@@ -527,19 +704,32 @@
       ],
       "sources": [
         "Human Rights Watch",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Niger": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 5.0,
-      "ratio": 0.8,
+      "article_count": 6,
+      "source_count": 4,
+      "baseline": 5.1,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Attack",
+          "count": 3
+        },
+        {
+          "word": "Armed group",
+          "count": 3
+        },
+        {
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Government",
           "count": 2
         },
         {
@@ -547,27 +737,15 @@
           "count": 2
         },
         {
-          "word": "Armed group",
-          "count": 2
-        },
-        {
           "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Explosion",
-          "count": 1
-        },
-        {
-          "word": "Wounded",
+          "word": "Al-shabaab",
           "count": 1
         }
       ],
@@ -588,6 +766,20 @@
           "lead": "The International Festival of Saharan Cultures has transformed Amdjarass, Chad, into a vibrant crossroads of desert trad"
         },
         {
+          "title": "WFP Niger Country Brief, December 2025",
+          "url": "https://reliefweb.int/report/niger/wfp-niger-country-brief-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T18:41:57",
+          "lead": "Country: Niger\n                                      Source: World Food Programme\n                                      "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
+        },
+        {
           "title": "Press Freedom Under Fire in Mali",
           "url": "https://www.hrw.org/news/2026/02/09/press-freedom-under-fire-in-mali",
           "source": "Human Rights Watch",
@@ -605,14 +797,15 @@
       "sources": [
         "Human Rights Watch",
         "Africanews",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 6,
+      "source_count": 5,
       "baseline": 4.7,
-      "ratio": 0.85,
+      "ratio": 1.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -626,11 +819,25 @@
           "lead": "Police say the \"transnational\" criminal group has been in operation since 2017."
         },
         {
+          "title": "Sénégal: douze personnes arrêtées pour homosexualité présumée",
+          "url": "https://www.rfi.fr/fr/afrique/20260209-s%C3%A9n%C3%A9gal-douze-homosexuels-pr%C3%A9sum%C3%A9s-arr%C3%AAt%C3%A9s-pour-actes-contre-nature",
+          "source": "RFI Afrique",
+          "published": "2026-02-09T20:31:21",
+          "lead": "Au Sénégal, une affaire liée à l’homosexualité et à des accusations de transmission volontaire du VIH provoque une vive "
+        },
+        {
           "title": "Sénégal: la police démantèle un réseau pédopornographique avec l'aide de la justice française",
           "url": "https://www.rfi.fr/fr/afrique/20260209-s%C3%A9n%C3%A9gal-la-police-d%C3%A9mant%C3%A8le-un-r%C3%A9seau-p%C3%A9dopornographique-avec-l-aide-de-la-justice-fran%C3%A7aise",
           "source": "RFI Afrique",
           "published": "2026-02-09T06:41:55",
           "lead": "Un réseau pédopornographique impliquant des ressortissants sénégalais et un Français a été démantelé entre Dakar et Kaol"
+        },
+        {
+          "title": "Affaire Epstein : des personnalités africaines citées dans les documents",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260209-affaire-epstein-des-personnalit%C3%A9s-africaines-cit%C3%A9es-dans-les-documents",
+          "source": "France24 Afrique",
+          "published": "2026-02-09T22:09:50",
+          "lead": "L'affaire Epstein aurat-elle des répercussions sur le continent africain? Plusieurs personnalités africaines sont citées"
         },
         {
           "title": "La police sénégalaise démantèle un réseau international de pédophilie",
@@ -648,10 +855,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "BBC Africa",
+        "RFI Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -670,7 +878,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 1.62,
+      "ratio": 1.73,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -705,8 +913,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Guinea": {
@@ -783,12 +991,12 @@
       "sources": []
     },
     "Ghana": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 2.5,
-      "ratio": 1.62,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 2.4,
+      "ratio": 1.26,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -812,19 +1020,11 @@
           "source": "Africanews",
           "published": "2026-02-09T12:09:15",
           "lead": "Ebo Taylor, the legendary Ghanaian guitarist, composer, and bandleader whose work defined highlife and inspired generati"
-        },
-        {
-          "title": "Ghana: Chief Justice Announces Shift System to Decongest Courts, Prison",
-          "url": "https://allafrica.com/stories/202602090230.html",
-          "source": "AllAfrica",
-          "published": "2026-02-09T10:24:53",
-          "lead": "[Ghanaian Times] The Chief Justice, Justice Paul Baffoe-Bonnie, has announced the introduction of a shift court system c"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "The Guardian Africa",
         "BBC Africa",
+        "The Guardian Africa",
         "Africanews"
       ]
     },
@@ -843,8 +1043,8 @@
     "Benin": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.62,
+      "baseline": 1.5,
+      "ratio": 0.65,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -853,11 +1053,11 @@
           "count": 1
         },
         {
-          "word": "Coup",
+          "word": "Armed group",
           "count": 1
         },
         {
-          "word": "Armed group",
+          "word": "Coup",
           "count": 1
         }
       ],
@@ -876,23 +1076,43 @@
       ]
     },
     "Nigeria": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 8.5,
-      "ratio": 0.59,
+      "article_count": 6,
+      "source_count": 3,
+      "baseline": 8.1,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Election",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Attack",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Al-shabaab",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -932,10 +1152,18 @@
           "source": "AllAfrica",
           "published": "2026-02-09T15:13:01",
           "lead": "[Daily Trust] One of the survivors of the deadly attack on Woro community in Kaiama Local Government Area of Kwara State"
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
         }
       ],
       "sources": [
         "AllAfrica",
+        "ReliefWeb",
         "The Guardian Africa"
       ]
     },
@@ -952,13 +1180,46 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.3,
-      "ratio": 1.3,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "article_count": 5,
+      "source_count": 3,
+      "baseline": 2.4,
+      "ratio": 2.1,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -981,27 +1242,50 @@
           "source": "Africanews",
           "published": "2026-02-09T11:35:32",
           "lead": "Chad hosts the sixth International Saharan Cultures Festival in Amdjarass, uniting artists from across the Sahara to cel"
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Africanews"
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.42,
+      "ratio": 0.84,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1013,22 +1297,58 @@
           "source": "Jeune Afrique",
           "published": "2026-02-09T08:03:15",
           "lead": "Alors que son pays traverse une crise majeure, le président camerounais demeure silencieux. Mais en ce début février, pl"
+        },
+        {
+          "title": "Cameroon: Cameroun - Wildfires (DG ECHO, OCHA) (ECHO Daily Flash of 9 February 2026)",
+          "url": "https://reliefweb.int/report/cameroon/cameroun-wildfires-dg-echo-ocha-echo-daily-flash-9-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:29:19",
+          "lead": "Country: Cameroon\n                                      Source: European Commission's Directorate-General for European C"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.1,
-      "ratio": 1.86,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.79,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
           "count": 1
         }
       ],
@@ -1047,24 +1367,82 @@
           "source": "Jeune Afrique",
           "published": "2026-02-09T13:59:30",
           "lead": "Soutenu par des partenaires militaires extérieurs qui assurent la sécurité de son régime, le président centrafricain, to"
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
         }
       ],
       "sources": [
         "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.37,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -1081,8 +1459,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.44,
+      "baseline": 0.8,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1141,10 +1519,10 @@
       ]
     },
     "DRC": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 7,
+      "source_count": 4,
       "baseline": 7.1,
-      "ratio": 0.71,
+      "ratio": 0.99,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1158,6 +1536,14 @@
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1197,11 +1583,26 @@
           "source": "AllAfrica",
           "published": "2026-02-09T17:42:29",
           "lead": "[RFI] A minerals-for-security deal between the United States and the Democratic Republic of Congo is facing a constituti"
+        },
+        {
+          "title": "DR Congo: République démocratique du Congo : chiffres clés humanitaire au 31 janvier 2026",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-chiffres-cles-humanitaire-au-31-janvier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T14:17:44",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
+        },
+        {
+          "title": "Libya: Dos bebés entre las 53 personas fallecidas o desaparecidas tras el naufragio de un bote con migrantes a bordo cerca de Libia",
+          "url": "https://reliefweb.int/report/libya/dos-bebes-entre-las-53-personas-fallecidas-o-desaparecidas-tras-el-naufragio-de-un-bote-con-migrantes-bordo-cerca-de-libia",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:33:04",
+          "lead": "Countries: Libya, World\n                                      Source: International Organization for Migration\n         "
         }
       ],
       "sources": [
         "AllAfrica",
         "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
@@ -1232,8 +1633,8 @@
     "Eritrea": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 0.9,
-      "ratio": 4.33,
+      "baseline": 0.8,
+      "ratio": 4.73,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1278,8 +1679,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "BBC Africa",
+        "RFI Afrique",
         "Africanews"
       ]
     },
@@ -1296,20 +1697,44 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 3.6,
-      "ratio": 1.38,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 8,
+      "source_count": 4,
+      "baseline": 3.5,
+      "ratio": 2.26,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Guerre",
-          "count": 1
+          "word": "War",
+          "count": 2
         },
         {
-          "word": "War",
-          "count": 1
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -1348,32 +1773,74 @@
           "source": "Africanews",
           "published": "2026-02-09T11:43:33",
           "lead": "A bitter war of words has escalated further after Ethiopia ordered neighbouring Eritrea to \"immediately withdraw its tro"
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
+        },
+        {
+          "title": "Ethiopia - Sudanese asylum seekers fleeing to Ethiopia (DG ECHO, media, DG ECHO Partners) (ECHO Daily Flash of 9 February 2026)",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-sudanese-asylum-seekers-fleeing-ethiopia-dg-echo-media-dg-echo-partners-echo-daily-flash-9-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:29:18",
+          "lead": "Countries: Ethiopia, Sudan\n                                      Source: European Commission's Directorate-General for E"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "ReliefWeb",
         "BBC Africa",
+        "RFI Afrique",
         "Africanews"
       ]
     },
     "Somalia": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 2.0,
-      "ratio": 2.0,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.0,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "President",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Rsf",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -1406,27 +1873,66 @@
           "source": "AllAfrica",
           "published": "2026-02-09T10:26:52",
           "lead": "[Shabelle] Mogadishu -- Somalia's federal government on Sunday strongly condemned what it described as criminal attacks "
+        },
+        {
+          "title": "Somalia: Small town in Galgadud overwhelmed by influx of families whose livestock died in drought",
+          "url": "https://reliefweb.int/report/somalia/small-town-galgadud-overwhelmed-influx-families-whose-livestock-died-drought",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:53:49",
+          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
         }
       ],
       "sources": [
         "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Uganda": {
-      "article_count": 5,
-      "source_count": 2,
+      "article_count": 7,
+      "source_count": 3,
       "baseline": 3.4,
-      "ratio": 1.48,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.07,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Violence",
-          "count": 1
+          "count": 3
         },
         {
           "word": "Election",
+          "count": 2
+        },
+        {
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1466,27 +1972,42 @@
           "source": "AllAfrica",
           "published": "2026-02-09T14:27:05",
           "lead": "[Nile Post] Schools reopened today for the new academic year, with teachers expressing concern over the long holiday stu"
+        },
+        {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
+          "title": "Ethiopia: ACLED Regional Overview Africa: February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/acled-regional-overview-africa-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:35:58",
+          "lead": "Countries: Ethiopia, Niger, Nigeria, Somalia, South Sudan, Sudan, Uganda\n                                      Source: A"
         }
       ],
       "sources": [
         "AllAfrica",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 9,
-      "source_count": 4,
-      "baseline": 3.5,
-      "ratio": 2.54,
+      "article_count": 10,
+      "source_count": 5,
+      "baseline": 3.9,
+      "ratio": 2.55,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 2
+          "word": "War",
+          "count": 3
         },
         {
-          "word": "War",
+          "word": "Killed",
           "count": 2
         },
         {
@@ -1494,24 +2015,24 @@
           "count": 2
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
           "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Explosion",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Attack",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Coup",
-          "count": 1
+          "word": "Wounded",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -1573,6 +2094,13 @@
           "lead": "[Capital FM] Nairobi -- The Bill &#x26;amp; Melinda Gates Foundation has dismissed as false claims circulating on social"
         },
         {
+          "title": "Sudan Situation: UNHCR Monthly External Update #113 - November 2025",
+          "url": "https://reliefweb.int/report/sudan/sudan-situation-unhcr-monthly-external-update-113-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T13:03:14",
+          "lead": "Countries: Sudan, Central African Republic, Chad, Egypt, Ethiopia, Libya, South Sudan, Uganda\n                          "
+        },
+        {
           "title": "Niger: Military Drone Strike Kills 17 Civilians",
           "url": "https://www.hrw.org/news/2026/02/09/niger-military-drone-strike-kills-17-civilians",
           "source": "Human Rights Watch",
@@ -1581,16 +2109,17 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Le Monde Afrique",
         "Africanews",
-        "Human Rights Watch"
+        "ReliefWeb",
+        "AllAfrica",
+        "Human Rights Watch",
+        "Le Monde Afrique"
       ]
     },
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.9,
+      "baseline": 2.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1612,16 +2141,20 @@
       "sources": []
     },
     "Tanzania": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
-      "baseline": 1.4,
-      "ratio": 2.17,
-      "status": "elevated",
+      "baseline": 1.5,
+      "ratio": 2.74,
+      "status": "high",
       "confidence": "medium",
       "keywords": [
         {
           "word": "President",
           "count": 2
+        },
+        {
+          "word": "Minister",
+          "count": 1
         },
         {
           "word": "Election",
@@ -1634,6 +2167,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Russia and Tanzania deepen strategic ties in high-level Moscow talks",
+          "url": "http://www.africanews.com/2026/02/09/russia-and-tanzania-deepen-strategic-ties-in-high-level-moscow-talks/",
+          "source": "Africanews",
+          "published": "2026-02-09T20:01:30",
+          "lead": "Tanzanian Foreign Minister Mahmoud Thabit Kombo held talks with his Russian counterpart Sergey Lavrov in Moscow on Monda"
+        },
         {
           "title": "Tanzania opposition arrests raise rights concerns ahead of October election",
           "url": "http://www.africanews.com/2026/02/09/tanzania-opposition-arrests-raise-rights-concerns-ahead-of-october-election/",
@@ -1662,13 +2202,18 @@
       ]
     },
     "Madagascar": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 7,
+      "source_count": 3,
       "baseline": 1.3,
-      "ratio": 2.29,
-      "status": "elevated",
+      "ratio": 5.35,
+      "status": "high",
       "confidence": "medium",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1691,11 +2236,40 @@
           "source": "RFI Afrique",
           "published": "2026-02-09T05:49:57",
           "lead": "La ministre malgache de la Justice, Fanirisoa Ernaivo, a achevé sa visite de travail à Maurice dimanche. Elle était sur "
+        },
+        {
+          "title": "Madagascar | Tropical cyclone GEZANI - DG ECHO Daily Map | 09/02/2026",
+          "url": "https://reliefweb.int/map/madagascar/madagascar-tropical-cyclone-gezani-dg-echo-daily-map-09022026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T18:17:14",
+          "lead": "Country: Madagascar\n                                      Source: European Commission's Directorate-General for European"
+        },
+        {
+          "title": "Madagascar - Tropical cyclone GEZANI, update (GDACS, MeteoMadagascar, BNGRC) (ECHO Daily Flash of 9 February 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-tropical-cyclone-gezani-update-gdacs-meteomadagascar-bngrc-echo-daily-flash-9-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:29:11",
+          "lead": "Countries: Madagascar, Mauritius, Réunion (France)\n                                      Source: European Commission's D"
+        },
+        {
+          "title": "Madagascar: ADAM - Tropical Cyclone Gezani: 7 Days Precipitation Forecast - 9 to 15 Feb (9 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/adam-tropical-cyclone-gezani-7-days-precipitation-forecast-9-15-feb-9-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:09:03",
+          "lead": "Countries: Madagascar, Mozambique\n                                      Source: World Food Programme\n                   "
+        },
+        {
+          "title": "Madagascar: ADAM - Tropical Cyclone Gezani: Wind Dashboard (9 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/adam-tropical-cyclone-gezani-wind-dashboard-9-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:06:40",
+          "lead": "Countries: Madagascar, Mozambique\n                                      Source: World Food Programme\n                   "
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "RFI Afrique"
+        "ReliefWeb",
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Comoros": {
@@ -1711,13 +2285,18 @@
       "sources": []
     },
     "Mauritius": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.5,
-      "ratio": 4.0,
+      "ratio": 6.0,
       "status": "high",
       "confidence": "medium",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1733,11 +2312,19 @@
           "source": "AllAfrica",
           "published": "2026-02-09T12:15:16",
           "lead": "[ISS] Politicking in the US and UK distracts from Chagossians' need to determine their resettlement and role in blue eco"
+        },
+        {
+          "title": "Madagascar - Tropical cyclone GEZANI, update (GDACS, MeteoMadagascar, BNGRC) (ECHO Daily Flash of 9 February 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-tropical-cyclone-gezani-update-gdacs-meteomadagascar-bngrc-echo-daily-flash-9-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:29:11",
+          "lead": "Countries: Madagascar, Mauritius, Réunion (France)\n                                      Source: European Commission's D"
         }
       ],
       "sources": [
         "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Seychelles": {
@@ -1787,16 +2374,33 @@
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.1,
+      "ratio": 0.96,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Madagascar: ADAM - Tropical Cyclone Gezani: 7 Days Precipitation Forecast - 9 to 15 Feb (9 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/adam-tropical-cyclone-gezani-7-days-precipitation-forecast-9-15-feb-9-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:09:03",
+          "lead": "Countries: Madagascar, Mozambique\n                                      Source: World Food Programme\n                   "
+        },
+        {
+          "title": "Madagascar: ADAM - Tropical Cyclone Gezani: Wind Dashboard (9 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/adam-tropical-cyclone-gezani-wind-dashboard-9-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-09T12:06:40",
+          "lead": "Countries: Madagascar, Mozambique\n                                      Source: World Food Programme\n                   "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Zimbabwe": {
       "article_count": 0,
@@ -1813,8 +2417,8 @@
     "Namibia": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.36,
+      "baseline": 0.9,
+      "ratio": 2.17,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1862,10 +2466,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 14,
+      "article_count": 13,
       "source_count": 5,
-      "baseline": 10.6,
-      "ratio": 1.32,
+      "baseline": 10.8,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1884,13 +2488,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Afrique du Sud: au forum Mining Indaba, les États cherchent des partenariats durables avec les investisseurs",
-          "url": "https://www.rfi.fr/fr/afrique/20260209-afrique-du-sud-au-forum-mining-indaba-les-%C3%A9tats-cherchent-des-partenariats-durables-avec-les-investisseurs",
-          "source": "RFI Afrique",
-          "published": "2026-02-09T05:13:50",
-          "lead": "Comme tous les ans, le secteur minier a rendez-vous au Cap pendant plusieurs jours pour le forum Mining Indaba. Un grand"
-        },
         {
           "title": "Le sous-sol de l’Afrique, et ses immenses réserves de métaux « critiques » encore inexploitées, aiguise les convoitises",
           "url": "https://www.lemonde.fr/economie/article/2026/02/09/metaux-strategiques-le-riche-sous-sol-africain-aiguise-les-convoitises_6665971_3234.html",
@@ -1962,19 +2559,26 @@
           "lead": "South Africa is on the cusp of a hyperscale data-centre boom that could add more than 1,200 MW to national electricity d"
         },
         {
-          "title": "MINING INDABA 2026: Trade tariffs and rail woes test SA’s mining resilience",
+          "title": "MINING INDABA 2026: Mining Indaba opens as SA mining profits surge but infrastructure bites hard",
           "url": "https://www.dailymaverick.co.za/article/trade-tariffs-and-rail-woes-test-sas-mining-resilience",
           "source": "Daily Maverick",
           "published": "2026-02-09T18:22:12",
           "lead": "The African Mining Indaba 2026 kicked off in Cape Town on Monday, 9 February, which means (besides the fact that you wil"
+        },
+        {
+          "title": "MINING INDABA 2026: In 2025, 41 SA miners were killed at work — a record annual low, according to provisional data",
+          "url": "https://www.dailymaverick.co.za/article/in-2025-41-sa-miners-were-killed-at-workt-work-a-record-annual-low-according-to",
+          "source": "Daily Maverick",
+          "published": "2026-02-09T13:01:49",
+          "lead": "The trend is in the right direction, driven by a number of factors including technology, tightening regulations, union a"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
-        "Le Monde Afrique",
         "Jeune Afrique",
-        "Daily Maverick"
+        "AllAfrica",
+        "Daily Maverick",
+        "UN News Africa",
+        "Le Monde Afrique"
       ]
     },
     "Eswatini": {
