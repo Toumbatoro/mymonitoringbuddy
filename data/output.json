@@ -1,20 +1,25 @@
 {
-  "generated_at": "2026-02-10T23:09:58.777093",
+  "generated_at": "2026-02-11T05:23:22.253721",
   "summary": {
-    "high": 7,
-    "elevated": 7,
-    "normal": 23,
-    "quiet": 17
+    "high": 9,
+    "elevated": 11,
+    "normal": 19,
+    "quiet": 15
   },
   "countries": {
     "Morocco": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 5.1,
-      "ratio": 0.58,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -30,6 +35,13 @@
           "source": "Jeune Afrique",
           "published": "2026-02-10T15:54:20",
           "lead": "Si les discussions sur le Sahara occidental organisées à Madrid sous patronage américain n’ont fait l’objet d’aucune com"
+        },
+        {
+          "title": "Workers Unpaid for Renovating Saudi Prince’s Tangier Palace",
+          "url": "https://www.hrw.org/news/2026/02/11/workers-unpaid-for-renovating-saudi-princes-tangier-palace",
+          "source": "Human Rights Watch",
+          "published": "2026-02-11T05:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              The po"
         },
         {
           "title": "European Parliament Tries to Bury the Right to Seek Asylum",
@@ -48,8 +60,8 @@
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.44,
+      "baseline": 2.2,
+      "ratio": 0.45,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -116,47 +128,39 @@
     },
     "Libya": {
       "article_count": 2,
-      "source_count": 1,
-      "baseline": 3.8,
-      "ratio": 0.53,
+      "source_count": 2,
+      "baseline": 3.7,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Affaire Epstein: le milliardaire a tenté de mettre la main sur des fonds libyens gelés aux États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260211-affaire-epstein-le-milliardaire-a-tent%C3%A9-de-mettre-la-main-sur-des-fonds-libyens-gel%C3%A9s-aux-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-11T05:08:47",
+          "lead": "La Libye apparait 955 fois dans les derniers documents publiés par le département américain de la Justice dans le cadre "
+        },
         {
           "title": "European Parliament Tries to Bury the Right to Seek Asylum",
           "url": "https://www.hrw.org/news/2026/02/10/european-parliament-tries-to-bury-the-right-to-seek-asylum",
           "source": "Human Rights Watch",
           "published": "2026-02-10T14:43:01",
           "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Member"
-        },
-        {
-          "title": "Italy, Hungary’s Snub of ICC Arrests Should be a Wake-Up Call for the EU",
-          "url": "https://www.hrw.org/news/2026/02/10/italy-hungarys-snub-of-icc-arrests-should-be-a-wake-up-call-for-the-eu",
-          "source": "Human Rights Watch",
-          "published": "2026-02-10T05:00:00",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Italia"
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Human Rights Watch"
       ]
     },
     "Egypt": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.7,
-      "ratio": 1.17,
+      "baseline": 1.8,
+      "ratio": 1.12,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -183,39 +187,53 @@
       ]
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 9,
+      "source_count": 4,
       "baseline": 5.1,
-      "ratio": 0.59,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.77,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Président",
-          "count": 1
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Displaced",
+          "count": 3
         },
         {
           "word": "War",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Famine",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Violence",
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Casualties",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Famine",
+          "Violence"
+        ]
+      ],
       "articles": [
-        {
-          "title": "Le Soudan réintègre l'Igad, deux ans après en avoir claqué la porte",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-le-soudan-r%C3%A9int%C3%A8gre-l-igad-deux-ans-apr%C3%A8s-en-avoir-claqu%C3%A9-la-porte",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T00:06:47",
-          "lead": "Le Soudan est de nouveau membre à part entière de l'Autorité intergouvernementale pour le développement (Igad). L'organi"
-        },
         {
           "title": "Ramadan preparations underway at Sudan's Gedaref livestock market",
           "url": "http://www.africanews.com/2026/02/10/ramadan-preparations-underway-at-sudans-gedaref-livestock-market/",
@@ -224,23 +242,73 @@
           "lead": "As the holy Muslim month of Ramadan nears, Sudanese head to a livestock market in the eastern city of Gedaref, labelled "
         },
         {
+          "title": "Sudan: In Sudan, Sick and Starving Children 'Wasting Away'",
+          "url": "https://allafrica.com/stories/202602110001.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T04:49:15",
+          "lead": "[UN News] Relentless violence, famine and disease are fuelling a rising death toll among children in Sudan, while attack"
+        },
+        {
+          "title": "Sudan: UN Partners Warns of Escalating Attacks On Civilians and Health Facilities Across Sudan",
+          "url": "https://allafrica.com/stories/202602110010.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T04:56:16",
+          "lead": "[Dabanga] The UN Office for the Coordination of Humanitarian Affairs (OCHA) says drone strikes near the Sudan-Chad borde"
+        },
+        {
           "title": "In Sudan, sick and starving children ‘wasting away’",
           "url": "https://news.un.org/feed/view/en/story/2026/02/1166931",
           "source": "UN News Africa",
           "published": "2026-02-10T12:00:00",
           "lead": "Relentless violence, famine and disease are fuelling a rising death toll among children in Sudan, while attacks on healt"
+        },
+        {
+          "title": "Sudan - Standard Operating Procedures (SOPs), Temporary Storage & Road Transport, February 2026",
+          "url": "https://reliefweb.int/report/sudan/sudan-standard-operating-procedures-sops-temporary-storage-road-transport-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T16:40:09",
+          "lead": "Country: Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n                  "
+        },
+        {
+          "title": "Speech by Commissioner Lahbib at the European Parliament on the Humanitarian Catastrophe in Sudan (10 February 2026)",
+          "url": "https://reliefweb.int/report/sudan/speech-commissioner-lahbib-european-parliament-humanitarian-catastrophe-sudan-10-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T16:33:13",
+          "lead": "Country: Sudan\n                                      Source: European Commission\n                                       "
+        },
+        {
+          "title": "South Sudan: Conflict in Jonglei State - Flash Update No.6 (as of 10 February 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no6-10-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:50:57",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
+        },
+        {
+          "title": "UNHCR Rwanda - Total Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-total-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:29",
+          "lead": "Countries: Rwanda, Burundi, Cameroon, Democratic Republic of the Congo, Eritrea, Sudan\n                                 "
+        },
+        {
+          "title": "UNHCR Rwanda: Population Dashboard - Overview of Refugees and Asylum-seekers in Rwanda as of 31 December 2025",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-dashboard-overview-refugees-and-asylum-seekers-rwanda-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:15",
+          "lead": "Countries: Rwanda, Afghanistan, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Sudan\n                    "
         }
       ],
       "sources": [
         "UN News Africa",
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "Mauritania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -270,15 +338,15 @@
           "count": 1
         },
         {
+          "word": "Coup",
+          "count": 1
+        },
+        {
           "word": "Minister",
           "count": 1
         },
         {
           "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -314,24 +382,20 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
+        "RFI Afrique",
         "Jeune Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "Human Rights Watch"
       ]
     },
     "Burkina Faso": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 4,
       "baseline": 2.9,
-      "ratio": 1.71,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.37,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
         {
           "word": "Coup",
           "count": 1
@@ -339,13 +403,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Burkina Faso: le Parlement de la transition entérine la dissolution des partis politiques",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-burkina-fasoso",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:03:16",
-          "lead": "Ce lundi 9 février, les parlementaires ont adopté à l'unanimité un projet de loi qui entraîne par ricochet l’abrogation "
-        },
         {
           "title": "«Relooted»: un jeu vidéo pour s’emparer dans des musées occidentaux du patrimoine africain pillé",
           "url": "https://www.rfi.fr/fr/afrique/20260210-relooted-un-jeu-vid%C3%A9o-pour-s-emparer-dans-des-mus%C3%A9es-occidentaux-du-patrimoine-africain-pill%C3%A9",
@@ -376,10 +433,10 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Le Monde Afrique",
         "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Niger": {
@@ -395,15 +452,15 @@
           "count": 1
         },
         {
+          "word": "Coup",
+          "count": 1
+        },
+        {
           "word": "Minister",
           "count": 1
         },
         {
           "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -440,14 +497,14 @@
     "Senegal": {
       "article_count": 18,
       "source_count": 7,
-      "baseline": 5.7,
-      "ratio": 3.15,
+      "baseline": 5.8,
+      "ratio": 3.11,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Mort",
-          "count": 6
+          "count": 7
         },
         {
           "word": "Protest",
@@ -488,6 +545,13 @@
           "lead": "Footage shows people climbing out of windows to escape from a burning university building in Dakar as protests erupt ove"
         },
         {
+          "title": "Sénégal: après les violences à l'université Cheikh-Anta-Diop, les autorités cherchent à calmer le jeu",
+          "url": "https://www.rfi.fr/fr/afrique/20260211-s%C3%A9n%C3%A9gal-apr%C3%A8s-les-violences-%C3%A0-l-universit%C3%A9-cheikh-anta-diop-de-dakar-les-autorit%C3%A9s-cherchent-%C3%A0-calmer-le-jeu",
+          "source": "RFI Afrique",
+          "published": "2026-02-11T04:14:20",
+          "lead": "Au lendemain des violences qui ont fait un mort sur le campus social de l'université Cheick-Anta-Diop de Dakar, les mini"
+        },
+        {
           "title": "Sénégal: «La réponse du régime a surpris car il était un soutien des étudiants quand il était dans l'opposition»",
           "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260210-s%C3%A9n%C3%A9gal-la-r%C3%A9ponse-du-r%C3%A9gime-a-surpris-car-il-%C3%A9tait-un-soutien-des-%C3%A9tudiants-quand-il-%C3%A9tait-dans-l-opposition",
           "source": "RFI Afrique",
@@ -507,13 +571,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-10T11:40:28",
           "lead": "Au Mali, le Synacor, principal syndicat des chauffeurs routiers du pays, a décidé un arrêt du travail ce 9 février 2026."
-        },
-        {
-          "title": "À la Une: la colère des étudiants sénégalais",
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260210-%C3%A0-la-une-la-col%C3%A8re-des-%C3%A9tudiants-s%C3%A9n%C3%A9galais",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T07:50:07",
-          "lead": ""
         },
         {
           "title": "Indignation sur un campus de Dakar après le décès d'un étudiant dans des heurts avec la police",
@@ -547,7 +604,7 @@
           "title": "Sénégal : « chaos et désolation » à l’université de Dakar après la mort d’un étudiant lors de heurts avec les forces de l’ordre",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/10/senegal-chaos-et-desolation-a-l-universite-de-dakar-apres-la-mort-d-un-etudiant-lors-de-heurts-avec-les-forces-de-l-ordre_6666224_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-10T22:45:02",
+          "published": "2026-02-10T22:45:00",
           "lead": "La police a investi le principal campus universitaire de Dakar, suscitant de très violents heurts avec les étudiants, qu"
         },
         {
@@ -566,13 +623,13 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "Jeune Afrique",
+        "AllAfrica",
+        "Africanews",
         "Al Jazeera",
         "RFI Afrique",
-        "Africanews",
-        "AllAfrica",
-        "Jeune Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -646,10 +703,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews",
-        "AllAfrica",
         "Jeune Afrique",
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -737,74 +794,63 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Africanews"
+        "Africanews",
+        "Le Monde Afrique"
       ]
     },
     "Togo": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.6,
-      "ratio": 1.75,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Est de la RDC: Félix Tshisekedi rencontre João Lourenço et Faure Gnassingbé en Angola",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-est-de-la-rdc-f%C3%A9lix-tshisekedi-rencontre-jo%C3%A3o-louren%C3%A7o-et-faure-gnassingb%C3%A9-en-angola",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:04:36",
-          "lead": "Le président congolais s'est rendu à Luanda où il s'est entretenu du conflit qui déchire l'est de la RDC avec ses homolo"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 1.33,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Royaume-Uni: le musée de l'Université de Cambridge va restituer 116 bronzes du Bénin au Nigeria",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-royaume-uni-le-mus%C3%A9e-de-l-universit%C3%A9-de-cambridge-va-restituer-116-bronzes-du-b%C3%A9nin-au-nigeria",
+          "title": "Agriculture au Bénin : progresser dans l’accès des femmes et des jeunes à la terre",
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260210-agriculture-au-b%C3%A9nin-progresser-dans-l-acc%C3%A8s-des-femmes-et-des-jeunes-%C3%A0-la-terre",
           "source": "RFI Afrique",
-          "published": "2026-02-10T04:05:14",
-          "lead": "Les pièces - principalement des sculptures en bois et en ivoire et des têtes commémoratives - avaient été volées en 1897"
+          "published": "2026-02-10T23:05:06",
+          "lead": "Au Bénin, les femmes et les jeunes ont encore un accès difficile aux terres agricoles. Les Béninoises peuvent théoriquem"
+        },
+        {
+          "title": "Nigeria: Cambridge University Museum Set to Return Benin Bronzes to Nigeria",
+          "url": "https://allafrica.com/stories/202602110006.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T04:51:12",
+          "lead": "[RFI] A Cambridge University museum will shortly return around 100 Benin bronzes to Nigeria as part of a major restituti"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Nigeria": {
       "article_count": 8,
-      "source_count": 5,
-      "baseline": 8.0,
-      "ratio": 1.0,
+      "source_count": 6,
+      "baseline": 8.1,
+      "ratio": 0.98,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Election",
@@ -814,18 +860,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "African artefacts looted by British to be returned",
+          "url": "https://www.bbc.com/news/articles/c4g2l9j0ny1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-10T18:23:59",
+          "lead": "The items stolen in the late 19th Century by British troops will officially be returned to Nigeria."
+        },
+        {
           "title": "Uncertainty on the streets over Nigeria's sachet alcohol ban",
           "url": "https://www.dw.com/en/uncertainty-on-the-streets-over-nigeria-s-sachet-alcohol-ban/a-75893513?maca=en-rss-en-africa-8291-xml-mrss",
           "source": "DW Africa",
           "published": "2026-02-10T13:48:00",
           "lead": "Confusion surrounds Nigeria's ban on alcohol sold in sachets and small plastic bottles, with government agencies publicl"
-        },
-        {
-          "title": "Royaume-Uni: le musée de l'Université de Cambridge va restituer 116 bronzes du Bénin au Nigeria",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-royaume-uni-le-mus%C3%A9e-de-l-universit%C3%A9-de-cambridge-va-restituer-116-bronzes-du-b%C3%A9nin-au-nigeria",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:05:14",
-          "lead": "Les pièces - principalement des sculptures en bois et en ivoire et des têtes commémoratives - avaient été volées en 1897"
         },
         {
           "title": "Le Nigeria, nouveau terrain de déploiement des militaires américains",
@@ -842,6 +888,13 @@
           "lead": "Nigerian lawmakers have made a sharp U-turn, approving the live electronic publication of election results after a wave "
         },
         {
+          "title": "Nigeria: Cambridge University Museum Set to Return Benin Bronzes to Nigeria",
+          "url": "https://allafrica.com/stories/202602110006.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T04:51:12",
+          "lead": "[RFI] A Cambridge University museum will shortly return around 100 Benin bronzes to Nigeria as part of a major restituti"
+        },
+        {
           "title": "Nigeria: Nigeria Reopens Border With Niger, Hundreds of Trucks Exit",
           "url": "https://allafrica.com/stories/202602100132.html",
           "source": "AllAfrica",
@@ -856,24 +909,18 @@
           "lead": "[Premium Times] The Senate re-amended the Electoral Act to accommodate the electronic transmission of results. However, "
         },
         {
-          "title": "Nigeria: Nigeria Drops Two Places to 142nd in 2025 Corruption Ranking, Trails 33 African Countries",
-          "url": "https://allafrica.com/stories/202602100247.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T10:21:43",
-          "lead": "[Premium Times] The ranking places Nigeria behind 33 other African countries, spotlighting persistent governance challen"
-        },
-        {
-          "title": "Nigeria: Payroll Irregularities - Document Reveals Findings That Led Osun Govt to Hire Audit Firm",
-          "url": "https://allafrica.com/stories/202602100568.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T15:07:41",
-          "lead": "[Premium Times] The report, titled, 'Report of the Osun State Staff Audit, Appointment and Promotion,' predates the gove"
+          "title": "Nigeria - Meeting Minutes - Maiduguri, 27 January 2026",
+          "url": "https://reliefweb.int/report/nigeria/nigeria-meeting-minutes-maiduguri-27-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:10:04",
+          "lead": "Country: Nigeria\n                                      Sources: Logistics Cluster, World Food Programme\n                "
         }
       ],
       "sources": [
-        "DW Africa",
-        "RFI Afrique",
+        "ReliefWeb",
         "AllAfrica",
+        "BBC Africa",
+        "DW Africa",
         "Africanews",
         "Le Monde Afrique"
       ]
@@ -891,15 +938,43 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.4,
-      "ratio": 0.41,
+      "ratio": 1.24,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
           "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
           "count": 1
         }
       ],
@@ -911,19 +986,35 @@
           "source": "RFI Afrique",
           "published": "2026-02-10T14:42:54",
           "lead": "Nambatingue Toko, figure emblématique du Paris Saint-Germain dans les années 1980 et premier buteur de l’histoire du PSG"
+        },
+        {
+          "title": "Sudan: UN Partners Warns of Escalating Attacks On Civilians and Health Facilities Across Sudan",
+          "url": "https://allafrica.com/stories/202602110010.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T04:56:16",
+          "lead": "[Dabanga] The UN Office for the Coordination of Humanitarian Affairs (OCHA) says drone strikes near the Sudan-Chad borde"
+        },
+        {
+          "title": "Speech by Commissioner Lahbib at the European Parliament on the Humanitarian Catastrophe in Sudan (10 February 2026)",
+          "url": "https://reliefweb.int/report/sudan/speech-commissioner-lahbib-european-parliament-humanitarian-catastrophe-sudan-10-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T16:33:13",
+          "lead": "Country: Sudan\n                                      Source: European Commission\n                                       "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 1.24,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 5,
+      "source_count": 3,
+      "baseline": 2.5,
+      "ratio": 2.0,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
@@ -931,6 +1022,14 @@
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -956,33 +1055,79 @@
           "source": "Jeune Afrique",
           "published": "2026-02-10T11:06:42",
           "lead": "Chef des Forces de défense de l’Ambazonie, la branche armée d’un des mouvements séparatistes anglophones du Cameroun, il"
+        },
+        {
+          "title": "Cameroon: Cameroun : Suivi des urgences - Mouvements de populations - Synthèse des déplacements dans le département du Logone-et-Chari, Tableau de bord #134 (07 - 09 février 2026) | Date de publication : 10 février 2026",
+          "url": "https://reliefweb.int/report/cameroon/cameroun-suivi-des-urgences-mouvements-de-populations-synthese-des-deplacements-dans-le-departement-du-logone-et-chari-tableau-de-bord-134-07-09-fevrier-2026-date-de-publication-10-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-11T01:33:12",
+          "lead": "Country: Cameroon\n                                      Source: International Organization for Migration\n               "
+        },
+        {
+          "title": "UNHCR Rwanda - Total Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-total-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:29",
+          "lead": "Countries: Rwanda, Burundi, Cameroon, Democratic Republic of the Congo, Eritrea, Sudan\n                                 "
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb",
+        "France24 Afrique"
       ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.93,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "DR Congo: République Démocratique du Congo : Moyens de subsistance - Tableau de bord (Janvier - Décembre 2025)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-moyens-de-subsistance-tableau-de-bord-janvier-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:03:12",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi, Central African Republic, Rwanda, South Sudan\n                    "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.22,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 3.65,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
         {
           "word": "Killed",
           "count": 1
@@ -992,16 +1137,28 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Famine",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Humanitarian",
+          "Violence"
+        ]
+      ],
       "articles": [
+        {
+          "title": "South Sudan: Violence Surges in South Sudan Leaving Civilians At Risk and Peacekeepers Stretched Thin",
+          "url": "https://allafrica.com/stories/202602110002.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T04:49:16",
+          "lead": "[UN News] Escalating violence, political stalemate and humanitarian constraints are pushing South Sudan's civilians to t"
+        },
         {
           "title": "Somalia: Senior Al-Shabaab Leader Killed in Somalia Air Operation, Officials Say",
           "url": "https://allafrica.com/stories/202602100258.html",
@@ -1015,10 +1172,32 @@
           "source": "UN News Africa",
           "published": "2026-02-10T12:00:00",
           "lead": "Escalating violence, political stalemate and humanitarian constraints are pushing South Sudan’s civilians to the brink o"
+        },
+        {
+          "title": "Somalia Key Message Update: Atypically harsh jilaal dry season begins following failed deyr rains, January 2026",
+          "url": "https://reliefweb.int/report/somalia/somalia-key-message-update-atypically-harsh-jilaal-dry-season-begins-following-failed-deyr-rains-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-11T00:38:10",
+          "lead": "Country: Somalia\n                                      Source: Famine Early Warning System Network\n                     "
+        },
+        {
+          "title": "DR Congo: République Démocratique du Congo : Moyens de subsistance - Tableau de bord (Janvier - Décembre 2025)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-moyens-de-subsistance-tableau-de-bord-janvier-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:03:12",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi, Central African Republic, Rwanda, South Sudan\n                    "
+        },
+        {
+          "title": "South Sudan: Conflict in Jonglei State - Flash Update No.6 (as of 10 February 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no6-10-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:50:57",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
         "UN News Africa",
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -1035,49 +1214,25 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.8,
-      "ratio": 1.27,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Gabon: le président Brice Oligui Nguema s'adresse directement aux enseignants en grève",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-gabon-le-pr%C3%A9sident-brice-oligui-nguema-s-adresse-directement-aux-enseignants-en-gr%C3%A8ve",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:54:17",
-          "lead": "Au Gabon, la grève des enseignants qui paralyse le service public depuis deux mois est-elle terminée ? Presque selon les"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 1.4,
+      "ratio": 0.74,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1086,25 +1241,17 @@
           "source": "AllAfrica",
           "published": "2026-02-10T14:31:22",
           "lead": "[Daily Maverick] During a heated exchange at the Mining Indaba, Gwede Mantashe challenged the Democratic Republic of Con"
-        },
-        {
-          "title": "RESOURCE WAR OP-ED: Organised extraction: Congo’s conflict began with minerals, not myths",
-          "url": "https://www.dailymaverick.co.za/article/organised-extraction-congos-conflict-began-with-minerals-not-myths",
-          "source": "Daily Maverick",
-          "published": "2026-02-10T12:18:34",
-          "lead": "The Democratic Republic of Congo conflict is a resource war driven by mineral extraction, not just myths. Violence becam"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Daily Maverick"
+        "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 14,
+      "article_count": 13,
       "source_count": 6,
-      "baseline": 7.8,
-      "ratio": 1.8,
+      "baseline": 7.7,
+      "ratio": 1.69,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1113,8 +1260,16 @@
           "count": 3
         },
         {
-          "word": "M23",
+          "word": "Refugees",
           "count": 2
+        },
+        {
+          "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Mort",
+          "count": 1
         },
         {
           "word": "Rebelle",
@@ -1126,14 +1281,6 @@
         },
         {
           "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "War",
           "count": 1
         }
       ],
@@ -1147,6 +1294,20 @@
           "lead": "En RDC, la mission de l’ONU se prépare à une reprise progressive de ses opérations dans le Sud-Kivu, a annoncé ce mardi "
         },
         {
+          "title": "«Ces hommes armés créent de l’insécurité»: Qui sont les Wazalendo, envoyés à Fizi, dans l’est de la RDC [3/3]",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260210-ces-hommes-arm%C3%A9s-cr%C3%A9ent-de-l-ins%C3%A9curit%C3%A9-qui-sont-les-wazalendo-envoy%C3%A9s-%C3%A0-fizi-dans-l-est-de-la-rdc-3-3",
+          "source": "RFI Afrique",
+          "published": "2026-02-10T23:05:09",
+          "lead": "Malgré les accords de paix signés et les négociations qui se poursuivent, les combats continuent. Ils opposent les rebel"
+        },
+        {
+          "title": "RDC: 31 ans après sa mort, la légende de la Sape Stervos Niarcos est toujours célébrée à Kinshasa",
+          "url": "https://www.rfi.fr/fr/afrique/20260210-rdc-31-ans-apr%C3%A8s-sa-mort-la-l%C3%A9gende-de-la-sape-stervos-niarcos-est-toujours-c%C3%A9l%C3%A9br%C3%A9e-%C3%A0-kinshasa",
+          "source": "RFI Afrique",
+          "published": "2026-02-10T23:11:21",
+          "lead": "Ce mardi 10 février, quelques dizaines de sapeurs se sont recueillis sur la tombe du « pape de la Sape », l’artiste-musi"
+        },
+        {
           "title": "RDC: tensions dans un quartier de Kinshasa au lendemain d’une opération de déguerpissement",
           "url": "https://www.rfi.fr/fr/afrique/20260210-rdc-tensions-dans-un-quartier-de-kinshasa-au-lendemain-d-une-op%C3%A9ration-de-d%C3%A9guerpissement",
           "source": "RFI Afrique",
@@ -1154,39 +1315,11 @@
           "lead": "De fortes tensions dans le quartier de Pakadjuma à Kinshasa, à la sortie de la Gombe. Des affrontements ont opposé ce ma"
         },
         {
-          "title": "RDC: 12 morts dans l'effondrement d’une mine artisanale près de Kolwezi",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-rdc-12-morts-dans-l-effondrement-d-une-mine-artisanale-pr%C3%A8s-de-kolwezi",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:04:15",
-          "lead": "Un peu moins de deux semaines après le dramatique éboulement survenu dans la mine de coltan de Rubaya, dans la province "
-        },
-        {
           "title": "Minerais en RDC: la société civile alerte les États-Unis sur des «deals comportant un risque de corruption»",
           "url": "https://www.rfi.fr/fr/afrique/20260210-minerais-en-rdc-la-soci%C3%A9t%C3%A9-civile-alerte-les-%C3%A9tats-unis-sur-des-deals-comportant-un-risque-de-corruption",
           "source": "RFI Afrique",
           "published": "2026-02-10T12:51:38",
           "lead": "Dans une lettre ouverte datée du 9 février 2026, la coalition de la société civile Le Congo n’est pas à vendre interpell"
-        },
-        {
-          "title": "Est de la RDC: Félix Tshisekedi rencontre João Lourenço et Faure Gnassingbé en Angola",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-est-de-la-rdc-f%C3%A9lix-tshisekedi-rencontre-jo%C3%A3o-louren%C3%A7o-et-faure-gnassingb%C3%A9-en-angola",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:04:36",
-          "lead": "Le président congolais s'est rendu à Luanda où il s'est entretenu du conflit qui déchire l'est de la RDC avec ses homolo"
-        },
-        {
-          "title": "«De premiers travaux ont commencé» sur la partie congolaise du corridor ferroviaire de Lobito, assure la RDC",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-de-premiers-travaux-ont-commenc%C3%A9-sur-la-partie-congolaise-du-corridor-ferroviaire-de-lobito-assure-la-rdc",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T08:29:50",
-          "lead": "Alors qu’une première cargaison de minerais congolais transite via le corridor de Lobito, le ministre du Commerce de la "
-        },
-        {
-          "title": "«Si les combats se rapprochent, on devra fuir»: vivre sur la ligne de front à Namisha, dans l'Est de la RDC [2/3]",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260209-si-les-combats-se-reprochent-on-devra-fuir-vivre-sur-la-ligne-de-front-%C3%A0-namisha-dans-l-est-de-la-rdc-2-3",
-          "source": "RFI Afrique",
-          "published": "2026-02-09T23:16:27",
-          "lead": "Suite de notre série de reportages dans le territoire de Fizi, dans l'Est de la République démocratique du Congo où, mal"
         },
         {
           "title": "La délicate mission des casques bleus dans l’est de la RDC",
@@ -1222,14 +1355,28 @@
           "source": "Africanews",
           "published": "2026-02-10T11:48:20",
           "lead": "Angola’s President João Lourenço and representatives of the African Union have called for an immediate ceasefire in east"
+        },
+        {
+          "title": "Congo-Kinshasa: Mantashe Clashes With DRC Counterpart Over Its Critical Minerals Deal With U.S.",
+          "url": "https://allafrica.com/stories/202602100552.html",
+          "source": "AllAfrica",
+          "published": "2026-02-10T14:31:22",
+          "lead": "[Daily Maverick] During a heated exchange at the Mining Indaba, Gwede Mantashe challenged the Democratic Republic of Con"
+        },
+        {
+          "title": "DR Congo: République démocratique du Congo : Interventions en espèces (janvier - décembre 2025)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-interventions-en-especes-janvier-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:03:15",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN High Commissioner for Refugee"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Daily Maverick",
-        "Africanews",
-        "AllAfrica",
         "Jeune Afrique",
+        "ReliefWeb",
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -1246,21 +1393,13 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.6,
-      "ratio": 7.0,
+      "ratio": 3.5,
       "status": "high",
-      "confidence": "high",
+      "confidence": "medium",
       "keywords": [
-        {
-          "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
         {
           "word": "President",
           "count": 1
@@ -1277,20 +1416,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Est de la RDC: Félix Tshisekedi rencontre João Lourenço et Faure Gnassingbé en Angola",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-est-de-la-rdc-f%C3%A9lix-tshisekedi-rencontre-jo%C3%A3o-louren%C3%A7o-et-faure-gnassingb%C3%A9-en-angola",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T04:04:36",
-          "lead": "Le président congolais s'est rendu à Luanda où il s'est entretenu du conflit qui déchire l'est de la RDC avec ses homolo"
-        },
-        {
-          "title": "«De premiers travaux ont commencé» sur la partie congolaise du corridor ferroviaire de Lobito, assure la RDC",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-de-premiers-travaux-ont-commenc%C3%A9-sur-la-partie-congolaise-du-corridor-ferroviaire-de-lobito-assure-la-rdc",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T08:29:50",
-          "lead": "Alors qu’une première cargaison de minerais congolais transite via le corridor de Lobito, le ministre du Commerce de la "
-        },
-        {
           "title": "Angola's President João Lourenço makes new push for peace in eastern DRC",
           "url": "http://www.africanews.com/2026/02/10/angolas-president-joao-lourenco-makes-new-push-for-peace-in-eastern-drc/",
           "source": "Africanews",
@@ -1306,22 +1431,47 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Africanews"
       ]
     },
     "Eritrea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.55,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "UNHCR Rwanda - Total Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-total-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:29",
+          "lead": "Countries: Rwanda, Burundi, Cameroon, Democratic Republic of the Congo, Eritrea, Sudan\n                                 "
+        },
+        {
+          "title": "UNHCR Rwanda: Population Dashboard - Overview of Refugees and Asylum-seekers in Rwanda as of 31 December 2025",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-dashboard-overview-refugees-and-asylum-seekers-rwanda-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:15",
+          "lead": "Countries: Rwanda, Afghanistan, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Sudan\n                    "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Djibouti": {
       "article_count": 1,
@@ -1346,16 +1496,16 @@
       ]
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 6,
+      "source_count": 5,
       "baseline": 3.7,
-      "ratio": 0.81,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.62,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Crisis",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Fighting",
@@ -1364,6 +1514,26 @@
         {
           "word": "War",
           "count": 2
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
         }
       ],
       "keyword_pairs": [
@@ -1373,6 +1543,13 @@
         ]
       ],
       "articles": [
+        {
+          "title": "Éthiopie: au Tigré, le ton monte entre Addis Abeba et le TPLF, l'ONU appelle à la «désescalade»",
+          "url": "https://www.rfi.fr/fr/afrique/20260211-%C3%A9thiopie-au-tigr%C3%A9-le-ton-monte-entre-addis-abeba-et-le-tplf-l-onu-appelle-%C3%A0-la-d%C3%A9sescalade",
+          "source": "RFI Afrique",
+          "published": "2026-02-11T04:14:38",
+          "lead": "Une dizaine de jours après de violents affrontements entre l'armée fédérale éthiopienne et le Front de libération du peu"
+        },
         {
           "title": "Ethiopian Airlines beats revenue target for first half of fiscal 25/26",
           "url": "http://www.africanews.com/2026/02/10/ethiopian-airlines-beats-revenue-target-for-first-half-of-fiscal-2526/",
@@ -1393,22 +1570,58 @@
           "source": "UN News Africa",
           "published": "2026-02-10T12:00:00",
           "lead": "UN human rights chief Volker Türk appealed on Tuesday to all parties involved in renewed heavy fighting in Ethiopia’s ‘p"
+        },
+        {
+          "title": "Ethiopia: Drought in East Africa January 2026, GDO Analytical Report",
+          "url": "https://reliefweb.int/report/ethiopia/drought-east-africa-january-2026-gdo-analytical-report",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T23:11:51",
+          "lead": "Countries: Ethiopia, Kenya, Somalia\n                                      Source: European Commission\n                  "
+        },
+        {
+          "title": "UNHCR Rwanda: Population Dashboard - Overview of Refugees and Asylum-seekers in Rwanda as of 31 December 2025",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-dashboard-overview-refugees-and-asylum-seekers-rwanda-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:15",
+          "lead": "Countries: Rwanda, Afghanistan, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Sudan\n                    "
         }
       ],
       "sources": [
-        "AllAfrica",
         "UN News Africa",
-        "Africanews"
+        "ReliefWeb",
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 7,
+      "source_count": 4,
       "baseline": 2.3,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.06,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Al-shabaab",
+          "count": 2
+        },
+        {
+          "word": "Drought",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
         {
           "word": "War",
           "count": 1
@@ -1418,7 +1631,7 @@
           "count": 1
         },
         {
-          "word": "Al-shabaab",
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -1446,45 +1659,51 @@
           "lead": "[Shabelle] Saakow, Somalia -- Somalia's National Intelligence and Security Agency (NISA), working with international par"
         },
         {
+          "title": "Somalia: Somalia Forces Kill 14 Al-Shabaab Militants in Lower Jubba Operation",
+          "url": "https://allafrica.com/stories/202602110019.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T05:08:21",
+          "lead": "[Shabelle] Jamaaame, Somalia -- Somali National Army special forces Danab, in coordination with Jubaland security forces"
+        },
+        {
           "title": "Somalia: Plane Crashes Near Mogadishu Coast Shortly After Takeoff, All Passengers Safe",
           "url": "https://allafrica.com/stories/202602100550.html",
           "source": "AllAfrica",
           "published": "2026-02-10T14:29:06",
           "lead": "[Shabelle] Mogadishu, Somalia -- A StarSky aircraft crashed in shallow water near the Mogadishu coastline shortly after "
+        },
+        {
+          "title": "Somalia Key Message Update: Atypically harsh jilaal dry season begins following failed deyr rains, January 2026",
+          "url": "https://reliefweb.int/report/somalia/somalia-key-message-update-atypically-harsh-jilaal-dry-season-begins-following-failed-deyr-rains-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-11T00:38:10",
+          "lead": "Country: Somalia\n                                      Source: Famine Early Warning System Network\n                     "
+        },
+        {
+          "title": "Ethiopia: Drought in East Africa January 2026, GDO Analytical Report",
+          "url": "https://reliefweb.int/report/ethiopia/drought-east-africa-january-2026-gdo-analytical-report",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T23:11:51",
+          "lead": "Countries: Ethiopia, Kenya, Somalia\n                                      Source: European Commission\n                  "
         }
       ],
       "sources": [
-        "BBC Africa",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb",
+        "BBC Africa"
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.5,
-      "ratio": 0.86,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Election",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Le Soudan réintègre l'Igad, deux ans après en avoir claqué la porte",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-le-soudan-r%C3%A9int%C3%A8gre-l-igad-deux-ans-apr%C3%A8s-en-avoir-claqu%C3%A9-la-porte",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T00:06:47",
-          "lead": "Le Soudan est de nouveau membre à part entière de l'Autorité intergouvernementale pour le développement (Igad). L'organi"
-        },
         {
           "title": "Electric boda bodas offer cleaner rides and new jobs in Uganda",
           "url": "http://www.africanews.com/2026/02/10/electric-boda-bodas-offer-cleaner-rides-and-new-jobs-in-uganda/",
@@ -1493,30 +1712,29 @@
           "lead": "Motorcycle taxis are among the fastest and most affordable ways to get around East Africa, and in Uganda they are widely"
         },
         {
-          "title": "Uganda: UCC Warns Broadcasters Against Hosting Election Dispute Claims On Air",
-          "url": "https://allafrica.com/stories/202602100203.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T09:42:54",
-          "lead": "[Nile Post] The Uganda Communications Commission (UCC) has warned against the misuse of radio and television platforms b"
+          "title": "DTM Uganda Flow Monitoring Registry - Cross Border Movements, Report #6 (1 - 31 December 2025)",
+          "url": "https://reliefweb.int/report/uganda/dtm-uganda-flow-monitoring-registry-cross-border-movements-report-6-1-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T18:44:18",
+          "lead": "Country: Uganda\n                                      Source: International Organization for Migration\n                 "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Kenya": {
-      "article_count": 15,
-      "source_count": 6,
+      "article_count": 16,
+      "source_count": 7,
       "baseline": 4.8,
-      "ratio": 3.13,
+      "ratio": 3.34,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Drought",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Combat",
@@ -1537,6 +1755,14 @@
         {
           "word": "Protest",
           "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1547,6 +1773,13 @@
           "source": "BBC Africa",
           "published": "2026-02-10T17:39:33",
           "lead": "Nairobi says it has shut down illegal recruiters and will urge Moscow to sign a deal banning conscription."
+        },
+        {
+          "title": "Kényans enrôlés de force dans l'armée russe: le chef de la diplomatie kényane va se rendre à Moscou",
+          "url": "https://www.rfi.fr/fr/afrique/20260211-k%C3%A9nyans-enr%C3%B4l%C3%A9s-de-force-dans-l-arm%C3%A9e-russe-le-chef-de-la-diplomatie-k%C3%A9nyane-va-se-rendre-%C3%A0-moscou",
+          "source": "RFI Afrique",
+          "published": "2026-02-11T04:13:26",
+          "lead": "Le ministre kényan des Affaires étrangères, Musalia Mudavadi, a annoncé mardi 10 février qu'il se rendrait à Moscou au m"
         },
         {
           "title": "«Relooted»: un jeu vidéo pour s’emparer dans des musées occidentaux du patrimoine africain pillé",
@@ -1617,56 +1850,56 @@
           "source": "AllAfrica",
           "published": "2026-02-10T14:35:39",
           "lead": "[Capital FM] Nairobi -- A group of nurses staged a protest outside City Hall in Nairobi, raising concerns over delayed h"
-        },
-        {
-          "title": "Kenya: Governors Call for Talks With Senate to Ease Oversight Tensions",
-          "url": "https://allafrica.com/stories/202602100423.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T12:20:38",
-          "lead": "[Capital FM] Nairobi -- County governors have formally requested urgent talks with the Senate leadership to ease rising "
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique",
+        "Jeune Afrique",
+        "ReliefWeb",
         "BBC Africa",
-        "Africanews",
         "AllAfrica",
-        "Jeune Afrique"
+        "Africanews",
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 10,
+      "source_count": 3,
       "baseline": 2.9,
-      "ratio": 1.05,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 3.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
+          "word": "Refugees",
+          "count": 8
+        },
+        {
+          "word": "Displaced",
+          "count": 4
+        },
+        {
           "word": "M23",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Président",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Displaced",
+          "Refugees"
+        ]
+      ],
       "articles": [
         {
-          "title": "Est de la RDC: Félix Tshisekedi rencontre João Lourenço et Faure Gnassingbé en Angola",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-est-de-la-rdc-f%C3%A9lix-tshisekedi-rencontre-jo%C3%A3o-louren%C3%A7o-et-faure-gnassingb%C3%A9-en-angola",
+          "title": "«Ces hommes armés créent de l’insécurité»: Qui sont les Wazalendo, envoyés à Fizi, dans l’est de la RDC [3/3]",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260210-ces-hommes-arm%C3%A9s-cr%C3%A9ent-de-l-ins%C3%A9curit%C3%A9-qui-sont-les-wazalendo-envoy%C3%A9s-%C3%A0-fizi-dans-l-est-de-la-rdc-3-3",
           "source": "RFI Afrique",
-          "published": "2026-02-10T04:04:36",
-          "lead": "Le président congolais s'est rendu à Luanda où il s'est entretenu du conflit qui déchire l'est de la RDC avec ses homolo"
-        },
-        {
-          "title": "«Si les combats se rapprochent, on devra fuir»: vivre sur la ligne de front à Namisha, dans l'Est de la RDC [2/3]",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260209-si-les-combats-se-reprochent-on-devra-fuir-vivre-sur-la-ligne-de-front-%C3%A0-namisha-dans-l-est-de-la-rdc-2-3",
-          "source": "RFI Afrique",
-          "published": "2026-02-09T23:16:27",
-          "lead": "Suite de notre série de reportages dans le territoire de Fizi, dans l'Est de la République démocratique du Congo où, mal"
+          "published": "2026-02-10T23:05:09",
+          "lead": "Malgré les accords de paix signés et les négociations qui se poursuivent, les combats continuent. Ils opposent les rebel"
         },
         {
           "title": "Grands Lacs, retour de Doumbouya et Oligui Nguema, présence de Giorgia Meloni… 5 questions pour comprendre les enjeux du sommet de l’UA",
@@ -1674,29 +1907,138 @@
           "source": "Jeune Afrique",
           "published": "2026-02-10T12:34:54",
           "lead": "Un an après le renouvellement des instances de l’Union africaine, c’est l’heure du premier bilan pour le Djiboutien Maha"
+        },
+        {
+          "title": "DR Congo: République Démocratique du Congo : Moyens de subsistance - Tableau de bord (Janvier - Décembre 2025)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-moyens-de-subsistance-tableau-de-bord-janvier-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:03:12",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi, Central African Republic, Rwanda, South Sudan\n                    "
+        },
+        {
+          "title": "UNHCR Rwanda - Monthly Returnees Statistics as of 31 December 2025",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-monthly-returnees-statistics-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:37",
+          "lead": "Countries: Rwanda, Democratic Republic of the Congo\n                                      Source: UN High Commissioner f"
+        },
+        {
+          "title": "UNHCR Rwanda - Burundian Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-burundian-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:34",
+          "lead": "Country: Rwanda\n                                      Source: UN High Commissioner for Refugees\n                        "
+        },
+        {
+          "title": "UNHCR Rwanda - DR Congolese Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-dr-congolese-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:31",
+          "lead": "Countries: Rwanda, Democratic Republic of the Congo\n                                      Source: UN High Commissioner f"
+        },
+        {
+          "title": "UNHCR Rwanda - Total Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-total-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:29",
+          "lead": "Countries: Rwanda, Burundi, Cameroon, Democratic Republic of the Congo, Eritrea, Sudan\n                                 "
+        },
+        {
+          "title": "UNHCR Rwanda - Population Statistics Dashboard - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-statistics-dashboard-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:25",
+          "lead": "Country: Rwanda\n                                      Source: UN High Commissioner for Refugees\n                        "
+        },
+        {
+          "title": "Rwanda: Burundian Forcibly Displaced Persons (As of 31 December 2025)",
+          "url": "https://reliefweb.int/report/rwanda/rwanda-burundian-forcibly-displaced-persons-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:19",
+          "lead": "Countries: Rwanda, Burundi\n                                      Source: UN High Commissioner for Refugees\n             "
+        },
+        {
+          "title": "UNHCR Rwanda: Population Dashboard - Overview of Refugees and Asylum-seekers in Rwanda as of 31 December 2025",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-dashboard-overview-refugees-and-asylum-seekers-rwanda-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:15",
+          "lead": "Countries: Rwanda, Afghanistan, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Sudan\n                    "
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 5,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "ratio": 10.0,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 5
+        },
+        {
+          "word": "Displaced",
+          "count": 3
+        }
+      ],
+      "keyword_pairs": [
+        [
+          "Displaced",
+          "Refugees"
+        ]
+      ],
+      "articles": [
+        {
+          "title": "DR Congo: République Démocratique du Congo : Moyens de subsistance - Tableau de bord (Janvier - Décembre 2025)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-moyens-de-subsistance-tableau-de-bord-janvier-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:03:12",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi, Central African Republic, Rwanda, South Sudan\n                    "
+        },
+        {
+          "title": "UNHCR Rwanda - Burundian Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-burundian-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:34",
+          "lead": "Country: Rwanda\n                                      Source: UN High Commissioner for Refugees\n                        "
+        },
+        {
+          "title": "UNHCR Rwanda - Total Forcibly Displaced Population Figures - 31 January 2026",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-total-forcibly-displaced-population-figures-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:29",
+          "lead": "Countries: Rwanda, Burundi, Cameroon, Democratic Republic of the Congo, Eritrea, Sudan\n                                 "
+        },
+        {
+          "title": "Rwanda: Burundian Forcibly Displaced Persons (As of 31 December 2025)",
+          "url": "https://reliefweb.int/report/rwanda/rwanda-burundian-forcibly-displaced-persons-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:19",
+          "lead": "Countries: Rwanda, Burundi\n                                      Source: UN High Commissioner for Refugees\n             "
+        },
+        {
+          "title": "UNHCR Rwanda: Population Dashboard - Overview of Refugees and Asylum-seekers in Rwanda as of 31 December 2025",
+          "url": "https://reliefweb.int/report/rwanda/unhcr-rwanda-population-dashboard-overview-refugees-and-asylum-seekers-rwanda-31-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T15:03:15",
+          "lead": "Countries: Rwanda, Afghanistan, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Sudan\n                    "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Tanzania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1706,15 +2048,27 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 6,
+      "source_count": 5,
       "baseline": 1.7,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1726,6 +2080,20 @@
           "source": "BBC Africa",
           "published": "2026-02-10T10:34:57",
           "lead": "Eswatini says the talks were part of regional diplomacy and not an attempt to interfere."
+        },
+        {
+          "title": "‘Monstrous’: Cyclone Gezani hits Madagascar, with reports of severe damage",
+          "url": "https://www.aljazeera.com/news/2026/2/11/monstrous-cyclone-gezani-hits-madagascar-with-reports-of-severe-damage?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-11T02:54:41",
+          "lead": "Gezani has hit just 11 days after Cyclone Fytia killed 12 people and displaced 31,000 in northwestern Madagascar."
+        },
+        {
+          "title": "Madagascar: à Tamatave, «c'est la désolation» après le passage du cyclone tropical Gezani",
+          "url": "https://www.rfi.fr/fr/afrique/20260211-madagascar-%C3%A0-tamatave-c-est-la-d%C3%A9solation-apr%C3%A8s-le-passage-du-cyclone-tropical-gezani",
+          "source": "RFI Afrique",
+          "published": "2026-02-11T04:55:37",
+          "lead": "À 19h30 ce mardi, l'intense cyclone tropical Gezani s’est abattu sur la côte est de Madagascar, atterrissant directement"
         },
         {
           "title": "Cancer: à Madagascar, l’inestimable soutien de professionnels à des femmes en phase terminale",
@@ -1740,12 +2108,21 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-10T09:00:12",
           "lead": "Les autorités malgaches par intérim ont exprimé leur « condamnation la plus ferme » de la rencontre. Le bureau du monarq"
+        },
+        {
+          "title": "Madagascar: Humanitarian impact of Tropical Cyclone Gezani Flash Update No. 1 (10 February 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-humanitarian-impact-tropical-cyclone-gezani-flash-update-no-1-10-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:42:08",
+          "lead": "Country: Madagascar\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "BBC Africa",
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "Al Jazeera",
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Comoros": {
@@ -1785,11 +2162,11 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 2.62,
-      "status": "high",
+      "ratio": 1.75,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
@@ -1807,13 +2184,6 @@
           "lead": "The High Court judgement says Dalitso Lungu, 39, failed to show they were acquired lawfully."
         },
         {
-          "title": "«De premiers travaux ont commencé» sur la partie congolaise du corridor ferroviaire de Lobito, assure la RDC",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-de-premiers-travaux-ont-commenc%C3%A9-sur-la-partie-congolaise-du-corridor-ferroviaire-de-lobito-assure-la-rdc",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T08:29:50",
-          "lead": "Alors qu’une première cargaison de minerais congolais transite via le corridor de Lobito, le ministre du Commerce de la "
-        },
-        {
           "title": "Hervé Renard : « J’entraînerai de nouveau une sélection en Afrique »",
           "url": "https://www.jeuneafrique.com/1763696/societe/herve-renard-jentrainerai-de-nouveau-une-selection-en-afrique/",
           "source": "Jeune Afrique",
@@ -1822,9 +2192,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "BBC Africa"
       ]
     },
     "Malawi": {
@@ -1850,28 +2219,47 @@
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.48,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Madagascar: Humanitarian impact of Tropical Cyclone Gezani Flash Update No. 1 (10 February 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-humanitarian-impact-tropical-cyclone-gezani-flash-update-no-1-10-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-10T17:42:08",
+          "lead": "Country: Madagascar\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 5,
-      "source_count": 5,
-      "baseline": 1.4,
-      "ratio": 3.68,
-      "status": "high",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.5,
+      "ratio": 2.0,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "President",
-          "count": 3
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -1882,20 +2270,6 @@
           "source": "BBC Africa",
           "published": "2026-02-10T20:08:01",
           "lead": "President Mnangagwa's term in office is due to end in 2028 but a bill could open the way for him to extend that time."
-        },
-        {
-          "title": "Zimbabwe cabinet approves plan to extend Mnangagwa’s rule till 2030",
-          "url": "https://www.aljazeera.com/news/2026/2/10/zimbabwe-cabinet-approves-plan-to-extend-mnangagwas-rule-till-2030?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-10T18:31:20",
-          "lead": "President Mnangagwa, 83, ⁠is currently meant to step down in 2028 after serving two five-year terms."
-        },
-        {
-          "title": "Le Zimbabwe, nouvel acteur central de la ruée mondiale vers le lithium scruté de près par Pékin",
-          "url": "https://www.rfi.fr/fr/afrique/20260210-le-zimbabwe-nouvel-acteur-central-de-la-ru%C3%A9e-mondiale-vers-le-lithium-scrut%C3%A9-de-pr%C3%A8s-par-p%C3%A9kin",
-          "source": "RFI Afrique",
-          "published": "2026-02-10T05:06:44",
-          "lead": "Batteries, véhicules électriques, stockage d’énergie : derrière ces piliers de la transition chinoise se cache une dépen"
         },
         {
           "title": "Zimbabwe cabinet agrees plan to extend president's term to 2030",
@@ -1913,11 +2287,9 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
-        "RFI Afrique",
-        "BBC Africa",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Namibia": {
@@ -1963,24 +2335,24 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "South Africa": {
-      "article_count": 14,
+      "article_count": 13,
       "source_count": 4,
-      "baseline": 10.9,
-      "ratio": 1.29,
+      "baseline": 11.0,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
-          "count": 2
+          "word": "Killed",
+          "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         },
         {
@@ -2012,6 +2384,20 @@
           "lead": "This year’s Mining Indaba conference opened in Cape Town on Tuesday under the theme ‘Stronger Together.’"
         },
         {
+          "title": "South Africa: Rhino Killers Shift Their Sights Back to Kruger National Park",
+          "url": "https://allafrica.com/stories/202602110017.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T05:08:18",
+          "lead": "[Daily Maverick] The good news is that poachers slaughtered far fewer rhinos in the Hluhluwe-iMfolozi Park in KwaZulu-Na"
+        },
+        {
+          "title": "South Africa: Desperate Measures - Joburg Residents Pushed to the Brink After Days and Even Weeks Without Water",
+          "url": "https://allafrica.com/stories/202602110014.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T05:08:04",
+          "lead": "[Our City News] Melville: 23 days without water. Brixton: 14 days without water. Parktown West: 21 days without water. V"
+        },
+        {
           "title": "South Africa: 'People Are Already Living Day Zero,' WaterCAN Says As Joburg Taps Run Dry",
           "url": "https://allafrica.com/stories/202602100415.html",
           "source": "AllAfrica",
@@ -2033,27 +2419,6 @@
           "lead": "[GroundUp] The area has experienced an intermittent water supply for years and taps have been dry since last week"
         },
         {
-          "title": "South Africa: The Man Who Helped Expose Lottery Corruption Has Died",
-          "url": "https://allafrica.com/stories/202602100117.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T06:45:53",
-          "lead": "[GroundUp] Ado Krige supplied key documents that blew corruption at the NLC wide open"
-        },
-        {
-          "title": "South Africa: Unsafe Aflatoxin Levels Trigger ButtaNutt Recall - South African News Briefs - February 10, 2025",
-          "url": "https://allafrica.com/stories/202602100075.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T05:47:13",
-          "lead": "[allAfrica]"
-        },
-        {
-          "title": "South Africa: SA Untapped Mineral Potential Still 'Significant'",
-          "url": "https://allafrica.com/stories/202602100569.html",
-          "source": "AllAfrica",
-          "published": "2026-02-10T15:08:12",
-          "lead": "[SAnews.gov.za] Deputy Minister of Mineral and Petroleum Resources Phumzile Mgcina has reiterated government's stance th"
-        },
-        {
           "title": "FORGOTTEN IN THE GROUND: How Cape Town families discovered their loved ones in paupers’ graves",
           "url": "https://www.dailymaverick.co.za/article/how-cape-town-families-discovered-their-loved-ones-in-paupers-graves",
           "source": "Daily Maverick",
@@ -2073,13 +2438,20 @@
           "source": "Daily Maverick",
           "published": "2026-02-10T20:42:33",
           "lead": "Joburg metro police and the SAPS have denied involvement in the fatal ‘drug-bust operation’ attended by ActionSA’s Ekurh"
+        },
+        {
+          "title": "FUNCTIONAL FUNGI: Brain boost or brand boost? The market momentum behind lion’s mane mushrooms",
+          "url": "https://www.dailymaverick.co.za/article/brain-boost-or-brand-boost-the-market-momentum-behind-lions-mane-mushrooms",
+          "source": "Daily Maverick",
+          "published": "2026-02-10T18:01:20",
+          "lead": "Lion’s mane mushrooms have become shorthand for cognitive health in the wellness industry, a product that promises sharp"
         }
       ],
       "sources": [
-        "AllAfrica",
         "RFI Afrique",
+        "Daily Maverick",
         "Africanews",
-        "Daily Maverick"
+        "AllAfrica"
       ]
     },
     "Eswatini": {
@@ -2113,8 +2485,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "BBC Africa"
       ]
     },
     "Lesotho": {
