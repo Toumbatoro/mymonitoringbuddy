@@ -1,47 +1,38 @@
 {
-  "generated_at": "2026-02-12T08:02:18.133410",
+  "generated_at": "2026-02-12T11:28:11.776736",
   "summary": {
-    "high": 4,
-    "elevated": 9,
-    "normal": 22,
+    "high": 3,
+    "elevated": 7,
+    "normal": 25,
     "quiet": 19
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
-      "source_count": 3,
+      "source_count": 2,
       "baseline": 4.9,
       "ratio": 0.62,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Sécheresse",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Maroc: le retour de la pluie salué par les agriculteurs malgré les inondations",
-          "url": "https://www.rfi.fr/fr/afrique/20260211-maroc-le-retour-de-la-pluie-salu%C3%A9-par-les-agriculteurs-malgr%C3%A9-les-inondations",
+          "title": "Maroc: stupéfaction d’ex-élèves de «Monsieur Jacques», Français accusé de viols et agressions sur 89 mineurs dans 9 pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260212-maroc-stup%C3%A9faction-d-ex-%C3%A9l%C3%A8ves-de-monsieur-jacques-fran%C3%A7ais-accus%C3%A9-de-viols-et-agressions-sur-89-mineurs-dans-9-pays",
           "source": "RFI Afrique",
-          "published": "2026-02-11T11:03:39",
-          "lead": "Après sept ans de sécheresse, la nature reprend des couleurs au Maroc. Les précipitations abondantes de ces dernières se"
+          "published": "2026-02-12T10:28:31",
+          "lead": "Le parquet de Grenoble a lancé le 10 février 2026 un appel à témoins concernant Jacques Leveugle, 79 ans, accusé de viol"
         },
         {
-          "title": "Inondations au Maroc : 4 morts et plus de 15 000 déplacés",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260211-inondations-au-maroc-4-morts-et-plus-de-15-000-d%C3%A9plac%C3%A9s",
-          "source": "France24 Afrique",
-          "published": "2026-02-11T11:14:16",
-          "lead": "Des inondations historiques au Maroc ont fait quatre victimes ce week-end, et beaucoup de victimes collatérales. Les éle"
+          "title": "Union européenne: vers un durcissement des demandes d’asile pour les ressortissants d’Égypte, du Maroc et de Tunisie",
+          "url": "https://www.rfi.fr/fr/afrique/20260212-union-europ%C3%A9enne-vers-un-durcissement-des-demandes-d-asile-pour-les-ressortissants-d-%C3%A9gypte-du-maroc-et-de-tunisie",
+          "source": "RFI Afrique",
+          "published": "2026-02-12T07:59:05",
+          "lead": "Le Parlement européen a adopté définitivement le 10 février 2026 deux textes pour durcir la politique migratoire du cont"
         },
         {
-          "title": "Que reste-t-il du mouvement GenZ marocain ?",
+          "title": "Que reste-t-il du mouvement GenZ marocain ?",
           "url": "https://www.jeuneafrique.com/1764339/politique/que-reste-t-il-du-mouvement-genz-marocain/",
           "source": "Jeune Afrique",
           "published": "2026-02-11T14:29:26",
@@ -49,16 +40,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.97,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -90,15 +80,22 @@
       ]
     },
     "Tunisia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.8,
-      "ratio": 1.33,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.46,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Union européenne: vers un durcissement des demandes d’asile pour les ressortissants d’Égypte, du Maroc et de Tunisie",
+          "url": "https://www.rfi.fr/fr/afrique/20260212-union-europ%C3%A9enne-vers-un-durcissement-des-demandes-d-asile-pour-les-ressortissants-d-%C3%A9gypte-du-maroc-et-de-tunisie",
+          "source": "RFI Afrique",
+          "published": "2026-02-12T07:59:05",
+          "lead": "Le Parlement européen a adopté définitivement le 10 février 2026 deux textes pour durcir la politique migratoire du cont"
+        },
         {
           "title": "Migration Trends at Libya's Borders (October - December 2025)",
           "url": "https://reliefweb.int/report/libya/migration-trends-libyas-borders-october-december-2025",
@@ -108,6 +105,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "ReliefWeb"
       ]
     },
@@ -135,9 +133,9 @@
         },
         {
           "title": "Libya grants foreign oil companies exploration licences",
-          "url": "http://www.africanews.com/2026/02/11/libya-grants-foreign-oil-companies-exploration-licences/",
+          "url": "http://www.africanews.com/2026/02/12/libya-grants-foreign-oil-companies-exploration-licences/",
           "source": "Africanews",
-          "published": "2026-02-11T15:39:58",
+          "published": "2026-02-12T10:26:12",
           "lead": "Libya granted several foreign companies new oil exploration and production licences for the first time in 17 years on We"
         },
         {
@@ -149,16 +147,16 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Egypt": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 1.9,
-      "ratio": 2.67,
+      "article_count": 7,
+      "source_count": 4,
+      "baseline": 2.0,
+      "ratio": 3.5,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -171,32 +169,46 @@
           "count": 2
         },
         {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Al-shabaab",
+          "count": 1
+        },
+        {
           "word": "War",
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Killed",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Union européenne: vers un durcissement des demandes d’asile pour les ressortissants d’Égypte, du Maroc et de Tunisie",
+          "url": "https://www.rfi.fr/fr/afrique/20260212-union-europ%C3%A9enne-vers-un-durcissement-des-demandes-d-asile-pour-les-ressortissants-d-%C3%A9gypte-du-maroc-et-de-tunisie",
+          "source": "RFI Afrique",
+          "published": "2026-02-12T07:59:05",
+          "lead": "Le Parlement européen a adopté définitivement le 10 février 2026 deux textes pour durcir la politique migratoire du cont"
+        },
+        {
+          "title": "Egyptian troops take part in training ahead of AU deployment in Somalia",
+          "url": "http://www.africanews.com/2026/02/12/egyptian-troops-take-part-in-training-ahead-of-au-deployment-in-somalia/",
+          "source": "Africanews",
+          "published": "2026-02-12T09:17:37",
+          "lead": "Its mandate is to help bolster Mogadishu’s fight against Al-Shabaab and improve peace and security in Somalia and the re"
+        },
         {
           "title": "Egypt's Sisi names new defence minister in limited reshuffle",
           "url": "http://www.africanews.com/2026/02/11/egypts-sisi-names-new-defence-minister-in-limited-reshuffle/",
@@ -205,18 +217,18 @@
           "lead": "General Ashraf Salem Zaher, the former head of the Egyptian Military Academy -succeeds General Abdelmeguid Saqr, and wil"
         },
         {
-          "title": "Senegal and Egypt's top diplomats discuss strengthening bilateral relations",
-          "url": "http://www.africanews.com/2026/02/11/senegal-and-egypts-top-diplomats-discuss-strengthening-bilateral-relations/",
-          "source": "Africanews",
-          "published": "2026-02-11T10:43:12",
-          "lead": "The also spoke about harmonising their positions on regional and international issues ahead of the African Union summit."
-        },
-        {
           "title": "Sudan: Sudan's Latest Peace Plan - What's in It and Does It Stand a Chance?",
           "url": "https://allafrica.com/stories/202602120001.html",
           "source": "AllAfrica",
           "published": "2026-02-12T04:35:58",
           "lead": "[The Conversation Africa] US president Donald Trump's advisor on Arab and African Affairs, Massad Boulos, announced in F"
+        },
+        {
+          "title": "WFP Egypt Country Brief, February 2026 (Reporting period: January 2026)",
+          "url": "https://reliefweb.int/report/egypt/wfp-egypt-country-brief-february-2026-reporting-period-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-12T10:14:55",
+          "lead": "Country: Egypt\n                                      Source: World Food Programme\n                                      "
         },
         {
           "title": "Migration Trends at Libya's Borders (October - December 2025)",
@@ -234,37 +246,26 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Africanews",
+        "RFI Afrique",
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Sudan": {
-      "article_count": 11,
+      "article_count": 9,
       "source_count": 6,
-      "baseline": 5.2,
-      "ratio": 2.12,
+      "baseline": 5.5,
+      "ratio": 1.64,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Humanitarian",
-          "count": 5
-        },
-        {
-          "word": "Government",
           "count": 4
         },
         {
           "word": "Killed",
-          "count": 3
-        },
-        {
-          "word": "Refugees",
-          "count": 3
-        },
-        {
-          "word": "President",
           "count": 2
         },
         {
@@ -272,22 +273,34 @@
           "count": 2
         },
         {
-          "word": "Crisis",
+          "word": "President",
           "count": 2
         },
         {
           "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
           "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Two children killed in drone strike on mosque in central Sudan: Doctors",
-          "url": "https://www.aljazeera.com/news/2026/2/12/three-children-killed-in-drone-strike-on-mosque-in-central-sudan-doctors?traffic_source=rss",
+          "title": "At least 21 dead in ferry sinking in northern Sudan’s River Nile State",
+          "url": "https://www.aljazeera.com/news/2026/2/12/at-least-21-dead-in-ferry-sinking-in-northern-sudans-river-nile-state?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-12T03:26:26",
-          "lead": "The Sudan Doctors Network said the deadly strike was carried out by the paramilitary Rapid Support Forces."
+          "published": "2026-02-12T11:03:53",
+          "lead": "At least six people are rescued, while efforts are ongoing to locate about a dozen people still missing, officials say."
         },
         {
           "title": "Libye: un groupe armé du sud du pays revendique une deuxième attaque contre les forces du maréchal Haftar",
@@ -304,18 +317,18 @@
           "lead": "A drone strike blamed on Sudan's paramilitary Rapid Support Forces killed two children and injured 12 others Wednesday i"
         },
         {
+          "title": "Sudan: Civilians and Aid Operations Under Fire As Sudan Airstrikes Intensify",
+          "url": "https://allafrica.com/stories/202602120099.html",
+          "source": "AllAfrica",
+          "published": "2026-02-12T08:17:26",
+          "lead": "[UN News] Escalating aerial attacks in Sudan are killing children, damaging schools and striking United Nations faciliti"
+        },
+        {
           "title": "Sudan: Sudan's Latest Peace Plan - What's in It and Does It Stand a Chance?",
           "url": "https://allafrica.com/stories/202602120001.html",
           "source": "AllAfrica",
           "published": "2026-02-12T04:35:58",
           "lead": "[The Conversation Africa] US president Donald Trump's advisor on Arab and African Affairs, Massad Boulos, announced in F"
-        },
-        {
-          "title": "Sudan: Govt Confirms Full Return to Khartoum",
-          "url": "https://allafrica.com/stories/202602110304.html",
-          "source": "AllAfrica",
-          "published": "2026-02-11T11:00:41",
-          "lead": "[SNA] Kuwait -- The federal government has confirmed its full return to the capital, Khartoum, and the resumption of its"
         },
         {
           "title": "Civilians and aid operations under fire as Sudan airstrikes intensify",
@@ -344,36 +357,22 @@
           "source": "ReliefWeb",
           "published": "2026-02-11T22:16:28",
           "lead": "Country: Sudan\n                                      Source: Médecins Sans Frontières\n                                  "
-        },
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
-        "ReliefWeb",
+        "Al Jazeera",
+        "AllAfrica",
+        "Africanews",
         "RFI Afrique",
         "UN News Africa",
-        "Al Jazeera",
-        "Africanews",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Mauritania": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.5,
-      "ratio": 4.0,
+      "baseline": 0.6,
+      "ratio": 3.56,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -405,10 +404,10 @@
       ]
     },
     "Mali": {
-      "article_count": 3,
-      "source_count": 1,
-      "baseline": 4.4,
-      "ratio": 0.68,
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 4.5,
+      "ratio": 0.89,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -434,9 +433,17 @@
           "source": "Jeune Afrique",
           "published": "2026-02-11T12:30:10",
           "lead": "Nommé commissaire chargé des activités minières, Hilaire Diarra doit piloter le redémarrage du secteur minier malien, cr"
+        },
+        {
+          "title": "Court ruling on Mali sanctions reignites regional integration debate {Business Africa}",
+          "url": "http://www.africanews.com/2026/02/12/court-ruling-on-mali-sanctions-reignites-regional-integration-debate-business-africa/",
+          "source": "Africanews",
+          "published": "2026-02-12T09:32:47",
+          "lead": "A landmark ruling by the WAEMU Court against the blockade of Mali is reshaping West Africa’s economic landscape, highlig"
         }
       ],
       "sources": [
+        "Africanews",
         "Jeune Afrique"
       ]
     },
@@ -455,24 +462,28 @@
     "Niger": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 4.8,
+      "baseline": 4.9,
       "ratio": 0.62,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Le soulagement des opérateurs nigériens après la réouverture du corridor frontalier Bénin-Nigeria-Niger",
-          "url": "https://www.rfi.fr/fr/afrique/20260211-le-soulagement-des-op%C3%A9rateurs-nig%C3%A9riens-apr%C3%A8s-la-r%C3%A9ouverture-du-corridor-frontalier-b%C3%A9nin-nigeria-niger",
-          "source": "RFI Afrique",
-          "published": "2026-02-11T08:41:00",
-          "lead": "Le corridor de Tsamiya-Kamba qui permet le passage du Bénin au Niger via le Nigeria, fermé depuis 2019, est de nouveau o"
+          "title": "Un ex-militaire français tué pendant l'attaque de l'aéroport de Niamey ? Une intox générée par IA",
+          "url": "https://www.france24.com/fr/afrique/20260212-intox-generee-par-ia-un-ex-militaire-fran%C3%A7ais-tu%C3%A9-lors-attaque-aeroport-de-niamey-niger-sahel-alliance",
+          "source": "France24 Afrique",
+          "published": "2026-02-12T10:23:44",
+          "lead": "Des internautes favorables à l’Alliance des États du Sahel prétendent qu'un ancien militaire français aurait été tué lor"
         },
         {
           "title": "Niger–Bénin : quand Abdourahamane Tiani demande une escorte militaire à Patrice Talon",
@@ -491,49 +502,56 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "ReliefWeb",
-        "RFI Afrique"
+        "France24 Afrique",
+        "ReliefWeb"
       ]
     },
     "Senegal": {
-      "article_count": 7,
-      "source_count": 5,
+      "article_count": 6,
+      "source_count": 4,
       "baseline": 6.0,
-      "ratio": 1.17,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Tué",
-          "count": 1
+          "word": "Violence",
+          "count": 2
         },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Sénégal: garde à vue prolongée pour trois responsables d'organisations étudiantes après les violences à l'UCAD",
+          "title": "Sénégal: garde à vue prolongée pour trois responsables d'organisations étudiantes après les violences à l'Ucad",
           "url": "https://www.rfi.fr/fr/afrique/20260212-s%C3%A9n%C3%A9gal-garde-%C3%A0-vue-prolong%C3%A9e-pour-trois-responsables-d-organisations-%C3%A9tudiantes-apr%C3%A8s-les-violences-%C3%A0-l-ucad",
           "source": "RFI Afrique",
           "published": "2026-02-12T04:09:41",
           "lead": "Si la quasi totalité des 109 étudiants interpellés en début de semaine dans le cadre des violences sur le campus de l'Un"
         },
         {
-          "title": "À la Une: le fossé se creuse entre le pouvoir et les étudiants au Sénégal",
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260211-%C3%A0-la-une-le-foss%C3%A9-se-creuse-entre-le-pouvoir-et-les-%C3%A9tudiants-au-s%C3%A9n%C3%A9gal",
+          "title": "Sénégal: «Il y a eu un mort et les autorités veulent cacher les choses», dénonce un délégué étudiant à l’Ucad",
+          "url": "https://www.rfi.fr/fr/afrique/20260212-s%C3%A9n%C3%A9gal-il-y-a-eu-un-mort-et-les-autorit%C3%A9s-veulent-cacher-les-choses-d%C3%A9nonce-un-d%C3%A9l%C3%A9gu%C3%A9-%C3%A9tudiant-%C3%A0-l-ucad",
           "source": "RFI Afrique",
-          "published": "2026-02-11T08:03:57",
+          "published": "2026-02-12T08:15:04",
+          "lead": "Le gouvernement sénégalais a qualifié de « tragédie » la mort le 9 février 2026 d'un étudiant dans une grande université"
+        },
+        {
+          "title": "À la Une: la traque des homosexuels s’intensifie au Sénégal",
+          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260212-%C3%A0-la-une-la-traque-des-homosexuels-s-intensifie-au-s%C3%A9n%C3%A9gal",
+          "source": "RFI Afrique",
+          "published": "2026-02-12T08:55:07",
           "lead": ""
         },
         {
@@ -551,33 +569,18 @@
           "lead": "Début février, douze personnes accusées « d’actes contre nature » ont été arrêtées à Dakar. La parole homophobe se répan"
         },
         {
-          "title": "« Sonko nous a vendu du rêve, mais il n’a rien changé » : Pastef face au problème de l’université au Sénégal",
-          "url": "https://www.jeuneafrique.com/1764333/politique/sonko-nous-a-vendu-du-reve-mais-il-na-rien-change-pastef-face-au-probleme-de-luniversite-au-senegal/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-11T10:47:10",
-          "lead": "Un étudiant a été tué le 9 février sur le campus de Dakar, lors d’un assaut des forces de sécurité sur lequel une enquêt"
-        },
-        {
           "title": "Students turn on Senegalese government over Dakar university violence",
           "url": "http://www.africanews.com/2026/02/12/students-turn-on-senegalese-government-over-dakar-university-violence/",
           "source": "Africanews",
           "published": "2026-02-12T06:38:57",
           "lead": "The protests over unpaid stipends reflects growing frustration among the youth who accuse the government they helped bri"
-        },
-        {
-          "title": "Senegal and Egypt's top diplomats discuss strengthening bilateral relations",
-          "url": "http://www.africanews.com/2026/02/11/senegal-and-egypts-top-diplomats-discuss-strengthening-bilateral-relations/",
-          "source": "Africanews",
-          "published": "2026-02-11T10:43:12",
-          "lead": "The also spoke about harmonising their positions on regional and international issues ahead of the African Union summit."
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Le Monde Afrique",
-        "France24 Afrique",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Gambia": {
@@ -595,17 +598,17 @@
     "Guinea-Bissau": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.07,
+      "baseline": 1.0,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -678,15 +681,22 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 0.52,
+      "ratio": 1.03,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le Parti démocratique de Côte d'Ivoire affirme vouloir se restructurer après une année 2025 «tumultueuse»",
+          "url": "https://www.rfi.fr/fr/afrique/20260212-le-parti-d%C3%A9mocratique-de-c%C3%B4te-d-ivoire-affirme-vouloir-se-restructurer-apr%C3%A8s-une-ann%C3%A9e-2025-tumultueuse",
+          "source": "RFI Afrique",
+          "published": "2026-02-12T10:43:19",
+          "lead": "Le porte-parole du Parti démocratique de Côte d'Ivoire-Rassemblement démocratique africain (PDCI-RDA) a rencontré la pre"
+        },
         {
           "title": "Mali-Côte d’Ivoire : le député Mamadou Hawa Gassama gracié par Alassane Ouattara",
           "url": "https://www.jeuneafrique.com/1764424/politique/mali-cote-divoire-le-depute-mamadou-hawa-gassama-gracie-par-alassane-ouattara/",
@@ -696,6 +706,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -741,27 +752,15 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.78,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 1.19,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Le soulagement des opérateurs nigériens après la réouverture du corridor frontalier Bénin-Nigeria-Niger",
-          "url": "https://www.rfi.fr/fr/afrique/20260211-le-soulagement-des-op%C3%A9rateurs-nig%C3%A9riens-apr%C3%A8s-la-r%C3%A9ouverture-du-corridor-frontalier-b%C3%A9nin-nigeria-niger",
-          "source": "RFI Afrique",
-          "published": "2026-02-11T08:41:00",
-          "lead": "Le corridor de Tsamiya-Kamba qui permet le passage du Bénin au Niger via le Nigeria, fermé depuis 2019, est de nouveau o"
-        },
         {
           "title": "Niger–Bénin : quand Abdourahamane Tiani demande une escorte militaire à Patrice Talon",
           "url": "https://www.jeuneafrique.com/1764673/politique/niger-benin-quand-abdourahamane-tiani-demande-une-escorte-militaire-a-patrice-talon/",
@@ -778,16 +777,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 16,
+      "article_count": 15,
       "source_count": 10,
-      "baseline": 9.0,
-      "ratio": 1.78,
+      "baseline": 9.1,
+      "ratio": 1.66,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -800,15 +798,7 @@
           "count": 2
         },
         {
-          "word": "Combat",
-          "count": 2
-        },
-        {
           "word": "President",
-          "count": 2
-        },
-        {
-          "word": "Government",
           "count": 2
         },
         {
@@ -816,7 +806,15 @@
           "count": 2
         },
         {
-          "word": "Président",
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         },
         {
@@ -853,13 +851,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-11T14:19:19",
           "lead": "Les contours de la coopération militaire entre le Nigeria et les États-Unis se précisent, alors que des responsables des"
-        },
-        {
-          "title": "Le soulagement des opérateurs nigériens après la réouverture du corridor frontalier Bénin-Nigeria-Niger",
-          "url": "https://www.rfi.fr/fr/afrique/20260211-le-soulagement-des-op%C3%A9rateurs-nig%C3%A9riens-apr%C3%A8s-la-r%C3%A9ouverture-du-corridor-frontalier-b%C3%A9nin-nigeria-niger",
-          "source": "RFI Afrique",
-          "published": "2026-02-11T08:41:00",
-          "lead": "Le corridor de Tsamiya-Kamba qui permet le passage du Bénin au Niger via le Nigeria, fermé depuis 2019, est de nouveau o"
         },
         {
           "title": "Nigeria : Épuisés pas la violence, ils négocient avec les bandits",
@@ -904,24 +895,31 @@
           "lead": "[RFI] The United States is planning to send about 200 troops to Nigeria to train the country's military to fight Islamis"
         },
         {
-          "title": "Nigeria: Terrorism - United States to Send Additional 200 Troops to Nigeria",
-          "url": "https://allafrica.com/stories/202602110270.html",
+          "title": "Nigeria: Court Convicts Two Chinese Nationals for Cyber-Terrorism, N3.4bn Fraud",
+          "url": "https://allafrica.com/stories/202602120174.html",
           "source": "AllAfrica",
-          "published": "2026-02-11T10:47:43",
-          "lead": "[Premium Times] The spokesperson for the Defence Headquarters, Samaila Uba said the US troops will not be involved in di"
+          "published": "2026-02-12T09:53:26",
+          "lead": "[Premium Times] The convicts, alongside one Friday Audu, were among a syndicate of 792 fraudsters arrested for cryptocur"
+        },
+        {
+          "title": "Nigeria: Electoral Act - Dickson Faults Senate's Decision On Electronic Transmission of Results",
+          "url": "https://allafrica.com/stories/202602110490.html",
+          "source": "AllAfrica",
+          "published": "2026-02-11T15:00:03",
+          "lead": "[Premium Times] Mr Dickson argued that the caveat provided in the version passed by the Senate weakens the country's ele"
         }
       ],
       "sources": [
+        "Al Jazeera",
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique",
+        "DW Africa",
         "Jeune Afrique",
         "Human Rights Watch",
-        "AllAfrica",
-        "ReliefWeb",
-        "DW Africa",
-        "Africanews",
         "The Guardian Africa",
-        "Al Jazeera",
         "France24 Afrique",
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "Cape Verde": {
@@ -933,7 +931,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -941,11 +939,19 @@
           "count": 1
         },
         {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
           "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         },
         {
@@ -954,14 +960,6 @@
         },
         {
           "word": "Insurgent",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "War",
           "count": 1
         }
       ],
@@ -982,8 +980,8 @@
     "Chad": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.4,
-      "ratio": 1.26,
+      "baseline": 2.5,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1018,15 +1016,15 @@
       ],
       "sources": [
         "Al Jazeera",
-        "ReliefWeb",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
       "article_count": 4,
       "source_count": 3,
       "baseline": 2.9,
-      "ratio": 1.36,
+      "ratio": 1.39,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1075,19 +1073,27 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.0,
-      "status": "normal",
+      "baseline": 1.1,
+      "ratio": 1.88,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        },
         {
           "word": "Humanitaire",
           "count": 1
@@ -1095,6 +1101,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N° 54, Au 10 février 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg-54-au-10-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-12T08:44:51",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
+        },
         {
           "title": "CAR: République centrafricaine (RCA) : Bulletin MSNI Ciblé 2025 (Février 2026)",
           "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rca-bulletin-msni-cible-2025-fevrier-2026",
@@ -1108,27 +1121,23 @@
       ]
     },
     "South Sudan": {
-      "article_count": 6,
+      "article_count": 4,
       "source_count": 2,
-      "baseline": 1.6,
-      "ratio": 3.69,
-      "status": "high",
+      "baseline": 1.9,
+      "ratio": 2.06,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
+          "word": "President",
+          "count": 2
+        },
+        {
           "word": "Crisis",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Humanitarian",
-          "count": 3
-        },
-        {
-          "word": "Government",
-          "count": 3
-        },
-        {
-          "word": "President",
           "count": 2
         },
         {
@@ -1144,8 +1153,12 @@
           "count": 2
         },
         {
-          "word": "Refugees",
-          "count": 2
+          "word": "Casualties",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1177,25 +1190,11 @@
           "source": "ReliefWeb",
           "published": "2026-02-12T00:26:11",
           "lead": "Countries: Nigeria, occupied Palestinian territory, South Sudan\n                                      Source: Global Cen"
-        },
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "BBC Africa"
+        "BBC Africa",
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -1225,8 +1224,8 @@
     "Congo": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.67,
+      "baseline": 1.4,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1250,23 +1249,19 @@
       ]
     },
     "DRC": {
-      "article_count": 6,
-      "source_count": 5,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 7.9,
-      "ratio": 0.76,
+      "ratio": 0.51,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 2
-        },
-        {
-          "word": "Guerre",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -1278,11 +1273,7 @@
           "count": 1
         },
         {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Government",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1294,13 +1285,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-12T06:46:12",
           "lead": "La guerre dans l’est de la RDC : mercredi 11 février, vous entendiez le porte-parole du gouvernement congolais, Patrick "
-        },
-        {
-          "title": "La RDC organise un forum d'investissement en marge du Mining Indaba en Afrique du Sud",
-          "url": "https://www.rfi.fr/fr/afrique/20260211-la-rdc-organise-un-forum-d-investissement-en-marge-du-mining-indaba-en-afrique-du-sud",
-          "source": "RFI Afrique",
-          "published": "2026-02-11T10:50:38",
-          "lead": "En marge du Mining Indaba, la République démocratique du Congo a organisé un forum d'investissement pour la province du "
         },
         {
           "title": "RDC : la Monusco souhaite des \"garanties de sécurité\" du M23 avant un déploiement à Uvira",
@@ -1322,21 +1306,13 @@
           "source": "Africanews",
           "published": "2026-02-11T14:40:35",
           "lead": "The Democratic Republic of Congo has not \"sold off\" its vast mineral wealth to the United States under an agreement gran"
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "France24 Afrique",
-        "ReliefWeb",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique",
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -1364,47 +1340,16 @@
       "sources": []
     },
     "Eritrea": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.46,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.9,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "UN rights chief urges Ethiopia and Eritrea to de‑escalate tensions",
-          "url": "http://www.africanews.com/2026/02/11/un-rights-chief-urges-ethiopia-and-eritrea-to-deescalate-tensions/",
-          "source": "Africanews",
-          "published": "2026-02-11T11:13:15",
-          "lead": "The UN High Commissioner for Human Rights, Volker Türk, on Tuesday called on both Ethiopia and Eritrea to take urgent st"
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
-        }
-      ],
-      "sources": [
-        "ReliefWeb",
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Djibouti": {
       "article_count": 0,
@@ -1419,43 +1364,19 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 5,
-      "source_count": 4,
-      "baseline": 3.6,
-      "ratio": 1.38,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.8,
+      "ratio": 0.26,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
+          "word": "Guerre",
           "count": 1
         }
       ],
@@ -1467,92 +1388,37 @@
           "source": "RFI Afrique",
           "published": "2026-02-12T06:46:12",
           "lead": "La guerre dans l’est de la RDC : mercredi 11 février, vous entendiez le porte-parole du gouvernement congolais, Patrick "
-        },
-        {
-          "title": "UN rights chief urges Ethiopia and Eritrea to de‑escalate tensions",
-          "url": "http://www.africanews.com/2026/02/11/un-rights-chief-urges-ethiopia-and-eritrea-to-deescalate-tensions/",
-          "source": "Africanews",
-          "published": "2026-02-11T11:13:15",
-          "lead": "The UN High Commissioner for Human Rights, Volker Türk, on Tuesday called on both Ethiopia and Eritrea to take urgent st"
-        },
-        {
-          "title": "Africa: AU Executive Council Convenes in Addis Ababa to Shape Continental Strategy for 2026",
-          "url": "https://allafrica.com/stories/202602110204.html",
-          "source": "AllAfrica",
-          "published": "2026-02-11T09:08:01",
-          "lead": "[ENA] Addis Ababa -- The 48th Ordinary Session of the Executive Council of the African Union (AU) officially commenced t"
-        },
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb",
-        "Africanews",
         "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 2.11,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 2.5,
+      "ratio": 1.2,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Al-shabaab",
           "count": 2
         },
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Al-shabaab",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Somalia: Somalia Ranked World's Most Corrupt Country in 2025 Global Index",
-          "url": "https://allafrica.com/stories/202602110232.html",
-          "source": "AllAfrica",
-          "published": "2026-02-11T09:34:07",
-          "lead": "[Horn Diplomat] Somalia ranked among the world's most corrupt countries in the 2025 Corruption Perceptions Index (CPI) r"
+          "title": "Egyptian troops take part in training ahead of AU deployment in Somalia",
+          "url": "http://www.africanews.com/2026/02/12/egyptian-troops-take-part-in-training-ahead-of-au-deployment-in-somalia/",
+          "source": "Africanews",
+          "published": "2026-02-12T09:17:37",
+          "lead": "Its mandate is to help bolster Mogadishu’s fight against Al-Shabaab and improve peace and security in Somalia and the re"
         },
         {
           "title": "Kenya: President Ruto Dismisses Gachagua's Al-Shabaab Meeting Claims As 'Baseless'",
@@ -1567,64 +1433,22 @@
           "source": "ReliefWeb",
           "published": "2026-02-12T01:33:15",
           "lead": "Country: Somalia\n                                      Source: International Organization for Migration\n                "
-        },
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
+        "Africanews",
         "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 3.2,
-      "ratio": 0.92,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.4,
+      "ratio": 0.3,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1633,53 +1457,22 @@
           "source": "AllAfrica",
           "published": "2026-02-11T12:47:06",
           "lead": "[Nile Post] As the first term of the 2026 academic year begins, the issue of school fees remains a pressing concern for "
-        },
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 9,
+      "article_count": 6,
       "source_count": 5,
-      "baseline": 5.1,
-      "ratio": 1.76,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 5.2,
+      "ratio": 1.14,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Fighting",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         },
         {
@@ -1687,7 +1480,23 @@
           "count": 1
         },
         {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
           "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -1719,13 +1528,6 @@
           "lead": "A self-proclaimed preacher in Kenya linked to an infamous starvation cult that killed more than 400 people was charged o"
         },
         {
-          "title": "Kenya FM to visit Russia over forced conscripts in Ukraine",
-          "url": "http://www.africanews.com/2026/02/11/kenya-fm-to-visit-russia-over-forced-conscripts-in-ukraine/",
-          "source": "Africanews",
-          "published": "2026-02-11T10:47:55",
-          "lead": "Kenya said Tuesday its foreign minister would go to Moscow next month after condemning recruiters luring Kenyans to Russ"
-        },
-        {
           "title": "Kenya: Kenyan Court Charges Cult Leader Paul Mackenzie Over 52 More Deaths",
           "url": "https://allafrica.com/stories/202602120084.html",
           "source": "AllAfrica",
@@ -1740,61 +1542,35 @@
           "lead": "[Capital FM] Nairobi -- President William Ruto has strongly refuted allegations by leaders of the United Opposition that"
         },
         {
-          "title": "Kenya: Murkomen to Address MPs On State of Security",
-          "url": "https://allafrica.com/stories/202602120089.html",
-          "source": "AllAfrica",
-          "published": "2026-02-12T07:19:26",
-          "lead": "[Capital FM] Nairobi -- Interior and National Administration Cabinet Secretary Kipchumba Murkomen will appear before the"
-        },
-        {
           "title": "UNICEF South Sudan Humanitarian Flash Update No. 2 (Conflict in Jonglei, Unity and Eastern Equatoria States), 11 February 2026",
           "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-flash-update-no-2-conflict-jonglei-unity-and-eastern-equatoria-states-11-february-2026",
           "source": "ReliefWeb",
           "published": "2026-02-12T02:00:57",
           "lead": "Country: South Sudan\n                                      Source: UN Children's Fund\n                                  "
-        },
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "ReliefWeb",
-        "RFI Afrique",
+        "AllAfrica",
         "Africanews",
-        "AllAfrica"
+        "RFI Afrique",
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "Rwanda": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
-      "baseline": 2.8,
-      "ratio": 1.42,
+      "baseline": 2.9,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -1802,11 +1578,23 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Insurgent",
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1832,127 +1620,60 @@
           "source": "ReliefWeb",
           "published": "2026-02-12T00:31:01",
           "lead": "Country: Mozambique\n                                      Source: Armed Conflict Location &amp; Event Data\n             "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
         }
       ],
       "sources": [
-        "AllAfrica",
+        "RFI Afrique",
         "ReliefWeb",
-        "RFI Afrique"
+        "AllAfrica"
       ]
     },
     "Burundi": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.6,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
-        },
-        {
-          "title": "Uganda - Situation of Food Security and Nutrition Assessment (FSNA) in refugee settlements and Kampala 2025",
-          "url": "https://reliefweb.int/report/uganda/uganda-situation-food-security-and-nutrition-assessment-fsna-refugee-settlements-and-kampala-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T15:03:33",
-          "lead": "Countries: Uganda, Burundi, Democratic Republic of the Congo, Eritrea, Ethiopia, Rwanda, Somalia, South Sudan, Sudan\n   "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tanzania": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.73,
+      "ratio": 1.39,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Somalia: Concern responding as millions impacted by severe drought in Horn of Africa",
-          "url": "https://reliefweb.int/report/somalia/concern-responding-millions-impacted-severe-drought-horn-africa",
-          "source": "ReliefWeb",
-          "published": "2026-02-11T22:09:14",
-          "lead": "Countries: Somalia, Burundi, Ethiopia, Kenya, South Sudan, Sudan, Uganda, United Republic of Tanzania\n                  "
+          "title": "Africa: Tanzania Emerges as Africa's Certified Coffee Leader",
+          "url": "https://allafrica.com/stories/202602120278.html",
+          "source": "AllAfrica",
+          "published": "2026-02-12T10:45:37",
+          "lead": "[Daily News] Kilimanjaro -- TANZANIA has emerged as Africa's leading producer of certified coffee after being ranked amo"
+        },
+        {
+          "title": "East Africa: Tanzania Tops Region in Cybersecurity Standards",
+          "url": "https://allafrica.com/stories/202602120317.html",
+          "source": "AllAfrica",
+          "published": "2026-02-12T10:58:08",
+          "lead": "[Daily News] Dodoma -- TANZANIA has emerged the leading country in East Africa in online safety management and ranks amo"
         }
       ],
       "sources": [
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Madagascar": {
-      "article_count": 14,
-      "source_count": 8,
-      "baseline": 2.7,
-      "ratio": 5.21,
+      "article_count": 12,
+      "source_count": 7,
+      "baseline": 3.0,
+      "ratio": 4.0,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1961,23 +1682,11 @@
           "count": 2
         },
         {
-          "word": "Mort",
-          "count": 1
-        },
-        {
           "word": "President",
           "count": 1
         },
         {
           "word": "Dead",
-          "count": 1
-        },
-        {
-          "word": "Épidémie",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -1998,11 +1707,18 @@
           "lead": "Au moins 31 personnes sont mortes à Madagascar après le passage du cyclone Gezani dans la nuit de mardi à mercredi. Tama"
         },
         {
-          "title": "Cyclone à Madagascar: plus de 30 morts, la deuxième ville du pays \"détruite à 75%\"",
+          "title": "Le cyclone Gezani à Madagascar fait plus de 30 morts, la deuxième ville du pays \"détruite à 75%\"",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260212-le-cyclone-gezani-%C3%A0-madagascar-fait-plus-de-30-morts-la-deuxi%C3%A8me-ville-du-pays-d%C3%A9truite-%C3%A0-75",
+          "source": "France24 Afrique",
+          "published": "2026-02-12T09:48:46",
+          "lead": "Au moins 31 personnes sont mortes à Madagascar suite au passage du cyclone Gezani, qui a frappé de plein fouet mardi soi"
+        },
+        {
+          "title": "Cyclone à Madagascar : plus de 30 morts, la deuxième ville du pays \"détruite à 75 %\"",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260211-cyclone-%C3%A0-madagascar-plus-de-30-morts-la-deuxi%C3%A8me-ville-du-pays-d%C3%A9truite-%C3%A0-75",
           "source": "France24 Afrique",
           "published": "2026-02-11T22:43:37",
-          "lead": "Madagascar de nouveau frappé par un cyclone. Le passage de Gezani sur la Grand Ile mardi soir a fait au moins 31 morts. "
+          "lead": "Madagascar de nouveau frappé par un cyclone. Le passage de Gezani sur la Grand Île mardi soir a fait au moins 31 morts. "
         },
         {
           "title": "Madagascar fait face à un nombre grandissant de cas de Mpox",
@@ -2010,20 +1726,6 @@
           "source": "France24 Afrique",
           "published": "2026-02-11T15:29:02",
           "lead": "Madagascar fait désormais partie des 93 pays dans le monde touchés par le Mpox, une maladie contagieuse. Sur la Grande Î"
-        },
-        {
-          "title": "À Madagascar, le cyclone Gezani fait plus 30 morts",
-          "url": "https://www.france24.com/fr/afrique/20260211-madagascar-cyclone-gezani-fait-au-moins-neuf-morts-selon-premier-bilan",
-          "source": "France24 Afrique",
-          "published": "2026-02-11T11:19:36",
-          "lead": "Le cyclone Gezani a frappé de plein fouet la Grande Île, faisant au moins 31 morts, selon un nouveau bilan des autorités"
-        },
-        {
-          "title": "A Madagascar, le cyclone Gezani cause la mort d’au moins 20 personnes",
-          "url": "https://www.lemonde.fr/planete/article/2026/02/11/a-madagascar-le-cyclone-gezani-cause-la-mort-d-au-moins-neuf-personnes_6666300_3244.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-11T09:54:59",
-          "lead": "« C’est le chaos total, 90 % des toits des maisons se sont envolés, tout ou en partie », décrit un responsable régional "
         },
         {
           "title": "Madagascan President Randrianirina visits city devastated by Cyclone Gezani",
@@ -2066,17 +1768,23 @@
           "source": "ReliefWeb",
           "published": "2026-02-12T00:14:39",
           "lead": "Countries: Madagascar, Mozambique\n                                      Source: World Food Programme\n                   "
+        },
+        {
+          "title": "Madagascar: ADAM - Tropical Cyclone Gezani: 5 Days Precipitation Forecast - 10 to 12 Feb (11 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/adam-tropical-cyclone-gezani-5-days-precipitation-forecast-10-12-feb-11-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-12T00:11:21",
+          "lead": "Countries: Madagascar, Mozambique\n                                      Source: World Food Programme\n                   "
         }
       ],
       "sources": [
         "AllAfrica",
-        "Le Monde Afrique",
-        "BBC Africa",
-        "France24 Afrique",
-        "ReliefWeb",
-        "Daily Maverick",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "BBC Africa",
+        "Daily Maverick",
+        "France24 Afrique",
+        "ReliefWeb"
       ]
     },
     "Comoros": {
@@ -2130,7 +1838,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -2140,15 +1848,23 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 4.27,
+      "baseline": 2.4,
+      "ratio": 3.79,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
           "word": "Government",
+          "count": 5
+        },
+        {
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Displaced",
           "count": 4
         },
         {
@@ -2156,19 +1872,11 @@
           "count": 3
         },
         {
-          "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Violence",
+          "word": "Famine",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -2176,7 +1884,7 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -2188,15 +1896,22 @@
       ],
       "articles": [
         {
-          "title": "IOM's CCCM Mozambique - AC's Assessment | Flood Response (as of 7 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/ioms-cccm-mozambique-acs-assessment-flood-response-7-february-2026",
+          "title": "Mozambique: Rapid analysis of the impact of flooding on agriculture (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-rapid-analysis-impact-flooding-agriculture-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-12T09:28:31",
+          "lead": "Country: Mozambique\n                                      Sources: Famine Early Warning System Network, Food and Agricul"
+        },
+        {
+          "title": "IOM CCCM Mozambique - Flood response -Accommodation Center Assessment (as of 7 February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/iom-cccm-mozambique-flood-response-accommodation-center-assessment-7-february-2026",
           "source": "ReliefWeb",
           "published": "2026-02-12T06:57:34",
           "lead": "Country: Mozambique\n                                      Sources: CCCM Cluster, International Organization for Migratio"
         },
         {
-          "title": "Mozambique: Boletim Diário da Cólera Data: 10/02/2026",
-          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-10022026",
+          "title": "Mozambique: Boletim Diário da Cólera Data: 10/02/2026 [PT]",
+          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-10022026-pt",
           "source": "ReliefWeb",
           "published": "2026-02-12T06:41:03",
           "lead": "Country: Mozambique\n                                      Source: Government of Mozambique\n                             "
@@ -2249,28 +1964,57 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.6,
+      "ratio": 0.64,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Coup",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Uproar in Zimbabwe over cabinet plan to extend president's rule to 2030",
+          "url": "http://www.africanews.com/2026/02/12/uproar-in-zimbabwe-over-cabinet-plan-to-extend-presidents-rule-to-2030/",
+          "source": "Africanews",
+          "published": "2026-02-12T07:50:02",
+          "lead": "Opposition figures described the changes as a “constitutional coup” saying they must be put to a national referendum."
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.23,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "LIVE: India vs Namibia – T20 World Cup",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/2/12/live-india-vs-namibia-t20-world-cup?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-12T10:32:35",
+          "lead": "Follow our live build-up, with toss and teams coverage, ahead of our full text commentary stream of the Group A match."
+        }
+      ],
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     "Botswana": {
       "article_count": 0,
@@ -2285,27 +2029,31 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 27,
+      "article_count": 22,
       "source_count": 7,
-      "baseline": 12.6,
-      "ratio": 2.15,
+      "baseline": 12.8,
+      "ratio": 1.72,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "President",
-          "count": 7
-        },
-        {
           "word": "Government",
           "count": 4
+        },
+        {
+          "word": "President",
+          "count": 4
+        },
+        {
+          "word": "Crisis",
+          "count": 3
         },
         {
           "word": "Protest",
           "count": 2
         },
         {
-          "word": "Crisis",
+          "word": "Humanitarian",
           "count": 2
         },
         {
@@ -2314,10 +2062,6 @@
         },
         {
           "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
           "count": 2
         },
         {
@@ -2340,13 +2084,6 @@
           "lead": "Juliette Bryant has called on the Palace to \"act\" on revelations about Andrew's relationship with Epstein."
         },
         {
-          "title": "Proteas edge Afghanistan after two super overs",
-          "url": "https://www.bbc.com/sport/cricket/articles/cqlgvqz027ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-11T10:08:11",
-          "lead": "South Africa pull off a memorable victory over Afghanistan in the T20 World Cup as the Proteas edge past their opponents"
-        },
-        {
           "title": "Combattants africains pour la Russie: Ramaphosa et Poutine évoquent l'enrôlement de ressortissants Sud-Africains",
           "url": "https://www.rfi.fr/fr/afrique/20260212-combattants-africains-pour-la-russie-ramaphosa-et-poutine-%C3%A9voquent-l-enr%C3%B4lement-de-ressortissants-sud-africains",
           "source": "RFI Afrique",
@@ -2354,18 +2091,18 @@
           "lead": "Le président sud-africain Cyril Ramaphosa s'est entretenu au téléphone mardi 10 février avec son homologue russe, Vladim"
         },
         {
-          "title": "La RDC organise un forum d'investissement en marge du Mining Indaba en Afrique du Sud",
-          "url": "https://www.rfi.fr/fr/afrique/20260211-la-rdc-organise-un-forum-d-investissement-en-marge-du-mining-indaba-en-afrique-du-sud",
-          "source": "RFI Afrique",
-          "published": "2026-02-11T10:50:38",
-          "lead": "En marge du Mining Indaba, la République démocratique du Congo a organisé un forum d'investissement pour la province du "
-        },
-        {
           "title": "« Relooted », un jeu vidéo pour ramener en Afrique les biens pillés pendant la colonisation",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/11/relooted-un-jeu-video-pour-ramener-en-afrique-les-biens-pilles-pendant-la-colonisation_6666341_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-11T15:00:05",
           "lead": "Développé par le studio sud-africain Nyamakop et sorti mardi 10 février, le jeu vidéo propose aux joueurs de braquer des"
+        },
+        {
+          "title": "Rhino poaching in South Africa's Kruger park doubles despite national drop",
+          "url": "http://www.africanews.com/2026/02/12/rhino-poaching-in-south-africas-kruger-park-doubles-despite-national-drop/",
+          "source": "Africanews",
+          "published": "2026-02-12T10:33:55",
+          "lead": "Official statistics show poachers killed 352 of the animals last year compared to 420 in 2024, with 175 of the deaths ta"
         },
         {
           "title": "Johannesburg residents protest weeks of dry taps",
@@ -2410,21 +2147,28 @@
           "lead": "[Africa Check] Every year since 2013, Africa Check has fact-checked South Africa's state of the nation address (Sona) - "
         },
         {
-          "title": "South Africa: Joburg Working to Resolve Water Issues",
-          "url": "https://allafrica.com/stories/202602110480.html",
+          "title": "South Africa: Cape Town's Wall Will Not Keep Us Safe - - It Will Keep Us Apart",
+          "url": "https://allafrica.com/stories/202602120134.html",
           "source": "AllAfrica",
-          "published": "2026-02-11T14:56:20",
-          "lead": "[SAnews.gov.za] City of Johannesburg Mayor Dada Morero has moved to assure residents that the municipality is hard at wo"
+          "published": "2026-02-12T09:31:55",
+          "lead": "[Daily Maverick] Once you accept a wall, you accept the idea that some people belong behind one. South Africa has alread"
+        },
+        {
+          "title": "South Africa: State of the Nation in the Shadow of the Water Tanker",
+          "url": "https://allafrica.com/stories/202602120155.html",
+          "source": "AllAfrica",
+          "published": "2026-02-12T09:39:44",
+          "lead": "[Daily Maverick] A year after bold promises, Cyril Ramaphosa's weak spots are clear: taps and safety. The rest of the Ca"
         }
       ],
       "sources": [
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique",
         "Le Monde Afrique",
         "BBC Africa",
-        "ReliefWeb",
-        "RFI Afrique",
         "Daily Maverick",
-        "Africanews",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Eswatini": {
