@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-13T19:54:32.075381",
+  "generated_at": "2026-02-13T22:03:41.185457",
   "summary": {
-    "high": 3,
-    "elevated": 7,
-    "normal": 26,
+    "high": 2,
+    "elevated": 11,
+    "normal": 23,
     "quiet": 18
   },
   "countries": {
@@ -24,11 +24,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Flood",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -57,16 +57,16 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "Africanews",
+        "Le Monde Afrique",
         "France24 Afrique"
       ]
     },
     "Algeria": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.2,
-      "ratio": 1.38,
+      "baseline": 2.1,
+      "ratio": 1.42,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -95,9 +95,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Tunisia": {
@@ -127,7 +127,7 @@
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.8,
+      "baseline": 1.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -139,8 +139,8 @@
     "Sudan": {
       "article_count": 7,
       "source_count": 6,
-      "baseline": 5.0,
-      "ratio": 1.4,
+      "baseline": 5.1,
+      "ratio": 1.37,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -235,12 +235,12 @@
         }
       ],
       "sources": [
-        "DW Africa",
+        "UN News Africa",
+        "AllAfrica",
         "RFI Afrique",
         "BBC Africa",
         "Al Jazeera",
-        "AllAfrica",
-        "UN News Africa"
+        "DW Africa"
       ]
     },
     "Mauritania": {
@@ -268,17 +268,17 @@
     "Mali": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 4.6,
-      "ratio": 0.65,
+      "baseline": 4.5,
+      "ratio": 0.66,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Jihadist",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Jihadist",
           "count": 1
         }
       ],
@@ -307,8 +307,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Burkina Faso": {
@@ -336,11 +336,19 @@
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Militia",
+          "count": 1
+        },
+        {
+          "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         },
         {
@@ -348,19 +356,11 @@
           "count": 1
         },
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Wounded",
-          "count": 1
-        },
-        {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -396,17 +396,17 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
         "Le Monde Afrique",
-        "RFI Afrique",
         "Human Rights Watch"
       ]
     },
     "Senegal": {
       "article_count": 9,
       "source_count": 5,
-      "baseline": 6.2,
-      "ratio": 1.44,
+      "baseline": 6.1,
+      "ratio": 1.47,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -490,18 +490,18 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
         "France24 Afrique",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
-      "ratio": 2.0,
+      "ratio": 1.89,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -584,20 +584,27 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.2,
-      "ratio": 0.85,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.7,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Minister",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Liberia: Supreme Court rules ex-minister Tweah not immune to prosecution",
+          "url": "http://www.africanews.com/2026/02/13/liberia-supreme-court-rules-ex-minister-tweah-not-immune-to-prosecution/",
+          "source": "Africanews",
+          "published": "2026-02-13T21:01:55",
+          "lead": "Liberia's supreme court has reaffirmed that Tweah and several ex officials are not protected from prosecution under clai"
+        },
         {
           "title": "Liberia: No Immunity for Tweah, Others",
           "url": "https://allafrica.com/stories/202602130227.html",
@@ -607,6 +614,7 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica"
       ]
     },
@@ -645,28 +653,28 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 7,
-      "source_count": 5,
-      "baseline": 2.5,
-      "ratio": 2.77,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 6,
+      "source_count": 4,
+      "baseline": 2.6,
+      "ratio": 2.27,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Crise",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -694,13 +702,6 @@
           "lead": "La baisse des cours mondiaux du cacao met le Ghana et la Côte d’Ivoire, les deux premiers producteurs mondiaux, sous pre"
         },
         {
-          "title": "Cocoa: Ghana slashes farmgate rate paid to farmers",
-          "url": "http://www.africanews.com/2026/02/12/cocoa-ghana-slashes-farmgate-rate-paid-to-farmers/",
-          "source": "Africanews",
-          "published": "2026-02-12T20:52:36",
-          "lead": "Amid a drop in global cocoa markets, Ghana has slashed its farmgate cocoa rate paid to farmers. The move aligns the pric"
-        },
-        {
           "title": "Ghana: GWL Deploys 200 Service Personnel to Recover Gh&#xa2;866m Debt, Boost Digital Payments",
           "url": "https://allafrica.com/stories/202602130480.html",
           "source": "AllAfrica",
@@ -723,10 +724,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews",
-        "The Guardian Africa",
         "RFI Afrique",
+        "The Guardian Africa",
+        "Jeune Afrique",
         "AllAfrica"
       ]
     },
@@ -780,10 +780,10 @@
       ]
     },
     "Nigeria": {
-      "article_count": 9,
+      "article_count": 10,
       "source_count": 4,
       "baseline": 8.6,
-      "ratio": 1.04,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -796,11 +796,11 @@
           "count": 2
         },
         {
-          "word": "Government",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
@@ -827,6 +827,13 @@
           "source": "The Guardian Africa",
           "published": "2026-02-13T18:34:19",
           "lead": "Ghanaian guitarist, arranger, singer-songwriter and cult hero who rose to fame outside Africa only late in life  Ebo Tay"
+        },
+        {
+          "title": "Nigeria: Matchmaking websites increasingly popular in Kano",
+          "url": "http://www.africanews.com/2026/02/13/nigeria-matchmaking-websites-increasingly-popular-in-kano/",
+          "source": "Africanews",
+          "published": "2026-02-13T21:26:45",
+          "lead": "Matchmaking websites are in their hayday in Kano, a conservative hub in northern Nigeria. It's not uncommon for women in"
         },
         {
           "title": "Nigeria: Date set for presidential election",
@@ -879,9 +886,9 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
         "Africanews",
         "DW Africa",
-        "The Guardian Africa",
         "AllAfrica"
       ]
     },
@@ -898,16 +905,16 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 2.5,
-      "ratio": 1.19,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Mort",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Dead",
@@ -916,6 +923,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tchad : un touriste français retrouvé mort \"après une chute\"",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260213-tchad-un-touriste-fran%C3%A7ais-retrouv%C3%A9-mort-apr%C3%A8s-une-chute",
+          "source": "France24 Afrique",
+          "published": "2026-02-13T21:54:09",
+          "lead": "La mort ce vendredi d'un touriste français de 70 ans dans le nord-est du pays près de la ville d'Amdjarass. Disparu depu"
+        },
         {
           "title": "Le touriste français de 70 ans disparu au Tchad a été retrouvé mort",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/13/le-touriste-francais-disparu-au-tchad-est-mort_6666628_3212.html",
@@ -941,7 +955,8 @@
       "sources": [
         "Jeune Afrique",
         "Le Monde Afrique",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Cameroon": {
@@ -975,8 +990,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
@@ -1045,8 +1060,8 @@
     "Congo": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.6,
-      "ratio": 1.89,
+      "baseline": 1.5,
+      "ratio": 1.96,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1084,8 +1099,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "DRC": {
@@ -1163,9 +1178,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1181,20 +1196,31 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.55,
-      "status": "normal",
+      "ratio": 3.09,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
           "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Gouvernement",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le 39e sommet de l’Union africaine s’ouvre dans un contexte d’accumulation de crises",
+          "url": "https://www.rfi.fr/fr/afrique/20260213-le-39e-sommet-de-l-union-africaine-s-ouvre-dans-un-contexte-d-accumulation-de-crises",
+          "source": "RFI Afrique",
+          "published": "2026-02-13T21:40:05",
+          "lead": "Le 39e sommet de l’Union africaine s’ouvre ce samedi matin 14 février à Addis-Abeba, en Éthiopie. Une cinquantaine de ch"
+        },
         {
           "title": "Est de la RDC: Kinshasa accepte le principe du cessez-le-feu proposé par l’Angola",
           "url": "https://www.rfi.fr/fr/en-bref/20260213-est-de-la-rdc-kinshasa-accepte-le-principe-du-cessez-le-feu-propos%C3%A9-par-l-angola",
@@ -1216,15 +1242,19 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "President",
           "count": 1
         },
         {
+          "word": "Minister",
+          "count": 1
+        },
+        {
           "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
           "count": 1
         },
         {
@@ -1233,10 +1263,6 @@
         },
         {
           "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1275,10 +1301,10 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 9,
+      "article_count": 10,
       "source_count": 6,
       "baseline": 4.2,
-      "ratio": 2.15,
+      "ratio": 2.36,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1287,19 +1313,15 @@
           "count": 4
         },
         {
+          "word": "Gouvernement",
+          "count": 3
+        },
+        {
           "word": "Guerre",
           "count": 2
         },
         {
-          "word": "Gouvernement",
-          "count": 2
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Rsf",
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1307,11 +1329,15 @@
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Président",
           "count": 1
         }
       ],
@@ -1337,6 +1363,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-13T15:52:10",
           "lead": "Antonio Guterres est à Addis Abeba, en Éthiopie, où s’ouvre ce samedi 14 février le 39e sommet de l’Union africaine. Com"
+        },
+        {
+          "title": "Le 39e sommet de l’Union africaine s’ouvre dans un contexte d’accumulation de crises",
+          "url": "https://www.rfi.fr/fr/afrique/20260213-le-39e-sommet-de-l-union-africaine-s-ouvre-dans-un-contexte-d-accumulation-de-crises",
+          "source": "RFI Afrique",
+          "published": "2026-02-13T21:40:05",
+          "lead": "Le 39e sommet de l’Union africaine s’ouvre ce samedi matin 14 février à Addis-Abeba, en Éthiopie. Une cinquantaine de ch"
         },
         {
           "title": "La réintégration du Soudan fait débat à l’Union africaine",
@@ -1382,19 +1415,19 @@
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "Jeune Afrique",
-        "DW Africa",
+        "AllAfrica",
         "RFI Afrique",
         "Al Jazeera",
-        "AllAfrica",
-        "Human Rights Watch"
+        "DW Africa"
       ]
     },
     "Somalia": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 2.6,
-      "ratio": 1.55,
+      "baseline": 2.5,
+      "ratio": 1.58,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1411,11 +1444,11 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "Minister",
           "count": 1
         },
         {
@@ -1512,23 +1545,23 @@
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Armed group",
-          "count": 1
-        },
-        {
           "word": "Attack",
           "count": 1
         },
         {
-          "word": "Wounded",
+          "word": "Militia",
+          "count": 1
+        },
+        {
+          "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
           "count": 1
         },
         {
@@ -1582,12 +1615,12 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "BBC Africa",
-        "Le Monde Afrique",
+        "Human Rights Watch",
         "AllAfrica",
-        "Human Rights Watch"
+        "RFI Afrique",
+        "Le Monde Afrique",
+        "BBC Africa",
+        "Jeune Afrique"
       ]
     },
     "Rwanda": {
@@ -1618,15 +1651,19 @@
       ]
     },
     "Burundi": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.5,
-      "ratio": 3.78,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 0.6,
+      "ratio": 5.1,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -1640,6 +1677,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le 39e sommet de l’Union africaine s’ouvre dans un contexte d’accumulation de crises",
+          "url": "https://www.rfi.fr/fr/afrique/20260213-le-39e-sommet-de-l-union-africaine-s-ouvre-dans-un-contexte-d-accumulation-de-crises",
+          "source": "RFI Afrique",
+          "published": "2026-02-13T21:40:05",
+          "lead": "Le 39e sommet de l’Union africaine s’ouvre ce samedi matin 14 février à Addis-Abeba, en Éthiopie. Une cinquantaine de ch"
+        },
         {
           "title": "Sommet de l’UA : Tshisekedi revient, Kagame s’éclipse, Ndayishimiye s’impose",
           "url": "https://www.jeuneafrique.com/1765270/politique/sommet-de-lua-tshisekedi-revient-kagame-seclipse-ndayishimiye-simpose/",
@@ -1656,6 +1700,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
         "AllAfrica"
       ]
@@ -1691,15 +1736,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Madagascar": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 2.6,
-      "ratio": 1.51,
+      "ratio": 1.89,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1718,6 +1763,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Madagascar : le premier port de commerce relance progressivement son activité",
+          "url": "https://www.rfi.fr/fr/afrique/20260213-madagascar-le-premier-port-de-commerce-relance-progressivement-son-activit%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-02-13T18:24:23",
+          "lead": "Le cyclone Gezani a causé des dégâts sur 60% du port de Tamatave, indispensable à l’économie et à la sécurité alimentair"
+        },
         {
           "title": "Madagascar: après le cyclone Gezani, l'urgence humanitaire pour Tamatave",
           "url": "https://www.rfi.fr/fr/afrique/20260213-madagascar-apr%C3%A8s-le-cyclone-gezani-l-urgence-humanitaire-pour-tamatave",
@@ -1748,8 +1800,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
+        "Africanews",
         "UN News Africa"
       ]
     },
@@ -1798,11 +1850,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1839,7 +1891,7 @@
           "title": "Malawi launches polio vaccine programme",
           "url": "http://www.africanews.com/2026/02/13/malawi-launches-polio-vaccine-programme/",
           "source": "Africanews",
-          "published": "2026-02-13T17:07:59",
+          "published": "2026-02-13T19:18:21",
           "lead": "Malawi has started a vaccination programme across the commercial city of Blantyre after derived poliovirus was found in "
         },
         {
@@ -1900,8 +1952,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
+        "Africanews",
         "AllAfrica"
       ]
     },
@@ -1960,31 +2012,27 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 18,
-      "source_count": 7,
-      "baseline": 12.8,
-      "ratio": 1.41,
+      "article_count": 12,
+      "source_count": 6,
+      "baseline": 12.7,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 8
+          "count": 6
         },
         {
           "word": "Violence",
-          "count": 5
-        },
-        {
-          "word": "Combat",
-          "count": 2
-        },
-        {
-          "word": "Crisis",
-          "count": 2
+          "count": 4
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Combat",
           "count": 1
         },
         {
@@ -1992,7 +2040,11 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -2000,12 +2052,7 @@
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "President",
-          "Violence"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "South Africa to deploy troops to tackle crime gangs",
@@ -2013,13 +2060,6 @@
           "source": "BBC Africa",
           "published": "2026-02-13T10:20:34",
           "lead": "President Cyril Ramaphosa says the army will work with the police to fight organised crime and illegal mining."
-        },
-        {
-          "title": "South Africa's Ramaphosa to deploy army to combat crime",
-          "url": "https://www.dw.com/en/south-africa-s-ramaphosa-to-deploy-army-to-combat-crime/a-75941458?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-02-12T20:26:00",
-          "lead": "Organized crime is \"the most immediate threat\" to South Africa's democracy, President Cyril Ramaphosa said in his state "
         },
         {
           "title": "L'Afrique du Sud va déployer l'armée face au crime organisé, annonce le chef de l'État",
@@ -2034,13 +2074,6 @@
           "source": "Africanews",
           "published": "2026-02-13T10:11:37",
           "lead": "In his State of the Nation address, President Cyril Ramaphosa said the army would help police fight gang violence and il"
-        },
-        {
-          "title": "South Africa: Ramaphosa announces deployment of army to tackle crime",
-          "url": "http://www.africanews.com/2026/02/12/south-africa-ramaphosa-announces-deployment-of-army-to-tackle-crime/",
-          "source": "Africanews",
-          "published": "2026-02-12T21:40:37",
-          "lead": "In a bid to lower high rates of gang violence and other crime, South African President Cyril Ramaphosa has announced he’"
         },
         {
           "title": "South Africa: South African Social Media Reveals Contested Battle Over Masculine Norms",
@@ -2090,16 +2123,29 @@
           "source": "Daily Maverick",
           "published": "2026-02-13T14:17:23",
           "lead": "Beyond the glitz of the red carpet, advocacy groups warn that President Cyril Ramaphosa’s ambitious promises on water, j"
+        },
+        {
+          "title": "SONA 2026: IN FULL: President Ramaphosa’s 2026 State of the Nation Address",
+          "url": "https://www.dailymaverick.co.za/article/in-full-president-ramaphosas-2026-state-of-the-nation-address",
+          "source": "Daily Maverick",
+          "published": "2026-02-12T22:13:09",
+          "lead": "South Africa’s President Cyril Ramaphosa delivered his 10th State of the Nation Address on Thursday, 12 February."
+        },
+        {
+          "title": "Global Leaders Should Speak Out on Ethiopia Crisis",
+          "url": "https://www.hrw.org/news/2026/02/13/global-leaders-should-speak-out-on-ethiopia-crisis",
+          "source": "Human Rights Watch",
+          "published": "2026-02-13T06:43:48",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              People"
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "Daily Maverick",
-        "Africanews",
-        "DW Africa",
+        "AllAfrica",
         "RFI Afrique",
         "BBC Africa",
-        "AllAfrica",
-        "Human Rights Watch"
+        "Africanews"
       ]
     },
     "Eswatini": {
