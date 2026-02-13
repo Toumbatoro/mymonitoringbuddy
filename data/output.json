@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-13T17:29:24.569761",
+  "generated_at": "2026-02-13T19:54:32.075381",
   "summary": {
-    "high": 2,
-    "elevated": 9,
-    "normal": 25,
+    "high": 3,
+    "elevated": 7,
+    "normal": 26,
     "quiet": 18
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
       "baseline": 4.9,
-      "ratio": 0.81,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -24,11 +24,11 @@
           "count": 1
         },
         {
-          "word": "Flood",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Flood",
           "count": 1
         }
       ],
@@ -54,28 +54,21 @@
           "source": "Africanews",
           "published": "2026-02-13T09:57:03",
           "lead": "Morocco plans to spend some $330 million on regions hit hardest by weeks of flooding across the country's north that hav"
-        },
-        {
-          "title": "Morocco: traders struggle to sell gold as prices rise",
-          "url": "http://www.africanews.com/2026/02/12/morocco-traders-struggle-to-sell-gold-as-prices-rise/",
-          "source": "Africanews",
-          "published": "2026-02-12T19:05:56",
-          "lead": "The price of gold has been on the rise in both local and international markets \n - a trend that analysts attribute to cu"
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "Le Monde Afrique",
         "Africanews",
-        "Le Monde Afrique"
+        "France24 Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.2,
-      "ratio": 1.84,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.38,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -94,13 +87,6 @@
           "lead": "Le ministre de l'Intérieur français Laurent Nunez se rendra en Algérie la semaine prochaine afin d'évoquer plusieurs suj"
         },
         {
-          "title": "Le ministre de l’intérieur, Laurent Nuñez, se rendra en Algérie le 16 février pour relancer la coopération sécuritaire",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/12/le-ministre-de-l-interieur-laurent-nunez-se-rend-en-algerie-pour-relancer-la-cooperation-securitaire_6666532_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-12T18:37:08",
-          "lead": "Cette visite pourrait rouvrir le dialogue sur des dossiers sensibles, de la lutte antiterroriste aux expulsions de resso"
-        },
-        {
           "title": "Laurent Nuñez en Algérie en début de semaine",
           "url": "https://www.jeuneafrique.com/1765261/politique/laurent-nunez-en-algerie-en-debut-de-semaine/",
           "source": "Jeune Afrique",
@@ -109,16 +95,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Tunisia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -140,58 +125,44 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.8,
-      "ratio": 0.57,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "A Palestinian cancer patient stuck in Egypt for two years returns to Gaza",
-          "url": "https://www.aljazeera.com/news/2026/2/13/a-palestinian-cancer-patient-stuck-in-egypt-for-two-years-returns-to-gaza?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-13T11:00:09",
-          "lead": "The al-Najjar family is finally reunited with its matriarch, Mariam, who returned via the Rafah crossing."
-        }
-      ],
-      "sources": [
-        "Al Jazeera"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Sudan": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 5.1,
-      "ratio": 0.99,
+      "article_count": 7,
+      "source_count": 6,
+      "baseline": 5.0,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "War",
-          "count": 3
+          "count": 4
         },
         {
           "word": "Rsf",
           "count": 3
         },
         {
-          "word": "Guerre",
+          "word": "Killed",
           "count": 2
         },
         {
           "word": "Violence",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
+          "word": "Guerre",
+          "count": 2
         },
         {
           "word": "Displaced",
@@ -206,22 +177,26 @@
         [
           "Rsf",
           "War"
+        ],
+        [
+          "Violence",
+          "War"
         ]
       ],
       "articles": [
+        {
+          "title": "Sudanese city had 6,000 killed in three days, UN says",
+          "url": "https://www.bbc.com/news/articles/c043753z7w3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-13T18:01:05",
+          "lead": "Paramilitary Rapid Support Forces (RSF) committed the atrocities in el-Fasher, says a UN report."
+        },
         {
           "title": "UN accuses paramilitary RSF of committing war crimes in Sudan’s el-Fasher",
           "url": "https://www.aljazeera.com/news/2026/2/13/un-accuses-paramilitary-rsf-of-committing-war-crimes-in-sudans-el-fasher?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-13T16:32:11",
           "lead": "UN rights chief urges probe as new report details mass killings, sexual violence and targeted attacks against civilians."
-        },
-        {
-          "title": "Sudan protecting Africa from foreign interference in war with RSF, says FM",
-          "url": "https://www.aljazeera.com/news/2026/2/13/sudan-protecting-africa-from-foreign-interference-in-war-with-rsf-says-fm?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-13T09:19:23",
-          "lead": "In comments to Al Jazeera, Sudan&#039;s foreign minister says foreign interference threatens &#039;entire continent&#039"
         },
         {
           "title": "Sudan civil war: Ethiopia's, UAE's role under scrutiny",
@@ -243,12 +218,29 @@
           "source": "RFI Afrique",
           "published": "2026-02-13T04:06:55",
           "lead": "Le prochain sommet des chefs d’État et de gouvernement de l’Union africaine débutera samedi 14 février 2026 à Addis-Abeb"
+        },
+        {
+          "title": "Sudan: International Day Against the Use of Child Soldiers",
+          "url": "https://allafrica.com/stories/202602130397.html",
+          "source": "AllAfrica",
+          "published": "2026-02-13T12:21:16",
+          "lead": "[Darfur Network for Human Rights] On the International Day against the Use of Child Soldiers, the Darfur Network for Hum"
+        },
+        {
+          "title": "‘Like a scene out of a horror movie’: UN report warns of war crimes in Sudan’s El Fasher",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1166960",
+          "source": "UN News Africa",
+          "published": "2026-02-13T12:00:00",
+          "lead": "Paramilitary forces in Sudan unleashed “a wave of intense violence…shocking in its scale and brutality” during their fin"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "DW Africa",
-        "Al Jazeera"
+        "RFI Afrique",
+        "BBC Africa",
+        "Al Jazeera",
+        "AllAfrica",
+        "UN News Africa"
       ]
     },
     "Mauritania": {
@@ -274,17 +266,13 @@
       ]
     },
     "Mali": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 4.6,
-      "ratio": 0.86,
+      "ratio": 0.65,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
         {
           "word": "Jihadist",
           "count": 1
@@ -311,13 +299,6 @@
           "lead": "« Dialoguer pour mettre fin au bain de sang », c’est l’appel lancé par Mahmoud Dicko. L’influent imam malien, opposé à l"
         },
         {
-          "title": "Au Mali, Assimi Goïta remanie son gouvernement et promeut des ministres influents",
-          "url": "https://www.jeuneafrique.com/1765206/politique/au-mali-assimi-goita-remanie-son-gouvernement-et-promeut-des-ministres-influents/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-12T18:45:24",
-          "lead": "Le gouvernement de transition a été remanié ce 12 janvier. Plusieurs ministres reconduits, dont celui de la Défense, son"
-        },
-        {
           "title": "Mali: Exiled Imam calls for peace in Sahel region",
           "url": "http://www.africanews.com/2026/02/13/mali-exiled-imam-calls-for-peace-in-sahel-region/",
           "source": "Africanews",
@@ -326,9 +307,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
@@ -347,7 +327,7 @@
       "article_count": 4,
       "source_count": 4,
       "baseline": 4.8,
-      "ratio": 0.84,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -356,7 +336,31 @@
           "count": 1
         },
         {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -385,26 +389,26 @@
         },
         {
           "title": "Niger: Islamist Armed Group Massacres Villagers in West",
-          "url": "https://allafrica.com/stories/202602130086.html",
-          "source": "AllAfrica",
-          "published": "2026-02-13T06:13:57",
-          "lead": "[HRW] Nairobi -- Strengthen Civilian Protection, Accountability for Atrocities"
+          "url": "https://www.hrw.org/news/2026/02/12/niger-islamist-armed-group-massacres-villagers-in-west",
+          "source": "Human Rights Watch",
+          "published": "2026-02-13T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Nigeri"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique",
+        "Human Rights Watch"
       ]
     },
     "Senegal": {
-      "article_count": 11,
+      "article_count": 9,
       "source_count": 5,
-      "baseline": 6.1,
-      "ratio": 1.82,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 6.2,
+      "ratio": 1.44,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
@@ -427,13 +431,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-13T05:52:03",
           "lead": "Au Sénégal, quatre jours après la mort tragique de l’étudiant Abdoulaye Ba, cet étudiant décédé lors d’une intervention "
-        },
-        {
-          "title": "Sénégal: les amicales étudiantes suspendues à l’université Cheikh Anta Diop",
-          "url": "https://www.rfi.fr/fr/afrique/20260212-s%C3%A9n%C3%A9gal-les-amicales-%C3%A9tudiantes-suspendues",
-          "source": "RFI Afrique",
-          "published": "2026-02-12T18:47:47",
-          "lead": "Au Sénégal, le bras de fer continue entre les étudiants et les autorités. Trois hauts responsables étudiants sont toujou"
         },
         {
           "title": "Le Sénégal face à l'inquiétante réalité des féminicides",
@@ -478,13 +475,6 @@
           "lead": "L’Ucad a suspendu « jusqu’à nouvel ordre » les « amicales d’étudiants » après la mort d’un étudiant lors de violentes ma"
         },
         {
-          "title": "Pétrole au Sénégal : Petrosen peut-elle vraiment changer de dimension ?",
-          "url": "https://www.jeuneafrique.com/1765174/economie-entreprises/petrole-au-senegal-petrosen-peut-elle-vraiment-changer-de-dimension/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-12T19:38:21",
-          "lead": "Annonçant un budget d’exploration de 100 millions de dollars, la Société pétrolière du Sénégal (Petrosen) entend se lanc"
-        },
-        {
           "title": "Senegal navy patrol boat capsizes, three sailors missing",
           "url": "http://www.africanews.com/2026/02/13/senegal-navy-patrol-boat-capsizes-three-sailors-missing/",
           "source": "Africanews",
@@ -500,24 +490,34 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Africanews",
-        "Le Monde Afrique",
-        "RFI Afrique",
         "France24 Afrique",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Gambia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ghana: Investigative Journalism Must Be Impactful Not Destructive - Charles Osei Asibey",
+          "url": "https://allafrica.com/stories/202602130478.html",
+          "source": "AllAfrica",
+          "published": "2026-02-13T14:42:06",
+          "lead": "[Ghanaian Times] THE General-Secretary of the Sports Writers Association of Ghana (SWAG), Mr Charles Osei Asibey, has ch"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Guinea-Bissau": {
       "article_count": 1,
@@ -567,8 +567,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "AllAfrica"
       ]
     },
     "Sierra Leone": {
@@ -645,17 +645,17 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 5,
-      "source_count": 4,
+      "article_count": 7,
+      "source_count": 5,
       "baseline": 2.5,
-      "ratio": 2.02,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.77,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Crise",
@@ -672,6 +672,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ebo Taylor obituary",
+          "url": "https://www.theguardian.com/world/2026/feb/13/ebo-taylor-obituary",
+          "source": "The Guardian Africa",
+          "published": "2026-02-13T18:34:19",
+          "lead": "Ghanaian guitarist, arranger, singer-songwriter and cult hero who rose to fame outside Africa only late in life  Ebo Tay"
+        },
         {
           "title": "Cacao: le Ghana réduit le prix à la production pour tenter de surmonter la crise du secteur",
           "url": "https://www.rfi.fr/fr/afrique/20260213-cacao-le-ghana-r%C3%A9duit-le-prix-%C3%A0-la-production-pour-tenter-de-surmonter-la-crise-du-secteur",
@@ -706,13 +713,21 @@
           "source": "AllAfrica",
           "published": "2026-02-13T14:42:32",
           "lead": "[Ghanaian Times] THE Minister for Youth Development and Empowerment, Mr George Opare Addo, has called for enhanced colla"
+        },
+        {
+          "title": "Ghana: Investigative Journalism Must Be Impactful Not Destructive - Charles Osei Asibey",
+          "url": "https://allafrica.com/stories/202602130478.html",
+          "source": "AllAfrica",
+          "published": "2026-02-13T14:42:06",
+          "lead": "[Ghanaian Times] THE General-Secretary of the Sports Writers Association of Ghana (SWAG), Mr Charles Osei Asibey, has ch"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
+        "Jeune Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "The Guardian Africa",
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -731,7 +746,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.89,
+      "ratio": 1.82,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -760,15 +775,15 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Nigeria": {
       "article_count": 9,
-      "source_count": 3,
+      "source_count": 4,
       "baseline": 8.6,
-      "ratio": 1.05,
+      "ratio": 1.04,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -781,11 +796,11 @@
           "count": 2
         },
         {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -805,6 +820,13 @@
           "source": "DW Africa",
           "published": "2026-02-13T16:25:00",
           "lead": "Amid public concern over the state of the economy, Nigeria is preparing for next year's elections. The country's electio"
+        },
+        {
+          "title": "Ebo Taylor obituary",
+          "url": "https://www.theguardian.com/world/2026/feb/13/ebo-taylor-obituary",
+          "source": "The Guardian Africa",
+          "published": "2026-02-13T18:34:19",
+          "lead": "Ghanaian guitarist, arranger, singer-songwriter and cult hero who rose to fame outside Africa only late in life  Ebo Tay"
         },
         {
           "title": "Nigeria: Date set for presidential election",
@@ -854,18 +876,12 @@
           "source": "AllAfrica",
           "published": "2026-02-13T10:11:36",
           "lead": "[Premium Times] Governor Siminalayi Fubara has dissolved the Rivers State Executive Council days after a closed-door mee"
-        },
-        {
-          "title": "Nigeria: China Rejects U.S. Lawmakers' Allegations of Illegal Mining and Terror Financing in Nigeria",
-          "url": "https://allafrica.com/stories/202602130070.html",
-          "source": "AllAfrica",
-          "published": "2026-02-13T05:27:31",
-          "lead": "[Premium Times] The Chinese embassy also rejected the claim that it was funding radical Islamic groups and ethnic militi"
         }
       ],
       "sources": [
         "Africanews",
         "DW Africa",
+        "The Guardian Africa",
         "AllAfrica"
       ]
     },
@@ -885,7 +901,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.5,
-      "ratio": 1.21,
+      "ratio": 1.19,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -924,8 +940,8 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Cameroon": {
@@ -959,8 +975,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "CAR": {
@@ -1027,11 +1043,11 @@
       ]
     },
     "Congo": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 2.62,
-      "status": "high",
+      "baseline": 1.6,
+      "ratio": 1.89,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
@@ -1040,14 +1056,6 @@
         },
         {
           "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "Armed group",
-          "count": 1
-        },
-        {
-          "word": "M23",
           "count": 1
         }
       ],
@@ -1073,34 +1081,27 @@
           "source": "Africanews",
           "published": "2026-02-13T16:41:00",
           "lead": "The Democratic Republic of Congo said Friday it had \"accepted the principle of a ceasefire\" involving a \"strict and imme"
-        },
-        {
-          "title": "DRC: Acting head of UN mission touches down in Goma",
-          "url": "http://www.africanews.com/2026/02/12/drc-acting-head-of-un-mission-touches-down-in-goma/",
-          "source": "Africanews",
-          "published": "2026-02-12T19:04:05",
-          "lead": "The acting head of the UN mission in the Democratic Republic of Congo arrived on Thursday in Goma, which is under the co"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "DRC": {
       "article_count": 6,
-      "source_count": 2,
+      "source_count": 3,
       "baseline": 7.8,
       "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Ceasefire",
+          "word": "Président",
           "count": 2
         },
         {
-          "word": "M23",
+          "word": "Ceasefire",
           "count": 2
         },
         {
@@ -1108,11 +1109,11 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Armed group",
+          "word": "M23",
           "count": 1
         }
       ],
@@ -1140,6 +1141,13 @@
           "lead": "Après des mois d'interruption, les exportations de cobalt de RDC ont repris, mais à un rythme toujours insuffisant pour "
         },
         {
+          "title": "Sommet de l’UA : Tshisekedi revient, Kagame s’éclipse, Ndayishimiye s’impose",
+          "url": "https://www.jeuneafrique.com/1765270/politique/sommet-de-lua-tshisekedi-revient-kagame-seclipse-ndayishimiye-simpose/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-13T19:47:40",
+          "lead": "L’arrivée du président burundais, allié de la RDC, à la tête de l’Union africaine pourrait marquer un tournant dans la p"
+        },
+        {
           "title": "DR Congo offers frontline freeze in step towards truce",
           "url": "http://www.africanews.com/2026/02/13/dr-congo-offers-frontline-freeze-in-step-towards-truce/",
           "source": "Africanews",
@@ -1152,18 +1160,12 @@
           "source": "Africanews",
           "published": "2026-02-13T05:59:42",
           "lead": "The UN mission will support efforts towards a ceasefire between the DR Congo army and AFC/M23 rebels."
-        },
-        {
-          "title": "DRC: Acting head of UN mission touches down in Goma",
-          "url": "http://www.africanews.com/2026/02/12/drc-acting-head-of-un-mission-touches-down-in-goma/",
-          "source": "Africanews",
-          "published": "2026-02-12T19:04:05",
-          "lead": "The acting head of the UN mission in the Democratic Republic of Congo arrived on Thursday in Goma, which is under the co"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Jeune Afrique",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1181,8 +1183,8 @@
     "Angola": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.42,
+      "baseline": 0.6,
+      "ratio": 1.55,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1214,15 +1216,15 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "President",
-          "count": 1
-        },
-        {
           "word": "Minister",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         },
         {
@@ -1230,11 +1232,11 @@
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1273,10 +1275,10 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 8,
-      "source_count": 5,
+      "article_count": 9,
+      "source_count": 6,
       "baseline": 4.2,
-      "ratio": 1.92,
+      "ratio": 2.15,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1293,10 +1295,6 @@
           "count": 2
         },
         {
-          "word": "Killed",
-          "count": 1
-        },
-        {
           "word": "War",
           "count": 1
         },
@@ -1305,16 +1303,27 @@
           "count": 1
         },
         {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "Displaced",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "AU summit tackles climate change and Somaliland tensions",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/13/au-summit-tackles-climate-change-and-somaliland-tensions?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-13T18:43:53",
+          "lead": "Heads of state are arriving in Addis Ababa for the 2026 African Union Summit, with a water-focused theme centred on clim"
+        },
         {
           "title": "Sudan civil war: Ethiopia's, UAE's role under scrutiny",
           "url": "https://www.dw.com/en/sudan-civil-war-ethiopia-s-uae-s-role-under-scrutiny/a-75913225?maca=en-rss-en-africa-8291-xml-mrss",
@@ -1373,18 +1382,19 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
-        "Human Rights Watch",
+        "Jeune Afrique",
         "DW Africa",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "Al Jazeera",
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Somalia": {
-      "article_count": 5,
-      "source_count": 4,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.6,
-      "ratio": 1.89,
+      "ratio": 1.55,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1405,11 +1415,11 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1437,13 +1447,6 @@
           "lead": "La frontière terrestre entre le Kenya et la Somalie, fermée depuis 15 ans en raison d'attaques islamistes répétées au Ke"
         },
         {
-          "title": "Le Kenya va rouvrir sa frontière terrestre avec la Somalie après quinze ans de fermeture",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/12/le-kenya-va-rouvrir-sa-frontiere-terrestre-avec-la-somalie-apres-quinze-ans-de-fermeture_6666531_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-12T18:21:55",
-          "lead": "Après des années de tensions et de tentatives avortées, la réouverture de la frontière marque un tournant dans les relat"
-        },
-        {
           "title": "Somalia: UK Announces &#xa3;6m Humanitarian Drought Response Funding to Somalia",
           "url": "https://allafrica.com/stories/202602130297.html",
           "source": "AllAfrica",
@@ -1452,10 +1455,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "BBC Africa",
-        "AllAfrica",
-        "Le Monde Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Uganda": {
@@ -1489,15 +1491,15 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Kenya": {
       "article_count": 6,
-      "source_count": 5,
-      "baseline": 5.1,
-      "ratio": 1.17,
+      "source_count": 6,
+      "baseline": 5.2,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1510,7 +1512,27 @@
           "count": 1
         },
         {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -1538,13 +1560,6 @@
           "lead": "Suspecté d’être à l’origine de la mort de plus de 450 personnes, le gourou évangélique aurait continué ses activités cri"
         },
         {
-          "title": "Le Kenya va rouvrir sa frontière terrestre avec la Somalie après quinze ans de fermeture",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/12/le-kenya-va-rouvrir-sa-frontiere-terrestre-avec-la-somalie-apres-quinze-ans-de-fermeture_6666531_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-12T18:21:55",
-          "lead": "Après des années de tensions et de tentatives avortées, la réouverture de la frontière marque un tournant dans les relat"
-        },
-        {
           "title": "Football : la CAF confirme la tenue de la CAN 2027 au Kenya, en Tanzanie et en Ouganda",
           "url": "https://www.jeuneafrique.com/1765720/societe/football-la-caf-confirme-la-tenue-de-la-can-2027-au-kenya-en-tanzanie-et-en-ouganda/",
           "source": "Jeune Afrique",
@@ -1552,26 +1567,34 @@
           "lead": "« Nous avons beaucoup œuvré pour que la Coupe d’Afrique des nations se tienne en Afrique de l’Est, et notre engagement r"
         },
         {
-          "title": "Niger: Islamist Armed Group Massacres Villagers in West",
-          "url": "https://allafrica.com/stories/202602130086.html",
+          "title": "Kenya: Communications Authority Activates Kenya's First Digital Sound Broadcasting Trial in Nairobi",
+          "url": "https://allafrica.com/stories/202602130476.html",
           "source": "AllAfrica",
-          "published": "2026-02-13T06:13:57",
-          "lead": "[HRW] Nairobi -- Strengthen Civilian Protection, Accountability for Atrocities"
+          "published": "2026-02-13T14:40:27",
+          "lead": "[Capital FM] Nairobi -- The Communications Authority of Kenya (CA) has facilitated the activation of Kenya's first trial"
+        },
+        {
+          "title": "Niger: Islamist Armed Group Massacres Villagers in West",
+          "url": "https://www.hrw.org/news/2026/02/12/niger-islamist-armed-group-massacres-villagers-in-west",
+          "source": "Human Rights Watch",
+          "published": "2026-02-13T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Nigeri"
         }
       ],
       "sources": [
-        "AllAfrica",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Le Monde Afrique",
         "BBC Africa",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Rwanda": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.6,
-      "ratio": 0.39,
+      "ratio": 0.38,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1595,13 +1618,21 @@
       ]
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 3.78,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "President",
           "count": 1
@@ -1609,6 +1640,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sommet de l’UA : Tshisekedi revient, Kagame s’éclipse, Ndayishimiye s’impose",
+          "url": "https://www.jeuneafrique.com/1765270/politique/sommet-de-lua-tshisekedi-revient-kagame-seclipse-ndayishimiye-simpose/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-13T19:47:40",
+          "lead": "L’arrivée du président burundais, allié de la RDC, à la tête de l’Union africaine pourrait marquer un tournant dans la p"
+        },
         {
           "title": "Africa: AUC Chairperson This Morning Conferred With H.E. &#xc9;variste Ndayishimiye, President of the Republic of Burundi",
           "url": "https://allafrica.com/stories/202602130491.html",
@@ -1618,6 +1656,7 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "AllAfrica"
       ]
     },
@@ -1625,7 +1664,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.4,
-      "ratio": 1.48,
+      "ratio": 1.42,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1652,8 +1691,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Madagascar": {
@@ -1665,11 +1704,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Humanitaire",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -1709,8 +1748,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
+        "RFI Afrique",
         "UN News Africa"
       ]
     },
@@ -1759,11 +1798,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         }
       ],
@@ -1784,8 +1823,8 @@
     "Malawi": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 3.0,
+      "baseline": 1.1,
+      "ratio": 2.68,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -1826,8 +1865,8 @@
     "Mozambique": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.9,
-      "ratio": 1.55,
+      "baseline": 2.0,
+      "ratio": 1.5,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1861,16 +1900,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
+        "RFI Afrique",
         "AllAfrica"
       ]
     },
     "Zimbabwe": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.6,
-      "ratio": 1.21,
+      "baseline": 1.7,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1884,16 +1923,16 @@
           "lead": "Blessing Muzarabani claims a superb 4-17 as Zimbabwe held their nerve to stun Australia with a thrilling 23-run win in t"
         },
         {
-          "title": "Zimbabwe shock Australia in huge upset at T20 World Cup",
-          "url": "https://www.aljazeera.com/sports/2026/2/13/zimbabwe-shock-australia-in-massive-upset-at-t20-world-cup?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-13T10:08:34",
-          "lead": "Zimbabwe bowl out a depleted Australia for 146 in 23-run win to humble one of the favourites for the 2026 T20 World Cup."
+          "title": "Zimbabwe’s inventive Valentine’s: Cash bouquets and scrap metal hearts",
+          "url": "http://www.africanews.com/2026/02/13/zimbabwes-inventive-valentines-cash-bouquets-and-scrap-metal-hearts/",
+          "source": "Africanews",
+          "published": "2026-02-13T17:23:13",
+          "lead": "Romance in Zimbabwe is taking strikingly inventive forms, reflecting life in an economy where cash reigns supreme and su"
         }
       ],
       "sources": [
         "BBC Africa",
-        "Al Jazeera"
+        "Africanews"
       ]
     },
     "Namibia": {
@@ -1911,7 +1950,7 @@
     "Botswana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1921,10 +1960,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 19,
+      "article_count": 18,
       "source_count": 7,
       "baseline": 12.8,
-      "ratio": 1.49,
+      "ratio": 1.41,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2018,13 +2057,6 @@
           "lead": "[allAfrica]  Lukhanyo Calata to Testify on Behalf of Cradock Four Families"
         },
         {
-          "title": "Africa: South Africa Elected to AU Peace and Security Council",
-          "url": "https://allafrica.com/stories/202602130097.html",
-          "source": "AllAfrica",
-          "published": "2026-02-13T07:03:57",
-          "lead": "[SAnews.gov.za] South Africa has been elected to serve a two-year term on the African Union's (AU) Peace and Security Co"
-        },
-        {
           "title": "South Africa: SANDF Ready for Deployment to Tackle Gang Violence, Illegal Mining",
           "url": "https://allafrica.com/stories/202602130389.html",
           "source": "AllAfrica",
@@ -2051,16 +2083,23 @@
           "source": "Daily Maverick",
           "published": "2026-02-13T16:33:03",
           "lead": "Stay inspired despite the taps running dry. Explore Maria McCloy’s curated guide to the best South African music and art"
+        },
+        {
+          "title": "SONA2026: Rhetoric vs reality: civil society delivers sobering scorecard on Sona 2026",
+          "url": "https://www.dailymaverick.co.za/article/rhetoric-vs-reality-civil-society-delivers-sobering-scorecard-on-sona-2026",
+          "source": "Daily Maverick",
+          "published": "2026-02-13T14:17:23",
+          "lead": "Beyond the glitz of the red carpet, advocacy groups warn that President Cyril Ramaphosa’s ambitious promises on water, j"
         }
       ],
       "sources": [
+        "Daily Maverick",
         "Africanews",
-        "AllAfrica",
-        "RFI Afrique",
-        "Human Rights Watch",
         "DW Africa",
+        "RFI Afrique",
         "BBC Africa",
-        "Daily Maverick"
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Eswatini": {
