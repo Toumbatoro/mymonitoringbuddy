@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-14T19:03:43.436707",
+  "generated_at": "2026-02-14T21:48:05.325165",
   "summary": {
     "high": 0,
-    "elevated": 1,
-    "normal": 25,
-    "quiet": 28
+    "elevated": 2,
+    "normal": 23,
+    "quiet": 29
   },
   "countries": {
     "Morocco": {
@@ -93,7 +93,7 @@
     "Sudan": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 5.1,
+      "baseline": 4.9,
       "ratio": 0.4,
       "status": "normal",
       "confidence": "normal",
@@ -191,11 +191,11 @@
           "count": 2
         },
         {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -246,10 +246,10 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "RFI Afrique",
-        "The Guardian Africa",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique",
+        "The Guardian Africa"
       ]
     },
     "Senegal": {
@@ -302,8 +302,8 @@
     "Guinea-Bissau": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.9,
-      "ratio": 2.12,
+      "baseline": 1.0,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -330,8 +330,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "BBC Africa"
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Guinea": {
@@ -373,11 +373,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -396,31 +396,16 @@
       ]
     },
     "Liberia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.2,
-      "ratio": 0.82,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Liberia: Supreme Court rules ex-minister Tweah not immune to prosecution",
-          "url": "http://www.africanews.com/2026/02/13/liberia-supreme-court-rules-ex-minister-tweah-not-immune-to-prosecution/",
-          "source": "Africanews",
-          "published": "2026-02-13T21:01:55",
-          "lead": "Liberia's supreme court has reaffirmed that Tweah and several ex officials are not protected from prosecution under clai"
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Côte d'Ivoire": {
       "article_count": 1,
@@ -452,7 +437,7 @@
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -492,11 +477,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -535,19 +520,19 @@
       ]
     },
     "Nigeria": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 4,
       "baseline": 8.6,
-      "ratio": 0.7,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -599,20 +584,13 @@
           "source": "Africanews",
           "published": "2026-02-14T13:20:01",
           "lead": "In the relentless hustle of Lagos, a city of over 20 million where love often gets lost in the daily grind, musician Bia"
-        },
-        {
-          "title": "Nigeria: Matchmaking websites increasingly popular in Kano",
-          "url": "http://www.africanews.com/2026/02/13/nigeria-matchmaking-websites-increasingly-popular-in-kano/",
-          "source": "Africanews",
-          "published": "2026-02-13T21:26:45",
-          "lead": "Matchmaking websites are in their hayday in Kano, a conservative hub in northern Nigeria. It's not uncommon for women in"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "RFI Afrique",
-        "The Guardian Africa",
-        "Africanews"
+        "Le Monde Afrique",
+        "Africanews",
+        "The Guardian Africa"
       ]
     },
     "Cape Verde": {
@@ -631,9 +609,9 @@
       "article_count": 4,
       "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.47,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.5,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Mort",
@@ -677,36 +655,93 @@
       ]
     },
     "Cameroon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.82,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Cameroon Education Cluster: Northwest & Southwest Updates - Operational Presence & Reach (December 2025)",
+          "url": "https://reliefweb.int/report/cameroon/cameroon-education-cluster-northwest-southwest-updates-operational-presence-reach-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-14T01:08:45",
+          "lead": "Country: Cameroon\n                                      Sources: Education Cluster, UN Children's Fund\n                 "
+        },
+        {
+          "title": "Cameroon - Child Protection AoR: North West & South West Regions 5Ws Monthly Reach and Operational Presence: Operational Maps, December 2025",
+          "url": "https://reliefweb.int/report/cameroon/cameroon-child-protection-aor-north-west-south-west-regions-5ws-monthly-reach-and-operational-presence-operational-maps-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-14T01:00:09",
+          "lead": "Country: Cameroon\n                                      Sources: Child Protection Area of Responsibility, Protection Clu"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.4,
-      "ratio": 0.69,
+      "baseline": 0.9,
+      "ratio": 1.06,
       "status": "normal",
       "confidence": "low",
+      "keywords": [
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "GIEWS Country Brief: Central African Republic 13-February-2026",
+          "url": "https://reliefweb.int/report/central-african-republic/giews-country-brief-central-african-republic-13-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-14T01:20:04",
+          "lead": "Country: Central African Republic\n                                      Source: Food and Agriculture Organization of the"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "South Sudan": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.4,
+      "ratio": 1.38,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Terroriste",
@@ -714,6 +749,10 @@
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -725,9 +764,17 @@
           "source": "RFI Afrique",
           "published": "2026-02-14T14:24:52",
           "lead": "Le 39ᵉ sommet de l’Union africaine s’est ouvert, ce samedi 14 février, à Addis-Abeba. Il se terminera dimanche. De nombr"
+        },
+        {
+          "title": "South Sudan: Humanitarian Access Snapshot (January 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-access-snapshot-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-14T10:05:28",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
@@ -758,7 +805,7 @@
     "Congo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -768,17 +815,13 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 2,
-      "baseline": 7.7,
-      "ratio": 0.65,
+      "baseline": 7.6,
+      "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 2
-        },
         {
           "word": "Terroriste",
           "count": 1
@@ -792,7 +835,7 @@
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -825,13 +868,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-14T14:33:00",
           "lead": "Alors que les combats se poursuivent dans l’est de la RDC, la cheffe par intérim de la Monusco s’est rendue à Goma pour "
-        },
-        {
-          "title": "Sommet de l’UA : Tshisekedi revient, Kagame s’éclipse, Ndayishimiye s’impose",
-          "url": "https://www.jeuneafrique.com/1765270/politique/sommet-de-lua-tshisekedi-revient-kagame-seclipse-ndayishimiye-simpose/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-13T19:47:40",
-          "lead": "L’arrivée du président burundais, allié de la RDC, à la tête de l’Union africaine pourrait marquer un tournant dans la p"
         }
       ],
       "sources": [
@@ -973,12 +1009,12 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "France24 Afrique",
-        "RFI Afrique",
+        "Jeune Afrique",
+        "Al Jazeera",
         "AllAfrica",
-        "Africanews",
-        "Al Jazeera"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Somalia": {
@@ -996,7 +1032,7 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.1,
+      "baseline": 3.0,
       "ratio": 0.33,
       "status": "normal",
       "confidence": "low",
@@ -1018,7 +1054,7 @@
     "Kenya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.0,
+      "baseline": 4.9,
       "ratio": 0.2,
       "status": "normal",
       "confidence": "low",
@@ -1040,7 +1076,7 @@
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.6,
+      "baseline": 2.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1050,40 +1086,21 @@
       "sources": []
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.5,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Sommet de l’UA : Tshisekedi revient, Kagame s’éclipse, Ndayishimiye s’impose",
-          "url": "https://www.jeuneafrique.com/1765270/politique/sommet-de-lua-tshisekedi-revient-kagame-seclipse-ndayishimiye-simpose/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-13T19:47:40",
-          "lead": "L’arrivée du président burundais, allié de la RDC, à la tête de l’Union africaine pourrait marquer un tournant dans la p"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tanzania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.4,
+      "baseline": 1.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1095,7 +1112,7 @@
     "Madagascar": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.7,
+      "baseline": 2.6,
       "ratio": 0.38,
       "status": "normal",
       "confidence": "low",
@@ -1163,26 +1180,16 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.1,
-      "ratio": 0.9,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Malawi launches polio vaccine programme",
-          "url": "http://www.africanews.com/2026/02/13/malawi-launches-polio-vaccine-programme/",
-          "source": "Africanews",
-          "published": "2026-02-13T19:18:21",
-          "lead": "Malawi has started a vaccination programme across the commercial city of Blantyre after derived poliovirus was found in "
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mozambique": {
       "article_count": 0,
@@ -1199,7 +1206,7 @@
     "Zimbabwe": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.7,
+      "baseline": 1.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1211,8 +1218,8 @@
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.2,
+      "baseline": 0.9,
+      "ratio": 1.12,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1250,7 +1257,7 @@
     "South Africa": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 11.8,
+      "baseline": 11.9,
       "ratio": 0.34,
       "status": "normal",
       "confidence": "normal",
@@ -1260,11 +1267,11 @@
           "count": 2
         },
         {
-          "word": "Combat",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Combat",
           "count": 1
         }
       ],
@@ -1300,9 +1307,9 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "Le Monde Afrique",
         "Africanews",
-        "Al Jazeera",
         "Daily Maverick"
       ]
     },
