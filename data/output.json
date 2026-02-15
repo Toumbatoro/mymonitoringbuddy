@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-15T05:11:55.496081",
+  "generated_at": "2026-02-15T07:51:19.987511",
   "summary": {
     "high": 2,
     "elevated": 2,
-    "normal": 20,
-    "quiet": 30
+    "normal": 18,
+    "quiet": 32
   },
   "countries": {
     "Morocco": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 4.7,
-      "ratio": 0.42,
+      "baseline": 4.6,
+      "ratio": 0.44,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -38,14 +38,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -57,7 +57,7 @@
     "Tunisia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -69,8 +69,8 @@
     "Libya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.2,
-      "ratio": 0.31,
+      "baseline": 3.1,
+      "ratio": 0.32,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -91,7 +91,7 @@
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -101,13 +101,21 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 4.9,
-      "ratio": 0.4,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 4.8,
+      "ratio": 0.63,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
         {
           "word": "Guerre",
           "count": 1
@@ -117,16 +125,19 @@
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
           "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "A rare chronicle of war, survival and devastation in Darfur – in pictures",
+          "url": "https://www.theguardian.com/global-development/gallery/2026/feb/15/darfur-sudan-war-in-pictures",
+          "source": "The Guardian Africa",
+          "published": "2026-02-15T07:00:16",
+          "lead": "Few outsiders, if any, have ventured more widely into the centre of Sudan’s brutal civil war than Jérôme Tubiana. The Fr"
+        },
         {
           "title": "Sommet de l’Union africaine: inquiétude sur les périls qui menacent le multilatéralisme et la paix",
           "url": "https://www.rfi.fr/fr/afrique/20260214-sommet-de-l-union-africaine-inqui%C3%A9tude-sur-les-p%C3%A9rils-qui-menacent-le-multilat%C3%A9ralisme-et-la-paix",
@@ -143,6 +154,7 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
         "AllAfrica",
         "RFI Afrique"
       ]
@@ -162,8 +174,8 @@
     "Mali": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 4.3,
-      "ratio": 0.23,
+      "baseline": 4.2,
+      "ratio": 0.24,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -184,7 +196,7 @@
     "Burkina Faso": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -194,17 +206,13 @@
       "sources": []
     },
     "Niger": {
-      "article_count": 7,
-      "source_count": 5,
-      "baseline": 4.8,
-      "ratio": 1.45,
+      "article_count": 6,
+      "source_count": 4,
+      "baseline": 4.9,
+      "ratio": 1.21,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Attaque",
-          "count": 2
-        },
         {
           "word": "Violence",
           "count": 1
@@ -214,11 +222,15 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Attaque",
           "count": 1
         },
         {
           "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -246,13 +258,6 @@
           "lead": "Le chef du régime militaire du Niger, le général Abdourahamane Tiani, s'est exprimé pendant un peu plus de trois heures,"
         },
         {
-          "title": "Attaque de l’aéroport de Niamey : le chef de la junte nigérienne s’en prend de nouveau à la France",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/14/attaque-de-l-aeroport-de-niamey-le-chef-de-la-junte-nigerienne-s-en-prend-de-nouveau-a-la-france_6666746_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-14T07:18:34",
-          "lead": "Le lendemain de l’attaque, le général Tiani avait déjà accusé les présidents français, béninois et ivoirien de soutenir "
-        },
-        {
           "title": "Quand les groupes miniers attaquent les États : l’Afrique prise au piège des tribunaux d’arbitrage ?",
           "url": "https://www.jeuneafrique.com/1760918/economie-entreprises/quand-les-groupes-miniers-attaquent-les-etats-lafrique-prise-au-piege-des-tribunaux-darbitrage/",
           "source": "Jeune Afrique",
@@ -275,18 +280,17 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "AllAfrica",
-        "RFI Afrique",
         "The Guardian Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.9,
-      "ratio": 0.17,
+      "baseline": 5.6,
+      "ratio": 0.18,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -324,8 +328,8 @@
     "Guinea-Bissau": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 2.0,
+      "baseline": 1.1,
+      "ratio": 1.9,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -352,27 +356,20 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Africanews"
+        "Africanews",
+        "BBC Africa"
       ]
     },
     "Guinea": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 1.03,
+      "ratio": 0.51,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Guinée: l'effondrement d'une mine d'or artisanale fait au moins onze morts dans l'est du pays",
-          "url": "https://www.rfi.fr/fr/afrique/20260214-guin%C3%A9e-l-effondrement-d-une-mine-d-or-artisanale-fait-au-moins-onze-morts-dans-l-est-du-pays",
-          "source": "RFI Afrique",
-          "published": "2026-02-14T05:19:01",
-          "lead": "En Guinée, on a appris hier l'éboulement mercredi d'une mine artisanale dans la région aurifère des savanes, dans la pré"
-        },
         {
           "title": "Quand les groupes miniers attaquent les États : l’Afrique prise au piège des tribunaux d’arbitrage ?",
           "url": "https://www.jeuneafrique.com/1760918/economie-entreprises/quand-les-groupes-miniers-attaquent-les-etats-lafrique-prise-au-piege-des-tribunaux-darbitrage/",
@@ -382,7 +379,6 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -401,7 +397,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -411,36 +407,21 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.9,
-      "ratio": 0.51,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Attaque de l’aéroport de Niamey : le chef de la junte nigérienne s’en prend de nouveau à la France",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/14/attaque-de-l-aeroport-de-niamey-le-chef-de-la-junte-nigerienne-s-en-prend-de-nouveau-a-la-france_6666746_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-14T07:18:34",
-          "lead": "Le lendemain de l’attaque, le général Tiani avait déjà accusé les présidents français, béninois et ivoirien de soutenir "
-        }
-      ],
-      "sources": [
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -453,7 +434,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.6,
-      "ratio": 3.6,
+      "ratio": 3.17,
       "status": "high",
       "confidence": "medium",
       "keywords": [],
@@ -475,36 +456,21 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.6,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.6,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Attaque de l’aéroport de Niamey : le chef de la junte nigérienne s’en prend de nouveau à la France",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/14/attaque-de-l-aeroport-de-niamey-le-chef-de-la-junte-nigerienne-s-en-prend-de-nouveau-a-la-france_6666746_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-14T07:18:34",
-          "lead": "Le lendemain de l’attaque, le général Tiani avait déjà accusé les présidents français, béninois et ivoirien de soutenir "
-        }
-      ],
-      "sources": [
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Nigeria": {
       "article_count": 9,
@@ -590,12 +556,12 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "DW Africa",
         "RFI Afrique",
         "The Guardian Africa",
-        "Africanews",
-        "Al Jazeera"
+        "Le Monde Afrique",
+        "Al Jazeera",
+        "DW Africa",
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -611,12 +577,12 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
-      "baseline": 2.7,
-      "ratio": 0.75,
+      "baseline": 2.6,
+      "ratio": 0.38,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -626,13 +592,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-14T08:25:56",
           "lead": "Vous revenez dans votre chronique de ce jour sur le dernier épisode des relations franco-tchadiennes. Rupture bruyante e"
-        },
-        {
-          "title": "« KÖD », le nouvel opus du Tchadien Afrotronix: « J'ai fait un travail de sound design »",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260214-k%C3%B6d-le-nouvel-opus-du-tchadien-afrotronix-j-ai-fait-un-travail-de-sound-design",
-          "source": "RFI Afrique",
-          "published": "2026-02-14T06:03:11",
-          "lead": "Afrotronix, le musicien et compositeur tchadien revient avec un nouvel album intitulé « KÖD ». 27 pistes aussi variées q"
         }
       ],
       "sources": [
@@ -642,7 +601,7 @@
     "Cameroon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.6,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -654,7 +613,7 @@
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -667,7 +626,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.5,
-      "ratio": 1.33,
+      "ratio": 1.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -743,16 +702,16 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 6,
       "source_count": 3,
-      "baseline": 7.6,
-      "ratio": 0.53,
+      "baseline": 7.4,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 1
+          "count": 3
         },
         {
           "word": "Terroriste",
@@ -777,6 +736,13 @@
           "lead": "Le 39ᵉ sommet de l’Union africaine s’est ouvert, ce samedi 14 février, à Addis-Abeba. Il se terminera dimanche. De nombr"
         },
         {
+          "title": "Environnement: «Le bassin du Congo va devenir l'un des sites les plus importants pour la santé de la planète»",
+          "url": "https://www.rfi.fr/fr/culture/20260215-environnement-le-bassin-du-congo-va-devenir-l-un-des-sites-les-plus-importants-pour-la-sant%C3%A9-de-la-plan%C3%A8te",
+          "source": "RFI Afrique",
+          "published": "2026-02-15T06:03:56",
+          "lead": "À travers son exposition « Au cœur du bassin du Congo » visible à la galerie Angalia à Paris jusqu'au 28 février, le pho"
+        },
+        {
           "title": "RDC: la prison centrale de Makala à Kinshasa touchée par une épidémie de choléra",
           "url": "https://www.rfi.fr/fr/afrique/20260215-rdc-le-prison-centrale-de-makala-%C3%A0-kinshasa-touch%C3%A9e-par-une-%C3%A9pid%C3%A9mie-de-chol%C3%A9ra",
           "source": "RFI Afrique",
@@ -791,6 +757,13 @@
           "lead": "Plus d’une tonne d’écailles du mammifère ont été saisies par les autorités congolaises à Kinshasa fin janvier. Malgré un"
         },
         {
+          "title": "RDC : à Goma, la guerre a fermé l’aéroport et mis l’économie locale à genoux",
+          "url": "https://www.jeuneafrique.com/1765358/politique/rdc-a-goma-la-guerre-a-ferme-laeroport-et-mis-leconomie-locale-a-genoux/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-15T08:05:00",
+          "lead": "Une année après l’arrivée des rebelles dans la capitale du Nord-Kivu, la ville tourne toujours au ralenti. La fermeture "
+        },
+        {
           "title": "Monusco, Angola… Un cessez-le-feu est-il encore possible dans l’est de la RDC ?",
           "url": "https://www.jeuneafrique.com/1765421/politique/monusco-angola-un-cessez-le-feu-est-il-encore-possible-dans-lest-de-la-rdc/",
           "source": "Jeune Afrique",
@@ -800,8 +773,8 @@
       ],
       "sources": [
         "Le Monde Afrique",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -819,8 +792,8 @@
     "Angola": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.7,
-      "ratio": 2.77,
+      "baseline": 0.8,
+      "ratio": 2.53,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -851,14 +824,14 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Eritrea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -880,12 +853,12 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 5,
-      "baseline": 4.4,
-      "ratio": 1.37,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 4.5,
+      "ratio": 1.56,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Guerre",
@@ -932,6 +905,13 @@
           "lead": "La présidente du Conseil italien est venue à Addis-Abeba défendre son plan Mattei pour l’investissement en Afrique. Malg"
         },
         {
+          "title": "African Union holds summit: is it ignoring the real issues?",
+          "url": "http://www.africanews.com/2026/02/15/african-union-holds-summit-is-it-ignoring-the-real-issues/",
+          "source": "Africanews",
+          "published": "2026-02-15T07:09:02",
+          "lead": "Leaders are attending the African Union (AU) annual summit in Ethiopia at a time of genocide, myriad insurgencies and co"
+        },
+        {
           "title": "Meloni pledges deeper ties, tackling migration at 2nd Africa- Italy summit",
           "url": "http://www.africanews.com/2026/02/14/meloni-pledges-deeper-ties-tackling-migration-at-2nd-africa-italy-summit/",
           "source": "Africanews",
@@ -954,17 +934,17 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "RFI Afrique",
+        "AllAfrica",
         "Jeune Afrique",
-        "Africanews",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Somalia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -976,7 +956,7 @@
     "Uganda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.0,
+      "baseline": 2.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -988,7 +968,7 @@
     "Kenya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 4.9,
+      "baseline": 4.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1000,7 +980,7 @@
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1013,7 +993,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.64,
+      "ratio": 1.58,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1040,7 +1020,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.75,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1061,10 +1041,10 @@
     "Madagascar": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 2.6,
-      "ratio": 1.53,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.7,
+      "ratio": 1.49,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
@@ -1103,9 +1083,9 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "AllAfrica",
-        "RFI Afrique",
-        "Al Jazeera"
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -1159,7 +1139,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1199,14 +1179,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Al Jazeera"
+        "Al Jazeera",
+        "RFI Afrique"
       ]
     },
     "Zimbabwe": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1257,21 +1237,21 @@
     "South Africa": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 11.9,
-      "ratio": 0.34,
+      "baseline": 11.5,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 2
+          "word": "Violence",
+          "count": 1
         },
         {
           "word": "Combat",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1299,18 +1279,18 @@
           "lead": "Western Cape police are preparing to receive South African National Defence Force members deployed to combat gang violen"
         },
         {
-          "title": "THE WEEKEND WRAP: Civil society’s sobering Sona scorecard, and how the ‘Codesa Compromise’ spat out Steenhuisen",
-          "url": "https://www.dailymaverick.co.za/article/civil-societys-sobering-sona-scorecard-ad-and-how-the-codesa-compromise-spat-out",
+          "title": "PITCH BATTLE: Marco Jansen joins Lungi Ngidi on Proteas’ belligerent bowler list at T20 World Cup",
+          "url": "https://www.dailymaverick.co.za/article/marco-jansen-joins-lungi-ngidi-on-proteaeas-belligerent-bowler-list-at-t20-world",
           "source": "Daily Maverick",
-          "published": "2026-02-14T07:00:00",
-          "lead": "Civil society criticised President Cyril Ramaphosa’s Sona promises, highlighting a lack of funding and reform crucial to"
+          "published": "2026-02-15T09:22:09",
+          "lead": "South Africa 178 for 3 (Aiden Markram 86*, Rachin Ravindra 1-9,) beat New Zealand 175 for 7 (Mark Chapman 48, Marc Janse"
         }
       ],
       "sources": [
         "Le Monde Afrique",
-        "Daily Maverick",
+        "Al Jazeera",
         "Africanews",
-        "Al Jazeera"
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
