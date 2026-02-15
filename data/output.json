@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-02-15T19:05:22.974278",
+  "generated_at": "2026-02-15T21:49:30.855099",
   "summary": {
-    "high": 2,
+    "high": 3,
     "elevated": 0,
-    "normal": 20,
-    "quiet": 32
+    "normal": 22,
+    "quiet": 29
   },
   "countries": {
     "Morocco": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 4.6,
+      "baseline": 4.5,
       "ratio": 0.22,
       "status": "normal",
       "confidence": "low",
@@ -47,16 +47,31 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tunisian police detain opposition figure Olfa Hamdi at airport",
+          "url": "https://www.dailymaverick.co.za/article/tunisian-police-detain-opposition-figure-olfa-hamdi-at-airport",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T21:48:50",
+          "lead": "TUNIS, Feb 15 (Reuters) - Tunisian police detained opposition figure Olfa Hamdi as she arrived at the country’s main air"
+        }
+      ],
+      "sources": [
+        "Daily Maverick"
+      ]
     },
     "Libya": {
       "article_count": 1,
@@ -179,10 +194,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Al Jazeera",
+        "France24 Afrique",
         "The Guardian Africa",
-        "France24 Afrique"
+        "AllAfrica",
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
@@ -212,8 +227,8 @@
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.43,
+      "baseline": 2.4,
+      "ratio": 0.42,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -232,13 +247,17 @@
       ]
     },
     "Niger": {
-      "article_count": 5,
-      "source_count": 5,
+      "article_count": 6,
+      "source_count": 6,
       "baseline": 4.8,
-      "ratio": 1.03,
+      "ratio": 1.24,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Dead",
+          "count": 2
+        },
         {
           "word": "Killed",
           "count": 2
@@ -256,20 +275,23 @@
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Attack",
           "count": 1
         },
         {
           "word": "President",
           "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Motorbike raids on villages kill dozens in Nigeria",
+          "url": "https://www.bbc.com/news/articles/ckg1y0nk641o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-15T15:29:26",
+          "lead": "Armed men shot locals dead, set homes alight and abducted an \"undetermined\" number of people in Niger State."
+        },
         {
           "title": "Assailants kill at least 32 in north-west Nigerian villages, residents say",
           "url": "https://www.theguardian.com/world/2026/feb/14/assailants-kill-raids-northwest-nigeria-villages-residents-say",
@@ -307,10 +329,11 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "Jeune Afrique",
-        "AllAfrica",
-        "Africanews",
         "The Guardian Africa",
+        "Africanews",
+        "AllAfrica",
         "RFI Afrique"
       ]
     },
@@ -351,7 +374,7 @@
     "Guinea-Bissau": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -361,16 +384,31 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.54,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "À l’UA, le retour en grâce des « bons putschistes », Brice Clotaire Oligui Nguema et Mamadi Doumbouya",
+          "url": "https://www.jeuneafrique.com/1765915/politique/a-lua-le-retour-en-grace-des-bons-putschistes-brice-clotaire-oligui-nguema-et-mamadi-doumbouya/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-15T20:06:05",
+          "lead": "Malgré les réflexions appuyées du président angolais, ses homologues gabonais et guinéen ont quitté Addis-Abeba satisfai"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Sierra Leone": {
       "article_count": 0,
@@ -412,7 +450,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.84,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -434,8 +472,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "BBC Africa"
       ]
     },
     "Togo": {
@@ -485,6 +523,10 @@
           "count": 3
         },
         {
+          "word": "Dead",
+          "count": 2
+        },
+        {
           "word": "Violence",
           "count": 1
         },
@@ -495,20 +537,16 @@
         {
           "word": "Humanitarian",
           "count": 1
-        },
-        {
-          "word": "Dead",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Nigeria’s Argungu fishing contest returns after years of pause",
-          "url": "https://www.aljazeera.com/gallery/2026/2/15/nigerias-argungu-fishing-contest-marks-return-after-years-of-pause?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-15T08:40:16",
-          "lead": "Traditional fishing methods shine at Argungu&#039;s iconic festival, preserving heritage and boosting local economy."
+          "title": "Motorbike raids on villages kill dozens in Nigeria",
+          "url": "https://www.bbc.com/news/articles/ckg1y0nk641o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-15T15:29:26",
+          "lead": "Armed men shot locals dead, set homes alight and abducted an \"undetermined\" number of people in Niger State."
         },
         {
           "title": "Nigeria: Dozens killed in attacks on 3 villages",
@@ -562,10 +600,10 @@
       ],
       "sources": [
         "DW Africa",
-        "Al Jazeera",
+        "BBC Africa",
         "Jeune Afrique",
-        "Africanews",
         "The Guardian Africa",
+        "Africanews",
         "RFI Afrique"
       ]
     },
@@ -623,8 +661,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Cameroon": {
@@ -676,16 +714,31 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.46,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "À l’UA, le retour en grâce des « bons putschistes », Brice Clotaire Oligui Nguema et Mamadi Doumbouya",
+          "url": "https://www.jeuneafrique.com/1765915/politique/a-lua-le-retour-en-grace-des-bons-putschistes-brice-clotaire-oligui-nguema-et-mamadi-doumbouya/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-15T20:06:05",
+          "lead": "Malgré les réflexions appuyées du président angolais, ses homologues gabonais et guinéen ont quitté Addis-Abeba satisfai"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Congo": {
       "article_count": 0,
@@ -700,10 +753,10 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 6,
+      "source_count": 4,
       "baseline": 7.4,
-      "ratio": 0.67,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -748,6 +801,13 @@
           "lead": "En République démocratique du Congo, l’épidémie de choléra gagne du terrain jusqu’à atteindre la plus grande prison du p"
         },
         {
+          "title": "Fin du 39e sommet de l'Union africaine : Le conflit dans l'est de la RDC au cœur des discussions",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260215-fin-du-39e-sommet-de-l-union-africaine-le-conflit-dans-l-est-de-la-rdc-au-c%C5%93ur-des-discussions",
+          "source": "France24 Afrique",
+          "published": "2026-02-15T21:42:13",
+          "lead": "Clap de fin du 39e sommet de l'Union africaine. Durant les deux jours, ce sont les principales crises en cours sur le co"
+        },
+        {
           "title": "L’Afrique continue de se vider de ses pangolins pour les besoins de la médecine chinoise",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/15/l-afrique-continue-de-se-vider-de-ses-pangolins-pour-les-besoins-de-la-medecine-chinoise_6666826_3212.html",
           "source": "Le Monde Afrique",
@@ -764,6 +824,7 @@
       ],
       "sources": [
         "Jeune Afrique",
+        "France24 Afrique",
         "Le Monde Afrique",
         "RFI Afrique"
       ]
@@ -781,13 +842,17 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.36,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.71,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Crisis",
           "count": 1
@@ -795,6 +860,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "À l’UA, le retour en grâce des « bons putschistes », Brice Clotaire Oligui Nguema et Mamadi Doumbouya",
+          "url": "https://www.jeuneafrique.com/1765915/politique/a-lua-le-retour-en-grace-des-bons-putschistes-brice-clotaire-oligui-nguema-et-mamadi-doumbouya/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-15T20:06:05",
+          "lead": "Malgré les réflexions appuyées du président angolais, ses homologues gabonais et guinéen ont quitté Addis-Abeba satisfai"
+        },
         {
           "title": "Africa: African Union Summit Opens, As Continent Faces Conflict and Climate Extremes",
           "url": "https://allafrica.com/stories/202602140226.html",
@@ -804,6 +876,7 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "AllAfrica"
       ]
     },
@@ -865,22 +938,22 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "AllAfrica",
-        "RFI Afrique",
-        "France24 Afrique"
+        "RFI Afrique"
       ]
     },
     "Ethiopia": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 3,
-      "baseline": 4.5,
-      "ratio": 1.1,
+      "baseline": 4.4,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
+          "count": 2
         },
         {
           "word": "War",
@@ -891,16 +964,23 @@
           "count": 1
         },
         {
-          "word": "Rsf",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Rsf",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "À l’UA, le retour en grâce des « bons putschistes », Brice Clotaire Oligui Nguema et Mamadi Doumbouya",
+          "url": "https://www.jeuneafrique.com/1765915/politique/a-lua-le-retour-en-grace-des-bons-putschistes-brice-clotaire-oligui-nguema-et-mamadi-doumbouya/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-15T20:06:05",
+          "lead": "Malgré les réflexions appuyées du président angolais, ses homologues gabonais et guinéen ont quitté Addis-Abeba satisfai"
+        },
         {
           "title": "Après Ethiopian Airlines et RwandAir, la nouvelle vie de Girma Wake au chevet du pavillon ougandais",
           "url": "https://www.jeuneafrique.com/1765675/economie-entreprises/apres-ethiopian-airlines-et-rwandair-la-nouvelle-vie-de-girma-wake-au-chevet-du-pavillon-ougandais/",
@@ -938,8 +1018,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
+        "Africanews",
         "AllAfrica"
       ]
     },
@@ -1022,10 +1102,10 @@
       "sources": []
     },
     "Burundi": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 0.7,
-      "ratio": 4.07,
+      "ratio": 5.43,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1052,6 +1132,13 @@
           "lead": "Le 39ᵉ sommet de l’Union africaine est à présent terminé. Pendant deux jours, les chefs d’État et de gouvernement de l’o"
         },
         {
+          "title": "Fin du 39e sommet de l'Union africaine : Le conflit dans l'est de la RDC au cœur des discussions",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260215-fin-du-39e-sommet-de-l-union-africaine-le-conflit-dans-l-est-de-la-rdc-au-c%C5%93ur-des-discussions",
+          "source": "France24 Afrique",
+          "published": "2026-02-15T21:42:13",
+          "lead": "Clap de fin du 39e sommet de l'Union africaine. Durant les deux jours, ce sont les principales crises en cours sur le co"
+        },
+        {
           "title": "Entre diplomates et hommes de l’ombre, comment Évariste Ndayishimiye va diriger l’UA",
           "url": "https://www.jeuneafrique.com/1764242/politique/entre-diplomates-et-hommes-de-lombre-comment-evariste-ndayishimiye-va-diriger-lua/",
           "source": "Jeune Afrique",
@@ -1068,8 +1155,9 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
-        "AllAfrica"
+        "France24 Afrique",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
@@ -1139,8 +1227,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -1245,7 +1333,7 @@
     "Namibia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1267,15 +1355,23 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 5,
+      "article_count": 10,
       "source_count": 3,
       "baseline": 11.5,
-      "ratio": 0.43,
+      "ratio": 0.87,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1294,6 +1390,41 @@
           "source": "AllAfrica",
           "published": "2026-02-15T15:33:40",
           "lead": "[RFI] A video game released this week by a South African company features characters from the African continent whose ob"
+        },
+        {
+          "title": "AGE OF ACCOUNTABILITY: In the name of our father — Lukhanyo Calata’s devastating testimony to Khampepe Inquiry",
+          "url": "https://www.dailymaverick.co.za/article/in-the-name-of-our-father-lukhanyo-calaalatas-devastating-testimony-to-khampepe",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T22:51:31",
+          "lead": "South Africa is wedged between the past, the present and the future, which is why it is significant that in the week of "
+        },
+        {
+          "title": "RISING STARS: New generation of leaders reshapes the future of South African politics",
+          "url": "https://www.dailymaverick.co.za/article/new-generation-of-leaders-reshapes-the-future-of-south-african-politics",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T22:44:12",
+          "lead": "Younger political leaders are reshaping South Africa's landscape, ushering in fresh perspectives and dynamic reforms acr"
+        },
+        {
+          "title": "VIDEO: Watch – Epstein records detail South Africa links",
+          "url": "https://www.dailymaverick.co.za/article/watch-epstein-records-detail-south-africa-links",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T21:16:51",
+          "lead": "US Justice Department records detail Jeffrey Epstein’s links to South Africa, including references to business contacts "
+        },
+        {
+          "title": "ANALYSIS: Joburg’s water crisis could smooth the DA’s path to mayoral victory",
+          "url": "https://www.dailymaverick.co.za/article/joburgs-water-crisis-could-smooth-the-das-path-to-mayoral-victory",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T21:15:24",
+          "lead": "Johannesburg’s water problems offer an obvious route to a win for Helen Zille and the DA, thanks to the ANC’s poor handl"
+        },
+        {
+          "title": "FORGOTTEN IN THE GROUND: City of Cape Town’s  wall of silence as families demand answers on paupers’ grave scandal",
+          "url": "https://www.dailymaverick.co.za/article/city-of-cape-towns-wall-of-silence-as-fafamilies-demand-answers-on-paupers-grave",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T21:09:43",
+          "lead": "The Cape Town families whose loved ones were buried in paupers’ graves without their consent wanted answers. Just one pr"
         },
         {
           "title": "CRISIS? WHAT CRISIS?: Water, water, everywhere, nor any drop to drink, bath, wash clothes, or do dishes",
