@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-15T13:56:58.779597",
+  "generated_at": "2026-02-15T15:49:54.832192",
   "summary": {
     "high": 2,
-    "elevated": 0,
-    "normal": 19,
-    "quiet": 33
+    "elevated": 1,
+    "normal": 20,
+    "quiet": 31
   },
   "countries": {
     "Morocco": {
@@ -101,15 +101,23 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 4,
+      "article_count": 7,
       "source_count": 4,
       "baseline": 4.9,
-      "ratio": 0.82,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "War",
+          "count": 3
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
           "count": 2
         },
         {
@@ -117,33 +125,30 @@
           "count": 1
         },
         {
-          "word": "Terroriste",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Violence",
+          "word": "Government",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Violence",
+          "War"
+        ]
+      ],
       "articles": [
+        {
+          "title": "As Sudanese city returns to life after two-year siege, drone threat lingers",
+          "url": "https://www.aljazeera.com/features/2026/2/15/as-sudanese-city-returns-to-life-after-two-year-siege-drone-threat-lingers?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-15T14:34:23",
+          "lead": "Markets reopen in Dilling, South Kordofan’s second largest city. Yet residents face persistent aerial attacks."
+        },
         {
           "title": "A rare chronicle of war, survival and devastation in Darfur – in pictures",
           "url": "https://www.theguardian.com/global-development/gallery/2026/feb/15/darfur-sudan-war-in-pictures",
           "source": "The Guardian Africa",
           "published": "2026-02-15T07:00:16",
           "lead": "Few outsiders, if any, have ventured more widely into the centre of Sudan’s brutal civil war than Jérôme Tubiana. The Fr"
-        },
-        {
-          "title": "Sommet de l’Union africaine: inquiétude sur les périls qui menacent le multilatéralisme et la paix",
-          "url": "https://www.rfi.fr/fr/afrique/20260214-sommet-de-l-union-africaine-inqui%C3%A9tude-sur-les-p%C3%A9rils-qui-menacent-le-multilat%C3%A9ralisme-et-la-paix",
-          "source": "RFI Afrique",
-          "published": "2026-02-14T14:24:52",
-          "lead": "Le 39ᵉ sommet de l’Union africaine s’est ouvert, ce samedi 14 février, à Addis-Abeba. Il se terminera dimanche. De nombr"
         },
         {
           "title": "Tchad : l'eau potable manque cruellement, les populations en danger",
@@ -153,17 +158,38 @@
           "lead": "Au Tchad, l'eau potable manque, une conséquences directe des mouvements des populations du Soudan et du réchauffement cl"
         },
         {
+          "title": "Sudan: Amid Ramadan Truce Push, Quintet Condemns Sudan's Sieges, Drone Strikes, Civilian Carnage",
+          "url": "https://allafrica.com/stories/202602150024.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:10:33",
+          "lead": "[Reporter] A coalition of international powers on Thursday issued an urgent condemnation of escalating military operatio"
+        },
+        {
           "title": "Sudan: 'Like a Scene Out of a Horror Movie' - UN Report Warns of War Crimes in Sudan's El Fasher",
           "url": "https://allafrica.com/stories/202602140225.html",
           "source": "AllAfrica",
           "published": "2026-02-14T22:33:33",
           "lead": "[UN News] Paramilitary forces in Sudan unleashed \"a wave of intense violence...shocking in its scale and brutality\" duri"
+        },
+        {
+          "title": "Ethiopia: Ethiopia Declines to Renew Reuters Correspondents' Accreditation After Report Alleging RSF Training Camp",
+          "url": "https://allafrica.com/stories/202602150026.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:13:06",
+          "lead": "[Addis Standard] Addis Abeba -- The government of Ethiopia has declined to renew accreditation for three Addis Abeba-bas"
+        },
+        {
+          "title": "Sudan: RSF Violations During Capture of El Fasher Amount to War Crimes and Possible Crimes Against Humanity - UN Report",
+          "url": "https://allafrica.com/stories/202602150025.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:11:35",
+          "lead": "[United Nations in Sudan] The Rapid Support Forces unleashed \"a wave of intense violence ... shocking in its scale and b"
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "RFI Afrique",
         "AllAfrica",
+        "The Guardian Africa",
+        "Al Jazeera",
         "France24 Afrique"
       ]
     },
@@ -206,8 +232,8 @@
     "Niger": {
       "article_count": 5,
       "source_count": 5,
-      "baseline": 4.9,
-      "ratio": 1.02,
+      "baseline": 4.8,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -224,11 +250,11 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Humanitarian",
           "count": 1
         },
         {
@@ -279,24 +305,34 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
-        "Jeune Afrique",
         "Africanews",
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "Jeune Afrique",
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Senegal": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 5.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.18,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Senegal: Senegal University Suspends Student Associations Following Deadly Clashes",
+          "url": "https://allafrica.com/stories/202602150028.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:19:51",
+          "lead": "[RFI] Senegal's largest university has suspended student associations after violent demonstrations over unpaid grants le"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Gambia": {
       "article_count": 0,
@@ -335,7 +371,7 @@
     "Guinea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.9,
+      "baseline": 1.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -383,8 +419,8 @@
     "Ghana": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.43,
+      "baseline": 2.4,
+      "ratio": 0.42,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -394,7 +430,7 @@
           "title": "Russian 'pick-up artist' accused of secretly filming women in Ghana",
           "url": "https://www.bbc.com/news/articles/c9wn5p299eko?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-02-15T08:26:54",
+          "published": "2026-02-15T15:25:21",
           "lead": "Ghana has called on Russia to extradite the man, who is accused of recording sexual encounters without consent."
         }
       ],
@@ -437,20 +473,16 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 11,
+      "article_count": 9,
       "source_count": 7,
       "baseline": 8.6,
-      "ratio": 1.27,
+      "ratio": 1.04,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Killed",
           "count": 3
-        },
-        {
-          "word": "Attack",
-          "count": 1
         },
         {
           "word": "Violence",
@@ -461,11 +493,11 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -477,13 +509,6 @@
           "source": "Al Jazeera",
           "published": "2026-02-15T08:40:16",
           "lead": "Traditional fishing methods shine at Argungu&#039;s iconic festival, preserving heritage and boosting local economy."
-        },
-        {
-          "title": "Death toll in northern Nigeria attack by gunmen rises to 46, says report",
-          "url": "https://www.aljazeera.com/news/2026/2/15/gunmen-kill-at-least-32-people-in-northern-nigeria-residents-say?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-15T03:27:28",
-          "lead": "Witnesses say the motorcycle riding gunmen attacked three communities in northern Nigeria, killing and abducting dozens."
         },
         {
           "title": "Nigeria: Dozens killed in attacks on 3 villages",
@@ -540,23 +565,16 @@
           "source": "Africanews",
           "published": "2026-02-15T09:47:14",
           "lead": "Motorcycle-riding gunmen swept into three villages in Niger state in Nigeria, shooting dead or cutting the throats of at"
-        },
-        {
-          "title": "Drama at Nigeria's Argungu festival as athletes collapse before finale",
-          "url": "http://www.africanews.com/2026/02/14/drama-at-nigerias-argungu-festival-as-athletes-collapse-before-finale/",
-          "source": "Africanews",
-          "published": "2026-02-14T15:06:39",
-          "lead": "Several athletes collapsed and were rushed to hospital on Friday during pre-finale events at the annual Argungu Fishing "
         }
       ],
       "sources": [
         "DW Africa",
-        "RFI Afrique",
-        "Le Monde Afrique",
+        "The Guardian Africa",
         "Al Jazeera",
         "Jeune Afrique",
         "Africanews",
-        "The Guardian Africa"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Cape Verde": {
@@ -574,8 +592,8 @@
     "Chad": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 1.14,
+      "baseline": 2.7,
+      "ratio": 1.12,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -642,35 +660,16 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.66,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Terroriste",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Sommet de l’Union africaine: inquiétude sur les périls qui menacent le multilatéralisme et la paix",
-          "url": "https://www.rfi.fr/fr/afrique/20260214-sommet-de-l-union-africaine-inqui%C3%A9tude-sur-les-p%C3%A9rils-qui-menacent-le-multilat%C3%A9ralisme-et-la-paix",
-          "source": "RFI Afrique",
-          "published": "2026-02-14T14:24:52",
-          "lead": "Le 39ᵉ sommet de l’Union africaine s’est ouvert, ce samedi 14 février, à Addis-Abeba. Il se terminera dimanche. De nombr"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -709,45 +708,45 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 7.5,
-      "ratio": 0.8,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 3
+          "count": 2
         },
         {
-          "word": "Terroriste",
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "M23",
           "count": 1
         },
         {
           "word": "Épidémie",
-          "count": 1
-        },
-        {
-          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Sommet de l’Union africaine: inquiétude sur les périls qui menacent le multilatéralisme et la paix",
-          "url": "https://www.rfi.fr/fr/afrique/20260214-sommet-de-l-union-africaine-inqui%C3%A9tude-sur-les-p%C3%A9rils-qui-menacent-le-multilat%C3%A9ralisme-et-la-paix",
-          "source": "RFI Afrique",
-          "published": "2026-02-14T14:24:52",
-          "lead": "Le 39ᵉ sommet de l’Union africaine s’est ouvert, ce samedi 14 février, à Addis-Abeba. Il se terminera dimanche. De nombr"
-        },
-        {
           "title": "Environnement: «Le bassin du Congo va devenir l'un des sites les plus importants pour la santé de la planète»",
           "url": "https://www.rfi.fr/fr/culture/20260215-environnement-le-bassin-du-congo-va-devenir-l-un-des-sites-les-plus-importants-pour-la-sant%C3%A9-de-la-plan%C3%A8te",
           "source": "RFI Afrique",
           "published": "2026-02-15T06:03:56",
           "lead": "À travers son exposition « Au cœur du bassin du Congo » visible à la galerie Angalia à Paris jusqu'au 28 février, le pho"
+        },
+        {
+          "title": "Combats dans le Sud-Kivu en RDC: «Nous sommes toujours bombardés par des drones du gouvernement»",
+          "url": "https://www.rfi.fr/fr/afrique/20260215-combats-dans-le-sud-kivu-en-rdc-nous-sommes-toujours-bombard%C3%A9s-par-des-drones-du-gouvernement",
+          "source": "RFI Afrique",
+          "published": "2026-02-15T13:38:59",
+          "lead": "Dans l’Est de la République démocratique du Congo (RDC), alors que le cessez-le-feu doit entrer en vigueur, mercredi 18 "
         },
         {
           "title": "RDC: la prison centrale de Makala à Kinshasa touchée par une épidémie de choléra",
@@ -769,13 +768,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-15T08:05:00",
           "lead": "Une année après l’arrivée des rebelles dans la capitale du Nord-Kivu, la ville tourne toujours au ralenti. La fermeture "
-        },
-        {
-          "title": "Monusco, Angola… Un cessez-le-feu est-il encore possible dans l’est de la RDC ?",
-          "url": "https://www.jeuneafrique.com/1765421/politique/monusco-angola-un-cessez-le-feu-est-il-encore-possible-dans-lest-de-la-rdc/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-14T14:33:00",
-          "lead": "Alors que les combats se poursuivent dans l’est de la RDC, la cheffe par intérim de la Monusco s’est rendue à Goma pour "
         }
       ],
       "sources": [
@@ -797,17 +789,13 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 2.53,
-      "status": "high",
-      "confidence": "medium",
+      "ratio": 1.27,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
         {
           "word": "Crisis",
           "count": 1
@@ -815,13 +803,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Monusco, Angola… Un cessez-le-feu est-il encore possible dans l’est de la RDC ?",
-          "url": "https://www.jeuneafrique.com/1765421/politique/monusco-angola-un-cessez-le-feu-est-il-encore-possible-dans-lest-de-la-rdc/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-14T14:33:00",
-          "lead": "Alors que les combats se poursuivent dans l’est de la RDC, la cheffe par intérim de la Monusco s’est rendue à Goma pour "
-        },
         {
           "title": "Africa: African Union Summit Opens, As Continent Faces Conflict and Climate Extremes",
           "url": "https://allafrica.com/stories/202602140226.html",
@@ -831,7 +812,6 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "AllAfrica"
       ]
     },
@@ -848,50 +828,74 @@
       "sources": []
     },
     "Djibouti": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 6.0,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Fin du sommet de l’Union africaine: «Aucune tolérance pour les changements de pouvoir anticonstitutionnels»",
+          "url": "https://www.rfi.fr/fr/afrique/20260215-fin-du-sommet-de-l-union-africaine-aucune-tol%C3%A9rance-pour-les-changements-de-pouvoir-anticonstitutionnels",
+          "source": "RFI Afrique",
+          "published": "2026-02-15T15:37:58",
+          "lead": "Le 39ᵉ sommet de l’Union africaine est à présent terminé. Pendant deux jours, les chefs d’État et de gouvernement de l’o"
+        },
+        {
           "title": "Union africaine : \"L'extermination\" du peuple palestinien \"doit cesser\"",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260215-union-africaine-l-extermination-du-peuple-palestinien-doit-cesser",
           "source": "France24 Afrique",
           "published": "2026-02-15T09:23:13",
           "lead": "\"L'extermination\" du peuple palestinien \"doit cesser\", a lancé samedi le président de la Commission de l'Union africaine"
+        },
+        {
+          "title": "Ethiopia: Crumbling of Rentier Fortress - Ethiopia's Maritime Pivot, Decline of Djibouti's Monopoly",
+          "url": "https://allafrica.com/stories/202602150027.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:13:53",
+          "lead": "[Addis Standard] Addis Abeba -- For much of the past three decades, the political economy of the Horn of Africa rested o"
         }
       ],
       "sources": [
+        "RFI Afrique",
+        "AllAfrica",
         "France24 Afrique"
       ]
     },
     "Ethiopia": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 7,
+      "source_count": 3,
       "baseline": 4.5,
-      "ratio": 1.34,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.56,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Terroriste",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         },
         {
@@ -899,19 +903,12 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Rsf",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Sommet de l’Union africaine: inquiétude sur les périls qui menacent le multilatéralisme et la paix",
-          "url": "https://www.rfi.fr/fr/afrique/20260214-sommet-de-l-union-africaine-inqui%C3%A9tude-sur-les-p%C3%A9rils-qui-menacent-le-multilat%C3%A9ralisme-et-la-paix",
-          "source": "RFI Afrique",
-          "published": "2026-02-14T14:24:52",
-          "lead": "Le 39ᵉ sommet de l’Union africaine s’est ouvert, ce samedi 14 février, à Addis-Abeba. Il se terminera dimanche. De nombr"
-        },
         {
           "title": "Après Ethiopian Airlines et RwandAir, la nouvelle vie de Girma Wake au chevet du pavillon ougandais",
           "url": "https://www.jeuneafrique.com/1765675/economie-entreprises/apres-ethiopian-airlines-et-rwandair-la-nouvelle-vie-de-girma-wake-au-chevet-du-pavillon-ougandais/",
@@ -934,6 +931,13 @@
           "lead": "Leaders are attending the African Union (AU) annual summit in Ethiopia at a time of genocide, myriad insurgencies and co"
         },
         {
+          "title": "Ethiopia: Crumbling of Rentier Fortress - Ethiopia's Maritime Pivot, Decline of Djibouti's Monopoly",
+          "url": "https://allafrica.com/stories/202602150027.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:13:53",
+          "lead": "[Addis Standard] Addis Abeba -- For much of the past three decades, the political economy of the Horn of Africa rested o"
+        },
+        {
           "title": "Africa: African Union Summit Opens, As Continent Faces Conflict and Climate Extremes",
           "url": "https://allafrica.com/stories/202602140226.html",
           "source": "AllAfrica",
@@ -946,11 +950,17 @@
           "source": "AllAfrica",
           "published": "2026-02-14T16:13:34",
           "lead": "[Government of Namibia] Addis Ababa -- On the margins of the African Union Summit, Namibia, through its Mission in Addis"
+        },
+        {
+          "title": "Ethiopia: Ethiopia Declines to Renew Reuters Correspondents' Accreditation After Report Alleging RSF Training Camp",
+          "url": "https://allafrica.com/stories/202602150026.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:13:06",
+          "lead": "[Addis Standard] Addis Abeba -- The government of Ethiopia has declined to renew accreditation for three Addis Abeba-bas"
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
         "AllAfrica",
         "Africanews"
       ]
@@ -970,7 +980,7 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.8,
+      "baseline": 2.9,
       "ratio": 0.35,
       "status": "normal",
       "confidence": "low",
@@ -995,16 +1005,31 @@
       ]
     },
     "Kenya": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.21,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Rebel",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Kenyans mourn one of last Mau Mau rebellion leaders",
+          "url": "http://www.africanews.com/2026/02/15/kenyans-mourn-one-of-last-mau-mau-rebellion-leaders/",
+          "source": "Africanews",
+          "published": "2026-02-15T14:31:20",
+          "lead": "Mourners attended the funeral of one of the last leaders of Kenya's Mau Mau resistance movement in Ngorika near the Aber"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Rwanda": {
       "article_count": 0,
@@ -1019,13 +1044,21 @@
       "sources": []
     },
     "Burundi": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.6,
-      "ratio": 3.17,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 0.7,
+      "ratio": 4.38,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Crisis",
           "count": 1
@@ -1033,6 +1066,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Fin du sommet de l’Union africaine: «Aucune tolérance pour les changements de pouvoir anticonstitutionnels»",
+          "url": "https://www.rfi.fr/fr/afrique/20260215-fin-du-sommet-de-l-union-africaine-aucune-tol%C3%A9rance-pour-les-changements-de-pouvoir-anticonstitutionnels",
+          "source": "RFI Afrique",
+          "published": "2026-02-15T15:37:58",
+          "lead": "Le 39ᵉ sommet de l’Union africaine est à présent terminé. Pendant deux jours, les chefs d’État et de gouvernement de l’o"
+        },
         {
           "title": "Entre diplomates et hommes de l’ombre, comment Évariste Ndayishimiye va diriger l’UA",
           "url": "https://www.jeuneafrique.com/1764242/politique/entre-diplomates-et-hommes-de-lombre-comment-evariste-ndayishimiye-va-diriger-lua/",
@@ -1050,6 +1090,7 @@
       ],
       "sources": [
         "Jeune Afrique",
+        "RFI Afrique",
         "AllAfrica"
       ]
     },
@@ -1077,7 +1118,7 @@
     },
     "Madagascar": {
       "article_count": 4,
-      "source_count": 3,
+      "source_count": 2,
       "baseline": 2.7,
       "ratio": 1.49,
       "status": "normal",
@@ -1090,13 +1131,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Cyclone Gezani kills four in Mozambique as Madagascar assesses damage",
-          "url": "https://www.aljazeera.com/news/2026/2/15/cyclone-gezani-kills-four-in-mozambique-as-madagascar-assesses-damage?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-15T04:10:08",
-          "lead": "Powerful storm batters Mozambique&#039;s Inhambane a day after killing at least 41 people in Madagascar."
-        },
         {
           "title": "Madagascar: «Le bloc opératoire a été dévasté», l'hôpital de Tamatave durement touché par le cyclone Gezani",
           "url": "https://www.rfi.fr/fr/afrique/20260215-madagascar-le-bloc-op%C3%A9ratoire-a-%C3%A9t%C3%A9-d%C3%A9vast%C3%A9-l-h%C3%B4pital-de-tamatave-durement-touch%C3%A9-par-le-cyclone-gezani",
@@ -1112,6 +1146,13 @@
           "lead": "Après avoir semé la mort à Madagascar, où 43 personnes ont perdu la vie selon un nouveau bilan des autorités, le cyclone"
         },
         {
+          "title": "Madagascar: Madagascar's 'People of the Forest' Confront Life Beyond the Woods",
+          "url": "https://allafrica.com/stories/202602150031.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:38:35",
+          "lead": "[RFI] The Zafimaniry people of Madagascar are confronting a difficult choice about their future as deforestation and glo"
+        },
+        {
           "title": "Madagascar: Madagascar - 'Overwhelming' Destruction, Surging Needs After Back-to-Back Cyclones - WFP",
           "url": "https://allafrica.com/stories/202602140224.html",
           "source": "AllAfrica",
@@ -1120,7 +1161,6 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
         "RFI Afrique",
         "AllAfrica"
       ]
@@ -1186,12 +1226,12 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 1.06,
+      "ratio": 0.53,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Mort",
@@ -1201,13 +1241,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Cyclone Gezani kills four in Mozambique as Madagascar assesses damage",
-          "url": "https://www.aljazeera.com/news/2026/2/15/cyclone-gezani-kills-four-in-mozambique-as-madagascar-assesses-damage?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-15T04:10:08",
-          "lead": "Powerful storm batters Mozambique&#039;s Inhambane a day after killing at least 41 people in Madagascar."
-        },
-        {
           "title": "Au moins quatre morts au Mozambique après le passage du cyclone Gezani",
           "url": "https://www.rfi.fr/fr/afrique/20260215-au-moins-quatre-morts-au-mozambique-apr%C3%A8s-le-passage-du-cyclone-gezani",
           "source": "RFI Afrique",
@@ -1216,7 +1249,6 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
         "RFI Afrique"
       ]
     },
@@ -1272,10 +1304,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 11.5,
-      "ratio": 0.17,
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 11.4,
+      "ratio": 0.44,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1289,6 +1321,27 @@
           "lead": "Mi-janvier, de violentes pluies ont touché l’Afrique australe. Le parc sud-africain, prisé par les touristes du monde en"
         },
         {
+          "title": "South Africa starts extensive vaccine campagin against FMD in cattle",
+          "url": "http://www.africanews.com/2026/02/15/south-africa-starts-extensive-vaccine-campagin-against-fmd-in-cattle/",
+          "source": "Africanews",
+          "published": "2026-02-15T15:21:22",
+          "lead": "South Africa on Wednesday rolled out a 10‑year drive to vaccinate nearly 20 million cattle as a fast‑spreading foot‑and‑"
+        },
+        {
+          "title": "Africa: 'Relooted' - the Video Game Where Players Steal Back African Artefacts",
+          "url": "https://allafrica.com/stories/202602150030.html",
+          "source": "AllAfrica",
+          "published": "2026-02-15T15:33:40",
+          "lead": "[RFI] A video game released this week by a South African company features characters from the African continent whose ob"
+        },
+        {
+          "title": "THE MAGIC OF ABCD: Rethinking nonprofits: The power of asset-based citizen-led development in South Africa",
+          "url": "https://www.dailymaverick.co.za/article/rethinking-nonprofits-the-power-of-assetsetbased-citizenled-development-in-south",
+          "source": "Daily Maverick",
+          "published": "2026-02-15T16:01:06",
+          "lead": "With a focus on asset-based citizen-led development, communities can harness their strengths to overcome challenges and "
+        },
+        {
           "title": "PITCH BATTLE: Marco Jansen joins Lungi Ngidi on Proteas’ belligerent bowler list at T20 World Cup",
           "url": "https://www.dailymaverick.co.za/article/marco-jansen-joins-lungi-ngidi-on-proteaeas-belligerent-bowler-list-at-t20-world",
           "source": "Daily Maverick",
@@ -1297,21 +1350,33 @@
         }
       ],
       "sources": [
+        "Daily Maverick",
         "Le Monde Afrique",
-        "Daily Maverick"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Eswatini": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "China to scrap tariffs for most of Africa from 1 May, says Xi Jinping",
+          "url": "http://www.africanews.com/2026/02/15/china-to-scrap-tariffs-for-most-of-africa-from-1-may-says-xi-jinping/",
+          "source": "Africanews",
+          "published": "2026-02-15T15:33:37",
+          "lead": "It's another hurdle lowered for more Chinese-African trade: Beijing announced on Saturday that it would scrap tariffs fo"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Lesotho": {
       "article_count": 0,
