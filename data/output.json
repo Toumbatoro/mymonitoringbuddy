@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-16T17:24:02.444141",
+  "generated_at": "2026-02-16T19:45:42.951897",
   "summary": {
-    "high": 6,
-    "elevated": 10,
-    "normal": 22,
+    "high": 7,
+    "elevated": 7,
+    "normal": 24,
     "quiet": 16
   },
   "countries": {
@@ -35,15 +35,23 @@
       ]
     },
     "Algeria": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 4,
-      "baseline": 2.0,
-      "ratio": 2.93,
+      "baseline": 2.1,
+      "ratio": 3.33,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         },
         {
@@ -51,12 +59,19 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Niger: la visite à Alger du général Abdourahamane Tiani met fin à plusieurs mois de crise",
+          "url": "https://www.rfi.fr/fr/afrique/20260216-niger-la-visite-%C3%A0-alger-du-g%C3%A9n%C3%A9ral-abdourahamane-tiani-met-fin-%C3%A0-plusieurs-mois-de-crise",
+          "source": "RFI Afrique",
+          "published": "2026-02-16T19:04:02",
+          "lead": "Le chef du régime militaire du Niger, le général Abdourahamane Tiani, a terminé, ce lundi 16 février, une visite officie"
+        },
         {
           "title": "France: visite officielle du ministre de l’Intérieur Laurent Nuñez en Algérie",
           "url": "https://www.rfi.fr/fr/afrique/20260216-france-visite-officielle-du-ministre-de-l-int%C3%A9rieur-laurent-nu%C3%B1ez-en-alg%C3%A9rie",
@@ -102,25 +117,37 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
         "France24 Afrique",
+        "RFI Afrique",
         "ReliefWeb"
       ]
     },
     "Tunisia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 0.9,
-      "ratio": 3.33,
+      "ratio": 4.44,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Attaque",
+          "count": 2
+        },
+        {
+          "word": "Terroriste",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Attentat",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -134,6 +161,13 @@
           "lead": "The Guardian’s community affairs correspondent, Chris Osuh, reports on the plot by two IS terrorists to massacre Jews in"
         },
         {
+          "title": "En Tunisie, la justice rend son verdict dans le procès « frustrant » de l’attentat de la synagogue de la Ghriba",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/16/en-tunisie-la-justice-rend-son-verdict-dans-le-proces-frustrant-de-l-attentat-de-la-synagogue-de-la-ghriba_6666996_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-16T17:47:31",
+          "lead": "Des proches du terroriste qui avait attaqué la synagogue à l’arme à feu, en 2023, ont été condamnés à des peines allant "
+        },
+        {
           "title": "En Tunisie, des peines jusqu’à 15 ans de prison pour l’attaque de la synagogue de la Ghriba",
           "url": "https://www.jeuneafrique.com/1766169/politique/en-tunisie-des-peines-jusqua-15-ans-de-prison-pour-lattaque-de-la-synagogue-de-la-ghriba/",
           "source": "Jeune Afrique",
@@ -141,37 +175,30 @@
           "lead": "L’attaque s’était produite le 9 mai 2023 à Djerba, alors que des centaines de fidèles achevaient le pèlerinage juif annu"
         },
         {
-          "title": "Tunisian police detain opposition figure Olfa Hamdi at airport",
-          "url": "https://www.dailymaverick.co.za/article/tunisian-police-detain-opposition-figure-olfa-hamdi-at-airport",
-          "source": "Daily Maverick",
-          "published": "2026-02-15T21:48:50",
-          "lead": "TUNIS, Feb 15 (Reuters) - Tunisian police detained opposition figure Olfa Hamdi as she arrived at the country’s main air"
+          "title": "Tunisia jails five over deadly 2023 Djerba synagogue attack",
+          "url": "http://www.africanews.com/2026/02/16/tunisia-jails-five-over-deadly-2023-djerba-synagogue-attack/",
+          "source": "Africanews",
+          "published": "2026-02-16T17:25:16",
+          "lead": "Tunisian courts have sentenced five defendants to prison terms of up to 15 years for their roles in the deadly May 2023 "
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "Jeune Afrique",
-        "Daily Maverick"
+        "Africanews",
+        "The Guardian Africa",
+        "Le Monde Afrique"
       ]
     },
     "Libya": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 3.0,
-      "ratio": 0.34,
+      "ratio": 0.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -179,7 +206,15 @@
           "count": 1
         },
         {
-          "word": "Casualties",
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -204,8 +239,8 @@
     "Egypt": {
       "article_count": 5,
       "source_count": 5,
-      "baseline": 1.6,
-      "ratio": 3.12,
+      "baseline": 1.7,
+      "ratio": 2.94,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -214,15 +249,7 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -230,7 +257,15 @@
           "count": 1
         },
         {
-          "word": "Casualties",
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -277,18 +312,18 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Al Jazeera",
         "The Guardian Africa",
+        "Africanews",
+        "RFI Afrique",
         "ReliefWeb",
-        "RFI Afrique"
+        "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 12,
-      "source_count": 4,
-      "baseline": 5.0,
-      "ratio": 2.38,
+      "article_count": 13,
+      "source_count": 5,
+      "baseline": 5.4,
+      "ratio": 2.41,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -301,11 +336,15 @@
           "count": 3
         },
         {
+          "word": "Displaced",
+          "count": 3
+        },
+        {
           "word": "Crisis",
           "count": 2
         },
         {
-          "word": "Displaced",
+          "word": "War",
           "count": 2
         },
         {
@@ -318,10 +357,6 @@
         },
         {
           "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -352,6 +387,13 @@
           "source": "AllAfrica",
           "published": "2026-02-16T10:47:25",
           "lead": "[ISS] The massive scale and fast pace of displacement cycles have overwhelmed support systems in Sudan and neighbouring "
+        },
+        {
+          "title": "Sudan: Thousands cling to a fragile hope in makeshift tents",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1166968",
+          "source": "UN News Africa",
+          "published": "2026-02-16T12:00:00",
+          "lead": "The Tawila camp for internally displaced in Sudan’s war-torn Darfur region is home to more than half a million people wh"
         },
         {
           "title": "Human Appeal reaches over 862,000 people with food, water and life-saving emergency response amid ongoing Sudan conflict",
@@ -408,27 +450,21 @@
           "source": "ReliefWeb",
           "published": "2026-02-16T11:03:13",
           "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
-        },
-        {
-          "title": "UNHCR Tchad | Afflux des Réfugiés du Soudan | Statistiques de l'enregistrement individuel biométrique (au 15 Fév. 2026)",
-          "url": "https://reliefweb.int/report/chad/unhcr-tchad-afflux-des-refugies-du-soudan-statistiques-de-lenregistrement-individuel-biometrique-au-15-fev-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-16T11:03:10",
-          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
         }
       ],
       "sources": [
+        "UN News Africa",
         "The Guardian Africa",
-        "Africanews",
         "AllAfrica",
+        "Africanews",
         "ReliefWeb"
       ]
     },
     "Mauritania": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 0.5,
-      "ratio": 6.0,
+      "baseline": 0.6,
+      "ratio": 5.0,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -498,19 +534,19 @@
       ]
     },
     "Burkina Faso": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 2.4,
-      "ratio": 1.67,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 2.5,
+      "ratio": 1.22,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Attack",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -540,31 +576,39 @@
           "source": "RFI Afrique",
           "published": "2026-02-16T07:33:35",
           "lead": "Au Burkina Faso, plusieurs magistrats, avocats et douaniers seront fixés sur leur sort le 24 février. Date fixée à l'iss"
-        },
-        {
-          "title": "Burkina Faso : une série d’attaques jihadistes fait au moins une dizaine de morts",
-          "url": "https://www.jeuneafrique.com/1765919/politique/burkina-faso-une-serie-dattaques-jihadistes-fait-au-moins-une-dizaine-de-morts/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-15T17:47:20",
-          "lead": "Le Burkina Faso a été la cible en fin de semaine d’une série d’attaques de jihadistes présumés visant des détachements m"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "RFI Afrique"
       ]
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.8,
-      "ratio": 0.21,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 4.7,
+      "ratio": 0.43,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Niger: la visite à Alger du général Abdourahamane Tiani met fin à plusieurs mois de crise",
+          "url": "https://www.rfi.fr/fr/afrique/20260216-niger-la-visite-%C3%A0-alger-du-g%C3%A9n%C3%A9ral-abdourahamane-tiani-met-fin-%C3%A0-plusieurs-mois-de-crise",
+          "source": "RFI Afrique",
+          "published": "2026-02-16T19:04:02",
+          "lead": "Le chef du régime militaire du Niger, le général Abdourahamane Tiani, a terminé, ce lundi 16 février, une visite officie"
+        },
         {
           "title": "Nigeria: Niger Residents in Darkness Despite Hosting Four Power Plants",
           "url": "https://allafrica.com/stories/202602160615.html",
@@ -574,14 +618,15 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "AllAfrica"
       ]
     },
     "Senegal": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 5.5,
-      "ratio": 0.91,
+      "article_count": 6,
+      "source_count": 4,
+      "baseline": 5.6,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -632,13 +677,21 @@
           "title": "Autopsy shows dead Senegal student suffered multiple traumas",
           "url": "http://www.africanews.com/2026/02/16/autopsy-shows-dead-senegal-student-suffered-multiple-traumas/",
           "source": "Africanews",
-          "published": "2026-02-16T17:00:40",
+          "published": "2026-02-16T17:00:41",
           "lead": "A Senegalese student who died during a university police intervention that shook the nation suffered \"multiple traumas\" "
+        },
+        {
+          "title": "Nigeria says 100 more U.S. military personnel arrive to tackle Islamists",
+          "url": "https://www.dailymaverick.co.za/article/nigeria-says-100-more-us-military-personnel-arrive-to-tackle-islamists",
+          "source": "Daily Maverick",
+          "published": "2026-02-16T21:07:50",
+          "lead": "DAKAR, Feb 16 (Reuters) - About 100 U.S. military personnel have arrived in Nigeria as Washington scales up an operation"
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
+        "Africanews",
+        "Daily Maverick",
         "RFI Afrique"
       ]
     },
@@ -716,10 +769,10 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 2.86,
+      "baseline": 1.2,
+      "ratio": 3.33,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -754,6 +807,13 @@
           "source": "AllAfrica",
           "published": "2026-02-16T16:02:08",
           "lead": "[FrontPageAfrica] Ganta -- Diverse groups of people, including business owners, motorcyclists, women's organizations, an"
+        },
+        {
+          "title": "Liberia: PLP Rebuts Unity Party Chairman's 'Job Offer' Remark, Calls It Desperate and Visionless",
+          "url": "https://allafrica.com/stories/202602160577.html",
+          "source": "AllAfrica",
+          "published": "2026-02-16T16:01:31",
+          "lead": "[FrontPageAfrica] The People's Liberation Party (PLP) has strongly rejected what it described as a dismissive and misgui"
         }
       ],
       "sources": [
@@ -775,17 +835,17 @@
     "Ghana": {
       "article_count": 7,
       "source_count": 5,
-      "baseline": 2.5,
-      "ratio": 2.75,
+      "baseline": 2.6,
+      "ratio": 2.64,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Attack",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -854,10 +914,10 @@
         }
       ],
       "sources": [
-        "Africanews",
         "The Guardian Africa",
         "AllAfrica",
         "BBC Africa",
+        "Africanews",
         "RFI Afrique"
       ]
     },
@@ -877,7 +937,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.21,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -905,11 +965,11 @@
     },
     "Nigeria": {
       "article_count": 13,
-      "source_count": 3,
-      "baseline": 8.5,
-      "ratio": 1.53,
-      "status": "elevated",
-      "confidence": "medium",
+      "source_count": 4,
+      "baseline": 8.7,
+      "ratio": 1.49,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Protest",
@@ -917,10 +977,6 @@
         },
         {
           "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         },
         {
@@ -961,13 +1017,6 @@
           "source": "AllAfrica",
           "published": "2026-02-16T16:08:50",
           "lead": "[Premium Times] Aside from freezing their assets, the US has also barred all US persons and entities from transacting wi"
-        },
-        {
-          "title": "Nigeria: Dozens Killed in Attacks on 3 Villages",
-          "url": "https://allafrica.com/stories/202602160103.html",
-          "source": "AllAfrica",
-          "published": "2026-02-16T06:13:48",
-          "lead": "[DW] A group of gunmen attacked three villages in Nigeria in a dawn raid. At least 30 people have died and several are r"
         },
         {
           "title": "Nigeria: Protest As El-Rufai Arrives EFCC Headquarters",
@@ -1017,12 +1066,20 @@
           "source": "AllAfrica",
           "published": "2026-02-16T16:10:49",
           "lead": "[Daily Trust] The OpenSchool Initiative has graduated 55 policymakers and institutional leaders from 22 African countrie"
+        },
+        {
+          "title": "Nigeria: FCT Police Arrest 13 Suspected Armed Robbers",
+          "url": "https://allafrica.com/stories/202602160605.html",
+          "source": "AllAfrica",
+          "published": "2026-02-16T16:09:25",
+          "lead": "[Premium Times] The police disclosed this in a situation report (SITREP) seen by PREMIUM TIMES on Monday."
         }
       ],
       "sources": [
+        "BBC Africa",
         "Africanews",
-        "AllAfrica",
-        "BBC Africa"
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -1040,8 +1097,8 @@
     "Chad": {
       "article_count": 7,
       "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 2.75,
+      "baseline": 2.9,
+      "ratio": 2.41,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1058,15 +1115,15 @@
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
           "word": "Displaced",
           "count": 1
         },
         {
           "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -1138,8 +1195,8 @@
     "Cameroon": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 1.25,
+      "baseline": 2.5,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1206,21 +1263,13 @@
     "South Sudan": {
       "article_count": 4,
       "source_count": 1,
-      "baseline": 1.4,
-      "ratio": 2.86,
+      "baseline": 1.6,
+      "ratio": 2.58,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -1228,7 +1277,15 @@
           "count": 1
         },
         {
-          "word": "Casualties",
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1338,23 +1395,23 @@
       ]
     },
     "DRC": {
-      "article_count": 6,
-      "source_count": 5,
-      "baseline": 7.2,
-      "ratio": 0.83,
+      "article_count": 7,
+      "source_count": 6,
+      "baseline": 7.4,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
+          "count": 2
         },
         {
           "word": "M23",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
           "count": 1
         },
         {
@@ -1362,7 +1419,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1397,6 +1454,13 @@
           "lead": "Clap de fin du 39e sommet de l'Union africaine. Durant les deux jours, ce sont les principales crises en cours sur le co"
         },
         {
+          "title": "Est de la RDC : comment João Lourenço revient au centre du jeu",
+          "url": "https://www.jeuneafrique.com/1766060/politique/est-de-la-rdc-comment-joao-lourenco-revient-au-centre-du-jeu/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-16T18:32:12",
+          "lead": "Près d’un an après l’échec de sa médiation, le président angolais s’implique de nouveau dans le dossier congolais. Parvi"
+        },
+        {
           "title": "DRC: Kinshasa's 'sapeurs' honor the father of Congolese elegance",
           "url": "http://www.africanews.com/2026/02/16/drc-kinshasas-sapeurs-honor-the-father-of-congolese-elegance/",
           "source": "Africanews",
@@ -1412,11 +1476,12 @@
         }
       ],
       "sources": [
-        "Africanews",
         "France24 Afrique",
+        "Jeune Afrique",
         "The Guardian Africa",
-        "ReliefWeb",
-        "RFI Afrique"
+        "Africanews",
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "São Tomé": {
@@ -1432,20 +1497,27 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 0.8,
-      "ratio": 2.35,
-      "status": "elevated",
+      "ratio": 3.53,
+      "status": "high",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Est de la RDC : comment João Lourenço revient au centre du jeu",
+          "url": "https://www.jeuneafrique.com/1766060/politique/est-de-la-rdc-comment-joao-lourenco-revient-au-centre-du-jeu/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-16T18:32:12",
+          "lead": "Près d’un an après l’échec de sa médiation, le président angolais s’implique de nouveau dans le dossier congolais. Parvi"
+        },
         {
           "title": "À l’UA, le retour en grâce des « bons putschistes », Brice Clotaire Oligui Nguema et Mamadi Doumbouya",
           "url": "https://www.jeuneafrique.com/1765915/politique/a-lua-le-retour-en-grace-des-bons-putschistes-brice-clotaire-oligui-nguema-et-mamadi-doumbouya/",
@@ -1469,21 +1541,13 @@
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.43,
+      "baseline": 0.8,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -1491,7 +1555,15 @@
           "count": 1
         },
         {
-          "word": "Casualties",
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1526,10 +1598,10 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 8,
-      "source_count": 5,
-      "baseline": 4.5,
-      "ratio": 1.76,
+      "article_count": 9,
+      "source_count": 6,
+      "baseline": 4.7,
+      "ratio": 1.94,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1538,11 +1610,11 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -1582,6 +1654,13 @@
           "lead": "En Éthiopie, alors que les tensions au Tigré sont de plus en plus fortes, le gouvernement fédéral recule en région Amhar"
         },
         {
+          "title": "L’Union africaine, plus que jamais inaudible sur les conflits et les crises institutionnelles",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/16/l-union-africaine-plus-que-jamais-inaudible-sur-les-conflits-et-les-crises-institutionnelles_6666994_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-16T17:30:04",
+          "lead": "Le 39ᵉ sommet de l’Union africaine, qui s’est achevé à Addis-Abeba, a mis en évidence l’incapacité de l’institution pana"
+        },
+        {
           "title": "À l’UA, le retour en grâce des « bons putschistes », Brice Clotaire Oligui Nguema et Mamadi Doumbouya",
           "url": "https://www.jeuneafrique.com/1765915/politique/a-lua-le-retour-en-grace-des-bons-putschistes-brice-clotaire-oligui-nguema-et-mamadi-doumbouya/",
           "source": "Jeune Afrique",
@@ -1618,18 +1697,19 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "Jeune Afrique",
         "The Guardian Africa",
         "AllAfrica",
-        "Jeune Afrique",
-        "RFI Afrique"
+        "Africanews",
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Somalia": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.3,
-      "ratio": 0.87,
+      "baseline": 2.2,
+      "ratio": 0.89,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1660,8 +1740,8 @@
         }
       ],
       "sources": [
-        "DW Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "DW Africa"
       ]
     },
     "Uganda": {
@@ -1680,7 +1760,7 @@
       "article_count": 9,
       "source_count": 4,
       "baseline": 5.0,
-      "ratio": 1.8,
+      "ratio": 1.82,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -1751,26 +1831,26 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "The Guardian Africa",
-        "AllAfrica",
         "Daily Maverick",
-        "BBC Africa"
+        "AllAfrica"
       ]
     },
     "Rwanda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.44,
+      "baseline": 2.3,
+      "ratio": 0.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "M23",
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -1797,7 +1877,7 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Government",
           "count": 1
         },
         {
@@ -1805,7 +1885,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1840,7 +1920,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Government",
           "count": 1
         },
         {
@@ -1848,7 +1928,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1867,10 +1947,10 @@
       ]
     },
     "Madagascar": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 4,
-      "baseline": 2.8,
-      "ratio": 2.55,
+      "baseline": 2.9,
+      "ratio": 2.76,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1883,11 +1963,11 @@
           "count": 2
         },
         {
-          "word": "Crise",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Crise",
           "count": 1
         },
         {
@@ -1911,6 +1991,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-16T03:30:13",
           "lead": "À Madagascar, le bilan humain du passage du cyclone Gezani est désormais de 43 décès et 427 blessés sur l'ensemble du te"
+        },
+        {
+          "title": "A Madagascar, la ville de Tamatave, détruite à 80 %, se relève difficilement après le passage du cyclone Gezani",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/16/a-madagascar-la-ville-de-tamatave-detruite-a-80-se-releve-difficilement-apres-le-passage-du-cyclone-gezani_6666997_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-16T18:00:06",
+          "lead": "Des quartiers entiers de cette ville de 400 000 habitants ont été détruits, et les services essentiels – eau, électricit"
         },
         {
           "title": "Madagascar : au moins 59 morts à la suite du passage du cyclone Gezani",
@@ -1956,9 +2043,9 @@
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "Africanews",
         "RFI Afrique",
-        "Le Monde Afrique",
         "ReliefWeb"
       ]
     },
@@ -2035,21 +2122,21 @@
     "Mozambique": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 1.14,
+      "baseline": 1.9,
+      "ratio": 1.08,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Government",
+          "count": 2
+        },
         {
           "word": "Humanitarian",
           "count": 2
         },
         {
           "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Government",
           "count": 2
         },
         {
@@ -2081,8 +2168,8 @@
     "Zimbabwe": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.65,
+      "baseline": 1.5,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -2109,7 +2196,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.25,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -2140,10 +2227,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 13,
+      "article_count": 10,
       "source_count": 4,
-      "baseline": 12.1,
-      "ratio": 1.08,
+      "baseline": 11.8,
+      "ratio": 0.84,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2157,10 +2244,6 @@
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         }
       ],
@@ -2235,27 +2318,13 @@
           "source": "Daily Maverick",
           "published": "2026-02-15T22:44:12",
           "lead": "Younger political leaders are reshaping South Africa's landscape, ushering in fresh perspectives and dynamic reforms acr"
-        },
-        {
-          "title": "VIDEO: Watch – Epstein records detail South Africa links",
-          "url": "https://www.dailymaverick.co.za/article/watch-epstein-records-detail-south-africa-links",
-          "source": "Daily Maverick",
-          "published": "2026-02-15T21:16:51",
-          "lead": "US Justice Department records detail Jeffrey Epstein’s links to South Africa, including references to business contacts "
-        },
-        {
-          "title": "ANALYSIS: Joburg’s water crisis could smooth the DA’s path to mayoral victory",
-          "url": "https://www.dailymaverick.co.za/article/joburgs-water-crisis-could-smooth-the-das-path-to-mayoral-victory",
-          "source": "Daily Maverick",
-          "published": "2026-02-15T21:15:24",
-          "lead": "Johannesburg’s water problems offer an obvious route to a win for Helen Zille and the DA, thanks to the ANC’s poor handl"
         }
       ],
       "sources": [
+        "BBC Africa",
         "Africanews",
-        "AllAfrica",
         "Daily Maverick",
-        "BBC Africa"
+        "AllAfrica"
       ]
     },
     "Eswatini": {
