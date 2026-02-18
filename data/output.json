@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-18T08:02:07.430238",
+  "generated_at": "2026-02-18T11:25:44.195350",
   "summary": {
-    "high": 5,
-    "elevated": 13,
-    "normal": 21,
-    "quiet": 15
+    "high": 2,
+    "elevated": 4,
+    "normal": 25,
+    "quiet": 23
   },
   "countries": {
     "Morocco": {
@@ -45,22 +45,22 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Jeune Afrique",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 7,
+      "article_count": 5,
       "source_count": 5,
-      "baseline": 2.9,
-      "ratio": 2.44,
+      "baseline": 2.8,
+      "ratio": 1.8,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Crise",
@@ -95,25 +95,11 @@
           "lead": "Cette annonce du ministre de l’intérieur français a lieu au deuxième jour de sa visite à Alger, qui vise à renouer le di"
         },
         {
-          "title": "L’Algérie et le Niger mettent « fin à une période anormale de froideur » entre les deux pays",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/17/l-algerie-et-le-niger-mettent-fin-a-une-periode-anormale-de-froideur-entre-les-deux-pays_6667079_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-17T09:53:56",
-          "lead": "Au-delà du gazoduc transsaharien passant par le Niger, Alger propose un soutien économique et sécuritaire inédit."
-        },
-        {
           "title": "Laurent Nuñez en Algérie : Paris et Alger relancent « une coopération sécuritaire de très haut niveau »",
           "url": "https://www.jeuneafrique.com/1766585/politique/laurent-nunez-en-algerie-paris-et-alger-relancent-une-cooperation-securitaire-de-tres-haut-niveau/",
           "source": "Jeune Afrique",
           "published": "2026-02-17T17:47:25",
           "lead": "La France et l’Algérie se sont entendues pour relancer une « coopération sécuritaire de très haut niveau », a annoncé ce"
-        },
-        {
-          "title": "Algérie-Niger : après le dégel des relations, le gazoduc transsaharien relancé",
-          "url": "https://www.jeuneafrique.com/1766381/economie-entreprises/algerie-niger-apres-le-degel-des-relations-le-gazoduc-transsaharien-relance/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-17T11:01:15",
-          "lead": "Le chef du régime militaire du Niger, le général Abdourahamane Tiani, et le président algérien, Abdelmadjid Tebboune, on"
         },
         {
           "title": "Algeria and France agree to restore security cooperation after visit by French Interior Minister",
@@ -125,10 +111,10 @@
       ],
       "sources": [
         "Africanews",
-        "Le Monde Afrique",
-        "France24 Afrique",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "France24 Afrique"
       ]
     },
     "Tunisia": {
@@ -144,15 +130,19 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 0.34,
+      "ratio": 0.7,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -164,144 +154,60 @@
           "source": "Africanews",
           "published": "2026-02-17T16:10:49",
           "lead": "A new report by two of its agencies describes systematic rights violations and abuses of migrants, refugees, and asylum "
+        },
+        {
+          "title": "Libya: Migrants and Refugees in Libya Subjected to 'Systematic' Abuse - UN Report",
+          "url": "https://allafrica.com/stories/202602180167.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T09:23:51",
+          "lead": "[UN News] Migrants, refugees and asylum-seekers in Libya are enduring ruthless and systematic human rights violations, i"
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Egypt": {
-      "article_count": 6,
-      "source_count": 5,
-      "baseline": 1.8,
-      "ratio": 3.38,
-      "status": "high",
-      "confidence": "high",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        }
-      ],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 0.52,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Palestinians in Gaza face food shortages, restrictions as Ramadan begins",
+          "title": "Ramadan begins in Palestine, Gulf; Egypt, Syria, more Muslim states to come",
           "url": "https://www.aljazeera.com/news/2026/2/18/palestinians-in-gaza-face-food-shortages-restrictions-as-ramadan-begins?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-18T07:22:11",
-          "lead": "Muslim holy month begins in Palestine, Arab, Islamic states with Egypt, Jordan and Syria to follow Thursday"
-        },
-        {
-          "title": "Égyptologie: au Gabon, un vif intérêt pour une conférence sur l’historien sénégalais Cheikh Anta Diop",
-          "url": "https://www.rfi.fr/fr/afrique/20260217-%C3%A9gyptologie-au-gabon-un-vif-int%C3%A9r%C3%AAt-pour-une-conf%C3%A9rence-sur-l-historien-s%C3%A9n%C3%A9galais-cheikh-anta-diop",
-          "source": "RFI Afrique",
-          "published": "2026-02-17T12:46:16",
-          "lead": "À l’occasion du 40e anniversaire de la disparition de l’historien sénégalais, Cheikh Anta Diop, l’Université Omar Bongo "
-        },
-        {
-          "title": "Kenya and Egypt hold talks aimed at deepening trade and investment",
-          "url": "http://www.africanews.com/2026/02/17/kenya-and-egypt-hold-talks-aimed-at-deepening-trade-and-investment/",
-          "source": "Africanews",
-          "published": "2026-02-17T09:57:07",
-          "lead": "They also discussed water scarcity and support for the ongoing Nile Basin Initiative grouping together 10 countries"
-        },
-        {
-          "title": "Eight countries condemn Israel's West Bank land registration",
-          "url": "https://www.dailymaverick.co.za/article/eight-countries-condemn-israels-west-bank-land-registration",
-          "source": "Daily Maverick",
-          "published": "2026-02-17T11:42:53",
-          "lead": "Eight countries including Turkey, Egypt, Saudi Arabia, Qatar and the United Arab Emirates strongly condemned Israel's de"
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "As Sudan war approaches fourth year, humanitarian agencies appeal for support to refugees",
-          "url": "https://reliefweb.int/report/sudan/sudan-war-approaches-fourth-year-humanitarian-agencies-appeal-support-refugees",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:42:15",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
+          "lead": "Palestinians in Gaza face food shortages, restrictions as Israeli attacks continue during Islamic holy month."
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "ReliefWeb",
-        "Al Jazeera",
-        "Africanews",
-        "RFI Afrique"
+        "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 11,
-      "source_count": 4,
-      "baseline": 5.4,
-      "ratio": 2.05,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 5.6,
+      "ratio": 0.71,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "War",
-          "count": 5
+          "count": 4
         },
         {
           "word": "Refugees",
-          "count": 5
-        },
-        {
-          "word": "Crisis",
-          "count": 5
-        },
-        {
-          "word": "Displaced",
-          "count": 3
-        },
-        {
-          "word": "Humanitarian",
           "count": 2
         },
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -334,67 +240,17 @@
           "lead": "[UN News] As the war in Sudan approaches a fourth year, the UN refugee agency, UNHCR, and 123 partners appealed on Tuesd"
         },
         {
-          "title": "Sudan: AU Intensifies Diplomatic Push to End Conflicts in Sudan and Eastern DRC, Says Bankole Adeoye",
-          "url": "https://allafrica.com/stories/202602170502.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:50:51",
-          "lead": "[Shabelle] The African Union has stepped up efforts to secure ceasefires in Sudan and the eastern Democratic Republic of"
-        },
-        {
           "title": "Sudan crisis: UN agency launches $1.6 billion appeal to support refugees in seven countries",
           "url": "https://news.un.org/feed/view/en/story/2026/02/1166979",
           "source": "UN News Africa",
           "published": "2026-02-17T12:00:00",
           "lead": "As the war in Sudan approaches a fourth year, the UN refugee agency, UNHCR, and 123 partners appealed on Tuesday for $1."
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "Sudan: A medida que la guerra de Sudán se acerca a su cuarto año, las agencias humanitarias piden apoyo para las personas refugiadas",
-          "url": "https://reliefweb.int/report/sudan/medida-que-la-guerra-de-sudan-se-acerca-su-cuarto-ano-las-agencias-humanitarias-piden-apoyo-para-las-personas-refugiadas",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:34:43",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "South Sudan: Conflict in Jonglei State - Flash Update No. 8 (as of 17 February 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-8-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T17:22:21",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
-        },
-        {
-          "title": "Sudan: “Fue trágico”: Mujeres y personal sanitario en Sudán describen su huida de El Fasher",
-          "url": "https://reliefweb.int/report/sudan/fue-tragico-mujeres-y-personal-sanitario-en-sudan-describen-su-huida-de-el-fasher",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T15:33:06",
-          "lead": "Country: Sudan\n                                      Source: United Nations Population Fund\n                            "
-        },
-        {
-          "title": "As Sudan war approaches fourth year, humanitarian agencies appeal for support to refugees",
-          "url": "https://reliefweb.int/report/sudan/sudan-war-approaches-fourth-year-humanitarian-agencies-appeal-support-refugees",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:42:15",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "South Sudan — Event Tracking Summary (January - December 2025)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-event-tracking-summary-january-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:33:08",
-          "lead": "Country: South Sudan\n                                      Source: International Organization for Migration\n            "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "AllAfrica",
+        "UN News Africa",
         "Africanews",
-        "UN News Africa"
+        "AllAfrica"
       ]
     },
     "Mauritania": {
@@ -410,10 +266,10 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.9,
-      "ratio": 0.77,
+      "ratio": 0.51,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -432,59 +288,31 @@
           "source": "Daily Maverick",
           "published": "2026-02-17T20:52:19",
           "lead": "Cynthia Nowizana Mali’s murder highlights a disturbing trend of Money-for-Murder schemes, as police investigate more tha"
-        },
-        {
-          "title": "Mali | Initiative Conjointe de Suivi des Marchés (ICSM) - Fiche informative (Décembre 2025)",
-          "url": "https://reliefweb.int/report/mali/mali-initiative-conjointe-de-suivi-des-marches-icsm-fiche-informative-decembre-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T04:04:05",
-          "lead": "Country: Mali\n                                      Source: REACH Initiative\n                                           "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb",
-        "Daily Maverick"
+        "Daily Maverick",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 6,
-      "source_count": 3,
-      "baseline": 2.4,
-      "ratio": 2.54,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 2.5,
+      "ratio": 1.18,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 4
-        },
-        {
-          "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Humanitaire",
-          "count": 2
-        },
-        {
-          "word": "Gouvernement",
-          "count": 2
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
           "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Insurgent",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "President",
           "count": 1
         }
       ],
@@ -498,140 +326,63 @@
           "lead": "Après la dissolution des partis décidée par Ibrahim Traoré et avalisée par l’Assemblée législative de transition, les ra"
         },
         {
-          "title": "Seven Ghanaian traders killed in Burkina Faso militant attack",
-          "url": "http://www.africanews.com/2026/02/17/seven-ghanaian-traders-killed-in-burkina-faso-militant-attack/",
-          "source": "Africanews",
-          "published": "2026-02-17T10:20:33",
-          "lead": "Seven Ghanaian tomato traders were killed when Islamist insurgents attacked the town of Titao in northern Burkina Faso o"
+          "title": "Ghana: Burkina Faso Fatal Attack - Pres Mahama Orders Evacuation of Injured Traders",
+          "url": "https://allafrica.com/stories/202602180330.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T11:19:23",
+          "lead": "[Ghanaian Times] THE Ghana Armed Forces (GAF) will evacuate Ghanaian traders injured in an armed insurgent attack in Bur"
         },
         {
-          "title": "UNICEF Burkina Faso Humanitarian Situation Report No. 4 (End of Year), Jan-Dec 2025",
-          "url": "https://reliefweb.int/report/burkina-faso/unicef-burkina-faso-humanitarian-situation-report-no-4-end-year-jan-dec-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:40:18",
-          "lead": "Country: Burkina Faso\n                                      Source: UN Children's Fund\n                                 "
-        },
-        {
-          "title": "Burkina Faso : Besoins humanitaires et plan de réponse des partenaires 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-besoins-humanitaires-et-plan-de-reponse-des-partenaires-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T17:16:09",
-          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
-        },
-        {
-          "title": "DR Congo: Afrique de l’Ouest et centrale : Derniers événements en bref (10-16 février 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/afrique-de-louest-et-centrale-derniers-evenements-en-bref-10-16-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T16:22:11",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Central African Republic\n                                    "
-        },
-        {
-          "title": "DR Congo: West and Central Africa: Latest Events at a glance (10–16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-latest-events-glance-10-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T16:19:42",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Central African Republic\n                                    "
+          "title": "Ghana: Tomato Traders Suspend Burkina Faso Imports ...After Deadly Attack",
+          "url": "https://allafrica.com/stories/202602180329.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T11:15:15",
+          "lead": "[Ghanaian Times] THE Ghana National Tomato Traders and Transporters Association has announced the suspension of tomato i"
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Niger": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 4.7,
-      "ratio": 0.63,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "L’Algérie et le Niger mettent « fin à une période anormale de froideur » entre les deux pays",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/17/l-algerie-et-le-niger-mettent-fin-a-une-periode-anormale-de-froideur-entre-les-deux-pays_6667079_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-17T09:53:56",
-          "lead": "Au-delà du gazoduc transsaharien passant par le Niger, Alger propose un soutien économique et sécuritaire inédit."
-        },
-        {
-          "title": "Algérie-Niger : après le dégel des relations, le gazoduc transsaharien relancé",
-          "url": "https://www.jeuneafrique.com/1766381/economie-entreprises/algerie-niger-apres-le-degel-des-relations-le-gazoduc-transsaharien-relance/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-17T11:01:15",
-          "lead": "Le chef du régime militaire du Niger, le général Abdourahamane Tiani, et le président algérien, Abdelmadjid Tebboune, on"
-        },
-        {
-          "title": "Indice de solution et de mobilité - République du Niger - Région de Diffa - Bassin du Lac Tchad | octobre 2025, Round 8",
-          "url": "https://reliefweb.int/report/niger/indice-de-solution-et-de-mobilite-republique-du-niger-region-de-diffa-bassin-du-lac-tchad-octobre-2025-round-8",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T01:33:16",
-          "lead": "Country: Niger\n                                      Source: International Organization for Migration\n                  "
-        }
-      ],
-      "sources": [
-        "ReliefWeb",
-        "Jeune Afrique",
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Senegal": {
-      "article_count": 9,
+      "article_count": 7,
       "source_count": 5,
-      "baseline": 5.5,
-      "ratio": 1.62,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 5.7,
+      "ratio": 1.22,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
           "count": 3
         },
         {
-          "word": "Refugees",
-          "count": 3
-        },
-        {
-          "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
           "word": "Crise",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -645,6 +396,13 @@
           "lead": "Lors d'une conférence de presse donnée mardi 17 février, le procureur de la République, Ibrahim Ndoye, a estimé que le j"
         },
         {
+          "title": "À la Une: va-t-on vers la fin de la crise universitaire au Sénégal?",
+          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260218-%C3%A0-la-une-va-t-on-vers-la-fin-de-la-crise-universitaire-au-s%C3%A9n%C3%A9gal",
+          "source": "RFI Afrique",
+          "published": "2026-02-18T08:58:59",
+          "lead": ""
+        },
+        {
           "title": "Sénégal: une grève des cours dans les universités entre décès d’un étudiant, détentions et arriérés de bourses",
           "url": "https://www.rfi.fr/fr/afrique/20260217-s%C3%A9n%C3%A9gal-une-gr%C3%A8ve-des-cours-dans-les-universit%C3%A9s-entre-d%C3%A9c%C3%A8s-d-un-%C3%A9tudiant-d%C3%A9tentions-et-arri%C3%A9r%C3%A9s-de-bourses",
           "source": "RFI Afrique",
@@ -652,18 +410,18 @@
           "lead": "Au Sénégal, le bras de fer se poursuit entre les étudiants et les autorités. Un mouvement de grève des cours débute ce 1"
         },
         {
-          "title": "Égyptologie: au Gabon, un vif intérêt pour une conférence sur l’historien sénégalais Cheikh Anta Diop",
-          "url": "https://www.rfi.fr/fr/afrique/20260217-%C3%A9gyptologie-au-gabon-un-vif-int%C3%A9r%C3%AAt-pour-une-conf%C3%A9rence-sur-l-historien-s%C3%A9n%C3%A9galais-cheikh-anta-diop",
-          "source": "RFI Afrique",
-          "published": "2026-02-17T12:46:16",
-          "lead": "À l’occasion du 40e anniversaire de la disparition de l’historien sénégalais, Cheikh Anta Diop, l’Université Omar Bongo "
-        },
-        {
-          "title": "Sénégal: l'étudiant décédé est mort après avoir sauté d'un étage, selon le procureur",
+          "title": "Sénégal: l'étudiant est mort après avoir sauté d'un étage, selon le procureur",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260217-s%C3%A9n%C3%A9gal-l-%C3%A9tudiant-d%C3%A9c%C3%A9d%C3%A9-est-mort-apr%C3%A8s-avoir-saut%C3%A9-d-un-%C3%A9tage-selon-le-procureur",
           "source": "France24 Afrique",
           "published": "2026-02-17T22:23:15",
-          "lead": "A Dakar, la controverse enfle après la mort d’Abdoulaye Ba, l'étudiant décédé lors d’une intervention policière à l’Univ"
+          "lead": "À Dakar, la controverse enfle après la mort d’Abdoulaye Ba, l'étudiant décédé lors d’une intervention policière à l'univ"
+        },
+        {
+          "title": "Senegal prosecutor rejects accusations police tortured and killed student",
+          "url": "http://www.africanews.com/2026/02/18/senegal-prosecutor-rejects-accusations-police-tortured-and-killed-student/",
+          "source": "Africanews",
+          "published": "2026-02-18T07:16:46",
+          "lead": "A public prosecutor in Senegal has rejected accusations that a student who died on a Dakar university campus was killed "
         },
         {
           "title": "Senegal: Senegal Arrests 12 Men Using Punitive Anti-LGBT Laws",
@@ -671,27 +429,6 @@
           "source": "AllAfrica",
           "published": "2026-02-18T06:24:13",
           "lead": "[HRW] Release the Men; Repeal Anti-Gay, Anti-HIV Laws"
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "Sudan: A medida que la guerra de Sudán se acerca a su cuarto año, las agencias humanitarias piden apoyo para las personas refugiadas",
-          "url": "https://reliefweb.int/report/sudan/medida-que-la-guerra-de-sudan-se-acerca-su-cuarto-ano-las-agencias-humanitarias-piden-apoyo-para-las-personas-refugiadas",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:34:43",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "As Sudan war approaches fourth year, humanitarian agencies appeal for support to refugees",
-          "url": "https://reliefweb.int/report/sudan/sudan-war-approaches-fourth-year-humanitarian-agencies-appeal-support-refugees",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:42:15",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
         },
         {
           "title": "Senegal Arrests 12 Men Using Punitive Anti-LGBT Laws",
@@ -702,11 +439,11 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "AllAfrica",
-        "France24 Afrique",
+        "Africanews",
+        "Human Rights Watch",
         "RFI Afrique",
-        "Human Rights Watch"
+        "AllAfrica",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -725,16 +462,16 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.16,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Coup",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Coup",
           "count": 1
         }
       ],
@@ -765,40 +502,9 @@
       "sources": []
     },
     "Sierra Leone": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Sierra Leone: Sierra Leone's Harsh New Laws to Protect Women and Girls Are Causing Harm in the Wrong Places",
-          "url": "https://allafrica.com/stories/202602180004.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T04:36:52",
-          "lead": "[The Conversation Africa] In the decades after Sierra Leone's civil war (1991-2002), there was pressure on the west Afri"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
-    "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -806,6 +512,44 @@
       "keyword_pairs": [],
       "articles": [],
       "sources": []
+    },
+    "Liberia": {
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 1.2,
+      "ratio": 1.63,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Liberia: As Liberia Debates War Crimes Court, Experts Urge Forced Marriage Be Treated As a Crime",
+          "url": "https://allafrica.com/stories/202602180324.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T11:13:19",
+          "lead": "[FrontPageAfrica] Summary:"
+        },
+        {
+          "title": "Liberia: Press Secretary Breaks Ranks With Justice Ministry",
+          "url": "https://allafrica.com/stories/202602180210.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T09:50:07",
+          "lead": "[Liberian Observer] A rare and delicate institutional tension could be emerging within the Liberian government after the"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Côte d'Ivoire": {
       "article_count": 0,
@@ -820,23 +564,23 @@
       "sources": []
     },
     "Ghana": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 2,
       "baseline": 2.8,
-      "ratio": 1.44,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.8,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
           "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Insurgent",
           "count": 1
         }
       ],
@@ -850,11 +594,11 @@
           "lead": "The United States Embassy in Ghana has announced the release of more than 1,000 new interview appointments for B1/B2 vis"
         },
         {
-          "title": "Seven Ghanaian traders killed in Burkina Faso militant attack",
-          "url": "http://www.africanews.com/2026/02/17/seven-ghanaian-traders-killed-in-burkina-faso-militant-attack/",
-          "source": "Africanews",
-          "published": "2026-02-17T10:20:33",
-          "lead": "Seven Ghanaian tomato traders were killed when Islamist insurgents attacked the town of Titao in northern Burkina Faso o"
+          "title": "Ghana: Burkina Faso Fatal Attack - Pres Mahama Orders Evacuation of Injured Traders",
+          "url": "https://allafrica.com/stories/202602180330.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T11:19:23",
+          "lead": "[Ghanaian Times] THE Ghana Armed Forces (GAF) will evacuate Ghanaian traders injured in an armed insurgent attack in Bur"
         },
         {
           "title": "Ghana: Russian Embassy Responds to Alleged Sexual Misconduct By Supposed Russian Citizen in Ghana",
@@ -864,16 +608,23 @@
           "lead": "[Ghanaian Times] The Embassy of the Russian Federation in Ghana has addressed reports linking a supposed Russian citizen"
         },
         {
-          "title": "Ghana: No Bed Syndrome in Our Hospitals Must End Now",
-          "url": "https://allafrica.com/stories/202602170444.html",
+          "title": "Ghana: Tomato Traders Suspend Burkina Faso Imports ...After Deadly Attack",
+          "url": "https://allafrica.com/stories/202602180329.html",
           "source": "AllAfrica",
-          "published": "2026-02-17T14:26:30",
-          "lead": "[Ghanaian Times] Another Ghanaian has died not because his injuries were beyond treatment, not because help was impossib"
+          "published": "2026-02-18T11:15:15",
+          "lead": "[Ghanaian Times] THE Ghana National Tomato Traders and Transporters Association has announced the suspension of tomato i"
+        },
+        {
+          "title": "Ghana: 60 Percent of Ghana's Tree Crops to Be Processed Locally",
+          "url": "https://allafrica.com/stories/202602180218.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T09:53:19",
+          "lead": "[Ghanaian Times] President John Dramani Mahama has announced plans to process at least 60 per cent of Ghana's major tree"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -889,12 +640,12 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 1.6,
-      "ratio": 1.83,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 1.7,
+      "ratio": 1.19,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -911,13 +662,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T07:00:00",
           "lead": "« Modéré » pour les uns, « caution du pouvoir » pour les autres, Paul Hounkpè est le seul candidat à se présenter face a"
-        },
-        {
-          "title": "Bénin-France, un partenariat redevenu privilégié ?",
-          "url": "https://www.jeuneafrique.com/1761818/politique/cotonou-paris-un-partenariat-redevenu-privilegie/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-17T09:13:56",
-          "lead": "En même temps que ses rapports avec les pays du Sahel se sont tendus, Paris a vu s’intensifier ses relations avec Cotono"
         }
       ],
       "sources": [
@@ -926,17 +670,13 @@
       ]
     },
     "Nigeria": {
-      "article_count": 12,
-      "source_count": 6,
-      "baseline": 9.0,
-      "ratio": 1.33,
+      "article_count": 10,
+      "source_count": 5,
+      "baseline": 9.1,
+      "ratio": 1.09,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
         {
           "word": "Combat",
           "count": 1
@@ -952,10 +692,6 @@
         {
           "word": "President",
           "count": 1
-        },
-        {
-          "word": "Protest",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -968,25 +704,18 @@
           "lead": "The troops, who landed at an airfield in Bauchi state, will not take part in combat operations, officials say."
         },
         {
+          "title": "Nigerians hang on to hope of 2026 World Cup reprieve",
+          "url": "https://www.bbc.com/sport/football/articles/c07jzv51ygvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-17T13:47:44",
+          "lead": "Nigeria fans are still hoping Fifa may rule in their favour over allegations that DR Congo fielded ineligible players du"
+        },
+        {
           "title": "Nigeria: une centaine de militaires américains sont arrivés dans le nord-est du pays",
           "url": "https://www.rfi.fr/fr/afrique/20260218-nigeria-une-centaine-de-militaires-am%C3%A9ricains-sont-arriv%C3%A9s-dans-le-nord-est-du-pays",
           "source": "RFI Afrique",
           "published": "2026-02-18T07:03:21",
           "lead": "Une centaine de militaires américains sont arrivés à Bauchi dans le nord-est du Nigeria, selon le porte-parole du quarti"
-        },
-        {
-          "title": "Le Nigeria dénonce le recrutement « illégal » de ses ressortissants pour les conflits à l’étranger",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/17/le-nigeria-denonce-le-recrutement-illegal-de-ses-ressortissants-pour-les-conflits-a-l-etranger_6667091_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-17T11:23:18",
-          "lead": "Les révélations se multiplient dernièrement sur des Africains enrôlés de force par la Russie sous des motifs fallacieux "
-        },
-        {
-          "title": "Nigeria : une centaine de militaires américains arrivent pour former l’armée locale",
-          "url": "https://www.jeuneafrique.com/1766370/politique/nigeria-une-centaine-de-militaires-americains-arrivent-pour-former-larmee-locale/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-17T11:06:29",
-          "lead": "Une « centaine de militaires américains » arrivent au Nigeria pour former l’armée dans sa lutte contre les groupes jihad"
         },
         {
           "title": "Nigeria issues warning over illegal recruitment of its citizens for Russia’s war in Ukraine",
@@ -1010,11 +739,11 @@
           "lead": "Nigeria’s data protection regulator has opened an investigation into Chinese-owned e-commerce platform Temu over suspect"
         },
         {
-          "title": "Dozens of US troops deployed to Nigeria to help with training and intelligence sharing",
-          "url": "http://www.africanews.com/2026/02/17/dozens-of-us-troops-deployed-to-nigeria-to-help-with-training-and-intelligence-sharing/",
-          "source": "Africanews",
-          "published": "2026-02-17T08:45:32",
-          "lead": "About 100 US troops plus equipment have arrived in Nigeria to help train soldiers in the West African country as the gov"
+          "title": "Nigeria: Nigeria Commits to Deepening Relations With Iran",
+          "url": "https://allafrica.com/stories/202602180115.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T07:39:31",
+          "lead": "[Premium Times] \"Nigeria is interested in translating political goodwill into tangible outcomes through structured mecha"
         },
         {
           "title": "Nigeria: Ramadan Starts in Nigeria On Wednesday - Sultanate Council",
@@ -1024,34 +753,26 @@
           "lead": "[Premium Times] The Sultan of Sokoto and President General, Supreme Council for Islamic Affairs (NSCIA) has accepted the"
         },
         {
-          "title": "Nigeria: Nigeria Commits to Deepening Relations With Iran",
-          "url": "https://allafrica.com/stories/202602180115.html",
+          "title": "Nigeria: El-Rufai Spends Second Night in EFCC's Custody",
+          "url": "https://allafrica.com/stories/202602180267.html",
           "source": "AllAfrica",
-          "published": "2026-02-18T07:39:31",
-          "lead": "[Premium Times] \"Nigeria is interested in translating political goodwill into tangible outcomes through structured mecha"
+          "published": "2026-02-18T10:43:09",
+          "lead": "[Premium Times] Mr El -Rufai has been detained since Monday when he honoured the agency's invitation for questioning ove"
         },
         {
-          "title": "Nigeria: Reps Stage Walk Out As Protest Continues Over Electronic Transmission",
-          "url": "https://allafrica.com/stories/202602170510.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:56:57",
-          "lead": "[Daily Trust] Some members of the House of Representatives have walked out of the green chamber in protest against the m"
-        },
-        {
-          "title": "Nigeria: 14 Buried After Wedding Cortege Drowns in Kebbi Boat Accident",
-          "url": "https://allafrica.com/stories/202602170477.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:35:15",
-          "lead": "[Premium Times] A wedding ceremony ended in grief on Sunday when an overcrowded passenger boat overturned at dusk, killi"
+          "title": "Nigeria opens probe into Temu over suspected data protection breaches",
+          "url": "https://www.dailymaverick.co.za/article/nigeria-opens-probe-into-temu-over-suspected-data-protection-breaches",
+          "source": "Daily Maverick",
+          "published": "2026-02-18T11:57:24",
+          "lead": "Nigeria's data watchdog has opened a probe into Chinese-owned e-commerce giant Temu for suspected data-law violations, t"
         }
       ],
       "sources": [
-        "BBC Africa",
         "Africanews",
-        "Le Monde Afrique",
+        "Daily Maverick",
+        "BBC Africa",
         "AllAfrica",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Cape Verde": {
@@ -1067,80 +788,16 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 4,
-      "source_count": 1,
-      "baseline": 2.6,
-      "ratio": 1.52,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 3
-        },
-        {
-          "word": "Humanitaire",
-          "count": 2
-        },
-        {
-          "word": "Réfugiés",
-          "count": 2
-        },
-        {
-          "word": "Crise",
-          "count": 2
-        },
-        {
-          "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.8,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Indice de solution et de mobilité - République du Niger - Région de Diffa - Bassin du Lac Tchad | octobre 2025, Round 8",
-          "url": "https://reliefweb.int/report/niger/indice-de-solution-et-de-mobilite-republique-du-niger-region-de-diffa-bassin-du-lac-tchad-octobre-2025-round-8",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T01:33:16",
-          "lead": "Country: Niger\n                                      Source: International Organization for Migration\n                  "
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "Sudan: A medida que la guerra de Sudán se acerca a su cuarto año, las agencias humanitarias piden apoyo para las personas refugiadas",
-          "url": "https://reliefweb.int/report/sudan/medida-que-la-guerra-de-sudan-se-acerca-su-cuarto-ano-las-agencias-humanitarias-piden-apoyo-para-las-personas-refugiadas",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:34:43",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "As Sudan war approaches fourth year, humanitarian agencies appeal for support to refugees",
-          "url": "https://reliefweb.int/report/sudan/sudan-war-approaches-fourth-year-humanitarian-agencies-appeal-support-refugees",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:42:15",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Cameroon": {
       "article_count": 2,
@@ -1153,63 +810,35 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Cameroun: deux nouveaux témoins issus des renseignements entendus au procès de l’assassinat de Martinez Zogo",
-          "url": "https://www.rfi.fr/fr/afrique/20260217-cameroun-deux-nouveaux-t%C3%A9moins-issus-des-renseignements-entendus-au-proc%C3%A8s-de-l-assassinat-de-martinez-zogo",
+          "title": "Cameroun: dans le procès de l'assassinat de Martinez Zogo, des agents du contre-espionnage entendus",
+          "url": "https://www.rfi.fr/fr/afrique/20260218-cameroun-dans-le-proc%C3%A8s-de-l-assassinat-de-martinez-zogo-des-agents-du-contre-espionnage-entendus",
           "source": "RFI Afrique",
-          "published": "2026-02-17T08:15:32",
-          "lead": "Deux nouveaux témoins, issus des services de renseignement du Cameroun, ont été entendus ce 16 février 2026, au procès p"
+          "published": "2026-02-18T09:21:31",
+          "lead": "Le procès Martinez Zogo s'est poursuivi mardi 17 février au tribunal militaire de Yaoundé. Des agents de la direction de"
         },
         {
-          "title": "Cameroon: Cameroun : Suivi des urgences - Mouvements de populations - Synthèse des déplacements dans le département du Mayo-Kani, Tableau de bord #137 (16 - 17 février 2026) | Date de publication : 17 février 2026",
-          "url": "https://reliefweb.int/report/cameroon/cameroun-suivi-des-urgences-mouvements-de-populations-synthese-des-deplacements-dans-le-departement-du-mayo-kani-tableau-de-bord-137-16-17-fevrier-2026-date-de-publication-17-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T01:33:13",
-          "lead": "Country: Cameroon\n                                      Source: International Organization for Migration\n               "
+          "title": "Migrants expulsés des États-Unis et retenus au Cameroun : la polémique enfle",
+          "url": "https://www.jeuneafrique.com/1766596/politique/migrants-expulses-des-etats-unis-et-retenus-au-cameroun-la-polemique-enfle/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-18T12:24:55",
+          "lead": "Quinze Africains, renvoyés des États-Unis, sont assignés à résidence au Cameroun. Cette rétention, jusqu’ici secrète, em"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "CAR": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 0.9,
-      "ratio": 3.47,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.0,
+      "ratio": 1.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Épidémie",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -1221,91 +850,23 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T08:00:00",
           "lead": "Alors que son parti a largement dominé le premier tour des législatives, le président fait face à un dilemme : régner sa"
-        },
-        {
-          "title": "DR Congo: Afrique de l’Ouest et centrale : Derniers événements en bref (10-16 février 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/afrique-de-louest-et-centrale-derniers-evenements-en-bref-10-16-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T16:22:11",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Central African Republic\n                                    "
-        },
-        {
-          "title": "DR Congo: West and Central Africa: Latest Events at a glance (10–16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-latest-events-glance-10-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T16:19:42",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Central African Republic\n                                    "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 3,
-      "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 2.06,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Displaced",
-          "count": 3
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Violence",
-          "count": 2
-        },
-        {
-          "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.6,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "UNICEF South Sudan Humanitarian Situation Report No. 11, 1-30 November 2025",
-          "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-situation-report-no-11-1-30-november-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T03:45:46",
-          "lead": "Country: South Sudan\n                                      Source: UN Children's Fund\n                                  "
-        },
-        {
-          "title": "South Sudan: Conflict in Jonglei State - Flash Update No. 8 (as of 17 February 2026)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-8-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T17:22:21",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
-        },
-        {
-          "title": "South Sudan — Event Tracking Summary (January - December 2025)",
-          "url": "https://reliefweb.int/report/south-sudan/south-sudan-event-tracking-summary-january-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:33:08",
-          "lead": "Country: South Sudan\n                                      Source: International Organization for Migration\n            "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -1320,10 +881,10 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 5,
       "baseline": 0.9,
-      "ratio": 4.63,
+      "ratio": 5.79,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -1335,18 +896,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Social media suspended in Gabon for 'spreading of false information'",
+          "url": "https://www.bbc.com/news/articles/cx2rg2vndk1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-18T11:05:05",
+          "lead": "The media regulator said the ban would be in place \"until further notice\"."
+        },
+        {
           "title": "Gabon: les autorités suspendent les réseaux sociaux jusqu'à nouvel ordre",
           "url": "https://www.rfi.fr/fr/afrique/20260217-gabon-les-autorit%C3%A9s-suspendent-les-r%C3%A9seaux-sociaux-jusqu-%C3%A0-nouvel-ordre",
           "source": "RFI Afrique",
           "published": "2026-02-17T23:54:21",
-          "lead": "La Haute autorité de la communication (HAC) du Gabon a décidé, mardi 17 février 2026 dans la soirée, la suspension imméd"
-        },
-        {
-          "title": "Égyptologie: au Gabon, un vif intérêt pour une conférence sur l’historien sénégalais Cheikh Anta Diop",
-          "url": "https://www.rfi.fr/fr/afrique/20260217-%C3%A9gyptologie-au-gabon-un-vif-int%C3%A9r%C3%AAt-pour-une-conf%C3%A9rence-sur-l-historien-s%C3%A9n%C3%A9galais-cheikh-anta-diop",
-          "source": "RFI Afrique",
-          "published": "2026-02-17T12:46:16",
-          "lead": "À l’occasion du 40e anniversaire de la disparition de l’historien sénégalais, Cheikh Anta Diop, l’Université Omar Bongo "
+          "lead": "La Haute Autorité de la communication (HAC) du Gabon a décidé, mardi 17 février 2026, la suspension immédiate des réseau"
         },
         {
           "title": "Le Gabon annonce la suspension des réseaux sociaux \"jusqu'à nouvel ordre\"",
@@ -1361,125 +922,71 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-18T01:09:26",
           "lead": "La Haute Autorité de la communication gabonaise justifie la décision par la diffusion sur les plateformes numériques de "
+        },
+        {
+          "title": "Gabon : les réseaux sociaux suspendus « jusqu’à nouvel ordre »",
+          "url": "https://www.jeuneafrique.com/1766668/politique/gabon-les-reseaux-sociaux-suspendus-jusqua-nouvel-ordre/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-18T10:42:54",
+          "lead": "La Haute autorité de la communication (HAC) a annoncé le 17 février la suspension immédiate et « jusqu’à nouvel ordre » "
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
         "Le Monde Afrique",
+        "BBC Africa",
         "France24 Afrique"
       ]
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.4,
-      "ratio": 1.42,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Sudan: AU Intensifies Diplomatic Push to End Conflicts in Sudan and Eastern DRC, Says Bankole Adeoye",
-          "url": "https://allafrica.com/stories/202602170502.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:50:51",
-          "lead": "[Shabelle] The African Union has stepped up efforts to secure ceasefires in Sudan and the eastern Democratic Republic of"
-        },
-        {
-          "title": "DR Congo: EU announces over €81 million in humanitarian aid as conflict in eastern Democratic Republic of Congo pushes Great Lakes crisis to new extremes",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/eu-announces-over-eu81-million-humanitarian-aid-conflict-eastern-democratic-republic-congo-pushes-great-lakes-crisis-new-extremes",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T14:33:14",
-          "lead": "Countries: Democratic Republic of the Congo, Burundi, Rwanda, United Republic of Tanzania\n                              "
-        }
-      ],
-      "sources": [
-        "AllAfrica",
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "DRC": {
-      "article_count": 8,
-      "source_count": 3,
-      "baseline": 7.1,
-      "ratio": 1.12,
+      "article_count": 5,
+      "source_count": 2,
+      "baseline": 7.2,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "M23",
-          "count": 2
-        },
         {
           "word": "Humanitaire",
           "count": 2
         },
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Explosion",
+          "word": "M23",
           "count": 1
         },
         {
-          "word": "Armed group",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Epidemic",
+          "word": "Crise",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Est de la RDC: un mois après le départ de l'AFC/M23, Uvira tente de reprendre son souffle",
+          "title": "Est de la RDC: un mois après le départ de l'AFC/M23, l'activité économique reprend timidement à Uvira",
           "url": "https://www.rfi.fr/fr/afrique/20260218-est-de-la-rdc-un-mois-apr%C3%A8s-le-d%C3%A9part-de-l-afc-m23-uvira-tente-de-reprendre-son-souffle",
           "source": "RFI Afrique",
           "published": "2026-02-18T05:59:54",
-          "lead": "Dans l'est de la République démocratique du Congo (RDC), Uvira, la deuxième plus grande ville du Sud-Kivu après Bukavu, "
+          "lead": "Dans l'est de la République démocratique du Congo, Uvira, la deuxième plus grande ville du Sud-Kivu après Bukavu, reste "
         },
         {
-          "title": "Gabon: les autorités suspendent les réseaux sociaux jusqu'à nouvel ordre",
-          "url": "https://www.rfi.fr/fr/afrique/20260217-gabon-les-autorit%C3%A9s-suspendent-les-r%C3%A9seaux-sociaux-jusqu-%C3%A0-nouvel-ordre",
+          "title": "RDC: au procès du général Philémon Yav Irung, l’accusation et la défense s’affrontent sur la preuve clé",
+          "url": "https://www.rfi.fr/fr/afrique/20260218-rdc-au-proc%C3%A8s-du-g%C3%A9n%C3%A9ral-phil%C3%A9mon-yav-irung-l-accusation-et-la-d%C3%A9fense-s-affrontent-sur-la-preuve-cl%C3%A9",
           "source": "RFI Afrique",
-          "published": "2026-02-17T23:54:21",
-          "lead": "La Haute autorité de la communication (HAC) du Gabon a décidé, mardi 17 février 2026 dans la soirée, la suspension imméd"
+          "published": "2026-02-18T09:11:56",
+          "lead": "C'est un procès sensible qui s'est poursuivi, mardi 17 février, en République démocratique du Congo (RDC) devant la Haut"
         },
         {
           "title": "Est de la RDC: l'UE annonce une aide humanitaire de plus de 81 millions d'euros pour les victimes du conflit",
@@ -1496,38 +1003,16 @@
           "lead": "Qu'en est-il de l’accord entre la RDC et les États-Unis sur les minerais stratégiques ? Début février, les deux pays se "
         },
         {
-          "title": "Sudan: AU Intensifies Diplomatic Push to End Conflicts in Sudan and Eastern DRC, Says Bankole Adeoye",
-          "url": "https://allafrica.com/stories/202602170502.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:50:51",
-          "lead": "[Shabelle] The African Union has stepped up efforts to secure ceasefires in Sudan and the eastern Democratic Republic of"
-        },
-        {
-          "title": "DR Congo: MSF responds to severe cholera epidemic in Sangé",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/dr-congo-msf-responds-severe-cholera-epidemic-sange",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T20:33:06",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: Médecins Sans Frontières\n       "
-        },
-        {
-          "title": "DR Congo: Afrique de l’Ouest et centrale : Derniers événements en bref (10-16 février 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/afrique-de-louest-et-centrale-derniers-evenements-en-bref-10-16-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T16:22:11",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Central African Republic\n                                    "
-        },
-        {
-          "title": "DR Congo: EU announces over €81 million in humanitarian aid as conflict in eastern Democratic Republic of Congo pushes Great Lakes crisis to new extremes",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/eu-announces-over-eu81-million-humanitarian-aid-conflict-eastern-democratic-republic-congo-pushes-great-lakes-crisis-new-extremes",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T14:33:14",
-          "lead": "Countries: Democratic Republic of the Congo, Burundi, Rwanda, United Republic of Tanzania\n                              "
+          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-18T10:09:04",
+          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb",
-        "AllAfrica"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1543,26 +1028,13 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.59,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.9,
+      "ratio": 1.16,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1571,28 +1043,24 @@
           "source": "AllAfrica",
           "published": "2026-02-18T07:43:32",
           "lead": "[CPJ] Angolan journalist and lawyer Teixeira C&#xe2;ndido wants to know who targeted him with spyware, and he wants just"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Eritrea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.38,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.75,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -1600,6 +1068,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war",
+          "url": "https://www.aljazeera.com/features/2026/2/18/fears-of-slow-certain-death-stalk-tigray-amid-rumblings-of-renewed-war?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-18T09:13:38",
+          "lead": "As tensions escalate between Ethiopia and Eritrea, would new conflict position Addis Ababa against Tigray’s leadership?"
+        },
         {
           "title": "Éthiopie: le Premier ministre accueille en grande pompe le président turc à Addis-Abeba",
           "url": "https://www.rfi.fr/fr/afrique/20260218-%C3%A9thiopie-le-premier-ministre-accueille-en-grande-pompe-le-pr%C3%A9sident-turc-%C3%A0-addis-abeba",
@@ -1609,6 +1084,7 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "RFI Afrique"
       ]
     },
@@ -1625,48 +1101,54 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 9,
+      "article_count": 6,
       "source_count": 4,
-      "baseline": 4.6,
-      "ratio": 1.96,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 4.8,
+      "ratio": 1.25,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Crisis",
-          "count": 3
-        },
-        {
-          "word": "Refugees",
-          "count": 3
-        },
         {
           "word": "Président",
           "count": 2
         },
         {
           "word": "War",
-          "count": 2
+          "count": 1
         },
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Displaced",
-          "count": 2
+          "word": "Gouvernement",
+          "count": 1
         },
         {
           "word": "Coup",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Fears of ‘slow, certain death’ stalk Tigray amid rumblings of renewed war",
+          "url": "https://www.aljazeera.com/features/2026/2/18/fears-of-slow-certain-death-stalk-tigray-amid-rumblings-of-renewed-war?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-18T09:13:38",
+          "lead": "As tensions escalate between Ethiopia and Eritrea, would new conflict position Addis Ababa against Tigray’s leadership?"
+        },
+        {
+          "title": "Coffee-growing countries becoming too hot to cultivate beans, analysis finds",
+          "url": "https://www.theguardian.com/environment/2026/feb/18/coffee-growing-countries-too-hot-to-cultivate-beans-analysis",
+          "source": "The Guardian Africa",
+          "published": "2026-02-18T10:00:05",
+          "lead": "Five countries responsible for 75% of world’s coffee supply record average of 57 extra days of coffee-harming heat a yea"
+        },
         {
           "title": "Éthiopie: le Premier ministre accueille en grande pompe le président turc à Addis-Abeba",
           "url": "https://www.rfi.fr/fr/afrique/20260218-%C3%A9thiopie-le-premier-ministre-accueille-en-grande-pompe-le-pr%C3%A9sident-turc-%C3%A0-addis-abeba",
@@ -1694,55 +1176,20 @@
           "source": "Africanews",
           "published": "2026-02-17T16:14:11",
           "lead": "President Recep Tayyip Erdoğan is in Ethiopia for his first official visit since 2015. He was received by Prime Minister"
-        },
-        {
-          "title": "Ethiopia: Oromo Liberation Front Warns of Growing War Risks in Ethiopia, Calls for Political Dialogue",
-          "url": "https://allafrica.com/stories/202602170504.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:52:06",
-          "lead": "[Addis Standard] Addis Abeba -- The Oromo Liberation Front (OLF) has warned in a statement that what it described as \"ga"
-        },
-        {
-          "title": "UNICEF South Sudan Humanitarian Situation Report No. 11, 1-30 November 2025",
-          "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-situation-report-no-11-1-30-november-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T03:45:46",
-          "lead": "Country: South Sudan\n                                      Source: UN Children's Fund\n                                  "
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "Sudan: A medida que la guerra de Sudán se acerca a su cuarto año, las agencias humanitarias piden apoyo para las personas refugiadas",
-          "url": "https://reliefweb.int/report/sudan/medida-que-la-guerra-de-sudan-se-acerca-su-cuarto-ano-las-agencias-humanitarias-piden-apoyo-para-las-personas-refugiadas",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:34:43",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "As Sudan war approaches fourth year, humanitarian agencies appeal for support to refugees",
-          "url": "https://reliefweb.int/report/sudan/sudan-war-approaches-fourth-year-humanitarian-agencies-appeal-support-refugees",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:42:15",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "RFI Afrique",
+        "The Guardian Africa",
         "Africanews",
-        "AllAfrica"
+        "Al Jazeera",
+        "RFI Afrique"
       ]
     },
     "Somalia": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.2,
-      "ratio": 0.92,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1756,133 +1203,71 @@
           "lead": "Même si la Somalie est récemment devenue la cible privilégiée des attaques de Donald Trump, l’armée américaine continue "
         },
         {
-          "title": "Somalia - Emergency Trend Tracking (ETT) - 5 Districts assessed | Week 50 (07 - 11 February 2026)",
-          "url": "https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-ett-5-districts-assessed-week-50-07-11-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T01:33:06",
-          "lead": "Country: Somalia\n                                      Source: International Organization for Migration\n                "
+          "title": "Somalia: Somali PM Seeks Opposition Buy-in for Talks At Presidential Palace Amid Political Tensions",
+          "url": "https://allafrica.com/stories/202602180262.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T10:38:42",
+          "lead": "[Shabelle] Mogadishu -- Ongoing political efforts in Somalia led to a tentative deal from opposition figures to hold con"
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "AllAfrica"
       ]
     },
     "Uganda": {
-      "article_count": 4,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 1.57,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.7,
+      "ratio": 0.75,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Refugees",
-          "count": 3
-        },
-        {
-          "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
-        },
         {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Uganda: Kizza Besigye - the Firebrand Who Has Shaped Opposition Politics in Uganda",
-          "url": "https://allafrica.com/stories/202602180006.html",
+          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-18T10:09:04",
+          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
+        },
+        {
+          "title": "Uganda: Museveni, Saudi Arabian Delegation Talk Coffee Value Addition",
+          "url": "https://allafrica.com/stories/202602180209.html",
           "source": "AllAfrica",
-          "published": "2026-02-18T04:36:52",
-          "lead": "[The Conversation Africa] Uganda's Kizza Besigye has been described as possibly the most arrested man in Africa. Besigye"
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "Sudan: A medida que la guerra de Sudán se acerca a su cuarto año, las agencias humanitarias piden apoyo para las personas refugiadas",
-          "url": "https://reliefweb.int/report/sudan/medida-que-la-guerra-de-sudan-se-acerca-su-cuarto-ano-las-agencias-humanitarias-piden-apoyo-para-las-personas-refugiadas",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:34:43",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
-        },
-        {
-          "title": "As Sudan war approaches fourth year, humanitarian agencies appeal for support to refugees",
-          "url": "https://reliefweb.int/report/sudan/sudan-war-approaches-fourth-year-humanitarian-agencies-appeal-support-refugees",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T13:42:15",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
+          "published": "2026-02-18T09:48:43",
+          "lead": "[Nile Post] President Museveni on Tuesday hosted a high-level delegation from the Saudi Arabia at State House, Entebbe, "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb"
+        "Le Monde Afrique",
+        "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 14,
-      "source_count": 5,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 5.8,
-      "ratio": 2.43,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.03,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Refugees",
-          "count": 3
-        },
-        {
           "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
           "count": 1
         }
       ],
@@ -1894,13 +1279,6 @@
           "source": "BBC Africa",
           "published": "2026-02-17T12:50:33",
           "lead": "Passengers are still being urged to check their flight status before heading to the crowded airport."
-        },
-        {
-          "title": "Kenyan authorities used Israeli tech to crack activist’s phone, report claims",
-          "url": "https://www.theguardian.com/world/2026/feb/17/trim-slugs-to-kenya-authorities-israel-tech-crack-activists-phone-report",
-          "source": "The Guardian Africa",
-          "published": "2026-02-17T11:01:02",
-          "lead": "Citizen Lab report suggests Cellebrite software was used to break into Boniface Mwangi’s phone while he was under arrest"
         },
         {
           "title": "Nigeria and Kenya lead production of electric vans using Chinese kits",
@@ -1917,11 +1295,11 @@
           "lead": "The industrial action caused severe disruptions to local and international flights and air traffic control operations."
         },
         {
-          "title": "Kenya and Egypt hold talks aimed at deepening trade and investment",
-          "url": "http://www.africanews.com/2026/02/17/kenya-and-egypt-hold-talks-aimed-at-deepening-trade-and-investment/",
-          "source": "Africanews",
-          "published": "2026-02-17T09:57:07",
-          "lead": "They also discussed water scarcity and support for the ongoing Nile Basin Initiative grouping together 10 countries"
+          "title": "Kenya: Kenya Receives 21,000 Doses of Long-Acting HIV Prevention Drug Ahead of March Rollout",
+          "url": "https://allafrica.com/stories/202602180104.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T07:17:36",
+          "lead": "[Capital FM] Nairobi -- Kenya has received an initial consignment of 21,000 starter doses of the long-acting injectable "
         },
         {
           "title": "Kenya: TikTok Removes 580,000 Videos in Kenya Over Guideline Violations",
@@ -1936,48 +1314,11 @@
           "source": "AllAfrica",
           "published": "2026-02-17T12:33:05",
           "lead": "[Capital FM] Nairobi -- Aviation workers have suspended their strike after reaching an agreement with the government, pa"
-        },
-        {
-          "title": "Kenya: Pilots Warn of Fatigue Amid Ongoing Airport Staff Go-Slow",
-          "url": "https://allafrica.com/stories/202602170149.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T09:07:31",
-          "lead": "[Capital FM] Nairobi -- Pilots have warned of possible fatigue amid an ongoing industrial action by airport workers that"
-        },
-        {
-          "title": "Kenya: Kenya Receives 21,000 Doses of Long-Acting HIV Prevention Drug Ahead of March Rollout",
-          "url": "https://allafrica.com/stories/202602180104.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T07:17:36",
-          "lead": "[Capital FM] Nairobi -- Kenya has received an initial consignment of 21,000 starter doses of the long-acting injectable "
-        },
-        {
-          "title": "Kenya: The Episcopal Conference, Concerned About the Rise in Violence, Calls for an Investigation Into the Attack On an Anglican Church",
-          "url": "https://allafrica.com/stories/202602170482.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:37:57",
-          "lead": "[Agenzia Fides] Nairobi -- \"Churches are sacred places and must always be respected. Lobbing tear gas canisters at worsh"
-        },
-        {
-          "title": "Kenya: No, Photos On Facebook Don't Show Kenyan Vendor Arrested With Millions",
-          "url": "https://allafrica.com/stories/202602170479.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:36:21",
-          "lead": "[Africa Check] No, photos on Facebook don't show Kenyan vendor arrested with millions"
-        },
-        {
-          "title": "Sudan: Près de trois ans après le déclenchement de la guerre au Soudan, les agences humanitaires lancent un appel au soutien en faveur des réfugiés",
-          "url": "https://reliefweb.int/report/sudan/pres-de-trois-ans-apres-le-declenchement-de-la-guerre-au-soudan-les-agences-humanitaires-lancent-un-appel-au-soutien-en-faveur-des-refugies",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T00:35:33",
-          "lead": "Countries: Sudan, Chad, Ethiopia, Uganda\n                                      Source: UN High Commissioner for Refugees"
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "The Guardian Africa",
-        "BBC Africa",
         "Africanews",
+        "BBC Africa",
         "AllAfrica"
       ]
     },
@@ -1990,49 +1331,33 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Government",
+          "word": "Crise",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "DR Congo: EU announces over €81 million in humanitarian aid as conflict in eastern Democratic Republic of Congo pushes Great Lakes crisis to new extremes",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/eu-announces-over-eu81-million-humanitarian-aid-conflict-eastern-democratic-republic-congo-pushes-great-lakes-crisis-new-extremes",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T14:33:14",
-          "lead": "Countries: Democratic Republic of the Congo, Burundi, Rwanda, United Republic of Tanzania\n                              "
+          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-18T10:09:04",
+          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
         }
       ],
       "sources": [
-        "ReliefWeb"
+        "Le Monde Afrique"
       ]
     },
     "Burundi": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.44,
+      "baseline": 0.9,
+      "ratio": 2.32,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -2041,121 +1366,47 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Government",
+          "word": "Crise",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Est de la RDC: un mois après le départ de l'AFC/M23, Uvira tente de reprendre son souffle",
+          "title": "Est de la RDC: un mois après le départ de l'AFC/M23, l'activité économique reprend timidement à Uvira",
           "url": "https://www.rfi.fr/fr/afrique/20260218-est-de-la-rdc-un-mois-apr%C3%A8s-le-d%C3%A9part-de-l-afc-m23-uvira-tente-de-reprendre-son-souffle",
           "source": "RFI Afrique",
           "published": "2026-02-18T05:59:54",
-          "lead": "Dans l'est de la République démocratique du Congo (RDC), Uvira, la deuxième plus grande ville du Sud-Kivu après Bukavu, "
+          "lead": "Dans l'est de la République démocratique du Congo, Uvira, la deuxième plus grande ville du Sud-Kivu après Bukavu, reste "
         },
         {
-          "title": "DR Congo: EU announces over €81 million in humanitarian aid as conflict in eastern Democratic Republic of Congo pushes Great Lakes crisis to new extremes",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/eu-announces-over-eu81-million-humanitarian-aid-conflict-eastern-democratic-republic-congo-pushes-great-lakes-crisis-new-extremes",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T14:33:14",
-          "lead": "Countries: Democratic Republic of the Congo, Burundi, Rwanda, United Republic of Tanzania\n                              "
+          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-18T10:09:04",
+          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 1.3,
-      "ratio": 2.36,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.4,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Kenyan authorities used Israeli tech to crack activist’s phone, report claims",
-          "url": "https://www.theguardian.com/world/2026/feb/17/trim-slugs-to-kenya-authorities-israel-tech-crack-activists-phone-report",
-          "source": "The Guardian Africa",
-          "published": "2026-02-17T11:01:02",
-          "lead": "Citizen Lab report suggests Cellebrite software was used to break into Boniface Mwangi’s phone while he was under arrest"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
-        },
-        {
-          "title": "DR Congo: EU announces over €81 million in humanitarian aid as conflict in eastern Democratic Republic of Congo pushes Great Lakes crisis to new extremes",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/eu-announces-over-eu81-million-humanitarian-aid-conflict-eastern-democratic-republic-congo-pushes-great-lakes-crisis-new-extremes",
-          "source": "ReliefWeb",
-          "published": "2026-02-17T14:33:14",
-          "lead": "Countries: Democratic Republic of the Congo, Burundi, Rwanda, United Republic of Tanzania\n                              "
-        }
-      ],
-      "sources": [
-        "ReliefWeb",
-        "The Guardian Africa"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Madagascar": {
       "article_count": 2,
@@ -2164,40 +1415,27 @@
       "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Après le cyclone Gezani, près de 30 000 élèves privés de classe dans l’est de Madagascar",
+          "url": "https://www.rfi.fr/fr/afrique/20260218-apr%C3%A8s-le-cyclone-gezani-pr%C3%A8s-de-30-000-%C3%A9l%C3%A8ves-priv%C3%A9s-de-classe-dans-l-est-de-madagascar",
+          "source": "RFI Afrique",
+          "published": "2026-02-18T09:26:34",
+          "lead": "Dans l’est de Madagascar, comment retrouver le chemin de l’école après la dévastation causée par le cyclone Gezani ? L’é"
+        },
         {
           "title": "Madagascar: Successive Cyclones Put Children At Risk in Madagascar",
           "url": "https://allafrica.com/stories/202602170352.html",
           "source": "AllAfrica",
           "published": "2026-02-17T12:19:20",
           "lead": "[Unicef] Second climate-related disaster in two weeks leaves tens of thousands of children cut off from essential servic"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
         }
       ],
       "sources": [
         "AllAfrica",
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -2237,27 +1475,15 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.9,
-      "ratio": 2.2,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.0,
+      "ratio": 1.05,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
           "count": 1
         }
       ],
@@ -2269,150 +1495,86 @@
           "source": "BBC Africa",
           "published": "2026-02-17T17:04:07",
           "lead": "It is the latest twist over the fate of Lungu's body, which remains in a South African morgue since his death."
-        },
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "ReliefWeb"
+        "BBC Africa"
       ]
     },
     "Malawi": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.0,
-      "ratio": 2.1,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Fake funeral suspects allegedly used hearse to smuggle charcoal in Malawi",
-          "url": "https://www.bbc.com/news/articles/cwygdq11jwlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-17T08:52:48",
-          "lead": "Officials allege that an empty coffin was placed over concealed bags of charcoal in a hearse."
-        },
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
-        }
-      ],
-      "sources": [
-        "BBC Africa",
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mozambique": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.13,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Mozambique: IMF Dashes Chapo's Hopes and Sets the Course for Hard Times",
+          "url": "https://allafrica.com/stories/202602180125.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T08:08:14",
+          "lead": "[Mozambique News Reports And Clippings] Chapo's hopes for IMF approval were dashed today (17 February) by the IMF Execut"
+        },
         {
           "title": "OPEN SECRETS: Pam Golding faces fallout over management of millions, bribes paid to former president's son",
           "url": "https://www.dailymaverick.co.za/article/pam-golding-faces-fallout-over-managemengement-of-millions-bribes-paid-to-former",
           "source": "Daily Maverick",
           "published": "2026-02-17T21:21:25",
           "lead": "Pam Golding Properties and SA law firm Jouberts Attorneys collectively managed R110.9-million, which turned out to be br"
-        },
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
         }
       ],
       "sources": [
         "Daily Maverick",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Zimbabwe": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.73,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
+          "title": "Zimbabwe through at T20 World Cup after washout",
+          "url": "https://www.bbc.com/sport/cricket/articles/czj1e0m4rk0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-17T12:07:09",
+          "lead": "Zimbabwe qualify for the Super 8s at the T20 World Cup as rain washes out their Group B game against Ireland."
         }
       ],
       "sources": [
-        "ReliefWeb"
+        "BBC Africa"
       ]
     },
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.1,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -2431,45 +1593,22 @@
       ]
     },
     "Botswana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 1.83,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Africa": {
-      "article_count": 17,
-      "source_count": 9,
-      "baseline": 11.9,
-      "ratio": 1.43,
+      "article_count": 15,
+      "source_count": 6,
+      "baseline": 12.0,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2478,23 +1617,7 @@
           "count": 1
         },
         {
-          "word": "Crise",
-          "count": 1
-        },
-        {
           "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
           "count": 1
         }
       ],
@@ -2515,11 +1638,11 @@
           "lead": "It is the latest twist over the fate of Lungu's body, which remains in a South African morgue since his death."
         },
         {
-          "title": "South Africa hunts for new markets as US tariffs bite",
-          "url": "https://www.dw.com/en/south-africa-hunts-for-new-markets-as-us-tariffs-bite/a-75991451?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-02-17T10:22:00",
-          "lead": "South Africa is strengthening trade ties with China, backed by duty‑free access, investment commitments and a rapidly ex"
+          "title": "T20 World Cup: South Africa beat UAE before India showdown",
+          "url": "https://www.aljazeera.com/sports/2026/2/18/t20-world-cup-south-africa-beat-uae-to-finish-unbeaten-in-group?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-18T10:20:02",
+          "lead": "South Africa continue their pursuit of a first ICC title as they beat UAE by six wickets at the 2026 T20 World Cup."
         },
         {
           "title": "Afrique du Sud: Brent Bozell, nouvel ambassadeur américain, arrive dans un climat tendu",
@@ -2527,20 +1650,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-17T21:52:38",
           "lead": "En Afrique du Sud, le nouvel ambassadeur des États-Unis vient d'arriver, ont confirmé des sources diplomatique à plusieu"
-        },
-        {
-          "title": "Le nouvel ambassadeur américain arrive en Afrique du Sud sur fond de crise diplomatique",
-          "url": "https://www.lemonde.fr/international/article/2026/02/17/le-nouvel-ambassadeur-americain-arrive-en-afrique-du-sud-sur-fond-de-crise-diplomatique_6667075_3210.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-17T09:35:56",
-          "lead": "Les Etats-Unis ont imposé des droits de douane de 30 % à Pretoria sur une grande partie de ses exportations, les plus él"
-        },
-        {
-          "title": "Afrique du Sud : arrivée du nouvel ambassadeur américain, sur fond de tensions",
-          "url": "https://www.jeuneafrique.com/1766375/politique/afrique-du-sud-arrivee-du-nouvel-ambassadeur-americain-sur-fond-de-tensions/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-17T11:09:58",
-          "lead": "Nommé en mars 2025 par Donald Trump, Leo Brent Bozell est arrivé à Pretoria le 17 février, dans un contexte diplomatique"
         },
         {
           "title": "South Africa to deploy troops to crime hotspots within 10 days",
@@ -2564,6 +1673,13 @@
           "lead": "[allAfrica]"
         },
         {
+          "title": "South Africa: One Million Vaccine Doses En Route As Foot-and-Mouth Disease Fight Intensifies",
+          "url": "https://allafrica.com/stories/202602180216.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T09:52:24",
+          "lead": "[Daily Maverick] As foot-and-mouth disease devastates South Africa's livestock sector, one million vaccines are set to a"
+        },
+        {
           "title": "South Africa: Trump's Pick As U.S. Ambassador Arrives in Pretoria As Tensions Persist",
           "url": "https://allafrica.com/stories/202602180008.html",
           "source": "AllAfrica",
@@ -2571,66 +1687,47 @@
           "lead": "[RFI] Shaky relations between the US and South Africa face a key test as newly arrived ambassador Brent Bozell takes up "
         },
         {
-          "title": "South Africa: Cofimvaba - a Town Without Public Toilets",
-          "url": "https://allafrica.com/stories/202602180107.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T07:32:30",
-          "lead": "[GroundUp] Last week, the town was down to just two toilets but these have no water"
+          "title": "MATTERS OF THE ART: A (beginner’s) guide to the Investec Cape Town Art Fair 2026",
+          "url": "https://www.dailymaverick.co.za/article/a-beginners-guide-to-the-investec-cape-town-art-fair-2026",
+          "source": "Daily Maverick",
+          "published": "2026-02-18T12:30:00",
+          "lead": "The Investec Cape Town Art Fair 2026 invites both seasoned collectors and newcomers to explore a diverse array of contem"
         },
         {
-          "title": "South Africa: Unemployment Rate Decreases By 0.5 Percentage Points",
-          "url": "https://allafrica.com/stories/202602170441.html",
-          "source": "AllAfrica",
-          "published": "2026-02-17T14:24:06",
-          "lead": "[SAnews.gov.za] South Africa's official unemployment rate decreased by 0.5 percentage points from 31.9% in the third qua"
+          "title": "CAUTIOUS VICTORY: Bowler Corbin Bosch stars as Proteas ease past UAE at T20 World Cup",
+          "url": "https://www.dailymaverick.co.za/article/bowler-corbin-bosch-stars-as-proteas-ease-past-uae-at-t20-world-cup",
+          "source": "Daily Maverick",
+          "published": "2026-02-18T12:29:43",
+          "lead": "South Africa 123 for 4 (Dewald Brevis 36, Muhammad Arfan 1-16,) beat United Arab Emirates 122 for 6 (Alishan Sharafu 45,"
+        },
+        {
+          "title": "BIOSECURITY: One million vaccine doses en route as foot-and-mouth disease fight intensifies",
+          "url": "https://www.dailymaverick.co.za/article/one-million-vaccine-doses-en-route-as-footandmouth-disease-fight-intensifies",
+          "source": "Daily Maverick",
+          "published": "2026-02-18T11:10:26",
+          "lead": "As foot-and-mouth disease devastates South Africa’s livestock sector, one million vaccines are set to arrive, offering a"
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "ReliefWeb",
-        "BBC Africa",
-        "Le Monde Afrique",
         "Africanews",
-        "DW Africa",
+        "BBC Africa",
+        "Daily Maverick",
+        "Al Jazeera",
         "AllAfrica",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Southern Africa: Heavy Rains and Floods Flash Update No. 3 (17 February 2026)",
-          "url": "https://reliefweb.int/report/mozambique/southern-africa-heavy-rains-and-floods-flash-update-no-3-17-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T05:57:51",
-          "lead": "Countries: Mozambique, Angola, Botswana, Eswatini, Madagascar, Malawi, South Africa, United Republic of Tanzania, Zambia"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Lesotho": {
       "article_count": 0,
