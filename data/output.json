@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-18T17:58:45.155081",
+  "generated_at": "2026-02-18T20:00:51.254946",
   "summary": {
-    "high": 5,
-    "elevated": 8,
-    "normal": 25,
-    "quiet": 16
+    "high": 1,
+    "elevated": 5,
+    "normal": 28,
+    "quiet": 20
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 4.3,
-      "ratio": 0.7,
+      "baseline": 4.2,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -40,22 +40,18 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "The Guardian Africa"
       ]
     },
     "Algeria": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.1,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.6,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
         {
           "word": "Minister",
           "count": 1
@@ -63,13 +59,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Visites de Nunez et de Tiani en Algérie : un incongru ballet diplomatique à Alger",
-          "url": "https://www.france24.com/fr/afrique/20260217-visites-nunez-tiani-alg%C3%A9rie-incongru-ballet-diplomatique-alger-france-niger-tebboune",
-          "source": "France24 Afrique",
-          "published": "2026-02-17T19:11:48",
-          "lead": "Alors que le ministre français de l'Intérieur Laurent Nunez arrivait lundi à Alger pour une visite de deux jours à l’inv"
-        },
         {
           "title": "Laurent Nuñez en Algérie : les contacts sécuritaires sont rétablis mais le dialogue politique attendra",
           "url": "https://www.jeuneafrique.com/1766741/politique/laurent-nunez-en-algerie-les-contacts-securitaires-sont-retablis-mais-le-dialogue-politique-attendra/",
@@ -86,9 +75,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
@@ -104,10 +92,10 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 3.0,
-      "ratio": 1.0,
+      "ratio": 1.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -142,21 +130,29 @@
           "source": "AllAfrica",
           "published": "2026-02-18T09:23:51",
           "lead": "[UN News] Migrants, refugees and asylum-seekers in Libya are enduring ruthless and systematic human rights violations, i"
+        },
+        {
+          "title": "UN Libya envoy warns Security Council political deadlock threatens state unity",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1166987",
+          "source": "UN News Africa",
+          "published": "2026-02-18T12:00:00",
+          "lead": "Libya’s prolonged political stalemate, worsening economic conditions and an emerging split within the judiciary pose mou"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "AllAfrica",
-        "Africanews"
+        "UN News Africa",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.16,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.74,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -168,6 +164,13 @@
           "lead": "The latest deaths come as just 260 people have been allowed to seek medical care via the crossing to Egypt, the UN says."
         },
         {
+          "title": "Ramadan: Egytian charity delivers aid during Islamic holy month",
+          "url": "http://www.africanews.com/2026/02/18/ramadan-egytian-charity-delivers-aid-during-islamic-holy-month/",
+          "source": "Africanews",
+          "published": "2026-02-18T17:25:02",
+          "lead": "As Muslims across the world gear up to celebrate Ramadan, the Misr ElKheir charity foundation  in Egypt is getting aid r"
+        },
+        {
           "title": "'Pay or he dies': the deadly price of hope for Egypt's migrants",
           "url": "http://www.africanews.com/2026/02/18/pay-or-he-dies-the-deadly-price-of-hope-for-egypts-migrants/",
           "source": "Africanews",
@@ -176,24 +179,28 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
-        "Africanews"
+        "Africanews",
+        "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 5.3,
-      "ratio": 0.19,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 5.2,
+      "ratio": 0.39,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
         {
           "word": "President",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -205,9 +212,17 @@
           "source": "The Guardian Africa",
           "published": "2026-02-18T13:34:03",
           "lead": "The loss of sacred spaces during the period of observance and the ongoing conflict reminds us of the importance of cheri"
+        },
+        {
+          "title": "Sudan: Rights chief alarmed after at least 57 killed in drone attacks in two days",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1166988",
+          "source": "UN News Africa",
+          "published": "2026-02-18T12:00:00",
+          "lead": "The UN High Commissioner for Human Rights called on Wednesday for warring parties in Sudan to take urgent steps to prote"
         }
       ],
       "sources": [
+        "UN News Africa",
         "The Guardian Africa"
       ]
     },
@@ -224,34 +239,13 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 3.8,
-      "ratio": 1.31,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 4.0,
+      "ratio": 0.25,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -260,58 +254,20 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T18:32:06",
           "lead": "Très attendu, le récent remaniement a consacré le retour en force du ministre de la Défense, le général Sadio Camara, da"
-        },
-        {
-          "title": "INSURANCE SNOOPING : Despatch woman’s stabbing latest in series of ‘Money-for-Murder’ schemes",
-          "url": "https://www.dailymaverick.co.za/article/despatch-womans-stabbing-latest-in-series-of-moneyformurder-schemes",
-          "source": "Daily Maverick",
-          "published": "2026-02-17T20:52:19",
-          "lead": "Cynthia Nowizana Mali’s murder highlights a disturbing trend of Money-for-Murder schemes, as police investigate more tha"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:03:40",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        },
-        {
-          "title": "Communiqué de presse : Appel à la solidarité internationale pour assister 2,7 millions de personnes parmi les plus vulnérables au Burkina Faso en 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/communique-de-presse-appel-la-solidarite-internationale-pour-assister-27-millions-de-personnes-parmi-les-plus-vulnerables-au-burkina-faso-en-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:19:35",
-          "lead": "Countries: Burkina Faso, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "ReliefWeb",
-        "Daily Maverick"
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 9,
-      "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 3.81,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.7,
+      "ratio": 0.75,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 7
-        },
-        {
-          "word": "Humanitaire",
-          "count": 3
-        },
         {
           "word": "Attack",
           "count": 2
@@ -323,26 +279,9 @@
         {
           "word": "Insurgent",
           "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Humanitaire",
-          "Humanitarian"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "Ghana: Burkina Faso Fatal Attack - Pres Mahama Orders Evacuation of Injured Traders",
@@ -357,137 +296,38 @@
           "source": "AllAfrica",
           "published": "2026-02-18T11:15:15",
           "lead": "[Ghanaian Times] THE Ghana National Tomato Traders and Transporters Association has announced the suspension of tomato i"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:03:40",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        },
-        {
-          "title": "Burkina Faso: COMPTE RENDU REUNION - GROUPE DE TRAVAIL GENRE ET INCLUSION DANS L’ACTION HUMANITAIRE du 10 février 2026 [Meeting Minutes]",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-compte-rendu-reunion-groupe-de-travail-genre-et-inclusion-dans-laction-humanitaire-du-10-fevrier-2026-meeting-minutes",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T15:58:05",
-          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
-        },
-        {
-          "title": "Burkina Faso : Complémentarité entre PNRH et HNRP 2026 en un clin d’œil",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-complementarite-entre-pnrh-et-hnrp-2026-en-un-clin-doeil",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T14:16:40",
-          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
-        },
-        {
-          "title": "Burkina Faso : Plan national de réponse humanitaire 2026 en un clin d’œil.",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-plan-national-de-reponse-humanitaire-2026-en-un-clin-doeil",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T14:14:01",
-          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
-        },
-        {
-          "title": "Burkina Faso : Besoins humanitaires et plan de réponse des partenaires 2026 En un clin d’oeil",
-          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-besoins-humanitaires-et-plan-de-reponse-des-partenaires-2026-en-un-clin-doeil",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T14:05:03",
-          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
-        },
-        {
-          "title": "Communiqué de presse : Appel à la solidarité internationale pour assister 2,7 millions de personnes parmi les plus vulnérables au Burkina Faso en 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/communique-de-presse-appel-la-solidarite-internationale-pour-assister-27-millions-de-personnes-parmi-les-plus-vulnerables-au-burkina-faso-en-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:19:35",
-          "lead": "Countries: Burkina Faso, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Niger": {
-      "article_count": 3,
-      "source_count": 1,
-      "baseline": 4.5,
-      "ratio": 0.66,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 4.7,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:03:40",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        },
-        {
-          "title": "Communiqué de presse : Appel à la solidarité internationale pour assister 2,7 millions de personnes parmi les plus vulnérables au Burkina Faso en 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/communique-de-presse-appel-la-solidarite-internationale-pour-assister-27-millions-de-personnes-parmi-les-plus-vulnerables-au-burkina-faso-en-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:19:35",
-          "lead": "Countries: Burkina Faso, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Mali, Niger, Nigeri"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Senegal": {
-      "article_count": 6,
-      "source_count": 6,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 5.6,
-      "ratio": 1.07,
+      "ratio": 0.72,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
-          "count": 2
-        },
-        {
-          "word": "Killed",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -501,13 +341,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Sénégal: pour le parquet, la mort d'un étudiant de l'Ucad n'est pas liée à des violences policières",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-s%C3%A9n%C3%A9gal-pour-le-parquet-la-mort-d-un-%C3%A9tudiant-de-l-ucad-n-est-pas-li%C3%A9e-%C3%A0-des-violences-polici%C3%A8res",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T00:01:53",
-          "lead": "Lors d'une conférence de presse donnée mardi 17 février, le procureur de la République, Ibrahim Ndoye, a estimé que le j"
-        },
         {
           "title": "Sénégal: l'étudiant est mort après avoir sauté d'un étage, selon le procureur",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260217-s%C3%A9n%C3%A9gal-l-%C3%A9tudiant-d%C3%A9c%C3%A9d%C3%A9-est-mort-apr%C3%A8s-avoir-saut%C3%A9-d-un-%C3%A9tage-selon-le-procureur",
@@ -530,13 +363,6 @@
           "lead": "[HRW] Release the Men; Repeal Anti-Gay, Anti-HIV Laws"
         },
         {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        },
-        {
           "title": "Senegal Arrests 12 Men Using Punitive Anti-LGBT Laws",
           "url": "https://www.hrw.org/news/2026/02/18/senegal-arrests-12-men-using-punitive-anti-lgbt-laws",
           "source": "Human Rights Watch",
@@ -545,12 +371,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb",
         "Africanews",
         "France24 Afrique",
-        "AllAfrica",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Gambia": {
@@ -597,31 +421,16 @@
       ]
     },
     "Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.7,
-      "ratio": 0.59,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Sierra Leone": {
       "article_count": 0,
@@ -686,10 +495,10 @@
       "sources": []
     },
     "Ghana": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 2.8,
-      "ratio": 1.42,
+      "ratio": 1.08,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -703,10 +512,6 @@
         },
         {
           "word": "Insurgent",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -732,18 +537,10 @@
           "source": "AllAfrica",
           "published": "2026-02-18T09:53:19",
           "lead": "[Ghanaian Times] President John Dramani Mahama has announced plans to process at least 60 per cent of Ghana's major tree"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -811,20 +608,16 @@
       ]
     },
     "Nigeria": {
-      "article_count": 18,
-      "source_count": 7,
-      "baseline": 9.1,
-      "ratio": 1.97,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 13,
+      "source_count": 5,
+      "baseline": 9.4,
+      "ratio": 1.38,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
           "word": "Gouvernement",
-          "count": 2
+          "count": 1
         },
         {
           "word": "M23",
@@ -832,10 +625,6 @@
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Wounded",
           "count": 1
         },
         {
@@ -847,25 +636,26 @@
           "count": 1
         },
         {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
           "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Suspected carbon-monoxide leak kills 37 miners in Nigeria",
+          "title": "Suspected carbon-monoxide leak kills at least 30 miners in Nigeria, witnesses say",
           "url": "https://www.bbc.com/news/articles/cwyk6nr80kxo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
           "published": "2026-02-18T17:29:23",
-          "lead": "The tragedy is believed to have happened just before sunrise as the workers neared the end of their shift."
-        },
-        {
-          "title": "Tested on Palestinians: Epstein, Israel’s Barak pushed spy tech in Nigeria",
-          "url": "https://www.aljazeera.com/features/2026/2/18/tested-on-palestinians-epstein-israels-barak-pushed-spy-tech-in-nigeria?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-18T12:14:59",
-          "lead": "Investigation reveals how Jeffrey Epstein and Ehud Barak marketed Israeli surveillance tech to profit from Nigeria."
+          "lead": "The workers are believed to have collapsed after the gas built up in poorly ventilated tunnels."
         },
         {
           "title": "«Obi Is A Boy» du Nigérian Dika Ofoma: «Il n'y a pas qu'une seule façon d'être un homme»",
@@ -936,157 +726,81 @@
           "source": "AllAfrica",
           "published": "2026-02-18T09:47:50",
           "lead": "[Leadership] As the holy month of Ramadan begins, Senate President Godswill Akpabio, has called on Muslims to use the pe"
+        },
+        {
+          "title": "Nigeria: New Study Reveals How Nigeria's Former Minister Spread Falsehoods, Misled Lawmakers",
+          "url": "https://allafrica.com/stories/202602180200.html",
+          "source": "AllAfrica",
+          "published": "2026-02-18T09:46:34",
+          "lead": "[Premium Times] The study found that the former minister shared the satirical article as fact, misleading the Nigerian m"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
         "Africanews",
-        "Daily Maverick",
-        "ReliefWeb",
         "AllAfrica",
-        "Al Jazeera"
+        "Daily Maverick",
+        "BBC Africa",
+        "RFI Afrique"
       ]
     },
     "Cape Verde": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Chad": {
-      "article_count": 6,
-      "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 2.28,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.9,
+      "ratio": 0.69,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Réfugiés",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le Tchad veut mieux rentabiliser son immense cheptel de dromadaires",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/le-tchad-veut-mieux-rentabiliser-son-immense-cheptel-de-dromadaires_6667302_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-18T19:00:07",
+          "lead": "Avec plus de 11 millions de têtes, le pays compte le plus grand troupeau de la planète, mais il est incapable d’exploite"
+        },
         {
           "title": "Un an après avoir été mise dehors, la France revient au Tchad",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/18/un-an-apres-avoir-ete-mise-dehors-la-france-revient-au-tchad_6667271_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-18T16:00:09",
           "lead": "La visite du président Mahamat Idriss Déby à l’Elysée, fin janvier, a acté la réconciliation entre Paris et N’Djamena, u"
-        },
-        {
-          "title": "Le HCR, l’Union européenne et les autorités tchadiennes lancent un projet pour promouvoir des solutions durables pour les réfugiés dans le sud du Tchad",
-          "url": "https://reliefweb.int/report/chad/le-hcr-lunion-europeenne-et-les-autorites-tchadiennes-lancent-un-projet-pour-promouvoir-des-solutions-durables-pour-les-refugies-dans-le-sud-du-tchad",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T17:38:26",
-          "lead": "Country: Chad\n                                      Source: Development Initiatives\n                                    "
-        },
-        {
-          "title": "WFP Chad Rapport Externe de Situation, février 2026",
-          "url": "https://reliefweb.int/report/chad/wfp-chad-rapport-externe-de-situation-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:27:20",
-          "lead": "Country: Chad\n                                      Source: World Food Programme\n                                       "
-        },
-        {
-          "title": "WFP Chad External Situation Report, February 2026",
-          "url": "https://reliefweb.int/report/chad/wfp-chad-external-situation-report-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:25:04",
-          "lead": "Country: Chad\n                                      Source: World Food Programme\n                                       "
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:03:40",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
-        },
-        {
-          "title": "Communiqué de presse : Appel à la solidarité internationale pour assister 2,7 millions de personnes parmi les plus vulnérables au Burkina Faso en 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/communique-de-presse-appel-la-solidarite-internationale-pour-assister-27-millions-de-personnes-parmi-les-plus-vulnerables-au-burkina-faso-en-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:19:35",
-          "lead": "Countries: Burkina Faso, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "ReliefWeb"
+        "Le Monde Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 6,
-      "source_count": 3,
-      "baseline": 2.5,
-      "ratio": 2.44,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        }
-      ],
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 2.6,
+      "ratio": 1.16,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1109,65 +823,23 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T12:24:55",
           "lead": "Quinze Africains, renvoyés des États-Unis, sont assignés à résidence au Cameroun. Cette rétention, jusqu’ici secrète, em"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:03:40",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        },
-        {
-          "title": "Communiqué de presse : Appel à la solidarité internationale pour assister 2,7 millions de personnes parmi les plus vulnérables au Burkina Faso en 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/communique-de-presse-appel-la-solidarite-internationale-pour-assister-27-millions-de-personnes-parmi-les-plus-vulnerables-au-burkina-faso-en-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:19:35",
-          "lead": "Countries: Burkina Faso, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "CAR": {
-      "article_count": 4,
-      "source_count": 2,
-      "baseline": 0.9,
-      "ratio": 4.4,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.0,
+      "ratio": 0.96,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -1179,60 +851,22 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T08:00:00",
           "lead": "Alors que son parti a largement dominé le premier tour des législatives, le président fait face à un dilemme : régner sa"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 16 February 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-16-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:03:40",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Monitoring of the Flooding Situation - As of 9 February 2026",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-monitoring-flooding-situation-9-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T16:01:03",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Congo, Ghana,"
-        },
-        {
-          "title": "Communiqué de presse : Appel à la solidarité internationale pour assister 2,7 millions de personnes parmi les plus vulnérables au Burkina Faso en 2026",
-          "url": "https://reliefweb.int/report/burkina-faso/communique-de-presse-appel-la-solidarite-internationale-pour-assister-27-millions-de-personnes-parmi-les-plus-vulnerables-au-burkina-faso-en-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:19:35",
-          "lead": "Countries: Burkina Faso, Cameroon, Central African Republic, Chad, Democratic Republic of the Congo, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "ReliefWeb"
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.38,
+      "ratio": 0.65,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Fighting",
-          "count": 2
-        },
-        {
-          "word": "Wounded",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         }
       ],
@@ -1242,19 +876,11 @@
           "title": "South Sudan: Hospitals overwhelmed as fighting rages on",
           "url": "http://www.africanews.com/2026/02/18/south-sudan-hospitals-overwhelmed-as-fighting-rages-on/",
           "source": "Africanews",
-          "published": "2026-02-18T16:33:11",
+          "published": "2026-02-18T17:26:28",
           "lead": "The Aboko teaching hospital is one of a string in South Sudan that are overwhelmed as fighting in the country rages on. "
-        },
-        {
-          "title": "CERF funding a lifeline for newly displaced families in South Sudan",
-          "url": "https://reliefweb.int/report/south-sudan/cerf-funding-lifeline-newly-displaced-families-south-sudan",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:46:26",
-          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Africanews"
       ]
     },
@@ -1271,10 +897,10 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 7,
       "baseline": 1.0,
-      "ratio": 7.0,
+      "ratio": 8.0,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -1298,6 +924,13 @@
           "source": "Al Jazeera",
           "published": "2026-02-18T13:37:57",
           "lead": "Gabonese authorities impose indefinite social media blackout, citing risks to social cohesion and national stability."
+        },
+        {
+          "title": "Les coupures des réseaux sociaux «sont moins brutales, mais plus ciblées», selon Internet Sans Frontières",
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260218-les-coupures-des-r%C3%A9seaux-sociaux-sont-moins-brutales-mais-plus-cibl%C3%A9es-selon-internet-sans-fronti%C3%A8res",
+          "source": "RFI Afrique",
+          "published": "2026-02-18T17:10:09",
+          "lead": "Une interdiction des réseaux sociaux a été décrétée, mardi 17 février, par les autorités gabonaises. L'argument mis en a"
         },
         {
           "title": "Gabon: les autorités suspendent les réseaux sociaux jusqu'à nouvel ordre",
@@ -1336,13 +969,13 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
         "Africanews",
-        "Le Monde Afrique",
         "France24 Afrique",
+        "Jeune Afrique",
+        "Le Monde Afrique",
         "Al Jazeera",
-        "Jeune Afrique"
+        "BBC Africa",
+        "RFI Afrique"
       ]
     },
     "Congo": {
@@ -1358,23 +991,19 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 7,
-      "source_count": 3,
-      "baseline": 7.1,
-      "ratio": 0.98,
+      "article_count": 5,
+      "source_count": 2,
+      "baseline": 7.2,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitaire",
-          "count": 3
-        },
         {
           "word": "M23",
           "count": 2
         },
         {
-          "word": "Humanitarian",
+          "word": "Humanitaire",
           "count": 2
         },
         {
@@ -1387,14 +1016,6 @@
         },
         {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1434,26 +1055,11 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-18T10:09:04",
           "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
-        },
-        {
-          "title": "DR Congo: République démocratique du Congo : Tableau de bord humanitaire (période de rapportage : décembre 2025)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-tableau-de-bord-humanitaire-periode-de-rapportage-decembre-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T14:30:11",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
-        },
-        {
-          "title": "Japan funding enables WFP to provide food and nutrition assistance to displaced families in Rwanda",
-          "url": "https://reliefweb.int/report/rwanda/japan-funding-enables-wfp-provide-food-and-nutrition-assistance-displaced-families-rwanda",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T10:33:07",
-          "lead": "Countries: Rwanda, Japan\n                                      Source: World Food Programme\n                            "
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Le Monde Afrique",
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1507,15 +1113,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.29,
+      "baseline": 0.7,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1563,8 +1169,8 @@
     "Ethiopia": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 4.7,
-      "ratio": 0.85,
+      "baseline": 4.6,
+      "ratio": 0.87,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1617,49 +1223,30 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
+        "RFI Afrique",
         "BBC Africa",
-        "RFI Afrique"
+        "The Guardian Africa"
       ]
     },
     "Somalia": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 2.2,
-      "ratio": 1.8,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.3,
+      "ratio": 0.86,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        },
         {
           "word": "Al-shabaab",
           "count": 1
         },
         {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "La Somalie, pilier de la stratégie antiterroriste américaine malgré les insultes de Donald Trump",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/17/la-somalie-pilier-de-la-strategie-antiterroriste-americaine-malgre-les-insultes-de-donald-trump_6667142_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-17T18:00:24",
-          "lead": "Même si la Somalie est récemment devenue la cible privilégiée des attaques de Donald Trump, l’armée américaine continue "
-        },
         {
           "title": "Somalia: Government announces progress in fight against Al-Shabaab",
           "url": "http://www.africanews.com/2026/02/18/somalia-government-announces-progress-in-fight-against-al-shabaab/",
@@ -1673,29 +1260,20 @@
           "source": "AllAfrica",
           "published": "2026-02-18T10:38:42",
           "lead": "[Shabelle] Mogadishu -- Ongoing political efforts in Somalia led to a tentative deal from opposition figures to hold con"
-        },
-        {
-          "title": "Somalia 2025 Health Cluster Annual Highlights",
-          "url": "https://reliefweb.int/report/somalia/somalia-2025-health-cluster-annual-highlights",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T09:56:02",
-          "lead": "Country: Somalia\n                                      Sources: Health Cluster, World Health Organization\n              "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Le Monde Afrique",
-        "ReliefWeb",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Uganda": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 1.57,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.7,
+      "ratio": 1.49,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Humanitaire",
@@ -1753,8 +1331,8 @@
     "Kenya": {
       "article_count": 6,
       "source_count": 4,
-      "baseline": 5.4,
-      "ratio": 1.11,
+      "baseline": 5.5,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1804,17 +1382,17 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
-        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.2,
-      "ratio": 1.38,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.3,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1824,26 +1402,6 @@
         },
         {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
           "count": 1
         }
       ],
@@ -1862,28 +1420,20 @@
           "source": "AllAfrica",
           "published": "2026-02-18T09:46:19",
           "lead": "[New Times] The 18th edition of the Tour du Rwanda will cost approximately Rwf2 billion -- representing a 50 per cent bu"
-        },
-        {
-          "title": "Japan funding enables WFP to provide food and nutrition assistance to displaced families in Rwanda",
-          "url": "https://reliefweb.int/report/rwanda/japan-funding-enables-wfp-provide-food-and-nutrition-assistance-displaced-families-rwanda",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T10:33:07",
-          "lead": "Countries: Rwanda, Japan\n                                      Source: World Food Programme\n                            "
         }
       ],
       "sources": [
         "AllAfrica",
-        "Le Monde Afrique",
-        "ReliefWeb"
+        "Le Monde Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.9,
-      "ratio": 3.47,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.2,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
@@ -1895,26 +1445,6 @@
         },
         {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
           "count": 1
         }
       ],
@@ -1933,19 +1463,11 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-18T10:09:04",
           "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
-        },
-        {
-          "title": "Japan funding enables WFP to provide food and nutrition assistance to displaced families in Rwanda",
-          "url": "https://reliefweb.int/report/rwanda/japan-funding-enables-wfp-provide-food-and-nutrition-assistance-displaced-families-rwanda",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T10:33:07",
-          "lead": "Countries: Rwanda, Japan\n                                      Source: World Food Programme\n                            "
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Le Monde Afrique",
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
@@ -1961,23 +1483,15 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 2.9,
-      "ratio": 1.72,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 3.0,
+      "ratio": 0.66,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
           "word": "Épidémie",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1996,32 +1510,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-18T13:53:29",
           "lead": "Depuis le début de l’épidémie de Mpox à la mi-décembre 2025, plus de 850 cas ont été notifiés. Ce week-end, le porte-par"
-        },
-        {
-          "title": "Madagascar, Mozambique | Tropical cyclone GEZANI and EU response - DG ECHO Daily Map | 18/02/2026",
-          "url": "https://reliefweb.int/map/madagascar/madagascar-mozambique-tropical-cyclone-gezani-and-eu-response-dg-echo-daily-map-18022026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T17:17:18",
-          "lead": "Countries: Madagascar, Mozambique\n                                      Source: European Commission's Directorate-Genera"
-        },
-        {
-          "title": "Mozambique: Madagascar: Tropical Cyclone Gezani Affected Population per District (13th February 2026 1630h)",
-          "url": "https://reliefweb.int/map/mozambique/madagascar-tropical-cyclone-gezani-affected-population-district-13th-february-2026-1630h",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:42:25",
-          "lead": "Country: Mozambique\n                                      Source: MapAction\n                                            "
-        },
-        {
-          "title": "Madagascar, Mozambique - Tropical cyclone GEZANI, update (DG ECHO, NOAA-CPC, BNGRC, INGD, UN OCHA, Copernicus EMSR) (ECHO Daily Flash of 18 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/madagascar-mozambique-tropical-cyclone-gezani-update-dg-echo-noaa-cpc-bngrc-ingd-un-ocha-copernicus-emsr-echo-daily-flash-18-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:30:27",
-          "lead": "Countries: Madagascar, Mozambique\n                                      Source: European Commission's Directorate-Genera"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -2073,54 +1565,31 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.1,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.0,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Malawi vaccinates 1.3 million children in response to polio outbreak",
-          "url": "https://reliefweb.int/report/malawi/malawi-vaccinates-13-million-children-response-polio-outbreak",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T10:10:42",
-          "lead": "Country: Malawi\n                                      Source: World Health Organization\n                                "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mozambique": {
-      "article_count": 7,
-      "source_count": 4,
-      "baseline": 1.9,
-      "ratio": 3.76,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 2.0,
+      "ratio": 1.96,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
           "count": 2
         },
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -2153,34 +1622,12 @@
           "source": "Daily Maverick",
           "published": "2026-02-17T21:21:25",
           "lead": "Pam Golding Properties and SA law firm Jouberts Attorneys collectively managed R110.9-million, which turned out to be br"
-        },
-        {
-          "title": "Madagascar, Mozambique | Tropical cyclone GEZANI and EU response - DG ECHO Daily Map | 18/02/2026",
-          "url": "https://reliefweb.int/map/madagascar/madagascar-mozambique-tropical-cyclone-gezani-and-eu-response-dg-echo-daily-map-18022026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T17:17:18",
-          "lead": "Countries: Madagascar, Mozambique\n                                      Source: European Commission's Directorate-Genera"
-        },
-        {
-          "title": "Mozambique: Madagascar: Tropical Cyclone Gezani Affected Population per District (13th February 2026 1630h)",
-          "url": "https://reliefweb.int/map/mozambique/madagascar-tropical-cyclone-gezani-affected-population-district-13th-february-2026-1630h",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:42:25",
-          "lead": "Country: Mozambique\n                                      Source: MapAction\n                                            "
-        },
-        {
-          "title": "Madagascar, Mozambique - Tropical cyclone GEZANI, update (DG ECHO, NOAA-CPC, BNGRC, INGD, UN OCHA, Copernicus EMSR) (ECHO Daily Flash of 18 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/madagascar-mozambique-tropical-cyclone-gezani-update-dg-echo-noaa-cpc-bngrc-ingd-un-ocha-copernicus-emsr-echo-daily-flash-18-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-18T11:30:27",
-          "lead": "Countries: Madagascar, Mozambique\n                                      Source: European Commission's Directorate-Genera"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "AllAfrica",
-        "ReliefWeb",
-        "Daily Maverick"
+        "Daily Maverick",
+        "RFI Afrique"
       ]
     },
     "Zimbabwe": {
@@ -2209,7 +1656,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.1,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -2240,23 +1687,27 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 17,
-      "source_count": 8,
+      "article_count": 16,
+      "source_count": 7,
       "baseline": 12.0,
-      "ratio": 1.41,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        },
         {
           "word": "Combat",
           "count": 1
         },
         {
+          "word": "President",
+          "count": 1
+        },
+        {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -2270,11 +1721,11 @@
           "lead": "\"This is the only hustle we know,\" miners tell the BBC as they try their luck at the site in Springs."
         },
         {
-          "title": "T20 World Cup: South Africa beat UAE before India showdown",
-          "url": "https://www.aljazeera.com/sports/2026/2/18/t20-world-cup-south-africa-beat-uae-to-finish-unbeaten-in-group?traffic_source=rss",
+          "title": "India beat Netherlands to clean sweep group before T20 World Cup Super 8s",
+          "url": "https://www.aljazeera.com/sports/2026/2/18/india-beat-netherlands-to-clean-sweep-group-ahead-of-t20-world-cup-super-8s?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-18T10:20:02",
-          "lead": "South Africa continue their pursuit of a first ICC title as they beat UAE by six wickets at the 2026 T20 World Cup."
+          "published": "2026-02-18T17:40:52",
+          "lead": "Shivan Dube shines as India warm up for South Africa by beating Netherlands in final group game at T20 World Cup."
         },
         {
           "title": "South Africa sends in troops to combat organized crime",
@@ -2282,13 +1733,6 @@
           "source": "DW Africa",
           "published": "2026-02-18T14:47:00",
           "lead": "President Cyril Ramaphosa's decision to deploy the military to battle fight crime has elicited mixed reactions from Sout"
-        },
-        {
-          "title": "Afrique du Sud: Brent Bozell, nouvel ambassadeur américain, arrive dans un climat tendu",
-          "url": "https://www.rfi.fr/fr/afrique/20260217-afrique-du-sud-brent-bozell-nouvel-ambassadeur-am%C3%A9ricain-arrive-dans-un-climat-tendu",
-          "source": "RFI Afrique",
-          "published": "2026-02-17T21:52:38",
-          "lead": "En Afrique du Sud, le nouvel ambassadeur des États-Unis vient d'arriver, ont confirmé des sources diplomatique à plusieu"
         },
         {
           "title": "En Afrique du Sud, la nomination aux allures de provocation du nouvel ambassadeur américain",
@@ -2303,13 +1747,6 @@
           "source": "Africanews",
           "published": "2026-02-18T14:32:53",
           "lead": "The relatives of former Edgar Lungu have dismissed allegations that he was poisoned, as South African authorities pursue"
-        },
-        {
-          "title": "South Africa to deploy troops to crime hotspots within 10 days",
-          "url": "http://www.africanews.com/2026/02/17/south-africa-to-deploy-troops-to-crime-hotspots-within-10-days/",
-          "source": "Africanews",
-          "published": "2026-02-17T19:50:27",
-          "lead": "Crime-weary South Africa will deploy army units alongside police within 10 days to tackle rampant crime fuelled by drugs"
         },
         {
           "title": "South Africa: Department Finalising e-Hailing Companies' Registration - South African News Briefs - February 18, 2026",
@@ -2340,6 +1777,20 @@
           "lead": "[GroundUp] Last week, the town was down to just two toilets but these have no water"
         },
         {
+          "title": "‘MINISTERIAL INTERFERENCE’: Court dismisses Gabrielle Goliath’s Venice Biennale challenge against Gayton McKenzie",
+          "url": "https://www.dailymaverick.co.za/article/court-dismisses-gabrielle-goliaths-venicvenice-biennale-challenge-against-gayton",
+          "source": "Daily Maverick",
+          "published": "2026-02-18T21:34:13",
+          "lead": "Artist Gabrielle Goliath lost her court battle against Minister Gayton McKenzie, meaning she’ll miss out on representing"
+        },
+        {
+          "title": "OUR CITY NEWS: Despite protests and promises, taps are still dry in Johannesburg",
+          "url": "https://www.dailymaverick.co.za/article/despite-protests-and-promises-taps-are-still-dry-in-johannesburg",
+          "source": "Daily Maverick",
+          "published": "2026-02-18T20:11:19",
+          "lead": "With large parts of Johannesburg still struggling without water, community groups call for immediate government interven"
+        },
+        {
           "title": "MACRO MENDING: South Africa’s economy starts repairing, but recovery remains slow and fragile",
           "url": "https://www.dailymaverick.co.za/article/south-africas-economy-starts-repairing-but-recovery-remains-slow-and-fragile",
           "source": "Daily Maverick",
@@ -2348,14 +1799,13 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
         "Africanews",
-        "Daily Maverick",
-        "Le Monde Afrique",
-        "Al Jazeera",
         "AllAfrica",
-        "DW Africa"
+        "DW Africa",
+        "Le Monde Afrique",
+        "Daily Maverick",
+        "Al Jazeera",
+        "BBC Africa"
       ]
     },
     "Eswatini": {
