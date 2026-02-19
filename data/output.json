@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-19T08:01:11.913018",
+  "generated_at": "2026-02-19T11:25:42.614941",
   "summary": {
-    "high": 1,
-    "elevated": 2,
-    "normal": 28,
-    "quiet": 23
+    "high": 3,
+    "elevated": 8,
+    "normal": 32,
+    "quiet": 11
   },
   "countries": {
     "Morocco": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 4.2,
-      "ratio": 0.72,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -23,6 +23,20 @@
           "source": "The Guardian Africa",
           "published": "2026-02-18T15:00:35",
           "lead": "‘The Peugeot 103 is iconic in Morocco: a symbol of social mobility. But my rider, a living sculpture, is so overstimulat"
+        },
+        {
+          "title": "CAN 2025: ouverture du procès des 18 supporters sénégalais arrêtés au Maroc",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260219-can-2025-ouverture-du-proc%C3%A8s-des-18-supporters-s%C3%A9n%C3%A9galais-arr%C3%AAt%C3%A9s-au-maroc",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T08:42:36",
+          "lead": "Un mois après les heurts ayant émaillé la finale de la Coupe d’Afrique des Nations entre le Maroc et le Sénégal, le proc"
+        },
+        {
+          "title": "Au Maroc, les promesses démocratiques non tenues de la réforme constitutionnelle de 2011",
+          "url": "https://www.lemonde.fr/idees/article/2026/02/19/au-maroc-les-promesses-democratiques-non-tenues-de-la-reforme-constitutionnelle-de-2011_6667368_3232.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-19T09:00:12",
+          "lead": "Adoptée voici tout juste quinze ans, dans la foulée des « printemps arabes », la nouvelle loi suprême du royaume était p"
         },
         {
           "title": "Bénin, Djibouti, Espagne… Marsa Maroc amorce enfin son expansion à l’international",
@@ -40,8 +54,10 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Algeria": {
@@ -79,10 +95,10 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
       "baseline": 3.0,
-      "ratio": 1.33,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -103,13 +119,6 @@
           "lead": "[WHO] The World Health Organization (WHO) today announced that Libya has eliminated trachoma as a public health problem,"
         },
         {
-          "title": "Libya: UN Libya Envoy Warns Security Council Political Deadlock Threatens State Unity",
-          "url": "https://allafrica.com/stories/202602190010.html",
-          "source": "AllAfrica",
-          "published": "2026-02-19T04:42:56",
-          "lead": "[UN News] Libya's prolonged political stalemate, worsening economic conditions and an emerging split within the judiciar"
-        },
-        {
           "title": "UN Libya envoy warns Security Council political deadlock threatens state unity",
           "url": "https://news.un.org/feed/view/en/story/2026/02/1166987",
           "source": "UN News Africa",
@@ -118,8 +127,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "UN News Africa",
+        "Africanews",
         "AllAfrica"
       ]
     },
@@ -165,37 +174,67 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "Africanews"
       ]
     },
     "Sudan": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 19,
+      "source_count": 9,
       "baseline": 5.2,
-      "ratio": 0.77,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 3.64,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Rsf",
+          "count": 5
+        },
+        {
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Displaced",
+          "count": 3
+        },
+        {
+          "word": "War",
+          "count": 2
+        },
         {
           "word": "President",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Killed",
+          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sudan atrocities are 'hallmarks of genocide', UN says",
+          "url": "https://www.bbc.com/news/articles/cpqw74d81jqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-19T08:08:41",
+          "lead": "A UN fact-finding mission issued the report after investigating the capture of el-Fasher by the Rapid Support Forces."
+        },
+        {
+          "title": "UN mission finds RSF destruction in el-Fasher bears ‘hallmarks of genocide’",
+          "url": "https://www.aljazeera.com/news/2026/2/19/un-mission-finds-rsf-destruction-in-el-fasher-bears-hallmarks-of-genocide?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-19T09:26:54",
+          "lead": "UN probe documents coordinated ethnic targeting, rape and torture against non-Arab communities in Sudanese city."
+        },
         {
           "title": "Aid reaches Sudan’s Kordofan as over 30 countries alarmed by drone attacks",
           "url": "https://www.aljazeera.com/news/2026/2/19/aid-reaches-sudans-kordofan-as-over-30-countries-alarmed-by-drone-attacks?traffic_source=rss",
@@ -211,6 +250,20 @@
           "lead": "The loss of sacred spaces during the period of observance and the ongoing conflict reminds us of the importance of cheri"
         },
         {
+          "title": "Tchad: un ex-membre du Conseil militaire de transition accuse le président d’enrôlements forcés pour combattre au Soudan",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-tchad-un-ex-membre-du-conseil-militaire-de-transition-accuse-le-pr%C3%A9sident-d-enr%C3%B4lements-forc%C3%A9s-pour-combattre-au-soudan",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:03:51",
+          "lead": "Recrutements forcés, traite d'êtres humains... L'accusation est grave et vise le président tchadien Mahamat Idriss Déby."
+        },
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        },
+        {
           "title": "Soudan : l’UE, le Royaume-Uni et le Canada dénoncent de possibles « crimes de guerres ou crimes contre l’humanité »",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/18/soudan-l-ue-le-royaume-uni-et-le-canada-denoncent-de-possibles-crimes-de-guerres-ou-crimes-contre-l-humanite_6667315_3212.html",
           "source": "Le Monde Afrique",
@@ -218,18 +271,51 @@
           "lead": "La guerre au Soudan a fait plusieurs dizaines de milliers de morts et déplacé plus de 14 millions de personnes à l’intér"
         },
         {
+          "title": "UN probe finds evidence of genocide in Darfur city of El-Fasher",
+          "url": "http://www.africanews.com/2026/02/19/un-probe-finds-evidence-of-genocide-in-darfur-city-of-el-fasher/",
+          "source": "Africanews",
+          "published": "2026-02-19T09:14:42",
+          "lead": "A United Nations investigation into the fall of El-Fasher, a key city in Sudan’s western Darfur region, has found that a"
+        },
+        {
+          "title": "Sudan: Genocidal Campaign Waged Against Sudan's Non-Arab Communities - UN Report",
+          "url": "https://allafrica.com/stories/202602190289.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T10:17:09",
+          "lead": "[allAfrica] Geneva - Sudan's Independent International Fact-Finding Mission says in a new report that the Rapid Support "
+        },
+        {
+          "title": "Sudan: Joint UN Convoy Brings Vital Aid to Cut-Off Communities in Sudan's South Kordofan State",
+          "url": "https://allafrica.com/stories/202602190310.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T10:45:01",
+          "lead": "[United Nations in Sudan] PORT SUDAN -- A United Nations (UN) inter-agency convoy led by the World Food Programme (WFP),"
+        },
+        {
           "title": "Sudan: Rights Chief Alarmed After At Least 57 Killed in Drone Attacks in Two Days",
           "url": "https://allafrica.com/stories/202602190009.html",
           "source": "AllAfrica",
           "published": "2026-02-19T04:42:55",
           "lead": "[UN News] The UN High Commissioner for Human Rights called on Wednesday for warring parties in Sudan to take urgent step"
+        },
+        {
+          "title": "Sudan: 'Hallmarks of Genocide' Found in El Fasher, UN Investigators Detail Mass Killings and Ethnic Targeting",
+          "url": "https://allafrica.com/stories/202602190330.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T10:52:53",
+          "lead": "[UN News] The Rapid Support Forces (RSF) carried out ethnically targeted killings, widespread sexual violence and enforc"
         }
       ],
       "sources": [
-        "The Guardian Africa",
+        "BBC Africa",
+        "AllAfrica",
         "Al Jazeera",
         "Le Monde Afrique",
-        "AllAfrica"
+        "Africanews",
+        "RFI Afrique",
+        "The Guardian Africa",
+        "ReliefWeb",
+        "Daily Maverick"
       ]
     },
     "Mauritania": {
@@ -245,13 +331,18 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.8,
-      "ratio": 0.26,
+      "ratio": 0.52,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -260,17 +351,25 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T18:32:06",
           "lead": "Très attendu, le récent remaniement a consacré le retour en force du ministre de la Défense, le général Sadio Camara, da"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 2.7,
-      "ratio": 0.74,
+      "ratio": 1.13,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -279,15 +378,7 @@
           "count": 1
         },
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Insurgent",
-          "count": 1
-        },
-        {
-          "word": "President",
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -301,35 +392,65 @@
           "lead": "Une nouvelle attaque imputée à un groupe jihadiste a fait entre 60 et 70 morts dans l'est du Burkina Faso, samedi 14 fév"
         },
         {
-          "title": "Ghana: Burkina Faso Fatal Attack - Pres Mahama Orders Evacuation of Injured Traders",
-          "url": "https://allafrica.com/stories/202602180330.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T11:19:23",
-          "lead": "[Ghanaian Times] THE Ghana Armed Forces (GAF) will evacuate Ghanaian traders injured in an armed insurgent attack in Bur"
+          "title": "Burkina Faso: Plan de travail annuel du Cluster Education 2026",
+          "url": "https://reliefweb.int/report/burkina-faso/plan-de-travail-annuel-du-cluster-education-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T11:23:42",
+          "lead": "Country: Burkina Faso\n                                      Source: Education Cluster\n                                  "
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
-        "AllAfrica",
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 4.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.45,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "IMF approves $91 million in funding for Niger following programme review",
+          "url": "http://www.africanews.com/2026/02/19/imf-approves-91-million-in-funding-for-niger-following-programme-review/",
+          "source": "Africanews",
+          "published": "2026-02-19T10:00:50",
+          "lead": "The announcement comes despite the country's recent political upheaval and its move away from traditional Western partne"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb",
+        "Africanews"
+      ]
     },
     "Senegal": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 5.5,
-      "ratio": 0.55,
+      "article_count": 6,
+      "source_count": 4,
+      "baseline": 5.4,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -339,6 +460,10 @@
         },
         {
           "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -350,6 +475,20 @@
           "source": "BBC Africa",
           "published": "2026-02-19T00:16:54",
           "lead": "During winter in Britain fresh produce is sent by cargo ship from the West African nation every week."
+        },
+        {
+          "title": "CAN 2025: ouverture du procès des 18 supporters sénégalais arrêtés au Maroc",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260219-can-2025-ouverture-du-proc%C3%A8s-des-18-supporters-s%C3%A9n%C3%A9galais-arr%C3%AAt%C3%A9s-au-maroc",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T08:42:36",
+          "lead": "Un mois après les heurts ayant émaillé la finale de la Coupe d’Afrique des Nations entre le Maroc et le Sénégal, le proc"
+        },
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
         },
         {
           "title": "Sénégal: la version du procureur sur la mort d'un étudiant de l'Ucad peine à convaincre",
@@ -364,119 +503,243 @@
           "source": "Jeune Afrique",
           "published": "2026-02-19T07:30:00",
           "lead": "Un maintien de l’ordre sans bavures est-il possible ? Le ministre de l’Intérieur a annoncé la « révision des procédures "
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
         "BBC Africa",
-        "Jeune Afrique",
-        "RFI Afrique"
+        "ReliefWeb",
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Guinea-Bissau": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Guinea": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Sierra Leone": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Liberia": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Côte d'Ivoire": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Ghana": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.36,
+      "baseline": 0.5,
+      "ratio": 2.0,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Insurgent",
-          "count": 1
-        },
-        {
-          "word": "President",
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Ghana: Burkina Faso Fatal Attack - Pres Mahama Orders Evacuation of Injured Traders",
-          "url": "https://allafrica.com/stories/202602180330.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T11:19:23",
-          "lead": "[Ghanaian Times] THE Ghana Armed Forces (GAF) will evacuate Ghanaian traders injured in an armed insurgent attack in Bur"
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
-        "AllAfrica"
+        "ReliefWeb"
+      ]
+    },
+    "Guinea-Bissau": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.9,
+      "ratio": 1.15,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Guinea": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.7,
+      "ratio": 1.21,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb",
+        "RFI Afrique"
+      ]
+    },
+    "Sierra Leone": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.5,
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
+    },
+    "Liberia": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.3,
+      "ratio": 0.79,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Côte d'Ivoire": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.6,
+      "ratio": 1.28,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Côte d’Ivoire: le lanceur d’alerte Jean-Christian Konan sous mandat de dépôt",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-c%C3%B4te-d-ivoire-le-lanceur-d-alerte-jean-christian-konan-sous-mandat-de-d%C3%A9p%C3%B4t",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T10:20:33",
+          "lead": "En Côte d’Ivoire, le lanceur d’alerte Jean-Christian Konan dort désormais en prison. Interpellé en début de semaine par "
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb",
+        "RFI Afrique"
+      ]
+    },
+    "Ghana": {
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 2.7,
+      "ratio": 1.48,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        },
+        {
+          "title": "Colère au Ghana où un Russe publiait des vidéos sexuelles sans le consentement de ses partenaires",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-col%C3%A8re-au-ghana-o%C3%B9-un-russe-publiait-des-vid%C3%A9os-sexuelles-sans-le-consentement-de-ses-partenaires",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T10:32:54",
+          "lead": "Au Ghana, l’ambassadeur de Russie a été convoqué par le ministère des Affaires étrangères, le 17 février 2026. En cause "
+        },
+        {
+          "title": "Kenya: Ghana Reveals Identity of 'Russian Man' Push to Extradite Him Over Non Consensual Videos",
+          "url": "https://allafrica.com/stories/202602190357.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T11:03:57",
+          "lead": "[Capital FM] &#x26;lt;li&#x26;gt;nairobi -- Ghanaian authorities have made traction in the investigation of a widely cir"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "ReliefWeb",
+        "RFI Afrique"
       ]
     },
     "Togo": {
@@ -488,40 +751,37 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "M23",
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Est de la RDC: le cessez-le-feu annoncé à Luanda reste sans effet",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-est-de-la-rdc-le-cessez-le-feu-annonc%C3%A9-%C3%A0-luanda-reste-sans-effet",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T13:58:39",
-          "lead": "C’est à midi ce mercredi 18 février que devait entrer en vigueur un cessez-le-feu entre le gouvernement congolais et l’A"
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.61,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.6,
+      "ratio": 1.24,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -530,9 +790,17 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T18:56:27",
           "lead": "Après avoir réalisé des revenus record l’an dernier, la filiale de Tanger Med enchaîne les contrats dans plusieurs pays."
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
@@ -540,7 +808,7 @@
       "article_count": 14,
       "source_count": 6,
       "baseline": 9.7,
-      "ratio": 1.44,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -549,11 +817,19 @@
           "count": 3
         },
         {
+          "word": "Explosion",
+          "count": 2
+        },
+        {
           "word": "Government",
           "count": 2
         },
         {
-          "word": "Explosion",
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
           "count": 2
         },
         {
@@ -561,15 +837,7 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "M23",
+          "word": "Wounded",
           "count": 1
         },
         {
@@ -580,6 +848,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Islamic police in Nigeria arrest nine Muslims for not fasting during Ramadan",
+          "url": "https://www.bbc.com/news/articles/c62gjgl75jpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-19T10:51:03",
+          "lead": "Officers in Kano search cafes and restaurants every year during Ramadan looking for Muslims breaking the fast."
+        },
+        {
           "title": "Suspected carbon-monoxide leak kills at least 30 miners in Nigeria, witnesses say",
           "url": "https://www.bbc.com/news/articles/cwyk6nr80kxo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
@@ -587,11 +862,11 @@
           "lead": "The workers are believed to have collapsed after the gas built up in poorly ventilated tunnels."
         },
         {
-          "title": "At least 37 killed in Nigeria mine carbon monoxide poisoning: Reports",
-          "url": "https://www.aljazeera.com/news/2026/2/19/at-least-37-killed-in-nigeria-mine-carbon-monoxide-poisoning-reports?traffic_source=rss",
+          "title": "‘Holding hands’: How Nigeria turned Trump’s threats to military partnership",
+          "url": "https://www.aljazeera.com/news/2026/2/19/from-us-threats-to-holding-hands-did-nigeria-disarm-trump-on-security?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-19T04:57:39",
-          "lead": "Illegal mining is a widespread issue in Nigeria, where operations lack both government oversight and safety protocols."
+          "published": "2026-02-19T08:24:11",
+          "lead": "Trump and Nigeria appeared headed for a clash over bogus claims of a Christian massacre. Now the US is helping Nigeria."
         },
         {
           "title": "Nigeria: au moins 38 morts dans une explosion survenue dans une mine de l'État de Plateau",
@@ -599,20 +874,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-18T19:49:10",
           "lead": "Une explosion dans une mine de plomb dans l'État de Plateau, au centre du Nigeria, a tué au moins 38 personnes, dans la "
-        },
-        {
-          "title": "«Obi Is A Boy» du Nigérian Dika Ofoma: «Il n'y a pas qu'une seule façon d'être un homme»",
-          "url": "https://www.rfi.fr/fr/culture/20260218-obi-is-a-boy-du-nig%C3%A9rian-dika-ofoma-il-n-y-a-pas-qu-une-seule-fa%C3%A7on-d-%C3%AAtre-un-homme",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T16:41:00",
-          "lead": "Il est le seul Nigérian sélectionné à la Berlinale 2026 dans le programme Berlin Talents, qui se termine ce 18 février. "
-        },
-        {
-          "title": "Est de la RDC: le cessez-le-feu annoncé à Luanda reste sans effet",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-est-de-la-rdc-le-cessez-le-feu-annonc%C3%A9-%C3%A0-luanda-reste-sans-effet",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T13:58:39",
-          "lead": "C’est à midi ce mercredi 18 février que devait entrer en vigueur un cessez-le-feu entre le gouvernement congolais et l’A"
         },
         {
           "title": "38 killed in gas blast at Nigeria lead mine",
@@ -634,6 +895,13 @@
           "source": "Africanews",
           "published": "2026-02-18T15:59:43",
           "lead": "At least eight Nigerian soldiers have been killed and 23 others wounded after a deadly raid by jihadists linked to the I"
+        },
+        {
+          "title": "Nigeria: Bandits Kill Monarch in Ondo, Police Launch Manhunt",
+          "url": "https://allafrica.com/stories/202602190308.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T10:44:21",
+          "lead": "[This Day] Akure -- Suspected bandits have killed the traditional ruler of Agamo community in Akure North Local Governme"
         },
         {
           "title": "Nigeria: Explosion Kills Over 30 Miners in Plateau, Ministry Orders Mine Shut",
@@ -665,50 +933,91 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "Al Jazeera",
-        "AllAfrica",
-        "RFI Afrique",
         "BBC Africa",
-        "Africanews"
+        "AllAfrica",
+        "Al Jazeera",
+        "Africanews",
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Cape Verde": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Chad": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 2.9,
-      "ratio": 0.69,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 0.5,
+      "ratio": 4.0,
+      "status": "elevated",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Displaced",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "IOM's CCCM Mozambique | WPP-STORYTELLING",
+          "url": "https://reliefweb.int/report/mozambique/ioms-cccm-mozambique-wpp-storytelling",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T07:16:19",
+          "lead": "Country: Mozambique\n                                      Sources: CCCM Cluster, International Organization for Migratio"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Chad": {
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 2.9,
+      "ratio": 1.37,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Tchad: un ex-membre du Conseil militaire de transition accuse le président d’enrôlements forcés pour combattre au Soudan",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-tchad-un-ex-membre-du-conseil-militaire-de-transition-accuse-le-pr%C3%A9sident-d-enr%C3%B4lements-forc%C3%A9s-pour-combattre-au-soudan",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:03:51",
+          "lead": "Recrutements forcés, traite d'êtres humains... L'accusation est grave et vise le président tchadien Mahamat Idriss Déby."
+        },
+        {
           "title": "Le Tchad veut mieux rentabiliser son immense cheptel de dromadaires",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/18/le-tchad-veut-mieux-rentabiliser-son-immense-cheptel-de-dromadaires_6667302_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-18T19:00:07",
+          "published": "2026-02-18T19:00:06",
           "lead": "Avec plus de 11 millions de têtes, le pays compte le plus grand troupeau de la planète, mais il est incapable d’exploite"
         },
         {
@@ -717,20 +1026,33 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-18T16:00:09",
           "lead": "La visite du président Mahamat Idriss Déby à l’Elysée, fin janvier, a acté la réconciliation entre Paris et N’Djamena, u"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
-        "Le Monde Afrique"
+        "ReliefWeb",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 2.6,
-      "ratio": 1.15,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.92,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -738,16 +1060,36 @@
         {
           "word": "Guerre",
           "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Cameroun: dans le procès de l'assassinat de Martinez Zogo, des agents du contre-espionnage entendus",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-cameroun-dans-le-proc%C3%A8s-de-l-assassinat-de-martinez-zogo-des-agents-du-contre-espionnage-entendus",
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
           "source": "RFI Afrique",
-          "published": "2026-02-18T09:21:31",
-          "lead": "Le procès Martinez Zogo s'est poursuivi mardi 17 février au tribunal militaire de Yaoundé. Des agents de la direction de"
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
         },
         {
           "title": "Au Cameroun, le port de Douala toujours menacé de paralysie par la guerre des clans",
@@ -762,35 +1104,99 @@
           "source": "Jeune Afrique",
           "published": "2026-02-18T12:24:55",
           "lead": "Quinze Africains, renvoyés des États-Unis, sont assignés à résidence au Cameroun. Cette rétention, jusqu’ici secrète, em"
+        },
+        {
+          "title": "Funding from CERF helps families rebuild resilient homes and livelihoods in Cameroon’s Far North",
+          "url": "https://reliefweb.int/report/cameroon/funding-cerf-helps-families-rebuild-resilient-homes-and-livelihoods-cameroons-far-north",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T10:45:16",
+          "lead": "Country: Cameroon\n                                      Sources: UN High Commissioner for Refugees, UN Office for the Co"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "ReliefWeb",
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 3.0,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Enhancing climate-smart livelihoods for women and youth in CAR",
+          "url": "https://reliefweb.int/report/central-african-republic/enhancing-climate-smart-livelihoods-women-and-youth-car",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T10:19:53",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
+        },
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N°55, au 17 février 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg55-au-17-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T08:44:37",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.24,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 3.11,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
           "count": 2
         },
         {
@@ -805,6 +1211,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        },
+        {
           "title": "'No food' in South Sudan displacement camp as new conflict breaks out",
           "url": "http://www.africanews.com/2026/02/18/no-food-in-south-sudan-displacement-camp-as-new-conflict-breaks-out/",
           "source": "Africanews",
@@ -817,45 +1230,75 @@
           "source": "Africanews",
           "published": "2026-02-19T06:53:22",
           "lead": "The Aboko teaching hospital is one of a string in South Sudan that are overwhelmed as fighting in the country rages on. "
+        },
+        {
+          "title": "UNHCR Uganda: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/uganda/unhcr-uganda-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:16:19",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "UNHCR South Sudan: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/unhcr-south-sudan-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T01:37:54",
+          "lead": "Countries: South Sudan, World\n                                      Source: UN High Commissioner for Refugees\n          "
         }
       ],
       "sources": [
-        "Africanews"
+        "ReliefWeb",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Eq. Guinea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Gabon": {
       "article_count": 7,
-      "source_count": 6,
+      "source_count": 5,
       "baseline": 1.3,
-      "ratio": 5.37,
+      "ratio": 5.19,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Social media suspended in Gabon for 'spreading of false information'",
-          "url": "https://www.bbc.com/news/articles/cx2rg2vndk1o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-18T11:05:05",
-          "lead": "The media regulator said the ban would be in place \"until further notice\"."
+          "title": "Gabon: la suspension des réseaux sociaux, une décision aux répercussions économiques importantes",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-gabon-la-suspension-des-r%C3%A9seaux-sociaux-une-d%C3%A9cision-aux-r%C3%A9percussions-%C3%A9conomiques-importantes",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T08:44:34",
+          "lead": "Au Gabon, la décision de suspendre les réseaux sociaux est bel et bien effective jeudi 19 février. Facebook et Tik Tok s"
         },
         {
           "title": "Les coupures des réseaux sociaux «sont moins brutales, mais plus ciblées», selon Internet Sans Frontières",
@@ -879,18 +1322,11 @@
           "lead": "Les autorités gabonaises ont fait couper mercredi plusieurs réseaux sociaux, dont Facebook et TikTok, accusés de porter "
         },
         {
-          "title": "Gabon : les réseaux sociaux suspendus « jusqu’à nouvel ordre »",
-          "url": "https://www.jeuneafrique.com/1766668/politique/gabon-les-reseaux-sociaux-suspendus-jusqua-nouvel-ordre/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-18T10:42:54",
-          "lead": "La Haute Autorité de la communication (HAC) a annoncé le 17 février la suspension immédiate et « jusqu’à nouvel ordre » "
-        },
-        {
-          "title": "Social media suspended in Gabon 'until further notice': media regulator",
-          "url": "http://www.africanews.com/2026/02/18/social-media-suspended-in-gabon-until-further-notice-media-regulator/",
+          "title": "Gabonese opposition and businesses angry about social media ban",
+          "url": "http://www.africanews.com/2026/02/19/gabonese-opposition-and-businesses-angry-about-social-media-ban/",
           "source": "Africanews",
-          "published": "2026-02-18T11:20:35",
-          "lead": "Gabon's media regulator on Tuesday announced the suspension of social media platforms \"until further notice\", blaming co"
+          "published": "2026-02-19T09:26:36",
+          "lead": "The High Authority for Communication on Tuesday announced a block on access to services saying posts are fuelling confli"
         },
         {
           "title": "Gabon: Gabon Pulls Plug On Facebook and TikTok Amid Anti-Government Protests",
@@ -898,25 +1334,39 @@
           "source": "AllAfrica",
           "published": "2026-02-19T04:42:57",
           "lead": "[RFI] Social media platforms including Facebook and TikTok were no longer available in Gabon on Wednesday, AFP journalis"
+        },
+        {
+          "title": "Chad: UNHCR West and Central Africa: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/chad/unhcr-west-and-central-africa-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:18:59",
+          "lead": "Countries: Chad, Benin, Burkina Faso, Cabo Verde, Cameroon, Central African Republic, Côte d'Ivoire, Gabon, Gambia, Ghan"
         }
       ],
       "sources": [
         "AllAfrica",
+        "Africanews",
         "RFI Afrique",
         "France24 Afrique",
-        "BBC Africa",
-        "Africanews",
-        "Jeune Afrique"
+        "ReliefWeb"
       ]
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.3,
-      "ratio": 1.48,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.4,
+      "ratio": 2.16,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Élection",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Epidemic",
           "count": 1
@@ -924,6 +1374,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Congo-Brazzaville: des participants à la concertation politique avant la présidentielle déçus par ses conclusions",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-congo-brazzaville-des-participants-%C3%A0-la-concertation-politique-avant-la-pr%C3%A9sidentielle-d%C3%A9%C3%A7us-par-ses-conclusions",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T10:06:37",
+          "lead": "Au Congo-Brazzaville, la présidentielle, se tient dans moins d'un mois, le 15 mars 2026. Le président Denis Sassou-Ngues"
+        },
         {
           "title": "DRC: Musicians work to preserve Congolese rumba",
           "url": "http://www.africanews.com/2026/02/18/drc-musicians-work-to-preserve-congolese-rumba/",
@@ -940,44 +1397,33 @@
         }
       ],
       "sources": [
+        "AllAfrica",
         "Africanews",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 6,
       "source_count": 5,
-      "baseline": 7.1,
-      "ratio": 1.12,
+      "baseline": 7.2,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 3
+          "count": 2
         },
         {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
+          "word": "Humanitarian",
+          "count": 2
         },
         {
           "word": "Epidemic",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -989,27 +1435,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-19T05:52:12",
           "lead": "À Uvira, dans l'est de la République démocratique du Congo (RDC), les habitants et les commerçants implorent la réouvert"
-        },
-        {
-          "title": "RDC: au procès du général Philémon Yav Irung, l’accusation et la défense s’affrontent sur la preuve clé",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-rdc-au-proc%C3%A8s-du-g%C3%A9n%C3%A9ral-phil%C3%A9mon-yav-irung-l-accusation-et-la-d%C3%A9fense-s-affrontent-sur-la-preuve-cl%C3%A9",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T09:11:56",
-          "lead": "C'est un procès sensible qui s'est poursuivi, mardi 17 février, en République démocratique du Congo (RDC) devant la Haut"
-        },
-        {
-          "title": "Est de la RDC: le cessez-le-feu annoncé à Luanda reste sans effet",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-est-de-la-rdc-le-cessez-le-feu-annonc%C3%A9-%C3%A0-luanda-reste-sans-effet",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T13:58:39",
-          "lead": "C’est à midi ce mercredi 18 février que devait entrer en vigueur un cessez-le-feu entre le gouvernement congolais et l’A"
-        },
-        {
-          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-18T10:09:04",
-          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
         },
         {
           "title": "Mercuria, Vitol, Gunvor… Les traders pétroliers se lancent à l’assaut du marché minier africain",
@@ -1038,13 +1463,20 @@
           "source": "AllAfrica",
           "published": "2026-02-19T04:42:52",
           "lead": "[The New Humanitarian] Goma, Democratic Republic of the Congo -- \"Mistakes are unforgivable, which is why we do everythi"
+        },
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N°55, au 17 février 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg55-au-17-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T08:44:37",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
         }
       ],
       "sources": [
         "AllAfrica",
-        "RFI Afrique",
         "Africanews",
-        "Le Monde Afrique",
+        "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
@@ -1061,39 +1493,16 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.9,
-      "ratio": 1.1,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "M23",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Est de la RDC: le cessez-le-feu annoncé à Luanda reste sans effet",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-est-de-la-rdc-le-cessez-le-feu-annonc%C3%A9-%C3%A0-luanda-reste-sans-effet",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T13:58:39",
-          "lead": "C’est à midi ce mercredi 18 février que devait entrer en vigueur un cessez-le-feu entre le gouvernement congolais et l’A"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eritrea": {
       "article_count": 0,
@@ -1133,7 +1542,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 4.5,
-      "ratio": 0.44,
+      "ratio": 0.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1152,23 +1561,23 @@
           "lead": "He made the comment on an official visit to Ethiopia, saying it could prove dangerous for a volatile region."
         },
         {
-          "title": "Coffee-growing countries becoming too hot to cultivate beans, analysis finds",
-          "url": "https://www.theguardian.com/environment/2026/feb/18/coffee-growing-countries-too-hot-to-cultivate-beans-analysis",
-          "source": "The Guardian Africa",
-          "published": "2026-02-18T10:00:05",
-          "lead": "Five countries responsible for 75% of world’s coffee supply record average of 57 extra days of coffee-harming heat a yea"
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
         }
       ],
       "sources": [
         "BBC Africa",
-        "The Guardian Africa"
+        "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 2.3,
-      "ratio": 1.33,
+      "ratio": 0.87,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1200,13 +1609,6 @@
           "source": "AllAfrica",
           "published": "2026-02-19T05:43:20",
           "lead": "[Shabelle] Mogadishu, Somalia -- Somalia's Disaster Management Agency (SoDMA) says more than two million people are faci"
-        },
-        {
-          "title": "Somalia: Somali PM Seeks Opposition Buy-in for Talks At Presidential Palace Amid Political Tensions",
-          "url": "https://allafrica.com/stories/202602180262.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T10:38:42",
-          "lead": "[Shabelle] Mogadishu -- Ongoing political efforts in Somalia led to a tentative deal from opposition figures to hold con"
         }
       ],
       "sources": [
@@ -1215,35 +1617,20 @@
       ]
     },
     "Uganda": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.46,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Government",
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-18T10:09:04",
-          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
-        },
         {
           "title": "Uganda: Senior Ugandan security officials sued by global entrepreneur Vasundhara Oswal for arbitrary detention",
           "url": "https://allafrica.com/stories/202602180585.html",
@@ -1259,28 +1646,52 @@
           "lead": "[Nile Post] Former National Unity Platform (NUP) presidential candidate Robert Kyagulanyi Ssentamu, popularly known as B"
         },
         {
-          "title": "Uganda: IGG Launches New Five-Year Strategy to Fight Corruption",
-          "url": "https://allafrica.com/stories/202602180482.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T14:36:18",
-          "lead": "[Independent (Kampala)] The Inspectorate of Government (IG) unveiled its five-year strategic plan aimed at embedding ant"
+          "title": "UNHCR Uganda: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/uganda/unhcr-uganda-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:16:19",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Le Monde Afrique"
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 10,
+      "source_count": 5,
       "baseline": 5.5,
-      "ratio": 1.1,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "ratio": 1.83,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Drought",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Des proches de Kényans envoyés par la Russie sur le front critiquent la diplomatie de leur pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-des-proches-de-k%C3%A9nyans-envoy%C3%A9s-par-la-russie-sur-le-front-critiquent-la-diplomatie-de-leur-pays",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T10:26:11",
+          "lead": "Les autorités kényanes ont identifié 95 ressortissants enrôlés dans les rangs de l’armée russe. C’est ce que révèle un m"
+        },
         {
           "title": "Kenya: nouvelles révélations sur l'enrôlement de jeunes dans l'armée russe, 95 personnes identifiées",
           "url": "https://www.rfi.fr/fr/afrique/20260218-kenya-nouvelles-r%C3%A9v%C3%A9lations-sur-l-enr%C3%B4lement-de-jeunes-dans-l-arm%C3%A9e-russe-95-personnes-identifi%C3%A9es",
@@ -1303,6 +1714,13 @@
           "lead": "Kenya will begin rolling out a revolutionary new HIV-prevention drug in March, offering near-complete protection with ju"
         },
         {
+          "title": "Kenya: Concern As Early School Pickups Spark Debate Over Children's Welfare in Kenya",
+          "url": "https://allafrica.com/stories/202602190264.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T09:37:00",
+          "lead": "[Capital FM] Nairobi -- A growing trend of schools picking up learners in the early hours of the morning has sparked con"
+        },
+        {
           "title": "Kenya: Jambojet Cancelled Over 40 Flights During Recently Ended Aviation Strike",
           "url": "https://allafrica.com/stories/202602190130.html",
           "source": "AllAfrica",
@@ -1317,36 +1735,43 @@
           "lead": "[Capital FM] Nairobi -- Kenya and Israel have reaffirmed their bilateral defence and security cooperation, underscoring "
         },
         {
-          "title": "Kenya: Civil Society Alliance Protests Governors' Boycott of Senate Oversight",
-          "url": "https://allafrica.com/stories/202602180474.html",
+          "title": "Kenya: Ghana Reveals Identity of 'Russian Man' Push to Extradite Him Over Non Consensual Videos",
+          "url": "https://allafrica.com/stories/202602190357.html",
           "source": "AllAfrica",
-          "published": "2026-02-18T14:30:06",
-          "lead": "[Capital FM] Nairobi -- Civil society groups have raised the alarm following a decision by the Council of Governors (CoG"
+          "published": "2026-02-19T11:03:57",
+          "lead": "[Capital FM] &#x26;lt;li&#x26;gt;nairobi -- Ghanaian authorities have made traction in the investigation of a widely cir"
+        },
+        {
+          "title": "Situation Update: Escalating Malnutrition and Acute Food Shortage in Kenya’s ASAL Counties Amid Worsening Drought: Urgent Multisectoral Action Needed to Save Lives (18th February 2026)",
+          "url": "https://reliefweb.int/report/kenya/situation-update-escalating-malnutrition-and-acute-food-shortage-kenyas-asal-counties-amid-worsening-drought-urgent-multisectoral-action-needed-save-lives-18th-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T11:19:13",
+          "lead": "Country: Kenya\n                                      Source: Action Against Hunger\n                                     "
+        },
+        {
+          "title": "Urgent: 3.3 Million Kenyans Face Acute Hunger as Multi-Year Drought Devastates ASAL Counties: Urgent Multisectoral Action Needed to Save Lives.",
+          "url": "https://reliefweb.int/report/kenya/urgent-33-million-kenyans-face-acute-hunger-multi-year-drought-devastates-asal-counties-urgent-multisectoral-action-needed-save-lives",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T11:14:37",
+          "lead": "Country: Kenya\n                                      Source: Action Against Hunger\n                                     "
         }
       ],
       "sources": [
+        "AllAfrica",
         "Africanews",
-        "Jeune Afrique",
         "RFI Afrique",
-        "AllAfrica"
+        "ReliefWeb",
+        "Jeune Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 2.2,
-      "ratio": 1.35,
+      "baseline": 2.3,
+      "ratio": 0.87,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        },
         {
           "word": "Refugees",
           "count": 1
@@ -1355,11 +1780,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-18T10:09:04",
-          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
         },
         {
           "title": "Rwanda: Amid Shrinking Aid, Refugees in Rwanda Are Finding New Sources of Livelihoods",
@@ -1367,38 +1792,23 @@
           "source": "AllAfrica",
           "published": "2026-02-19T05:22:47",
           "lead": "[New Times] When Pierre Rutayisire arrived in Rwanda as a refugee from eastern DR Congo in 1995, his family had no sourc"
-        },
-        {
-          "title": "Rwanda: Land Termination Policy Raises Questions Over Property Rights",
-          "url": "https://allafrica.com/stories/202602190089.html",
-          "source": "AllAfrica",
-          "published": "2026-02-19T05:34:50",
-          "lead": "[New Times] Debate over land rights is intensifying as the City of Kigali pushes landowners in prime areas to develop id"
         }
       ],
       "sources": [
         "AllAfrica",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 2.09,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.05,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -1410,63 +1820,95 @@
           "source": "RFI Afrique",
           "published": "2026-02-19T05:52:12",
           "lead": "À Uvira, dans l'est de la République démocratique du Congo (RDC), les habitants et les commerçants implorent la réouvert"
-        },
-        {
-          "title": "L’UE débloque plus de 80 millions d’euros pour répondre à la crise humanitaire dans la région des Grands Lacs",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/18/l-ue-debloque-plus-de-80-millions-d-euros-pour-repondre-a-la-crise-humanitaire-dans-la-region-des-grands-lacs_6667233_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-18T10:09:04",
-          "lead": "L’est de la RDC, frontalier du Rwanda, de l’Ouganda et du Burundi et riche en ressources naturelles, est ravagé par des "
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "RFI Afrique"
       ]
     },
     "Tanzania": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Madagascar": {
       "article_count": 2,
-      "source_count": 1,
-      "baseline": 3.0,
-      "ratio": 0.67,
-      "status": "normal",
-      "confidence": "normal",
+      "source_count": 2,
+      "baseline": 1.2,
+      "ratio": 1.7,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Épidémie",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Après le cyclone Gezani, près de 30 000 élèves privés de classe dans l’est de Madagascar",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-apr%C3%A8s-le-cyclone-gezani-pr%C3%A8s-de-30-000-%C3%A9l%C3%A8ves-priv%C3%A9s-de-classe-dans-l-est-de-madagascar",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T09:26:34",
-          "lead": "Dans l’est de Madagascar, comment retrouver le chemin de l’école après la dévastation causée par le cyclone Gezani ? L’é"
+          "title": "Tanzania: Maternal Deaths Drop in Zanzibar, Government Says",
+          "url": "https://allafrica.com/stories/202602190325.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T10:51:22",
+          "lead": "[Daily News] Zanzibar -- ZANZIBAR has recorded a decline in maternal and newborn deaths, although officials say more wor"
         },
         {
-          "title": "Madagascar: dans les bas-quartiers d'Antananarivo, les prostituées sensibilisées au Mpox",
-          "url": "https://www.rfi.fr/fr/afrique/20260218-madagascar-dans-les-bas-quartiers-d-antananarivo-les-prostitu%C3%A9es-sensibilis%C3%A9es-au-mpox",
-          "source": "RFI Afrique",
-          "published": "2026-02-18T13:53:29",
-          "lead": "Depuis le début de l’épidémie de Mpox à la mi-décembre 2025, plus de 850 cas ont été notifiés. Ce week-end, le porte-par"
+          "title": "UNHCR United Republic of Tanzania: 2026 Funding Update (as of 31 January 2026)",
+          "url": "https://reliefweb.int/report/united-republic-tanzania/unhcr-united-republic-tanzania-2026-funding-update-31-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T03:15:34",
+          "lead": "Countries: United Republic of Tanzania, Democratic Republic of the Congo\n                                      Source: U"
         }
       ],
       "sources": [
+        "ReliefWeb",
+        "AllAfrica"
+      ]
+    },
+    "Madagascar": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 3.0,
+      "ratio": 0.67,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Madagascar: la justice ordonne la démolition du Colisée, bâtiment controversé d’Antananarivo",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-madagascar-la-justice-ordonne-la-d%C3%A9molition-du-colis%C3%A9e-b%C3%A2timent-controvers%C3%A9-d-antananarivo",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T10:29:32",
+          "lead": "À Madagascar, la plus haute colline d’Antananarivo pourrait connaître très prochainement un chantier de grande ampleur. "
+        },
+        {
+          "title": "Madagascar: Humanitarian impact of Tropical Cyclone Gezani Flash Update No. 3 (17 February 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-humanitarian-impact-tropical-cyclone-gezani-flash-update-no-3-17-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T08:51:12",
+          "lead": "Country: Madagascar\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
+        }
+      ],
+      "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
@@ -1519,49 +1961,76 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Mozambique": {
       "article_count": 2,
-      "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.96,
-      "status": "normal",
-      "confidence": "normal",
+      "source_count": 2,
+      "baseline": 0.9,
+      "ratio": 2.19,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "President",
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Mozambique: IMF Dashes Chapo's Hopes and Sets the Course for Hard Times",
-          "url": "https://allafrica.com/stories/202602180125.html",
+          "title": "Malawi: Malawi Signs Strategic Mineral Deal With U.S., But Questions Linger Over Transparency",
+          "url": "https://allafrica.com/stories/202602190332.html",
           "source": "AllAfrica",
-          "published": "2026-02-18T08:08:14",
-          "lead": "[Mozambique News Reports And Clippings] Chapo's hopes for IMF approval were dashed today (17 February) by the IMF Execut"
+          "published": "2026-02-19T10:53:27",
+          "lead": "[Nyasa Times] Malawi has signed what government officials are calling a landmark minerals deal with a United States-base"
         },
         {
-          "title": "Mozambique: 70 Deaths in Current Cholera Outbreak",
-          "url": "https://allafrica.com/stories/202602180510.html",
-          "source": "AllAfrica",
-          "published": "2026-02-18T15:20:43",
-          "lead": "[AIM] Maputo -- The Mozambican health authorities have recorded 70 deaths caused by cholera throughout the country, duri"
+          "title": "WFP Malawi Country Brief November 2025",
+          "url": "https://reliefweb.int/report/malawi/wfp-malawi-country-brief-november-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T06:33:37",
+          "lead": "Country: Malawi\n                                      Source: World Food Programme\n                                     "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
+      ]
+    },
+    "Mozambique": {
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.0,
+      "ratio": 0.98,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Displaced",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Mozambique - Infographic, 23 Jan - 19 Feb, 2026",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-infographic-23-jan-19-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T09:40:04",
+          "lead": "Country: Mozambique\n                                      Sources: Logistics Cluster, World Food Programme\n             "
+        },
+        {
+          "title": "IOM's CCCM Mozambique | WPP-STORYTELLING",
+          "url": "https://reliefweb.int/report/mozambique/ioms-cccm-mozambique-wpp-storytelling",
+          "source": "ReliefWeb",
+          "published": "2026-02-19T07:16:19",
+          "lead": "Country: Mozambique\n                                      Sources: CCCM Cluster, International Organization for Migratio"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
       ]
     },
     "Zimbabwe": {
@@ -1590,7 +2059,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.28,
+      "ratio": 1.21,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1629,11 +2098,15 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Combat",
-          "count": 1
+          "word": "President",
+          "count": 2
         },
         {
-          "word": "President",
+          "word": "Combat",
+          "count": 2
+        },
+        {
+          "word": "Président",
           "count": 1
         },
         {
@@ -1641,7 +2114,7 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -1656,11 +2129,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "South Africa sends in troops to combat organized crime",
-          "url": "https://www.dw.com/en/south-africa-sends-in-troops-to-combat-organized-crime/a-76015985?maca=en-rss-en-africa-8291-xml-mrss",
+          "title": "South Africa mulls using military to combat organized crime",
+          "url": "https://www.dw.com/en/south-africa-mulls-using-military-to-combat-organized-crime/a-76015985?maca=en-rss-en-africa-8291-xml-mrss",
           "source": "DW Africa",
           "published": "2026-02-18T14:47:00",
-          "lead": "President Cyril Ramaphosa's decision to deploy the military to battle fight crime has elicited mixed reactions from Sout"
+          "lead": "President Cyril Ramaphosa's announced plan to deploy the military to fight crime has elicited mixed reactions from South"
         },
         {
           "title": "Afrique du Sud: le déploiement à venir de l'armée face aux gangs ne fait pas l'unanimité",
@@ -1691,6 +2164,13 @@
           "lead": "[allAfrica]"
         },
         {
+          "title": "South Africa: South Africa Is Sending in the Army to Fight Crime (Again). Does It Ever Work?",
+          "url": "https://allafrica.com/stories/202602190329.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T10:52:52",
+          "lead": "[The Conversation Africa] Soldiers from the South African National Defence Force are going to be deployed alongside memb"
+        },
+        {
           "title": "South Africa: Hundreds March On Parliament Demanding an Increase in Alcohol Tax",
           "url": "https://allafrica.com/stories/202602180473.html",
           "source": "AllAfrica",
@@ -1698,18 +2178,25 @@
           "lead": "[GroundUp] \"In our communities we have shebeens that operate 24 hours\""
         },
         {
-          "title": "South Africa: One Million Vaccine Doses En Route As Foot-and-Mouth Disease Fight Intensifies",
-          "url": "https://allafrica.com/stories/202602180216.html",
+          "title": "South Africa: Invalid R263m Tanker Tender Rolls On As Joburg's Taps Run Dry",
+          "url": "https://allafrica.com/stories/202602190372.html",
           "source": "AllAfrica",
-          "published": "2026-02-18T09:52:24",
-          "lead": "[Daily Maverick] As foot-and-mouth disease devastates South Africa's livestock sector, one million vaccines are set to a"
+          "published": "2026-02-19T11:10:53",
+          "lead": "[Daily Maverick] A controversial water tanker tender is still running despite a court slap-down - while Johannesburg Wat"
         },
         {
-          "title": "South Africa: 'I Fought for Freedom, and Now I Am Going to Die Without Water' Says Mpumalanga Pensioner",
-          "url": "https://allafrica.com/stories/202602190141.html",
-          "source": "AllAfrica",
-          "published": "2026-02-19T07:35:43",
-          "lead": "[GroundUp] Residents of Lekwa Local Municipality say they have endured years of poor supply"
+          "title": "CAMPUS CHAOS: UCT fee crisis: 1,400 self-funded students in limbo as campus calm returns",
+          "url": "https://www.dailymaverick.co.za/article/uct-fee-crisis-1400-selffunded-students-in-limbo-as-campus-calm-returns",
+          "source": "Daily Maverick",
+          "published": "2026-02-19T12:39:27",
+          "lead": "Order has been restored at the University of Cape Town following Monday’s disruptive protests, yet the academic future o"
+        },
+        {
+          "title": "THE INTERVIEW : Paris signals strong, but nuanced, support for Pretoria on the global stage",
+          "url": "https://www.dailymaverick.co.za/article/paris-signals-strong-but-nuanced-support-for-pretoria-on-the-global-stage",
+          "source": "Daily Maverick",
+          "published": "2026-02-19T12:19:06",
+          "lead": "French President Emmanuel Macron will keep SA’s G20 agenda alive in the G7."
         },
         {
           "title": "AMABHUNGANE: Invalid R263m tanker tender rolls on as Joburg’s taps run dry",
@@ -1724,42 +2211,38 @@
           "source": "Daily Maverick",
           "published": "2026-02-19T00:09:12",
           "lead": "With citrus exports booming, South Africa faces a critical moment — enhancing logistics infrastructure is key to sustain"
-        },
-        {
-          "title": "UNDERWORLD ALLIANCE: R450m cocaine plane case ties Australian smuggler to ‘Big Five cartel base’ Gauteng",
-          "url": "https://www.dailymaverick.co.za/article/r450m-cocaine-plane-case-ties-australiantralian-smuggler-to-big-five-cartel-base",
-          "source": "Daily Maverick",
-          "published": "2026-02-18T22:04:08",
-          "lead": "If you were on a flight from Johannesburg to Sydney in early October 2023, you may have been travelling along with a con"
-        },
-        {
-          "title": "‘MINISTERIAL INTERFERENCE’: Court dismisses Gabrielle Goliath’s Venice Biennale challenge against Gayton McKenzie",
-          "url": "https://www.dailymaverick.co.za/article/court-dismisses-gabrielle-goliaths-venicvenice-biennale-challenge-against-gayton",
-          "source": "Daily Maverick",
-          "published": "2026-02-18T21:34:13",
-          "lead": "Artist Gabrielle Goliath lost her court battle against Minister Gayton McKenzie, meaning she’ll miss out on representing"
         }
       ],
       "sources": [
-        "Daily Maverick",
         "AllAfrica",
-        "RFI Afrique",
         "Africanews",
         "Le Monde Afrique",
-        "DW Africa"
+        "RFI Afrique",
+        "DW Africa",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Cameroun: huit migrants africains en situation irrégulière transférés des États-Unis",
+          "url": "https://www.rfi.fr/fr/afrique/20260219-cameroun-huit-migrants-africains-en-situation-irr%C3%A9guli%C3%A8re-transf%C3%A9r%C3%A9s-des-%C3%A9tats-unis",
+          "source": "RFI Afrique",
+          "published": "2026-02-19T09:07:38",
+          "lead": "Huit migrants africains en situation irrégulière, originaires du Sénégal, de Sierra Leone ou encore d'Éthiopie, sont arr"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Lesotho": {
       "article_count": 0,
