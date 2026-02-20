@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-20T01:15:41.984738",
+  "generated_at": "2026-02-20T04:42:30.426396",
   "summary": {
-    "high": 3,
-    "elevated": 6,
+    "high": 1,
+    "elevated": 9,
     "normal": 22,
-    "quiet": 23
+    "quiet": 22
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 4.2,
-      "ratio": 0.71,
+      "ratio": 0.72,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -40,15 +40,15 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "France24 Afrique",
+        "Le Monde Afrique",
         "RFI Afrique"
       ]
     },
     "Algeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -61,7 +61,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.0,
-      "ratio": 2.09,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -90,7 +90,7 @@
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.8,
+      "baseline": 2.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -100,24 +100,35 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 0.58,
+      "ratio": 1.17,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Dead",
           "count": 1
         },
         {
           "word": "Humanitarian",
           "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Major road crash leaves 18 dead, 3 injured in northeast Egypt",
+          "url": "https://www.aljazeera.com/news/2026/2/20/major-road-crash-leaves-18-dead-3-injured-in-northeast-egypt?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-20T04:12:42",
+          "lead": "Road accidents, often linked to speeding, claim thousands of lives each year in Egypt."
+        },
         {
           "title": "Sweden Deporting Young People",
           "url": "https://www.hrw.org/news/2026/02/19/sweden-deporting-young-people",
@@ -127,16 +138,17 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "Human Rights Watch"
       ]
     },
     "Sudan": {
       "article_count": 15,
       "source_count": 9,
-      "baseline": 5.8,
-      "ratio": 2.57,
-      "status": "high",
-      "confidence": "high",
+      "baseline": 6.2,
+      "ratio": 2.42,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Rsf",
@@ -259,15 +271,15 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
+        "Daily Maverick",
+        "RFI Afrique",
         "AllAfrica",
+        "UN News Africa",
+        "Le Monde Afrique",
         "France24 Afrique",
         "BBC Africa",
-        "The Guardian Africa",
-        "RFI Afrique",
-        "Africanews",
-        "UN News Africa",
-        "Daily Maverick",
-        "Le Monde Afrique"
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -283,22 +295,37 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 3.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.6,
+      "ratio": 0.28,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Mort",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mali: une frappe de drone des rebelles du FLA contre l'armée fait des morts des deux côtés",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-mali-une-frappe-de-drone-des-rebelles-du-fla-contre-l-arm%C3%A9e-fait-des-morts-des-deux-c%C3%B4t%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T04:09:55",
+          "lead": "Au Mali, les rebelles indépendantistes du Front de libération de l'Azawad (FLA) revendiquent une frappe de drone contre "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Burkina Faso": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.7,
-      "ratio": 0.74,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -329,15 +356,15 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Niger": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 4.6,
-      "ratio": 0.44,
+      "baseline": 4.5,
+      "ratio": 0.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -364,24 +391,31 @@
       ]
     },
     "Senegal": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 3,
       "baseline": 5.7,
-      "ratio": 0.88,
+      "ratio": 1.06,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Gouvernement",
           "count": 2
         },
         {
-          "word": "Gouvernement",
-          "count": 1
+          "word": "Mort",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sénégal: le gouvernement valide un projet de loi visant à durcir la législation sur l'homosexualité",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-s%C3%A9n%C3%A9gal-le-gouvernement-ent%C3%A9rine-un-projet-de-loi-visant-%C3%A0-durcir-la-l%C3%A9gislation-sur-l-homosexualit%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T04:10:16",
+          "lead": "Adopté en Conseil des ministres dans la soirée du mercredi 18 février, le texte prévoit d'alourdir les peines prévues po"
+        },
         {
           "title": "CAN 2025: des peines de trois mois à un an de prison prononcées contre les 18 supporters sénégalais arrêtés au Maroc",
           "url": "https://www.rfi.fr/fr/afrique/20260219-can-2025-des-peines-de-trois-mois-%C3%A0-un-an-de-prison-prononc%C3%A9es-contre-les-18-supporters-s%C3%A9n%C3%A9galais-arr%C3%AAt%C3%A9s-au-maroc",
@@ -439,7 +473,7 @@
     "Guinea-Bissau": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -452,7 +486,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.58,
+      "ratio": 0.59,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -507,8 +541,8 @@
     "Côte d'Ivoire": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.7,
-      "ratio": 1.77,
+      "baseline": 1.8,
+      "ratio": 1.71,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -550,8 +584,8 @@
     "Ghana": {
       "article_count": 5,
       "source_count": 3,
-      "baseline": 2.9,
-      "ratio": 1.72,
+      "baseline": 3.0,
+      "ratio": 1.67,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -611,7 +645,7 @@
     "Togo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -623,8 +657,8 @@
     "Benin": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.64,
+      "baseline": 1.5,
+      "ratio": 0.65,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -646,16 +680,16 @@
       "article_count": 8,
       "source_count": 3,
       "baseline": 9.5,
-      "ratio": 0.84,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         },
         {
@@ -708,18 +742,18 @@
           "lead": "[Premium Times] The Electoral Act 2026 is the law. It contains real improvements. It contains dangerous loopholes."
         },
         {
-          "title": "Africa: Canex Creations Inc. Invests in Feature Film Clarissa, Acquired for Worldwide Distribution By Neon",
-          "url": "https://allafrica.com/stories/202602190606.html",
-          "source": "AllAfrica",
-          "published": "2026-02-19T15:29:28",
-          "lead": "[Afreximbank] 20260219 -- CANEX Creations Inc. (CCInc), the intellectual property investment subsidiary backed by Afrexi"
-        },
-        {
           "title": "Nigeria: Experts Say Carbon Monoxide Likely Cause of Plateau Miners' Deaths",
           "url": "https://allafrica.com/stories/202602190544.html",
           "source": "AllAfrica",
           "published": "2026-02-19T15:12:04",
           "lead": "[Premium Times] Muhammad Abdullahi of the Anthony Nyong Climate Centre of Excellence, University of Jos, and Publicity S"
+        },
+        {
+          "title": "Africa: Canex Creations Inc. Invests in Feature Film Clarissa, Acquired for Worldwide Distribution By Neon",
+          "url": "https://allafrica.com/stories/202602190606.html",
+          "source": "AllAfrica",
+          "published": "2026-02-19T15:29:28",
+          "lead": "[Afreximbank] 20260219 -- CANEX Creations Inc. (CCInc), the intellectual property investment subsidiary backed by Afrexi"
         }
       ],
       "sources": [
@@ -743,8 +777,8 @@
     "Chad": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.0,
-      "ratio": 0.34,
+      "baseline": 2.9,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -772,12 +806,12 @@
       ]
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.7,
-      "ratio": 1.13,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.5,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
@@ -810,9 +844,17 @@
           "source": "Jeune Afrique",
           "published": "2026-02-19T07:00:00",
           "lead": "Alors que le gouvernement a ordonné le rétablissement de la société SGS dans ses prérogatives, la direction du Port auto"
+        },
+        {
+          "title": "Freelance journalist detained in Cameroon while reporting for AP on US deportees",
+          "url": "https://www.dailymaverick.co.za/article/freelance-journalist-detained-in-cameroon-while-reporting-for-ap-on-us-deportees",
+          "source": "Daily Maverick",
+          "published": "2026-02-20T04:49:21",
+          "lead": "YAOUNDE, Feb 19 (Reuters) - A freelance journalist on assignment for the Associated Press was slapped by police and brie"
         }
       ],
       "sources": [
+        "Daily Maverick",
         "Jeune Afrique",
         "RFI Afrique"
       ]
@@ -826,11 +868,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Réfugiés",
           "count": 1
         },
         {
@@ -855,8 +897,8 @@
     "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.61,
+      "baseline": 1.6,
+      "ratio": 0.62,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -895,8 +937,8 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 1.2,
-      "ratio": 2.56,
-      "status": "high",
+      "ratio": 2.4,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
@@ -933,16 +975,16 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.5,
-      "ratio": 1.35,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Élection",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Élection",
           "count": 1
         },
         {
@@ -968,15 +1010,15 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 4,
-      "baseline": 7.3,
-      "ratio": 1.09,
+      "baseline": 7.4,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -995,6 +1037,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RDC: la France reconnaît former des soldats congolais à la demande de Kinshasa",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-rdc-la-france-reconna%C3%AEt-former-des-soldats-congolais-%C3%A0-la-demande-de-kinshasa",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T04:09:31",
+          "lead": "L'ambassade de France en RDC a confirmé la présence d'officiers de l'armée française à Kisangani dans le cadre du progra"
+        },
         {
           "title": "Six États à surveiller pour l'équilibre agricole et alimentaire mondial",
           "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260219-six-%C3%A9tats-%C3%A0-surveiller-pour-l-%C3%A9quilibre-agricole-et-alimentaire-mondial",
@@ -1053,10 +1102,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Le Monde Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "São Tomé": {
@@ -1110,8 +1159,8 @@
     "Ethiopia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 4.6,
-      "ratio": 0.22,
+      "baseline": 4.4,
+      "ratio": 0.23,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1132,17 +1181,17 @@
     "Somalia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.42,
+      "baseline": 2.3,
+      "ratio": 0.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1163,8 +1212,8 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.6,
-      "ratio": 0.38,
+      "baseline": 2.5,
+      "ratio": 0.39,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1190,8 +1239,8 @@
     "Kenya": {
       "article_count": 11,
       "source_count": 6,
-      "baseline": 5.9,
-      "ratio": 1.86,
+      "baseline": 6.1,
+      "ratio": 1.8,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1285,12 +1334,12 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Al Jazeera",
         "The Guardian Africa",
         "RFI Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "AllAfrica",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Rwanda": {
@@ -1324,15 +1373,15 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Burundi": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.1,
+      "ratio": 1.09,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1476,7 +1525,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.1,
-      "ratio": 1.84,
+      "ratio": 1.78,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1510,7 +1559,7 @@
     "Mozambique": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.1,
+      "baseline": 2.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1522,8 +1571,8 @@
     "Zimbabwe": {
       "article_count": 8,
       "source_count": 7,
-      "baseline": 1.7,
-      "ratio": 4.84,
+      "baseline": 1.9,
+      "ratio": 4.17,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1532,30 +1581,30 @@
           "count": 3
         },
         {
-          "word": "Militia",
-          "count": 1
-        },
-        {
           "word": "Killed",
           "count": 1
         },
         {
-          "word": "Blessé",
+          "word": "Militia",
           "count": 1
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Blessé",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Zimbabwe stun Sri Lanka to finish top of Group B",
-          "url": "https://www.bbc.com/sport/cricket/articles/cx2r7rv4y4eo?at_medium=RSS&at_campaign=rss",
+          "title": "Lion DNA helps convict poachers for first time",
+          "url": "https://www.bbc.com/news/articles/c4grxvdyy00o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-02-19T18:19:17",
-          "lead": "Zimbabwe finish top of Group B at the T20 World Cup by stunning co-hosts Sri Lanka, West Indies maintain their unbeaten "
+          "published": "2026-02-20T00:23:10",
+          "lead": "Investigators reveal how they were able to identify a missing animal using a database of lions in Zimbabwe."
         },
         {
           "title": "South Africa police arrest son of former Zimbabwe leader Robert Mugabe",
@@ -1608,13 +1657,13 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Al Jazeera",
-        "BBC Africa",
         "The Guardian Africa",
+        "Daily Maverick",
         "RFI Afrique",
-        "Africanews",
-        "Daily Maverick"
+        "AllAfrica",
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Namibia": {
@@ -1642,10 +1691,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 19,
+      "article_count": 20,
       "source_count": 5,
-      "baseline": 12.4,
-      "ratio": 1.53,
+      "baseline": 12.7,
+      "ratio": 1.57,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1654,11 +1703,15 @@
           "count": 6
         },
         {
-          "word": "Blessé",
+          "word": "Government",
           "count": 1
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Blessé",
           "count": 1
         },
         {
@@ -1676,6 +1729,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "South African farmers fear devastation as foot-and-mouth takes hold",
+          "url": "https://www.bbc.com/news/articles/ceqvjwre8vqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-20T00:37:30",
+          "lead": "The government has begun a vaccination programme but officials have been blamed for a slow response."
+        },
         {
           "title": "Son of Robert Mugabe arrested in South Africa on suspicion of attempted murder",
           "url": "https://www.bbc.com/news/articles/c1jkx2pkyyro?at_medium=RSS&at_campaign=rss",
@@ -1752,21 +1812,14 @@
           "source": "Daily Maverick",
           "published": "2026-02-19T22:15:50",
           "lead": "The South African police have confirmed they are investigating a case of attempted murder after a son of former Zimbabwe"
-        },
-        {
-          "title": "ANALYSIS: Provincial backing to phase out captive lion industry tests hand of new environment minister",
-          "url": "https://www.dailymaverick.co.za/article/provincial-backing-to-phase-out-captive-captive-lion-industry-tests-hand-of-new",
-          "source": "Daily Maverick",
-          "published": "2026-02-19T20:32:23",
-          "lead": "With surprising provincial unanimity, Parliament has advanced reforms to phase out South Africa’s captive lion industry."
         }
       ],
       "sources": [
-        "AllAfrica",
         "Al Jazeera",
-        "BBC Africa",
+        "Daily Maverick",
         "RFI Afrique",
-        "Daily Maverick"
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Eswatini": {
