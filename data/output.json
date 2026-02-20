@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-20T06:43:32.015445",
+  "generated_at": "2026-02-20T09:32:48.411760",
   "summary": {
     "high": 2,
-    "elevated": 6,
-    "normal": 24,
-    "quiet": 22
+    "elevated": 7,
+    "normal": 20,
+    "quiet": 25
   },
   "countries": {
     "Morocco": {
       "article_count": 4,
       "source_count": 4,
       "baseline": 4.2,
-      "ratio": 0.96,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -32,25 +32,25 @@
           "lead": "La justice marocaine s'est prononcée, jeudi 19 février à Rabat, à l'issue du procès de 18 supporters sénégalais et d'un "
         },
         {
-          "title": "18 supporters sénégalais condamnés entre trois mois et un an de prison au Maroc",
+          "title": "Maroc : des peines de prison pour 18 supporters sénégalais après des incidents à la CAN",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260219-18-supporters-s%C3%A9n%C3%A9galais-condamn%C3%A9s-entre-trois-mois-et-un-an-de-prison-au-maroc",
           "source": "France24 Afrique",
           "published": "2026-02-19T21:24:34",
-          "lead": "La justice marocaine a condamné jeudi à des peines allant de trois mois à un an de prison les 18 supporters sénégalais d"
+          "lead": "La justice marocaine a condamné, jeudi, à des peines allant de trois mois à un an de prison les 18 supporters sénégalais"
         },
         {
-          "title": "Au Maroc, les promesses démocratiques non tenues de la réforme constitutionnelle de 2011",
-          "url": "https://www.lemonde.fr/idees/article/2026/02/19/au-maroc-les-promesses-democratiques-non-tenues-de-la-reforme-constitutionnelle-de-2011_6667368_3232.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-19T09:00:12",
-          "lead": "Adoptée voici tout juste quinze ans, dans la foulée des « printemps arabes », la nouvelle loi suprême du royaume était p"
+          "title": "CAN 2025 : des peines de trois mois à un an de prison pour les 18 supporters sénégalais",
+          "url": "https://www.jeuneafrique.com/1767514/politique/can-2025-les-18-supporters-senegalais-condamnes-entre-trois-mois-et-un-an-de-prison/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-20T09:26:04",
+          "lead": "Détenus au Maroc depuis la finale de la compétition, les supporters étaient poursuivis devant le tribunal de Rabat pour "
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "France24 Afrique",
-        "RFI Afrique",
-        "Le Monde Afrique",
-        "Al Jazeera"
+        "Al Jazeera",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -66,15 +66,27 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.0,
-      "ratio": 2.0,
-      "status": "elevated",
+      "ratio": 3.0,
+      "status": "high",
       "confidence": "medium",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tunisian MP jailed for eight months over posts mocking president",
+          "url": "https://www.bbc.com/news/articles/c3v75lvgy36o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-20T08:01:12",
+          "lead": "The MP was arrested this month after mocking the president's handling of the recent floods in the country."
+        },
         {
           "title": "Face à l’oubli, des Tunisiens ravivent l’héritage amazigh",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260219-face-%C3%A0-l-oubli-des-tunisiens-ravivent-l-h%C3%A9ritage-amazigh",
@@ -91,15 +103,16 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "BBC Africa",
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Libya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.7,
-      "ratio": 0.37,
+      "baseline": 2.8,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -157,12 +170,12 @@
       ]
     },
     "Sudan": {
-      "article_count": 16,
+      "article_count": 12,
       "source_count": 8,
       "baseline": 6.2,
-      "ratio": 2.58,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.92,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Rsf",
@@ -170,47 +183,34 @@
         },
         {
           "word": "War",
-          "count": 4
-        },
-        {
-          "word": "Violence",
-          "count": 4
-        },
-        {
-          "word": "Humanitarian",
           "count": 3
         },
         {
-          "word": "Famine",
+          "word": "Killed",
           "count": 2
         },
         {
-          "word": "Guerre",
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Wounded",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Famine",
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Famine",
-          "Violence"
-        ],
-        [
-          "Famine",
-          "War"
-        ],
-        [
-          "Violence",
-          "War"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "Sudan atrocities are 'hallmarks of genocide', UN says",
@@ -220,25 +220,18 @@
           "lead": "A UN fact-finding mission issued the report after investigating the capture of el-Fasher by the Rapid Support Forces."
         },
         {
+          "title": "Three aid workers killed, 4 wounded in RSF drone attack in Sudan’s Kordofan",
+          "url": "https://www.aljazeera.com/news/2026/2/20/three-aid-workers-killed-4-wounded-in-rsf-drone-attack-in-sudans-kordofan?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-20T06:50:26",
+          "lead": "The attack comes as the UN releases a report which found that RSF actions have hallmarks of genocide in el-Fasher."
+        },
+        {
           "title": "RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds",
           "url": "https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur",
           "source": "The Guardian Africa",
           "published": "2026-02-19T17:59:17",
           "lead": "Report details harrowing 18-month occupation of North Darfur capital, showing destruction aimed at ethnic communitiesThe"
-        },
-        {
-          "title": "Guerre au Soudan: une mission indépendante d'enquête de l'ONU conclut à des «actes de génocide» à El-Fasher",
-          "url": "https://www.rfi.fr/fr/en-bref/20260219-guerre-au-soudan-une-mission-ind%C3%A9pendante-d-enqu%C3%AAte-de-l-onu-conclut-%C3%A0-des-actes-de-g%C3%A9nocide-%C3%A0-el-fasher",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T07:54:17",
-          "lead": "La mission indépendante d'établissement des faits de l'ONU sur le Soudan a fait état jeudi d'« actes de génocide » à El-"
-        },
-        {
-          "title": "Tchad: un ex-membre du Conseil militaire de transition accuse le président d’enrôlements forcés pour combattre au Soudan",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-tchad-un-ex-membre-du-conseil-militaire-de-transition-accuse-le-pr%C3%A9sident-d-enr%C3%B4lements-forc%C3%A9s-pour-combattre-au-soudan",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T09:03:51",
-          "lead": "Recrutements forcés, traite d'êtres humains... L'accusation est grave et vise le président tchadien Mahamat Idriss Déby."
         },
         {
           "title": "Au Soudan, une mission d'enquête de l'ONU dénonce des actes de \"génocide\" à El-Facher",
@@ -269,13 +262,6 @@
           "lead": "Nearly three years of conflict have reduced Sudan's historic Al-Sunut acacia forest south of Khartoum to barren fields o"
         },
         {
-          "title": "UN probe finds evidence of genocide in Darfur city of El-Fasher",
-          "url": "http://www.africanews.com/2026/02/19/un-probe-finds-evidence-of-genocide-in-darfur-city-of-el-fasher/",
-          "source": "Africanews",
-          "published": "2026-02-19T09:14:42",
-          "lead": "A United Nations investigation into the fall of El-Fasher, a key city in Sudan’s western Darfur region, has found that a"
-        },
-        {
           "title": "Sudan: Genocidal Campaign Waged Against Sudan's Non-Arab Communities - UN Report",
           "url": "https://allafrica.com/stories/202602190289.html",
           "source": "AllAfrica",
@@ -290,22 +276,36 @@
           "lead": "[MSF] Port Sudan - Drone attacks carried out by the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) are hitti"
         },
         {
-          "title": "Sudan: 'No Corner of Sudan Is Safe' - UN Officials Warn of Famine and Atrocities As War Intensifies",
-          "url": "https://allafrica.com/stories/202602200010.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T04:34:44",
-          "lead": "[UN News] Nearly three years into Sudan's war, violence is intensifying, famine conditions are looming in parts of the c"
+          "title": "‘No corner of Sudan is safe’: UN officials warn of famine and atrocities as war intensifies",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1167003",
+          "source": "UN News Africa",
+          "published": "2026-02-19T12:00:00",
+          "lead": "Nearly three years into Sudan’s war, violence is intensifying, famine conditions are looming in parts of the country, an"
+        },
+        {
+          "title": "Security Council LIVE: Sudan in focus amid genocide warnings in Darfur",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1166999",
+          "source": "UN News Africa",
+          "published": "2026-02-19T12:00:00",
+          "lead": "The UN Security Council meets this morning to discuss Sudan as the war nears its third year, with fighting intensifying "
+        },
+        {
+          "title": "Sudan: ‘Hallmarks of genocide’ found in El Fasher, UN investigators detail mass killings and ethnic targeting",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1166997",
+          "source": "UN News Africa",
+          "published": "2026-02-19T12:00:00",
+          "lead": "The Rapid Support Forces (RSF) carried out ethnically targeted killings, widespread sexual violence and enforced disappe"
         }
       ],
       "sources": [
-        "BBC Africa",
         "AllAfrica",
-        "RFI Afrique",
         "UN News Africa",
+        "Africanews",
         "France24 Afrique",
         "The Guardian Africa",
-        "Le Monde Afrique",
-        "Africanews"
+        "BBC Africa",
+        "Al Jazeera",
+        "Le Monde Afrique"
       ]
     },
     "Mauritania": {
@@ -324,7 +324,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 3.7,
-      "ratio": 0.55,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -362,7 +362,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.7,
-      "ratio": 1.12,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -447,9 +447,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Senegal": {
@@ -466,7 +466,7 @@
         },
         {
           "word": "Mort",
-          "count": 2
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -486,11 +486,11 @@
           "lead": "La justice marocaine s'est prononcée, jeudi 19 février à Rabat, à l'issue du procès de 18 supporters sénégalais et d'un "
         },
         {
-          "title": "18 supporters sénégalais condamnés entre trois mois et un an de prison au Maroc",
+          "title": "Maroc : des peines de prison pour 18 supporters sénégalais après des incidents à la CAN",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260219-18-supporters-s%C3%A9n%C3%A9galais-condamn%C3%A9s-entre-trois-mois-et-un-an-de-prison-au-maroc",
           "source": "France24 Afrique",
           "published": "2026-02-19T21:24:34",
-          "lead": "La justice marocaine a condamné jeudi à des peines allant de trois mois à un an de prison les 18 supporters sénégalais d"
+          "lead": "La justice marocaine a condamné, jeudi, à des peines allant de trois mois à un an de prison les 18 supporters sénégalais"
         },
         {
           "title": "Sénégal : l'étudiant décédé est mort après avoir sauté d'un étage, selon le procureur",
@@ -500,24 +500,24 @@
           "lead": "Le procureur de Dakar a affirmé mardi que l'étudiant récemment décédé durant une intervention de la police dans une univ"
         },
         {
+          "title": "CAN 2025 : des peines de trois mois à un an de prison pour les 18 supporters sénégalais",
+          "url": "https://www.jeuneafrique.com/1767514/politique/can-2025-les-18-supporters-senegalais-condamnes-entre-trois-mois-et-un-an-de-prison/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-20T09:26:04",
+          "lead": "Détenus au Maroc depuis la finale de la compétition, les supporters étaient poursuivis devant le tribunal de Rabat pour "
+        },
+        {
           "title": "Au Sénégal, le gouvernement va soumettre un projet de loi visant à « durcir les peines » pour homosexualité",
           "url": "https://www.jeuneafrique.com/1767205/politique/au-senegal-le-gouvernement-va-soumettre-un-projet-de-loi-visant-a-durcir-les-peines-pour-homosexualite/",
           "source": "Jeune Afrique",
           "published": "2026-02-19T16:40:17",
           "lead": "Le pays est secoué par deux affaires distinctes, l’une portant sur des accusations d’homosexualité et l’autre sur des fa"
-        },
-        {
-          "title": "Au Sénégal, la mort d’un étudiant relance le débat sur l’impunité de la police",
-          "url": "https://www.jeuneafrique.com/1766715/politique/au-senegal-la-mort-dun-etudiant-relance-le-debat-sur-limpunite-de-la-police/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-19T07:30:00",
-          "lead": "Un maintien de l’ordre sans bavures est-il possible ? Le ministre de l’Intérieur a annoncé la « révision des procédures "
         }
       ],
       "sources": [
-        "France24 Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -581,7 +581,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -591,12 +591,12 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.14,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.7,
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Government",
@@ -605,6 +605,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Côte d’Ivoire: des chefs traditionnels préparent le retour du tambour parleur dans «un sentiment de joie»",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-c%C3%B4te-d-ivoire-des-chefs-traditionnels-pr%C3%A9parent-le-retour-du-tambour-parleur-dans-un-sentiment-de-joie",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T07:52:12",
+          "lead": "Plus d’un siècle après avoir quitté la lagune Ébrié, le Djidji Ayokwé s’apprête à retrouver la Côte d’Ivoire. Ce tambour"
+        },
         {
           "title": "Lancement du magazine \"ELLE Afrique\"",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260219-lancement-du-magazine-elle-afrique",
@@ -621,17 +628,18 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "France24 Afrique",
         "Africanews"
       ]
     },
     "Ghana": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 3.0,
-      "ratio": 1.0,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.9,
+      "ratio": 0.34,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Government",
@@ -641,30 +649,14 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Colère au Ghana où un Russe publiait des vidéos sexuelles sans le consentement de ses partenaires",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-col%C3%A8re-au-ghana-o%C3%B9-un-russe-publiait-des-vid%C3%A9os-sexuelles-sans-le-consentement-de-ses-partenaires",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T10:32:54",
-          "lead": "Au Ghana, l’ambassadeur de Russie a été convoqué par le ministère des Affaires étrangères, le 17 février 2026. En cause "
-        },
-        {
           "title": "Ivory Coast considers cocoa price cut after Ghana",
           "url": "http://www.africanews.com/2026/02/19/ivory-coast-considers-cocoa-price-cut-after-ghana/",
           "source": "Africanews",
           "published": "2026-02-19T17:22:11",
           "lead": "Ivory Coast could emulate Ghana by cutting the price paid to farmers for their cocoa beans, Reuters reported Thursday ci"
-        },
-        {
-          "title": "Ghana: Health Ministry Sets Up Committee to Probe Alleged Denial of Emergency Care",
-          "url": "https://allafrica.com/stories/202602190521.html",
-          "source": "AllAfrica",
-          "published": "2026-02-19T14:29:46",
-          "lead": "[Ghanaian Times] The Ministry of Health has set up a three member committee to investigate the alleged denial of emergen"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
         "Africanews"
       ]
     },
@@ -703,23 +695,31 @@
       ]
     },
     "Nigeria": {
-      "article_count": 8,
+      "article_count": 12,
       "source_count": 3,
       "baseline": 9.5,
-      "ratio": 0.85,
+      "ratio": 1.27,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Government",
+          "count": 3
+        },
+        {
+          "word": "President",
+          "count": 2
+        },
         {
           "word": "Election",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Killed",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Explosion",
           "count": 1
         }
       ],
@@ -754,11 +754,18 @@
           "lead": "A toxic gas leak at a mine in north-central Nigeria killed 37 people and led to the hospitalization of 26 others, accord"
         },
         {
-          "title": "Africa: Canex Creations Inc. Invests in Feature Film Clarissa, Acquired for Worldwide Distribution By Neon",
-          "url": "https://allafrica.com/stories/202602190606.html",
+          "title": "Nigeria: No, Nigeria's President Bola Tinubu Is Not in Released Epstein Files",
+          "url": "https://allafrica.com/stories/202602200210.html",
           "source": "AllAfrica",
-          "published": "2026-02-19T15:29:28",
-          "lead": "[Afreximbank] 20260219 -- CANEX Creations Inc. (CCInc), the intellectual property investment subsidiary backed by Afrexi"
+          "published": "2026-02-20T08:55:17",
+          "lead": "[Africa Check] No, Nigeria's president Bola Tinubu is not in released Epstein files"
+        },
+        {
+          "title": "Nigeria: Kaduna Govt Hands Over 204 Rescued Kidnap Victims to Families",
+          "url": "https://allafrica.com/stories/202602200115.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T07:35:07",
+          "lead": "[Leadership] The Kaduna State Government has handed over rescued 204 kidnap victims to their respective local government"
         },
         {
           "title": "Niger: It's a Scam - These Prominent Nigerians Are Not Giving Away Money for Ramadan",
@@ -775,17 +782,38 @@
           "lead": "[Premium Times] The Electoral Act 2026 is the law. It contains real improvements. It contains dangerous loopholes."
         },
         {
-          "title": "Nigeria: Experts Say Carbon Monoxide Likely Cause of Plateau Miners' Deaths",
-          "url": "https://allafrica.com/stories/202602190544.html",
+          "title": "Africa: Canex Creations Inc. Invests in Feature Film Clarissa, Acquired for Worldwide Distribution By Neon",
+          "url": "https://allafrica.com/stories/202602190606.html",
           "source": "AllAfrica",
-          "published": "2026-02-19T15:12:04",
-          "lead": "[Premium Times] Muhammad Abdullahi of the Anthony Nyong Climate Centre of Excellence, University of Jos, and Publicity S"
+          "published": "2026-02-19T15:29:28",
+          "lead": "[Afreximbank] 20260219 -- CANEX Creations Inc. (CCInc), the intellectual property investment subsidiary backed by Afrexi"
+        },
+        {
+          "title": "Nigeria: Survivors Relive Tragic Moments of Plateau Mine Disaster",
+          "url": "https://allafrica.com/stories/202602200117.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T07:35:54",
+          "lead": "[Leadership] Survivors of a gas explosion at a mining site in Zurak community in Wase local government area of Plateau S"
+        },
+        {
+          "title": "Nigeria: Special Report - Edo's N14.15 Billion Extra-Budgetary Spending Raises Questions About Fiscal Discipline Under Okpebholo",
+          "url": "https://allafrica.com/stories/202602200105.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T07:19:50",
+          "lead": "[Premium Times] Expenditures were made outside legislative approval, several arms and departments of the Edo government "
+        },
+        {
+          "title": "Nigeria: SSS Agent Tells Court How Owo Church Massacre Suspect Was Tracked Through His Phone",
+          "url": "https://allafrica.com/stories/202602200094.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T07:19:48",
+          "lead": "[Premium Times] The SSS agent explained how his team tracked down one the defendants in the Owo massacre trial through t"
         }
       ],
       "sources": [
         "BBC Africa",
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -801,55 +829,34 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.9,
-      "ratio": 0.35,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tchad: un ex-membre du Conseil militaire de transition accuse le président d’enrôlements forcés pour combattre au Soudan",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-tchad-un-ex-membre-du-conseil-militaire-de-transition-accuse-le-pr%C3%A9sident-d-enr%C3%B4lements-forc%C3%A9s-pour-combattre-au-soudan",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T09:03:51",
-          "lead": "Recrutements forcés, traite d'êtres humains... L'accusation est grave et vise le président tchadien Mahamat Idriss Déby."
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Cameroon": {
       "article_count": 5,
       "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.85,
+      "baseline": 2.8,
+      "ratio": 1.82,
       "status": "elevated",
       "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Cameroun: cinq à dix ans de prison ferme pour les militaires condamnés pour le massacre de Ngarbuh de 2020",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-cameroun-cinq-%C3%A0-dix-ans-de-prison-ferme-pour-les-militaires-condamn%C3%A9s-pour-le-massacre-de-ngarbuh-de-2020",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T08:15:36",
+          "lead": "Au Cameroun, six ans après le massacre de Ngarbuh, le tribunal militaire de Yaoundé a rendu son verdict : trois militair"
+        },
         {
           "title": "Du Bénin au Cameroun, des solutions à la cherté de l'alimentation dans l'aviculture traditionnelle",
           "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260219-du-b%C3%A9nin-au-cameroun-des-solutions-%C3%A0-la-chert%C3%A9-de-l-alimentation-dans-l-aviculture-traditionnelle",
@@ -872,13 +879,6 @@
           "lead": "Alors qu’ils tentaient de rencontrer les migrants expulsés des États-Unis et retenus à Yaoundé, quatre journalistes et u"
         },
         {
-          "title": "Au Cameroun, le port de Douala toujours menacé de paralysie par la guerre des clans",
-          "url": "https://www.jeuneafrique.com/1766420/politique/au-cameroun-le-port-de-douala-toujours-menace-de-paralysie-par-la-guerre-des-clans/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-19T07:00:00",
-          "lead": "Alors que le gouvernement a ordonné le rétablissement de la société SGS dans ses prérogatives, la direction du Port auto"
-        },
-        {
           "title": "Freelance journalist detained in Cameroon while reporting for AP on US deportees",
           "url": "https://www.dailymaverick.co.za/article/freelance-journalist-detained-in-cameroon-while-reporting-for-ap-on-us-deportees",
           "source": "Daily Maverick",
@@ -887,9 +887,9 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
         "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "CAR": {
@@ -901,7 +901,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -909,7 +909,7 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -928,31 +928,16 @@
       ]
     },
     "South Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.62,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Fighting",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "South Sudan: Hospitals overwhelmed as fighting rages on",
-          "url": "http://www.africanews.com/2026/02/18/south-sudan-hospitals-overwhelmed-as-fighting-rages-on/",
-          "source": "Africanews",
-          "published": "2026-02-19T06:53:22",
-          "lead": "The Aboko teaching hospital is one of a string in South Sudan that are overwhelmed as fighting in the country rages on. "
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -967,47 +952,31 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 2.4,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.8,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Gabon: la suspension des réseaux sociaux, une décision aux répercussions économiques importantes",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-gabon-la-suspension-des-r%C3%A9seaux-sociaux-une-d%C3%A9cision-aux-r%C3%A9percussions-%C3%A9conomiques-importantes",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T08:44:34",
-          "lead": "Au Gabon, la décision de suspendre les réseaux sociaux est bel et bien effective jeudi 19 février. Facebook et Tik Tok s"
-        },
         {
           "title": "YouTube, TikTok, WhatsApp… Ce que l’on sait de la suspension des réseaux sociaux au Gabon",
           "url": "https://www.jeuneafrique.com/1767152/politique/youtube-tiktok-whatsapp-ce-que-lon-sait-de-la-suspension-des-reseaux-sociaux-au-gabon/",
           "source": "Jeune Afrique",
           "published": "2026-02-19T16:59:09",
           "lead": "Depuis le 18 février, l’accès à la plupart des réseaux sociaux a été temporairement interdit au Gabon. La décision, sout"
-        },
-        {
-          "title": "Gabonese opposition and businesses angry about social media ban",
-          "url": "http://www.africanews.com/2026/02/19/gabonese-opposition-and-businesses-angry-about-social-media-ban/",
-          "source": "Africanews",
-          "published": "2026-02-19T09:26:36",
-          "lead": "The High Authority for Communication on Tuesday announced a block on access to services saying posts are fuelling confli"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "Jeune Afrique"
       ]
     },
     "Congo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1019,17 +988,25 @@
     "DRC": {
       "article_count": 7,
       "source_count": 3,
-      "baseline": 7.4,
-      "ratio": 0.94,
+      "baseline": 7.3,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 2
+        },
         {
           "word": "M23",
           "count": 2
         },
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -1041,6 +1018,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-20T04:09:31",
           "lead": "L'ambassade de France en RDC a confirmé la présence d'officiers de l'armée française à Kisangani dans le cadre du progra"
+        },
+        {
+          "title": "Conflit dans l’est de la RDC: la Commissaire de l’UE à l’aide humanitaire à Kigali après Kinshasa et Bujumbura",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-conflit-dans-l-est-de-la-rdc-la-commissaire-de-l-ue-%C3%A0-l-aide-humanitaire-%C3%A0-kigali-apr%C3%A8s-kinshasa-et-bujumbura",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T07:50:38",
+          "lead": "Après une visite à Kinshasa puis au Burundi, la Commissaire européenne chargée de l'égalité, de la préparation et de la "
         },
         {
           "title": "Six États à surveiller pour l'équilibre agricole et alimentaire mondial",
@@ -1057,11 +1041,11 @@
           "lead": "C’est sans doute l’étape la plus délicate du processus de paix en RDC : le cessez-le-feu. La semaine précédente, un nouv"
         },
         {
-          "title": "«Trop c'est trop», un documentaire sur l’est de la RDC comme un cri de désespoir présenté à la Berlinale 2026",
+          "title": "Crise humanitaire en RDC: «Trop c’est trop», le film événement de la Berlinale 2026 sur l’est du Congo",
           "url": "https://www.rfi.fr/fr/afrique/20260219-trop-c-est-trop-un-documentaire-sur-l-est-de-la-rdc-comme-un-cri-de-d%C3%A9sespoir-pr%C3%A9sent%C3%A9-%C3%A0-la-berlinale-2026",
           "source": "RFI Afrique",
           "published": "2026-02-19T11:35:17",
-          "lead": "L'Afrique est à la fête à Berlin ! De Haile Gerima, grand cinéaste éthiopien qui vient d'y recevoir une distinction pour"
+          "lead": "L'Afrique est à la fête à Berlin. De Haile Gerima, grand cinéaste éthiopien qui vient d'y recevoir une distinction pour "
         },
         {
           "title": "La RDC à l’offensive sur son potentiel minier",
@@ -1076,13 +1060,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-19T18:30:01",
           "lead": "Il y a un an, Bukavu tombait sans combattre aux mains des rebelles de l’AFC/M23, soutenus par le Rwanda. Les mois ont pa"
-        },
-        {
-          "title": "Mercuria, Vitol, Gunvor… Les traders pétroliers se lancent à l’assaut du marché minier africain",
-          "url": "https://www.jeuneafrique.com/1765827/economie-entreprises/mercuria-vitol-gunvor-les-traders-petroliers-se-lancent-a-lassaut-du-marche-minier-africain/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-19T08:28:11",
-          "lead": "Dopés par les bénéfices record de ces dernières années, les négociants de pétrole et de gaz passent à l’offensive dans l"
         }
       ],
       "sources": [
@@ -1146,15 +1123,24 @@
       "ratio": 0.23,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "«Trop c'est trop», un documentaire sur l’est de la RDC comme un cri de désespoir présenté à la Berlinale 2026",
+          "title": "Crise humanitaire en RDC: «Trop c’est trop», le film événement de la Berlinale 2026 sur l’est du Congo",
           "url": "https://www.rfi.fr/fr/afrique/20260219-trop-c-est-trop-un-documentaire-sur-l-est-de-la-rdc-comme-un-cri-de-d%C3%A9sespoir-pr%C3%A9sent%C3%A9-%C3%A0-la-berlinale-2026",
           "source": "RFI Afrique",
           "published": "2026-02-19T11:35:17",
-          "lead": "L'Afrique est à la fête à Berlin ! De Haile Gerima, grand cinéaste éthiopien qui vient d'y recevoir une distinction pour"
+          "lead": "L'Afrique est à la fête à Berlin. De Haile Gerima, grand cinéaste éthiopien qui vient d'y recevoir une distinction pour "
         }
       ],
       "sources": [
@@ -1162,41 +1148,22 @@
       ]
     },
     "Somalia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.3,
-      "ratio": 0.43,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Somalia: Somalia Cabinet Focuses On Security, Drought Response, Approves Key Appointments and Treaties",
-          "url": "https://allafrica.com/stories/202602190520.html",
-          "source": "AllAfrica",
-          "published": "2026-02-19T14:28:35",
-          "lead": "[Shabelle] Mogadishu -- The Somali cabinet held its regular meeting on Thursday under Prime Minister Hamza Abdi Barre, f"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Uganda": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 1.18,
+      "baseline": 2.6,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1243,26 +1210,23 @@
     },
     "Kenya": {
       "article_count": 7,
-      "source_count": 6,
-      "baseline": 6.1,
-      "ratio": 1.14,
+      "source_count": 5,
+      "baseline": 6.0,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "War",
-          "count": 2
+          "count": 3
+        },
+        {
+          "word": "Fighting",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Kenyan families demand return of loved ones recruited into Russian army",
-          "url": "https://www.aljazeera.com/news/2026/2/19/kenyan-families-demand-return-of-loved-ones-conscripted-by-russian-army?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-19T19:45:16",
-          "lead": "Official intelligence report revealed that more than 1,000 citizens had been lured to fight for Russia in Ukraine."
-        },
         {
           "title": "More than 1,000 Kenyans lured to fight for Russia in Ukraine war, report says",
           "url": "https://www.theguardian.com/world/2026/feb/19/kenyan-soldiers-russia-ukraine-war-intelligence-report",
@@ -1299,6 +1263,13 @@
           "lead": "More than 1,000 Kenyans have gone to fight for the Russian army in Ukraine, most of them tricked into signing military c"
         },
         {
+          "title": "Kenya: A Thousand Kenyans 'Recruited' for Russia's War - New Report",
+          "url": "https://allafrica.com/stories/202602200109.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T07:26:02",
+          "lead": "[DW] Kenya's intelligence service says 1,000 Kenyans had been lured into fighting for Russia in Ukraine. Moscow denies t"
+        },
+        {
           "title": "Kenya: Russia Claims Stalled Labour, Security Talks With Kenya Amid Recruitment Row",
           "url": "https://allafrica.com/stories/202602190605.html",
           "source": "AllAfrica",
@@ -1311,33 +1282,35 @@
         "RFI Afrique",
         "Africanews",
         "The Guardian Africa",
-        "Le Monde Afrique",
-        "Al Jazeera"
+        "Le Monde Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 2.3,
-      "ratio": 1.31,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
           "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Conflit dans l’est de la RDC: la Commissaire de l’UE à l’aide humanitaire à Kigali après Kinshasa et Bujumbura",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-conflit-dans-l-est-de-la-rdc-la-commissaire-de-l-ue-%C3%A0-l-aide-humanitaire-%C3%A0-kigali-apr%C3%A8s-kinshasa-et-bujumbura",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T07:50:38",
+          "lead": "Après une visite à Kinshasa puis au Burundi, la Commissaire européenne chargée de l'égalité, de la préparation et de la "
+        },
         {
           "title": "La RDC à l’offensive sur son potentiel minier",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/19/la-rdc-a-l-offensive-sur-son-potentiel-minier_6667446_3212.html",
@@ -1353,36 +1326,52 @@
           "lead": "Il y a un an, Bukavu tombait sans combattre aux mains des rebelles de l’AFC/M23, soutenus par le Rwanda. Les mois ont pa"
         },
         {
-          "title": "Rwanda: Kagame, EU Officials Discuss DR Congo Security Crisis",
-          "url": "https://allafrica.com/stories/202602200013.html",
+          "title": "Rwanda: How One Child Refugee's Journey Changed Hearing Care in Rwanda",
+          "url": "https://allafrica.com/stories/202602200116.html",
           "source": "AllAfrica",
-          "published": "2026-02-20T04:36:44",
-          "lead": "[New Times] President Paul Kagame on Thursday, February 19, met with Hadja Lahbib, European Commissioner for Equality, P"
+          "published": "2026-02-20T07:35:16",
+          "lead": "[New Times] When Selva Nesar arrived with her family in Rwanda from Afghanistan, she was unable to hear and unsure of he"
         }
       ],
       "sources": [
         "Jeune Afrique",
+        "RFI Afrique",
         "AllAfrica",
         "Le Monde Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.14,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Conflit dans l’est de la RDC: la Commissaire de l’UE à l’aide humanitaire à Kigali après Kinshasa et Bujumbura",
+          "url": "https://www.rfi.fr/fr/afrique/20260220-conflit-dans-l-est-de-la-rdc-la-commissaire-de-l-ue-%C3%A0-l-aide-humanitaire-%C3%A0-kigali-apr%C3%A8s-kinshasa-et-bujumbura",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T07:50:38",
+          "lead": "Après une visite à Kinshasa puis au Burundi, la Commissaire européenne chargée de l'égalité, de la préparation et de la "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Tanzania": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 1.55,
+      "ratio": 1.5,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1413,16 +1402,20 @@
       ]
     },
     "Madagascar": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 3.0,
-      "ratio": 0.66,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
           "count": 2
+        },
+        {
+          "word": "President",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1438,12 +1431,20 @@
           "title": "Le nouveau président malgache choisit Moscou, avant Paris",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/19/le-nouveau-president-malgache-choisit-moscou-avant-paris_6667471_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-19T21:27:57",
+          "published": "2026-02-19T21:27:55",
           "lead": "Le président de la Refondation de Madagascar, Michaël Randrianirina, a rencontré, jeudi, Vladimir Poutine. Alors qu’il d"
+        },
+        {
+          "title": "Putin welcomes Madagascar's President, pledges expanded cooperation",
+          "url": "http://www.africanews.com/2026/02/20/putin-welcomes-madagascars-president-pledges-expanded-cooperation/",
+          "source": "Africanews",
+          "published": "2026-02-20T08:02:07",
+          "lead": "Russian President Vladimir Putin welcomed Madagascar's President Michael Randrianirina to the Kremlin on Thursday, pledg"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "Africanews",
         "Le Monde Afrique"
       ]
     },
@@ -1499,7 +1500,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.89,
+      "ratio": 0.92,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1518,43 +1519,28 @@
       ]
     },
     "Mozambique": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 0.49,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.1,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Lectures From the IMF, but No New Loan",
-          "url": "https://allafrica.com/stories/202602200018.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T04:40:36",
-          "lead": "[AIM] Maputo -- The Executive Board of the International Monetary Fund (IMF) has announced that the Mozambican governmen"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Zimbabwe": {
-      "article_count": 9,
+      "article_count": 11,
       "source_count": 7,
-      "baseline": 1.9,
-      "ratio": 4.7,
+      "baseline": 2.0,
+      "ratio": 5.62,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "President",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Killed",
@@ -1565,11 +1551,11 @@
           "count": 1
         },
         {
-          "word": "Blessé",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Blessé",
           "count": 1
         }
       ],
@@ -1581,6 +1567,13 @@
           "source": "BBC Africa",
           "published": "2026-02-20T00:23:10",
           "lead": "Investigators reveal how they were able to identify a missing animal using a database of lions in Zimbabwe."
+        },
+        {
+          "title": "Zimbabwe stun Sri Lanka to finish top of Group B",
+          "url": "https://www.bbc.com/sport/cricket/articles/cx2r7rv4y4eo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-19T18:19:17",
+          "lead": "Zimbabwe finish top of Group B at the T20 World Cup by stunning co-hosts Sri Lanka, West Indies maintain their unbeaten "
         },
         {
           "title": "South Africa police arrest son of former Zimbabwe leader Robert Mugabe",
@@ -1611,6 +1604,13 @@
           "lead": "Plus jeune fils de l'ancien président du Zimbabwe décédé en 2019, Bellarmine Chatunga Mugabe est accusé d'avoir blessé p"
         },
         {
+          "title": "Mugabe's son in custody after gardener shot at Johannesburg home",
+          "url": "http://www.africanews.com/2026/02/20/mugabes-son-in-custody-after-gardener-shot-at-johannesburg-home/",
+          "source": "Africanews",
+          "published": "2026-02-20T07:53:14",
+          "lead": "The youngest son of former Zimbabwean president Robert Mugabe was in police custody Thursday following the shooting of a"
+        },
+        {
           "title": "Conservationists help save the eyesight of a rhino in Zimbabwe",
           "url": "http://www.africanews.com/2026/02/19/conservationists-help-save-the-eyesight-of-a-rhino-in-zimbabwe/",
           "source": "Africanews",
@@ -1618,18 +1618,18 @@
           "lead": "They used his favourite foods to coax him into the tight space and then took steps to desensitise him to humans, allowin"
         },
         {
-          "title": "Zimbabwe: Late Former President Mugabe's Son Chatunga Arrested in Johanesburg After Shooting Employee",
-          "url": "https://allafrica.com/stories/202602200078.html",
+          "title": "Zimbabwe: Bedbug Outbreak Hits Mbare Flats As Harare Warns of Enforcement Action",
+          "url": "https://allafrica.com/stories/202602200142.html",
           "source": "AllAfrica",
-          "published": "2026-02-20T05:29:09",
-          "lead": "[New Zimbabwe] Bellarmine Chatunga, the son of late former President   Robert Mugabe , has been arrested in South Africa"
+          "published": "2026-02-20T08:10:40",
+          "lead": "[263Chat] The City of Harare has confirmed a fresh outbreak of bedbugs locally known as tsikidzi in several apartment bl"
         },
         {
-          "title": "South Africa: Robert Mugabe's Son Arrested After Security Guard Shot in Hyde Park",
-          "url": "https://allafrica.com/stories/202602190533.html",
+          "title": "Zimbabwe: Magaya Ordered to Pay Back U.S.$3 Million in Crushing Legal Defeat",
+          "url": "https://allafrica.com/stories/202602200145.html",
           "source": "AllAfrica",
-          "published": "2026-02-19T14:40:40",
-          "lead": "[Scrolla] Bellarmine Chatunga Mugabe, youngest son of late former Zimbabwean president Robert Mugabe, was arrested at th"
+          "published": "2026-02-20T08:10:45",
+          "lead": "[263Chat] In a fresh legal blow to Walter Magaya, the High Court of Zimbabwe has ordered the embattled Prophetic Healing"
         },
         {
           "title": "MUGABE SHOOTING: SAPS divers, K9 unit search Robert Mugabe’s son’s property after shooting arrest",
@@ -1640,20 +1640,20 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "BBC Africa",
         "AllAfrica",
         "RFI Afrique",
         "Africanews",
-        "The Guardian Africa",
-        "Al Jazeera"
+        "Daily Maverick",
+        "BBC Africa",
+        "Al Jazeera",
+        "The Guardian Africa"
       ]
     },
     "Namibia": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 2.67,
+      "ratio": 2.4,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1696,35 +1696,35 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 20,
-      "source_count": 5,
+      "article_count": 21,
+      "source_count": 6,
       "baseline": 12.8,
-      "ratio": 1.57,
+      "ratio": 1.65,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "President",
-          "count": 8
+          "count": 6
         },
         {
           "word": "Government",
           "count": 2
         },
         {
-          "word": "Blessé",
-          "count": 1
+          "word": "Minister",
+          "count": 2
         },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Blessé",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Combat",
           "count": 1
         },
         {
@@ -1763,25 +1763,25 @@
           "lead": "Plus jeune fils de l'ancien président du Zimbabwe décédé en 2019, Bellarmine Chatunga Mugabe est accusé d'avoir blessé p"
         },
         {
-          "title": "South Africa: One Injured After Ekurhuleni Factory Fire - South African News Briefs - February 20, 2026",
-          "url": "https://allafrica.com/stories/202602200079.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T05:45:31",
-          "lead": "[allAfrica]"
+          "title": "Mugabe's son in custody after gardener shot at Johannesburg home",
+          "url": "http://www.africanews.com/2026/02/20/mugabes-son-in-custody-after-gardener-shot-at-johannesburg-home/",
+          "source": "Africanews",
+          "published": "2026-02-20T07:53:14",
+          "lead": "The youngest son of former Zimbabwean president Robert Mugabe was in police custody Thursday following the shooting of a"
         },
         {
-          "title": "Zimbabwe: Late Former President Mugabe's Son Chatunga Arrested in Johanesburg After Shooting Employee",
-          "url": "https://allafrica.com/stories/202602200078.html",
+          "title": "South Africa: Quick Explainer - What Causes Changes in the Rand Exchange Rate?",
+          "url": "https://allafrica.com/stories/202602200084.html",
           "source": "AllAfrica",
-          "published": "2026-02-20T05:29:09",
-          "lead": "[New Zimbabwe] Bellarmine Chatunga, the son of late former President   Robert Mugabe , has been arrested in South Africa"
+          "published": "2026-02-20T07:04:27",
+          "lead": "[GroundUp] Why the \"commodities boom\" has made a difference"
         },
         {
-          "title": "South Africa: Lives Have Been Improved but More Still Needs to Be Done - President Ramaphosa",
-          "url": "https://allafrica.com/stories/202602200067.html",
+          "title": "South Africa: Rand Water Granted Temporary Boost to Stabilise Gauteng Supply",
+          "url": "https://allafrica.com/stories/202602200110.html",
           "source": "AllAfrica",
-          "published": "2026-02-20T05:24:43",
-          "lead": "[SAnews.gov.za] Notwithstanding the persistent challenges and need for continued effort, government has profoundly trans"
+          "published": "2026-02-20T07:30:47",
+          "lead": "[SAnews.gov.za] Water and Sanitation Minister Pemmy Majodina has authorised Rand Water to abstract additional water from"
         },
         {
           "title": "South Africa: South Africa Is Sending in the Army to Fight Crime (Again). Does It Ever Work?",
@@ -1791,39 +1791,40 @@
           "lead": "[The Conversation Africa] Soldiers from the South African National Defence Force are going to be deployed alongside memb"
         },
         {
-          "title": "South Africa: Robert Mugabe's Son Arrested After Security Guard Shot in Hyde Park",
-          "url": "https://allafrica.com/stories/202602190533.html",
+          "title": "South Africa: The Staggering Cost of Wrongful Arrests",
+          "url": "https://allafrica.com/stories/202602200083.html",
           "source": "AllAfrica",
-          "published": "2026-02-19T14:40:40",
-          "lead": "[Scrolla] Bellarmine Chatunga Mugabe, youngest son of late former Zimbabwean president Robert Mugabe, was arrested at th"
+          "published": "2026-02-20T07:02:56",
+          "lead": "[GroundUp] Thousands of claims against SAPS cost R620-million in 2024/25"
         },
         {
-          "title": "South Africa: City Power Boss Mashava Quits After 10 Years in the Job",
-          "url": "https://allafrica.com/stories/202602190534.html",
+          "title": "South Africa: Final Warning for Man Who Defamed Transnet On Social Media",
+          "url": "https://allafrica.com/stories/202602200082.html",
           "source": "AllAfrica",
-          "published": "2026-02-19T14:40:40",
-          "lead": "[Scrolla] City Power CEO Tshifularo Mashava quit on 12 February 2025, saying she wants to follow personal and profession"
+          "published": "2026-02-20T07:01:50",
+          "lead": "[GroundUp] Musa Mbundwini, a welder dismissed by Transnet for dishonesty and fraud, has spent eight years defaming the c"
         },
         {
-          "title": "South Africa: Paris Signals Strong, but Nuanced, Support for Pretoria On the Global Stage",
-          "url": "https://allafrica.com/stories/202602190528.html",
+          "title": "South Africa: One Injured After Ekurhuleni Factory Fire - South African News Briefs - February 20, 2026",
+          "url": "https://allafrica.com/stories/202602200079.html",
           "source": "AllAfrica",
-          "published": "2026-02-19T14:35:43",
-          "lead": "[Daily Maverick] French President Emmanuel Macron will keep SA's G20 agenda alive in the G7."
+          "published": "2026-02-20T05:45:31",
+          "lead": "[allAfrica]"
         },
         {
-          "title": "MUGABE SHOOTING: SAPS divers, K9 unit search Robert Mugabe’s son’s property after shooting arrest",
-          "url": "https://www.dailymaverick.co.za/article/saps-divers-k9-unit-search-robert-mugabes-sons-property-after-shooting-arrest",
-          "source": "Daily Maverick",
-          "published": "2026-02-19T22:15:50",
-          "lead": "The South African police have confirmed they are investigating a case of attempted murder after a son of former Zimbabwe"
+          "title": "South Africa: Lives Have Been Improved but More Still Needs to Be Done - President Ramaphosa",
+          "url": "https://allafrica.com/stories/202602200067.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T05:24:43",
+          "lead": "[SAnews.gov.za] Notwithstanding the persistent challenges and need for continued effort, government has profoundly trans"
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "BBC Africa",
         "AllAfrica",
         "RFI Afrique",
+        "Africanews",
+        "Daily Maverick",
+        "BBC Africa",
         "Al Jazeera"
       ]
     },
