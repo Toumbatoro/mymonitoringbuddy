@@ -1,20 +1,33 @@
 {
-  "generated_at": "2026-02-20T21:16:41.334704",
+  "generated_at": "2026-02-21T01:13:42.302954",
   "summary": {
-    "high": 4,
-    "elevated": 7,
+    "high": 5,
+    "elevated": 10,
     "normal": 22,
-    "quiet": 21
+    "quiet": 17
   },
   "countries": {
     "Morocco": {
       "article_count": 8,
-      "source_count": 5,
+      "source_count": 6,
       "baseline": 4.4,
-      "ratio": 1.81,
+      "ratio": 1.83,
       "status": "elevated",
       "confidence": "medium",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -30,13 +43,6 @@
           "source": "France24 Afrique",
           "published": "2026-02-20T12:22:05",
           "lead": "La justice marocaine a condamné jeudi à des peines allant de trois mois à un an de prison les 18 supporters sénégalais d"
-        },
-        {
-          "title": "Maroc : des peines de prison pour 18 supporters sénégalais après des incidents à la CAN",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260219-18-supporters-s%C3%A9n%C3%A9galais-condamn%C3%A9s-entre-trois-mois-et-un-an-de-prison-au-maroc",
-          "source": "France24 Afrique",
-          "published": "2026-02-19T21:24:34",
-          "lead": "La justice marocaine a condamné, jeudi, à des peines allant de trois mois à un an de prison les 18 supporters sénégalais"
         },
         {
           "title": "« C’est une vengeance » : la colère des supporteurs sénégalais de football à la suite de la condamnation de leurs compatriotes au Maroc",
@@ -72,14 +78,22 @@
           "source": "Africanews",
           "published": "2026-02-20T09:18:31",
           "lead": "A Moroccan court sentenced 19 soccer fans to up to one year in prison on Thursday for hooliganism following a chaotic Af"
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Le Monde Afrique",
+        "Jeune Afrique",
         "Africanews",
+        "France24 Afrique",
         "Al Jazeera",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "Human Rights Watch"
       ]
     },
     "Algeria": {
@@ -108,8 +122,8 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Tunisia": {
@@ -161,22 +175,34 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "Le Monde Afrique",
-        "Human Rights Watch",
         "Jeune Afrique",
-        "BBC Africa"
+        "Human Rights Watch"
       ]
     },
     "Libya": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.8,
-      "ratio": 0.36,
+      "ratio": 0.73,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Libya: UN Report Warns of Escalating Human Rights Abuses Against Migrants and Refugees in Libya",
+          "url": "https://allafrica.com/stories/202602200634.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T23:40:26",
+          "lead": "[IPS] United Nations -- A new UN report warns of the \"brutal and normalized reality\" for migrants, refugees and asylum s"
+        },
         {
           "title": "Anniversary of Fatal Italy Shipwreck Comes Amid New Tragedies",
           "url": "https://www.hrw.org/news/2026/02/20/anniversary-of-fatal-italy-shipwreck-comes-amid-new-tragedies",
@@ -186,56 +212,79 @@
         }
       ],
       "sources": [
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.6,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Régine Guillermin Prato, une vie vouée à l'entraide en Égypte",
+          "url": "https://www.rfi.fr/fr/podcasts/vivre-ailleurs/20260220-r%C3%A9gine-guillermin-prato-une-vie-vou%C3%A9e-%C3%A0-l-entraide-en-%C3%A9gypte",
+          "source": "RFI Afrique",
+          "published": "2026-02-20T23:35:53",
+          "lead": "Expatriée en Égypte depuis 44 ans, Régine Guillermin Prato a œuvré dans divers secteurs, notamment le tourisme, la santé"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Sudan": {
-      "article_count": 5,
-      "source_count": 4,
-      "baseline": 6.1,
-      "ratio": 0.82,
+      "article_count": 8,
+      "source_count": 6,
+      "baseline": 5.8,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "War",
           "count": 2
         },
         {
-          "word": "Violence",
-          "count": 1
+          "word": "Famine",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
         },
         {
           "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Famine",
+          "word": "Violence",
           "count": 1
         },
         {
           "word": "Refugees",
           "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "How are killer drones reshaping the conflict in Sudan",
+          "url": "https://www.aljazeera.com/video/the-take-2/2026/2/20/aje-onl-aj_tt_sdn_alfashir_av_v1-200226?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-20T20:48:39",
+          "lead": "Sudan enters Ramadan as Civil War intensifies, famine spreads, and drone strikes hit civilian markets."
+        },
         {
           "title": "These atrocities in Sudan were entirely predictable. So why did the rest of the world fail to stop them? | Husam Mahjoub",
           "url": "https://www.theguardian.com/commentisfree/2026/feb/20/atrocities-el-fasher-sudan-predictable",
@@ -249,6 +298,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-20T12:15:01",
           "lead": "La mission indépendante d'établissement des faits de l'ONU sur le Soudan a fait état le 19 février 2026 d'« actes de gén"
+        },
+        {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
         },
         {
           "title": "Des \"actes de génocide\" au Soudan en octobre 2025 selon l'ONU",
@@ -270,13 +326,22 @@
           "source": "Africanews",
           "published": "2026-02-20T10:37:36",
           "lead": "Men gathered in the streets of the war-torn capital to break their fast less than a year after it was recaptured by the "
+        },
+        {
+          "title": "Sudan: Sudan's 'Lion Cubs' - the Child Soldiers Going Viral On Tiktok",
+          "url": "https://allafrica.com/stories/202602200633.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T23:35:20",
+          "lead": "[Dabanga] Amsterdam / Babanusa -- Report by Sebastian Vandermeersch and Amgad Abdelgadir"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "The Guardian Africa",
         "Africanews",
-        "France24 Afrique"
+        "France24 Afrique",
+        "The Guardian Africa",
+        "Al Jazeera",
+        "AllAfrica"
       ]
     },
     "Mauritania": {
@@ -295,7 +360,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 3.8,
-      "ratio": 1.04,
+      "ratio": 1.05,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -341,15 +406,15 @@
       ],
       "sources": [
         "Le Monde Afrique",
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.8,
-      "ratio": 0.73,
+      "baseline": 2.7,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -358,11 +423,11 @@
           "count": 1
         },
         {
-          "word": "Terroriste",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Terroriste",
           "count": 1
         }
       ],
@@ -384,8 +449,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Niger": {
@@ -419,20 +484,32 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 10,
-      "source_count": 6,
-      "baseline": 6.0,
-      "ratio": 1.68,
+      "article_count": 11,
+      "source_count": 8,
+      "baseline": 5.9,
+      "ratio": 1.87,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
+          "word": "Government",
+          "count": 2
+        },
+        {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -465,13 +542,6 @@
           "source": "France24 Afrique",
           "published": "2026-02-20T12:22:05",
           "lead": "La justice marocaine a condamné jeudi à des peines allant de trois mois à un an de prison les 18 supporters sénégalais d"
-        },
-        {
-          "title": "Maroc : des peines de prison pour 18 supporters sénégalais après des incidents à la CAN",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260219-18-supporters-s%C3%A9n%C3%A9galais-condamn%C3%A9s-entre-trois-mois-et-un-an-de-prison-au-maroc",
-          "source": "France24 Afrique",
-          "published": "2026-02-19T21:24:34",
-          "lead": "La justice marocaine a condamné, jeudi, à des peines allant de trois mois à un an de prison les 18 supporters sénégalais"
         },
         {
           "title": "« C’est une vengeance » : la colère des supporteurs sénégalais de football à la suite de la condamnation de leurs compatriotes au Maroc",
@@ -507,15 +577,31 @@
           "source": "Africanews",
           "published": "2026-02-20T11:03:41",
           "lead": "Italy saw mascot mania in Milan as Tina, face of Milano Cortina 2026, welcomed Ayo from Dakar 2026."
+        },
+        {
+          "title": "Senegal: Senegal Approves Draft Law to Double Prison Terms for Homosexual Acts",
+          "url": "https://allafrica.com/stories/202602200632.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T23:34:18",
+          "lead": "[RFI] Senegal's government has approved a bill to toughen laws on homosexuality, proposing longer prison terms and highe"
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Le Monde Afrique",
+        "Jeune Afrique",
         "RFI Afrique",
         "Africanews",
+        "France24 Afrique",
+        "Human Rights Watch",
         "Al Jazeera",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "AllAfrica"
       ]
     },
     "Gambia": {
@@ -543,28 +629,61 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.6,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
     },
     "Sierra Leone": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Liberia": {
       "article_count": 3,
@@ -613,7 +732,7 @@
     },
     "Côte d'Ivoire": {
       "article_count": 3,
-      "source_count": 3,
+      "source_count": 2,
       "baseline": 1.8,
       "ratio": 1.71,
       "status": "elevated",
@@ -627,18 +746,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Le tambour parleur Djidji Ayôkwé a été restitué par la France à la Côte d'Ivoire",
+          "url": "https://www.rfi.fr/fr/afrique/20260221-le-tambour-parleur-djidji-ay%C3%B4kw%C3%A9-a-%C3%A9t%C3%A9-restitu%C3%A9-par-la-france-%C3%A0-la-c%C3%B4te-d-ivoire",
+          "source": "RFI Afrique",
+          "published": "2026-02-21T00:27:03",
+          "lead": "La restitution officielle à la Côte d'Ivoire de cet instrument, qui avait été volé par les colons français au peuple atc"
+        },
+        {
           "title": "Côte d’Ivoire: des chefs traditionnels préparent le retour du tambour parleur dans «un sentiment de joie»",
           "url": "https://www.rfi.fr/fr/afrique/20260220-c%C3%B4te-d-ivoire-des-chefs-traditionnels-pr%C3%A9parent-le-retour-du-tambour-parleur-dans-un-sentiment-de-joie",
           "source": "RFI Afrique",
           "published": "2026-02-20T07:52:12",
           "lead": "Plus d’un siècle après avoir quitté la lagune Ébrié, le Djidji Ayokwé s’apprête à retrouver la Côte d’Ivoire. Ce tambour"
-        },
-        {
-          "title": "Le magazine \"ELLE\" lance une édition dans cinq pays d'Afrique francophone",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260219-lancement-du-magazine-elle-afrique",
-          "source": "France24 Afrique",
-          "published": "2026-02-19T21:27:19",
-          "lead": "Le magazine féminin Elle, qui a fêté ses 80 ans fin 2025, lance ce mois mars une édition dans cinq pays d'Afrique franco"
         },
         {
           "title": "Ivory Coast considers cocoa price cut after Ghana",
@@ -649,26 +768,40 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "France24 Afrique"
+        "RFI Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 4,
       "baseline": 3.0,
-      "ratio": 1.35,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.03,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Government",
-          "count": 2
+          "count": 3
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
+        },
         {
           "title": "Ivory Coast considers cocoa price cut after Ghana",
           "url": "http://www.africanews.com/2026/02/19/ivory-coast-considers-cocoa-price-cut-after-ghana/",
@@ -696,18 +829,27 @@
           "source": "AllAfrica",
           "published": "2026-02-20T11:01:22",
           "lead": "[FrontPageAfrica] Capitol Hill -- Members of the House of Representatives were left stunned Thursday after the Public Pr"
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique",
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Togo": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 0.7,
-      "ratio": 4.24,
+      "ratio": 4.5,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -741,17 +883,17 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Benin": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.6,
-      "ratio": 1.85,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.23,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Crisis",
@@ -760,13 +902,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Du Bénin au Cameroun, des solutions à la cherté de l'alimentation dans l'aviculture traditionnelle",
-          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260219-du-b%C3%A9nin-au-cameroun-des-solutions-%C3%A0-la-chert%C3%A9-de-l-alimentation-dans-l-aviculture-traditionnelle",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T23:35:59",
-          "lead": "Soutenir l'aviculture traditionnelle est un enjeu au Bénin, qui dépend toujours des importations malgré la volonté de le"
-        },
         {
           "title": "Comment stopper l’expansion du Jnim en Afrique de l’Ouest : ce qu’il faut retenir du rapport de Crisis Group",
           "url": "https://www.jeuneafrique.com/1767765/politique/comment-stopper-lexpansion-du-jnim-en-afrique-de-louest-ce-quil-faut-retenir-du-rapport-de-crisis-group/",
@@ -783,15 +918,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 9,
+      "article_count": 7,
       "source_count": 2,
       "baseline": 9.5,
-      "ratio": 0.95,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -808,11 +942,11 @@
           "count": 1
         },
         {
-          "word": "Explosion",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Explosion",
           "count": 1
         },
         {
@@ -874,25 +1008,11 @@
           "source": "AllAfrica",
           "published": "2026-02-20T09:44:40",
           "lead": "[Premium Times] The police said the former presidential aide was arrested for alleged forgery and for falsely entering t"
-        },
-        {
-          "title": "Nigeria: Police Chief Pledges Protection of Oil Facilities",
-          "url": "https://allafrica.com/stories/202602200274.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T09:43:17",
-          "lead": "[Leadership] The inspector-general of police (IGP) Kayode Egbetokun, has pledged protection of oil sector facilities in "
-        },
-        {
-          "title": "Nigeria: Unrealistic Revenue Assumptions - Senate Threatens to Slash N58.47tn 2026 Budget",
-          "url": "https://allafrica.com/stories/202602200271.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T09:42:09",
-          "lead": "[This Day] Abuja -- Senate on Thursday threatened to reduce the proposed N58.472 trillion 2026 Appropriation Bill over w"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -910,7 +1030,7 @@
     "Chad": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 3.0,
+      "baseline": 2.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -920,13 +1040,26 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 7,
-      "source_count": 4,
-      "baseline": 2.9,
-      "ratio": 2.43,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [],
+      "article_count": 8,
+      "source_count": 6,
+      "baseline": 2.8,
+      "ratio": 2.82,
+      "status": "high",
+      "confidence": "high",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -944,11 +1077,11 @@
           "lead": "Au Cameroun, six ans après le massacre de Ngarbuh, le tribunal militaire de Yaoundé a rendu son verdict : trois militair"
         },
         {
-          "title": "Du Bénin au Cameroun, des solutions à la cherté de l'alimentation dans l'aviculture traditionnelle",
-          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260219-du-b%C3%A9nin-au-cameroun-des-solutions-%C3%A0-la-chert%C3%A9-de-l-alimentation-dans-l-aviculture-traditionnelle",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T23:35:59",
-          "lead": "Soutenir l'aviculture traditionnelle est un enjeu au Bénin, qui dépend toujours des importations malgré la volonté de le"
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
         },
         {
           "title": "Massacre de Ngarbuh au Cameroun : le tribunal a rendu son verdict, les victimes dénoncent son laxisme",
@@ -977,44 +1110,45 @@
           "source": "Daily Maverick",
           "published": "2026-02-20T04:49:21",
           "lead": "YAOUNDE, Feb 19 (Reuters) - A freelance journalist on assignment for the Associated Press was slapped by police and brie"
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "BBC Africa",
         "Daily Maverick",
         "Jeune Afrique",
-        "BBC Africa"
+        "RFI Afrique",
+        "France24 Afrique",
+        "Human Rights Watch"
       ]
     },
     "CAR": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 0.89,
+      "baseline": 1.0,
+      "ratio": 0.96,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "L'Ouest centrafricain, une décennie après la crise: l'hôpital de Bouar renaît [2/4]",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260219-l-ouest-centrafricain-une-d%C3%A9cennie-apr%C3%A8s-la-crise-l-h%C3%B4pital-de-bouar-rena%C3%AEt-2-4",
+          "title": "L'Ouest centrafricain, une décennie après la crise: le problème persistant des viols à Baboua [3/4]",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260220-l-ouest-centrafricain-une-d%C3%A9cennie-apr%C3%A8s-la-crise-le-probl%C3%A8me-persistant-des-viols-%C3%A0-baboua-3-4",
           "source": "RFI Afrique",
-          "published": "2026-02-19T23:25:40",
-          "lead": "La Centrafrique poursuit lentement mais résolument son processus de reconstruction. À Bouar, une ville d'environ 30 000 "
+          "published": "2026-02-20T23:32:12",
+          "lead": "Direction Baboua, à une cinquantaine de kilomètres de la frontière camerounaise, au nord-ouest de Bangui, pour le troisi"
         }
       ],
       "sources": [
@@ -1022,24 +1156,31 @@
       ]
     },
     "South Sudan": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 0.56,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.6,
+      "ratio": 1.23,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Refugees",
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
+        },
         {
           "title": "UN Goodwill Ambassador Kristin Davis meets refugees in South Sudanese",
           "url": "http://www.africanews.com/2026/02/20/un-goodwill-ambassador-kristin-davis-meets-refugees-in-south-sudanese/",
@@ -1049,28 +1190,39 @@
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Eq. Guinea": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.86,
+      "baseline": 0.5,
+      "ratio": 2.0,
       "status": "normal",
       "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
+    },
+    "Gabon": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.2,
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1080,20 +1232,41 @@
           "source": "Jeune Afrique",
           "published": "2026-02-20T19:06:26",
           "lead": "Décidée le 17 février par les autorités gabonaises, la suspension des réseaux sociaux toujours en cours au Gabon n’est p"
+        },
+        {
+          "title": "Gabonese presidency defends social media shutdown",
+          "url": "http://www.africanews.com/2026/02/20/gabonese-presidency-defends-social-media-shutdown/",
+          "source": "Africanews",
+          "published": "2026-02-20T21:05:02",
+          "lead": "Authorities have defended the bad as necessary to preserve social cohesion, political stability, and national security"
         }
       ],
       "sources": [
+        "Africanews",
         "Jeune Afrique"
       ]
     },
     "Congo": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 0.69,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 2.06,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1102,17 +1275,32 @@
           "source": "AllAfrica",
           "published": "2026-02-20T13:38:52",
           "lead": "[New Era] Despite strong historical and political ties between Namibia and the Republic of Congo, trade and investment b"
+        },
+        {
+          "title": "Congo-Kinshasa: France Confirms Its Soldiers Are in DR Congo, but Only to Train Local Troops",
+          "url": "https://allafrica.com/stories/202602200631.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T23:33:52",
+          "lead": "[RFI] France has clarified that its military personnel are in the Democratic Republic of Congo to train members of the c"
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 10,
-      "source_count": 4,
+      "article_count": 11,
+      "source_count": 5,
       "baseline": 7.5,
-      "ratio": 1.34,
+      "ratio": 1.47,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1134,6 +1322,18 @@
         },
         {
           "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -1168,13 +1368,6 @@
           "lead": "Après une visite à Kinshasa puis au Burundi, la Commissaire européenne chargée de l'égalité, de la préparation et de la "
         },
         {
-          "title": "Six États à surveiller pour l'équilibre agricole et alimentaire mondial",
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260219-six-%C3%A9tats-%C3%A0-surveiller-pour-l-%C3%A9quilibre-agricole-et-alimentaire-mondial",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T23:50:42",
-          "lead": "Quels sont les pays qui seront déterminants demain pour les équilibres agricoles internationaux ? Le Club Demeter a iden"
-        },
-        {
           "title": "RDC-Jean-Marc Kabund : « Félix Tshisekedi fait partie du problème, il ne peut pas fixer les règles du dialogue »",
           "url": "https://www.jeuneafrique.com/1767904/politique/rdc-jean-marc-kabund-felix-tshisekedi-fait-partie-du-probleme-il-ne-peut-pas-fixer-les-regles-du-dialogue/",
           "source": "Jeune Afrique",
@@ -1203,18 +1396,33 @@
           "lead": "[New Times] The European Commissioner for Equality, Preparedness and Crisis Management has said it would be \"difficult\" "
         },
         {
+          "title": "Congo-Kinshasa: France Confirms Its Soldiers Are in DR Congo, but Only to Train Local Troops",
+          "url": "https://allafrica.com/stories/202602200631.html",
+          "source": "AllAfrica",
+          "published": "2026-02-20T23:33:52",
+          "lead": "[RFI] France has clarified that its military personnel are in the Democratic Republic of Congo to train members of the c"
+        },
+        {
           "title": "Congo-Kinshasa: Bisimwa Condemns 'Indifference' of Mediators Amid Kinshasa's Attacks",
           "url": "https://allafrica.com/stories/202602200422.html",
           "source": "AllAfrica",
           "published": "2026-02-20T11:13:14",
           "lead": "[New Times] AFC/M23 movement deputy coordinator, Bertrand Bisimwa has condemned what he describes as the \"indifference\" "
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "AllAfrica",
+        "Jeune Afrique",
         "RFI Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "São Tomé": {
@@ -1230,16 +1438,39 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.26,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Eritrea": {
       "article_count": 1,
@@ -1276,13 +1507,26 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 4.5,
-      "ratio": 0.44,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1298,39 +1542,37 @@
           "source": "AllAfrica",
           "published": "2026-02-20T16:39:31",
           "lead": "[ENA] Addis Ababa -- The Kingdom of Eswatini has commended Ethiopia for its strong track record in delivering large scal"
+        },
+        {
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "DW Africa"
+        "DW Africa",
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Somalia": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.42,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.3,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "UN emergency food aid in Somalia may halt by April amid severe hunger",
-          "url": "https://www.aljazeera.com/news/2026/2/20/un-emergency-food-aid-in-somalia-may-halt-by-april-amid-severe-hunger?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-20T14:01:46",
-          "lead": "Families in Somalia pushed to the brink amid severe hunger; urgent food aid needed to avert worsening conditions."
-        }
-      ],
-      "sources": [
-        "Al Jazeera"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.6,
+      "baseline": 2.5,
       "ratio": 0.39,
       "status": "normal",
       "confidence": "low",
@@ -1355,15 +1597,23 @@
       ]
     },
     "Kenya": {
-      "article_count": 6,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 5.9,
-      "ratio": 1.01,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1398,32 +1648,26 @@
           "lead": "[Capital FM] Nairobi -- Gulf Energy E&#x26;amp;P BV has acquired an onshore oil drilling rig valued at over Sh2 billion "
         },
         {
-          "title": "Kenya: High Court Rules Privatization Act, 2025, Constitutional",
-          "url": "https://allafrica.com/stories/202602200267.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T09:41:20",
-          "lead": "[Capital FM] Nairobi -- The Milimani High Court has dismissed a petition challenging the constitutional validity of the "
-        },
-        {
-          "title": "Kenya: World's Largest Floating University Docks in Mombasa With 609 Students",
-          "url": "https://allafrica.com/stories/202602200266.html",
-          "source": "AllAfrica",
-          "published": "2026-02-20T09:41:04",
-          "lead": "[Capital FM] Mombasa -- The Port of Mombasa on Wednesday received a fifth cruise vessel since the beginning of the year."
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
         "France24 Afrique",
+        "Human Rights Watch",
         "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.3,
-      "ratio": 1.29,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Humanitaire",
@@ -1448,6 +1692,13 @@
           "lead": "Après une visite à Kinshasa puis au Burundi, la Commissaire européenne chargée de l'égalité, de la préparation et de la "
         },
         {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
+        },
+        {
           "title": "Rwanda: EU Official Says It's Hard to Tell Who Committed Abuses in Uvira",
           "url": "https://allafrica.com/stories/202602200330.html",
           "source": "AllAfrica",
@@ -1463,15 +1714,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "France24 Afrique",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 1.0,
-      "ratio": 3.13,
+      "ratio": 3.0,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1509,9 +1761,9 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Le Monde Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
@@ -1527,17 +1779,13 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 3.2,
-      "ratio": 0.94,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.0,
+      "ratio": 0.33,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 2
-        },
         {
           "word": "President",
           "count": 1
@@ -1545,20 +1793,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Madagascar: en visite à Moscou, le président Randrianirina scelle le rapprochement avec la Russie",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-madagascar-en-visite-%C3%A0-moscou-le-pr%C3%A9sident-randrianirina-scelle-le-rapprochement-avec-la-russie",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T21:55:30",
-          "lead": "Le président russe Vladimir Poutine a reçu, jeudi 19 février au Kremlin, le président de la Refondation de Madagascar, M"
-        },
-        {
-          "title": "Le nouveau président malgache choisit Moscou, avant Paris",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/19/le-nouveau-president-malgache-choisit-moscou-avant-paris_6667471_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-19T21:27:55",
-          "lead": "Le président de la Refondation de Madagascar, Michaël Randrianirina, a rencontré, jeudi, Vladimir Poutine. Alors qu’il d"
-        },
         {
           "title": "Putin welcomes Madagascar's President, pledges expanded cooperation",
           "url": "http://www.africanews.com/2026/02/20/putin-welcomes-madagascars-president-pledges-expanded-cooperation/",
@@ -1568,8 +1802,6 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique",
         "Africanews"
       ]
     },
@@ -1624,7 +1856,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1646,57 +1878,28 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 6,
-      "source_count": 5,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.8,
-      "ratio": 3.27,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.64,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
           "count": 2
         },
         {
-          "word": "Militia",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Blessé",
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Lion DNA helps convict poachers for first time",
-          "url": "https://www.bbc.com/news/articles/c4grxvdyy00o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-20T00:23:10",
-          "lead": "Investigators reveal how they were able to identify a missing animal using a database of lions in Zimbabwe."
-        },
-        {
-          "title": "Cecil: The Lion and the Dentist review – inside the horrific big cat killing that outraged the world",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/feb/20/cecil-the-lion-and-the-dentist-review-channel-4",
-          "source": "The Guardian Africa",
-          "published": "2026-02-20T00:00:18",
-          "lead": "This documentary looks at the 2015 slaying of the majestic head of two lion prides in Zimbabwe, by a trophy-hunting Amer"
-        },
-        {
-          "title": "Afrique du Sud: l'un des fils de l'ex-président zimbabwéen Robert Mugabe arrêté pour tentative de meurtre",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-afrique-du-sud-l-un-des-fils-de-l-ex-pr%C3%A9sident-zimbabw%C3%A9en-robert-mugabe-arr%C3%AAt%C3%A9-pour-tentative-de-meurtre",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T23:58:32",
-          "lead": "Plus jeune fils de l'ancien président du Zimbabwe décédé en 2019, Bellarmine Chatunga Mugabe est accusé d'avoir blessé p"
-        },
         {
           "title": "Zimbabwe launches groundbreaking HIV prevention drug Lenacapavir",
           "url": "http://www.africanews.com/2026/02/20/zimbabwe-launches-groundbreaking-hiv-prevention-drug-lenacapavir/",
@@ -1712,19 +1915,16 @@
           "lead": "The youngest son of former Zimbabwean president Robert Mugabe was in police custody Thursday following the shooting of a"
         },
         {
-          "title": "SUSPECTS IN THE SUBURBS: SAPS divers, K9 unit search Robert Mugabe’s son’s property after shooting arrest",
-          "url": "https://www.dailymaverick.co.za/article/saps-divers-k9-unit-search-robert-mugabes-sons-property-after-shooting-arrest",
-          "source": "Daily Maverick",
-          "published": "2026-02-19T22:15:50",
-          "lead": "The South African police have confirmed they are investigating a case of attempted murder after a son of former Zimbabwe"
+          "title": "Abuses in Cameroon After US Deports Third-Country Nationals",
+          "url": "https://www.hrw.org/news/2026/02/20/abuses-in-cameroon-after-us-deports-third-country-nationals",
+          "source": "Human Rights Watch",
+          "published": "2026-02-20T22:30:14",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
         "Africanews",
-        "Daily Maverick",
-        "The Guardian Africa"
+        "Human Rights Watch"
       ]
     },
     "Namibia": {
@@ -1776,32 +1976,20 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 15,
-      "source_count": 5,
-      "baseline": 12.6,
-      "ratio": 1.19,
+      "article_count": 12,
+      "source_count": 3,
+      "baseline": 12.5,
+      "ratio": 0.96,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Killed",
           "count": 2
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Blessé",
-          "count": 1
         },
         {
           "word": "Dead",
@@ -1814,24 +2002,18 @@
         {
           "word": "Fighting",
           "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Bombing",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "South African farmers fear devastation as foot-and-mouth takes hold",
-          "url": "https://www.bbc.com/news/articles/ceqvjwre8vqo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-20T00:37:30",
-          "lead": "The government has begun a vaccination programme but officials have been blamed for a slow response."
-        },
-        {
-          "title": "Afrique du Sud: l'un des fils de l'ex-président zimbabwéen Robert Mugabe arrêté pour tentative de meurtre",
-          "url": "https://www.rfi.fr/fr/afrique/20260219-afrique-du-sud-l-un-des-fils-de-l-ex-pr%C3%A9sident-zimbabw%C3%A9en-robert-mugabe-arr%C3%AAt%C3%A9-pour-tentative-de-meurtre",
-          "source": "RFI Afrique",
-          "published": "2026-02-19T23:58:32",
-          "lead": "Plus jeune fils de l'ancien président du Zimbabwe décédé en 2019, Bellarmine Chatunga Mugabe est accusé d'avoir blessé p"
-        },
         {
           "title": "Five diamond miners trapped by mudslide presumed dead, South African minister says",
           "url": "http://www.africanews.com/2026/02/20/five-diamond-miners-trapped-by-mudslide-presumed-dead-south-african-minister-says/",
@@ -1901,26 +2083,45 @@
           "source": "Daily Maverick",
           "published": "2026-02-20T11:55:02",
           "lead": "Thirty years after a bombing intended to kill black people, South Africa still struggles to decide who must carry the co"
+        },
+        {
+          "title": "DANCE : Gregory Maqoma’s Genesis — a visceral plea acknowledging the past to heal the future",
+          "url": "https://www.dailymaverick.co.za/article/gregory-maqomas-genesis-a-visceral-plea-plea-acknowledging-the-past-to-heal-the",
+          "source": "Daily Maverick",
+          "published": "2026-02-20T11:50:00",
+          "lead": "The dance-opera, which premiered this week in Cape Town, is as much an audience-pleaser as it is a phantasmagoric multid"
+        },
+        {
+          "title": "REFLECTION: The intimate magic of Cape Town’s vanished bughouse cinemas in the Seventies",
+          "url": "https://www.dailymaverick.co.za/article/the-intimate-magic-of-cape-towns-vanished-bughouse-cinemas-in-the-seventies",
+          "source": "Daily Maverick",
+          "published": "2026-02-20T11:47:34",
+          "lead": "Streaming killed the movie star, and shopping malls buried the bioscope. I went back in memory to the old bughouses of 1"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
         "Africanews",
         "Daily Maverick",
         "AllAfrica"
       ]
     },
     "Eswatini": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 4.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Vaste campagne d'expulsions de l'administration Trump : arrivée de 8 africains expulsés à Yaoundé",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260220-vaste-campagne-d-expulsions-de-l-administration-trump-arriv%C3%A9e-de-8-africains-expuls%C3%A9s-%C3%A0-yaound%C3%A9",
+          "source": "France24 Afrique",
+          "published": "2026-02-20T22:26:56",
+          "lead": "Le Cameroun où 8 immigrés africains sont arrivés expulsés des Etats-Unis. Après le Ghana, l'Eswatini, le Rwanda, la Guin"
+        },
         {
           "title": "Eswatini: Eswatini Applauds Ethiopia's Impressive Mega Development Projects",
           "url": "https://allafrica.com/stories/202602200611.html",
@@ -1930,6 +2131,7 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "AllAfrica"
       ]
     },
