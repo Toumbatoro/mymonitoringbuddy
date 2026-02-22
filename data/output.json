@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-22T12:30:17.473937",
+  "generated_at": "2026-02-22T15:17:24.725012",
   "summary": {
     "high": 1,
     "elevated": 2,
-    "normal": 22,
-    "quiet": 29
+    "normal": 21,
+    "quiet": 30
   },
   "countries": {
     "Morocco": {
@@ -20,26 +20,16 @@
       "sources": []
     },
     "Algeria": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.3,
-      "ratio": 0.43,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Algeria: How Algeria's Diplomatic Reset With Niger Advances Its Sahel Strategy",
-          "url": "https://allafrica.com/stories/202602210003.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:02:59",
-          "lead": "[RFI] After a year of diplomatic strain, Niger and Algeria are testing a cautious reset - one that could reshape politic"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tunisia": {
       "article_count": 0,
@@ -54,22 +44,15 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.7,
-      "ratio": 1.11,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Eight bodies recovered in Libya, Greece as Mediterranean death toll rises",
-          "url": "https://www.aljazeera.com/news/2026/2/22/eight-bodies-found-in-libya-and-greece-as-mediterranean-crossings-continue?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-22T05:00:52",
-          "lead": "Bodies of five asylum seekers wash ashore in Libya as three others die in a separate incident off the coast of Greece."
-        },
         {
           "title": "La Libye, eldorado pétrolier saigné par les malversations",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/22/la-libye-eldorado-petrolier-saigne-par-les-malversations_6667783_3212.html",
@@ -86,14 +69,13 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
         "Le Monde Afrique"
       ]
     },
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -105,8 +87,8 @@
     "Sudan": {
       "article_count": 7,
       "source_count": 6,
-      "baseline": 5.7,
-      "ratio": 1.23,
+      "baseline": 5.8,
+      "ratio": 1.21,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -119,33 +101,27 @@
           "count": 2
         },
         {
-          "word": "President",
-          "count": 2
+          "word": "Attack",
+          "count": 1
         },
         {
           "word": "War",
-          "count": 2
+          "count": 1
         },
         {
-          "word": "Attack",
+          "word": "President",
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "President",
-          "Rsf"
-        ],
-        [
-          "President",
-          "War"
-        ],
-        [
-          "Rsf",
-          "War"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
+        {
+          "title": "'Affront to humanity': Sudan slams Uganda for hosting RSF paramilitary boss",
+          "url": "https://www.bbc.com/news/articles/c20lwznegk4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-22T13:52:09",
+          "lead": "Sudan accuses Uganda of flouting international law by meeting Rapid Support Forces boss Mohamed Hamdan Dagalo."
+        },
         {
           "title": "Soudan: cinq attaques contre des structures médicales depuis le début de l'année, selon l'OMS",
           "url": "https://www.rfi.fr/fr/afrique/20260221-soudan-cinq-attaques-contre-des-structures-m%C3%A9dicales-depuis-le-d%C3%A9but-de-l-ann%C3%A9e-selon-l-oms",
@@ -187,22 +163,15 @@
           "source": "Africanews",
           "published": "2026-02-22T07:32:17",
           "lead": "The Ugandan president reiterated his view that sustainable peace in Sudan can only be achieved through dialogue rather t"
-        },
-        {
-          "title": "Sudan: Museveni Pushes for Dialogue to End Sudan War As He Hosts RSF Leader Gendagalo",
-          "url": "https://allafrica.com/stories/202602210008.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:13:39",
-          "lead": "[Nile Post] President Museveni has hosted Gen. Mohamed Hamdan Dagalo, leader of Sudan's Rapid Support Forces (RSF), at S"
         }
       ],
       "sources": [
-        "Africanews",
         "France24 Afrique",
+        "BBC Africa",
         "Jeune Afrique",
-        "AllAfrica",
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Africanews",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Mauritania": {
@@ -242,37 +211,34 @@
       "sources": []
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 4.2,
-      "ratio": 0.24,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Senegal": {
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 5.6,
+      "ratio": 0.36,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Algeria: How Algeria's Diplomatic Reset With Niger Advances Its Sahel Strategy",
-          "url": "https://allafrica.com/stories/202602210003.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:02:59",
-          "lead": "[RFI] After a year of diplomatic strain, Niger and Algeria are testing a cautious reset - one that could reshape politic"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
-    "Senegal": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 5.7,
-      "ratio": 0.18,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
+          "title": "Côte d’Ivoire: les micro-dramas chinois, ces mini-séries qui vous rendent accros",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-c%C3%B4te-d-ivoire-les-micro-dramas-chinois-ces-mini-s%C3%A9ries-qui-vous-rendent-accros",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T13:25:37",
+          "lead": "Sexe, vengeance et loups-garous… Depuis un peu plus d’un an, ce qu'on appelle les micro-dramas - mini-séries en format v"
+        },
         {
           "title": "Sénégal: marche symbolique à Dakar contre les violences policières",
           "url": "https://www.rfi.fr/fr/afrique/20260221-s%C3%A9n%C3%A9gal-marche-symbolique-%C3%A0-dakar-contre-les-violences-polici%C3%A8res",
@@ -349,8 +315,8 @@
     "Guinea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 0.55,
+      "baseline": 1.7,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -406,7 +372,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.66,
+      "ratio": 1.62,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -435,8 +401,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Ghana": {
@@ -486,15 +452,34 @@
       ]
     },
     "Nigeria": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 8.8,
-      "ratio": 0.11,
+      "ratio": 0.34,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Killed",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Attackers kill dozens, abduct women and children in Nigeria",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/22/attackers-kill-dozens-abduct-women-and-children-in-nigeria?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-22T12:38:54",
+          "lead": "Dozens are reported to have been killed and women and children abducted after armed men attacked a village in Nigeria."
+        },
+        {
+          "title": "Côte d’Ivoire: les micro-dramas chinois, ces mini-séries qui vous rendent accros",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-c%C3%B4te-d-ivoire-les-micro-dramas-chinois-ces-mini-s%C3%A9ries-qui-vous-rendent-accros",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T13:25:37",
+          "lead": "Sexe, vengeance et loups-garous… Depuis un peu plus d’un an, ce qu'on appelle les micro-dramas - mini-séries en format v"
+        },
         {
           "title": "Pourquoi les investisseurs de la tech africaine doivent regarder au-delà du Nigeria",
           "url": "https://www.jeuneafrique.com/1766860/economie-entreprises/pourquoi-les-investisseurs-de-la-tech-africaine-doivent-regarder-au-dela-du-nigeria/",
@@ -504,7 +489,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "RFI Afrique",
+        "Jeune Afrique",
+        "Al Jazeera"
       ]
     },
     "Cape Verde": {
@@ -522,8 +509,8 @@
     "Chad": {
       "article_count": 5,
       "source_count": 5,
-      "baseline": 2.7,
-      "ratio": 1.83,
+      "baseline": 2.8,
+      "ratio": 1.78,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -579,16 +566,16 @@
         }
       ],
       "sources": [
-        "Africanews",
         "France24 Afrique",
         "Jeune Afrique",
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Africanews",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Cameroon": {
       "article_count": 2,
-      "source_count": 2,
+      "source_count": 1,
       "baseline": 2.9,
       "ratio": 0.69,
       "status": "normal",
@@ -602,23 +589,22 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Côte d’Ivoire: les micro-dramas chinois, ces mini-séries qui vous rendent accros",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-c%C3%B4te-d-ivoire-les-micro-dramas-chinois-ces-mini-s%C3%A9ries-qui-vous-rendent-accros",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T13:25:37",
+          "lead": "Sexe, vengeance et loups-garous… Depuis un peu plus d’un an, ce qu'on appelle les micro-dramas - mini-séries en format v"
+        },
+        {
           "title": "Cameroun: Roger Belinga et Gérard Ondo Ndong libérés après 20 ans de prison pour détournement de fonds",
           "url": "https://www.rfi.fr/fr/afrique/20260222-cameroun-roger-belinga-et-g%C3%A9rard-ondo-ndong-lib%C3%A9r%C3%A9s-apr%C3%A8s-20-ans-de-prison-pour-d%C3%A9tournement-de-fonds",
           "source": "RFI Afrique",
           "published": "2026-02-22T10:30:08",
           "lead": "Après vingt ans de détention, Gérard Ondo Ndong, ex-DG du Fonds spécial d’équipement et d’intervention intercommunale (F"
-        },
-        {
-          "title": "Cameroon: Abuses in Cameroon After U.S. Deports Third-Country Nationals",
-          "url": "https://allafrica.com/stories/202602210007.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:11:28",
-          "lead": "[HRW] US and Cameroon Partner in Rights Violations; Cameroon Not Safe for Deportees"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "CAR": {
@@ -693,11 +679,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -718,8 +704,8 @@
     "DRC": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 7.3,
-      "ratio": 0.27,
+      "baseline": 7.2,
+      "ratio": 0.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -732,11 +718,11 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -758,8 +744,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -775,9 +761,31 @@
       "sources": []
     },
     "Angola": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.8,
+      "ratio": 1.24,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Côte d’Ivoire: les micro-dramas chinois, ces mini-séries qui vous rendent accros",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-c%C3%B4te-d-ivoire-les-micro-dramas-chinois-ces-mini-s%C3%A9ries-qui-vous-rendent-accros",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T13:25:37",
+          "lead": "Sexe, vengeance et loups-garous… Depuis un peu plus d’un an, ce qu'on appelle les micro-dramas - mini-séries en format v"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
+    },
+    "Eritrea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -785,28 +793,6 @@
       "keyword_pairs": [],
       "articles": [],
       "sources": []
-    },
-    "Eritrea": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.37,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Ethiopia: Risk of Renewed Conflict Mounts As Troop Movements Reported Near Eritrea-Tigray Border--Bloomberg",
-          "url": "https://allafrica.com/stories/202602210005.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:10:24",
-          "lead": "[Addis Standard] Addis Abeba--Ethiopia and Eritrea are deploying troops and military equipment near the northern Tigray "
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
     },
     "Djibouti": {
       "article_count": 0,
@@ -821,62 +807,35 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.4,
-      "ratio": 0.9,
+      "ratio": 0.23,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "L'Éthiopie devient la vitrine grandeur réelle de la mobilité électrique «made in China»",
+          "title": "L’Éthiopie en tête de la révolution électrique en Afrique grâce aux véhicules chinois",
           "url": "https://www.rfi.fr/fr/afrique/20260222-l-%C3%A9thiopie-devient-la-vitrine-grandeur-r%C3%A9elle-de-la-mobilit%C3%A9-%C3%A9lectrique-made-in-china",
           "source": "RFI Afrique",
           "published": "2026-02-22T05:30:29",
           "lead": "Décision radicale, effets immédiats. En misant sur l’électrique pour desserrer l’étau de sa dépendance énergétique, l’Ét"
-        },
-        {
-          "title": "Ethiopia: Ethio Telecom CEO Says Telestream Goes Beyond Entertainment to Power Nat'l Digital Growth",
-          "url": "https://allafrica.com/stories/202602210006.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:10:55",
-          "lead": "[ENA] Addis Ababa -- Ethio telecom has officially launched teleStream, a cutting-edge internet-based streaming platform "
-        },
-        {
-          "title": "Ethiopia: Risk of Renewed Conflict Mounts As Troop Movements Reported Near Eritrea-Tigray Border--Bloomberg",
-          "url": "https://allafrica.com/stories/202602210005.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:10:24",
-          "lead": "[Addis Standard] Addis Abeba--Ethiopia and Eritrea are deploying troops and military equipment near the northern Tigray "
-        },
-        {
-          "title": "Ethiopia: TPLF At 51 - Legacy of Transformation, Contention",
-          "url": "https://allafrica.com/stories/202602210004.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:09:44",
-          "lead": "[Addis Standard] Addis Abeba -- On 18 February, 2026, the Tigray People's Liberation Front (TPLF) marked its 51st annive"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.2,
-      "ratio": 0.9,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.3,
+      "ratio": 0.44,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -885,17 +844,9 @@
           "source": "Jeune Afrique",
           "published": "2026-02-22T12:05:04",
           "lead": "Israël est devenu fin 2025 le premier pays à reconnaître cette République autoproclamée comme « État indépendant et souv"
-        },
-        {
-          "title": "WFP warns of imminent end to food aid in Somalia without new funding",
-          "url": "http://www.africanews.com/2026/02/21/wfp-warns-of-imminent-end-to-food-aid-in-somalia-without-new-funding/",
-          "source": "Africanews",
-          "published": "2026-02-21T13:52:25",
-          "lead": "The UN's World Food Programme (WFP) warned Friday it would have to stop humanitarian assistance in Somalia by April if i"
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique"
       ]
     },
@@ -908,59 +859,69 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 1
+          "word": "Rsf",
+          "count": 2
         },
         {
           "word": "War",
           "count": 1
         },
         {
-          "word": "Rsf",
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "'Affront to humanity': Sudan slams Uganda for hosting RSF paramilitary boss",
+          "url": "https://www.bbc.com/news/articles/c20lwznegk4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-22T13:52:09",
+          "lead": "Sudan accuses Uganda of flouting international law by meeting Rapid Support Forces boss Mohamed Hamdan Dagalo."
+        },
+        {
           "title": "Uganda's Museveni holds talks with Sudan's RSF leader amid push to end war",
           "url": "http://www.africanews.com/2026/02/22/ugandas-museveni-holds-talks-with-sudans-rsf-leader-amid-push-to-end-war/",
           "source": "Africanews",
           "published": "2026-02-22T07:32:17",
           "lead": "The Ugandan president reiterated his view that sustainable peace in Sudan can only be achieved through dialogue rather t"
-        },
-        {
-          "title": "Uganda: UPDF and RDF Reinforce Bilateral Cooperation At Musanze Security Talks",
-          "url": "https://allafrica.com/stories/202602210009.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:15:25",
-          "lead": "[Nile Post] The Seventh Proximity Commanders' Meeting between the Rwanda Defence Force (RDF) 2 and 5 Divisions and the U"
         }
       ],
       "sources": [
         "Africanews",
-        "AllAfrica"
+        "BBC Africa"
       ]
     },
     "Kenya": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 5.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.18,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Côte d’Ivoire: les micro-dramas chinois, ces mini-séries qui vous rendent accros",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-c%C3%B4te-d-ivoire-les-micro-dramas-chinois-ces-mini-s%C3%A9ries-qui-vous-rendent-accros",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T13:25:37",
+          "lead": "Sexe, vengeance et loups-garous… Depuis un peu plus d’un an, ce qu'on appelle les micro-dramas - mini-séries en format v"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.3,
-      "ratio": 0.85,
+      "ratio": 0.43,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -970,18 +931,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-21T17:21:05",
           "lead": "Avec huit jours de course, la dix-huitième édition du Tour du Rwanda se déroule du 22 février au 1er mars. La course par"
-        },
-        {
-          "title": "Uganda: UPDF and RDF Reinforce Bilateral Cooperation At Musanze Security Talks",
-          "url": "https://allafrica.com/stories/202602210009.html",
-          "source": "AllAfrica",
-          "published": "2026-02-21T15:15:25",
-          "lead": "[Nile Post] The Seventh Proximity Commanders' Meeting between the Rwanda Defence Force (RDF) 2 and 5 Divisions and the U"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1110,8 +1063,8 @@
     "Zimbabwe": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.58,
+      "baseline": 1.8,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1157,16 +1110,16 @@
       "article_count": 7,
       "source_count": 4,
       "baseline": 12.0,
-      "ratio": 0.59,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Épidémie",
           "count": 1
         },
         {
-          "word": "Épidémie",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -1181,7 +1134,7 @@
           "url": "https://www.aljazeera.com/sports/liveblog/2026/2/22/live-india-vs-south-africa-t20-world-cup?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-22T10:32:10",
-          "lead": "Follow our live build-up, team news, score, toss and full text and photo stream from today&#039;s Super Eight match."
+          "lead": "Follow our live score and full text and photo stream from today&#039;s Super Eight match between India and South Africa."
         },
         {
           "title": "‘That’s a losing battle’: baboon incursions cause tense human-wildlife standoff in Cape Town",
@@ -1227,10 +1180,10 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
-        "The Guardian Africa",
         "RFI Afrique",
-        "Daily Maverick"
+        "The Guardian Africa",
+        "Daily Maverick",
+        "Al Jazeera"
       ]
     },
     "Eswatini": {
