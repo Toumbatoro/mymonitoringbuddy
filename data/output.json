@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-02-22T06:36:31.557244",
+  "generated_at": "2026-02-22T09:22:15.998728",
   "summary": {
     "high": 1,
-    "elevated": 2,
-    "normal": 24,
-    "quiet": 27
+    "elevated": 1,
+    "normal": 26,
+    "quiet": 26
   },
   "countries": {
     "Morocco": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 4.2,
+      "baseline": 4.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -20,22 +20,15 @@
       "sources": []
     },
     "Algeria": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.3,
-      "ratio": 0.85,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.4,
+      "ratio": 0.42,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Touadéra en Centrafrique, Orange en Afrique, Nuñez à Alger… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1767124/politique/touadera-en-centrafrique-orange-en-afrique-nunez-a-alger-les-5-infos-quil-ne-fallait-pas-manquer/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T08:00:00",
-          "lead": "Cette semaine, Le Brief de Jeune Afrique revient sur les dix ans au pouvoir de FAT en Centrafrique ; sur la visite du mi"
-        },
         {
           "title": "Algeria: How Algeria's Diplomatic Reset With Niger Advances Its Sahel Strategy",
           "url": "https://allafrica.com/stories/202602210003.html",
@@ -45,7 +38,6 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "AllAfrica"
       ]
     },
@@ -79,15 +71,15 @@
     "Libya": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 1.16,
+      "baseline": 2.7,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Eight bodies found in Libya, Greece as toll in the Mediterranean rises",
+          "title": "Eight bodies recovered in Libya, Greece as Mediterranean death toll rises",
           "url": "https://www.aljazeera.com/news/2026/2/22/eight-bodies-found-in-libya-and-greece-as-mediterranean-crossings-continue?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-22T05:00:52",
@@ -136,27 +128,44 @@
       ]
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 5,
       "baseline": 5.6,
-      "ratio": 0.53,
+      "ratio": 0.89,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
           "word": "War",
-          "count": 1
+          "count": 2
         },
         {
           "word": "President",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Rsf",
+          "word": "Guerre",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "President",
+          "Rsf"
+        ],
+        [
+          "President",
+          "War"
+        ],
+        [
+          "Rsf",
+          "War"
+        ]
+      ],
       "articles": [
         {
           "title": "Soudan: cinq attaques contre des structures médicales depuis le début de l'année, selon l'OMS",
@@ -166,11 +175,25 @@
           "lead": "Depuis le début de l'année 2026, cinq attaques contre des structures médicales ont déjà été recensées dans le conflit so"
         },
         {
+          "title": "Soudan : les paramilitaires revendiquent la prise d'Al-Tina, à la frontière avec le Tchad",
+          "url": "https://www.france24.com/fr/afrique/20260222-soudan-les-paramilitaires-revendiquent-la-prise-d-al-tina-%C3%A0-la-fronti%C3%A8re-avec-le-tchad",
+          "source": "France24 Afrique",
+          "published": "2026-02-22T07:01:07",
+          "lead": "Les Forces de soutien rapide (FSR), paramilitaires engagés dans une guerre contre le régime de Khartoum depuis avril 202"
+        },
+        {
           "title": "Soudan : les paramilitaires des FSR revendiquent la prise de la localité d’Al-Tina à la frontière avec le Tchad",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/22/soudan-les-paramilitaires-des-fsr-revendiquent-la-prise-de-la-localite-d-al-tina-a-la-frontiere-tchadienne_6667765_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-22T00:06:40",
           "lead": "Les Forces de soutien rapide contrôlent la quasi-totalité de la vaste région du Darfour, dans l’ouest du pays, depuis la"
+        },
+        {
+          "title": "Uganda's Museveni holds talks with Sudan's RSF leader amid push to end war",
+          "url": "http://www.africanews.com/2026/02/22/ugandas-museveni-holds-talks-with-sudans-rsf-leader-amid-push-to-end-war/",
+          "source": "Africanews",
+          "published": "2026-02-22T07:32:17",
+          "lead": "The Ugandan president reiterated his view that sustainable peace in Sudan can only be achieved through dialogue rather t"
         },
         {
           "title": "Sudan: Museveni Pushes for Dialogue to End Sudan War As He Hosts RSF Leader Gendagalo",
@@ -181,9 +204,11 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica",
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -253,11 +278,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Tué",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -317,15 +342,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Guinea-Bissau": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.24,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -346,8 +371,8 @@
     "Guinea": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 1.77,
+      "baseline": 1.8,
+      "ratio": 1.66,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -358,6 +383,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Guinée : Toumba Diakité, l’ex-bras droit de Dadis Camara qui espère encore peser",
+          "url": "https://www.jeuneafrique.com/1767763/politique/guinee-toumba-diakite-lex-bras-droit-de-dadis-camara-qui-espere-encore-peser/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T10:06:04",
+          "lead": "Le 10 février, le transfèrement de Toumba Diakité hors de la Maison centrale de Conakry a provoqué des heurts et des aff"
+        },
         {
           "title": "En Guinée, les élections législatives et locales auront lieu le 24 mai",
           "url": "https://www.jeuneafrique.com/1767976/politique/en-guinee-les-elections-legislatives-et-locales-auront-lieu-le-24-mai/",
@@ -371,13 +403,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-21T09:59:00",
           "lead": "La branche négoce du groupe helvète AOG, propriété de Jean Claude Gandur, a trouvé un accord avec Conakry pour prolonger"
-        },
-        {
-          "title": "Guinée : qui est Ibrahima Sory II Tounkara, le juge du massacre du 28-Septembre devenu garde des Sceaux",
-          "url": "https://www.jeuneafrique.com/1767465/politique/guinee-qui-est-ibrahima-sory-ii-tounkara-le-juge-du-massacre-du-28-septembre-devenu-garde-des-sceaux/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T08:58:00",
-          "lead": "Ce magistrat s’est fait un nom lors du procès du massacre du 28 septembre 2009. Il est depuis le 2 février le cinquième "
         }
       ],
       "sources": [
@@ -473,16 +498,26 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.67,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Dantokpa démantelé, le Bénin réinvente ses marchés",
+          "url": "https://www.jeuneafrique.com/1765669/societe/dantokpa-demantele-le-benin-reinvente-ses-marches/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T10:17:50",
+          "lead": "Depuis janvier, le plus grand marché du pays est progressivement vidé, rasé et ses 20 000 commerçants recensés sont en t"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Nigeria": {
       "article_count": 0,
@@ -509,13 +544,18 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.7,
-      "ratio": 0.74,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -526,6 +566,13 @@
           "lead": "Au Tchad, quatre militaires ont été tués dans la nuit du 17 au 18 février dans la province du Borkou, à l’extrême nord d"
         },
         {
+          "title": "Soudan : les paramilitaires revendiquent la prise d'Al-Tina, à la frontière avec le Tchad",
+          "url": "https://www.france24.com/fr/afrique/20260222-soudan-les-paramilitaires-revendiquent-la-prise-d-al-tina-%C3%A0-la-fronti%C3%A8re-avec-le-tchad",
+          "source": "France24 Afrique",
+          "published": "2026-02-22T07:01:07",
+          "lead": "Les Forces de soutien rapide (FSR), paramilitaires engagés dans une guerre contre le régime de Khartoum depuis avril 202"
+        },
+        {
           "title": "Soudan : les paramilitaires des FSR revendiquent la prise de la localité d’Al-Tina à la frontière avec le Tchad",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/22/soudan-les-paramilitaires-des-fsr-revendiquent-la-prise-de-la-localite-d-al-tina-a-la-frontiere-tchadienne_6667765_3212.html",
           "source": "Le Monde Afrique",
@@ -534,27 +581,21 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 1.04,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Touadéra en Centrafrique, Orange en Afrique, Nuñez à Alger… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1767124/politique/touadera-en-centrafrique-orange-en-afrique-nunez-a-alger-les-5-infos-quil-ne-fallait-pas-manquer/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T08:00:00",
-          "lead": "Cette semaine, Le Brief de Jeune Afrique revient sur les dix ans au pouvoir de FAT en Centrafrique ; sur la visite du mi"
-        },
         {
           "title": "Cameroon jails three soldiers involved in killing 21 civilians in 2020",
           "url": "http://www.africanews.com/2026/02/21/cameroon-jails-three-soldiers-involved-in-killing-21-civilians-in-2020/",
@@ -571,18 +612,17 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "AllAfrica",
         "Africanews"
       ]
     },
     "CAR": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 1.86,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.9,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Crise",
@@ -592,22 +632,14 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "L'Ouest centrafricain, une décennie après la crise: à Badoua, la jeunesse mobilisée face à l’insécurité [4/4]",
+          "title": "L'Ouest centrafricain, une décennie après la crise: à Baboua, la jeunesse mobilisée face à l’insécurité [4/4]",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260221-l-ouest-centrafricain-une-d%C3%A9cennie-apr%C3%A8s-la-crise-%C3%A0-badoua-la-jeunesse-mobilis%C3%A9e-face-%C3%A0-l-ins%C3%A9curit%C3%A9-4-4",
           "source": "RFI Afrique",
           "published": "2026-02-21T23:01:31",
           "lead": "Quatrième et dernier volet de notre série de reportages en Centrafrique dans la ville de Baboua qui se relève. Située à "
-        },
-        {
-          "title": "Touadéra en Centrafrique, Orange en Afrique, Nuñez à Alger… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1767124/politique/touadera-en-centrafrique-orange-en-afrique-nunez-a-alger-les-5-infos-quil-ne-fallait-pas-manquer/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T08:00:00",
-          "lead": "Cette semaine, Le Brief de Jeune Afrique revient sur les dix ans au pouvoir de FAT en Centrafrique ; sur la visite du mi"
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
@@ -692,7 +724,7 @@
       "article_count": 4,
       "source_count": 2,
       "baseline": 7.3,
-      "ratio": 0.54,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -821,7 +853,7 @@
       "article_count": 4,
       "source_count": 2,
       "baseline": 4.4,
-      "ratio": 0.91,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -857,8 +889,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Somalia": {
@@ -889,15 +921,35 @@
       ]
     },
     "Uganda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.41,
+      "ratio": 0.83,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Uganda's Museveni holds talks with Sudan's RSF leader amid push to end war",
+          "url": "http://www.africanews.com/2026/02/22/ugandas-museveni-holds-talks-with-sudans-rsf-leader-amid-push-to-end-war/",
+          "source": "Africanews",
+          "published": "2026-02-22T07:32:17",
+          "lead": "The Ugandan president reiterated his view that sustainable peace in Sudan can only be achieved through dialogue rather t"
+        },
         {
           "title": "Uganda: UPDF and RDF Reinforce Bilateral Cooperation At Musanze Security Talks",
           "url": "https://allafrica.com/stories/202602210009.html",
@@ -907,7 +959,8 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Kenya": {
@@ -948,8 +1001,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Burundi": {
@@ -1128,7 +1181,7 @@
     },
     "South Africa": {
       "article_count": 5,
-      "source_count": 3,
+      "source_count": 4,
       "baseline": 12.0,
       "ratio": 0.42,
       "status": "normal",
@@ -1153,6 +1206,13 @@
           "lead": "Defending champions and co-hosts India face debut-title chasing South Africa in rematch of last T20 World Cup final."
         },
         {
+          "title": "‘That’s a losing battle’: baboon incursions cause tense human-wildlife standoff in Cape Town",
+          "url": "https://www.theguardian.com/environment/2026/feb/22/baboon-population-cape-town-south-africa-animal-rights-activists",
+          "source": "The Guardian Africa",
+          "published": "2026-02-22T07:00:31",
+          "lead": "Animal rights activists disagree with authorities on how best to handle boom in primate population near Table MountainAt"
+        },
+        {
           "title": "Droits de douane: après la décision de la Cour suprême américaine, l'incertitude prévaut en Afrique du Sud",
           "url": "https://www.rfi.fr/fr/afrique/20260221-droits-de-douane-apr%C3%A8s-la-d%C3%A9cision-de-la-cour-supr%C3%AAme-am%C3%A9ricaine-l-incertitude-pr%C3%A9vaut-en-afrique-du-sud",
           "source": "RFI Afrique",
@@ -1172,19 +1232,13 @@
           "source": "Daily Maverick",
           "published": "2026-02-21T20:39:18",
           "lead": "From Dada to Gogo to Homeboy: The fight for Johannesburg just got very interesting."
-        },
-        {
-          "title": "THE WEEKEND WRAP: Dry school taps, the R1bn CEO and the soul of Leipoldt’s kitchen",
-          "url": "https://www.dailymaverick.co.za/article/from-dry-school-taps-to-the-soul-of-leipoldts-kitchen-and-the-r1bn-ceo",
-          "source": "Daily Maverick",
-          "published": "2026-02-21T07:00:00",
-          "lead": "The Weekend Wrap highlights include devastating testimony on apartheid-era justice, the global legal scandal of a Pretor"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Al Jazeera",
-        "Daily Maverick"
+        "Daily Maverick",
+        "The Guardian Africa",
+        "Al Jazeera"
       ]
     },
     "Eswatini": {
