@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-22T09:22:15.998728",
+  "generated_at": "2026-02-22T12:30:17.473937",
   "summary": {
     "high": 1,
-    "elevated": 1,
-    "normal": 26,
-    "quiet": 26
+    "elevated": 2,
+    "normal": 22,
+    "quiet": 29
   },
   "countries": {
     "Morocco": {
@@ -22,8 +22,8 @@
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.42,
+      "baseline": 2.3,
+      "ratio": 0.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -42,31 +42,16 @@
       ]
     },
     "Tunisia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.1,
-      "ratio": 0.9,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "La Tunisie à l’heure de l’immobilisme",
-          "url": "https://www.jeuneafrique.com/1766665/politique/la-tunisie-a-lheure-de-limmobilisme/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T11:59:17",
-          "lead": "Un remaniement annoncé mais qui ne vient pas, des grands projets à l’arrêt, une apparente absence de réaction face aux a"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Libya": {
       "article_count": 3,
@@ -86,61 +71,51 @@
           "lead": "Bodies of five asylum seekers wash ashore in Libya as three others die in a separate incident off the coast of Greece."
         },
         {
-          "title": "En Libye, quinze ans après la chute de Kadhafi, l’essor du modèle autoritaire du maréchal Haftar",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/22/en-libye-quinze-ans-apres-la-chute-de-kadhafi-l-essor-du-modele-autoritaire-du-marechal-haftar_6667784_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-22T06:00:19",
-          "lead": "Depuis Benghazi, capitale de facto de l’Est libyen, l’homme qui se présente comme le « sauveur » de la nation a étendu s"
-        },
-        {
           "title": "La Libye, eldorado pétrolier saigné par les malversations",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/22/la-libye-eldorado-petrolier-saigne-par-les-malversations_6667783_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-22T06:00:13",
           "lead": "Malgré des réserves de pétrole parmi les plus importantes d’Afrique, le pays souffre de graves pénuries d’essence. En ca"
+        },
+        {
+          "title": "En Libye, quinze ans après la chute de Kadhafi, le modèle autoritaire du maréchal Haftar s’est étendu dans la majorité du pays",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/22/en-libye-quinze-ans-apres-la-chute-de-kadhafi-l-essor-du-modele-autoritaire-du-marechal-haftar_6667784_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-22T06:00:08",
+          "lead": "Depuis Benghazi, capitale de facto de l’Est libyen, l’homme qui se présente comme le « sauveur » de la nation a étendu s"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Al Jazeera"
+        "Al Jazeera",
+        "Le Monde Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.63,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance",
-          "url": "https://www.aljazeera.com/news/2026/2/21/absurd-and-provocative-huckabee-faces-firestorm-for-israel-border-stance?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-21T21:31:19",
-          "lead": "Egypt, Jordan and Saudi Arabia denounce US ambassador&#039;s remarks suggesting Israel has right to much of the Middle E"
-        }
-      ],
-      "sources": [
-        "Al Jazeera"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Sudan": {
-      "article_count": 5,
-      "source_count": 5,
-      "baseline": 5.6,
-      "ratio": 0.89,
+      "article_count": 7,
+      "source_count": 6,
+      "baseline": 5.7,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Rsf",
-          "count": 2
+          "count": 3
         },
         {
-          "word": "War",
+          "word": "Guerre",
           "count": 2
         },
         {
@@ -148,7 +123,11 @@
           "count": 2
         },
         {
-          "word": "Guerre",
+          "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -179,14 +158,28 @@
           "url": "https://www.france24.com/fr/afrique/20260222-soudan-les-paramilitaires-revendiquent-la-prise-d-al-tina-%C3%A0-la-fronti%C3%A8re-avec-le-tchad",
           "source": "France24 Afrique",
           "published": "2026-02-22T07:01:07",
-          "lead": "Les Forces de soutien rapide (FSR), paramilitaires engagés dans une guerre contre le régime de Khartoum depuis avril 202"
+          "lead": "Les Forces de soutien rapide (FSR), groupe paramilitaire engagé dans une guerre contre le régime de Khartoum depuis avri"
         },
         {
-          "title": "Soudan : les paramilitaires des FSR revendiquent la prise de la localité d’Al-Tina à la frontière avec le Tchad",
+          "title": "Soudan : les paramilitaires des FSR annoncent la prise de la localité d’Al-Tina à la frontière avec le Tchad",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/22/soudan-les-paramilitaires-des-fsr-revendiquent-la-prise-de-la-localite-d-al-tina-a-la-frontiere-tchadienne_6667765_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-22T00:06:40",
           "lead": "Les Forces de soutien rapide contrôlent la quasi-totalité de la vaste région du Darfour, dans l’ouest du pays, depuis la"
+        },
+        {
+          "title": "Guerre au Soudan : les FSR d’Hemetti revendiquent la prise d’Al-Tina, à la frontière avec le Tchad",
+          "url": "https://www.jeuneafrique.com/1767993/politique/guerre-au-soudan-les-fsr-dhemetti-revendiquent-la-prise-dal-tina-a-la-frontiere-avec-le-tchad/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T11:00:13",
+          "lead": "Les Forces de soutien rapide (FSR) de Hemetti ont récemment mené plusieurs attaques près de la frontière avec le Tchad, "
+        },
+        {
+          "title": "Sudan's paramilitary RSF claims to have captured another town in Darfur region",
+          "url": "http://www.africanews.com/2026/02/22/sudans-paramilitary-rsf-claims-to-have-captured-another-town-in-darfur-region/",
+          "source": "Africanews",
+          "published": "2026-02-22T11:26:49",
+          "lead": "But several media are reporting the military and its allied Joint Forces as saying it had repelled Saturday’s attack on "
         },
         {
           "title": "Uganda's Museveni holds talks with Sudan's RSF leader amid push to end war",
@@ -204,11 +197,12 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique",
-        "AllAfrica",
+        "Africanews",
         "France24 Afrique",
-        "Africanews"
+        "Jeune Afrique",
+        "AllAfrica",
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Mauritania": {
@@ -270,22 +264,13 @@
       ]
     },
     "Senegal": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 5.7,
-      "ratio": 0.35,
+      "ratio": 0.18,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Tué",
-          "count": 1
-        },
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -294,13 +279,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-21T18:26:42",
           "lead": "Au Sénégal, l’émotion reste vive après les violences survenues à l’Université Cheikh Anta Diop de Dakar. Un étudiant, Ab"
-        },
-        {
-          "title": "Sénégal: un collectif critique les méthodes des forces de l'ordre après la mort de l'étudiant Adboulaye Ba",
-          "url": "https://www.rfi.fr/fr/afrique/20260221-s%C3%A9n%C3%A9gal-un-collectif-critique-les-m%C3%A9thodes-des-forces-de-l-ordre-apr%C3%A8s-la-mort-de-l-%C3%A9tudiant-adboulaye-ba",
-          "source": "RFI Afrique",
-          "published": "2026-02-21T09:27:03",
-          "lead": "Au Sénégal, la société civile lance un collectif contre les bavures policières. Le collectif a été créé au lendemain de "
         }
       ],
       "sources": [
@@ -369,18 +347,13 @@
       ]
     },
     "Guinea": {
-      "article_count": 3,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.8,
-      "ratio": 1.66,
-      "status": "elevated",
+      "ratio": 0.55,
+      "status": "normal",
       "confidence": "low",
-      "keywords": [
-        {
-          "word": "Élection",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -389,20 +362,6 @@
           "source": "Jeune Afrique",
           "published": "2026-02-22T10:06:04",
           "lead": "Le 10 février, le transfèrement de Toumba Diakité hors de la Maison centrale de Conakry a provoqué des heurts et des aff"
-        },
-        {
-          "title": "En Guinée, les élections législatives et locales auront lieu le 24 mai",
-          "url": "https://www.jeuneafrique.com/1767976/politique/en-guinee-les-elections-legislatives-et-locales-auront-lieu-le-24-mai/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T11:42:51",
-          "lead": "Deux mois après l’élection présidentielle en Guinée, remportée par Mamadi Doumbouya, les prochaines échéances législativ"
-        },
-        {
-          "title": "En Guinée, comment Addax a gardé la main sur l’approvisionnement en carburant",
-          "url": "https://www.jeuneafrique.com/1767812/economie-entreprises/en-guinee-comment-addax-a-garde-la-main-sur-lapprovisionnement-en-carburant/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T09:59:00",
-          "lead": "La branche négoce du groupe helvète AOG, propriété de Jean Claude Gandur, a trouvé un accord avec Conakry pour prolonger"
         }
       ],
       "sources": [
@@ -444,12 +403,12 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.11,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.66,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -459,6 +418,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-21T23:29:57",
           "lead": "L’incident est survenu dans la nuit du dimanche 8 février dernier mais n’a été révélé que ce vendredi 20 février. La com"
+        },
+        {
+          "title": "La Côte d'Ivoire à l'honneur au Salon de l'agriculture 2026",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260222-la-c%C3%B4te-d-ivoire-%C3%A0-l-honneur-au-salon-de-l-agriculture-2026",
+          "source": "France24 Afrique",
+          "published": "2026-02-22T10:40:22",
+          "lead": "La Côte d'Ivoire est l’invité d’honneur du Salon de l’Agriculture, qui a ouvert ses portes hier à Paris. L’occasion de r"
         },
         {
           "title": "Le tambour parleur officiellement restitué à la Côte d'Ivoire par la France",
@@ -501,7 +467,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 0.65,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -520,16 +486,26 @@
       ]
     },
     "Nigeria": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 8.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.11,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Pourquoi les investisseurs de la tech africaine doivent regarder au-delà du Nigeria",
+          "url": "https://www.jeuneafrique.com/1766860/economie-entreprises/pourquoi-les-investisseurs-de-la-tech-africaine-doivent-regarder-au-dela-du-nigeria/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T11:01:25",
+          "lead": "Structures financières, ambition politique et préparation à l’intelligence artificielle : la croissance sans précédent d"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Cape Verde": {
       "article_count": 0,
@@ -544,15 +520,23 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 5,
       "baseline": 2.7,
-      "ratio": 1.11,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.83,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Guerre",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -570,19 +554,35 @@
           "url": "https://www.france24.com/fr/afrique/20260222-soudan-les-paramilitaires-revendiquent-la-prise-d-al-tina-%C3%A0-la-fronti%C3%A8re-avec-le-tchad",
           "source": "France24 Afrique",
           "published": "2026-02-22T07:01:07",
-          "lead": "Les Forces de soutien rapide (FSR), paramilitaires engagés dans une guerre contre le régime de Khartoum depuis avril 202"
+          "lead": "Les Forces de soutien rapide (FSR), groupe paramilitaire engagé dans une guerre contre le régime de Khartoum depuis avri"
         },
         {
-          "title": "Soudan : les paramilitaires des FSR revendiquent la prise de la localité d’Al-Tina à la frontière avec le Tchad",
+          "title": "Soudan : les paramilitaires des FSR annoncent la prise de la localité d’Al-Tina à la frontière avec le Tchad",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/22/soudan-les-paramilitaires-des-fsr-revendiquent-la-prise-de-la-localite-d-al-tina-a-la-frontiere-tchadienne_6667765_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-22T00:06:40",
           "lead": "Les Forces de soutien rapide contrôlent la quasi-totalité de la vaste région du Darfour, dans l’ouest du pays, depuis la"
+        },
+        {
+          "title": "Guerre au Soudan : les FSR d’Hemetti revendiquent la prise d’Al-Tina, à la frontière avec le Tchad",
+          "url": "https://www.jeuneafrique.com/1767993/politique/guerre-au-soudan-les-fsr-dhemetti-revendiquent-la-prise-dal-tina-a-la-frontiere-avec-le-tchad/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T11:00:13",
+          "lead": "Les Forces de soutien rapide (FSR) de Hemetti ont récemment mené plusieurs attaques près de la frontière avec le Tchad, "
+        },
+        {
+          "title": "Sudan's paramilitary RSF claims to have captured another town in Darfur region",
+          "url": "http://www.africanews.com/2026/02/22/sudans-paramilitary-rsf-claims-to-have-captured-another-town-in-darfur-region/",
+          "source": "Africanews",
+          "published": "2026-02-22T11:26:49",
+          "lead": "But several media are reporting the military and its allied Joint Forces as saying it had repelled Saturday’s attack on "
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "France24 Afrique",
+        "Jeune Afrique",
+        "RFI Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -590,18 +590,23 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.9,
-      "ratio": 0.68,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Cameroon jails three soldiers involved in killing 21 civilians in 2020",
-          "url": "http://www.africanews.com/2026/02/21/cameroon-jails-three-soldiers-involved-in-killing-21-civilians-in-2020/",
-          "source": "Africanews",
-          "published": "2026-02-21T09:36:42",
-          "lead": "Cameroon has handed jail terms to three soldiers found guilty of involvement in the killing of 21 civilians in 2020 unre"
+          "title": "Cameroun: Roger Belinga et Gérard Ondo Ndong libérés après 20 ans de prison pour détournement de fonds",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-cameroun-roger-belinga-et-g%C3%A9rard-ondo-ndong-lib%C3%A9r%C3%A9s-apr%C3%A8s-20-ans-de-prison-pour-d%C3%A9tournement-de-fonds",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T10:30:08",
+          "lead": "Après vingt ans de détention, Gérard Ondo Ndong, ex-DG du Fonds spécial d’équipement et d’intervention intercommunale (F"
         },
         {
           "title": "Cameroon: Abuses in Cameroon After U.S. Deports Third-Country Nationals",
@@ -612,15 +617,15 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "CAR": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.9,
+      "ratio": 0.93,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -656,26 +661,16 @@
       "sources": []
     },
     "Eq. Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Le financement de la Cemac gravement compromis par les défauts de paiement de ses États membres",
-          "url": "https://www.rfi.fr/fr/afrique/20260221-le-financement-de-la-cemac-gravement-compromis-par-les-d%C3%A9fauts-de-paiement-de-ses-%C3%A9tats-membres",
-          "source": "RFI Afrique",
-          "published": "2026-02-21T11:38:55",
-          "lead": "La situation économique de la zone Cemac est toujours au cœur de l'actualité. En début de semaine, le rapport général su"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Gabon": {
       "article_count": 0,
@@ -698,11 +693,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Fighting",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -721,27 +716,27 @@
       ]
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 7.3,
-      "ratio": 0.55,
+      "ratio": 0.27,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Explosion",
-          "count": 1
-        },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Explosion",
           "count": 1
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -755,20 +750,6 @@
           "lead": "En RDC, après l'alerte du FMI sur l'explosion de la masse salariale qui dépasse plus de la moitié du budget de l'État, l"
         },
         {
-          "title": "RDC: opposants, artistes, militants et avocats dénoncent des arrestations abusives et arbitraires",
-          "url": "https://www.rfi.fr/fr/afrique/20260221-rdc-opposants-artistes-militants-et-avocats-d%C3%A9noncent-des-arrestations-abusives-et-arbitraires",
-          "source": "RFI Afrique",
-          "published": "2026-02-21T11:32:44",
-          "lead": "En République démocratique du Congo (RDC), opposants, artistes, militants et avocats dénoncent des arrestations jugées a"
-        },
-        {
-          "title": "Procès du général Philémon Yav Irung en RDC: un sms daté d'il y a quatre ans au cœur du dossier",
-          "url": "https://www.rfi.fr/fr/afrique/20260221-proc%C3%A8s-du-g%C3%A9n%C3%A9ral-phil%C3%A9mon-yav-irung-en-rdc-un-sms-dat%C3%A9-d-il-y-a-quatre-ans-au-c%C5%93ur-du-dossier",
-          "source": "RFI Afrique",
-          "published": "2026-02-21T12:55:32",
-          "lead": "En République démocratie du Congo (RDC), la Haute Cour militaire est à la recherche d’un texto qui établirait la collusi"
-        },
-        {
           "title": "Eastern DR Congo situation 'catastrophic', says visiting EU commissioner",
           "url": "http://www.africanews.com/2026/02/21/eastern-dr-congo-situation-catastrophic-says-visiting-eu-commissioner/",
           "source": "Africanews",
@@ -777,8 +758,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -794,26 +775,16 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.8,
-      "ratio": 1.18,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Cinquante ans après le rattachement de Cabinda à l’Angola, les indépendantistes n’ont pas perdu espoir",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/21/cinquante-ans-apres-le-rattachement-de-cabinda-a-l-angola-les-independantistes-n-ont-pas-perdu-espoir_6667718_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-21T12:00:09",
-          "lead": "Le Front de libération de l’enclave de Cabinda a déclaré de manière unilatérale, le 2 février, l’indépendance de l’excla"
-        }
-      ],
-      "sources": [
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eritrea": {
       "article_count": 1,
@@ -894,12 +865,12 @@
       ]
     },
     "Somalia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.2,
-      "ratio": 0.45,
+      "ratio": 0.9,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Humanitarian",
@@ -909,6 +880,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Pour séduire les États-Unis, le Somaliland leur propose ses minerais et des bases militaires",
+          "url": "https://www.jeuneafrique.com/1767999/politique/pour-seduire-les-etats-unis-le-somaliland-leur-propose-ses-minerais-et-des-bases-militaires/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T12:05:04",
+          "lead": "Israël est devenu fin 2025 le premier pays à reconnaître cette République autoproclamée comme « État indépendant et souv"
+        },
+        {
           "title": "WFP warns of imminent end to food aid in Somalia without new funding",
           "url": "http://www.africanews.com/2026/02/21/wfp-warns-of-imminent-end-to-food-aid-in-somalia-without-new-funding/",
           "source": "Africanews",
@@ -917,19 +895,20 @@
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Uganda": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 0.83,
+      "baseline": 2.5,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "President",
           "count": 1
         },
         {
@@ -937,7 +916,7 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Rsf",
           "count": 1
         }
       ],
@@ -959,8 +938,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Kenya": {
@@ -1129,16 +1108,26 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.58,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Zimbabwe roll-out of long-acting HIV prevention drug gets underway",
+          "url": "http://www.africanews.com/2026/02/22/zimbabwe-roll-out-of-long-acting-hiv-prevention-drug-gets-underway/",
+          "source": "Africanews",
+          "published": "2026-02-22T10:23:32",
+          "lead": "With clinical studies demonstrating near-total protection, lenacapavir has been described by some health officials as a "
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Namibia": {
       "article_count": 0,
@@ -1153,37 +1142,22 @@
       "sources": []
     },
     "Botswana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Botswana’s diamond-funded health system has failed: it needs to be reformed and rebuilt | Duma Gideon Boko",
-          "url": "https://www.theguardian.com/global-development/2026/feb/21/botswana-diamond-funded-healthcare-failed-reformed-rebuilt",
-          "source": "The Guardian Africa",
-          "published": "2026-02-21T12:00:11",
-          "lead": "As Botswana’s president here is my plan to renew this country’s beleaguered health system – and my vision for a stronger"
-        }
-      ],
-      "sources": [
-        "The Guardian Africa"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Africa": {
-      "article_count": 5,
+      "article_count": 7,
       "source_count": 4,
       "baseline": 12.0,
-      "ratio": 0.42,
+      "ratio": 0.59,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1194,16 +1168,20 @@
         {
           "word": "Épidémie",
           "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "India vs South Africa: T20 World Cup Super Eights – teams, start, lineups",
-          "url": "https://www.aljazeera.com/sports/2026/2/21/india-vs-south-africa-t20-world-cup-super-eights-teams-start-lineups?traffic_source=rss",
+          "title": "LIVE: India vs South Africa – T20 World Cup",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/2/22/live-india-vs-south-africa-t20-world-cup?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-21T12:53:41",
-          "lead": "Defending champions and co-hosts India face debut-title chasing South Africa in rematch of last T20 World Cup final."
+          "published": "2026-02-22T10:32:10",
+          "lead": "Follow our live build-up, team news, score, toss and full text and photo stream from today&#039;s Super Eight match."
         },
         {
           "title": "‘That’s a losing battle’: baboon incursions cause tense human-wildlife standoff in Cape Town",
@@ -1227,6 +1205,20 @@
           "lead": "En Afrique du Sud, le ministre de l'Agriculture, John Steenhuisen, a annoncé l'importation massive de plus d'un million "
         },
         {
+          "title": "BILLS OF AGGRESSION OP-ED: US political risk for South Africa persists despite Congress gridlock",
+          "url": "https://www.dailymaverick.co.za/article/us-political-risk-for-south-africa-persists-despite-congress-gridlock",
+          "source": "Daily Maverick",
+          "published": "2026-02-22T13:13:20",
+          "lead": "US extraterritorial reach is emerging as a major political risk for South Africa in 2026 and beyond, with potential to i"
+        },
+        {
+          "title": "MAJOR MOVES: States of play: US league is a viable option for South African soccer players",
+          "url": "https://www.dailymaverick.co.za/article/states-of-play-us-league-is-a-viable-option-for-south-african-soccer-players",
+          "source": "Daily Maverick",
+          "published": "2026-02-22T11:42:50",
+          "lead": "As Europe offers dry up, young players are increasingly exploring alternative leagues abroad."
+        },
+        {
           "title": "FRONTRUNNERS: As the ANC self-immolates, Zille and Mashaba seize race for Joburg’s future",
           "url": "https://www.dailymaverick.co.za/article/as-the-anc-selfimmolates-zille-and-mashaba-seize-race-for-joburgs-future",
           "source": "Daily Maverick",
@@ -1235,10 +1227,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Daily Maverick",
+        "Al Jazeera",
         "The Guardian Africa",
-        "Al Jazeera"
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
