@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-22T15:17:24.725012",
+  "generated_at": "2026-02-22T18:23:12.981702",
   "summary": {
-    "high": 1,
-    "elevated": 2,
-    "normal": 21,
+    "high": 0,
+    "elevated": 1,
+    "normal": 23,
     "quiet": 30
   },
   "countries": {
@@ -47,7 +47,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 2.7,
-      "ratio": 0.74,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -85,16 +85,24 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 7,
-      "source_count": 6,
+      "article_count": 8,
+      "source_count": 7,
       "baseline": 5.8,
-      "ratio": 1.21,
+      "ratio": 1.39,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Rsf",
-          "count": 3
+          "count": 4
+        },
+        {
+          "word": "War",
+          "count": 2
+        },
+        {
+          "word": "President",
+          "count": 2
         },
         {
           "word": "Guerre",
@@ -103,17 +111,14 @@
         {
           "word": "Attack",
           "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "President",
+          "Rsf"
+        ]
+      ],
       "articles": [
         {
           "title": "'Affront to humanity': Sudan slams Uganda for hosting RSF paramilitary boss",
@@ -121,6 +126,13 @@
           "source": "BBC Africa",
           "published": "2026-02-22T13:52:09",
           "lead": "Sudan accuses Uganda of flouting international law by meeting Rapid Support Forces boss Mohamed Hamdan Dagalo."
+        },
+        {
+          "title": "Sudan condemns RSF chief’s visit to Uganda as minimising ‘human values’",
+          "url": "https://www.aljazeera.com/news/2026/2/22/sudan-condemns-rsf-chiefs-visit-to-uganda-as-minimising-human-values?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-22T15:28:30",
+          "lead": "Uganda Ministry of Foreign Affairs says Mohamed Dagalo&#039;s meeting with President Yoweri Museveni focused on ending w"
         },
         {
           "title": "Soudan: cinq attaques contre des structures médicales depuis le début de l'année, selon l'OMS",
@@ -167,8 +179,9 @@
       ],
       "sources": [
         "France24 Afrique",
-        "BBC Africa",
         "Jeune Afrique",
+        "BBC Africa",
+        "Al Jazeera",
         "Africanews",
         "Le Monde Afrique",
         "RFI Afrique"
@@ -199,34 +212,59 @@
       "sources": []
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.41,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Le Ghana et le Burkina Faso renforcent leur coopération sécuritaire et transfrontalière",
+          "url": "https://www.jeuneafrique.com/1768006/politique/le-ghana-et-le-burkina-faso-renforcent-leur-cooperation-securitaire-et-transfrontaliere/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T16:37:44",
+          "lead": "L’annonce survient quelques jours après une attaque jihadiste dans le nord du Burkina Faso ayant fait plusieurs victimes"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.24,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Niger: découverte d’un nouveau type de dinosaure Spinosaurus qui vivait il y a 95 millions d’années",
+          "url": "https://www.rfi.fr/fr/afrique/20260222-niger-d%C3%A9couverte-d-un-nouveau-type-de-dinosaure-spinosaurus-qui-vivait-il-y-a-95-millions-d-ann%C3%A9es",
+          "source": "RFI Afrique",
+          "published": "2026-02-22T17:30:15",
+          "lead": "C’est une découverte venue du Niger. Un nouveau type de dinosaure spinosaurus a été mis au jour, dans le désert nigérien"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Senegal": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 5.6,
-      "ratio": 0.36,
+      "baseline": 5.7,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -252,19 +290,15 @@
       ]
     },
     "Gambia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "high",
-      "confidence": "medium",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
           "count": 1
         }
       ],
@@ -276,41 +310,23 @@
           "source": "RFI Afrique",
           "published": "2026-02-22T05:15:31",
           "lead": "En Gambie, le gouvernement se dit « profondément inquiet » face à des ressortissants partis combattre à l’étranger, avec"
-        },
-        {
-          "title": "La Gambie s’inquiète pour ses ressortissants partis combattre à l’étranger",
-          "url": "https://www.jeuneafrique.com/1767984/politique/la-gambie-sinquiete-pour-ses-ressortissants-partis-combattre-a-letranger/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T17:14:47",
-          "lead": "La Gambie a exprimé, vendredi 20 février, sa « profonde inquiétude » concernant ses ressortissants qui partent à l’étran"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Guinea-Bissau": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.8,
-      "ratio": 1.18,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Dans les archives de Jeune Afrique : Guinée-Bissau, la naissance d’un État",
-          "url": "https://www.jeuneafrique.com/1758673/politique/dans-les-archives-de-jeune-afrique-guinee-bissau-la-naissance-dun-etat/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-21T17:00:06",
-          "lead": "À Boé, en 1973, un mouvement de libération, le PAIGC, proclamait unilatéralement l’indépendance de la Guinée-Bissau, en "
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Guinea": {
       "article_count": 1,
@@ -369,12 +385,12 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.62,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.08,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -391,13 +407,6 @@
           "source": "France24 Afrique",
           "published": "2026-02-22T10:40:22",
           "lead": "La Côte d'Ivoire est l’invité d’honneur du Salon de l’Agriculture, qui a ouvert ses portes hier à Paris. L’occasion de r"
-        },
-        {
-          "title": "Le tambour parleur officiellement restitué à la Côte d'Ivoire par la France",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260221-le-tambour-parleur-officiellement-restitu%C3%A9-%C3%A0-la-c%C3%B4te-d-ivoire-par-la-france",
-          "source": "France24 Afrique",
-          "published": "2026-02-21T15:30:03",
-          "lead": "La France a restitué à la Côté d'Ivoire le tambour parlant Djidji Ayôkwé, un objet sacré qui avait été saisi en 1916 par"
         }
       ],
       "sources": [
@@ -406,16 +415,43 @@
       ]
     },
     "Ghana": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.7,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ghana takes transatlantic slavery case to UN",
+          "url": "https://www.dw.com/en/ghana-takes-transatlantic-slavery-case-to-un/a-76042626?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-02-22T17:34:00",
+          "lead": "Ghana's President Mahama has received the African Union's backing in pushing the United Nations to recognize transatlant"
+        },
+        {
+          "title": "Le Ghana et le Burkina Faso renforcent leur coopération sécuritaire et transfrontalière",
+          "url": "https://www.jeuneafrique.com/1768006/politique/le-ghana-et-le-burkina-faso-renforcent-leur-cooperation-securitaire-et-transfrontaliere/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-22T16:37:44",
+          "lead": "L’annonce survient quelques jours après une attaque jihadiste dans le nord du Burkina Faso ayant fait plusieurs victimes"
+        }
+      ],
+      "sources": [
+        "DW Africa",
+        "Jeune Afrique"
+      ]
     },
     "Togo": {
       "article_count": 0,
@@ -454,7 +490,7 @@
     "Nigeria": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 8.8,
+      "baseline": 8.9,
       "ratio": 0.34,
       "status": "normal",
       "confidence": "normal",
@@ -489,9 +525,9 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "RFI Afrique",
-        "Jeune Afrique",
-        "Al Jazeera"
+        "Jeune Afrique"
       ]
     },
     "Cape Verde": {
@@ -519,11 +555,11 @@
           "count": 2
         },
         {
-          "word": "Rsf",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Rsf",
           "count": 1
         }
       ],
@@ -671,58 +707,31 @@
       "sources": []
     },
     "Congo": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.5,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "DRC": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.67,
+      "baseline": 7.2,
+      "ratio": 0.14,
       "status": "normal",
       "confidence": "low",
       "keywords": [
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Eastern DR Congo situation 'catastrophic', says visiting EU commissioner",
-          "url": "http://www.africanews.com/2026/02/21/eastern-dr-congo-situation-catastrophic-says-visiting-eu-commissioner/",
-          "source": "Africanews",
-          "published": "2026-02-21T15:38:35",
-          "lead": "EU Commissioner Hadja Lahbib visited Goma in eastern Democratic Republic of Congo as part of a regional tour urging resp"
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
-    },
-    "DRC": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 7.2,
-      "ratio": 0.28,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
         {
           "word": "Explosion",
           "count": 1
         },
         {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -734,18 +743,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-22T02:18:19",
           "lead": "En RDC, après l'alerte du FMI sur l'explosion de la masse salariale qui dépasse plus de la moitié du budget de l'État, l"
-        },
-        {
-          "title": "Eastern DR Congo situation 'catastrophic', says visiting EU commissioner",
-          "url": "http://www.africanews.com/2026/02/21/eastern-dr-congo-situation-catastrophic-says-visiting-eu-commissioner/",
-          "source": "Africanews",
-          "published": "2026-02-21T15:38:35",
-          "lead": "EU Commissioner Hadja Lahbib visited Goma in eastern Democratic Republic of Congo as part of a regional tour urging resp"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -764,7 +765,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.24,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -809,7 +810,7 @@
     "Ethiopia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 4.4,
+      "baseline": 4.3,
       "ratio": 0.23,
       "status": "normal",
       "confidence": "low",
@@ -831,8 +832,8 @@
     "Somalia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.44,
+      "baseline": 2.2,
+      "ratio": 0.45,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -851,27 +852,32 @@
       ]
     },
     "Uganda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Rsf",
-          "count": 2
+          "count": 3
         },
         {
           "word": "War",
-          "count": 1
+          "count": 2
         },
         {
           "word": "President",
-          "count": 1
+          "count": 2
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "President",
+          "Rsf"
+        ]
+      ],
       "articles": [
         {
           "title": "'Affront to humanity': Sudan slams Uganda for hosting RSF paramilitary boss",
@@ -879,6 +885,13 @@
           "source": "BBC Africa",
           "published": "2026-02-22T13:52:09",
           "lead": "Sudan accuses Uganda of flouting international law by meeting Rapid Support Forces boss Mohamed Hamdan Dagalo."
+        },
+        {
+          "title": "Sudan condemns RSF chief’s visit to Uganda as minimising ‘human values’",
+          "url": "https://www.aljazeera.com/news/2026/2/22/sudan-condemns-rsf-chiefs-visit-to-uganda-as-minimising-human-values?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-22T15:28:30",
+          "lead": "Uganda Ministry of Foreign Affairs says Mohamed Dagalo&#039;s meeting with President Yoweri Museveni focused on ending w"
         },
         {
           "title": "Uganda's Museveni holds talks with Sudan's RSF leader amid push to end war",
@@ -889,8 +902,9 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "BBC Africa"
+        "BBC Africa",
+        "Al Jazeera",
+        "Africanews"
       ]
     },
     "Kenya": {
@@ -916,26 +930,16 @@
       ]
     },
     "Rwanda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.3,
-      "ratio": 0.43,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Étapes, nouveautés, équipes... Le Tour du Rwanda s'élance pour une nouvelle édition",
-          "url": "https://www.rfi.fr/fr/sports/20260221-%C3%A9tapes-nouveaut%C3%A9s-%C3%A9quipes-le-tour-du-rwanda-s-%C3%A9lance-pour-une-nouvelle-%C3%A9dition",
-          "source": "RFI Afrique",
-          "published": "2026-02-21T17:21:05",
-          "lead": "Avec huit jours de course, la dix-huitième édition du Tour du Rwanda se déroule du 22 février au 1er mars. La course par"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Burundi": {
       "article_count": 0,
@@ -1107,19 +1111,15 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 4,
       "baseline": 12.0,
-      "ratio": 0.58,
+      "ratio": 0.66,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Épidémie",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -1130,11 +1130,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "LIVE: India vs South Africa – T20 World Cup",
+          "title": "LIVE: South Africa beat Inida by 76 runs – T20 World Cup",
           "url": "https://www.aljazeera.com/sports/liveblog/2026/2/22/live-india-vs-south-africa-t20-world-cup?traffic_source=rss",
           "source": "Al Jazeera",
           "published": "2026-02-22T10:32:10",
-          "lead": "Follow our live score and full text and photo stream from today&#039;s Super Eight match between India and South Africa."
+          "lead": "All our updates as the hosts lose their first match of the Super Eight stage in Ahmedabad on Sunday."
         },
         {
           "title": "‘That’s a losing battle’: baboon incursions cause tense human-wildlife standoff in Cape Town",
@@ -1151,11 +1151,18 @@
           "lead": "Vendredi 20 février, la Cour suprême américaine a jugé illégale une partie des droits de douane imposés par Donald Trump"
         },
         {
-          "title": "Afrique du Sud: importation massive de vaccins pour lutter contre l’épidémie de fièvre aphteuse",
-          "url": "https://www.rfi.fr/fr/afrique/20260221-afrique-du-sud-importation-massive-de-vaccins-pour-lutter-contre-l-%C3%A9pid%C3%A9mie-de-fi%C3%A8vre-aphteuse",
-          "source": "RFI Afrique",
-          "published": "2026-02-21T17:40:30",
-          "lead": "En Afrique du Sud, le ministre de l'Agriculture, John Steenhuisen, a annoncé l'importation massive de plus d'un million "
+          "title": "SILENT PANDEMIC OP-ED: Slow violence against children: The invisible toll of chronic pesticide exposure",
+          "url": "https://www.dailymaverick.co.za/article/slow-violence-against-children-the-invisible-toll-of-chronic-pesticide-exposure",
+          "source": "Daily Maverick",
+          "published": "2026-02-22T18:20:47",
+          "lead": "Chronic pesticide exposure is a ‘silent pandemic’ of neurodevelopmental harm in South Africa. The current regulatory sys"
+        },
+        {
+          "title": "CIVIC SAFETY NET: Joburg’s ward committees have collapsed — residents forced to govern themselves",
+          "url": "https://www.dailymaverick.co.za/article/joburgs-ward-committees-have-collapsed-residents-forced-to-govern-themselves",
+          "source": "Daily Maverick",
+          "published": "2026-02-22T17:36:27",
+          "lead": "Residents’ committees have replaced ward committees in Johannesburg, deepening inequality."
         },
         {
           "title": "BILLS OF AGGRESSION OP-ED: US political risk for South Africa persists despite Congress gridlock",
@@ -1180,10 +1187,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Al Jazeera",
         "The Guardian Africa",
-        "Daily Maverick",
-        "Al Jazeera"
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
