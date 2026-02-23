@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-23T12:42:18.627002",
+  "generated_at": "2026-02-23T15:38:30.983565",
   "summary": {
-    "high": 2,
-    "elevated": 4,
-    "normal": 28,
-    "quiet": 20
+    "high": 7,
+    "elevated": 5,
+    "normal": 26,
+    "quiet": 16
   },
   "countries": {
     "Morocco": {
       "article_count": 5,
       "source_count": 3,
-      "baseline": 4.0,
-      "ratio": 1.24,
+      "baseline": 4.1,
+      "ratio": 1.21,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -59,16 +59,16 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
+        "Africanews",
         "RFI Afrique"
       ]
     },
     "Algeria": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 1.31,
+      "baseline": 2.4,
+      "ratio": 1.27,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -97,8 +97,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
+        "Africanews",
         "RFI Afrique"
       ]
     },
@@ -115,13 +115,18 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.6,
-      "ratio": 0.39,
+      "ratio": 0.77,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -130,34 +135,61 @@
           "source": "Africanews",
           "published": "2026-02-23T08:02:04",
           "lead": "Fifteen years after the fall of longtime leader Muammar Gaddafi, Libyans have little to celebrate this Ramadan as the co"
+        },
+        {
+          "title": "Sudan Situation: Sudanese Refugees and Asylum-Seekers in Libya (As of January 2026)",
+          "url": "https://reliefweb.int/report/libya/sudan-situation-sudanese-refugees-and-asylum-seekers-libya-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T11:03:24",
+          "lead": "Country: Libya\n                                      Source: UN High Commissioner for Refugees\n                         "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Africanews"
       ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Sudan": {
-      "article_count": 8,
-      "source_count": 6,
-      "baseline": 5.8,
-      "ratio": 1.38,
+      "ratio": 0.68,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Sudan Situation: Sudanese Refugees and Asylum-Seekers in Libya (As of January 2026)",
+          "url": "https://reliefweb.int/report/libya/sudan-situation-sudanese-refugees-and-asylum-seekers-libya-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T11:03:24",
+          "lead": "Country: Libya\n                                      Source: UN High Commissioner for Refugees\n                         "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Sudan": {
+      "article_count": 15,
+      "source_count": 8,
+      "baseline": 5.9,
+      "ratio": 2.56,
+      "status": "high",
+      "confidence": "high",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 5
+        },
+        {
+          "word": "Government",
           "count": 2
         },
         {
@@ -165,15 +197,19 @@
           "count": 2
         },
         {
-          "word": "Guerre",
-          "count": 1
+          "word": "Déplacés",
+          "count": 2
         },
         {
           "word": "Humanitaire",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Déplacés",
+          "word": "Réfugiés",
+          "count": 2
+        },
+        {
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -184,11 +220,18 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "'Affront to humanity': Sudan slams Uganda for hosting RSF paramilitary boss",
-          "url": "https://www.bbc.com/news/articles/c20lwznegk4o?at_medium=RSS&at_campaign=rss",
+          "title": "Chad shuts border with Sudan in bid to stop conflict spreading",
+          "url": "https://www.bbc.com/news/articles/cm2x1n95z5vo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-02-22T13:52:09",
-          "lead": "Sudan accuses Uganda of flouting international law by meeting Rapid Support Forces boss Mohamed Hamdan Dagalo."
+          "published": "2026-02-23T14:01:53",
+          "lead": "A Chadian government spokesperson says the decision is aimed at protecting citizens."
+        },
+        {
+          "title": "Chad shuts border with Sudan after cross-border incursion kills its troops",
+          "url": "https://www.aljazeera.com/news/2026/2/23/chad-shuts-border-with-sudan-after-clashes-from-conflict-kills-five-troops?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-23T13:15:07",
+          "lead": "Chad says the border will remain  closed until further  notice, citing repeated violations by Sudan&#039;s warring sides"
         },
         {
           "title": "Soudan: le gouverneur du Darfour, Minni Arko Minnawi, plaide pour la fin de la guerre et dénonce les interventions étrangères",
@@ -238,22 +281,45 @@
           "source": "Daily Maverick",
           "published": "2026-02-23T11:31:25",
           "lead": "Human rights are under assault worldwide, the United Nations chief warned on Monday, citing widespread abuses of interna"
+        },
+        {
+          "title": "Sudan - WFP Sudan Market Monitor - February 2026",
+          "url": "https://reliefweb.int/report/sudan/sudan-wfp-sudan-market-monitor-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T13:10:09",
+          "lead": "Country: Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n                  "
+        },
+        {
+          "title": "Tchad: Urgence Soudan | Bureau de coordination du HCR à l’est du Tchad - Tableau de bord de la relocalisation (22 Fév. 2026)",
+          "url": "https://reliefweb.int/report/chad/tchad-urgence-soudan-bureau-de-coordination-du-hcr-lest-du-tchad-tableau-de-bord-de-la-relocalisation-22-fev-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T12:03:22",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "CORE Emergency situation in Chad: Update on arrivals from Sudan (22 Feb. 2026)",
+          "url": "https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-22-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T12:03:19",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
-        "Daily Maverick",
         "Le Monde Afrique",
         "BBC Africa",
-        "Jeune Afrique"
+        "AllAfrica",
+        "Al Jazeera",
+        "RFI Afrique",
+        "Jeune Afrique",
+        "ReliefWeb",
+        "Daily Maverick"
       ]
     },
     "Mauritania": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 0.5,
-      "ratio": 6.0,
+      "baseline": 0.6,
+      "ratio": 5.4,
       "status": "high",
       "confidence": "medium",
       "keywords": [],
@@ -282,8 +348,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
+        "Africanews",
         "RFI Afrique"
       ]
     },
@@ -354,22 +420,53 @@
       ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.25,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Terrorist",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "WFP Niger Country Brief, February 2026",
+          "url": "https://reliefweb.int/report/niger/wfp-niger-country-brief-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T13:11:59",
+          "lead": "Country: Niger\n                                      Source: World Food Programme\n                                      "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Senegal": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 5.5,
-      "ratio": 0.36,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -397,9 +494,17 @@
           "source": "RFI Afrique",
           "published": "2026-02-22T23:09:05",
           "lead": "L’est du Sénégal face au risque d’une contagion jihadiste : premier volet de notre série de reportages. Depuis septembre"
+        },
+        {
+          "title": "Senegal: Sahad Sarr releases new album",
+          "url": "http://www.africanews.com/2026/02/23/senegal-sahad-sarr-releases-new-album/",
+          "source": "Africanews",
+          "published": "2026-02-23T14:17:17",
+          "lead": "Senegalese musician Sahad Sarr's sound has been a decade in the making, and he is now showcasing it on his new album Afr"
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique"
       ]
     },
@@ -482,7 +587,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.55,
+      "ratio": 0.56,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -540,32 +645,22 @@
       ]
     },
     "Togo": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.42,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "La Chine premier partenaire commercial du Togo",
-          "url": "https://www.rfi.fr/fr/afrique/20260222-la-chine-premier-partenaire-commercial-du-togo",
-          "source": "RFI Afrique",
-          "published": "2026-02-22T21:10:18",
-          "lead": "Au Togo, la Chine confirme plus que jamais son statut de partenaire commercial incontournable. Au troisième trimestre 20"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Benin": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.64,
+      "baseline": 1.5,
+      "ratio": 0.66,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -584,13 +679,21 @@
       ]
     },
     "Nigeria": {
-      "article_count": 6,
-      "source_count": 1,
-      "baseline": 8.9,
-      "ratio": 0.68,
+      "article_count": 8,
+      "source_count": 3,
+      "baseline": 8.8,
+      "ratio": 0.91,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Boko haram",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
         {
           "word": "Minister",
           "count": 1
@@ -600,16 +703,26 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Au Nigeria, des écoliers libérés contre une « énorme » rançon aux jihadistes de Boko Haram",
+          "url": "https://www.jeuneafrique.com/1768188/politique/au-nigeria-des-ecoliers-liberes-contre-une-enorme-rancon-aux-jihadistes-de-boko-haram/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-23T15:33:20",
+          "lead": "Plusieurs millions de dollars auraient été versés en échange de la libération de près de 230 enfants enlevés en novembre"
+        },
+        {
+          "title": "Nigeria paid Boko Haram ransom for kidnapped pupils: AFP investigation",
+          "url": "http://www.africanews.com/2026/02/23/nigeria-paid-boko-haram-ransom-for-kidnapped-pupils-afp-investigation/",
+          "source": "Africanews",
+          "published": "2026-02-23T14:40:17",
+          "lead": "The Nigerian government paid Boko Haram militants a \"huge\" ransom of millions of dollars to free up to 230 children and "
+        },
         {
           "title": "Nigeria: 'It's Unconstitutional', SERAP Asks Tinubu to Stop Phone Tapping Rules",
           "url": "https://allafrica.com/stories/202602230028.html",
@@ -654,6 +767,8 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
+        "Africanews",
         "AllAfrica"
       ]
     },
@@ -670,24 +785,62 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 11,
+      "source_count": 6,
       "baseline": 2.8,
-      "ratio": 1.07,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 3.91,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Refugees",
+          "count": 5
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Réfugiés",
+          "count": 2
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
         {
           "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Chad shuts border with Sudan in bid to stop conflict spreading",
+          "url": "https://www.bbc.com/news/articles/cm2x1n95z5vo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-23T14:01:53",
+          "lead": "A Chadian government spokesperson says the decision is aimed at protecting citizens."
+        },
+        {
+          "title": "Chad shuts border with Sudan after cross-border incursion kills its troops",
+          "url": "https://www.aljazeera.com/news/2026/2/23/chad-shuts-border-with-sudan-after-clashes-from-conflict-kills-five-troops?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-23T13:15:07",
+          "lead": "Chad says the border will remain  closed until further  notice, citing repeated violations by Sudan&#039;s warring sides"
+        },
         {
           "title": "Le Tchad ferme sa frontière avec le Soudan à cause d’« incursions répétées »",
           "url": "https://www.lemonde.fr/international/article/2026/02/23/le-tchad-ferme-sa-frontiere-avec-le-soudan-a-cause-d-incursions-repetees_6667907_3210.html",
@@ -708,12 +861,57 @@
           "source": "AllAfrica",
           "published": "2026-02-23T04:51:25",
           "lead": "[Dabanga] El Tina -- The Joint Forces, allied with the Sudanese Armed Forces (SAF), say they have repelled what they des"
+        },
+        {
+          "title": "Tchad: Urgence Soudan | Bureau de coordination du HCR à l’est du Tchad - Tableau de bord de la relocalisation (22 Fév. 2026)",
+          "url": "https://reliefweb.int/report/chad/tchad-urgence-soudan-bureau-de-coordination-du-hcr-lest-du-tchad-tableau-de-bord-de-la-relocalisation-22-fev-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T12:03:22",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "CORE Emergency situation in Chad: Update on arrivals from Sudan (22 Feb. 2026)",
+          "url": "https://reliefweb.int/report/chad/core-emergency-situation-chad-update-arrivals-sudan-22-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T12:03:19",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "CORE Situation d'urgence au Tchad : Mise à jour des arrivées du Soudan (22 Fév. 2026)",
+          "url": "https://reliefweb.int/report/chad/core-situation-durgence-au-tchad-mise-jour-des-arrivees-du-soudan-22-fev-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T12:03:17",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "Situation d'urgence au Tchad : Mise à jour des arrivées du Soudan (22 Fév. 2026)",
+          "url": "https://reliefweb.int/report/chad/situation-durgence-au-tchad-mise-jour-des-arrivees-du-soudan-22-fev-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T12:03:13",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "Sudan Situation: Sudanese Refugees and Asylum-Seekers in Libya (As of January 2026)",
+          "url": "https://reliefweb.int/report/libya/sudan-situation-sudanese-refugees-and-asylum-seekers-libya-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T11:03:24",
+          "lead": "Country: Libya\n                                      Source: UN High Commissioner for Refugees\n                         "
+        },
+        {
+          "title": "Chad: Présence opérationnelle des acteurs - Cluster Santé",
+          "url": "https://reliefweb.int/report/chad/presence-operationnelle-des-acteurs-cluster-sante",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T08:36:36",
+          "lead": "Country: Chad\n                                      Sources: Health Cluster, World Health Organization\n                 "
         }
       ],
       "sources": [
+        "Le Monde Afrique",
+        "BBC Africa",
         "AllAfrica",
+        "Al Jazeera",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
@@ -761,8 +959,8 @@
     "CAR": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 0.96,
+      "baseline": 1.1,
+      "ratio": 0.93,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -794,15 +992,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
           "word": "Déplacés",
           "count": 1
         },
         {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -855,27 +1053,58 @@
       ]
     },
     "Congo": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "DRC": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 7.1,
-      "ratio": 0.84,
+      "ratio": 0.71,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "M23",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Key DRC-Burundi border reopens after two-month closure",
+          "url": "http://www.africanews.com/2026/02/23/key-drc-burundi-border-reopens-after-two-month-closure/",
+          "source": "Africanews",
+          "published": "2026-02-23T12:49:15",
+          "lead": "A vital border crossing between the Democratic Republic of Congo and Burundi reopened Monday, more than two months after"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
+    },
+    "DRC": {
+      "article_count": 14,
+      "source_count": 5,
+      "baseline": 7.2,
+      "ratio": 1.95,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "M23",
+          "count": 6
+        },
+        {
+          "word": "Crise",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Humanitaire",
+          "count": 2
+        },
+        {
+          "word": "Violence",
           "count": 2
         },
         {
@@ -889,26 +1118,17 @@
         {
           "word": "Président",
           "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La frontière entre Uvira et Bujumbura rouvre après presque deux mois de fermeture",
+          "url": "https://www.rfi.fr/fr/afrique/20260223-la-fronti%C3%A8re-entre-uvira%E2%80%93bujumbura-rouvre-apr%C3%A8s-presque-deux-mois-de-fermeture",
+          "source": "RFI Afrique",
+          "published": "2026-02-23T12:54:40",
+          "lead": "La frontière entre Uvira et Bujumbura a rouvert ce lundi 23 février dans la matinée, après presque deux mois de fermetur"
+        },
         {
           "title": "RDC: quand la guerre aggrave l’épidémie de choléra au Sud-Kivu",
           "url": "https://www.rfi.fr/fr/afrique/20260223-rdc-quand-la-guerre-aggrave-l-%C3%A9pid%C3%A9mie-de-chol%C3%A9ra-au-sud-kivu",
@@ -931,6 +1151,13 @@
           "lead": "Pour sa transition énergétique, le monde a besoin de minerais présents en masse dans les sols riches du continent africa"
         },
         {
+          "title": "Réouverture de la frontière entre RD Congo et Burundi, vitale pour l'économie régionale",
+          "url": "https://www.france24.com/fr/afrique/20260223-r%C3%A9ouverture-de-la-fronti%C3%A8re-entre-rd-congo-et-burundi-vitale-pour-l-%C3%A9conomie-r%C3%A9gionale",
+          "source": "France24 Afrique",
+          "published": "2026-02-23T12:47:38",
+          "lead": "Après plus de deux mois de fermeture causée par une offensive du groupe politico-militaire AFC/M23 sur la cité stratégiq"
+        },
+        {
           "title": "RDC : Jean-Marc Kabund réclame un dialogue inclusif et critique Tshisekedi",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260222-rdc-jean-marc-kabund-r%C3%A9clame-un-dialogue-inclusif-et-critique-tshisekedi",
           "source": "France24 Afrique",
@@ -945,18 +1172,47 @@
           "lead": "Après plus de deux mois de fermeture, le poste-frontière de Kavimvira, situé entre Bujumbura et Uvira, a rouvert ce lund"
         },
         {
+          "title": "Key DRC-Burundi border reopens after two-month closure",
+          "url": "http://www.africanews.com/2026/02/23/key-drc-burundi-border-reopens-after-two-month-closure/",
+          "source": "Africanews",
+          "published": "2026-02-23T12:49:15",
+          "lead": "A vital border crossing between the Democratic Republic of Congo and Burundi reopened Monday, more than two months after"
+        },
+        {
           "title": "Fighting resumes in eastern DRC in violation of ceasefire deal",
           "url": "http://www.africanews.com/2026/02/23/fighting-resumes-in-eastern-drc-in-violation-of-ceasefire-deal/",
           "source": "Africanews",
           "published": "2026-02-23T06:01:37",
           "lead": "Fighting between the Congolese army and the paramilitary AFC-M23 has resumed in eastern DRC, despite the ceasefire propo"
+        },
+        {
+          "title": "Democratic Republic of the Congo - Floods (IFRC, METTELSAT) (ECHO Daily Flash of 23 February 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-floods-ifrc-mettelsat-echo-daily-flash-23-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T11:29:14",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: European Commission's Directorat"
+        },
+        {
+          "title": "DR Congo: Équipe d’Analyse des Crises - RD Congo : Rapport mensuel de déplacement, janvier 2026",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/equipe-danalyse-des-crises-rd-congo-rapport-mensuel-de-deplacement-janvier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T08:07:28",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: Mercy Corps\n                    "
+        },
+        {
+          "title": "Crisis Analysis - DR Congo: Monthly Displacement Report, January 2026",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/crisis-analysis-dr-congo-monthly-displacement-report-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T08:03:41",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: Mercy Corps\n                    "
         }
       ],
       "sources": [
         "France24 Afrique",
-        "Africanews",
+        "RFI Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "ReliefWeb",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -984,15 +1240,15 @@
           "count": 1
         },
         {
-          "word": "M23",
-          "count": 1
-        },
-        {
           "word": "Ceasefire",
           "count": 1
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "M23",
           "count": 1
         },
         {
@@ -1018,18 +1274,22 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "Africanews"
+        "Africanews",
+        "Daily Maverick"
       ]
     },
     "Eritrea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.42,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.84,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
         {
           "word": "Violence",
           "count": 1
@@ -1042,6 +1302,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Plus de 3 000 réfugiés érythréens détenus en Egypte, selon une ONG, qui dénonce des cas de torture et de violences sexuelles",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/23/plus-de-3-000-refugies-erythreens-detenus-en-egypte-selon-une-ong-qui-denonce-des-cas-de-torture-et-de-violences-sexuelles_6667934_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-23T14:52:23",
+          "lead": "Human Rights Concern Eritrea a exhorté l’ONU à « intervenir immédiatement pour empêcher les expulsions » et l’Egypte à «"
+        },
+        {
           "title": "Eritrea: Widening Rift Between Eritrea and Ethiopia Sparks Fear of New Conflict",
           "url": "https://allafrica.com/stories/202602230020.html",
           "source": "AllAfrica",
@@ -1050,7 +1317,8 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Le Monde Afrique"
       ]
     },
     "Djibouti": {
@@ -1108,12 +1376,12 @@
       ]
     },
     "Somalia": {
-      "article_count": 4,
-      "source_count": 1,
+      "article_count": 5,
+      "source_count": 2,
       "baseline": 2.3,
-      "ratio": 1.71,
+      "ratio": 2.18,
       "status": "elevated",
-      "confidence": "low",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
@@ -1129,6 +1397,22 @@
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1161,34 +1445,30 @@
           "source": "AllAfrica",
           "published": "2026-02-23T05:27:07",
           "lead": "[Shabelle] Mogadishu, Somalia -- Talks between Somalia's federal government and the opposition-aligned Somali Future Cou"
+        },
+        {
+          "title": "UNHCR Somalia Protection and Solutions Monitoring Network Flash Alert 6 | Feb 2026 - Severe Drought Displaces over 5,500 Individuals in Banadir Region",
+          "url": "https://reliefweb.int/report/somalia/unhcr-somalia-protection-and-solutions-monitoring-network-flash-alert-6-feb-2026-severe-drought-displaces-over-5500-individuals-banadir-region",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T11:03:21",
+          "lead": "Country: Somalia\n                                      Source: UN High Commissioner for Refugees\n                       "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Uganda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 0.4,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Rsf",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "'Affront to humanity': Sudan slams Uganda for hosting RSF paramilitary boss",
-          "url": "https://www.bbc.com/news/articles/c20lwznegk4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-22T13:52:09",
-          "lead": "Sudan accuses Uganda of flouting international law by meeting Rapid Support Forces boss Mohamed Hamdan Dagalo."
-        },
         {
           "title": "Uganda: Govt Issues Weather Advisory to Help Farmers Navigate Seasonal Changes",
           "url": "https://allafrica.com/stories/202602230066.html",
@@ -1198,15 +1478,14 @@
         }
       ],
       "sources": [
-        "BBC Africa",
         "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 6,
-      "source_count": 2,
-      "baseline": 5.5,
-      "ratio": 1.09,
+      "article_count": 8,
+      "source_count": 3,
+      "baseline": 5.6,
+      "ratio": 1.44,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1215,7 +1494,27 @@
           "count": 3
         },
         {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
           "word": "Protest",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1262,28 +1561,43 @@
           "source": "AllAfrica",
           "published": "2026-02-23T05:24:55",
           "lead": "[Capital FM] Nairobi -- Nairobi County has unveiled plans to tighten control of the alcohol sector through a sweeping le"
+        },
+        {
+          "title": "Mozambique: More than 230,000 children out of school as worst flooding in decades hits schools– Save the Children",
+          "url": "https://reliefweb.int/report/mozambique/more-230000-children-out-school-worst-flooding-decades-hits-schools-save-children",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T14:05:32",
+          "lead": "Country: Mozambique\n                                      Source: Save the Children\n                                    "
+        },
+        {
+          "title": "Kenya: Drought Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/kenya/kenya-drought-snapshot-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T01:44:36",
+          "lead": "Country: Kenya\n                                      Source: REACH Initiative\n                                          "
         }
       ],
       "sources": [
         "AllAfrica",
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 3,
       "baseline": 2.4,
-      "ratio": 2.53,
+      "ratio": 2.91,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Government",
+          "word": "M23",
           "count": 2
         },
         {
-          "word": "M23",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
           "word": "Killed",
@@ -1305,6 +1619,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-23T03:11:44",
           "lead": "Dans l’Est de la République démocratique du Congo (RDC), de violents combats se sont poursuivis tout au long du week-end"
+        },
+        {
+          "title": "Key DRC-Burundi border reopens after two-month closure",
+          "url": "http://www.africanews.com/2026/02/23/key-drc-burundi-border-reopens-after-two-month-closure/",
+          "source": "Africanews",
+          "published": "2026-02-23T12:49:15",
+          "lead": "A vital border crossing between the Democratic Republic of Congo and Burundi reopened Monday, more than two months after"
         },
         {
           "title": "Tour du Rwanda hit by tragedy as two spectators killed in road accident on first day",
@@ -1336,31 +1657,60 @@
         }
       ],
       "sources": [
-        "Africanews",
         "AllAfrica",
+        "Africanews",
         "RFI Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 0.9,
-      "ratio": 1.12,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 4.32,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "M23",
+          "count": 2
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La frontière entre Uvira et Bujumbura rouvre après presque deux mois de fermeture",
+          "url": "https://www.rfi.fr/fr/afrique/20260223-la-fronti%C3%A8re-entre-uvira%E2%80%93bujumbura-rouvre-apr%C3%A8s-presque-deux-mois-de-fermeture",
+          "source": "RFI Afrique",
+          "published": "2026-02-23T12:54:40",
+          "lead": "La frontière entre Uvira et Bujumbura a rouvert ce lundi 23 février dans la matinée, après presque deux mois de fermetur"
+        },
+        {
+          "title": "Réouverture de la frontière entre RD Congo et Burundi, vitale pour l'économie régionale",
+          "url": "https://www.france24.com/fr/afrique/20260223-r%C3%A9ouverture-de-la-fronti%C3%A8re-entre-rd-congo-et-burundi-vitale-pour-l-%C3%A9conomie-r%C3%A9gionale",
+          "source": "France24 Afrique",
+          "published": "2026-02-23T12:47:38",
+          "lead": "Après plus de deux mois de fermeture causée par une offensive du groupe politico-militaire AFC/M23 sur la cité stratégiq"
+        },
         {
           "title": "RDC-Burundi : la frontière terrestre vient de rouvrir",
           "url": "https://www.jeuneafrique.com/1768031/politique/rdc-burundi-la-frontiere-terrestre-vient-de-rouvrir/",
           "source": "Jeune Afrique",
           "published": "2026-02-23T12:05:49",
           "lead": "Après plus de deux mois de fermeture, le poste-frontière de Kavimvira, situé entre Bujumbura et Uvira, a rouvert ce lund"
+        },
+        {
+          "title": "Key DRC-Burundi border reopens after two-month closure",
+          "url": "http://www.africanews.com/2026/02/23/key-drc-burundi-border-reopens-after-two-month-closure/",
+          "source": "Africanews",
+          "published": "2026-02-23T12:49:15",
+          "lead": "A vital border crossing between the Democratic Republic of Congo and Burundi reopened Monday, more than two months after"
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
@@ -1376,12 +1726,12 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 2.8,
-      "ratio": 0.71,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.78,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1398,10 +1748,32 @@
           "source": "France24 Afrique",
           "published": "2026-02-23T09:40:50",
           "lead": "Nous recevons l'athlète de haut niveau Mialitiana Clerc depuis Milano-Cortina, où elle a disputé ses troisièmes Jeux oly"
+        },
+        {
+          "title": "Madagascar: Tropical Cyclone Gezani - Toamasina: Damage to Education and Health Facilities, from CEMS Assessment 17/2/2026 (21 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/madagascar-tropical-cyclone-gezani-toamasina-damage-education-and-health-facilities-cems-assessment-1722026-21-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T01:12:11",
+          "lead": "Country: Madagascar\n                                      Source: MapAction\n                                            "
+        },
+        {
+          "title": "Madagascar: Tropical Cyclone Gezani - Toamasina: Damage to Buildings by Fokantany, from CEMS Assessment 17/2/2026 (21 Feb 2026)",
+          "url": "https://reliefweb.int/map/madagascar/madagascar-tropical-cyclone-gezani-toamasina-damage-buildings-fokantany-cems-assessment-1722026-21-feb-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T01:11:20",
+          "lead": "Country: Madagascar\n                                      Source: MapAction\n                                            "
+        },
+        {
+          "title": "Madagascar: Tropical Cyclone Gezani - Affected households by Commune in Toamasina (19 February 2026) and shelter locations (21 February 2026)",
+          "url": "https://reliefweb.int/map/madagascar/madagascar-tropical-cyclone-gezani-affected-households-commune-toamasina-19-february-2026-and-shelter-locations-21-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T01:09:07",
+          "lead": "Country: Madagascar\n                                      Source: MapAction\n                                            "
         }
       ],
       "sources": [
         "France24 Afrique",
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
@@ -1418,16 +1790,26 @@
       "sources": []
     },
     "Mauritius": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "The Republic of Mauritius: Country Climate and Development Report (February 2026)",
+          "url": "https://reliefweb.int/report/mauritius/republic-mauritius-country-climate-and-development-report-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T01:34:58",
+          "lead": "Country: Mauritius\n                                      Source: World Bank\n                                            "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Seychelles": {
       "article_count": 0,
@@ -1445,7 +1827,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.29,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1466,8 +1848,8 @@
     "Malawi": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.08,
+      "baseline": 1.0,
+      "ratio": 1.04,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1486,32 +1868,69 @@
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Zimbabwe": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.65,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.55,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "President",
-          "count": 3
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Mozambique: More than 230,000 children out of school as worst flooding in decades hits schools– Save the Children",
+          "url": "https://reliefweb.int/report/mozambique/more-230000-children-out-school-worst-flooding-decades-hits-schools-save-children",
+          "source": "ReliefWeb",
+          "published": "2026-02-23T14:05:32",
+          "lead": "Country: Mozambique\n                                      Source: Save the Children\n                                    "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Zimbabwe": {
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 1.8,
+      "ratio": 2.76,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 5
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Robert Mugabe’s son charged with attempted murder over Johannesburg shooting",
+          "url": "https://www.theguardian.com/world/2026/feb/23/robert-mugabe-son-bellarmine-mugabe-charged-with-crimes",
+          "source": "The Guardian Africa",
+          "published": "2026-02-23T13:48:51",
+          "lead": "Bellarmine Chatunga Mugabe, known for lavish lifestyle, also accused of theft and being illegal immigrant after man alle"
+        },
+        {
+          "title": "Mugabe's son appears in court over Johannesburg shooting",
+          "url": "http://www.africanews.com/2026/02/23/mugabes-son-appears-in-court-over-johannesburg-shooting/",
+          "source": "Africanews",
+          "published": "2026-02-23T15:05:16",
+          "lead": "Bellarmine Chatunga Mugabe, the youngest son of Zimbabwe's late former president Robert Mugabe, appeared in a South Afri"
+        },
         {
           "title": "Zimbabwe: High Court Acquits Self-Proclaimed 'King Munhumutapa' for 'Undermining' Mnangagwa",
           "url": "https://allafrica.com/stories/202602230056.html",
@@ -1535,6 +1954,8 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
+        "Africanews",
         "Daily Maverick",
         "AllAfrica"
       ]
@@ -1586,13 +2007,17 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 14,
-      "source_count": 6,
+      "article_count": 15,
+      "source_count": 7,
       "baseline": 12.2,
-      "ratio": 1.15,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "President",
+          "count": 2
+        },
         {
           "word": "Minister",
           "count": 2
@@ -1608,10 +2033,6 @@
         {
           "word": "Violence",
           "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1622,6 +2043,13 @@
           "source": "BBC Africa",
           "published": "2026-02-23T12:21:05",
           "lead": "Bellarmine Mugabe and one other man have not commented on the charges after a 23-year-old was shot."
+        },
+        {
+          "title": "Robert Mugabe’s son charged with attempted murder over Johannesburg shooting",
+          "url": "https://www.theguardian.com/world/2026/feb/23/robert-mugabe-son-bellarmine-mugabe-charged-with-crimes",
+          "source": "The Guardian Africa",
+          "published": "2026-02-23T13:48:51",
+          "lead": "Bellarmine Chatunga Mugabe, known for lavish lifestyle, also accused of theft and being illegal immigrant after man alle"
         },
         {
           "title": "‘We’re hungry, there are no jobs’: a South African township’s desperate gold rush",
@@ -1643,6 +2071,13 @@
           "source": "France24 Afrique",
           "published": "2026-02-22T22:32:14",
           "lead": "Après le revers infligé au président américain par la Cour suprême, Donald Trump a annoncé une surtaxe mondiale 15 %. Qu"
+        },
+        {
+          "title": "Mugabe's son appears in court over Johannesburg shooting",
+          "url": "http://www.africanews.com/2026/02/23/mugabes-son-appears-in-court-over-johannesburg-shooting/",
+          "source": "Africanews",
+          "published": "2026-02-23T15:05:16",
+          "lead": "Bellarmine Chatunga Mugabe, the youngest son of Zimbabwe's late former president Robert Mugabe, appeared in a South Afri"
         },
         {
           "title": "South Africa: Phillipi East Massacre Suspect in Court - South African News Briefs - February 23, 2026",
@@ -1685,29 +2120,16 @@
           "source": "Daily Maverick",
           "published": "2026-02-22T20:55:32",
           "lead": "South Africa 187 for 7 (David Miller 63, Jasprit Bumrah 3-15,) beat India 111 all out (Shivam Dube 42, Marco Jansen 4-22"
-        },
-        {
-          "title": "THIRD-QUARTER STATS: Crime levels still ‘unacceptably high’, despite decrease in murders and sexual offences, says Cachalia",
-          "url": "https://www.dailymaverick.co.za/article/crime-levels-still-unacceptably-high-desh-despite-decrease-in-murders-and-sexual",
-          "source": "Daily Maverick",
-          "published": "2026-02-22T20:24:37",
-          "lead": "The majority of violent crimes have shown a downward trend during the third quarter of the SAPS’s financial year, but th"
-        },
-        {
-          "title": "SILENT PANDEMIC OP-ED: Slow violence against children: The invisible toll of chronic pesticide exposure",
-          "url": "https://www.dailymaverick.co.za/article/slow-violence-against-children-the-invisible-toll-of-chronic-pesticide-exposure",
-          "source": "Daily Maverick",
-          "published": "2026-02-22T18:20:47",
-          "lead": "Chronic pesticide exposure is a ‘silent pandemic’ of neurodevelopmental harm in South Africa. The current regulatory sys"
         }
       ],
       "sources": [
         "France24 Afrique",
+        "BBC Africa",
+        "The Guardian Africa",
         "AllAfrica",
         "RFI Afrique",
-        "Daily Maverick",
-        "The Guardian Africa",
-        "BBC Africa"
+        "Africanews",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
