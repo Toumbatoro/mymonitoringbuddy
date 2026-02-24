@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-24T06:49:55.237569",
+  "generated_at": "2026-02-24T09:42:46.057905",
   "summary": {
-    "high": 3,
+    "high": 4,
     "elevated": 8,
-    "normal": 17,
-    "quiet": 26
+    "normal": 18,
+    "quiet": 24
   },
   "countries": {
     "Morocco": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 4.2,
-      "ratio": 1.42,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -48,13 +48,6 @@
           "lead": "Début février, le Maroc, l’Algérie, la Mauritanie et le Front Polisario se sont réunis à Madrid pour discuter du plan d’"
         },
         {
-          "title": "Maroc : le transfert en Irak des ex-jihadistes de Daech inquiète leur famille",
-          "url": "https://www.jeuneafrique.com/1767698/politique/maroc-le-transfert-en-irak-des-ex-jihadistes-de-daech-inquiete-leur-famille/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-23T07:55:00",
-          "lead": "Près de 6  000 personnes liées à l’organisation État islamique, dont 187 Marocains, ont été transférées des prisons du n"
-        },
-        {
           "title": "US hosts new Western Sahara talks amid deep divergences",
           "url": "http://www.africanews.com/2026/02/23/us-hosts-new-western-sahara-talks-amid-deep-divergences/",
           "source": "Africanews",
@@ -70,9 +63,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
         "Africanews",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
@@ -120,16 +113,16 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
         "Africanews",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 2.62,
+      "baseline": 1.2,
+      "ratio": 2.55,
       "status": "high",
       "confidence": "medium",
       "keywords": [],
@@ -158,17 +151,17 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Libya": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.6,
-      "ratio": 0.77,
+      "ratio": 0.38,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -178,46 +171,65 @@
           "source": "RFI Afrique",
           "published": "2026-02-23T19:01:25",
           "lead": "A 00h00, heure de Washington (5h00 TU), les droits de douane imposés par les États-Unis ne sont plus appliqués ni collec"
-        },
-        {
-          "title": "Ramadan celebrations in Libya tempered by soaring prices and shortage of fuel",
-          "url": "http://www.africanews.com/2026/02/23/ramadan-celebrations-in-libya-tempered-by-soaring-prices-and-shortage-of-fuel/",
-          "source": "Africanews",
-          "published": "2026-02-23T08:02:04",
-          "lead": "Fifteen years after the fall of longtime leader Muammar Gaddafi, Libyans have little to celebrate this Ramadan as the co"
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Sudan": {
-      "article_count": 8,
-      "source_count": 6,
-      "baseline": 5.9,
-      "ratio": 1.37,
+      "ratio": 0.68,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "War",
-          "count": 2
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Sudan: The Quad's Latest Ceasefire Proposal for Sudan",
+          "url": "https://allafrica.com/stories/202602240085.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T06:51:31",
+          "lead": "[Ayin Network] A new ceasefire proposal backed by the Quad has emerged as the latest diplomatic push to halt Sudan's dev"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
+    },
+    "Sudan": {
+      "article_count": 10,
+      "source_count": 7,
+      "baseline": 5.9,
+      "ratio": 1.69,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 3
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
           "count": 1
         }
       ],
@@ -229,6 +241,13 @@
           "source": "BBC Africa",
           "published": "2026-02-23T14:01:53",
           "lead": "A Chadian government spokesperson says the decision is aimed at protecting citizens."
+        },
+        {
+          "title": "Tchad: les raisons de la fermeture de la frontière avec le Soudan",
+          "url": "https://www.rfi.fr/fr/afrique/20260224-tchad-les-raisons-de-la-fermeture-de-la-fronti%C3%A8re-avec-le-soudan",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T08:21:52",
+          "lead": "Le gouvernement tchadien, qui s'est rassemblé en « réunion extraordinaire de sécurité » lundi 23 février, a annoncé la f"
         },
         {
           "title": "Le Tchad ferme sa frontière avec le Soudan à cause d’« incursions répétées »",
@@ -259,6 +278,13 @@
           "lead": "Chad has shut it’s border with neighbouring Sudan, following clashes linked to the conflict in Sudan that claimed the li"
         },
         {
+          "title": "Sudan: The Quad's Latest Ceasefire Proposal for Sudan",
+          "url": "https://allafrica.com/stories/202602240085.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T06:51:31",
+          "lead": "[Ayin Network] A new ceasefire proposal backed by the Quad has emerged as the latest diplomatic push to halt Sudan's dev"
+        },
+        {
           "title": "Sudan: Sudan War Paralyses Gum Arabic Market in El Obeid As Production Falls and Exports Stall",
           "url": "https://allafrica.com/stories/202602240006.html",
           "source": "AllAfrica",
@@ -281,12 +307,13 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "BBC Africa",
+        "AllAfrica",
         "Jeune Afrique",
-        "Africanews",
+        "Le Monde Afrique",
         "Daily Maverick",
-        "AllAfrica"
+        "RFI Afrique",
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -327,24 +354,19 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
         "Africanews",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.4,
-      "ratio": 0.6,
+      "ratio": 0.3,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Wagner",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -353,17 +375,9 @@
           "source": "RFI Afrique",
           "published": "2026-02-23T23:09:06",
           "lead": "L’est du Sénégal face au risque de la contagion jihadiste, suite de notre série de reportages. Direction Kidira, dernièr"
-        },
-        {
-          "title": "De Wagner à Africa Corps : ce que l’alliance militaire russe a vraiment coûté au Mali",
-          "url": "https://www.jeuneafrique.com/1766436/politique/de-wagner-a-africa-corps-ce-que-lalliance-militaire-russe-a-vraiment-coute-au-mali/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-23T07:00:00",
-          "lead": "Après la fin du groupe Wagner, Bamako s’appuie désormais sur Africa Corps pour contenir la menace jihadiste. Un disposit"
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
@@ -453,10 +467,10 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews",
+        "RFI Afrique",
         "AllAfrica",
-        "RFI Afrique"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
@@ -568,10 +582,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 10,
+      "article_count": 8,
       "source_count": 6,
-      "baseline": 9.3,
-      "ratio": 1.07,
+      "baseline": 9.1,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -580,11 +594,11 @@
           "count": 4
         },
         {
-          "word": "Crisis",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -593,10 +607,6 @@
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -631,6 +641,13 @@
           "lead": "Plusieurs millions de dollars auraient été versés en échange de la libération de près de 230 enfants enlevés en novembre"
         },
         {
+          "title": "Six people injured after fire breaks out at Lagos international airport",
+          "url": "http://www.africanews.com/2026/02/24/six-people-injured-after-fire-breaks-out-at-lagos-international-airport/",
+          "source": "Africanews",
+          "published": "2026-02-24T07:05:24",
+          "lead": "Six people were injured and flights temporarily suspended after a fire broke out at Murtala Muhammed International Airpo"
+        },
+        {
           "title": "Nigeria paid Boko Haram ransom for kidnapped pupils: AFP investigation",
           "url": "http://www.africanews.com/2026/02/23/nigeria-paid-boko-haram-ransom-for-kidnapped-pupils-afp-investigation/",
           "source": "Africanews",
@@ -645,41 +662,20 @@
           "lead": "[Daily Trust] Last weekend, we were inundated with the news of the American soldiers who arrived in Maiduguri to help ou"
         },
         {
-          "title": "Nigeria: Tinubu Vows to Establish State Police to Curb Insecurity",
-          "url": "https://allafrica.com/stories/202602240067.html",
+          "title": "Nigeria: Education - Making Case for 7 Million Nigerian Children With Disabilities",
+          "url": "https://allafrica.com/stories/202602240209.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T06:43:28",
-          "lead": "[Vanguard] Abuja -- *Breaks fast with state chief executives at Aso Villa*Assures Nigerians his promises will not be pos"
-        },
-        {
-          "title": "Nigeria: How Nigeria Fits Into Gates Foundation's Final 20-Year Global Health Push",
-          "url": "https://allafrica.com/stories/202602240064.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T06:43:27",
-          "lead": "[Premium Times] If the Gates Foundation's final 20-year push is about reducing maternal and child mortality, eradicating"
-        },
-        {
-          "title": "Nigeria: Exclusive - the Two Persons Accused of Bankrolling Alleged Coup Plot to Overthrow Tinubu",
-          "url": "https://allafrica.com/stories/202602240062.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T06:43:26",
-          "lead": "[Premium Times] Last month, the Defence Headquarters announced that investigations into the alleged coup had been comple"
-        },
-        {
-          "title": "Nigeria: Nigeria's Main International Airport Reopens After Fire Outbreak",
-          "url": "https://allafrica.com/stories/202602240063.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T06:43:26",
-          "lead": "[Premium Times] Three international flights were diverted due to the fire incident."
+          "published": "2026-02-24T09:12:03",
+          "lead": "[Vanguard] Just last December, the United Nations marked the International Day of Persons with Disabilities, reinforcing"
         }
       ],
       "sources": [
+        "AllAfrica",
+        "Jeune Afrique",
         "Le Monde Afrique",
         "RFI Afrique",
-        "The Guardian Africa",
-        "Jeune Afrique",
         "Africanews",
-        "AllAfrica"
+        "The Guardian Africa"
       ]
     },
     "Cape Verde": {
@@ -705,6 +701,10 @@
         {
           "word": "Government",
           "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -717,11 +717,11 @@
           "lead": "A Chadian government spokesperson says the decision is aimed at protecting citizens."
         },
         {
-          "title": "Tchad: les enseignants grévistes du mois de février percevront-ils leur salaire en intégralité?",
-          "url": "https://www.rfi.fr/fr/afrique/20260223-tchad-les-enseignants-gr%C3%A9vistes-du-mois-de-f%C3%A9vrier-percevront-ils-leur-salaire-en-int%C3%A9gralit%C3%A9",
+          "title": "Tchad: les raisons de la fermeture de la frontière avec le Soudan",
+          "url": "https://www.rfi.fr/fr/afrique/20260224-tchad-les-raisons-de-la-fermeture-de-la-fronti%C3%A8re-avec-le-soudan",
           "source": "RFI Afrique",
-          "published": "2026-02-23T17:54:38",
-          "lead": "Les salaires pour les enseignants grévistes du syndicat des enseignants du Tchad (SET) de la section de Ndjamena sont co"
+          "published": "2026-02-24T08:21:52",
+          "lead": "Le gouvernement tchadien, qui s'est rassemblé en « réunion extraordinaire de sécurité » lundi 23 février, a annoncé la f"
         },
         {
           "title": "Le Tchad ferme sa frontière avec le Soudan à cause d’« incursions répétées »",
@@ -746,20 +746,20 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Le Monde Afrique",
         "RFI Afrique",
         "BBC Africa",
-        "Jeune Afrique",
         "Africanews"
       ]
     },
     "Cameroon": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 2.8,
-      "ratio": 1.77,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.9,
+      "ratio": 1.37,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
@@ -787,13 +787,6 @@
           "lead": "Entre absences répétées et audiences reportées, avec des échéances institutionnelles en toile de fond, le procès qui opp"
         },
         {
-          "title": "Au Cameroun, Issa Tchiroma Bakary et le jeu dangereux du boycott",
-          "url": "https://www.jeuneafrique.com/1767097/politique/au-cameroun-issa-tchiroma-bakary-et-le-jeu-dangereux-du-boycott/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-23T08:02:39",
-          "lead": "La décision de l’opposant de ne pas aligner son parti aux élections législatives et locales à venir ne fait pas l’unanim"
-        },
-        {
           "title": "Cameroon: Massacre Trial Short On Justice",
           "url": "https://allafrica.com/stories/202602240053.html",
           "source": "AllAfrica",
@@ -809,19 +802,23 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
         "AllAfrica",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 0.93,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.87,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -829,6 +826,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Centrafrique: des étudiants contraints de s'exiler en raison de la guerre en Ukraine",
+          "url": "https://www.rfi.fr/fr/afrique/20260224-centrafrique-des-%C3%A9tudiants-contraints-de-s-exiler-en-raison-de-la-guerre-en-ukraine",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T09:02:58",
+          "lead": "Quatre ans après le déclenchement de la guerre entre l’Ukraine et la Russie, de nombreuses trajectoires de vies ont été "
+        },
         {
           "title": "Centrafrique : réélu, Faustin-Archange Touadéra face au casse-tête du prochain gouvernement",
           "url": "https://www.jeuneafrique.com/1767462/politique/centrafrique-reelu-faustin-archange-touadera-face-au-casse-tete-du-prochain-gouvernement/",
@@ -838,6 +842,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -845,7 +850,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.5,
-      "ratio": 1.33,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -901,7 +906,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.1,
-      "ratio": 1.81,
+      "ratio": 1.75,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -928,8 +933,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Congo": {
@@ -973,19 +978,7 @@
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Épidémie",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Humanitaire",
@@ -1013,6 +1006,13 @@
           "lead": "Ancien secrétaire général de l’UDPS, le parti présidentiel, ancien vice-président de l’Assemblée nationale et longtemps "
         },
         {
+          "title": "Ferdinand Ilunga, président de la fédération congolaise de boxe: «Bakole et Yoka, sont d'accord pour s'affronter» à Kinshasa",
+          "url": "https://www.rfi.fr/fr/sports/20260224-ferdinand-ilunga-pr%C3%A9sident-de-la-f%C3%A9d%C3%A9ration-congolaise-de-boxe-bakole-et-yoka-sont-d-accord-pour-s-affronter-%C3%A0-kinshasa",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T07:19:47",
+          "lead": "En avril prochain, Kinshasa redeviendra la capitale mondiale de la boxe. Le stade des Martyrs sera le théâtre de l'oppos"
+        },
+        {
           "title": "Du sous-sol d'un musée belge aux mines congolaises: l’enjeu des archives géologiques de la RDC",
           "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260223-du-sous-sol-de-l-africamuseum-aux-mines-congolaises-l-enjeu-des-archives-g%C3%A9ologiques-de-la-rdcne-s",
           "source": "RFI Afrique",
@@ -1020,25 +1020,11 @@
           "lead": "Quand des millions de documents se retrouvent au cœur d'un bras de fer entre la RDC, la Belgique et une société américai"
         },
         {
-          "title": "La frontière entre Uvira et Bujumbura rouvre après presque deux mois de fermeture",
-          "url": "https://www.rfi.fr/fr/afrique/20260223-la-fronti%C3%A8re-entre-uvira%E2%80%93bujumbura-rouvre-apr%C3%A8s-presque-deux-mois-de-fermeture",
-          "source": "RFI Afrique",
-          "published": "2026-02-23T12:54:40",
-          "lead": "La frontière entre Uvira et Bujumbura a rouvert ce lundi 23 février dans la matinée, après presque deux mois de fermetur"
-        },
-        {
-          "title": "RDC: quand la guerre aggrave l’épidémie de choléra au Sud-Kivu",
-          "url": "https://www.rfi.fr/fr/afrique/20260223-rdc-quand-la-guerre-aggrave-l-%C3%A9pid%C3%A9mie-de-chol%C3%A9ra-au-sud-kivu",
-          "source": "RFI Afrique",
-          "published": "2026-02-23T12:06:12",
-          "lead": "Les conflits armés ont aussi un coût sanitaire invisible dans les différentes négociations de paix. En République démocr"
-        },
-        {
-          "title": "La frontière entre la RD Congo et le Burundi rouvre, les habitants soulagés",
+          "title": "Réouverture de la frontière entre la RD Congo et le Burundi, les habitants soulagés",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260223-la-fronti%C3%A8re-entre-la-rd-congo-et-le-burundi-rouvre-les-habitants-soulag%C3%A9s",
           "source": "France24 Afrique",
           "published": "2026-02-23T22:03:07",
-          "lead": "En RD Congo, la frontière entre Bujumbura et Uvira a rouvert… Elle avait été fermée mi-décembre après la prise de contrô"
+          "lead": "En RD Congo, la frontière entre Bujumbura et Uvira a rouvert. Elle avait été fermée mi-décembre après la prise de contrô"
         },
         {
           "title": "Réouverture de la frontière entre RD Congo et Burundi, vitale pour l'économie régionale",
@@ -1048,11 +1034,18 @@
           "lead": "Après plus de deux mois de fermeture causée par une offensive du groupe politico-militaire AFC/M23 sur la cité stratégiq"
         },
         {
-          "title": "En RDC, Goma, une ville sous le joug du M23, dont la population est en grande difficulté",
+          "title": "Tony Yoka, champion olympique de boxe avec la France à Rio 2016, change de nationalité sportive",
+          "url": "https://www.lemonde.fr/sport/article/2026/02/24/tony-yoka-champion-olympique-de-boxe-avec-la-france-a-rio-2016-change-de-nationalite-sportive_6668033_3242.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-24T08:42:37",
+          "lead": "Le Parisien de 33 ans a publié, lundi soir, une photo de sa nouvelle licence sous les couleurs de la République démocrat"
+        },
+        {
+          "title": "RDC : dans les rues bondées de Goma, ville conquise par le M23 depuis un an, les traumatismes hantent les esprits",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/23/en-rdc-goma-une-ville-sous-le-joug-du-m23-dont-la-population-est-en-grande-difficulte_6667975_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-02-23T18:10:05",
-          "lead": "Un an après la conquête de la capitale du Nord-Kivu, l’Alliance Fleuve Congo/Mouvement du 23 mars tente de mettre sous c"
+          "lead": "L’Alliance Fleuve Congo/Mouvement du 23 mars tente de mettre sous coupe réglée la capitale du Nord-Kivu. Pour sécuriser "
         },
         {
           "title": "RDC–AS Monaco : le dossier transmis à la justice monégasque",
@@ -1085,8 +1078,8 @@
       ],
       "sources": [
         "Le Monde Afrique",
-        "RFI Afrique",
         "Jeune Afrique",
+        "RFI Afrique",
         "Africanews",
         "France24 Afrique"
       ]
@@ -1155,13 +1148,21 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 4.1,
-      "ratio": 0.72,
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 4.2,
+      "ratio": 0.96,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
         {
           "word": "War",
           "count": 1
@@ -1185,6 +1186,13 @@
           "lead": "En Éthiopie, la production d'une grosse usine à charbon a été lancée, mercredi 18 février. C'est la première usine à cha"
         },
         {
+          "title": "Le Tigré, dans le nord de l’Ethiopie, menacé d’une nouvelle guerre",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/24/le-tigre-dans-le-nord-de-l-ethiopie-menace-d-une-nouvelle-guerre_6668035_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-24T09:00:05",
+          "lead": "Le gouvernement éthiopien a massé des troupes à la frontière de sa région septentrionale. Celle-ci connaît un regain de "
+        },
+        {
           "title": "Ethiopia marks 65th army anniversary amid Tigray tensions",
           "url": "http://www.africanews.com/2026/02/23/ethiopia-marks-65th-army-anniversary-amid-tigray-tensions/",
           "source": "Africanews",
@@ -1200,9 +1208,10 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "AllAfrica",
         "Africanews",
-        "RFI Afrique"
+        "Le Monde Afrique"
       ]
     },
     "Somalia": {
@@ -1218,30 +1227,52 @@
       "sources": []
     },
     "Uganda": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Kenya": {
-      "article_count": 8,
-      "source_count": 1,
-      "baseline": 5.4,
-      "ratio": 1.48,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.5,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Flood",
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Mass for Ugandan opposition figure Kizza Besigye reportedly blocked on president's orders",
+          "url": "http://www.africanews.com/2026/02/24/mass-for-ugandan-opposition-figure-kizza-besigye-reportedly-blocked-on-presidents-orders/",
+          "source": "Africanews",
+          "published": "2026-02-24T08:49:48",
+          "lead": "A church service scheduled to honour jailed Ugandan opposition figure Kizza Besigye has been cancelled on the orders of "
+        },
+        {
+          "title": "Uganda: Why School Fees Shouldn't Be a National Crisis",
+          "url": "https://allafrica.com/stories/202602240149.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T07:27:01",
+          "lead": "[Nile Post] Three times a year, Uganda rehearses the same distressing ritual: long queues outside bursars' offices, whis"
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "Africanews"
+      ]
+    },
+    "Kenya": {
+      "article_count": 4,
+      "source_count": 1,
+      "baseline": 5.5,
+      "ratio": 0.72,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1252,53 +1283,25 @@
           "lead": "[HRW] Nairobi -- UN Should Support Victims' Appeal, Reparations"
         },
         {
-          "title": "Kenya: DPP Blames Investigative Delays By Dci, Ipoa for Slow Prosecution of Police Misconduct Cases",
-          "url": "https://allafrica.com/stories/202602240061.html",
+          "title": "Kenya: Ombudsman Flags Sh30 SMS Fee for School Placement Results",
+          "url": "https://allafrica.com/stories/202602240087.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T06:43:25",
-          "lead": "[Capital FM] Nairobi -- The Director of Public Prosecutions (DPP) Renson Ingonga has attributed delays in prosecuting ca"
+          "published": "2026-02-24T06:53:16",
+          "lead": "[Capital FM] Nairobi -- The Commission on Administrative Justice has raised concerns over what it terms as excessive cha"
         },
         {
-          "title": "Kenya: 2 Hurt After Heavy Rains Collapse 50 Houses in Kibagare Slums",
-          "url": "https://allafrica.com/stories/202602240056.html",
+          "title": "Kenya: Transport Department Projects Sh37.7bn Budget Shortfall",
+          "url": "https://allafrica.com/stories/202602240202.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T06:43:23",
-          "lead": "[Capital FM] Nairobi -- Two people were injured on Monday after dozens of makeshift houses collapsed in Kibagare slums i"
+          "published": "2026-02-24T08:49:33",
+          "lead": "[Capital FM] Nairobi -- Transport Cabinet Secretary Davis Chirchir has warned that a significant funding shortfall facin"
         },
         {
-          "title": "Kenya: NACADA Destroys 5,000 Litres of Illicit Brew in West Pokot",
-          "url": "https://allafrica.com/stories/202602240057.html",
+          "title": "Kenya: Police Given 10 Days to Complete Probe On Cleric Suspected of Molesting 12 Minors",
+          "url": "https://allafrica.com/stories/202602240201.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T06:43:23",
-          "lead": "[Capital FM] Nairobi -- The National Authority for the Campaign Against Drugs and Alcohol Abuse (NACADA) oversaw the des"
-        },
-        {
-          "title": "Kenya: EACC Recovers Public Land Worth Sh281mn in Major Mombasa Court Victories",
-          "url": "https://allafrica.com/stories/202602240051.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T05:50:48",
-          "lead": "[Capital FM] Nairobi -- The Ethics and Anti-Corruption Commission (EACC) has secured major court victories resulting in "
-        },
-        {
-          "title": "Kenya: Kenya Red Cross Reactivates SMS Early Warning System As Flash Flood Risk Rises",
-          "url": "https://allafrica.com/stories/202602240052.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T05:50:48",
-          "lead": "[Capital FM] Nairobi -- The Kenya Red Cross Society has reactivated its SMS-based early warning system to alert resident"
-        },
-        {
-          "title": "Kenya: IED Blast Injures 3 Police Officers in Fafi, Garissa County",
-          "url": "https://allafrica.com/stories/202602240050.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T05:50:47",
-          "lead": "[Capital FM] Nairobi -- Three police officers were injured on Monday after an improvised explosive device (IED) detonate"
-        },
-        {
-          "title": "Kenya: Roadside Traders Given 7 Days to Clear Thika Superhighway As KeNHA Plans Safety Upgrades",
-          "url": "https://allafrica.com/stories/202602240049.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T05:50:45",
-          "lead": "[Capital FM] Nairobi -- The Kenya National Highways Authority (KeNHA) has issued a fresh seven-day ultimatum to roadside"
+          "published": "2026-02-24T08:49:32",
+          "lead": "[Capital FM] Nairobi -- The Directorate of Criminal Investigations has been granted 10 days to complete investigations i"
         }
       ],
       "sources": [
@@ -1306,12 +1309,12 @@
       ]
     },
     "Rwanda": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 1.62,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.81,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
@@ -1319,10 +1322,6 @@
         },
         {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -1341,32 +1340,17 @@
           "source": "Africanews",
           "published": "2026-02-23T10:31:46",
           "lead": "The 18th edition of the Tour du Rwanda kicked off in Rukomo on Sunday with 84 cyclists taking on the first stage. But th"
-        },
-        {
-          "title": "Rwanda: What to Know As Govt Sets Deadline for Factories to Relocate to Industrial Zones",
-          "url": "https://allafrica.com/stories/202602240055.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T05:50:50",
-          "lead": "[New Times] Factories operating outside designated industrial zones have been given up to 10 years to relocate to approv"
-        },
-        {
-          "title": "Rwanda: New Bill Sets Stage for Modern, Market-Led Farming",
-          "url": "https://allafrica.com/stories/202602240054.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T05:50:49",
-          "lead": "[New Times] The government is moving to overhaul its agricultural legal framework through a plant production bill aimed "
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica"
+        "Africanews"
       ]
     },
     "Burundi": {
-      "article_count": 7,
+      "article_count": 6,
       "source_count": 4,
       "baseline": 1.3,
-      "ratio": 5.44,
+      "ratio": 4.67,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -1385,18 +1369,11 @@
           "lead": "Dans l’est de la République démocratique du Congo (RDC), la frontière entre Uvira et Bujumbura a rouvert lundi 23 févrie"
         },
         {
-          "title": "La frontière entre Uvira et Bujumbura rouvre après presque deux mois de fermeture",
-          "url": "https://www.rfi.fr/fr/afrique/20260223-la-fronti%C3%A8re-entre-uvira%E2%80%93bujumbura-rouvre-apr%C3%A8s-presque-deux-mois-de-fermeture",
-          "source": "RFI Afrique",
-          "published": "2026-02-23T12:54:40",
-          "lead": "La frontière entre Uvira et Bujumbura a rouvert ce lundi 23 février dans la matinée, après presque deux mois de fermetur"
-        },
-        {
-          "title": "La frontière entre la RD Congo et le Burundi rouvre, les habitants soulagés",
+          "title": "Réouverture de la frontière entre la RD Congo et le Burundi, les habitants soulagés",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260223-la-fronti%C3%A8re-entre-la-rd-congo-et-le-burundi-rouvre-les-habitants-soulag%C3%A9s",
           "source": "France24 Afrique",
           "published": "2026-02-23T22:03:07",
-          "lead": "En RD Congo, la frontière entre Bujumbura et Uvira a rouvert… Elle avait été fermée mi-décembre après la prise de contrô"
+          "lead": "En RD Congo, la frontière entre Bujumbura et Uvira a rouvert. Elle avait été fermée mi-décembre après la prise de contrô"
         },
         {
           "title": "Réouverture de la frontière entre RD Congo et Burundi, vitale pour l'économie régionale",
@@ -1428,62 +1405,29 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
         "Africanews",
-        "France24 Afrique",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Tanzania": {
-      "article_count": 3,
-      "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 2.71,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.2,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tanzania: Zanzibar Airport Dismisses Baggage Theft Claims",
-          "url": "https://allafrica.com/stories/202602240060.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T06:43:25",
-          "lead": "[Daily News] Zanzibar -- THE Zanzibar Airports Authority (ZAA) has dismissed social media reports alleging that the auth"
-        },
-        {
-          "title": "Tanzania: Zanzibar Pledges Stronger Support for Nurses, Midwives",
-          "url": "https://allafrica.com/stories/202602240058.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T06:43:24",
-          "lead": "[Daily News] Zanzibar -- THE government of Zanzibar has pledged to strengthen the health sector by improving working env"
-        },
-        {
-          "title": "Tanzania: Zanzibar Govt Finalises Kiswahili Policy",
-          "url": "https://allafrica.com/stories/202602240059.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T06:43:24",
-          "lead": "[Daily News] Zanzibar -- Deputy Minister for Information, Culture, Arts and Sports, Ali Abdulghulam Hussein has announce"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Madagascar": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.9,
-      "ratio": 1.05,
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.8,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1507,17 +1451,9 @@
           "source": "RFI Afrique",
           "published": "2026-02-24T03:04:36",
           "lead": "À Tamatave, dans l’est de Madagascar, la rentrée scolaire a repris lundi 23 février au milieu des débris, quelques jours"
-        },
-        {
-          "title": "JO 2026 : \"Une expérience incroyable\", selon la skieuse alpine malgache Mialitiana Clerc",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260223-jo-2026-une-exp%C3%A9rience-incroyable-selon-la-skieuse-alpine-malgache-mialitiana-clerc",
-          "source": "France24 Afrique",
-          "published": "2026-02-23T09:40:50",
-          "lead": "Nous recevons l'athlète de haut niveau Mialitiana Clerc depuis Milano-Cortina, où elle a disputé ses troisièmes Jeux oly"
         }
       ],
       "sources": [
-        "France24 Afrique",
         "RFI Afrique"
       ]
     },
@@ -1558,12 +1494,12 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.8,
-      "ratio": 1.22,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.43,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1573,17 +1509,25 @@
           "source": "DW Africa",
           "published": "2026-02-23T09:48:00",
           "lead": "As mining companies scour Zambia's Copperbelt for metals used in sustainable energy, locals are dealing with unchecked p"
+        },
+        {
+          "title": "Zambia: Zambians Pay Price Amid Copperbelt Mining Boom",
+          "url": "https://allafrica.com/stories/202602240126.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T07:06:29",
+          "lead": "[DW] As mining companies scour Zambia's Copperbelt for metals used in sustainable energy, locals are dealing with unchec"
         }
       ],
       "sources": [
-        "DW Africa"
+        "DW Africa",
+        "AllAfrica"
       ]
     },
     "Malawi": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.97,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1614,16 +1558,20 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 4,
-      "baseline": 2.1,
-      "ratio": 1.93,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.0,
+      "ratio": 2.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "President",
           "count": 3
+        },
+        {
+          "word": "Violence",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1650,6 +1598,13 @@
           "lead": "[263Chat] The firearm allegedly used in a shooting at the Johannesburg home of Bellarmine Chatunga Mugabe has not yet be"
         },
         {
+          "title": "Zimbabwe: The Hidden Bill - How Gender-Based Violence Is Costing Zimbabwe Its Future",
+          "url": "https://allafrica.com/stories/202602240091.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T06:57:08",
+          "lead": "[263Chat] By the time Grace left school in Form 3, her future had already narrowed. Orphaned young and raised by her gra"
+        },
+        {
           "title": "LEGAL DRAMA: Bellarmine Mugabe to remain behind bars for another week on attempted murder charges",
           "url": "https://www.dailymaverick.co.za/article/bellarmine-mugabe-to-remain-behind-bars-ars-for-another-week-on-attempted-murder",
           "source": "Daily Maverick",
@@ -1658,23 +1613,38 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews",
         "Daily Maverick",
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.33,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Namibia: Govt Bigwigs to Swallow Public Health Pill First",
+          "url": "https://allafrica.com/stories/202602240100.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T06:58:44",
+          "lead": "[Namibian] Senior government officials will transition to public healthcare facilities on 1 April, following a president"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Botswana": {
       "article_count": 0,
@@ -1689,23 +1659,27 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 16,
+      "article_count": 23,
       "source_count": 7,
-      "baseline": 12.3,
-      "ratio": 1.3,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 12.4,
+      "ratio": 1.85,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
           "count": 3
         },
         {
-          "word": "Government",
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "War",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -1713,7 +1687,11 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1732,13 +1710,6 @@
           "source": "The Guardian Africa",
           "published": "2026-02-23T13:48:51",
           "lead": "Bellarmine Chatunga Mugabe, known for lavish lifestyle, also accused of theft and being illegal immigrant after man alle"
-        },
-        {
-          "title": "‘We’re hungry, there are no jobs’: a South African township’s desperate gold rush",
-          "url": "https://www.theguardian.com/world/2026/feb/23/south-africa-desperate-gold-rush",
-          "source": "The Guardian Africa",
-          "published": "2026-02-23T07:18:39",
-          "lead": "A rumour on social media brought dozens of fortune seekers to a field on the outskirts of mining town SpringsIn a townsh"
         },
         {
           "title": "Droits de douane annulés par la Cour suprême américaine: qui sont les grands gagnants en Afrique?",
@@ -1762,6 +1733,20 @@
           "lead": "[allAfrica]"
         },
         {
+          "title": "South Africa: Superbugs + Climate Change = Double Trouble. Here's Why",
+          "url": "https://allafrica.com/stories/202602240182.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T08:36:24",
+          "lead": "[Bhekisisa] Superbugs are a big public health issue. So is climate change. Put the two together and the problem becomes "
+        },
+        {
+          "title": "South Africa: Cash Crunch Blocks Joburg Water Fix",
+          "url": "https://allafrica.com/stories/202602240152.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T07:34:37",
+          "lead": "[Our City News] The crisis facing Johannesburg's water systems is not only widespread structural decline, but a massive "
+        },
+        {
           "title": "South Africa: Damning Probe Into Home Affairs Names 'Prophet' Bushiri",
           "url": "https://allafrica.com/stories/202602240037.html",
           "source": "AllAfrica",
@@ -1776,42 +1761,35 @@
           "lead": "[263Chat] The firearm allegedly used in a shooting at the Johannesburg home of Bellarmine Chatunga Mugabe has not yet be"
         },
         {
-          "title": "Africa: Can African Penguins Be Brought Back From the Brink? Better Designed No-Fishing Zones Could Help",
-          "url": "https://allafrica.com/stories/202602240003.html",
+          "title": "South Africa: This Might Be the Worst Master's Office in the Country",
+          "url": "https://allafrica.com/stories/202602240088.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T05:01:51",
-          "lead": "[The Conversation Africa] South Africa is home to 88% of the world's colonies of African penguins (Spheniscus demersus)."
+          "published": "2026-02-24T06:54:34",
+          "lead": "[GroundUp] Lawyers says backlogs in Mbombela have created an \"unacceptable\" situation with people waiting lengthy period"
         },
         {
-          "title": "South Africa: From SONA to the Street - What Real Dialogue in South Africa Looks Like",
-          "url": "https://allafrica.com/stories/202602240001.html",
+          "title": "South Africa: Lesufi Under Pressure As Water Crisis Drags On",
+          "url": "https://allafrica.com/stories/202602240127.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T05:01:50",
-          "lead": "[ISS] Whether national or local, dialogue is about listening, and doesn't work as a once-off, performative undertaking."
+          "published": "2026-02-24T07:07:08",
+          "lead": "[Scrolla] Gauteng Premier Panyaza Lesufi admitted Meadowlands still has water problems linked to the Doornkop reservoir "
         },
         {
-          "title": "PUBLIC HEALTH: Budget 2026 a chance to boost ‘sugary drinks tax’, cut costs and save lives",
-          "url": "https://www.dailymaverick.co.za/article/budget-2026-a-chance-to-boost-sugary-drinks-tax-cut-costs-and-save-lives",
-          "source": "Daily Maverick",
-          "published": "2026-02-24T07:42:01",
-          "lead": "As South Africa prepares for its 2026 budget speech, the under-discussed Health Promotion Levy stands out as a proven to"
-        },
-        {
-          "title": "MASS DIE-OFF: ‘High heat’ blamed for massive KZN fish kill, but investigations continue",
-          "url": "https://www.dailymaverick.co.za/article/high-heat-blamed-for-massive-kzn-fish-kill-but-investigations-continue",
-          "source": "Daily Maverick",
-          "published": "2026-02-23T22:06:12",
-          "lead": "A combination of high temperature, low oxygen and high levels of ammonia and ‘organic pollution’ have been implicated in"
+          "title": "South Africa: South Africans Lured to Fight for Russia in Ukraine Are On Their Way Home",
+          "url": "https://allafrica.com/stories/202602240123.html",
+          "source": "AllAfrica",
+          "published": "2026-02-24T07:04:28",
+          "lead": "[Daily Maverick] Most of the 17 South Africans who were trapped on the front line in Ukraine are out of the war zone. Th"
         }
       ],
       "sources": [
+        "AllAfrica",
+        "Daily Maverick",
+        "Human Rights Watch",
         "RFI Afrique",
-        "The Guardian Africa",
         "BBC Africa",
         "Africanews",
-        "Daily Maverick",
-        "AllAfrica",
-        "Human Rights Watch"
+        "The Guardian Africa"
       ]
     },
     "Eswatini": {
