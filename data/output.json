@@ -1,20 +1,24 @@
 {
-  "generated_at": "2026-02-25T06:53:11.768739",
+  "generated_at": "2026-02-25T09:43:59.760543",
   "summary": {
-    "high": 5,
-    "elevated": 10,
-    "normal": 22,
-    "quiet": 17
+    "high": 7,
+    "elevated": 12,
+    "normal": 20,
+    "quiet": 15
   },
   "countries": {
     "Morocco": {
-      "article_count": 6,
-      "source_count": 3,
+      "article_count": 7,
+      "source_count": 4,
       "baseline": 4.3,
-      "ratio": 1.39,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.61,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Minister",
+          "count": 2
+        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -22,14 +26,17 @@
         {
           "word": "Crise",
           "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Senegal prime minister decries Morocco’s jailing of fans after AFCON final",
+          "url": "https://www.aljazeera.com/sports/2026/2/25/senegal-prime-minister-hits-out-at-moroccos-jailing-of-fans-after-afcon?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-25T09:08:50",
+          "lead": "Morocco sentenced 18 Senegalese football fans last Thursday following disturbances at the Africa Cup of Nations final."
+        },
         {
           "title": "Sénégal: le Premier ministre Ousmane Sonko propose d'installer un commissariat à l'intérieur de l'Ucad",
           "url": "https://www.rfi.fr/fr/afrique/20260225-s%C3%A9n%C3%A9gal-le-premier-ministre-ousmane-sonko-propose-d-installer-un-commissariat-%C3%A0-l-int%C3%A9rieur-de-l-ucad",
@@ -45,10 +52,10 @@
           "lead": "En 2022 au Qatar, le Maroc est devenu la première sélection africaine à atteindre le dernier carré d’un Mondial. Dans se"
         },
         {
-          "title": "Au Maroc, les manifestants de la GenZ 212 pris dans un tourbillon judiciaire",
+          "title": "Au Maroc, les manifestants de la GenZ 212 pris dans un tourbillon judiciaire",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/25/au-maroc-les-manifestants-de-la-genz-212-pris-dans-un-tourbillon-judiciaire_6668154_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-25T05:00:10",
+          "published": "2026-02-25T05:00:04",
           "lead": "Depuis début février, les procès de Marocains poursuivis en justice pour leur participation supposée aux manifestations "
         },
         {
@@ -74,9 +81,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Le Monde Afrique",
-        "Africanews"
+        "Africanews",
+        "Al Jazeera",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -119,35 +127,46 @@
       ]
     },
     "Libya": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Egypt": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.63,
+      "baseline": 2.4,
+      "ratio": 0.41,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
+          "word": "Government",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Accounting for Missing Persons in Libya: Applying Global Good Practice",
+          "url": "https://reliefweb.int/report/libya/accounting-missing-persons-libya-applying-global-good-practice",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T08:01:32",
+          "lead": "Country: Libya\n                                      Source: International Commission on Missing Persons\n               "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Egypt": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.6,
+      "ratio": 1.29,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "War",
           "count": 1
         },
         {
@@ -159,7 +178,11 @@
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         },
         {
@@ -167,12 +190,19 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Egypt urges more support for Lebanese army as it disarms Hezbollah",
+          "url": "http://www.africanews.com/2026/02/25/egypt-urges-more-support-for-lebanese-army-as-it-disarms-hezbollah/",
+          "source": "Africanews",
+          "published": "2026-02-25T08:44:56",
+          "lead": "Egypt on Tuesday urged the international community to better support Lebanon's armed forces as the country moves forward"
+        },
         {
           "title": "Israel: Aid Groups Barred From Gaza, West Bank",
           "url": "https://www.hrw.org/news/2026/02/24/israel-aid-groups-barred-from-gaza-west-bank",
@@ -182,6 +212,7 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Human Rights Watch"
       ]
     },
@@ -189,16 +220,24 @@
       "article_count": 10,
       "source_count": 6,
       "baseline": 6.0,
-      "ratio": 1.68,
+      "ratio": 1.67,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Fighting",
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Rsf",
           "count": 2
         },
         {
-          "word": "Violence",
+          "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
           "count": 2
         },
         {
@@ -207,14 +246,6 @@
         },
         {
           "word": "Casualties",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -236,11 +267,18 @@
           "lead": "Intensified attacks in the Kordofan region have led to mass casualties as peace remains elusive."
         },
         {
-          "title": "At least 28 people killed as Sudan paramilitary force tears through Darfur",
-          "url": "https://www.aljazeera.com/news/2026/2/24/rsf-tears-through-darfur-town-killing-28-doctors?traffic_source=rss",
+          "title": "UNSC condemns RSF attacks in Sudan’s Kordofan, calls for an end to the war",
+          "url": "https://www.aljazeera.com/news/2026/2/25/unsc-condemns-rsf-attacks-in-sudans-kordofan-calls-for-an-end-to-the-war?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-02-24T21:02:17",
-          "lead": "Rapid Support Forces launches large-scale assault on town of Misteriha, home to tribal leader Musa Hilal."
+          "published": "2026-02-25T08:08:01",
+          "lead": "Security Council decries atrocities in Sudan, including mass killings, sexual violence and attacks on aid workers."
+        },
+        {
+          "title": "Soudan: les FSR prennent le contrôle de Mostariha, ville de l'ex-chef des miliciens janjawid Moussa Hilal",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-soudan-les-fsr-prennent-le-contr%C3%B4le-de-mostariha-ville-de-l-ex-chef-des-miliciens-janjawid-moussa-hilal",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T08:56:46",
+          "lead": "Au Soudan, les paramilitaires des Forces de soutien rapide (FSR) ont attaqué dimanche 22 février une nouvelle localité a"
         },
         {
           "title": "Soudan: fin de non-recevoir de Khartoum aux propositions de Washington pour un cessez-le-feu",
@@ -248,13 +286,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-24T13:17:10",
           "lead": "Khartoum oppose une fin de non-recevoir aux propositions de Washington pour un cessez-le-feu au Soudan, un pays déchiré "
-        },
-        {
-          "title": "Tchad: les raisons de la fermeture de la frontière avec le Soudan",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-tchad-les-raisons-de-la-fermeture-de-la-fronti%C3%A8re-avec-le-soudan",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T08:21:52",
-          "lead": "Le gouvernement tchadien, qui s'est rassemblé en « réunion extraordinaire de sécurité » lundi 23 février, a annoncé la f"
         },
         {
           "title": "Sudan: UN Body Finds 'Hallmarks of Genocide' in Darfur",
@@ -300,19 +331,19 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "Al Jazeera",
-        "ReliefWeb",
-        "AllAfrica",
-        "Human Rights Watch",
         "RFI Afrique",
-        "BBC Africa"
+        "AllAfrica",
+        "ReliefWeb",
+        "Human Rights Watch"
       ]
     },
     "Mauritania": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.81,
+      "ratio": 1.71,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -400,11 +431,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Boko haram",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Boko haram",
           "count": 1
         }
       ],
@@ -423,16 +454,16 @@
       ]
     },
     "Senegal": {
-      "article_count": 8,
-      "source_count": 5,
-      "baseline": 5.4,
-      "ratio": 1.48,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 9,
+      "source_count": 6,
+      "baseline": 5.5,
+      "ratio": 1.63,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Minister",
-          "count": 3
+          "count": 4
         },
         {
           "word": "Gouvernement",
@@ -466,6 +497,13 @@
           "source": "BBC Africa",
           "published": "2026-02-24T20:05:08",
           "lead": "Senegal's prime minister says it is \"regrettable\" that 18 of its football fans have been handed prison sentences related"
+        },
+        {
+          "title": "Senegal prime minister decries Morocco’s jailing of fans after AFCON final",
+          "url": "https://www.aljazeera.com/sports/2026/2/25/senegal-prime-minister-hits-out-at-moroccos-jailing-of-fans-after-afcon?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-25T09:08:50",
+          "lead": "Morocco sentenced 18 Senegalese football fans last Thursday following disturbances at the Africa Cup of Nations final."
         },
         {
           "title": "Sénégal: le Premier ministre Ousmane Sonko propose d'installer un commissariat à l'intérieur de l'Ucad",
@@ -511,11 +549,12 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "Africanews",
-        "ReliefWeb",
-        "Le Monde Afrique",
+        "Al Jazeera",
         "RFI Afrique",
-        "BBC Africa"
+        "Le Monde Afrique",
+        "ReliefWeb"
       ]
     },
     "Gambia": {
@@ -543,12 +582,12 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.21,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.81,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Élection",
@@ -565,6 +604,13 @@
           "lead": "Des militaires et des policiers originaires de Sierra Leone ont été appréhendés par les forces de sécurité guinéennes en"
         },
         {
+          "title": "La Sierra Leone et la Guinée s’accusent mutuellement d’incursions militaires sur leur territoire",
+          "url": "https://www.jeuneafrique.com/1768758/politique/la-sierra-leone-et-la-guinee-saccusent-mutuellement-dincursions-militaires-sur-leur-territoire/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T10:06:52",
+          "lead": "Après « un affrontement », plusieurs militaires sierra-léonais ont été interpellés par l’armée guinéenne. Entre ces deux"
+        },
+        {
           "title": "Tierno Monénembo : « Même avec l’élection de Mamadi Doumbouya, la Guinée est une vraie fausse démocratie »",
           "url": "https://www.jeuneafrique.com/1767573/politique/tierno-monenembo-meme-avec-lelection-de-mamadi-doumbouya-la-guinee-est-une-vraie-fausse-democratie/",
           "source": "Jeune Afrique",
@@ -578,12 +624,12 @@
       ]
     },
     "Sierra Leone": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "elevated",
-      "confidence": "low",
+      "ratio": 6.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -600,9 +646,17 @@
           "source": "RFI Afrique",
           "published": "2026-02-25T04:08:30",
           "lead": "Des militaires et des policiers originaires de Sierra Leone ont été appréhendés par les forces de sécurité guinéennes en"
+        },
+        {
+          "title": "La Sierra Leone et la Guinée s’accusent mutuellement d’incursions militaires sur leur territoire",
+          "url": "https://www.jeuneafrique.com/1768758/politique/la-sierra-leone-et-la-guinee-saccusent-mutuellement-dincursions-militaires-sur-leur-territoire/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T10:06:52",
+          "lead": "Après « un affrontement », plusieurs militaires sierra-léonais ont été interpellés par l’armée guinéenne. Entre ces deux"
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
@@ -621,8 +675,8 @@
     "Côte d'Ivoire": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.7,
-      "ratio": 1.74,
+      "baseline": 1.8,
+      "ratio": 1.71,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -717,9 +771,9 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "AllAfrica",
         "BBC Africa",
+        "AllAfrica",
+        "The Guardian Africa",
         "Africanews"
       ]
     },
@@ -748,10 +802,10 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 11,
+      "article_count": 12,
       "source_count": 4,
       "baseline": 9.2,
-      "ratio": 1.19,
+      "ratio": 1.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -761,7 +815,7 @@
         },
         {
           "word": "Government",
-          "count": 2
+          "count": 3
         },
         {
           "word": "President",
@@ -776,11 +830,11 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Displaced",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -827,11 +881,18 @@
           "lead": "Nigeria's government has denied it paid ransom money to free dozens of schoolchildren kidnapped from a catholic school i"
         },
         {
-          "title": "Six people injured after fire breaks out at Lagos international airport",
-          "url": "http://www.africanews.com/2026/02/24/six-people-injured-after-fire-breaks-out-at-lagos-international-airport/",
-          "source": "Africanews",
-          "published": "2026-02-24T07:05:24",
-          "lead": "Six people were injured and flights temporarily suspended after a fire broke out at Murtala Muhammed International Airpo"
+          "title": "Nigeria: Nigerian Govt Denies U.S. Congress' Claim of Christian Persecution",
+          "url": "https://allafrica.com/stories/202602250220.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T09:24:27",
+          "lead": "[Premium Times] The Nigerian government declared that the country does not have a \"state policy of religious persecution"
+        },
+        {
+          "title": "Nigeria: U.S. Push to Scrap Sharia Sparks Outrage",
+          "url": "https://allafrica.com/stories/202602250118.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T08:14:14",
+          "lead": "[Daily Trust] Islamic clerics and leaders of thought have kicked against the recommendation by a committee of the United"
         },
         {
           "title": "Nigeria: Papiri Abductions - Nigerian Govt Denies Paying Ransom to Terrorists",
@@ -870,10 +931,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
         "BBC Africa",
-        "Africanews"
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Cape Verde": {
@@ -889,17 +950,13 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.8,
-      "ratio": 1.06,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
         {
           "word": "Fighting",
           "count": 1
@@ -909,27 +966,20 @@
           "count": 1
         },
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
           "word": "Crisis",
           "count": 1
         },
         {
           "word": "Humanitarian",
           "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Tchad: les raisons de la fermeture de la frontière avec le Soudan",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-tchad-les-raisons-de-la-fermeture-de-la-fronti%C3%A8re-avec-le-soudan",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T08:21:52",
-          "lead": "Le gouvernement tchadien, qui s'est rassemblé en « réunion extraordinaire de sécurité » lundi 23 février, a annoncé la f"
-        },
         {
           "title": "Sudan: MSF Closes Hospital As Fighting Displaces 400 Families On Sudan-Chad Border",
           "url": "https://allafrica.com/stories/202602250005.html",
@@ -946,27 +996,26 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica",
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.9,
-      "ratio": 0.69,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Au Cameroun, le procès de James Mouangue Kobila pour harcèlement sexuel s’éternise",
-          "url": "https://www.jeuneafrique.com/1766756/politique/au-cameroun-le-proces-de-james-mouangue-kobila-pour-harcelement-sexuel-seternise/",
+          "title": "Entre Paul Biya et l’opposition, la visite du pape Léon XIV au Cameroun devient un enjeu politique",
+          "url": "https://www.jeuneafrique.com/1768012/politique/entre-paul-biya-et-lopposition-la-visite-du-pape-leon-xiv-au-cameroun-devient-un-enjeu-politique/",
           "source": "Jeune Afrique",
-          "published": "2026-02-24T07:04:00",
-          "lead": "Entre absences répétées et audiences reportées, avec des échéances institutionnelles en toile de fond, le procès qui opp"
+          "published": "2026-02-25T08:00:00",
+          "lead": "Prévue après Pâques 2026, la venue du pape au Cameroun provoque un débat inédit. Tandis que le pouvoir prépare l’accueil"
         },
         {
           "title": "Cameroon to release body of late opposition leader",
@@ -982,19 +1031,23 @@
       ]
     },
     "CAR": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.93,
+      "baseline": 1.1,
+      "ratio": 2.72,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
         {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
@@ -1002,7 +1055,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Crisis",
           "count": 1
         },
         {
@@ -1012,6 +1065,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "CAR: République Centrafricaine: Assistance en espèces et bons d’achat (CVA): 1er janvier - 31 décembre 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-assistance-en-especes-et-bons-dachat-cva-1er-janvier-31-decembre-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T08:19:30",
+          "lead": "Country: Central African Republic\n                                      Sources: UN Office for the Coordination of Human"
+        },
         {
           "title": "CAR: République centrafricaine - Redevabilité envers les populations affectées, février, 2026",
           "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-redevabilite-envers-les-populations-affectees-fevrier-2026",
@@ -1032,27 +1092,19 @@
       ]
     },
     "South Sudan": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 1.98,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 1.6,
+      "ratio": 1.26,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
           "word": "Fighting",
-          "count": 2
-        },
-        {
-          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1071,18 +1123,11 @@
           "source": "ReliefWeb",
           "published": "2026-02-25T01:33:38",
           "lead": "Country: South Sudan\n                                      Source: International Organization for Migration\n            "
-        },
-        {
-          "title": "UNICEF South Sudan Humanitarian Flash Update (Conflict in Jonglei State), 24 February 2026",
-          "url": "https://reliefweb.int/report/south-sudan/unicef-south-sudan-humanitarian-flash-update-conflict-jonglei-state-24-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-25T00:04:41",
-          "lead": "Country: South Sudan\n                                      Source: UN Children's Fund\n                                  "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -1101,7 +1146,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.94,
+      "ratio": 0.91,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1156,16 +1201,16 @@
       ]
     },
     "DRC": {
-      "article_count": 14,
+      "article_count": 11,
       "source_count": 7,
       "baseline": 7.9,
-      "ratio": 1.78,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.4,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 8
+          "count": 7
         },
         {
           "word": "Tué",
@@ -1180,19 +1225,19 @@
           "count": 2
         },
         {
-          "word": "Killed",
-          "count": 2
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Rebel",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
           "count": 1
         }
       ],
@@ -1212,10 +1257,6 @@
         [
           "Mort",
           "Rebelle"
-        ],
-        [
-          "Killed",
-          "M23"
         ]
       ],
       "articles": [
@@ -1227,18 +1268,11 @@
           "lead": "Willy Ngoma, porte-parole militaire des rebelles de l'AFC/M23, en RDC, a été tué tôt ce mardi 24 février dans la matinée"
         },
         {
-          "title": "Ferdinand Ilunga, président de la fédération congolaise de boxe: «Bakole et Yoka, sont d'accord pour s'affronter» à Kinshasa",
-          "url": "https://www.rfi.fr/fr/sports/20260224-ferdinand-ilunga-pr%C3%A9sident-de-la-f%C3%A9d%C3%A9ration-congolaise-de-boxe-bakole-et-yoka-sont-d-accord-pour-s-affronter-%C3%A0-kinshasa",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T07:19:47",
-          "lead": "En avril prochain, Kinshasa redeviendra la capitale mondiale de la boxe. Le stade des Martyrs sera le théâtre de l'oppos"
-        },
-        {
           "title": "RD Congo : Willy Ngoma, cadre de l’AFC/M23, tué dans une frappe de drone",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260224-rd-congo-willy-ngoma-cadre-de-l-afc-m23-tu%C3%A9-dans-une-frappe-de-drone",
           "source": "France24 Afrique",
           "published": "2026-02-24T21:31:09",
-          "lead": "En RD Congo, Willy Ngoma, cadre du mouvement rebelle AFC/M23 a été abattu dans l’est du pays dans une frappe de drone. P"
+          "lead": "En RD Congo, Willy Ngoma, cadre du mouvement rebelle AFC/M23, a été abattu dans l’est du pays dans une frappe de drone. "
         },
         {
           "title": "RDC : mort de Willy Ngoma, le porte-parole du M23, dans une frappe de drone",
@@ -1253,13 +1287,6 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-24T16:44:43",
           "lead": "Le conflit, qui dure depuis des décennies, s’est intensifié en janvier après que les rebelles ont réalisé une avancée sa"
-        },
-        {
-          "title": "Tony Yoka, champion olympique de boxe avec la France à Rio en 2016, change de nationalité sportive",
-          "url": "https://www.lemonde.fr/sport/article/2026/02/24/tony-yoka-champion-olympique-de-boxe-avec-la-france-a-rio-2016-change-de-nationalite-sportive_6668033_3242.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-24T08:42:36",
-          "lead": "Le Parisien de 33 ans a publié, lundi soir, une photo de sa nouvelle licence sous les couleurs de la République démocrat"
         },
         {
           "title": "En RDC, une équipe de la Monusco se rend à Uvira pour préparer le suivi du cessez-le-feu",
@@ -1297,21 +1324,28 @@
           "lead": "[Agenzia Fides] Kinshasa -- A fierce battle is raging in the Masisi region of North Kivu province in eastern Democratic "
         },
         {
-          "title": "Congo-Kinshasa: AFC/M23 Spokesperson Lt. Col Willy Ngoma Killed in Drone Attack",
-          "url": "https://allafrica.com/stories/202602240548.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T14:12:23",
-          "lead": "[New Times] AFC/M23 military spokesperson Lt Col Willy Ngoma was killed in a drone attack by the Congolese army coalitio"
+          "title": "DR Congo: République démocratique du Congo : Évaluation rapide intégrée en santé publique, zone de santé de Moba, province de Tanganyika (Janvier 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-evaluation-rapide-integree-en-sante-publique-zone-de-sante-de-moba-province-de-tanganyika-janvier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T03:13:49",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: REACH Initiative\n               "
+        },
+        {
+          "title": "Senegal: Weekly Bulletin on Outbreaks and Other Emergencies: Week 1: 29 December to 4 January 2026 (Data as reported by: 17:00; 4 January 2026)",
+          "url": "https://reliefweb.int/report/senegal/weekly-bulletin-outbreaks-and-other-emergencies-week-1-29-december-4-january-2026-data-reported-1700-4-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T02:42:18",
+          "lead": "Countries: Senegal, Democratic Republic of the Congo, Mauritania\n                                      Source: World Hea"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique",
         "Africanews",
-        "ReliefWeb",
+        "RFI Afrique",
         "AllAfrica",
+        "Jeune Afrique",
+        "France24 Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "São Tomé": {
@@ -1329,17 +1363,17 @@
     "Angola": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 0.9,
-      "ratio": 3.22,
+      "baseline": 1.0,
+      "ratio": 3.11,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Rebelle",
-          "count": 1
+          "word": "Humanitarian",
+          "count": 2
         },
         {
-          "word": "Mort",
+          "word": "Rebelle",
           "count": 1
         },
         {
@@ -1347,19 +1381,23 @@
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -1373,24 +1411,24 @@
           "lead": "Cadre du mouvement rebelle soutenu par le Rwanda, Willy Ngoma a été abattu le 24 février, comme l’ont confirmé plusieurs"
         },
         {
-          "title": "Angola: Reject Bill To Restrict Civil Society",
-          "url": "https://allafrica.com/stories/202602250013.html",
-          "source": "AllAfrica",
-          "published": "2026-02-25T03:03:07",
-          "lead": "[HRW] Johannesburg -- Revise Draft Law to Conform with International Legal Standards"
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         },
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "title": "Angola: Reject Bill to Restrict Civil Society",
+          "url": "https://www.hrw.org/news/2026/02/24/angola-reject-bill-to-restrict-civil-society",
+          "source": "Human Rights Watch",
+          "published": "2026-02-24T22:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              The Na"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Jeune Afrique",
-        "AllAfrica"
+        "ReliefWeb",
+        "Human Rights Watch"
       ]
     },
     "Eritrea": {
@@ -1418,10 +1456,10 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 4.2,
-      "ratio": 0.71,
+      "ratio": 0.96,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1430,11 +1468,19 @@
           "count": 2
         },
         {
-          "word": "Guerre",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1455,44 +1501,52 @@
           "lead": "Le président israélien Isaac Herzog effectue en Éthiopie une visite officielle de deux jours, les 24 et 25 février. La p"
         },
         {
-          "title": "Le Tigré, dans le nord de l’Ethiopie, menacé d’une nouvelle guerre",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/24/le-tigre-dans-le-nord-de-l-ethiopie-menace-d-une-nouvelle-guerre_6668035_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-24T09:00:05",
-          "lead": "Le gouvernement éthiopien a massé des troupes à la frontière de sa région septentrionale. Celle-ci connaît un regain de "
+          "title": "Israeli President Herzog arrives in Addis Ababa at start of two-day official visit",
+          "url": "http://www.africanews.com/2026/02/25/israeli-president-herzog-arrives-in-addis-ababa-at-start-of-two-day-official-visit/",
+          "source": "Africanews",
+          "published": "2026-02-25T07:38:31",
+          "lead": "Israeli President Isaac Herzog arrived in Addis Ababa on Wednesday as he started his official visit to Ethiopia."
+        },
+        {
+          "title": "IRC clinics see a 52% rise in severe malnutrition cases in Somalia as drought deepens amidst funding collapse | The IRC",
+          "url": "https://reliefweb.int/report/somalia/irc-clinics-see-52-rise-severe-malnutrition-cases-somalia-drought-deepens-amidst-funding-collapse-irc",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T07:03:04",
+          "lead": "Country: Somalia\n                                      Source: International Rescue Committee\n                          "
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "ReliefWeb"
       ]
     },
     "Somalia": {
-      "article_count": 11,
+      "article_count": 13,
       "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 4.83,
+      "baseline": 2.5,
+      "ratio": 5.16,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Drought",
+          "count": 4
+        },
+        {
+          "word": "Crisis",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Government",
           "count": 2
         },
         {
           "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1518,6 +1572,27 @@
           "source": "AllAfrica",
           "published": "2026-02-24T15:10:24",
           "lead": "[Horn Diplomat] The Somali Journalists Syndicate (SJS) condemns the abduction of journalist Abdihafid Nor in Mogadishu i"
+        },
+        {
+          "title": "Somalia’s humanitarian crisis worsening with 6.5 million people facing high levels of hunger, Federal Government and United Nations warn",
+          "url": "https://reliefweb.int/report/somalia/somalias-humanitarian-crisis-worsening-65-million-people-facing-high-levels-hunger-federal-government-and-united-nations-warn",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T07:31:52",
+          "lead": "Country: Somalia\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n  "
+        },
+        {
+          "title": "WFP Somalia Country Brief, February 2026",
+          "url": "https://reliefweb.int/report/somalia/wfp-somalia-country-brief-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T07:21:42",
+          "lead": "Country: Somalia\n                                      Source: World Food Programme\n                                    "
+        },
+        {
+          "title": "IRC clinics see a 52% rise in severe malnutrition cases in Somalia as drought deepens amidst funding collapse | The IRC",
+          "url": "https://reliefweb.int/report/somalia/irc-clinics-see-52-rise-severe-malnutrition-cases-somalia-drought-deepens-amidst-funding-collapse-irc",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T07:03:04",
+          "lead": "Country: Somalia\n                                      Source: International Rescue Committee\n                          "
         },
         {
           "title": "Somalia 2025 Post Deyr - Total Acute Malnutrition Burden Estimates by Region (Jan - Dec 2026)",
@@ -1560,35 +1635,21 @@
           "source": "ReliefWeb",
           "published": "2026-02-25T01:30:06",
           "lead": "Country: Somalia\n                                      Source: Food Security and Nutrition Analysis Unit - Somalia\n     "
-        },
-        {
-          "title": "Somalia - Estimated Malnutrition Situation (GAM) - Current: February - March 2026",
-          "url": "https://reliefweb.int/map/somalia/somalia-estimated-malnutrition-situation-gam-current-february-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-25T01:28:20",
-          "lead": "Country: Somalia\n                                      Source: Food Security and Nutrition Analysis Unit - Somalia\n     "
-        },
-        {
-          "title": "Somalia: IPC Acute Food Insecurity and Malnutrition Snapshot | January - June 2026",
-          "url": "https://reliefweb.int/report/somalia/somalia-ipc-acute-food-insecurity-and-malnutrition-snapshot-january-june-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-24T23:42:19",
-          "lead": "Country: Somalia\n                                      Source: Integrated Food Security Phase Classification\n           "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica",
-        "DW Africa"
+        "DW Africa",
+        "ReliefWeb"
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.7,
-      "ratio": 1.13,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.51,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
@@ -1597,6 +1658,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Two Ugandan women detained after allegedly kissing in public",
+          "url": "https://www.bbc.com/news/articles/cvg1vdze5l0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-25T09:24:47",
+          "lead": "Uganda has some of the strictest anti-homosexual laws in the world."
+        },
         {
           "title": "Uganda: Worries grow over Kizza Besigye's health",
           "url": "http://www.africanews.com/2026/02/24/uganda-worries-grow-over-kizza-besigyes-health/",
@@ -1620,17 +1688,18 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "AllAfrica",
         "Africanews"
       ]
     },
     "Kenya": {
-      "article_count": 9,
+      "article_count": 8,
       "source_count": 4,
       "baseline": 5.6,
-      "ratio": 1.61,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.42,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
@@ -1702,27 +1771,20 @@
           "source": "AllAfrica",
           "published": "2026-02-24T15:19:19",
           "lead": "[Capital FM] Nairobi -- Kenyatta National Hospital (KNH) has achieved a medical milestone by performing Kenya's first su"
-        },
-        {
-          "title": "Kenya: Govt to Launch SGR Extension From Naivasha to Kisumu By March 2026",
-          "url": "https://allafrica.com/stories/202602240550.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T14:14:28",
-          "lead": "[Capital FM] Kisumu -- The Standard Gauge Railway (SGR) extension from Naivasha to Kisumu will be officially launched ne"
         }
       ],
       "sources": [
         "Africanews",
         "AllAfrica",
-        "RFI Afrique",
-        "DW Africa"
+        "DW Africa",
+        "RFI Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.82,
+      "ratio": 1.24,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1753,6 +1815,13 @@
           "lead": "Willy Ngoma, porte-parole militaire des rebelles de l'AFC/M23, en RDC, a été tué tôt ce mardi 24 février dans la matinée"
         },
         {
+          "title": "Génocide des Tutsis au Rwanda: Claude Muhayimana interrogé lors de son procès en appel à Paris",
+          "url": "https://www.rfi.fr/fr/afrique/20260224-g%C3%A9nocide-des-tutsis-au-rwanda-claude-muhayimana-interrog%C3%A9-lors-de-son-proc%C3%A8s-en-appel-%C3%A0-paris",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T14:26:43",
+          "lead": "Claude Muhayimana est entendu dans son procès en appel pour complicité à la fois de génocide et de crimes contre l'human"
+        },
+        {
           "title": "RDC : Willy Ngoma, porte-parole militaire de l’AFC/M23, est mort dans une frappe de drone",
           "url": "https://www.jeuneafrique.com/1768534/politique/rdc-willy-ngoma-porte-parole-militaire-de-lafc-m23-est-mort-dans-une-frappe-de-drone/",
           "source": "Jeune Afrique",
@@ -1766,24 +1835,31 @@
       ]
     },
     "Burundi": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 1.71,
-      "status": "elevated",
+      "ratio": 2.56,
+      "status": "high",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "M23",
-          "count": 1
+          "word": "Refugees",
+          "count": 2
         },
         {
-          "word": "Refugees",
+          "word": "M23",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tanzania: Concerns Raised About 'Coercive' Repatriation of Burundian Refugees From Tanzania",
+          "url": "https://allafrica.com/stories/202602250223.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T09:26:11",
+          "lead": "[UN News] Concerns have been raised about the \"coercive\" repatriation from Tanzania of Burundian refugees, many of whom "
+        },
         {
           "title": "Congo-Kinshasa: Trade and Aid to Return to South Kivu As DR Congo-Burundi Strategic Border Reopens",
           "url": "https://allafrica.com/stories/202602250003.html",
@@ -1805,27 +1881,23 @@
       ]
     },
     "Tanzania": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 1.76,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.2,
+      "ratio": 2.56,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Dead",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -1836,6 +1908,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Tanzania: Concerns Raised About 'Coercive' Repatriation of Burundian Refugees From Tanzania",
+          "url": "https://allafrica.com/stories/202602250223.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T09:26:11",
+          "lead": "[UN News] Concerns have been raised about the \"coercive\" repatriation from Tanzania of Burundian refugees, many of whom "
+        },
+        {
           "title": "Concerns raised about ‘coercive’ repatriation of Burundian refugees from Tanzania",
           "url": "https://news.un.org/feed/view/en/story/2026/02/1167028",
           "source": "UN News Africa",
@@ -1843,40 +1922,33 @@
           "lead": "Concerns have been raised about the “coercive” repatriation from Tanzania of Burundian refugees, many of whom do not wan"
         },
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "UN News Africa"
+        "AllAfrica",
+        "UN News Africa",
+        "ReliefWeb"
       ]
     },
     "Madagascar": {
-      "article_count": 9,
+      "article_count": 5,
       "source_count": 5,
-      "baseline": 2.9,
-      "ratio": 3.11,
-      "status": "high",
-      "confidence": "high",
+      "baseline": 3.1,
+      "ratio": 1.63,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 4
-        },
         {
           "word": "Président",
           "count": 3
         },
         {
-          "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Government",
+          "word": "Humanitarian",
           "count": 2
         },
         {
@@ -1884,15 +1956,11 @@
           "count": 1
         },
         {
+          "word": "Flood",
+          "count": 1
+        },
+        {
           "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Dead",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1927,47 +1995,19 @@
           "lead": "The President of Madagascar, Michael Randrianirina, is visiting his French counterpart Emmanuel Macron, in Paris. Accord"
         },
         {
-          "title": "Madagascar: Tropical Cyclone Gezani - Baseline population by Commune in Brickaville District, Toamasina I District, Toamasina II District (24 Feb 2026)",
-          "url": "https://reliefweb.int/map/madagascar/madagascar-tropical-cyclone-gezani-baseline-population-commune-brickaville-district-toamasina-i-district-toamasina-ii-district-24-feb-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-25T00:48:03",
-          "lead": "Country: Madagascar\n                                      Source: MapAction\n                                            "
-        },
-        {
-          "title": "Madagascar: Tropical Cyclone Gezani - Summary of multisector needs assessments conducted in immediate aftermath of cyclone (aerial and rapid field assessment by commune) (24 Feb 2026)",
-          "url": "https://reliefweb.int/map/madagascar/madagascar-tropical-cyclone-gezani-summary-multisector-needs-assessments-conducted-immediate-aftermath-cyclone-aerial-and-rapid-field-assessment-commune-24-feb-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-25T00:46:37",
-          "lead": "Country: Madagascar\n                                      Source: MapAction\n                                            "
-        },
-        {
-          "title": "UNICEF Madagascar Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/madagascar/unicef-madagascar-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-02-24T23:57:51",
-          "lead": "Country: Madagascar\n                                      Source: UN Children's Fund\n                                   "
-        },
-        {
-          "title": "UNICEF Madagascar Humanitarian Flash Update No. 3 (Cyclones FYTIA and GEZANI), 19 February 2026",
-          "url": "https://reliefweb.int/report/madagascar/unicef-madagascar-humanitarian-flash-update-no-3-cyclones-fytia-and-gezani-19-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-24T23:54:47",
-          "lead": "Country: Madagascar\n                                      Source: UN Children's Fund\n                                   "
-        },
-        {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
-        "ReliefWeb",
+        "RFI Afrique",
+        "Jeune Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "Comoros": {
@@ -2010,20 +2050,16 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.8,
-      "ratio": 2.52,
-      "status": "high",
+      "ratio": 2.42,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Dead",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -2041,23 +2077,23 @@
           "lead": "[CPJ] Lusaka -- The Committee to Protect Journalists calls on Zimbabwean authorities to release journalist Gideon Madzik"
         },
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Malawi": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 2.9,
+      "baseline": 1.1,
+      "ratio": 2.81,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -2074,15 +2110,11 @@
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -2107,28 +2139,36 @@
           "lead": "[Nyasa Times] Prophet Shepherd Bushiri has launched a blistering attack on South Africa's Special Investigating Unit (SI"
         },
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Mozambique": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.14,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.67,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Dead",
+          "word": "Flood",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Drought",
           "count": 1
         },
         {
@@ -2136,41 +2176,44 @@
           "count": 1
         },
         {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
+          "word": "Crise",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "World Bank pledges $6 billion to Mozambique over five years",
-          "url": "http://www.africanews.com/2026/02/24/world-bank-pledges-6-billion-to-mozambique-over-five-years/",
-          "source": "Africanews",
-          "published": "2026-02-24T09:43:44",
-          "lead": "The World Bank announced Monday it aims to provide Mozambique with $6 billion in mostly concessional financing over the "
+          "title": "Mozambique: IMF Navigates Economic Policy Strains With Govt",
+          "url": "https://allafrica.com/stories/202602250209.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T09:21:09",
+          "lead": "[Mozambique News Reports And Clippings] IMF thinks the money pot is empty and collapse is nigh, but Frelimo is 'cautious"
         },
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
+        },
+        {
+          "title": "Mozambique 2026 Flood Humanitarian Response - as of 23 February 2026 [EN/PT]",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-2026-flood-humanitarian-response-23-february-2026-enpt",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T07:08:25",
+          "lead": "Country: Mozambique\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Africanews"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Zimbabwe": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 2.19,
+      "baseline": 1.9,
+      "ratio": 2.07,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -2183,15 +2226,11 @@
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -2223,36 +2262,32 @@
           "lead": "[CPJ] Lusaka -- The Committee to Protect Journalists calls on Zimbabwean authorities to release journalist Gideon Madzik"
         },
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.38,
+      "baseline": 0.8,
+      "ratio": 1.32,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Dead",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -2263,11 +2298,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Flooding across Southeast Africa (Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe): Public Health Situation Analysis (PHSA) (23 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/flooding-across-southeast-africa-madagascar-malawi-mozambique-south-africa-zambia-zimbabwe-public-health-situation-analysis-phsa-23-february-2026",
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
           "source": "ReliefWeb",
-          "published": "2026-02-24T23:49:32",
-          "lead": "Countries: Madagascar, Malawi, Mozambique, South Africa, Zambia, Zimbabwe\n                                      Sources:"
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
@@ -2275,13 +2310,26 @@
       ]
     },
     "Botswana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 4.0,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -2290,26 +2338,42 @@
           "source": "AllAfrica",
           "published": "2026-02-24T14:11:14",
           "lead": "[Botswana Daily News] Gaborone -- The Ministry of Lands and Agriculture will embark on a comprehensive reform of the lan"
+        },
+        {
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "South Africa": {
-      "article_count": 19,
-      "source_count": 4,
+      "article_count": 20,
+      "source_count": 6,
       "baseline": 12.7,
-      "ratio": 1.5,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Crisis",
-          "count": 4
+          "word": "President",
+          "count": 3
         },
         {
           "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Crisis",
+          "count": 3
+        },
+        {
+          "word": "War",
           "count": 2
         },
         {
@@ -2325,20 +2389,19 @@
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Dead",
+          "word": "Flood",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "South Africa secures return of 11 men ‘lured’ into Russia-Ukraine war",
+          "url": "https://www.aljazeera.com/news/2026/2/25/south-africa-secures-return-of-11-men-lured-into-russia-ukraine-war?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-25T08:24:20",
+          "lead": "South African President Ramaphosa expresses &#039;heartfelt gratitude&#039; to Russia&#039;s Putin for support in repatr"
+        },
         {
           "title": "Afrique du Sud: Ramaphosa remercie Poutine pour le retour de Sud-Africains enrôlés en Ukraine",
           "url": "https://www.rfi.fr/fr/afrique/20260225-afrique-du-sud-ramaphosa-remercie-poutine-pour-le-retour-de-sud-africains-enr%C3%B4l%C3%A9s-en-ukraine",
@@ -2368,13 +2431,6 @@
           "lead": "[SAnews.gov.za] Gauteng Premier Panyaza Lesufi says a R760 million infrastructure investment upgrade is underway in the "
         },
         {
-          "title": "South Africa: Superbugs + Climate Change = Double Trouble. Here's Why",
-          "url": "https://allafrica.com/stories/202602240182.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T08:36:24",
-          "lead": "[Bhekisisa] Superbugs are a big public health issue. So is climate change. Put the two together and the problem becomes "
-        },
-        {
           "title": "Malawi: Bushiri Fires Back At Findings of South African Investigators",
           "url": "https://allafrica.com/stories/202602250072.html",
           "source": "AllAfrica",
@@ -2382,11 +2438,11 @@
           "lead": "[Nyasa Times] Prophet Shepherd Bushiri has launched a blistering attack on South Africa's Special Investigating Unit (SI"
         },
         {
-          "title": "Angola: Reject Bill To Restrict Civil Society",
-          "url": "https://allafrica.com/stories/202602250013.html",
-          "source": "AllAfrica",
-          "published": "2026-02-25T03:03:07",
-          "lead": "[HRW] Johannesburg -- Revise Draft Law to Conform with International Legal Standards"
+          "title": "PLAYOFF PRESSURE: URC log jam adds spice to SA derbies as Six Nations takes a break",
+          "url": "https://www.dailymaverick.co.za/article/urc-log-jam-adds-spice-to-sa-derbies-as-six-nations-takes-a-break",
+          "source": "Daily Maverick",
+          "published": "2026-02-25T11:12:08",
+          "lead": "The last two rounds of South African derbies will have a bearing on the Bulls, Sharks and Lions’ playoff ambitions, and "
         },
         {
           "title": "ORGANISED CRIME: Virgin Active cuts ties with Interpol-wanted trainer as SAPS remain silent",
@@ -2425,23 +2481,48 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Daily Maverick",
+        "Al Jazeera",
+        "RFI Afrique",
         "AllAfrica",
-        "RFI Afrique"
+        "Daily Maverick",
+        "ReliefWeb",
+        "Human Rights Watch"
       ]
     },
     "Eswatini": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mozambique: Southern Africa: Floods and Cyclone Impact Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/mozambique/southern-africa-floods-and-cyclone-impact-snapshot-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T08:49:19",
+          "lead": "Countries: Mozambique, Angola, Botswana, Democratic Republic of the Congo, Eswatini, Madagascar, Malawi, Namibia, South "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Lesotho": {
       "article_count": 0,
