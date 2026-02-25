@@ -1,30 +1,26 @@
 {
-  "generated_at": "2026-02-25T15:53:55.527296",
+  "generated_at": "2026-02-25T18:54:05.975859",
   "summary": {
-    "high": 6,
-    "elevated": 4,
+    "high": 7,
+    "elevated": 6,
     "normal": 24,
-    "quiet": 20
+    "quiet": 17
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 4.3,
-      "ratio": 0.93,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
         {
           "word": "Crise",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -43,38 +39,30 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-25T05:00:04",
           "lead": "Depuis début février, les procès de Marocains poursuivis en justice pour leur participation supposée aux manifestations "
-        },
-        {
-          "title": "Senegal's Prime minister denounces Morocco's jail term for football fans",
-          "url": "http://www.africanews.com/2026/02/24/senegals-prime-minister-denounces-moroccos-jail-term-for-football-fans/",
-          "source": "Africanews",
-          "published": "2026-02-24T17:20:55",
-          "lead": "Eighteen Senegalese football supporters were handed sentences ranging from three months to a year for their pitch invasi"
-        },
-        {
-          "title": "Morocco and PSG football star Achraf Hakimi to face trial for rape",
-          "url": "http://www.africanews.com/2026/02/24/morocco-and-psg-football-star-achraf-hakimi-to-face-trial-for-rape/",
-          "source": "Africanews",
-          "published": "2026-02-24T16:13:19",
-          "lead": "The footballer has denied the allegations made by a young woman in a suburb of the French capital in February 2023."
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Africanews",
         "Le Monde Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 2.3,
-      "ratio": 0.85,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Pope Leo to visit four African countries in April",
+          "url": "https://www.bbc.com/news/articles/cvg1vdgl3ymo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-25T18:47:05",
+          "lead": "This is the first time that a pope will visit Algeria, whose population is mostly Muslim."
+        },
         {
           "title": "Le pape Léon XIV se rendra en Algérie le 13 avril, première étape de sa tournée africaine",
           "url": "https://www.rfi.fr/fr/afrique/20260225-le-pape-l%C3%A9on-xiv-se-rendra-en-alg%C3%A9rie-le-13-avril-premi%C3%A8re-%C3%A9tape-de-sa-tourn%C3%A9e-africaine",
@@ -88,11 +76,20 @@
           "source": "France24 Afrique",
           "published": "2026-02-25T12:21:28",
           "lead": "Le Vatican a annoncé, mercredi, que Léon XIV se rendra en avril au Cameroun, en Angola, en Guinée équatoriale et en Algé"
+        },
+        {
+          "title": "Pope Leo XIV to make historic Africa tour of four nations in April",
+          "url": "http://www.africanews.com/2026/02/25/pope-leo-xiv-to-make-historic-africa-tour-of-four-nations-in-april/",
+          "source": "Africanews",
+          "published": "2026-02-25T16:39:01",
+          "lead": "Pope Leo XIV will embark on his first major overseas trip of 2026 from April 13-23, visiting Algeria, Angola, Equatorial"
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
-        "France24 Afrique"
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Tunisia": {
@@ -108,22 +105,41 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.41,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Independent Monitoring Critical for Syria’s Transition",
+          "url": "https://www.hrw.org/news/2026/02/25/independent-monitoring-critical-for-syrias-transition",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T18:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              A pers"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Egypt": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.63,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -142,27 +158,27 @@
       ]
     },
     "Sudan": {
-      "article_count": 9,
-      "source_count": 5,
-      "baseline": 5.9,
-      "ratio": 1.53,
+      "article_count": 10,
+      "source_count": 7,
+      "baseline": 6.0,
+      "ratio": 1.68,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "War",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Rsf",
-          "count": 1
-        },
-        {
-          "word": "Casualties",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -170,7 +186,15 @@
           "count": 1
         },
         {
+          "word": "Déplacés",
+          "count": 1
+        },
+        {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         }
       ],
@@ -219,6 +243,13 @@
           "lead": "Au Soudan, les paramilitaires des Forces de soutien rapide (FSR) ont attaqué dimanche 22 février une nouvelle localité a"
         },
         {
+          "title": "Au Soudan du Sud, le manque de financements humanitaires menace la vie de 1,9 million de déplacés, selon des experts de l’ONU",
+          "url": "https://www.lemonde.fr/international/article/2026/02/25/au-soudan-du-sud-le-manque-de-financements-humanitaires-menace-la-vie-de-1-9-million-de-deplaces-selon-des-experts-de-l-onu_6668248_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-25T15:56:54",
+          "lead": "L’agence précise que les besoins dépassent largement les ressources disponibles dans le pays, qui reste l’un des Etats l"
+        },
+        {
           "title": "Dans le ciel du Soudan, l’inquiétante escalade de la guerre des drones",
           "url": "https://www.jeuneafrique.com/1768824/politique/dans-le-ciel-du-soudan-linquietante-escalade-de-la-guerre-des-drones/",
           "source": "Jeune Afrique",
@@ -233,19 +264,21 @@
           "lead": "[Ghanaian Times] GHANA has significant potential to establish a Sustainable Aviation Fuel (SAF) industry to help reduce "
         },
         {
-          "title": "Sudan: People With Disabilities Targeted in North Darfur",
-          "url": "https://allafrica.com/stories/202602250094.html",
-          "source": "AllAfrica",
-          "published": "2026-02-25T05:53:10",
-          "lead": "[HRW] Nairobi -- Executed, Abused by Rapid Support Forces During El Fasher Takeover"
+          "title": "Sudan: People with Disabilities Targeted in North Darfur",
+          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T03:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
         }
       ],
       "sources": [
+        "Jeune Afrique",
+        "Le Monde Afrique",
         "RFI Afrique",
-        "BBC Africa",
-        "AllAfrica",
+        "Human Rights Watch",
         "Al Jazeera",
-        "Jeune Afrique"
+        "BBC Africa",
+        "AllAfrica"
       ]
     },
     "Mauritania": {
@@ -284,9 +317,9 @@
     },
     "Burkina Faso": {
       "article_count": 3,
-      "source_count": 2,
+      "source_count": 3,
       "baseline": 2.4,
-      "ratio": 1.26,
+      "ratio": 1.24,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -309,23 +342,24 @@
           "lead": "Au Burkina Faso, des magistrats ont été condamnés à des peines de prison. Ouvert le 16 janvier dernier, le verdict du pr"
         },
         {
+          "title": "Une compagnie aérienne burkinabée, dernier avatar du pont aérien des Emirats vers la Corne de l’Afrique",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/25/une-compagnie-aerienne-burkinabee-dernier-avatar-du-pont-aerien-des-emirats-vers-la-corne-de-l-afrique_6668262_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-25T17:00:20",
+          "lead": "Batot Air, enregistrée à Ouagadougou, sert de société écran pour le transfert de matériel des Emirats arabes unis à dest"
+        },
+        {
           "title": "Célestin Simporé à Téhéran : l’Iran s’appuie sur le Burkina Faso pour sa nouvelle stratégie sahélienne",
           "url": "https://www.jeuneafrique.com/1768888/politique/celestin-simpore-a-teheran-liran-sappuie-sur-le-burkina-faso-pour-sa-nouvelle-strategie-sahelienne/",
           "source": "Jeune Afrique",
           "published": "2026-02-25T15:54:16",
           "lead": "Le président iranien Massoud Pezeshkian et son ministre de la Défense, Aziz Nasirzadeh, ont reçu le général Célestin Sim"
-        },
-        {
-          "title": "Burkina Faso : quatre hauts magistrats condamnés pour corruption",
-          "url": "https://www.jeuneafrique.com/1768683/politique/burkina-faso-quatre-hauts-magistrats-condamnes-pour-corruption/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-24T18:36:04",
-          "lead": "Quatre hauts magistrats et trois agents des douanes burkinabè ont été condamnés à des peines de prison de deux à dix-hui"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Niger": {
@@ -337,11 +371,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Boko haram",
           "count": 1
         },
         {
-          "word": "Boko haram",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -373,22 +407,22 @@
     },
     "Senegal": {
       "article_count": 8,
-      "source_count": 4,
-      "baseline": 5.6,
-      "ratio": 1.44,
+      "source_count": 5,
+      "baseline": 5.5,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Minister",
-          "count": 3
-        },
-        {
-          "word": "Gouvernement",
           "count": 1
         },
         {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -437,25 +471,26 @@
           "lead": "Alors que des arrestations dans la communauté LGBT+ sont rapportées presque quotidiennement, le Sénégal, pays majoritair"
         },
         {
-          "title": "Senegal's Prime minister denounces Morocco's jail term for football fans",
-          "url": "http://www.africanews.com/2026/02/24/senegals-prime-minister-denounces-moroccos-jail-term-for-football-fans/",
-          "source": "Africanews",
-          "published": "2026-02-24T17:20:55",
-          "lead": "Eighteen Senegalese football supporters were handed sentences ranging from three months to a year for their pitch invasi"
+          "title": "Sénégal : le discours du premier ministre sur le durcissement des peines envers la communauté homosexuelle",
+          "url": "https://www.lemonde.fr/afrique/video/2026/02/25/senegal-le-discours-du-premier-ministre-sur-le-durcissement-des-peines-envers-la-communaute-homosexuelle_6668253_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-25T16:25:08",
+          "lead": "Le premier ministre sénégalais Ousmane Sonko a présenté, mardi 25 février, son projet de loi visant à durcir les peines "
         },
         {
-          "title": "Senegal PM pledges to increase penalty for same-sex relations",
-          "url": "http://www.africanews.com/2026/02/24/senegal-pm-pledges-to-increase-penalty-for-same-sex-relations/",
-          "source": "Africanews",
-          "published": "2026-02-24T18:44:54",
-          "lead": "Senegal's Prime Minister Ousmane Sonko has pledged to increase the punishment for same-sex relations to up to ten years "
+          "title": "Au Sénégal, la « chasse aux homosexuels » oblige Pastef à clarifier son projet de société",
+          "url": "https://www.jeuneafrique.com/1768465/politique/au-senegal-la-chasse-aux-homosexuels-oblige-pastef-a-clarifier-son-projet-de-societe/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T19:48:58",
+          "lead": "Le Premier ministre a défendu son projet de durcissement de la législation contre l’homosexualité devant l’Assemblée nat"
         }
       ],
       "sources": [
+        "Jeune Afrique",
+        "Le Monde Afrique",
         "RFI Afrique",
-        "BBC Africa",
-        "Africanews",
-        "France24 Afrique"
+        "France24 Afrique",
+        "BBC Africa"
       ]
     },
     "Gambia": {
@@ -486,7 +521,7 @@
       "article_count": 6,
       "source_count": 4,
       "baseline": 1.8,
-      "ratio": 3.41,
+      "ratio": 3.35,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -541,10 +576,10 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "Sierra Leone": {
@@ -607,8 +642,8 @@
     "Côte d'Ivoire": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.12,
+      "baseline": 1.7,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -647,15 +682,15 @@
           "count": 1
         },
         {
-          "word": "President",
-          "count": 1
-        },
-        {
           "word": "Minister",
           "count": 1
         },
         {
           "word": "War",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         },
         {
@@ -688,9 +723,9 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "AllAfrica",
-        "Africanews",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "Togo": {
@@ -740,10 +775,10 @@
       ]
     },
     "Nigeria": {
-      "article_count": 16,
+      "article_count": 15,
       "source_count": 4,
       "baseline": 9.3,
-      "ratio": 1.72,
+      "ratio": 1.61,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -780,13 +815,6 @@
           "source": "BBC Africa",
           "published": "2026-02-24T19:42:39",
           "lead": "Diezani Alison-Madueke denies five counts of accepting bribes and a charge of conspiracy to commit bribery."
-        },
-        {
-          "title": "Nigeria denies report it paid 'huge' ransom to free pupils in mass abduction",
-          "url": "https://www.bbc.com/news/articles/cewzyqjq2ygo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-24T18:20:20",
-          "lead": "The rebuttal was followed by news the police chief was resigning a year before the end of his term."
         },
         {
           "title": "Joshua crash driver case adjourned to March",
@@ -857,12 +885,19 @@
           "source": "AllAfrica",
           "published": "2026-02-25T11:00:43",
           "lead": "[Vanguard] A lawyer and member of the National Working Committee of the African Democratic Congress (ADC), Kenneth Okonk"
+        },
+        {
+          "title": "Nigeria: London Property - FG Files Fresh Forgery Charge Against Mike Ozekhome",
+          "url": "https://allafrica.com/stories/202602250379.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T10:51:34",
+          "lead": "[This Day] Abuja -- The federal government on Tuesday filed fresh forgery charge against senior lawyer, Professor Mike O"
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique",
         "BBC Africa",
-        "AllAfrica",
         "Africanews"
       ]
     },
@@ -879,28 +914,71 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.7,
+      "ratio": 0.37,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Sudan: People with Disabilities Targeted in North Darfur",
+          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T03:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Cameroon": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 2.9,
-      "ratio": 1.73,
+      "article_count": 7,
+      "source_count": 4,
+      "baseline": 3.0,
+      "ratio": 2.36,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Mort",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -934,17 +1012,32 @@
           "lead": "Le Vatican a annoncé, mercredi, que Léon XIV se rendra en avril au Cameroun, en Angola, en Guinée équatoriale et en Algé"
         },
         {
+          "title": "Mort d’Anicet Ekane au Cameroun : la famille rejette les conclusions de l’autopsie",
+          "url": "https://www.jeuneafrique.com/1768763/politique/mort-danicet-ekane-au-cameroun-la-famille-rejette-les-conclusions-de-lautopsie/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T17:55:56",
+          "lead": "Trois mois après le décès d’Anicet Ekane, le ministère de la Défense a indiqué conclure à une « mort naturelle » et a or"
+        },
+        {
           "title": "Entre Paul Biya et l’opposition, la visite du pape Léon XIV au Cameroun devient un enjeu politique",
           "url": "https://www.jeuneafrique.com/1768012/politique/entre-paul-biya-et-lopposition-la-visite-du-pape-leon-xiv-au-cameroun-devient-un-enjeu-politique/",
           "source": "Jeune Afrique",
           "published": "2026-02-25T08:00:00",
-          "lead": "Prévue du 13 au 23 avril, la venue du pape au Cameroun provoque un débat inédit. Tandis que le pouvoir prépare l’accueil"
+          "lead": "Prévue du 15 au 18 avril, la venue du pape au Cameroun provoque un débat inédit. Tandis que le pouvoir prépare l’accueil"
+        },
+        {
+          "title": "Pope Leo XIV to make historic Africa tour of four nations in April",
+          "url": "http://www.africanews.com/2026/02/25/pope-leo-xiv-to-make-historic-africa-tour-of-four-nations-in-april/",
+          "source": "Africanews",
+          "published": "2026-02-25T16:39:01",
+          "lead": "Pope Leo XIV will embark on his first major overseas trip of 2026 from April 13-23, visiting Algeria, Angola, Equatorial"
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "CAR": {
@@ -962,17 +1055,13 @@
     "South Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 1.32,
+      "baseline": 1.6,
+      "ratio": 1.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
+          "word": "Déplacés",
           "count": 1
         }
       ],
@@ -986,23 +1075,23 @@
           "lead": "Deux tonnes et demie de stupéfiants ont été interceptées à l'aéroport de Douala : de la cocaïne et du tramadol venus d'I"
         },
         {
-          "title": "South Sudan: UN Aid Chief sounds alarm on humanitarian situation",
-          "url": "http://www.africanews.com/2026/02/24/south-sudan-un-aid-chief-sounds-alarm-on-humanitarian-situation/",
-          "source": "Africanews",
-          "published": "2026-02-24T18:35:17",
-          "lead": "UN aid chief Tom Fletcher has sounded the alarm about the humanitarian situation in South Sudan, where fighting rages on"
+          "title": "Au Soudan du Sud, le manque de financements humanitaires menace la vie de 1,9 million de déplacés, selon des experts de l’ONU",
+          "url": "https://www.lemonde.fr/international/article/2026/02/25/au-soudan-du-sud-le-manque-de-financements-humanitaires-menace-la-vie-de-1-9-million-de-deplaces-selon-des-experts-de-l-onu_6668248_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-25T15:56:54",
+          "lead": "L’agence précise que les besoins dépassent largement les ressources disponibles dans le pays, qui reste l’un des Etats l"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Africanews"
+        "Le Monde Afrique"
       ]
     },
     "Eq. Guinea": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.5,
-      "ratio": 4.0,
+      "ratio": 6.0,
       "status": "high",
       "confidence": "medium",
       "keywords": [],
@@ -1021,11 +1110,19 @@
           "source": "France24 Afrique",
           "published": "2026-02-25T12:21:28",
           "lead": "Le Vatican a annoncé, mercredi, que Léon XIV se rendra en avril au Cameroun, en Angola, en Guinée équatoriale et en Algé"
+        },
+        {
+          "title": "Pope Leo XIV to make historic Africa tour of four nations in April",
+          "url": "http://www.africanews.com/2026/02/25/pope-leo-xiv-to-make-historic-africa-tour-of-four-nations-in-april/",
+          "source": "Africanews",
+          "published": "2026-02-25T16:39:01",
+          "lead": "Pope Leo XIV will embark on his first major overseas trip of 2026 from April 13-23, visiting Algeria, Angola, Equatorial"
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "Gabon": {
@@ -1080,57 +1177,62 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 6,
-      "source_count": 3,
-      "baseline": 7.7,
-      "ratio": 0.78,
+      "article_count": 8,
+      "source_count": 5,
+      "baseline": 7.6,
+      "ratio": 1.05,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 5
+          "count": 6
         },
         {
-          "word": "Tué",
-          "count": 2
+          "word": "Fighting",
+          "count": 1
         },
         {
           "word": "Rebelle",
-          "count": 2
+          "count": 1
+        },
+        {
+          "word": "Tué",
+          "count": 1
         },
         {
           "word": "Combat",
           "count": 1
         },
         {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Killed",
+          "word": "Attack",
           "count": 1
         },
         {
           "word": "Rebel",
           "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "M23",
-          "Rebelle"
-        ],
-        [
-          "M23",
-          "Tué"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Hundreds return from Burundi to DRC as border shut by M23 fighting reopens",
+          "url": "https://www.aljazeera.com/features/2026/2/25/hundreds-return-from-burundi-to-drc-as-border-shut-by-m23-fighting-reopens?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-25T16:27:17",
+          "lead": "More than 90,000 Congolese fled across the border after M23 stormed in and took control of Uvira nearly 3 months ago."
+        },
+        {
+          "title": "En RD Congo, les forces de Kinshasa mènent des attaques sur plusieurs fronts contre l'AFC/M23",
+          "url": "https://www.france24.com/fr/afrique/20260225-rd-congo-attaques-forces-kinshasa-plusieurs-fronts-groupe-arm%C3%A9-m23-drones-combats",
+          "source": "France24 Afrique",
+          "published": "2026-02-25T17:39:29",
+          "lead": "Dans l'est de la République démocratique du Congo, des milices locales appuyées par des militaires congolais ont mené me"
+        },
         {
           "title": "RD Congo : Willy Ngoma, cadre de l’AFC/M23, tué dans une frappe de drone",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260224-rd-congo-willy-ngoma-cadre-de-l-afc-m23-tu%C3%A9-dans-une-frappe-de-drone",
@@ -1153,30 +1255,32 @@
           "lead": "Attendu à Kinshasa pour un combat inédit, Tony Yoka veut aussi transmettre son expérience à la jeunesse congolaise à tra"
         },
         {
-          "title": "RDC : mort de Willy Ngoma, le porte-parole du M23, dans une frappe de drone",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/24/rdc-mort-de-willy-ngoma-le-porte-parole-du-m23-dans-une-frappe-de-drone_6668121_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-24T17:26:09",
-          "lead": "Le décès de cette figure historique du mouvement rebelle, à l’offensive depuis 2021 dans l’est de la RDC, ne devrait pas"
+          "title": "Milices mobondo en RDC : « La menace n’est plus qu’à 10 % de ce qu’elle était »",
+          "url": "https://www.jeuneafrique.com/1768607/politique/milices-mobondo-en-rdc-la-menace-nest-plus-qua-10-de-ce-quelle-etait/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T19:21:58",
+          "lead": "Plus de 500 combattants se sont déjà rendus, selon Éliézer Ntambwe, ministre délégué chargé des Anciens Combattants. Lui"
         },
         {
-          "title": "RDC : un porte-parole du M23 tué dans une attaque de drone dans l’est du pays",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/24/rdc-un-porte-parole-du-m23-tue-dans-une-attaque-de-drone-dans-l-est-du-pays_6668106_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-24T16:44:43",
-          "lead": "Le conflit, qui dure depuis des décennies, s’est intensifié en janvier après que les rebelles ont réalisé une avancée sa"
+          "title": "RDC : Kinshasa relance l’offensive contre le M23 sur plusieurs fronts",
+          "url": "https://www.jeuneafrique.com/1769080/politique/rdc-kinshasa-relance-loffensive-contre-le-m23-sur-plusieurs-fronts/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T17:55:39",
+          "lead": "Les forces armées congolaises et des milices fidèles à Kinshasa ont lancé plusieurs attaques contre les rebelles de l’AF"
         },
         {
-          "title": "Senior M23 commander killed in Eastern DR Congo drone strike",
-          "url": "http://www.africanews.com/2026/02/24/senior-m23-commander-killed-in-eastern-dr-congo-drone-strike/",
+          "title": "DR Congo launches drone strikes on M23 at key coltan mine",
+          "url": "http://www.africanews.com/2026/02/25/dr-congo-launches-drone-strikes-on-m23-at-key-coltan-mine/",
           "source": "Africanews",
-          "published": "2026-02-24T15:57:23",
-          "lead": "The military spokesperson for the M23 rebel group, Lieutenant-Colonel Willy Ngoma, was killed early Tuesday in a drone s"
+          "published": "2026-02-25T16:16:54",
+          "lead": "DR Congo government forces launched a major attack on the M23 rebel group in the east, using drones to strike a key mini"
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Le Monde Afrique",
         "Africanews",
+        "Al Jazeera",
         "France24 Afrique"
       ]
     },
@@ -1193,15 +1297,15 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 1.0,
-      "ratio": 3.0,
+      "ratio": 4.14,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "President",
+          "word": "Humanitarian",
           "count": 1
         },
         {
@@ -1209,7 +1313,7 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1230,6 +1334,13 @@
           "lead": "Le Vatican a annoncé, mercredi, que Léon XIV se rendra en avril au Cameroun, en Angola, en Guinée équatoriale et en Algé"
         },
         {
+          "title": "Pope Leo XIV to make historic Africa tour of four nations in April",
+          "url": "http://www.africanews.com/2026/02/25/pope-leo-xiv-to-make-historic-africa-tour-of-four-nations-in-april/",
+          "source": "Africanews",
+          "published": "2026-02-25T16:39:01",
+          "lead": "Pope Leo XIV will embark on his first major overseas trip of 2026 from April 13-23, visiting Algeria, Angola, Equatorial"
+        },
+        {
           "title": "Angola: Reject Bill to Restrict Civil Society",
           "url": "https://www.hrw.org/news/2026/02/24/angola-reject-bill-to-restrict-civil-society",
           "source": "Human Rights Watch",
@@ -1238,22 +1349,42 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
-        "Human Rights Watch",
-        "France24 Afrique"
+        "Africanews",
+        "Human Rights Watch"
       ]
     },
     "Eritrea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.45,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Rebelle",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Pourquoi l’Ethiopie et l’Erythrée sont à nouveau au bord de la guerre",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/25/pourquoi-l-ethiopie-et-l-erythree-sont-a-nouveau-au-bord-de-la-guerre_6668254_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-25T16:29:19",
+          "lead": "La tension monte entre les deux pays et la région rebelle du Tigré. Addis-Abeba a mobilisé troupes et artillerie aux abo"
+        }
+      ],
+      "sources": [
+        "Le Monde Afrique"
+      ]
     },
     "Djibouti": {
       "article_count": 0,
@@ -1268,37 +1399,59 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 4.2,
-      "ratio": 0.71,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 2
+          "word": "Président",
+          "count": 1
         },
         {
-          "word": "Président",
+          "word": "Rebelle",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Will Ethiopia be part of Israel’s ‘hexagon’ alliance rivalling its enemies?",
-          "url": "https://www.aljazeera.com/news/2026/2/25/will-ethiopia-be-part-of-israels-hexagon-alliance-rivalling-its-enemies?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-25T11:11:39",
-          "lead": "Israeli President Herzog is in Addis Ababa days after high-level delegations from Turkiye and Saudi Arabia also visited."
-        },
-        {
           "title": "Le président israélien en visite en Éthiopie, un partenaire clé sur le continent africain",
           "url": "https://www.rfi.fr/fr/afrique/20260224-le-pr%C3%A9sident-isra%C3%A9lien-en-visite-en-%C3%A9thiopie-un-partenaire-cl%C3%A9-sur-le-continent-africain",
           "source": "RFI Afrique",
           "published": "2026-02-24T21:10:57",
           "lead": "Le président israélien Isaac Herzog est arrivé ce 24 février en Éthiopie pour une visite de deux jours. Au menu notammen"
+        },
+        {
+          "title": "Pourquoi l’Ethiopie et l’Erythrée sont à nouveau au bord de la guerre",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/25/pourquoi-l-ethiopie-et-l-erythree-sont-a-nouveau-au-bord-de-la-guerre_6668254_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-25T16:29:19",
+          "lead": "La tension monte entre les deux pays et la région rebelle du Tigré. Addis-Abeba a mobilisé troupes et artillerie aux abo"
+        },
+        {
+          "title": "FMI : qui pour succéder à Abebe Selassie à la direction du département Afrique ?",
+          "url": "https://www.jeuneafrique.com/1768930/economie-entreprises/fmi-qui-pour-succeder-a-abebe-selassie-a-la-direction-du-departement-afrique/",
+          "source": "Jeune Afrique",
+          "published": "2026-02-25T18:58:28",
+          "lead": "Alors que l’économiste éthiopien quittera son poste le 1er mai, plusieurs candidats se sont déjà positionnés pour lui su"
+        },
+        {
+          "title": "Ethiopia revokes media licence of independent outlet Addis Standard",
+          "url": "http://www.africanews.com/2026/02/25/ethiopia-revokes-media-licence-of-independent-outlet-addis-standard/",
+          "source": "Africanews",
+          "published": "2026-02-25T16:20:45",
+          "lead": "Ethiopia on Tuesday revoked the licence of independent online outlet Addis Standard saying it harmed national interests,"
         },
         {
           "title": "Israeli President Herzog arrives in Addis Ababa at start of two-day official visit",
@@ -1310,8 +1463,9 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Africanews",
-        "Al Jazeera"
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Somalia": {
@@ -1339,11 +1493,11 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Al-shabaab",
           "count": 1
         },
         {
-          "word": "Al-shabaab",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1393,8 +1547,8 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "AllAfrica",
+        "The Guardian Africa",
         "Africanews",
         "Al Jazeera"
       ]
@@ -1432,16 +1586,16 @@
         }
       ],
       "sources": [
-        "BBC Africa",
         "AllAfrica",
+        "BBC Africa",
         "Africanews"
       ]
     },
     "Kenya": {
-      "article_count": 5,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 5.5,
-      "ratio": 0.91,
+      "ratio": 0.73,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1451,6 +1605,30 @@
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1471,13 +1649,6 @@
           "lead": "[Capital FM] Nairobi -- Kenya has expelled Zimbabwean constitutional lawyer and civic advocate Brian Bright Kagoro, alle"
         },
         {
-          "title": "Africa: African Development Bank, UNDP and Partners Launch the Ai 10 Billion Initiative During 2026 Nairobi Ai Forum",
-          "url": "https://allafrica.com/stories/202602240717.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T18:21:15",
-          "lead": "[African Development Bank (AfDB)] The African Development Bank Group (the Bank Group) and the United Nations Development"
-        },
-        {
           "title": "Kenya: Duchess of Edinburgh Visits Kenya to Champion Women's Role in Peace and Security",
           "url": "https://allafrica.com/stories/202602250107.html",
           "source": "AllAfrica",
@@ -1485,28 +1656,29 @@
           "lead": "[Capital FM] Nairobi -- The Duchess of Edinburgh has arrived in Kenya for a high-level visit aimed at strengthening the "
         },
         {
-          "title": "Sudan: People With Disabilities Targeted in North Darfur",
-          "url": "https://allafrica.com/stories/202602250094.html",
-          "source": "AllAfrica",
-          "published": "2026-02-25T05:53:10",
-          "lead": "[HRW] Nairobi -- Executed, Abused by Rapid Support Forces During El Fasher Takeover"
+          "title": "Sudan: People with Disabilities Targeted in North Darfur",
+          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T03:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Rwanda": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.82,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
+          "word": "Combat",
           "count": 1
         },
         {
@@ -1518,7 +1690,7 @@
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1545,13 +1717,21 @@
       ]
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.85,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.1,
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "M23",
+          "count": 1
+        },
         {
           "word": "Refugees",
           "count": 1
@@ -1559,6 +1739,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Hundreds return from Burundi to DRC as border shut by M23 fighting reopens",
+          "url": "https://www.aljazeera.com/features/2026/2/25/hundreds-return-from-burundi-to-drc-as-border-shut-by-m23-fighting-reopens?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-02-25T16:27:17",
+          "lead": "More than 90,000 Congolese fled across the border after M23 stormed in and took control of Uvira nearly 3 months ago."
+        },
         {
           "title": "Tanzania: Concerns Raised About 'Coercive' Repatriation of Burundian Refugees From Tanzania",
           "url": "https://allafrica.com/stories/202602250223.html",
@@ -1568,7 +1755,8 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Al Jazeera"
       ]
     },
     "Tanzania": {
@@ -1611,11 +1799,11 @@
           "count": 3
         },
         {
-          "word": "President",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1653,8 +1841,8 @@
       "sources": [
         "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Comoros": {
@@ -1694,13 +1882,18 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.8,
-      "ratio": 1.26,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 2.52,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1709,10 +1902,18 @@
           "source": "The Guardian Africa",
           "published": "2026-02-25T13:00:36",
           "lead": "Leaked draft of $1bn memorandum of understanding reveals mandatory targets, sharing of data, and reported access to mini"
+        },
+        {
+          "title": "Zambia: politician arrested over allegedly faking image of president",
+          "url": "http://www.africanews.com/2026/02/25/zambia-politician-arrested-over-allegedly-faking-image-of-president/",
+          "source": "Africanews",
+          "published": "2026-02-25T16:33:20",
+          "lead": "The National Democratic Congress (NDC) Secretary General Mambwe Zimba of Zambia was arrested on Tuesday, allegedly over "
         }
       ],
       "sources": [
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "Africanews"
       ]
     },
     "Malawi": {
@@ -1762,14 +1963,14 @@
     "Zimbabwe": {
       "article_count": 9,
       "source_count": 4,
-      "baseline": 2.0,
-      "ratio": 4.58,
+      "baseline": 2.1,
+      "ratio": 4.28,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Government",
-          "count": 2
+          "count": 3
         },
         {
           "word": "President",
@@ -1777,6 +1978,10 @@
         },
         {
           "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1802,13 +2007,6 @@
           "source": "Al Jazeera",
           "published": "2026-02-25T14:41:33",
           "lead": "India and Zimbabwe are both in need to a Super Eights win to keep alive T20 World Cup semifinal dream."
-        },
-        {
-          "title": "Zimbabwe imposes ban on exports of all raw minerals and lithium concentrate",
-          "url": "https://www.aljazeera.com/news/2026/2/25/zimbabwe-imposes-ban-on-exports-of-all-raw-minerals-and-lithium-concentrate?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-25T11:54:04",
-          "lead": "The immediate ban covers all raw minerals already in transit and will remain in place until further notice."
         },
         {
           "title": "Zimbabwe walks away from $367M US health deal over sovereignty concerns",
@@ -1844,11 +2042,18 @@
           "source": "AllAfrica",
           "published": "2026-02-25T14:10:38",
           "lead": "[263Chat] Government has suspended the export of all raw minerals and lithium concentrates with immediate effect, in a m"
+        },
+        {
+          "title": "Zimbabwe: Government Suspends Export of All Raw Minerals, Mines Minister Says Move Is in National Interest",
+          "url": "https://allafrica.com/stories/202602250540.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T15:39:23",
+          "lead": "[New Zimbabwe] Discover morewatervehicleHealth and wellness productsGOVERNMENT has suspended the export of raw minerals "
         }
       ],
       "sources": [
-        "BBC Africa",
         "AllAfrica",
+        "BBC Africa",
         "Africanews",
         "Al Jazeera"
       ]
@@ -1895,8 +2100,8 @@
     "South Africa": {
       "article_count": 16,
       "source_count": 4,
-      "baseline": 12.4,
-      "ratio": 1.29,
+      "baseline": 12.6,
+      "ratio": 1.27,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1917,7 +2122,7 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Humanitarian",
           "count": 1
         },
         {
@@ -1925,7 +2130,7 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1981,6 +2186,13 @@
           "lead": "[Scrolla] Darrel Brown told CBS 60 Minutes that the Newcastle crosses stood for less than 48 hours to honour killed comm"
         },
         {
+          "title": "BUSINESS REFLECTION: Loaded for Bear: Pot smokers can once again raise a bong to the Budget",
+          "url": "https://www.dailymaverick.co.za/article/loaded-for-bear-pot-smokers-can-once-again-raise-a-bong-to-the-budget",
+          "source": "Daily Maverick",
+          "published": "2026-02-25T19:10:58",
+          "lead": "Through the dense cloud of smoke that hangs over South African pot policy, recreational cannabis products — the goods th"
+        },
+        {
           "title": "BUDGET 2026: Treasury pivots on SA’s turning point",
           "url": "https://www.dailymaverick.co.za/article/treasury-pivots-on-sas-turning-point",
           "source": "Daily Maverick",
@@ -2007,13 +2219,6 @@
           "source": "Daily Maverick",
           "published": "2026-02-25T14:48:57",
           "lead": "South Africa’s social grant system sees increased funding, while Sassa is intensifying fraud checks and compliance measu"
-        },
-        {
-          "title": "BUDGET 2026: Read in full: Enoch Godongwana's Budget Speech 2026",
-          "url": "https://www.dailymaverick.co.za/article/read-in-full-enoch-godongwanas-budget-speech-2026",
-          "source": "Daily Maverick",
-          "published": "2026-02-25T14:24:01",
-          "lead": "In the 2026 Budget Speech, Finance Minister Enoch Godongwana has unveiled key reforms and strategies to bolster South Af"
         }
       ],
       "sources": [
