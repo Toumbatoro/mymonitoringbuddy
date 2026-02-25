@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-02-25T01:21:43.275846",
+  "generated_at": "2026-02-25T04:47:38.599853",
   "summary": {
-    "high": 1,
-    "elevated": 9,
-    "normal": 23,
+    "high": 0,
+    "elevated": 7,
+    "normal": 26,
     "quiet": 21
   },
   "countries": {
     "Morocco": {
-      "article_count": 7,
-      "source_count": 5,
-      "baseline": 4.3,
-      "ratio": 1.63,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 4.4,
+      "ratio": 1.14,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Minister",
@@ -30,25 +30,11 @@
           "lead": "Paris St-Germain defender Achraf Hakimi says he is set to face trial after an allegation of rape was made against him."
         },
         {
-          "title": "How Epstein tried to buy a Moroccan palace months before his death",
-          "url": "https://www.aljazeera.com/news/2026/2/24/how-epstein-tried-to-buy-a-moroccan-palace-months-before-his-death?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-24T16:26:20",
-          "lead": "As US federal charges loomed for Epstein, newly released documents show offshore structuring, rejected bank transfers."
-        },
-        {
           "title": "Les adieux du Marocain Romain Saïss à la sélection nationale",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260224-les-adieux-du-marocain-romain-sa%C3%AFss-%C3%A0-la-s%C3%A9lection-nationale",
           "source": "RFI Afrique",
           "published": "2026-02-24T16:34:34",
           "lead": "En 2022 au Qatar, le Maroc est devenu la première sélection africaine à atteindre le dernier carré d’un Mondial. Dans se"
-        },
-        {
-          "title": "Une activiste de la «Gen Z 212» issue de la diaspora arrêtée et poursuivie au Maroc",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-une-activiste-de-gen-z-212-issue-de-la-diaspora-arr%C3%AAt%C3%A9e-et-poursuivie-au-maroc",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T04:47:21",
-          "lead": "Au Maroc, une activiste de la « Gen Z 212 » est actuellement jugée. Zineb El Kharroubi a une particularité : elle a mili"
         },
         {
           "title": "Au Maroc, l’hommage à des supplétifs de l’armée française ravive les blessures de la colonisation",
@@ -74,16 +60,15 @@
       ],
       "sources": [
         "Africanews",
-        "Al Jazeera",
+        "BBC Africa",
         "RFI Afrique",
-        "Le Monde Afrique",
-        "BBC Africa"
+        "Le Monde Afrique"
       ]
     },
     "Algeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -122,7 +107,7 @@
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -132,32 +117,20 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.91,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.23,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Ceasefire",
-          "count": 2
-        },
         {
           "word": "War",
           "count": 2
         },
         {
-          "word": "Violence",
+          "word": "Ceasefire",
           "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Crisis",
-          "count": 1
         },
         {
           "word": "Killed",
@@ -168,7 +141,19 @@
           "count": 1
         },
         {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -180,13 +165,6 @@
           "source": "AllAfrica",
           "published": "2026-02-24T06:51:31",
           "lead": "[Ayin Network] A new ceasefire proposal backed by the Quad has emerged as the latest diplomatic push to halt Sudan's dev"
-        },
-        {
-          "title": "Egypt: NGO Denounces the Detention and Torture of Eritrean Refugees in Egypt",
-          "url": "https://allafrica.com/stories/202602240417.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T11:08:03",
-          "lead": "[RFI] More than 3,000 Eritrean refugees have been detained in Egypt this year and some have reported sexual violence and"
         },
         {
           "title": "Israel: Aid Groups Barred From Gaza, West Bank",
@@ -202,19 +180,35 @@
       ]
     },
     "Sudan": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 9,
+      "source_count": 5,
       "baseline": 5.9,
-      "ratio": 1.02,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.54,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
+          "word": "Fighting",
+          "count": 3
+        },
+        {
           "word": "War",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Casualties",
           "count": 1
         },
         {
@@ -224,26 +218,17 @@
         {
           "word": "Humanitaire",
           "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Drones hammer Sudan's gold and oil zone - the pivotal new front line",
+          "url": "https://www.bbc.com/news/articles/cjwz6z14w65o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-25T00:43:00",
+          "lead": "Intensified attacks in the Kordofan region have led to mass casualties as peace remains elusive."
+        },
         {
           "title": "At least 28 people killed as Sudan paramilitary force tears through Darfur",
           "url": "https://www.aljazeera.com/news/2026/2/24/rsf-tears-through-darfur-town-killing-28-doctors?traffic_source=rss",
@@ -273,11 +258,25 @@
           "lead": "[HRW] Report on El Fasher Crimes Should Spur Action to Halt Atrocities"
         },
         {
+          "title": "Sudan: MSF Closes Hospital As Fighting Displaces 400 Families On Sudan-Chad Border",
+          "url": "https://allafrica.com/stories/202602250005.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T02:52:37",
+          "lead": "[Dabanga] El Tina -- M&#xe9;decins Sans Fronti&#xe8;res (MSF) has closed its hospital in El Tina, the Chadian border tow"
+        },
+        {
           "title": "Sudan: The Quad's Latest Ceasefire Proposal for Sudan",
           "url": "https://allafrica.com/stories/202602240085.html",
           "source": "AllAfrica",
           "published": "2026-02-24T06:51:31",
           "lead": "[Ayin Network] A new ceasefire proposal backed by the Quad has emerged as the latest diplomatic push to halt Sudan's dev"
+        },
+        {
+          "title": "Sudan: People with Disabilities Targeted in North Darfur",
+          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T03:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
         },
         {
           "title": "UN Body Finds 'Hallmarks of Genocide' in Darfur",
@@ -290,6 +289,7 @@
       "sources": [
         "RFI Afrique",
         "Human Rights Watch",
+        "BBC Africa",
         "AllAfrica",
         "Al Jazeera"
       ]
@@ -309,15 +309,15 @@
     "Mali": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.3,
-      "ratio": 0.3,
+      "baseline": 3.2,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Est du Sénégal: Kidira, face à la peur d’une contagion du conflit malien [3/5]",
+          "title": "Est du Sénégal: Kidira, face à la peur d’une menace jihadiste [3/5]",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260224-est-du-s%C3%A9n%C3%A9gal-kidira-face-%C3%A0-la-peur-d-une-contagion-du-conflit-malien-3-5",
           "source": "RFI Afrique",
           "published": "2026-02-24T23:01:35",
@@ -354,24 +354,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Niger": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 4.0,
-      "ratio": 0.5,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.9,
+      "ratio": 0.25,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Boko haram",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Boko haram",
           "count": 1
         }
       ],
@@ -383,18 +383,10 @@
           "source": "RFI Afrique",
           "published": "2026-02-24T22:40:43",
           "lead": "Au Nigéria, le gouvernement a démenti mardi 24 février avoir versé une rançon à Boko Haram pour obtenir la libération de"
-        },
-        {
-          "title": "Nigeria: 9 Die in Niger, Lagos Road Crashes",
-          "url": "https://allafrica.com/stories/202602240318.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T10:05:44",
-          "lead": "[Daily Trust] Nine people lost their lives and several others were injured in separate road accidents in Niger and Lagos"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Senegal": {
@@ -420,7 +412,7 @@
           "lead": "Senegal's prime minister says it is \"regrettable\" that 18 of its football fans have been handed prison sentences related"
         },
         {
-          "title": "Est du Sénégal: Kidira, face à la peur d’une contagion du conflit malien [3/5]",
+          "title": "Est du Sénégal: Kidira, face à la peur d’une menace jihadiste [3/5]",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260224-est-du-s%C3%A9n%C3%A9gal-kidira-face-%C3%A0-la-peur-d-une-contagion-du-conflit-malien-3-5",
           "source": "RFI Afrique",
           "published": "2026-02-24T23:01:35",
@@ -449,10 +441,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique",
         "Africanews",
-        "BBC Africa"
+        "BBC Africa",
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Gambia": {
@@ -470,7 +462,7 @@
     "Guinea-Bissau": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -480,15 +472,22 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.61,
+      "ratio": 1.23,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sierra Leone–Guinée: nouvel incident à la frontière, seize militaires sierra-léonais interpellés",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-sierra-leone%E2%80%93guin%C3%A9e-nouvel-incident-%C3%A0-la-fronti%C3%A8re-seize-militaires-sierra-l%C3%A9onais-interpell%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T04:08:30",
+          "lead": "Des militaires et des policiers originaires de Sierra Leone ont été appréhendés par les forces de sécurité guinéennes en"
+        },
         {
           "title": "Massacre du 28 septembre 2009 en Guinée: la justice demande la libération de trois accusés",
           "url": "https://www.rfi.fr/fr/afrique/20260224-massacre-du-28-septembre-2009-en-guin%C3%A9e-la-justice-demande-la-lib%C3%A9ration-de-trois-accus%C3%A9s",
@@ -502,9 +501,31 @@
       ]
     },
     "Sierra Leone": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.5,
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Sierra Leone–Guinée: nouvel incident à la frontière, seize militaires sierra-léonais interpellés",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-sierra-leone%E2%80%93guin%C3%A9e-nouvel-incident-%C3%A0-la-fronti%C3%A8re-seize-militaires-sierra-l%C3%A9onais-interpell%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T04:08:30",
+          "lead": "Des militaires et des policiers originaires de Sierra Leone ont été appréhendés par les forces de sécurité guinéennes en"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
+    },
+    "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.5,
+      "baseline": 1.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -513,53 +534,11 @@
       "articles": [],
       "sources": []
     },
-    "Liberia": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 1.56,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Protest",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Liberia: Opposition Party Alleges Plot to Bar Former President Weah From 2029 Elections",
-          "url": "https://allafrica.com/stories/202602240393.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T10:29:52",
-          "lead": "[FrontPageAfrica] Monrovia -- In a statement posted on his social media page, Koijee claimed that a proposed amendment t"
-        },
-        {
-          "title": "Liberia: Phebe Hospital Staff Stage Protest",
-          "url": "https://allafrica.com/stories/202602240262.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T09:49:56",
-          "lead": "[New Dawn] Workers at Phebe Hospital in Bong County carried out their threat to shut down the Hospital's operation on Mo"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
     "Côte d'Ivoire": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.17,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -590,28 +569,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 5,
-      "source_count": 5,
-      "baseline": 2.9,
-      "ratio": 1.73,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 3.0,
+      "ratio": 1.35,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Coup",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Putsch",
-          "count": 1
-        },
-        {
-          "word": "Président",
           "count": 1
         },
         {
@@ -636,13 +611,6 @@
           "lead": "‘Extraordinary’ golden lamb’s head pillaged in 1874 from what is now Ghana remains hidden in officers’ messThe Royal Art"
         },
         {
-          "title": "Ghana: il y a 60 ans, le président Kwame Nkrumah était renversé par un coup d'État",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-ghana-il-y-a-60-ans-le-pr%C3%A9sident-kwame-nkrumah-%C3%A9tait-renvers%C3%A9-par-un-coup-d-%C3%A9tat",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T10:30:22",
-          "lead": "Au Ghana, il y a soixante ans jour pour jour, le premier président et architecte de l’indépendance du pays en 1957, Kwam"
-        },
-        {
           "title": "Ghana renames Kotoka Airport, reigniting coup debate",
           "url": "http://www.africanews.com/2026/02/24/ghana-renames-kotoka-airport-reigniting-coup-debate/",
           "source": "Africanews",
@@ -659,10 +627,9 @@
       ],
       "sources": [
         "Africanews",
-        "AllAfrica",
-        "RFI Afrique",
+        "BBC Africa",
         "The Guardian Africa",
-        "BBC Africa"
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -692,13 +659,25 @@
     "Nigeria": {
       "article_count": 12,
       "source_count": 5,
-      "baseline": 9.1,
-      "ratio": 1.32,
+      "baseline": 9.2,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Boko haram",
+          "count": 3
+        },
+        {
+          "word": "Minister",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Government",
           "count": 2
         },
         {
@@ -710,24 +689,28 @@
           "count": 1
         },
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Displaced",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Boko haram",
+          "Government"
+        ]
+      ],
       "articles": [
+        {
+          "title": "Ex-Nigerian minister confronted tycoons who bribed her, court told",
+          "url": "https://www.bbc.com/news/articles/cde43jy8x5no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-02-24T19:42:39",
+          "lead": "Diezani Alison-Madueke denies five counts of accepting bribes and a charge of conspiracy to commit bribery."
+        },
         {
           "title": "Nigeria denies report it paid 'huge' ransom to free pupils in mass abduction",
           "url": "https://www.bbc.com/news/articles/cewzyqjq2ygo?at_medium=RSS&at_campaign=rss",
@@ -771,6 +754,20 @@
           "lead": "Six people were injured and flights temporarily suspended after a fire broke out at Murtala Muhammed International Airpo"
         },
         {
+          "title": "Nigeria: Papiri Abductions - Nigerian Govt Denies Paying Ransom to Terrorists",
+          "url": "https://allafrica.com/stories/202602250076.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:39:03",
+          "lead": "[Premium Times] AFP reported on Tuesday that the Nigerian government paid a \"huge\" ransom to Boko Haram and released two"
+        },
+        {
+          "title": "Nigeria: Nigeria 'Deadliest Place to Be a Christian' - U.S. Congress",
+          "url": "https://allafrica.com/stories/202602250029.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:26:12",
+          "lead": "[This Day] Seeks bilateral agreement against insecurity, religious violence Wants 'Fulani militias' removed from confisc"
+        },
+        {
           "title": "Nigeria: Inspector General of Police Egbetokun Resigns at Tinubu's Request",
           "url": "https://allafrica.com/stories/202602240484.html",
           "source": "AllAfrica",
@@ -790,35 +787,14 @@
           "source": "AllAfrica",
           "published": "2026-02-24T15:09:00",
           "lead": "[Africa Check] Ignore Facebook posts using videos of Nigerian billionaire Aliko Dangote to promote fake investment progr"
-        },
-        {
-          "title": "Nigeria: 'Christian Genocide' Claims - U.S. Congress Submits Nigeria Report, Recommends Sanctions",
-          "url": "https://allafrica.com/stories/202602240396.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T10:33:39",
-          "lead": "[Vanguard] The United States House Committees on Appropriations and Foreign Affairs have formally submitted to the White"
-        },
-        {
-          "title": "Nigeria: 9 Die in Niger, Lagos Road Crashes",
-          "url": "https://allafrica.com/stories/202602240318.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T10:05:44",
-          "lead": "[Daily Trust] Nine people lost their lives and several others were injured in separate road accidents in Niger and Lagos"
-        },
-        {
-          "title": "Nigeria: Customs Vows to Surpass N9trn Target With Automation",
-          "url": "https://allafrica.com/stories/202602240249.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T09:46:00",
-          "lead": "[Daily Trust] The Nigeria Customs Service (NCS) is poised to exceed its revenue target of N9 trillion for the year with "
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica",
         "RFI Afrique",
         "The Guardian Africa",
-        "BBC Africa"
+        "BBC Africa",
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -834,15 +810,43 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.8,
-      "ratio": 0.35,
+      "ratio": 1.09,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -854,38 +858,38 @@
           "source": "RFI Afrique",
           "published": "2026-02-24T08:21:52",
           "lead": "Le gouvernement tchadien, qui s'est rassemblé en « réunion extraordinaire de sécurité » lundi 23 février, a annoncé la f"
+        },
+        {
+          "title": "Sudan: MSF Closes Hospital As Fighting Displaces 400 Families On Sudan-Chad Border",
+          "url": "https://allafrica.com/stories/202602250005.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T02:52:37",
+          "lead": "[Dabanga] El Tina -- M&#xe9;decins Sans Fronti&#xe8;res (MSF) has closed its hospital in El Tina, the Chadian border tow"
+        },
+        {
+          "title": "Sudan: People with Disabilities Targeted in North Darfur",
+          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T03:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Cameroon": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.9,
-      "ratio": 1.38,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Cameroun: levée des scellés sur la dépouille de l'opposant Anicet Ekane, trois mois après sa mort en détention",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-cameroun-lev%C3%A9e-des-scell%C3%A9s-sur-la-d%C3%A9pouille-de-l-opposant-anicet-ekane-trois-mois-apr%C3%A8s-sa-mort-en-d%C3%A9tention",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T02:14:07",
-          "lead": "Au Cameroun, les scellés apposés sur la dépouille d’Anicet Ekane, figure emblématique de l’opposition, ont été levés lun"
-        },
         {
           "title": "Au Cameroun, le procès de James Mouangue Kobila pour harcèlement sexuel s’éternise",
           "url": "https://www.jeuneafrique.com/1766756/politique/au-cameroun-le-proces-de-james-mouangue-kobila-pour-harcelement-sexuel-seternise/",
@@ -909,16 +913,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
+        "Jeune Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -928,27 +931,19 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 1.3,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.6,
+      "ratio": 0.64,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "Fighting",
-          "count": 1
-        },
         {
           "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Minister",
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -960,18 +955,10 @@
           "source": "Africanews",
           "published": "2026-02-24T18:35:17",
           "lead": "UN aid chief Tom Fletcher has sounded the alarm about the humanitarian situation in South Sudan, where fighting rages on"
-        },
-        {
-          "title": "South Sudan president fires finance minister after just 3 months in office",
-          "url": "https://www.dailymaverick.co.za/article/south-sudan-president-fires-finance-minister-after-just-3-months-in-office",
-          "source": "Daily Maverick",
-          "published": "2026-02-24T11:52:30",
-          "lead": "South Sudan President Salva Kiir fired Finance Minister Bak Barnaba Chol in a reshuffle that was unveiled on state telev"
         }
       ],
       "sources": [
-        "Africanews",
-        "Daily Maverick"
+        "Africanews"
       ]
     },
     "Eq. Guinea": {
@@ -999,19 +986,19 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.37,
+      "ratio": 0.67,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Fighting",
-          "count": 2
+          "word": "Government",
+          "count": 1
         },
         {
-          "word": "Government",
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1023,13 +1010,6 @@
           "source": "AllAfrica",
           "published": "2026-02-24T14:15:46",
           "lead": "[Agenzia Fides] Kinshasa -- A fierce battle is raging in the Masisi region of North Kivu province in eastern Democratic "
-        },
-        {
-          "title": "Burundi: Burundi Reopens Border With DR Congo After Two-Month Closure",
-          "url": "https://allafrica.com/stories/202602240382.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T10:26:31",
-          "lead": "[Shabelle] Bujumbura, Burundi -- Burundi has reopened its land border with the Democratic Republic of Congo after more t"
         }
       ],
       "sources": [
@@ -1037,10 +1017,10 @@
       ]
     },
     "DRC": {
-      "article_count": 15,
+      "article_count": 14,
       "source_count": 6,
-      "baseline": 7.6,
-      "ratio": 1.96,
+      "baseline": 7.9,
+      "ratio": 1.77,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1069,11 +1049,11 @@
           "count": 2
         },
         {
-          "word": "Fighting",
-          "count": 2
+          "word": "Attaque",
+          "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Rebel",
           "count": 1
         }
       ],
@@ -1113,13 +1093,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-24T13:22:12",
           "lead": "Dans l’est de la RDC, plusieurs lignes de front se sont réactivées depuis une dizaine de jours, aussi bien au Nord-Kivu "
-        },
-        {
-          "title": "RDC–Burundi: à Uvira, la réouverture d’une frontière stratégique au cœur des équilibres régionaux",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-rdc%E2%80%93burundi-%C3%A0-uvira-la-r%C3%A9ouverture-d-une-fronti%C3%A8re-strat%C3%A9gique-au-c%C5%93ur-des-%C3%A9quilibres-r%C3%A9gionaux",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T03:56:33",
-          "lead": "Dans l’est de la République démocratique du Congo (RDC), la frontière entre Uvira et Bujumbura a rouvert lundi 23 févrie"
         },
         {
           "title": "Dialogue national en RDC: «Le pouvoir doit avant tout décrisper l'espace politique»",
@@ -1183,15 +1156,22 @@
           "source": "Africanews",
           "published": "2026-02-24T15:57:23",
           "lead": "The military spokesperson for the M23 rebel group, Lieutenant-Colonel Willy Ngoma, was killed early Tuesday in a drone s"
+        },
+        {
+          "title": "Congo-Kinshasa: Trade and Aid to Return to South Kivu As DR Congo-Burundi Strategic Border Reopens",
+          "url": "https://allafrica.com/stories/202602250003.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T02:52:36",
+          "lead": "[RFI] A key border post between the Democratic Republic of the Congo and Burundi has reopened after more than two months"
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica",
-        "Jeune Afrique",
         "RFI Afrique",
-        "France24 Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique",
+        "AllAfrica",
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "São Tomé": {
@@ -1210,32 +1190,20 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.9,
-      "ratio": 2.24,
+      "ratio": 2.15,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Mort",
+          "count": 1
+        },
         {
           "word": "Rebelle",
           "count": 1
         },
         {
           "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -1249,48 +1217,29 @@
           "lead": "Cadre du mouvement rebelle soutenu par le Rwanda, Willy Ngoma a été abattu le 24 février, comme l’ont confirmé plusieurs"
         },
         {
-          "title": "Angola: Reject Bill to Restrict Civil Society",
-          "url": "https://www.hrw.org/news/2026/02/24/angola-reject-bill-to-restrict-civil-society",
-          "source": "Human Rights Watch",
-          "published": "2026-02-24T22:00:00",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              The Na"
+          "title": "Angola: Reject Bill To Restrict Civil Society",
+          "url": "https://allafrica.com/stories/202602250013.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:03:07",
+          "lead": "[HRW] Johannesburg -- Revise Draft Law to Conform with International Legal Standards"
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Eritrea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.4,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Egypt: NGO Denounces the Detention and Torture of Eritrean Refugees in Egypt",
-          "url": "https://allafrica.com/stories/202602240417.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T11:08:03",
-          "lead": "[RFI] More than 3,000 Eritrean refugees have been detained in Egypt this year and some have reported sexual violence and"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Djibouti": {
       "article_count": 0,
@@ -1364,9 +1313,9 @@
     },
     "Somalia": {
       "article_count": 4,
-      "source_count": 4,
-      "baseline": 2.2,
-      "ratio": 1.81,
+      "source_count": 3,
+      "baseline": 2.3,
+      "ratio": 1.76,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1396,32 +1345,31 @@
           "lead": "Kenyan leader William Ruto wants more trade between the East African neighbors. But previous mooted border openings have"
         },
         {
+          "title": "Somalia: Number of People Going Hungry Nearly Doubles in a Year",
+          "url": "https://allafrica.com/stories/202602250004.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T02:52:36",
+          "lead": "[UN News] The number of people in Somalia facing acute food insecurity has nearly doubled to 6.5 million since last year"
+        },
+        {
           "title": "Somalia: Journalist Abdihafid Nor Abducted in Mogadishu After Reporting On Dismissal of Turkish-Trained Officers Over Pay Dispute",
           "url": "https://allafrica.com/stories/202602240577.html",
           "source": "AllAfrica",
           "published": "2026-02-24T15:10:24",
           "lead": "[Horn Diplomat] The Somali Journalists Syndicate (SJS) condemns the abduction of journalist Abdihafid Nor in Mogadishu i"
-        },
-        {
-          "title": "Somalia: Number of people going hungry nearly doubles in a year",
-          "url": "https://news.un.org/feed/view/en/story/2026/02/1167026",
-          "source": "UN News Africa",
-          "published": "2026-02-24T12:00:00",
-          "lead": "The number of people in Somalia facing acute food insecurity has nearly doubled to 6.5 million since last year as hunger"
         }
       ],
       "sources": [
         "DW Africa",
-        "AllAfrica",
-        "UN News Africa",
-        "Al Jazeera"
+        "Al Jazeera",
+        "AllAfrica"
       ]
     },
     "Uganda": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 1.14,
+      "baseline": 2.7,
+      "ratio": 1.13,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1460,15 +1408,43 @@
       ]
     },
     "Kenya": {
-      "article_count": 7,
-      "source_count": 3,
-      "baseline": 5.5,
-      "ratio": 1.27,
+      "article_count": 8,
+      "source_count": 5,
+      "baseline": 5.6,
+      "ratio": 1.44,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1480,6 +1456,13 @@
           "source": "DW Africa",
           "published": "2026-02-24T14:33:00",
           "lead": "Kenyan leader William Ruto wants more trade between the East African neighbors. But previous mooted border openings have"
+        },
+        {
+          "title": "Afrique du Sud: Ramaphosa remercie Poutine pour le retour de Sud-Africains enrôlés en Ukraine",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-afrique-du-sud-ramaphosa-remercie-poutine-pour-le-retour-de-sud-africains-enr%C3%B4l%C3%A9s-en-ukraine",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T04:08:08",
+          "lead": "Alors qu’un récent rapport des services de renseignements du Kenya indique que plus de 1000 Kényans ont été recrutés par"
         },
         {
           "title": "Over 600 Kenyans trapped in Cambodia trafficking case",
@@ -1517,24 +1500,26 @@
           "lead": "[Capital FM] Kisumu -- The Standard Gauge Railway (SGR) extension from Naivasha to Kisumu will be officially launched ne"
         },
         {
-          "title": "Kenya: Amnesty Kenya, LSK Demand Probe Into Attempted Abduction of Tanzanian Activist",
-          "url": "https://allafrica.com/stories/202602240271.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T09:52:20",
-          "lead": "[Capital FM] Nairobi -- Amnesty International Kenya and the Law Society of Kenya (LSK) have called for a full and transp"
+          "title": "Sudan: People with Disabilities Targeted in North Darfur",
+          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
+          "source": "Human Rights Watch",
+          "published": "2026-02-25T03:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
         }
       ],
       "sources": [
-        "Africanews",
+        "DW Africa",
+        "RFI Afrique",
+        "Human Rights Watch",
         "AllAfrica",
-        "DW Africa"
+        "Africanews"
       ]
     },
     "Rwanda": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.4,
-      "ratio": 1.24,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1547,11 +1532,11 @@
           "count": 1
         },
         {
-          "word": "Rebelle",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Rebelle",
           "count": 1
         }
       ],
@@ -1580,27 +1565,23 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 1.1,
-      "ratio": 2.62,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.2,
+      "ratio": 1.66,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
           "count": 1
         },
         {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
           "word": "Refugees",
           "count": 1
         }
@@ -1608,18 +1589,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "RDC–Burundi: à Uvira, la réouverture d’une frontière stratégique au cœur des équilibres régionaux",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-rdc%E2%80%93burundi-%C3%A0-uvira-la-r%C3%A9ouverture-d-une-fronti%C3%A8re-strat%C3%A9gique-au-c%C5%93ur-des-%C3%A9quilibres-r%C3%A9gionaux",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T03:56:33",
-          "lead": "Dans l’est de la République démocratique du Congo (RDC), la frontière entre Uvira et Bujumbura a rouvert lundi 23 févrie"
-        },
-        {
-          "title": "Burundi: Burundi Reopens Border With DR Congo After Two-Month Closure",
-          "url": "https://allafrica.com/stories/202602240382.html",
+          "title": "Congo-Kinshasa: Trade and Aid to Return to South Kivu As DR Congo-Burundi Strategic Border Reopens",
+          "url": "https://allafrica.com/stories/202602250003.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T10:26:31",
-          "lead": "[Shabelle] Bujumbura, Burundi -- Burundi has reopened its land border with the Democratic Republic of Congo after more t"
+          "published": "2026-02-25T02:52:36",
+          "lead": "[RFI] A key border post between the Democratic Republic of the Congo and Burundi has reopened after more than two months"
         },
         {
           "title": "Concerns raised about ‘coercive’ repatriation of Burundian refugees from Tanzania",
@@ -1630,18 +1604,17 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
-        "UN News Africa"
+        "UN News Africa",
+        "AllAfrica"
       ]
     },
     "Tanzania": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.2,
+      "ratio": 0.85,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Refugees",
@@ -1651,13 +1624,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Kenya: Amnesty Kenya, LSK Demand Probe Into Attempted Abduction of Tanzanian Activist",
-          "url": "https://allafrica.com/stories/202602240271.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T09:52:20",
-          "lead": "[Capital FM] Nairobi -- Amnesty International Kenya and the Law Society of Kenya (LSK) have called for a full and transp"
-        },
-        {
           "title": "Concerns raised about ‘coercive’ repatriation of Burundian refugees from Tanzania",
           "url": "https://news.un.org/feed/view/en/story/2026/02/1167028",
           "source": "UN News Africa",
@@ -1666,21 +1632,20 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "UN News Africa"
       ]
     },
     "Madagascar": {
-      "article_count": 5,
-      "source_count": 5,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 2.9,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Humanitarian",
@@ -1699,13 +1664,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-25T00:44:06",
           "lead": "Quatre mois après son arrivée au pouvoir, le colonel Michaël Randrianirina a été reçu mardi 24 février à l’Élysée par Em"
-        },
-        {
-          "title": "À Paris, le nouveau dirigeant malgache opte pour un \"partenariat renouvelé\" avec la France",
-          "url": "https://www.france24.com/fr/afrique/20260224-%C3%A0-paris-le-nouveau-dirigeant-malgache-opte-pour-un-partenariat-renouvel%C3%A9-avec-la-france",
-          "source": "France24 Afrique",
-          "published": "2026-02-24T04:35:16",
-          "lead": "Reçu mardi à l'Élysée, le dirigeant malgache Michaël Randrianirina et le président français Emmanuel Macron ont réaffirm"
         },
         {
           "title": "Après sa visite à Moscou, le nouveau président malgache joue l’équilibriste en se rendant à Paris",
@@ -1730,11 +1688,10 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
         "RFI Afrique",
-        "France24 Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Comoros": {
@@ -1750,26 +1707,16 @@
       "sources": []
     },
     "Mauritius": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mauritius: Can Mauritius Save Its Credit Rating?",
-          "url": "https://allafrica.com/stories/202602240416.html",
-          "source": "AllAfrica",
-          "published": "2026-02-24T11:08:02",
-          "lead": "[ISS] For a small, open economy, reputational strength is a core asset - but time is running out and decisive steps are "
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Seychelles": {
       "article_count": 0,
@@ -1784,33 +1731,63 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Malawi": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.0,
+      "baseline": 0.8,
+      "ratio": 1.32,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Malawi: Parliament Empty As 159 MPs Skip Sitting, Only 71 Show Up",
-          "url": "https://allafrica.com/stories/202602240386.html",
+          "title": "Zimbabwe: Zimbabwe Journalist in Detention for a Week for Alleged Defamatory Report On Corruption",
+          "url": "https://allafrica.com/stories/202602250047.html",
           "source": "AllAfrica",
-          "published": "2026-02-24T10:26:51",
-          "lead": "[Nyasa Times] Only 71 Members of Parliament turned up for parliamentary deliberations this morning while a staggering 15"
+          "published": "2026-02-25T03:35:37",
+          "lead": "[CPJ] Lusaka -- The Committee to Protect Journalists calls on Zimbabwean authorities to release journalist Gideon Madzik"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
+    },
+    "Malawi": {
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 1.0,
+      "ratio": 2.0,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Malawi: Government Orders Fresh Probe Into Chikangawa Military Plane Crash",
+          "url": "https://allafrica.com/stories/202602250055.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:38:49",
+          "lead": "[Nyasa Times] The government of Malawi has announced a fresh investigation into the Chikangawa military plane crash that"
+        },
+        {
+          "title": "Malawi: Bushiri Fires Back At Findings of South African Investigators",
+          "url": "https://allafrica.com/stories/202602250072.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:38:59",
+          "lead": "[Nyasa Times] Prophet Shepherd Bushiri has launched a blistering attack on South Africa's Special Investigating Unit (SI"
         }
       ],
       "sources": [
@@ -1821,7 +1798,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.56,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1840,21 +1817,31 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.8,
+      "ratio": 0.56,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Zimbabwe: Zimbabwe Journalist in Detention for a Week for Alleged Defamatory Report On Corruption",
+          "url": "https://allafrica.com/stories/202602250047.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:35:37",
+          "lead": "[CPJ] Lusaka -- The Committee to Protect Journalists calls on Zimbabwean authorities to release journalist Gideon Madzik"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Namibia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1886,28 +1873,36 @@
       ]
     },
     "South Africa": {
-      "article_count": 17,
-      "source_count": 3,
-      "baseline": 12.4,
-      "ratio": 1.37,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 20,
+      "source_count": 4,
+      "baseline": 12.6,
+      "ratio": 1.59,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Crisis",
           "count": 3
         },
         {
+          "word": "Attack",
+          "count": 2
+        },
+        {
           "word": "President",
-          "count": 3
+          "count": 2
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
         },
         {
           "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Government",
-          "count": 2
+          "count": 1
         },
         {
           "word": "War",
@@ -1916,18 +1911,24 @@
         {
           "word": "Killed",
           "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Afrique du Sud: Ramaphosa remercie Poutine pour le retour de Sud-Africains enrôlés en Ukraine",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-afrique-du-sud-ramaphosa-remercie-poutine-pour-le-retour-de-sud-africains-enr%C3%B4l%C3%A9s-en-ukraine",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T04:08:08",
+          "lead": "Alors qu’un récent rapport des services de renseignements du Kenya indique que plus de 1000 Kényans ont été recrutés par"
+        },
+        {
+          "title": "South Africa: Court Rejects Thabo Bester's Bid for Laptop - South African News Briefs - February 25, 2026",
+          "url": "https://allafrica.com/stories/202602250091.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:52:21",
+          "lead": "[allAfrica]"
+        },
         {
           "title": "Africa: U.S. Ends Lifesaving Aid to Seven African Nations",
           "url": "https://allafrica.com/stories/202602240418.html",
@@ -1948,6 +1949,20 @@
           "source": "AllAfrica",
           "published": "2026-02-24T08:36:24",
           "lead": "[Bhekisisa] Superbugs are a big public health issue. So is climate change. Put the two together and the problem becomes "
+        },
+        {
+          "title": "Malawi: Bushiri Fires Back At Findings of South African Investigators",
+          "url": "https://allafrica.com/stories/202602250072.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:38:59",
+          "lead": "[Nyasa Times] Prophet Shepherd Bushiri has launched a blistering attack on South Africa's Special Investigating Unit (SI"
+        },
+        {
+          "title": "Angola: Reject Bill To Restrict Civil Society",
+          "url": "https://allafrica.com/stories/202602250013.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T03:03:07",
+          "lead": "[HRW] Johannesburg -- Revise Draft Law to Conform with International Legal Standards"
         },
         {
           "title": "South Africa: Suspected IT Cable Fire At Cape Town International Halts International Flights",
@@ -1983,40 +1998,13 @@
           "source": "Daily Maverick",
           "published": "2026-02-24T20:03:02",
           "lead": "Ukrainians living in Cape Town and their supporters protested to mark the fourth  anniversary of Russia’s full-scale war"
-        },
-        {
-          "title": "LAND SALES: Explained: the City of Cape Town’s auction, featuring the iconic Good Hope Centre",
-          "url": "https://www.dailymaverick.co.za/article/explained-the-city-of-cape-towns-auction-featuring-the-iconic-good-hope-centre",
-          "source": "Daily Maverick",
-          "published": "2026-02-24T18:27:36",
-          "lead": "This week, there will be an auction of land in Cape Town – including the iconic Good Hope Centre. Activists and organisa"
-        },
-        {
-          "title": "PARLIAMENT: No delays, says Steenhuisen as foot-and-mouth disease crisis deepens",
-          "url": "https://www.dailymaverick.co.za/article/no-delays-says-steenhuisen-as-footandmouth-disease-crisis-deepens",
-          "source": "Daily Maverick",
-          "published": "2026-02-24T18:19:34",
-          "lead": "South Africa is set to receive another 1.5 million doses of the foot-and-mouth disease vaccine this week as the country "
-        },
-        {
-          "title": "FAMILY REUNION: Killer whales sighted in Algoa Bay — Experts track returning pod",
-          "url": "https://www.dailymaverick.co.za/article/killer-whales-sighted-in-algoa-bay-experts-track-returning-pod",
-          "source": "Daily Maverick",
-          "published": "2026-02-24T18:08:44",
-          "lead": "A pod of seven killer whales was spotted in Algoa Bay, marking a rare local sighting. Experts confirm the group is a kno"
-        },
-        {
-          "title": "VIDEO: Watch — Suspicions circle SA over R4.3bn drug haul hidden in fruit export to India",
-          "url": "https://www.dailymaverick.co.za/article/watch-suspicions-circle-sa-over-r43bill3billion-drugs-hidden-in-fruit-export-to",
-          "source": "Daily Maverick",
-          "published": "2026-02-24T15:52:36",
-          "lead": "In 2022, Indian authorities uncovered R4.3-billion worth of cocaine and methamphetamine concealed in two consignments of"
         }
       ],
       "sources": [
-        "Human Rights Watch",
+        "RFI Afrique",
         "Daily Maverick",
-        "AllAfrica"
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Eswatini": {
