@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-24T21:26:18.768708",
+  "generated_at": "2026-02-25T01:21:43.275846",
   "summary": {
     "high": 1,
-    "elevated": 7,
-    "normal": 26,
-    "quiet": 20
+    "elevated": 9,
+    "normal": 23,
+    "quiet": 21
   },
   "countries": {
     "Morocco": {
@@ -73,11 +73,11 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Al Jazeera",
         "RFI Afrique",
-        "Africanews",
-        "BBC Africa",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "BBC Africa"
       ]
     },
     "Algeria": {
@@ -93,12 +93,12 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.88,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Government",
@@ -108,13 +108,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Tunisie: l'avocat Ahmed Souab libéré après sa condamnation à cinq ans de prison en octobre dernier",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-tunisie-l-avocat-ahmed-souab-lib%C3%A9r%C3%A9-apr%C3%A8s-sa-condamnation-%C3%A0-cinq-ans-de-prison-en-octobre-dernier",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T05:21:18",
-          "lead": "En Tunisie, l'avocat Ahmed Souab a été libéré ce lundi après avoir été emprisonné en avril 2025 et condamné à une peine "
-        },
-        {
           "title": "Tunisian lawyer jailed by anti-terror court released from prison",
           "url": "http://www.africanews.com/2026/02/24/tunisian-lawyer-jailed-by-anti-terror-court-released-from-prison/",
           "source": "Africanews",
@@ -123,7 +116,6 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews"
       ]
     },
@@ -143,20 +135,16 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.87,
+      "ratio": 1.91,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "War",
-          "count": 2
-        },
         {
           "word": "Ceasefire",
           "count": 2
         },
         {
-          "word": "Refugees",
+          "word": "War",
           "count": 2
         },
         {
@@ -164,19 +152,23 @@
           "count": 2
         },
         {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "Government",
           "count": 1
         },
         {
           "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         }
       ],
@@ -205,8 +197,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Sudan": {
@@ -297,9 +289,9 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Al Jazeera",
+        "Human Rights Watch",
         "AllAfrica",
-        "Human Rights Watch"
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
@@ -315,22 +307,32 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.3,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Est du Sénégal: Kidira, face à la peur d’une contagion du conflit malien [3/5]",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260224-est-du-s%C3%A9n%C3%A9gal-kidira-face-%C3%A0-la-peur-d-une-contagion-du-conflit-malien-3-5",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T23:01:35",
+          "lead": "L’est du Sénégal face au risque de la contagion jihadiste, suite de notre série de reportages. Direction Kidira, dernièr"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Burkina Faso": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.4,
-      "ratio": 0.85,
+      "ratio": 0.84,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -363,15 +365,24 @@
       "ratio": 0.5,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Boko haram",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Le Gabonais Parfait Onanga-Anyanga nommé chef par interim du bureau de l'ONU en Afrique centrale",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-le-gabonais-parfait-onanga-anyanga-nomm%C3%A9-chef-par-interim-du-bureau-de-l-onu-en-afrique-centrale",
+          "title": "Nigeria: Abuja dément avoir versé une rançon à Boko Haram pour la libération d'écoliers",
+          "url": "https://www.rfi.fr/fr/afrique/20260224-nigeria-abuja-d%C3%A9ment-avoir-vers%C3%A9-une-ran%C3%A7on-%C3%A0-boko-haram-pour-la-lib%C3%A9ration-d-%C3%A9coliers",
           "source": "RFI Afrique",
-          "published": "2026-02-24T06:47:54",
-          "lead": "Le secrétaire général de l’ONU, Antonio Guterres a nommé le Gabonais Parfait Onanga-Anyanga comme son représentant spéci"
+          "published": "2026-02-24T22:40:43",
+          "lead": "Au Nigéria, le gouvernement a démenti mardi 24 février avoir versé une rançon à Boko Haram pour obtenir la libération de"
         },
         {
           "title": "Nigeria: 9 Die in Niger, Lagos Road Crashes",
@@ -387,10 +398,10 @@
       ]
     },
     "Senegal": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 5.4,
-      "ratio": 0.74,
+      "ratio": 0.92,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -407,6 +418,13 @@
           "source": "BBC Africa",
           "published": "2026-02-24T20:05:08",
           "lead": "Senegal's prime minister says it is \"regrettable\" that 18 of its football fans have been handed prison sentences related"
+        },
+        {
+          "title": "Est du Sénégal: Kidira, face à la peur d’une contagion du conflit malien [3/5]",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260224-est-du-s%C3%A9n%C3%A9gal-kidira-face-%C3%A0-la-peur-d-une-contagion-du-conflit-malien-3-5",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T23:01:35",
+          "lead": "L’est du Sénégal face au risque de la contagion jihadiste, suite de notre série de reportages. Direction Kidira, dernièr"
         },
         {
           "title": "Au Sénégal, le premier ministre veut durcir les peines contre l’homosexualité avec un nouveau projet de loi",
@@ -431,6 +449,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Le Monde Afrique",
         "Africanews",
         "BBC Africa"
@@ -507,11 +526,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Protest",
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -537,13 +556,17 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 0.58,
+      "ratio": 1.17,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
         {
           "word": "Crise",
           "count": 1
@@ -551,6 +574,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "En Côte d'Ivoire, HEC Challenge + tente de faire émerger des start-up africaines",
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260224-en-c%C3%B4te-d-ivoire-hec-challenge-tente-de-faire-%C3%A9merger-des-start-up-africaines",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T23:09:06",
+          "lead": "Il y aurait environ 300 start-up actives en Côte d'Ivoire selon les estimations du gouvernement. Pour lancer leur activi"
+        },
         {
           "title": "Cacao en Côte d’Ivoire : 5 questions pour comprendre la crise qui secoue le secteur",
           "url": "https://www.jeuneafrique.com/1768449/economie-entreprises/cacao-en-cote-divoire-5-questions-pour-comprendre-la-crise-qui-secoue-le-secteur/",
@@ -560,6 +590,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -627,11 +658,11 @@
         }
       ],
       "sources": [
+        "Africanews",
+        "AllAfrica",
         "RFI Afrique",
         "The Guardian Africa",
-        "Africanews",
-        "BBC Africa",
-        "AllAfrica"
+        "BBC Africa"
       ]
     },
     "Togo": {
@@ -659,27 +690,39 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 9,
-      "source_count": 4,
+      "article_count": 12,
+      "source_count": 5,
       "baseline": 9.1,
-      "ratio": 0.98,
+      "ratio": 1.32,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
+          "word": "Boko haram",
           "count": 2
         },
         {
-          "word": "Violence",
-          "count": 1
+          "word": "President",
+          "count": 2
         },
         {
           "word": "Crisis",
           "count": 1
         },
         {
+          "word": "Violence",
+          "count": 1
+        },
+        {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -698,6 +741,27 @@
           "source": "The Guardian Africa",
           "published": "2026-02-24T05:00:03",
           "lead": "As senior politicians gathered for a lavish celebration, mass killings underscored the country’s deepening security cris"
+        },
+        {
+          "title": "États-Unis: le congrès rend son rapport sur les accusations de persécutions religieuses au Nigeria",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-%C3%A9tats-unis-le-congr%C3%A8s-rend-son-rapport-sur-les-accusations-de-pers%C3%A9cutions-religieuses-au-nigeria",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T01:18:17",
+          "lead": "Après des mois d’enquête, des parlementaires américains ont présenté, lundi 24 février, à la Maison-Blanche un rapport c"
+        },
+        {
+          "title": "Nigeria: Abuja dément avoir versé une rançon à Boko Haram pour la libération d'écoliers",
+          "url": "https://www.rfi.fr/fr/afrique/20260224-nigeria-abuja-d%C3%A9ment-avoir-vers%C3%A9-une-ran%C3%A7on-%C3%A0-boko-haram-pour-la-lib%C3%A9ration-d-%C3%A9coliers",
+          "source": "RFI Afrique",
+          "published": "2026-02-24T22:40:43",
+          "lead": "Au Nigéria, le gouvernement a démenti mardi 24 février avoir versé une rançon à Boko Haram pour obtenir la libération de"
+        },
+        {
+          "title": "Nigeria: Government denies it paid ransom money to Boko Haram militants",
+          "url": "http://www.africanews.com/2026/02/24/nigeria-government-denies-it-paid-ransom-money-to-boko-haram-militants/",
+          "source": "Africanews",
+          "published": "2026-02-24T21:40:31",
+          "lead": "Nigeria's government has denied it paid ransom money to free dozens of schoolchildren kidnapped from a catholic school i"
         },
         {
           "title": "Six people injured after fire breaks out at Lagos international airport",
@@ -750,10 +814,11 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "Africanews",
-        "BBC Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique",
+        "The Guardian Africa",
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -771,7 +836,7 @@
     "Chad": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.9,
+      "baseline": 2.8,
       "ratio": 0.35,
       "status": "normal",
       "confidence": "low",
@@ -804,11 +869,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -851,31 +916,16 @@
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.1,
-      "ratio": 0.93,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Centrafrique: des étudiants contraints de s'exiler en raison de la guerre en Ukraine",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-centrafrique-des-%C3%A9tudiants-contraints-de-s-exiler-en-raison-de-la-guerre-en-ukraine",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T09:02:58",
-          "lead": "Quatre ans après le déclenchement de la guerre entre l’Ukraine et la Russie, de nombreuses trajectoires de vies ont été "
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Sudan": {
       "article_count": 2,
@@ -937,26 +987,16 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.1,
-      "ratio": 0.88,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Le Gabonais Parfait Onanga-Anyanga nommé chef par interim du bureau de l'ONU en Afrique centrale",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-le-gabonais-parfait-onanga-anyanga-nomm%C3%A9-chef-par-interim-du-bureau-de-l-onu-en-afrique-centrale",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T06:47:54",
-          "lead": "Le secrétaire général de l’ONU, Antonio Guterres a nommé le Gabonais Parfait Onanga-Anyanga comme son représentant spéci"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Congo": {
       "article_count": 2,
@@ -999,8 +1039,8 @@
     "DRC": {
       "article_count": 15,
       "source_count": 6,
-      "baseline": 7.7,
-      "ratio": 1.95,
+      "baseline": 7.6,
+      "ratio": 1.96,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1010,7 +1050,11 @@
         },
         {
           "word": "Tué",
-          "count": 2
+          "count": 3
+        },
+        {
+          "word": "Rebelle",
+          "count": 3
         },
         {
           "word": "Président",
@@ -1018,10 +1062,6 @@
         },
         {
           "word": "Mort",
-          "count": 2
-        },
-        {
-          "word": "Rebelle",
           "count": 2
         },
         {
@@ -1044,11 +1084,11 @@
         ],
         [
           "M23",
-          "Mort"
+          "Rebelle"
         ],
         [
           "M23",
-          "Rebelle"
+          "Mort"
         ],
         [
           "Mort",
@@ -1096,11 +1136,11 @@
           "lead": "En avril prochain, Kinshasa redeviendra la capitale mondiale de la boxe. Le stade des Martyrs sera le théâtre de l'oppos"
         },
         {
-          "title": "Réouverture de la frontière entre la RD Congo et le Burundi, les habitants soulagés",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260223-la-fronti%C3%A8re-entre-la-rd-congo-et-le-burundi-rouvre-les-habitants-soulag%C3%A9s",
+          "title": "RD Congo : Willy Ngoma, cadre de l’AFC/M23, tué dans une frappe de drone",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260224-rd-congo-willy-ngoma-cadre-de-l-afc-m23-tu%C3%A9-dans-une-frappe-de-drone",
           "source": "France24 Afrique",
-          "published": "2026-02-23T22:03:07",
-          "lead": "En RD Congo, la frontière entre Bujumbura et Uvira a rouvert. Elle avait été fermée mi-décembre après la prise de contrô"
+          "published": "2026-02-24T21:31:09",
+          "lead": "En RD Congo, Willy Ngoma, cadre du mouvement rebelle AFC/M23 a été abattu dans l’est du pays dans une frappe de drone. P"
         },
         {
           "title": "RDC : mort de Willy Ngoma, le porte-parole du M23, dans une frappe de drone",
@@ -1146,12 +1186,12 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique",
         "Africanews",
         "AllAfrica",
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique",
+        "France24 Afrique",
+        "Le Monde Afrique"
       ]
     },
     "São Tomé": {
@@ -1167,15 +1207,15 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.9,
-      "ratio": 1.12,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.24,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Rebelle",
           "count": 1
         },
         {
@@ -1183,7 +1223,19 @@
           "count": 1
         },
         {
-          "word": "Rebelle",
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -1195,9 +1247,17 @@
           "source": "Jeune Afrique",
           "published": "2026-02-24T15:13:57",
           "lead": "Cadre du mouvement rebelle soutenu par le Rwanda, Willy Ngoma a été abattu le 24 février, comme l’ont confirmé plusieurs"
+        },
+        {
+          "title": "Angola: Reject Bill to Restrict Civil Society",
+          "url": "https://www.hrw.org/news/2026/02/24/angola-reject-bill-to-restrict-civil-society",
+          "source": "Human Rights Watch",
+          "published": "2026-02-24T22:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              The Na"
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "Jeune Afrique"
       ]
     },
@@ -1210,11 +1270,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Refugees",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -1248,7 +1308,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 4.2,
-      "ratio": 0.96,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1257,11 +1317,11 @@
           "count": 2
         },
         {
-          "word": "Guerre",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Guerre",
           "count": 1
         }
       ],
@@ -1305,8 +1365,8 @@
     "Somalia": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 2.1,
-      "ratio": 1.87,
+      "baseline": 2.2,
+      "ratio": 1.81,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1352,16 +1412,16 @@
       ],
       "sources": [
         "DW Africa",
-        "Al Jazeera",
         "AllAfrica",
-        "UN News Africa"
+        "UN News Africa",
+        "Al Jazeera"
       ]
     },
     "Uganda": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.6,
-      "ratio": 1.15,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1376,7 +1436,7 @@
           "title": "Uganda: Worries grow over Kizza Besigye's health",
           "url": "http://www.africanews.com/2026/02/24/uganda-worries-grow-over-kizza-besigyes-health/",
           "source": "Africanews",
-          "published": "2026-02-24T20:03:49",
+          "published": "2026-02-24T21:00:04",
           "lead": "Concern is growing over Ugandan opposition figure Kizza Besigye's health. Having been behind bars for more than a year n"
         },
         {
@@ -1465,9 +1525,9 @@
         }
       ],
       "sources": [
-        "DW Africa",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "DW Africa"
       ]
     },
     "Rwanda": {
@@ -1487,11 +1547,11 @@
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Rebelle",
           "count": 1
         },
         {
-          "word": "Rebelle",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -1534,10 +1594,14 @@
       "keywords": [
         {
           "word": "M23",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -1551,34 +1615,39 @@
           "lead": "Dans l’est de la République démocratique du Congo (RDC), la frontière entre Uvira et Bujumbura a rouvert lundi 23 févrie"
         },
         {
-          "title": "Réouverture de la frontière entre la RD Congo et le Burundi, les habitants soulagés",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260223-la-fronti%C3%A8re-entre-la-rd-congo-et-le-burundi-rouvre-les-habitants-soulag%C3%A9s",
-          "source": "France24 Afrique",
-          "published": "2026-02-23T22:03:07",
-          "lead": "En RD Congo, la frontière entre Bujumbura et Uvira a rouvert. Elle avait été fermée mi-décembre après la prise de contrô"
-        },
-        {
           "title": "Burundi: Burundi Reopens Border With DR Congo After Two-Month Closure",
           "url": "https://allafrica.com/stories/202602240382.html",
           "source": "AllAfrica",
           "published": "2026-02-24T10:26:31",
           "lead": "[Shabelle] Bujumbura, Burundi -- Burundi has reopened its land border with the Democratic Republic of Congo after more t"
+        },
+        {
+          "title": "Concerns raised about ‘coercive’ repatriation of Burundian refugees from Tanzania",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1167028",
+          "source": "UN News Africa",
+          "published": "2026-02-24T12:00:00",
+          "lead": "Concerns have been raised about the “coercive” repatriation from Tanzania of Burundian refugees, many of whom do not wan"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "France24 Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "UN News Africa"
       ]
     },
     "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 0.88,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 1.75,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1587,48 +1656,63 @@
           "source": "AllAfrica",
           "published": "2026-02-24T09:52:20",
           "lead": "[Capital FM] Nairobi -- Amnesty International Kenya and the Law Society of Kenya (LSK) have called for a full and transp"
+        },
+        {
+          "title": "Concerns raised about ‘coercive’ repatriation of Burundian refugees from Tanzania",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1167028",
+          "source": "UN News Africa",
+          "published": "2026-02-24T12:00:00",
+          "lead": "Concerns have been raised about the “coercive” repatriation from Tanzania of Burundian refugees, many of whom do not wan"
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "UN News Africa"
       ]
     },
     "Madagascar": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 2.8,
-      "ratio": 1.42,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 5,
+      "source_count": 5,
+      "baseline": 2.9,
+      "ratio": 1.75,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
-          "count": 2
-        },
-        {
-          "word": "President",
-          "count": 1
+          "count": 4
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Madagascar: en «visite de travail» à Paris, le président Randrianirina poursuit sa diplomatie de l'équilibre",
-          "url": "https://www.rfi.fr/fr/afrique/20260223-madagascar-en-visite-de-travail-%C3%A0-paris-le-pr%C3%A9sident-randrianirina-poursuit-sa-diplomatie-de-l-%C3%A9quilibre",
+          "title": "Madagascar: après Moscou, le président Randrianirina opte pour un «partenariat renouvelé» avec Paris",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-madagascar-apr%C3%A8s-moscou-le-pr%C3%A9sident-randrianirina-opte-pour-un-partenariat-renouvel%C3%A9-avec-paris",
           "source": "RFI Afrique",
-          "published": "2026-02-23T23:11:14",
-          "lead": "Six jours après sa visite officielle en Russie, où il a été reçu par le président Vladimir Poutine au Kremlin, le colone"
+          "published": "2026-02-25T00:44:06",
+          "lead": "Quatre mois après son arrivée au pouvoir, le colonel Michaël Randrianirina a été reçu mardi 24 février à l’Élysée par Em"
         },
         {
-          "title": "Madagascar: à Tamatave, la rentrée des classes reprend malgré les traumatismes laissés par le cyclone Gezani",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-madagascar-%C3%A0-tamatave-la-rentr%C3%A9e-des-classes-reprend-malgr%C3%A9-les-traumatismes-laiss%C3%A9s-par-le-cyclone-gezani",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T03:04:36",
-          "lead": "À Tamatave, dans l’est de Madagascar, la rentrée scolaire a repris lundi 23 février au milieu des débris, quelques jours"
+          "title": "À Paris, le nouveau dirigeant malgache opte pour un \"partenariat renouvelé\" avec la France",
+          "url": "https://www.france24.com/fr/afrique/20260224-%C3%A0-paris-le-nouveau-dirigeant-malgache-opte-pour-un-partenariat-renouvel%C3%A9-avec-la-france",
+          "source": "France24 Afrique",
+          "published": "2026-02-24T04:35:16",
+          "lead": "Reçu mardi à l'Élysée, le dirigeant malgache Michaël Randrianirina et le président français Emmanuel Macron ont réaffirm"
+        },
+        {
+          "title": "Après sa visite à Moscou, le nouveau président malgache joue l’équilibriste en se rendant à Paris",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/24/apres-sa-visite-a-moscou-le-nouveau-president-malgache-joue-l-equilibriste-en-se-rendant-a-paris_6668134_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-24T22:00:09",
+          "lead": "Michaël Randrianirina a été reçu mardi 24 février par Emmanuel Macron à l’Elysée, cinq jours après avoir rencontré Vladi"
         },
         {
           "title": "Madagascar : la France d’Emmanuel Macron tente de rattraper l’avance russe",
@@ -1641,14 +1725,16 @@
           "title": "President of Madagascar visits his French counterpart in Paris",
           "url": "http://www.africanews.com/2026/02/24/president-of-madagascar-visits-his-french-counterpart-in-paris/",
           "source": "Africanews",
-          "published": "2026-02-24T19:28:59",
+          "published": "2026-02-24T20:59:54",
           "lead": "The President of Madagascar, Michael Randrianirina, is visiting his French counterpart Emmanuel Macron, in Paris. Accord"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique",
+        "France24 Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Comoros": {
@@ -1800,10 +1886,10 @@
       ]
     },
     "South Africa": {
-      "article_count": 16,
+      "article_count": 17,
       "source_count": 3,
       "baseline": 12.4,
-      "ratio": 1.29,
+      "ratio": 1.37,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1813,18 +1899,22 @@
         },
         {
           "word": "President",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Humanitarian",
-          "count": 1
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
         },
         {
           "word": "War",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -1833,10 +1923,6 @@
         },
         {
           "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         }
       ],
@@ -1929,8 +2015,8 @@
       ],
       "sources": [
         "Human Rights Watch",
-        "AllAfrica",
-        "Daily Maverick"
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Eswatini": {
