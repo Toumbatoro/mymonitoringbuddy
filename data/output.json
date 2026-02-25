@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-02-25T18:54:05.975859",
+  "generated_at": "2026-02-25T21:28:38.950385",
   "summary": {
-    "high": 7,
-    "elevated": 6,
-    "normal": 24,
-    "quiet": 17
+    "high": 8,
+    "elevated": 11,
+    "normal": 21,
+    "quiet": 14
   },
   "countries": {
     "Morocco": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 4.3,
-      "ratio": 0.47,
+      "baseline": 4.2,
+      "ratio": 0.48,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -49,8 +49,8 @@
     "Algeria": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 2.3,
-      "ratio": 1.71,
+      "baseline": 2.4,
+      "ratio": 1.66,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -86,9 +86,9 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "RFI Afrique",
         "BBC Africa",
+        "France24 Afrique",
         "Africanews"
       ]
     },
@@ -107,8 +107,8 @@
     "Libya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.41,
+      "baseline": 2.5,
+      "ratio": 0.4,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -136,15 +136,27 @@
       ]
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 0.64,
+      "ratio": 1.29,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Comores: vive émotion après le décès de l'ex-présentatrice vedette Binti Mhadjou",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-comores-vive-%C3%A9motion-apr%C3%A8s-le-d%C3%A9c%C3%A8s-de-l-ex-pr%C3%A9sentatrice-vedette-binti-mhadjou",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T21:27:19",
+          "lead": "La presse comorienne est en deuil. Binti Mhadjou, ancienne présentatrice vedette du journal télévisé de l’Office de radi"
+        },
         {
           "title": "Egypt urges more support for Lebanese army as it disarms Hezbollah",
           "url": "http://www.africanews.com/2026/02/25/egypt-urges-more-support-for-lebanese-army-as-it-disarms-hezbollah/",
@@ -154,51 +166,57 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Africanews"
       ]
     },
     "Sudan": {
-      "article_count": 10,
-      "source_count": 7,
+      "article_count": 15,
+      "source_count": 8,
       "baseline": 6.0,
-      "ratio": 1.68,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
+          "word": "Humanitarian",
+          "count": 6
+        },
+        {
+          "word": "Displaced",
+          "count": 5
+        },
+        {
           "word": "War",
-          "count": 3
+          "count": 4
         },
         {
           "word": "Rsf",
           "count": 2
         },
         {
-          "word": "Displaced",
+          "word": "Déplacés",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
           "count": 2
         },
         {
           "word": "Casualties",
           "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Displaced",
+          "Humanitarian"
+        ]
+      ],
       "articles": [
         {
           "title": "UN sanctions paramilitary leaders over Sudan atrocities",
@@ -264,21 +282,36 @@
           "lead": "[Ghanaian Times] GHANA has significant potential to establish a Sustainable Aviation Fuel (SAF) industry to help reduce "
         },
         {
-          "title": "Sudan: People with Disabilities Targeted in North Darfur",
-          "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
-          "source": "Human Rights Watch",
-          "published": "2026-02-25T03:00:00",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Displa"
+          "title": "Community Consultation for a community driven HNRP 2026_Sudan_ICCG_Led by AAP WG Sudan",
+          "url": "https://reliefweb.int/report/sudan/community-consultation-community-driven-hnrp-2026sudaniccgled-aap-wg-sudan",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T19:47:18",
+          "lead": "Country: Sudan\n                                      Source: UN Children's Fund\n                                        "
+        },
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N°56, au 24 février 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg56-au-24-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T15:11:50",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
+        },
+        {
+          "title": "Sudan: OCHA-managed funds help displaced communities get clean water in North Darfur",
+          "url": "https://reliefweb.int/report/sudan/ocha-managed-funds-help-displaced-communities-get-clean-water-north-darfur",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:52:20",
+          "lead": "Country: Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n    "
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "RFI Afrique",
-        "Human Rights Watch",
-        "Al Jazeera",
         "BBC Africa",
-        "AllAfrica"
+        "Human Rights Watch",
+        "AllAfrica",
+        "RFI Afrique",
+        "Al Jazeera",
+        "Le Monde Afrique",
+        "ReliefWeb"
       ]
     },
     "Mauritania": {
@@ -294,26 +327,16 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 3.2,
-      "ratio": 0.31,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Est du Sénégal: Kidira, face à la peur d’une menace jihadiste [3/5]",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260224-est-du-s%C3%A9n%C3%A9gal-kidira-face-%C3%A0-la-peur-d-une-contagion-du-conflit-malien-3-5",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T23:01:35",
-          "lead": "L’est du Sénégal face au risque de la contagion jihadiste, suite de notre série de reportages. Direction Kidira, dernièr"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Burkina Faso": {
       "article_count": 3,
@@ -324,23 +347,28 @@
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Président",
+          "count": 1
+        },
+        {
           "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Burkina: quatre hauts magistrats et trois douaniers condamnés pour corruption",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-burkina-quatre-hauts-magistrats-et-trois-douaniers-condamn%C3%A9s-pour-corruption",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T20:48:36",
-          "lead": "Au Burkina Faso, des magistrats ont été condamnés à des peines de prison. Ouvert le 16 janvier dernier, le verdict du pr"
-        },
         {
           "title": "Une compagnie aérienne burkinabée, dernier avatar du pont aérien des Emirats vers la Corne de l’Afrique",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/25/une-compagnie-aerienne-burkinabee-dernier-avatar-du-pont-aerien-des-emirats-vers-la-corne-de-l-afrique_6668262_3212.html",
@@ -354,25 +382,44 @@
           "source": "Jeune Afrique",
           "published": "2026-02-25T15:54:16",
           "lead": "Le président iranien Massoud Pezeshkian et son ministre de la Défense, Aziz Nasirzadeh, ont reçu le général Célestin Sim"
+        },
+        {
+          "title": "CERF support helps restore dignity and hope for displaced women in Burkina Faso",
+          "url": "https://reliefweb.int/report/burkina-faso/cerf-support-helps-restore-dignity-and-hope-displaced-women-burkina-faso",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T12:28:46",
+          "lead": "Country: Burkina Faso\n                                      Source: UN Office for the Coordination of Humanitarian Affai"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "ReliefWeb"
       ]
     },
     "Niger": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 3.9,
-      "ratio": 0.51,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Boko haram",
-          "count": 1
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
         },
         {
           "word": "Gouvernement",
@@ -398,31 +445,42 @@
           "source": "AllAfrica",
           "published": "2026-02-25T15:32:08",
           "lead": "[IFJ] According to media reports, journalist Ahmed Isah Sakpe was summoned to the police station following a complaint l"
+        },
+        {
+          "title": "UNHCR Lake Chad Basin: Nigerian Refugees & Repatriation Overview - 1 February 2026",
+          "url": "https://reliefweb.int/report/nigeria/unhcr-lake-chad-basin-nigerian-refugees-repatriation-overview-1-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:03:23",
+          "lead": "Countries: Nigeria, Cameroon, Chad, Niger\n                                      Source: UN High Commissioner for Refugee"
+        },
+        {
+          "title": "UNHCR Nigeria Forcibly Displaced Populations Dashboard - 1 February 2026",
+          "url": "https://reliefweb.int/report/nigeria/unhcr-nigeria-forcibly-displaced-populations-dashboard-1-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:03:19",
+          "lead": "Countries: Nigeria, Cameroon, Chad, Niger\n                                      Source: UN High Commissioner for Refugee"
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique",
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Senegal": {
-      "article_count": 8,
+      "article_count": 6,
       "source_count": 5,
       "baseline": 5.5,
-      "ratio": 1.45,
+      "ratio": 1.09,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Gouvernement",
           "count": 1
         },
         {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -434,13 +492,6 @@
           "source": "BBC Africa",
           "published": "2026-02-25T05:46:42",
           "lead": "The bill seeks prison terms of five to ten years for what it describes as \"acts against nature\"."
-        },
-        {
-          "title": "Senegal decries imprisonment of fans after Afcon clashes",
-          "url": "https://www.bbc.com/sport/football/articles/c9dn03nnpqxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-24T20:05:08",
-          "lead": "Senegal's prime minister says it is \"regrettable\" that 18 of its football fans have been handed prison sentences related"
         },
         {
           "title": "Sénégal: ouverture d'un colloque sur les restitutions d'œuvres culturelles",
@@ -455,13 +506,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-25T04:54:23",
           "lead": "Ce mardi, le gouvernement sénégalais et le Premier ministre Ousmane Sonko étaient face à l’Assemblée nationale pour une "
-        },
-        {
-          "title": "Est du Sénégal: Kidira, face à la peur d’une menace jihadiste [3/5]",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260224-est-du-s%C3%A9n%C3%A9gal-kidira-face-%C3%A0-la-peur-d-une-contagion-du-conflit-malien-3-5",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T23:01:35",
-          "lead": "L’est du Sénégal face au risque de la contagion jihadiste, suite de notre série de reportages. Direction Kidira, dernièr"
         },
         {
           "title": "Au Sénégal, le climat répressif envers l'homosexualité se durcit",
@@ -487,10 +531,10 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Le Monde Afrique",
+        "BBC Africa",
         "RFI Afrique",
         "France24 Afrique",
-        "BBC Africa"
+        "Le Monde Afrique"
       ]
     },
     "Gambia": {
@@ -506,16 +550,35 @@
       "sources": []
     },
     "Guinea-Bissau": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.38,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "QFFD, QRCS distribute vital aid to affected families in Guinea-Bissau [EN/AR]",
+          "url": "https://reliefweb.int/report/guinea-bissau/qffd-qrcs-distribute-vital-aid-affected-families-guinea-bissau-enar",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:48:30",
+          "lead": "Country: Guinea-Bissau\n                                      Sources: Qatar Fund for Development, Qatar Red Crescent Soc"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Guinea": {
       "article_count": 6,
@@ -576,9 +639,9 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "RFI Afrique",
         "Jeune Afrique",
+        "France24 Afrique",
         "Africanews"
       ]
     },
@@ -686,11 +749,11 @@
           "count": 1
         },
         {
-          "word": "War",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "War",
           "count": 1
         },
         {
@@ -723,9 +786,9 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Togo": {
@@ -741,12 +804,12 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.4,
-      "ratio": 1.38,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.07,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Attack",
@@ -768,31 +831,47 @@
           "source": "AllAfrica",
           "published": "2026-02-25T11:00:43",
           "lead": "[Vanguard] A lawyer and member of the National Working Committee of the African Democratic Congress (ADC), Kenneth Okonk"
+        },
+        {
+          "title": "WFP Benin Country Brief, October-December 2025",
+          "url": "https://reliefweb.int/report/benin/wfp-benin-country-brief-october-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T16:36:18",
+          "lead": "Country: Benin\n                                      Source: World Food Programme\n                                      "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Nigeria": {
-      "article_count": 15,
-      "source_count": 4,
+      "article_count": 17,
+      "source_count": 5,
       "baseline": 9.3,
-      "ratio": 1.61,
+      "ratio": 1.83,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Boko haram",
+          "count": 3
+        },
         {
           "word": "Government",
           "count": 3
         },
         {
-          "word": "Boko haram",
+          "word": "Refugees",
           "count": 2
         },
         {
-          "word": "Minister",
-          "count": 1
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
         },
         {
           "word": "Gouvernement",
@@ -809,13 +888,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Ex-Nigerian minister confronted tycoons who bribed her, court told",
-          "url": "https://www.bbc.com/news/articles/cde43jy8x5no?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-24T19:42:39",
-          "lead": "Diezani Alison-Madueke denies five counts of accepting bribes and a charge of conspiracy to commit bribery."
-        },
         {
           "title": "Joshua crash driver case adjourned to March",
           "url": "https://www.bbc.com/sport/boxing/articles/cq6q5209q09o?at_medium=RSS&at_campaign=rss",
@@ -892,13 +964,21 @@
           "source": "AllAfrica",
           "published": "2026-02-25T10:51:34",
           "lead": "[This Day] Abuja -- The federal government on Tuesday filed fresh forgery charge against senior lawyer, Professor Mike O"
+        },
+        {
+          "title": "Nigeria: Eight Digs Likely to Go As Tinubu Appoints Disu Acting IGP",
+          "url": "https://allafrica.com/stories/202602250313.html",
+          "source": "AllAfrica",
+          "published": "2026-02-25T10:22:45",
+          "lead": "[Leadership] About eight deputy inspectors-general of police and some senior assistant inspectors-general of police are "
         }
       ],
       "sources": [
+        "BBC Africa",
         "AllAfrica",
         "RFI Afrique",
-        "BBC Africa",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Cape Verde": {
@@ -914,35 +994,27 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.7,
-      "ratio": 0.37,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 2.8,
+      "ratio": 1.09,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Attack",
-          "count": 1
+          "word": "Displaced",
+          "count": 3
         },
         {
-          "word": "Rsf",
-          "count": 1
+          "word": "Refugees",
+          "count": 2
         },
         {
-          "word": "Humanitarian",
-          "count": 1
+          "word": "Violence",
+          "count": 2
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Wounded",
-          "count": 1
-        },
-        {
-          "word": "Government",
+          "word": "Boko haram",
           "count": 1
         },
         {
@@ -950,12 +1022,34 @@
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "UNHCR Lake Chad Basin: Nigerian Refugees & Repatriation Overview - 1 February 2026",
+          "url": "https://reliefweb.int/report/nigeria/unhcr-lake-chad-basin-nigerian-refugees-repatriation-overview-1-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:03:23",
+          "lead": "Countries: Nigeria, Cameroon, Chad, Niger\n                                      Source: UN High Commissioner for Refugee"
+        },
+        {
+          "title": "UNHCR Nigeria Forcibly Displaced Populations Dashboard - 1 February 2026",
+          "url": "https://reliefweb.int/report/nigeria/unhcr-nigeria-forcibly-displaced-populations-dashboard-1-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:03:19",
+          "lead": "Countries: Nigeria, Cameroon, Chad, Niger\n                                      Source: UN High Commissioner for Refugee"
+        },
         {
           "title": "Sudan: People with Disabilities Targeted in North Darfur",
           "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
@@ -965,20 +1059,49 @@
         }
       ],
       "sources": [
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
-      "article_count": 7,
-      "source_count": 4,
+      "article_count": 11,
+      "source_count": 5,
       "baseline": 3.0,
-      "ratio": 2.36,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.62,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Mort",
+          "count": 3
+        },
+        {
+          "word": "Displaced",
+          "count": 3
+        },
+        {
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
           "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1031,37 +1154,129 @@
           "source": "Africanews",
           "published": "2026-02-25T16:39:01",
           "lead": "Pope Leo XIV will embark on his first major overseas trip of 2026 from April 13-23, visiting Algeria, Angola, Equatorial"
+        },
+        {
+          "title": "Cameroon: North-West and South-West Situation Report No.84, December 2025",
+          "url": "https://reliefweb.int/report/cameroon/cameroon-north-west-and-south-west-situation-report-no84-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T17:08:48",
+          "lead": "Country: Cameroon\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n "
+        },
+        {
+          "title": "Cameroon: Cameroun: Extrême-Nord, Rapport de situation No 63 - décembre 2025",
+          "url": "https://reliefweb.int/report/cameroon/cameroun-extreme-nord-rapport-de-situation-no-63-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T16:50:15",
+          "lead": "Country: Cameroon\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n "
+        },
+        {
+          "title": "UNHCR Lake Chad Basin: Nigerian Refugees & Repatriation Overview - 1 February 2026",
+          "url": "https://reliefweb.int/report/nigeria/unhcr-lake-chad-basin-nigerian-refugees-repatriation-overview-1-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:03:23",
+          "lead": "Countries: Nigeria, Cameroon, Chad, Niger\n                                      Source: UN High Commissioner for Refugee"
+        },
+        {
+          "title": "UNHCR Nigeria Forcibly Displaced Populations Dashboard - 1 February 2026",
+          "url": "https://reliefweb.int/report/nigeria/unhcr-nigeria-forcibly-displaced-populations-dashboard-1-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:03:19",
+          "lead": "Countries: Nigeria, Cameroon, Chad, Niger\n                                      Source: UN High Commissioner for Refugee"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique",
+        "France24 Afrique",
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "South Sudan": {
       "article_count": 2,
       "source_count": 2,
+      "baseline": 1.0,
+      "ratio": 1.93,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Central African Republic enters ‘decisive’ phase after landmark elections",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1167036",
+          "source": "UN News Africa",
+          "published": "2026-02-25T12:00:00",
+          "lead": "Fresh from holding the most extensive elections in its history, the Central African Republic (CAR) is entering what the "
+        },
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N°56, au 24 février 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg56-au-24-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T15:11:50",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
+        }
+      ],
+      "sources": [
+        "UN News Africa",
+        "ReliefWeb"
+      ]
+    },
+    "South Sudan": {
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.29,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.93,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Déplacés",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1080,11 +1295,19 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-25T15:56:54",
           "lead": "L’agence précise que les besoins dépassent largement les ressources disponibles dans le pays, qui reste l’un des Etats l"
+        },
+        {
+          "title": "South Sudan: Conflict and Displacement in Jonglei (Briefing Note 24 February 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-and-displacement-jonglei-briefing-note-24-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T11:33:07",
+          "lead": "Country: South Sudan\n                                      Source: ACAPS\n                                               "
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -1120,8 +1343,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "RFI Afrique",
+        "France24 Afrique",
         "Africanews"
       ]
     },
@@ -1177,23 +1400,27 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 8,
-      "source_count": 5,
-      "baseline": 7.6,
-      "ratio": 1.05,
+      "article_count": 10,
+      "source_count": 6,
+      "baseline": 7.7,
+      "ratio": 1.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 6
+          "count": 7
         },
         {
           "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Rebelle",
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Mort",
           "count": 1
         },
         {
@@ -1201,19 +1428,15 @@
           "count": 1
         },
         {
+          "word": "Rebelle",
+          "count": 1
+        },
+        {
           "word": "Combat",
           "count": 1
         },
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
           "word": "Rebel",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -1225,6 +1448,13 @@
           "source": "Al Jazeera",
           "published": "2026-02-25T16:27:17",
           "lead": "More than 90,000 Congolese fled across the border after M23 stormed in and took control of Uvira nearly 3 months ago."
+        },
+        {
+          "title": "RD Congo : après la mort de Willy Ngoma, l'armée mène des frappes sur plusieurs fronts",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260225-rd-congo-apr%C3%A8s-la-mort-de-willy-ngoma-l-arm%C3%A9e-m%C3%A8ne-des-frappes-sur-plusieurs-fronts",
+          "source": "France24 Afrique",
+          "published": "2026-02-25T21:27:40",
+          "lead": "Le président de la RD Congo Félix Tshisekedi a été reçu par Emmanuel Macron. Le président français a insisté sur la néce"
         },
         {
           "title": "En RD Congo, les forces de Kinshasa mènent des attaques sur plusieurs fronts contre l'AFC/M23",
@@ -1244,7 +1474,7 @@
           "title": "En RDC, plusieurs attaques des forces de Kinshasa contre le groupe armé M23, à proximité d’un site minier stratégique",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/25/en-rdc-plusieurs-attaques-des-forces-de-kinshasa-contre-le-groupe-arme-m23-a-proximite-d-un-site-minier-strategique_6668246_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-02-25T15:28:59",
+          "published": "2026-02-25T15:28:57",
           "lead": "Les combats se concentrent notamment mercredi dans des zones proches de la cité minière de Rubaya, où des militaires du "
         },
         {
@@ -1274,14 +1504,22 @@
           "source": "Africanews",
           "published": "2026-02-25T16:16:54",
           "lead": "DR Congo government forces launched a major attack on the M23 rebel group in the east, using drones to strike a key mini"
+        },
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N°56, au 24 février 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg56-au-24-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T15:11:50",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "Africanews",
         "Al Jazeera",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews",
+        "Le Monde Afrique",
+        "ReliefWeb"
       ]
     },
     "São Tomé": {
@@ -1300,12 +1538,12 @@
       "article_count": 4,
       "source_count": 4,
       "baseline": 1.0,
-      "ratio": 4.14,
+      "ratio": 4.0,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Humanitarian",
+          "word": "President",
           "count": 1
         },
         {
@@ -1313,7 +1551,7 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1349,26 +1587,26 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 1.45,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rebelle",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Rebelle",
           "count": 1
         }
       ],
@@ -1387,27 +1625,44 @@
       ]
     },
     "Djibouti": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 4.0,
+      "status": "elevated",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Djibouti - Flow Monitoring: Registration, December 2025 - Dashboard # 94",
+          "url": "https://reliefweb.int/report/djibouti/djibouti-flow-monitoring-registration-december-2025-dashboard-94",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:33:09",
+          "lead": "Countries: Djibouti, Ethiopia, Yemen\n                                      Source: International Organization for Migrat"
+        },
+        {
+          "title": "Djibouti : Suivi des flux de populations : Enregistrement, Decembre 2025 - Tableau de bord # 93",
+          "url": "https://reliefweb.int/report/djibouti/djibouti-suivi-des-flux-de-populations-enregistrement-decembre-2025-tableau-de-bord-93",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:33:05",
+          "lead": "Countries: Djibouti, Ethiopia, Yemen\n                                      Source: International Organization for Migrat"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Ethiopia": {
-      "article_count": 5,
+      "article_count": 8,
       "source_count": 4,
       "baseline": 4.2,
-      "ratio": 1.2,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.89,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -1415,23 +1670,16 @@
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Le président israélien en visite en Éthiopie, un partenaire clé sur le continent africain",
-          "url": "https://www.rfi.fr/fr/afrique/20260224-le-pr%C3%A9sident-isra%C3%A9lien-en-visite-en-%C3%A9thiopie-un-partenaire-cl%C3%A9-sur-le-continent-africain",
-          "source": "RFI Afrique",
-          "published": "2026-02-24T21:10:57",
-          "lead": "Le président israélien Isaac Herzog est arrivé ce 24 février en Éthiopie pour une visite de deux jours. Au menu notammen"
-        },
         {
           "title": "Pourquoi l’Ethiopie et l’Erythrée sont à nouveau au bord de la guerre",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/25/pourquoi-l-ethiopie-et-l-erythree-sont-a-nouveau-au-bord-de-la-guerre_6668254_3212.html",
@@ -1459,27 +1707,51 @@
           "source": "Africanews",
           "published": "2026-02-25T07:38:31",
           "lead": "Israeli President Isaac Herzog arrived in Addis Ababa on Wednesday as he started his official visit to Ethiopia."
+        },
+        {
+          "title": "Djibouti - Flow Monitoring: Registration, December 2025 - Dashboard # 94",
+          "url": "https://reliefweb.int/report/djibouti/djibouti-flow-monitoring-registration-december-2025-dashboard-94",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:33:09",
+          "lead": "Countries: Djibouti, Ethiopia, Yemen\n                                      Source: International Organization for Migrat"
+        },
+        {
+          "title": "Djibouti : Suivi des flux de populations : Enregistrement, Decembre 2025 - Tableau de bord # 93",
+          "url": "https://reliefweb.int/report/djibouti/djibouti-suivi-des-flux-de-populations-enregistrement-decembre-2025-tableau-de-bord-93",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:33:05",
+          "lead": "Countries: Djibouti, Ethiopia, Yemen\n                                      Source: International Organization for Migrat"
+        },
+        {
+          "title": "Kenya: Hanaano Programme | Concern Worldwide",
+          "url": "https://reliefweb.int/report/kenya/hanaano-programme-concern-worldwide",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:03:06",
+          "lead": "Countries: Kenya, Ethiopia, Somalia\n                                      Source: Concern Worldwide\n                    "
+        },
+        {
+          "title": "Ethiopia Dialogues on Progress Towards Building a Competent, Responsive, and Equitably Distributed Health Workforce for Universal Health Coverage",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-dialogues-progress-towards-building-competent-responsive-and-equitably-distributed-health-workforce-universal-health-coverage",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T12:08:02",
+          "lead": "Country: Ethiopia\n                                      Source: World Health Organization\n                              "
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
+        "Africanews",
         "Le Monde Afrique",
-        "Africanews"
+        "ReliefWeb"
       ]
     },
     "Somalia": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 4,
       "baseline": 2.3,
-      "ratio": 2.56,
+      "ratio": 2.99,
       "status": "high",
       "confidence": "high",
       "keywords": [
-        {
-          "word": "Drought",
-          "count": 2
-        },
         {
           "word": "Dead",
           "count": 1
@@ -1489,26 +1761,30 @@
           "count": 1
         },
         {
+          "word": "Drought",
+          "count": 1
+        },
+        {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Al-shabaab",
+          "word": "Killed",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Al-shabaab",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "UN: 6.5 million in Somalia facing hunger",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/2/25/un-6-5-million-in-somalia-facing-hunger?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-25T13:47:19",
-          "lead": "The UN is warning 6.5 million people in Somalia are facing extreme hunger, triggered by a prolonged drought."
+          "title": "George Bennett obituary",
+          "url": "https://www.theguardian.com/media/2026/feb/25/george-bennett-obituary",
+          "source": "The Guardian Africa",
+          "published": "2026-02-25T20:50:13",
+          "lead": "In 1963, my friend George Bennett, who has died aged 91, saw an advertisement for a talks writer in the African section "
         },
         {
           "title": "‘A rushed execution’: the case of the woman convicted of child murder that shocked Somalia",
@@ -1544,20 +1820,27 @@
           "source": "AllAfrica",
           "published": "2026-02-25T10:11:00",
           "lead": "[Shabelle] Mogadishu -- Somalia's National Intelligence and Security Agency (NISA), working with international partners,"
+        },
+        {
+          "title": "Kenya: Hanaano Programme | Concern Worldwide",
+          "url": "https://reliefweb.int/report/kenya/hanaano-programme-concern-worldwide",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:03:06",
+          "lead": "Countries: Kenya, Ethiopia, Somalia\n                                      Source: Concern Worldwide\n                    "
         }
       ],
       "sources": [
         "AllAfrica",
-        "The Guardian Africa",
         "Africanews",
-        "Al Jazeera"
+        "ReliefWeb",
+        "The Guardian Africa"
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.13,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1571,13 +1854,6 @@
           "lead": "Uganda has some of the strictest anti-homosexual laws in the world."
         },
         {
-          "title": "Uganda: Worries grow over Kizza Besigye's health",
-          "url": "http://www.africanews.com/2026/02/24/uganda-worries-grow-over-kizza-besigyes-health/",
-          "source": "Africanews",
-          "published": "2026-02-24T21:00:04",
-          "lead": "Concern is growing over Ugandan opposition figure Kizza Besigye's health. Having been behind bars for more than a year n"
-        },
-        {
           "title": "Africa: Breakthrough Sickle Cell Gene Therapy a Distant Hope in Africa",
           "url": "https://allafrica.com/stories/202602250428.html",
           "source": "AllAfrica",
@@ -1587,28 +1863,31 @@
       ],
       "sources": [
         "AllAfrica",
-        "BBC Africa",
-        "Africanews"
+        "BBC Africa"
       ]
     },
     "Kenya": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 5.5,
-      "ratio": 0.73,
+      "article_count": 7,
+      "source_count": 4,
+      "baseline": 5.4,
+      "ratio": 1.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         },
         {
@@ -1616,19 +1895,15 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Wounded",
+          "word": "Displaced",
           "count": 1
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1656,6 +1931,27 @@
           "lead": "[Capital FM] Nairobi -- The Duchess of Edinburgh has arrived in Kenya for a high-level visit aimed at strengthening the "
         },
         {
+          "title": "Kenya: Hanaano Programme | Concern Worldwide",
+          "url": "https://reliefweb.int/report/kenya/hanaano-programme-concern-worldwide",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T13:03:06",
+          "lead": "Countries: Kenya, Ethiopia, Somalia\n                                      Source: Concern Worldwide\n                    "
+        },
+        {
+          "title": "WHO and Novo Nordisk Foundation partner to advance health workforce education in Kenya",
+          "url": "https://reliefweb.int/report/kenya/who-and-novo-nordisk-foundation-partner-advance-health-workforce-education-kenya",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T12:04:55",
+          "lead": "Country: Kenya\n                                      Source: World Health Organization\n                                 "
+        },
+        {
+          "title": "Kenya builds capacity to produce its own vaccines",
+          "url": "https://reliefweb.int/report/kenya/kenya-builds-capacity-produce-its-own-vaccines",
+          "source": "ReliefWeb",
+          "published": "2026-02-25T12:00:48",
+          "lead": "Country: Kenya\n                                      Source: World Health Organization\n                                 "
+        },
+        {
           "title": "Sudan: People with Disabilities Targeted in North Darfur",
           "url": "https://www.hrw.org/news/2026/02/24/sudan-people-with-disabilities-targeted-in-north-darfur",
           "source": "Human Rights Watch",
@@ -1664,25 +1960,22 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "AllAfrica",
-        "Human Rights Watch"
+        "RFI Afrique",
+        "Human Rights Watch",
+        "ReliefWeb"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.4,
-      "ratio": 0.83,
+      "ratio": 1.24,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Combat",
-          "count": 1
-        },
-        {
-          "word": "Violence",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -1690,12 +1983,23 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Génocide des Tutsis au Rwanda: la parole aux parties civiles dans le procès de Claude Muhayimana à Paris",
+          "url": "https://www.rfi.fr/fr/france/20260225-g%C3%A9nocide-des-tutsis-au-rwanda-la-parole-aux-parties-civiles-dans-le-proc%C3%A8s-de-claude-muhayimana-%C3%A0-paris",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T19:47:04",
+          "lead": "Dans le procès du Franco-Rwandais Claude Muhayimana, à Paris, place aux plaidoiries des parties civiles ce mercredi 25 f"
+        },
         {
           "title": "Rwanda : deux gendarmes français, tués au début du génocide des Tutsi, reconnus « Morts pour la France »",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/25/rwanda-deux-gendarmes-francais-tues-au-debut-du-genocide-des-tutsi-reconnus-morts-pour-la-france_6668243_3212.html",
@@ -1712,6 +2016,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Le Monde Afrique",
         "Human Rights Watch"
       ]
@@ -1719,17 +2024,17 @@
     "Burundi": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 1.76,
+      "baseline": 1.2,
+      "ratio": 1.71,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Fighting",
+          "word": "M23",
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Fighting",
           "count": 1
         },
         {
@@ -1787,24 +2092,16 @@
       ]
     },
     "Madagascar": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 1.38,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 3
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -1822,40 +2119,39 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-24T22:00:06",
           "lead": "Michaël Randrianirina a été reçu mardi 24 février par Emmanuel Macron à l’Elysée, cinq jours après avoir rencontré Vladi"
-        },
-        {
-          "title": "Madagascar : la France d’Emmanuel Macron tente de rattraper l’avance russe",
-          "url": "https://www.jeuneafrique.com/1768635/politique/madagascar-la-france-demmanuel-macron-tente-de-rattraper-lavance-russe/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-24T19:00:46",
-          "lead": "En recevant le nouveau président malgache Michaël Randrianirina à l’Élysée ce 24 février, Emmanuel Macron cherche à repr"
-        },
-        {
-          "title": "President of Madagascar visits his French counterpart in Paris",
-          "url": "http://www.africanews.com/2026/02/24/president-of-madagascar-visits-his-french-counterpart-in-paris/",
-          "source": "Africanews",
-          "published": "2026-02-24T20:59:54",
-          "lead": "The President of Madagascar, Michael Randrianirina, is visiting his French counterpart Emmanuel Macron, in Paris. Accord"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "Le Monde Afrique",
-        "Africanews"
+        "Le Monde Afrique"
       ]
     },
     "Comoros": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Comores: vive émotion après le décès de l'ex-présentatrice vedette Binti Mhadjou",
+          "url": "https://www.rfi.fr/fr/afrique/20260225-comores-vive-%C3%A9motion-apr%C3%A8s-le-d%C3%A9c%C3%A8s-de-l-ex-pr%C3%A9sentatrice-vedette-binti-mhadjou",
+          "source": "RFI Afrique",
+          "published": "2026-02-25T21:27:19",
+          "lead": "La presse comorienne est en deuil. Binti Mhadjou, ancienne présentatrice vedette du journal télévisé de l’Office de radi"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Mauritius": {
       "article_count": 0,
@@ -1885,8 +2181,8 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.8,
-      "ratio": 2.52,
-      "status": "high",
+      "ratio": 2.42,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
@@ -1912,8 +2208,8 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Africanews"
+        "Africanews",
+        "The Guardian Africa"
       ]
     },
     "Malawi": {
@@ -1961,10 +2257,10 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 9,
-      "source_count": 4,
+      "article_count": 8,
+      "source_count": 3,
       "baseline": 2.1,
-      "ratio": 4.28,
+      "ratio": 3.8,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -2000,13 +2296,6 @@
           "source": "BBC Africa",
           "published": "2026-02-25T09:45:31",
           "lead": "After a long time in the wilderness, Zimbabwe are again contending on the biggest stage at the 2026 T20 World Cup - this"
-        },
-        {
-          "title": "India vs Zimbabwe: T20 World Cup Super Eights – teams, start, lineups",
-          "url": "https://www.aljazeera.com/sports/2026/2/25/india-vs-zimbabwe-t20-world-cup-super-eights-teams-start-lineups?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-25T14:41:33",
-          "lead": "India and Zimbabwe are both in need to a Super Eights win to keep alive T20 World Cup semifinal dream."
         },
         {
           "title": "Zimbabwe walks away from $367M US health deal over sovereignty concerns",
@@ -2053,9 +2342,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "BBC Africa",
         "Africanews",
-        "Al Jazeera"
+        "BBC Africa"
       ]
     },
     "Namibia": {
@@ -2098,23 +2386,31 @@
       ]
     },
     "South Africa": {
-      "article_count": 16,
-      "source_count": 4,
+      "article_count": 21,
+      "source_count": 6,
       "baseline": 12.6,
-      "ratio": 1.27,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.67,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "President",
+          "count": 3
+        },
         {
           "word": "Minister",
           "count": 3
+        },
+        {
+          "word": "Président",
+          "count": 1
         },
         {
           "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Fighting",
           "count": 1
         },
         {
@@ -2122,15 +2418,11 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Crisis",
           "count": 1
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -2142,6 +2434,13 @@
           "source": "RFI Afrique",
           "published": "2026-02-25T04:08:08",
           "lead": "Alors qu’un récent rapport des services de renseignements du Kenya indique que plus de 1000 Kényans ont été recrutés par"
+        },
+        {
+          "title": "11 South African men allegedly tricked into fighting in Ukraine return",
+          "url": "http://www.africanews.com/2026/02/25/11-south-african-men-allegedly-tricked-into-fighting-in-ukraine-return/",
+          "source": "Africanews",
+          "published": "2026-02-25T20:33:05",
+          "lead": "Eleven South African men allegedly tricked into fighting for Russian forces in Ukraine returned home Wednesday, as polit"
         },
         {
           "title": "South Africa: Budget 2026 - Social Grants to Go Up in April",
@@ -2186,46 +2485,41 @@
           "lead": "[Scrolla] Darrel Brown told CBS 60 Minutes that the Newcastle crosses stood for less than 48 hours to honour killed comm"
         },
         {
+          "title": "AIRPORT SWOOP: Hawks stop alleged Vietnamese wildlife trafficker from fleeing SA justice",
+          "url": "https://www.dailymaverick.co.za/article/hawks-stop-alleged-vietnamese-wildlife-trafficker-from-fleeing-sa-justice",
+          "source": "Daily Maverick",
+          "published": "2026-02-25T22:05:54",
+          "lead": "A controversial Vietnamese national was arrested trying to flee South Africa while on wildlife trafficking charges. Huy "
+        },
+        {
+          "title": "POWER CHAT: Watch – Mashaba on running Johannesburg, tackling the water crisis, and politics of exclusion",
+          "url": "https://www.dailymaverick.co.za/article/watch-mashaba-on-running-johannesburg-tackling-the-water-crisis-and-politics-of",
+          "source": "Daily Maverick",
+          "published": "2026-02-25T21:03:08",
+          "lead": "In a wide-ranging interview, Daily Maverick’s Ferial Haffajee sits down with Herman Mashaba, president of ActionSA and m"
+        },
+        {
+          "title": "Vital support: $6bn funding package boosts global HIV response, what does it mean for SA?",
+          "url": "https://www.dailymaverick.co.za/article/6bn-funding-package-boosts-global-hiv-response-what-does-it-mean-for-sa",
+          "source": "Daily Maverick",
+          "published": "2026-02-25T21:02:28",
+          "lead": "The US has committed a $5.88-billion spending package to the global response to HIV, one year after severe Pepfar fundin"
+        },
+        {
           "title": "BUSINESS REFLECTION: Loaded for Bear: Pot smokers can once again raise a bong to the Budget",
           "url": "https://www.dailymaverick.co.za/article/loaded-for-bear-pot-smokers-can-once-again-raise-a-bong-to-the-budget",
           "source": "Daily Maverick",
           "published": "2026-02-25T19:10:58",
           "lead": "Through the dense cloud of smoke that hangs over South African pot policy, recreational cannabis products — the goods th"
-        },
-        {
-          "title": "BUDGET 2026: Treasury pivots on SA’s turning point",
-          "url": "https://www.dailymaverick.co.za/article/treasury-pivots-on-sas-turning-point",
-          "source": "Daily Maverick",
-          "published": "2026-02-25T16:53:02",
-          "lead": "Budget 2026 is the industrialisation fulcrum on which the Ramaphosa administration will lift the South African economy o"
-        },
-        {
-          "title": "COMBINED FORCES: What Ramaphosa’s domestic military deployment really means for SA’s security state",
-          "url": "https://www.dailymaverick.co.za/article/what-ramaphosas-domestic-military-deployment-really-means-for-sas-security-state",
-          "source": "Daily Maverick",
-          "published": "2026-02-25T15:45:49",
-          "lead": "The deployment of the SANDF raises critical questions about the future of South African democracy as military interventi"
-        },
-        {
-          "title": "BUDGET 2026: Charting the 2026 Budget: From national debt to personal income tax",
-          "url": "https://www.dailymaverick.co.za/article/charting-the-2026-budget-all-you-need-to-know",
-          "source": "Daily Maverick",
-          "published": "2026-02-25T15:36:03",
-          "lead": "Daily Maverick breaks down all the numbers, categories, segments and fiscal policy changes that have an impact on you, f"
-        },
-        {
-          "title": "BUDGET 2026: Grants grow, SRD extended and Sassa tightens checks to cut fraud",
-          "url": "https://www.dailymaverick.co.za/article/grants-grow-srd-extended-and-sassa-tightens-checks-to-cut-fraud",
-          "source": "Daily Maverick",
-          "published": "2026-02-25T14:48:57",
-          "lead": "South Africa’s social grant system sees increased funding, while Sassa is intensifying fraud checks and compliance measu"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
         "Human Rights Watch",
-        "Daily Maverick"
+        "AllAfrica",
+        "RFI Afrique",
+        "Africanews",
+        "Daily Maverick",
+        "ReliefWeb"
       ]
     },
     "Eswatini": {
