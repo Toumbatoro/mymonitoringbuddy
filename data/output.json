@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-02-27T18:30:06.921521",
+  "generated_at": "2026-02-27T21:21:25.804324",
   "summary": {
-    "high": 3,
-    "elevated": 7,
-    "normal": 28,
-    "quiet": 16
+    "high": 5,
+    "elevated": 11,
+    "normal": 25,
+    "quiet": 13
   },
   "countries": {
     "Morocco": {
@@ -47,8 +47,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
+        "RFI Afrique",
         "BBC Africa"
       ]
     },
@@ -83,15 +83,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 1.62,
+      "ratio": 1.71,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -118,26 +118,18 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Libya": {
-      "article_count": 5,
-      "source_count": 4,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 2.0,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Militia",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -149,13 +141,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Deadly journeys: Refugees, migrants risk everything to reach Europe",
-          "url": "https://www.aljazeera.com/news/2026/2/27/deadly-journeys-refugees-migrants-risk-everything-to-reach-europe?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-27T12:24:50",
-          "lead": "Crossing to Europe offers hope but exposes refugees to peril, as militia abuse persists in unsafe Libya."
-        },
         {
           "title": "Attaques en RD Congo, pourparlers sur le Sahara occidental, ramadan en Libye : l’hebdo Afrique",
           "url": "https://www.france24.com/fr/afrique/20260227-attaques-rd-congo-pourparlers-sahara-occidental-ramadan-libye-l-hebdo-afrique",
@@ -186,35 +171,65 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Al Jazeera",
+        "France24 Afrique",
         "Africanews",
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.65,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "A Small Change in Egypt’s Tax Code, A Big Opportunity for Rights",
+          "url": "https://www.hrw.org/news/2026/02/27/a-small-change-in-egypts-tax-code-a-big-opportunity-for-rights",
+          "source": "Human Rights Watch",
+          "published": "2026-02-27T20:00:07",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              People"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Sudan": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 6.4,
-      "ratio": 0.79,
+      "article_count": 8,
+      "source_count": 6,
+      "baseline": 6.3,
+      "ratio": 1.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "War",
-          "count": 3
+          "count": 5
+        },
+        {
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Violence",
+          "count": 2
         },
         {
           "word": "Guerre",
@@ -229,7 +244,7 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -269,12 +284,36 @@
           "source": "Africanews",
           "published": "2026-02-27T06:57:03",
           "lead": "A UN flight landed at Khartoum airport on Thursday, the first since Sudan's nearly three-year war began, the UN humanita"
+        },
+        {
+          "title": "South Sudan: Forgotten Conflict in South Sudan At 'A Dangerous Point', T&#xfc;rk Warns",
+          "url": "https://allafrica.com/stories/202602270865.html",
+          "source": "AllAfrica",
+          "published": "2026-02-27T20:14:55",
+          "lead": "[UN News] South Sudan was the focus of debate in the UN Human Rights Council on Friday as escalating violence and politi"
+        },
+        {
+          "title": "Forgotten conflict in South Sudan at ‘a dangerous point’, Türk warns",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1167051",
+          "source": "UN News Africa",
+          "published": "2026-02-27T12:00:00",
+          "lead": "South Sudan was the focus of debate in the UN Human Rights Council on Friday as escalating violence and political tensio"
+        },
+        {
+          "title": "Sudan: Site Profile - Tawila Camp: North Darfur Humanitarian Response (February 18, 2026)",
+          "url": "https://reliefweb.int/report/sudan/site-profile-tawila-camp-north-darfur-humanitarian-response-february-18-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T12:41:23",
+          "lead": "Country: Sudan\n                                      Source: Norwegian Refugee Council\n                                 "
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "ReliefWeb",
         "Africanews",
-        "Jeune Afrique"
+        "AllAfrica",
+        "Jeune Afrique",
+        "RFI Afrique",
+        "UN News Africa"
       ]
     },
     "Mauritania": {
@@ -312,8 +351,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Mali": {
@@ -339,26 +378,31 @@
           "lead": "L'est du Sénégal face au risque de la contagion jihadiste, fin de notre série de reportages. Aux Trois frontières, zone "
         },
         {
-          "title": "Pétrole : ce que l’on sait sur le malien NDC, repreneur des anciennes stations de TotalEnergies au Mali",
-          "url": "https://www.jeuneafrique.com/1769373/economie-entreprises/petrole-ce-que-lon-sait-sur-le-malien-ndc-repreneur-des-anciennes-stations-de-totalenergies-au-mali/",
-          "source": "Jeune Afrique",
-          "published": "2026-02-26T19:15:03",
-          "lead": "Connue pour approvisionner les grandes entreprises maliennes et internationales telles que Énergie du Mali (EDM), Oryx o"
+          "title": "Senegal: Mali Eyes Atlantic Access Through $800m Senegal River Corridor",
+          "url": "https://allafrica.com/stories/202602270863.html",
+          "source": "AllAfrica",
+          "published": "2026-02-27T20:13:23",
+          "lead": "[Daba Finance] Landlocked Mali could gain direct access to the Atlantic Ocean under an ambitious plan to transform the S"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 2.3,
-      "ratio": 1.29,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "ratio": 2.17,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -381,22 +425,46 @@
           "source": "Jeune Afrique",
           "published": "2026-02-27T17:12:12",
           "lead": "Ouagadougou a annoncé le lancement d’un appel à la mobilisation des fonds des Burkinabè de l’étranger. Objectif affiché "
+        },
+        {
+          "title": "Burkina Faso : GCORR les déplacements dans les régions de janvier à décembre 2025",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-gcorr-les-deplacements-dans-les-regions-de-janvier-decembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:38:00",
+          "lead": "Country: Burkina Faso\n                                      Sources: Norwegian Refugee Council, UN Office for the Coordi"
+        },
+        {
+          "title": "Burkina Faso : GCORR Rapport Annuel de la Réponse Rapide Année 2025",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-gcorr-rapport-annuel-de-la-reponse-rapide-annee-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:03:20",
+          "lead": "Country: Burkina Faso\n                                      Sources: Norwegian Refugee Council, UN Office for the Coordi"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Le Monde Afrique",
         "Jeune Afrique",
         "BBC Africa"
       ]
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.0,
-      "ratio": 0.25,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 3.9,
+      "ratio": 0.51,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -405,17 +473,25 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-27T05:00:39",
           "lead": "Découvert au Niger, ce dinosaure de 14 mètres de long était un piscivore chassant à l’affût qui vivait il y a 95 million"
+        },
+        {
+          "title": "Niger: Besoins Humanitaires et Plan de Réponse (Février 2026)",
+          "url": "https://reliefweb.int/report/niger/niger-besoins-humanitaires-et-plan-de-reponse-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T07:51:11",
+          "lead": "Country: Niger\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n    "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Le Monde Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 5.2,
-      "ratio": 0.58,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -424,15 +500,15 @@
           "count": 1
         },
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "Government",
           "count": 1
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -458,11 +534,19 @@
           "source": "Africanews",
           "published": "2026-02-27T16:19:53",
           "lead": "Senegal's parliament on Friday referred a former minister to a special court for allegedly embezzling millions in taxpay"
+        },
+        {
+          "title": "Senegal: Mali Eyes Atlantic Access Through $800m Senegal River Corridor",
+          "url": "https://allafrica.com/stories/202602270863.html",
+          "source": "AllAfrica",
+          "published": "2026-02-27T20:13:23",
+          "lead": "[Daba Finance] Landlocked Mali could gain direct access to the Atlantic Ocean under an ambitious plan to transform the S"
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "Gambia": {
@@ -547,11 +631,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 2
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 2
         }
       ],
@@ -591,11 +675,11 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 1.8,
-      "ratio": 2.22,
-      "status": "elevated",
+      "ratio": 2.78,
+      "status": "high",
       "confidence": "medium",
       "keywords": [
         {
@@ -605,13 +689,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Did Epstein help Israel push for a security deal with Ivory Coast?",
-          "url": "https://www.aljazeera.com/news/2026/2/27/did-epstein-help-israel-push-for-a-security-deal-with-ivory-coast?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-27T11:07:04",
-          "lead": "Latest Epstein files released in January reveal the extent of his relations with some prominent African leaders."
-        },
         {
           "title": "Côte d’Ivoire: trois ans de prison requis contre le secrétaire exécutif du PDCI",
           "url": "https://www.rfi.fr/fr/afrique/20260227-c%C3%B4te-d-ivoire-trois-ans-de-prison-requis-contre-le-secr%C3%A9taire-ex%C3%A9cutif-du-pdci",
@@ -632,19 +709,33 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-27T05:00:17",
           "lead": "Le pays présente un risque de défaut jugé modéré et la signature de crédit d’Abidjan est la plus solide d’Afrique subsah"
+        },
+        {
+          "title": "Africa: HEC Paris Challenge+ Afrique - 5 years of Transforming Ideas Into Impact",
+          "url": "https://allafrica.com/stories/202602270862.html",
+          "source": "AllAfrica",
+          "published": "2026-02-27T18:15:39",
+          "lead": "[35Nord] Five years after its inaugural launch in Abidjan, Challenge+ Afrique, HEC Paris's flagship entrepreneurship pro"
+        },
+        {
+          "title": "Cote d'Ivoire: Ivory Coast Faces 200,000 Tons of Unsold Cocoa Over Price Dispute",
+          "url": "https://allafrica.com/stories/202602270864.html",
+          "source": "AllAfrica",
+          "published": "2026-02-27T20:14:19",
+          "lead": "[Daba Finance] Ivory Coast may end March with close to 200,000 tons of unsold cocoa, as tensions between regulators and "
         }
       ],
       "sources": [
-        "Al Jazeera",
+        "Le Monde Afrique",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "AllAfrica"
       ]
     },
     "Ghana": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 2.8,
-      "ratio": 1.43,
+      "baseline": 2.9,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -703,8 +794,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Jeune Afrique",
         "Africanews",
+        "Jeune Afrique",
         "The Guardian Africa"
       ]
     },
@@ -712,7 +803,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.7,
-      "ratio": 3.0,
+      "ratio": 2.86,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -743,17 +834,17 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Benin": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.25,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.91,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -765,6 +856,13 @@
           "lead": "Cotonou, dont le programme avec le Fonds monétaire international vient de se conclure par un décaissement de 118 million"
         },
         {
+          "title": "Benin's annual arts festival gives centre stage to young designers",
+          "url": "http://www.africanews.com/2026/02/27/benins-annual-arts-festival-gives-centre-stage-to-young-designers/",
+          "source": "Africanews",
+          "published": "2026-02-27T20:05:31",
+          "lead": "Alongside established designers, 12 young talents took part in a competition designed to reveal the stylistic voices of "
+        },
+        {
           "title": "Nigeria: Police, Other Security Agencies Arrest 113 Suspected Kidnappers in Edo",
           "url": "https://allafrica.com/stories/202602270379.html",
           "source": "AllAfrica",
@@ -773,15 +871,16 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Africanews",
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Nigeria": {
       "article_count": 9,
       "source_count": 3,
-      "baseline": 9.4,
-      "ratio": 0.96,
+      "baseline": 9.5,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -874,8 +973,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -894,7 +993,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.35,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -947,48 +1046,40 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 1.7,
-      "ratio": 2.31,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 7,
+      "source_count": 5,
+      "baseline": 1.6,
+      "ratio": 4.29,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 2
+          "word": "Violence",
+          "count": 3
         },
         {
-          "word": "Violence",
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "War",
           "count": 2
         },
         {
           "word": "President",
-          "count": 2
-        },
-        {
-          "word": "War",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Minister",
-          "President"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
-        {
-          "title": "South Sudan at risk of ‘return to full-scale war’, UN warns",
-          "url": "https://www.aljazeera.com/news/2026/2/27/south-sudan-at-risk-of-return-to-full-scale-war-un-report-warns?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-02-27T10:30:01",
-          "lead": "UN report warns of &#039;escalating atrocity risks&#039; amid renewed fighting and widespread impunity over abuses."
-        },
         {
           "title": "Can President Kiir stabilize South Sudan?",
           "url": "https://www.dw.com/en/can-president-kiir-stabilize-south-sudan/a-76121512?maca=en-rss-en-africa-8291-xml-mrss",
@@ -1004,18 +1095,47 @@
           "lead": "Dans un communiqué commun publié jeudi 26 février, plusieurs chancelleries occidentales, dont les États-Unis et l’Union "
         },
         {
-          "title": "South Sudan: Can President Kiir Stabilize South Sudan?",
-          "url": "https://allafrica.com/stories/202602270083.html",
+          "title": "South Sudan: Forgotten Conflict in South Sudan At 'A Dangerous Point', T&#xfc;rk Warns",
+          "url": "https://allafrica.com/stories/202602270865.html",
           "source": "AllAfrica",
-          "published": "2026-02-27T06:39:31",
-          "lead": "[DW] South Sudan's instability is deepening: a ninth finance minister since 2020, the suspended first vice president on "
+          "published": "2026-02-27T20:14:55",
+          "lead": "[UN News] South Sudan was the focus of debate in the UN Human Rights Council on Friday as escalating violence and politi"
+        },
+        {
+          "title": "Forgotten conflict in South Sudan at ‘a dangerous point’, Türk warns",
+          "url": "https://news.un.org/feed/view/en/story/2026/02/1167051",
+          "source": "UN News Africa",
+          "published": "2026-02-27T12:00:00",
+          "lead": "South Sudan was the focus of debate in the UN Human Rights Council on Friday as escalating violence and political tensio"
+        },
+        {
+          "title": "Growing Up Displaced: Understanding and addressing child protection risks in Uganda (February 2026)",
+          "url": "https://reliefweb.int/report/uganda/growing-displaced-understanding-and-addressing-child-protection-risks-uganda-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T10:49:50",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: Danish Re"
+        },
+        {
+          "title": "South Sudan - Concept of Operations Map - February 2026",
+          "url": "https://reliefweb.int/map/south-sudan/south-sudan-concept-operations-map-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T07:40:13",
+          "lead": "Country: South Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n            "
+        },
+        {
+          "title": "South Sudan - Access Constraints Map, 26 February 2026",
+          "url": "https://reliefweb.int/map/south-sudan/south-sudan-access-constraints-map-26-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T07:40:10",
+          "lead": "Country: South Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n            "
         }
       ],
       "sources": [
-        "DW Africa",
+        "ReliefWeb",
         "AllAfrica",
-        "Al Jazeera",
-        "RFI Afrique"
+        "RFI Afrique",
+        "DW Africa",
+        "UN News Africa"
       ]
     },
     "Eq. Guinea": {
@@ -1073,27 +1193,43 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 9,
-      "source_count": 5,
-      "baseline": 7.9,
-      "ratio": 1.14,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 12,
+      "source_count": 6,
+      "baseline": 7.8,
+      "ratio": 1.54,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
           "count": 3
         },
         {
+          "word": "M23",
+          "count": 2
+        },
+        {
           "word": "Crise",
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Rebel",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -1161,13 +1297,35 @@
           "source": "AllAfrica",
           "published": "2026-02-27T17:19:00",
           "lead": "[Drugs for Neglected Diseases initiative (DNDi)] Kinshasa / Paris / Geneva / Amsterdam -- &#xb7; Recommendation based on"
+        },
+        {
+          "title": "Democratic Republic of the Congo - Eastern region: Overview of incidents against humanitarian workers (Jan 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-eastern-region-overview-incidents-against-humanitarian-workers-jan-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T10:14:11",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
+        },
+        {
+          "title": "WFP Burundi Situation Report #9, 25 February WFP Response to Emergencies in Burundi",
+          "url": "https://reliefweb.int/report/burundi/wfp-burundi-situation-report-9-25-february-wfp-response-emergencies-burundi",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T10:12:45",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, United Republic of Tanzania\n                                      "
+        },
+        {
+          "title": "DR Congo: Cluster Eau Hygiène et Assainissement - RDC : Bilan de la réponse humanitaire Janvier 2026",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/cluster-eau-hygiene-et-assainissement-rdc-bilan-de-la-reponse-humanitaire-janvier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:52:55",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Sources: UN Children's Fund, WASH Cluste"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica",
-        "Jeune Afrique",
-        "Africanews",
         "Le Monde Afrique",
+        "Africanews",
+        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
@@ -1186,8 +1344,8 @@
     "Angola": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 0.97,
+      "baseline": 1.1,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1260,10 +1418,10 @@
       ]
     },
     "Ethiopia": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 4.4,
-      "ratio": 0.92,
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 4.3,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1277,6 +1435,10 @@
         },
         {
           "word": "Election",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1309,12 +1471,20 @@
           "source": "AllAfrica",
           "published": "2026-02-27T14:23:00",
           "lead": "[Addis Standard] Addis Abeba -- The Information Network Security Administration (INSA) has issued an urgent warning over"
+        },
+        {
+          "title": "WFP Madagascar Country Brief, December 2025",
+          "url": "https://reliefweb.int/report/madagascar/wfp-madagascar-country-brief-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:24:48",
+          "lead": "Country: Madagascar\n                                      Source: World Food Programme\n                                 "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica",
-        "DW Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "DW Africa"
       ]
     },
     "Somalia": {
@@ -1326,11 +1496,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1349,13 +1519,30 @@
       ]
     },
     "Uganda": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.6,
-      "ratio": 0.38,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 2.5,
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1364,17 +1551,39 @@
           "source": "AllAfrica",
           "published": "2026-02-27T14:37:06",
           "lead": "[Independent (Kampala)] Hoima, Uganda -- The East African Crude Oil Pipeline (EACOP) in partnership with Hoima City, has"
+        },
+        {
+          "title": "Growing Up Displaced: Understanding and addressing child protection risks in Uganda (February 2026)",
+          "url": "https://reliefweb.int/report/uganda/growing-displaced-understanding-and-addressing-child-protection-risks-uganda-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T10:49:50",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: Danish Re"
+        },
+        {
+          "title": "Uganda Country Refugee Response Plan (UCRRP) - Critical Indicator Tracking Matrix - Nyumanzi Reception Centre (13/02/2026 - 19/02/2026)",
+          "url": "https://reliefweb.int/report/uganda/uganda-country-refugee-response-plan-ucrrp-critical-indicator-tracking-matrix-nyumanzi-reception-centre-13022026-19022026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:03:31",
+          "lead": "Country: Uganda\n                                      Sources: Government of Uganda, UN High Commissioner for Refugees\n "
+        },
+        {
+          "title": "Uganda Refugee Response: National Monthly Conflict Mapping Dashboard | 2021 - 2026",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-national-monthly-conflict-mapping-dashboard-2021-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:03:12",
+          "lead": "Country: Uganda\n                                      Source: UN High Commissioner for Refugees\n                        "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 7,
-      "source_count": 5,
+      "article_count": 6,
+      "source_count": 4,
       "baseline": 5.9,
-      "ratio": 1.18,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1411,13 +1620,6 @@
           "lead": "Chaque année, dans le monde, deux millions de personnes sont envenimées par des morsures de serpents. 130 000 d’entre el"
         },
         {
-          "title": "Zambia rejects U.S. health aid over mining partnership ties",
-          "url": "http://www.africanews.com/2026/02/26/zambia-rejects-us-health-aid-over-mining-partnership-ties/",
-          "source": "Africanews",
-          "published": "2026-02-26T20:00:45",
-          "lead": "Zambia has halted a proposed $1 billion US health funding agreement over clauses tying aid to mining partnerships, joini"
-        },
-        {
           "title": "Kenya: Sugar, Wheat Flour, Mangoes and Electricity Prices Fall in Feb",
           "url": "https://allafrica.com/stories/202602270191.html",
           "source": "AllAfrica",
@@ -1440,20 +1642,19 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "AllAfrica",
-        "Africanews",
-        "The Guardian Africa",
         "RFI Afrique",
-        "France24 Afrique"
+        "The Guardian Africa"
       ]
     },
     "Rwanda": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 4,
       "baseline": 2.3,
-      "ratio": 2.21,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.61,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Président",
@@ -1478,6 +1679,13 @@
           "lead": "Le Franco-Rwandais Claude Muhayimana, 65 ans, est jugé en appel à Paris pour complicité de génocide et crimes contre l'h"
         },
         {
+          "title": "Rwanda : Claude Muhayimana condamné en appel pour « complicité de génocide » à 14 années de réclusion",
+          "url": "https://www.lemonde.fr/afrique/article/2026/02/27/rwanda-claude-muhayimana-condamne-en-appel-pour-complicite-de-genocide-a-14-annees-de-reclusion_6668630_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-02-27T19:24:51",
+          "lead": "La cour d’assises de Paris a condamné l’ancien cantonnier de Rouen pour avoir transporté des miliciens sur différents li"
+        },
+        {
           "title": "La République démocratique du Congo mise sur Juliana Amato Lumumba pour remplacer la présidente rwandaise de l’Organisation internationale de la francophonie",
           "url": "https://www.lemonde.fr/afrique/article/2026/02/27/la-rdc-mise-sur-juliana-amato-lumumba-pour-remplacer-la-presidente-rwandaise-de-l-organisation-internationale-de-la-francophophonie_6668546_3212.html",
           "source": "Le Monde Afrique",
@@ -1492,35 +1700,48 @@
           "lead": "Depuis plusieurs mois, le président Mohamed Ould Cheikh El Ghazouani travaille dans l’ombre à la candidature de la minis"
         },
         {
-          "title": "Rwanda: DR Congo Challenges Rwanda's Mushikiwabo With Lumumba Bid for Francophonie Top Job",
-          "url": "https://allafrica.com/stories/202602270306.html",
-          "source": "AllAfrica",
-          "published": "2026-02-27T10:19:05",
-          "lead": "[Nile Post] The Government of the Democratic Republic of the Congo announced on February 26, 2026 that it is presenting "
-        },
-        {
           "title": "Rwanda: African Development Bank Group and Rwanda Water Resources Board Launch Flood-Adaptation Project in Rwanda",
           "url": "https://allafrica.com/stories/202602270604.html",
           "source": "AllAfrica",
           "published": "2026-02-27T13:58:57",
           "lead": "[African Development Bank (AfDB)] The African Development Bank Group and the Government of Rwanda have launched the Natu"
+        },
+        {
+          "title": "Rwanda: DR Congo Challenges Rwanda's Mushikiwabo With Lumumba Bid for Francophonie Top Job",
+          "url": "https://allafrica.com/stories/202602270306.html",
+          "source": "AllAfrica",
+          "published": "2026-02-27T10:19:05",
+          "lead": "[Nile Post] The Government of the Democratic Republic of the Congo announced on February 26, 2026 that it is presenting "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
+        "Le Monde Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.2,
-      "ratio": 0.86,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "M23",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1529,20 +1750,41 @@
           "source": "Africanews",
           "published": "2026-02-27T15:54:37",
           "lead": "Scores of Burundians have been repatriated from Tanzania. While some say they are happy to be back, according to the Uni"
+        },
+        {
+          "title": "WFP Burundi Situation Report #9, 25 February WFP Response to Emergencies in Burundi",
+          "url": "https://reliefweb.int/report/burundi/wfp-burundi-situation-report-9-25-february-wfp-response-emergencies-burundi",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T10:12:45",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, United Republic of Tanzania\n                                      "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Africanews"
       ]
     },
     "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 0.91,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 1.82,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "M23",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1551,23 +1793,65 @@
           "source": "Africanews",
           "published": "2026-02-27T15:54:37",
           "lead": "Scores of Burundians have been repatriated from Tanzania. While some say they are happy to be back, according to the Uni"
+        },
+        {
+          "title": "WFP Burundi Situation Report #9, 25 February WFP Response to Emergencies in Burundi",
+          "url": "https://reliefweb.int/report/burundi/wfp-burundi-situation-report-9-25-february-wfp-response-emergencies-burundi",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T10:12:45",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, United Republic of Tanzania\n                                      "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Africanews"
       ]
     },
     "Madagascar": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.72,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Madagascar: Appel Éclair - Cyclones Fytia et Gezani, mars - mai 2026 (février 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-appel-eclair-cyclones-fytia-et-gezani-mars-mai-2026-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T12:38:38",
+          "lead": "Country: Madagascar\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
+        },
+        {
+          "title": "WFP Madagascar Country Brief, December 2025",
+          "url": "https://reliefweb.int/report/madagascar/wfp-madagascar-country-brief-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:24:48",
+          "lead": "Country: Madagascar\n                                      Source: World Food Programme\n                                 "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Comoros": {
       "article_count": 1,
@@ -1621,26 +1905,16 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.8,
-      "ratio": 1.2,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Zambia rejects U.S. health aid over mining partnership ties",
-          "url": "http://www.africanews.com/2026/02/26/zambia-rejects-us-health-aid-over-mining-partnership-ties/",
-          "source": "Africanews",
-          "published": "2026-02-26T20:00:45",
-          "lead": "Zambia has halted a proposed $1 billion US health funding agreement over clauses tying aid to mining partnerships, joini"
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Malawi": {
       "article_count": 0,
@@ -1655,24 +1929,46 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 1.7,
+      "ratio": 1.2,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mozambique - Infographic, January - February 2026",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-infographic-january-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T12:10:09",
+          "lead": "Country: Mozambique\n                                      Sources: Logistics Cluster, World Food Programme\n             "
+        },
+        {
+          "title": "Mozambique: Boletim Diário da Cólera Data: 26/02/2026 [PT]",
+          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-26022026-pt",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T06:36:52",
+          "lead": "Country: Mozambique\n                                      Source: Government of Mozambique\n                             "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 2.4,
-      "ratio": 2.5,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.11,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
@@ -1704,13 +2000,6 @@
           "lead": "Avec 10% de part de marché, le Zimbabwe vient de montrer cette semaine qu'il peut peser sur les cours du lithium : les p"
         },
         {
-          "title": "Zambia rejects U.S. health aid over mining partnership ties",
-          "url": "http://www.africanews.com/2026/02/26/zambia-rejects-us-health-aid-over-mining-partnership-ties/",
-          "source": "Africanews",
-          "published": "2026-02-26T20:00:45",
-          "lead": "Zambia has halted a proposed $1 billion US health funding agreement over clauses tying aid to mining partnerships, joini"
-        },
-        {
           "title": "Zimbabwe: 'All Systems Ready for 2026 Tobacco Marketing Season'",
           "url": "https://allafrica.com/stories/202602270645.html",
           "source": "AllAfrica",
@@ -1735,21 +2024,43 @@
       "sources": [
         "AllAfrica",
         "RFI Afrique",
-        "Africanews",
         "The Guardian Africa"
       ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.7,
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "WFP Namibia Country Brief, February 2026",
+          "url": "https://reliefweb.int/report/namibia/wfp-namibia-country-brief-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T09:37:05",
+          "lead": "Country: Namibia\n                                      Source: World Food Programme\n                                    "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Botswana": {
       "article_count": 1,
@@ -1779,20 +2090,16 @@
       ]
     },
     "South Africa": {
-      "article_count": 18,
+      "article_count": 16,
       "source_count": 4,
-      "baseline": 12.9,
-      "ratio": 1.4,
+      "baseline": 13.0,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Crisis",
-          "count": 4
-        },
-        {
-          "word": "Government",
-          "count": 1
+          "count": 3
         },
         {
           "word": "President",
@@ -1851,20 +2158,6 @@
           "lead": "[allAfrica] Trust is fragile. Once it's broken, it's hard to get back, especially in communities that have lived for dec"
         },
         {
-          "title": "South Africa: Auctioning Off Public Land Amid Cape Town's Housing Crisis and Land Scarcity - What Gives?",
-          "url": "https://allafrica.com/stories/202602270205.html",
-          "source": "AllAfrica",
-          "published": "2026-02-27T09:46:41",
-          "lead": "[Daily Maverick] While land is scarce and the need for developing affordable housing is very high, the City must look fo"
-        },
-        {
-          "title": "South Africa: South Africa Is Getting a Handle On Debt",
-          "url": "https://allafrica.com/stories/202602270128.html",
-          "source": "AllAfrica",
-          "published": "2026-02-27T08:41:54",
-          "lead": "[GroundUp] Government expects to earn more, borrow less, and spend less on debt repayments"
-        },
-        {
           "title": "CUSTOMARY AUTHORITY: SA’s land system is broken, but collective consent offers a way forward",
           "url": "https://www.dailymaverick.co.za/article/sas-land-system-is-broken-but-collective-consent-offers-a-way-forward",
           "source": "Daily Maverick",
@@ -1884,13 +2177,27 @@
           "source": "Daily Maverick",
           "published": "2026-02-27T12:51:33",
           "lead": "A month after Daily Maverick revealed that Stanislav Stamenov, a personal trainer offering his services at a Cape Town g"
+        },
+        {
+          "title": "Maria McCloy gig guide and the art of surviving the Joburg water crisis",
+          "url": "https://www.dailymaverick.co.za/article/maria-mccloy-gig-guide-and-the-art-of-surviving-the-joburg-water-crisis",
+          "source": "Daily Maverick",
+          "published": "2026-02-27T12:47:11",
+          "lead": "Discover how Johannesburg finds healing through art amidst the water crisis. Explore Maria McCloy’s latest Joburg gig gu"
+        },
+        {
+          "title": "COLLECTIVE RESOLVE: Meet the SA scientists who are refusing to let HIV vaccine research stall",
+          "url": "https://www.dailymaverick.co.za/article/meet-the-sa-scientists-who-are-refusing-to-let-hiv-vaccine-research-stall",
+          "source": "Daily Maverick",
+          "published": "2026-02-27T10:17:33",
+          "lead": "A cutting-edge, South African-led HIV vaccine trial built on decades of research recently began in Cape Town. Spotlight "
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "AllAfrica",
+        "Human Rights Watch",
         "Africanews",
-        "Human Rights Watch"
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Eswatini": {
