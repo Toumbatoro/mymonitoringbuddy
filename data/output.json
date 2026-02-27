@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-27T01:14:13.314995",
+  "generated_at": "2026-02-27T04:41:29.754029",
   "summary": {
-    "high": 6,
-    "elevated": 7,
-    "normal": 25,
-    "quiet": 16
+    "high": 4,
+    "elevated": 9,
+    "normal": 26,
+    "quiet": 15
   },
   "countries": {
     "Morocco": {
       "article_count": 5,
       "source_count": 3,
-      "baseline": 4.2,
-      "ratio": 1.18,
+      "baseline": 4.3,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -54,16 +54,16 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
         "RFI Afrique",
-        "France24 Afrique",
-        "The Guardian Africa"
+        "France24 Afrique"
       ]
     },
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.42,
+      "baseline": 2.3,
+      "ratio": 0.44,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -82,15 +82,22 @@
       ]
     },
     "Tunisia": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.1,
-      "ratio": 1.76,
-      "status": "elevated",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.2,
+      "ratio": 2.57,
+      "status": "high",
       "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tunisie: la justice refuse de mettre à l'arrêt l'usine d'engrais phosphatés de Gabès accusée de pollution",
+          "url": "https://www.rfi.fr/fr/afrique/20260227-tunisie-la-justice-refuse-de-mettre-%C3%A0-l-arr%C3%AAt-l-usine-d-engrais-phosphat%C3%A9s-de-gab%C3%A8s-accus%C3%A9e-de-pollution",
+          "source": "RFI Afrique",
+          "published": "2026-02-27T04:09:57",
+          "lead": "Estimant qu'il n'y a pas de préjudice et que les allégations de pollution dirigées contre le site manquent de preuves te"
+        },
         {
           "title": "Tunisie : autour de Sfax, la pression pour le \"retour volontaire\" des migrants",
           "url": "https://www.france24.com/fr/%C3%A9missions/les-observateurs/20260226-tunisie-autour-de-sfax-la-pression-pour-le-retour-volontaire-des-migrants",
@@ -107,6 +114,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Africanews",
         "France24 Afrique"
       ]
@@ -137,16 +145,16 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.62,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -165,23 +173,19 @@
       ]
     },
     "Sudan": {
-      "article_count": 10,
+      "article_count": 9,
       "source_count": 5,
-      "baseline": 6.2,
-      "ratio": 1.61,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 6.4,
+      "ratio": 1.4,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Violence",
-          "count": 5
+          "count": 4
         },
         {
           "word": "Humanitarian",
-          "count": 5
-        },
-        {
-          "word": "Displaced",
           "count": 4
         },
         {
@@ -189,7 +193,7 @@
           "count": 3
         },
         {
-          "word": "Refugees",
+          "word": "Displaced",
           "count": 3
         },
         {
@@ -197,11 +201,15 @@
           "count": 2
         },
         {
-          "word": "Crisis",
+          "word": "Refugees",
           "count": 2
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
           "count": 1
         }
       ],
@@ -269,28 +277,21 @@
           "source": "ReliefWeb",
           "published": "2026-02-26T14:26:47",
           "lead": "Country: Chad\n                                      Sources: CCCM Cluster, Education Cluster, Food Security Cluster, Nut"
-        },
-        {
-          "title": "SIPRI advances gender-responsive humanitarian action in eastern Chad",
-          "url": "https://reliefweb.int/report/chad/sipri-advances-gender-responsive-humanitarian-action-eastern-chad",
-          "source": "ReliefWeb",
-          "published": "2026-02-26T11:00:10",
-          "lead": "Country: Chad\n                                      Source: Stockholm International Peace Research Institute\n           "
         }
       ],
       "sources": [
-        "UN News Africa",
-        "DW Africa",
-        "Le Monde Afrique",
         "ReliefWeb",
-        "Africanews"
+        "UN News Africa",
+        "Africanews",
+        "Le Monde Afrique",
+        "DW Africa"
       ]
     },
     "Mauritania": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.6,
-      "ratio": 3.53,
+      "ratio": 3.16,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -322,15 +323,23 @@
       ]
     },
     "Mali": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 3.1,
-      "ratio": 1.29,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.61,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
+          "word": "Government",
+          "count": 2
+        },
+        {
           "word": "Terroriste",
+          "count": 1
+        },
+        {
+          "word": "Inondation",
           "count": 1
         },
         {
@@ -338,15 +347,11 @@
           "count": 1
         },
         {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
           "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -367,6 +372,13 @@
           "lead": "Connue pour approvisionner les grandes entreprises maliennes et internationales telles que Énergie du Mali (EDM), Oryx o"
         },
         {
+          "title": "Plan d’actions anticipatoires inondations fluviales au Mali, 2025-2029 (octobre 2025)",
+          "url": "https://reliefweb.int/report/mali/plan-dactions-anticipatoires-inondations-fluviales-au-mali-2025-2029-octobre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T01:24:21",
+          "lead": "Country: Mali\n                                      Source: Government of the Republic of Mali\n                         "
+        },
+        {
           "title": "Mali : Bulletin Humanitaire (Décembre 2025 - Janvier 2026)",
           "url": "https://reliefweb.int/report/mali/mali-bulletin-humanitaire-decembre-2025-janvier-2026",
           "source": "ReliefWeb",
@@ -383,24 +395,24 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "ReliefWeb"
+        "ReliefWeb",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.43,
+      "baseline": 2.2,
+      "ratio": 0.45,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -421,8 +433,8 @@
     "Niger": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.9,
-      "ratio": 0.51,
+      "baseline": 4.0,
+      "ratio": 0.5,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -468,7 +480,7 @@
     "Senegal": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 5.3,
+      "baseline": 5.2,
       "ratio": 0.57,
       "status": "normal",
       "confidence": "normal",
@@ -535,7 +547,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.57,
+      "ratio": 0.56,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -579,11 +591,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         },
         {
@@ -616,16 +628,16 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.18,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -664,19 +676,19 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Refugees",
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Government",
           "count": 1
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -705,15 +717,15 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "ReliefWeb"
+        "ReliefWeb",
+        "Africanews"
       ]
     },
     "Togo": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.6,
-      "ratio": 3.16,
+      "baseline": 0.7,
+      "ratio": 2.86,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -726,11 +738,11 @@
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -759,10 +771,10 @@
     "Benin": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 1.5,
-      "ratio": 2.61,
-      "status": "high",
-      "confidence": "high",
+      "baseline": 1.6,
+      "ratio": 2.45,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Putsch",
@@ -781,11 +793,11 @@
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -821,16 +833,16 @@
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Africanews",
-        "Jeune Afrique",
-        "ReliefWeb"
+        "Jeune Afrique"
       ]
     },
     "Nigeria": {
       "article_count": 14,
       "source_count": 5,
-      "baseline": 9.5,
-      "ratio": 1.48,
+      "baseline": 9.6,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -955,43 +967,82 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
         "AllAfrica",
+        "RFI Afrique",
         "ReliefWeb",
+        "BBC Africa",
         "Africanews"
       ]
     },
     "Cape Verde": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Chad": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 2.8,
-      "ratio": 1.79,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 3
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
         },
         {
           "word": "Refugees",
-          "count": 3
+          "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Mozambique: MSF winds down operations in Mueda following transition to local health authorities",
+          "url": "https://reliefweb.int/report/mozambique/msf-winds-down-operations-mueda-following-transition-local-health-authorities",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T02:45:58",
+          "lead": "Country: Mozambique\n                                      Source: Médecins Sans Frontières\n                             "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Chad": {
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 2.9,
+      "ratio": 1.38,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
           "count": 2
         },
         {
@@ -1003,7 +1054,7 @@
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -1011,7 +1062,11 @@
           "count": 1
         },
         {
-          "word": "Épidémie",
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -1044,39 +1099,40 @@
           "source": "ReliefWeb",
           "published": "2026-02-26T14:26:47",
           "lead": "Country: Chad\n                                      Sources: CCCM Cluster, Education Cluster, Food Security Cluster, Nut"
-        },
-        {
-          "title": "SIPRI advances gender-responsive humanitarian action in eastern Chad",
-          "url": "https://reliefweb.int/report/chad/sipri-advances-gender-responsive-humanitarian-action-eastern-chad",
-          "source": "ReliefWeb",
-          "published": "2026-02-26T11:00:10",
-          "lead": "Country: Chad\n                                      Source: Stockholm International Peace Research Institute\n           "
         }
       ],
       "sources": [
-        "DW Africa",
         "Le Monde Afrique",
+        "DW Africa",
         "ReliefWeb"
       ]
     },
     "Cameroon": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 3.1,
-      "ratio": 0.97,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Refugees",
           "count": 2
         },
         {
-          "word": "Drought",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Famine",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1084,7 +1140,11 @@
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1096,6 +1156,13 @@
           "source": "Jeune Afrique",
           "published": "2026-02-26T07:00:00",
           "lead": "Plusieurs médias privés camerounais entretiennent des relations avec des entités liées à la Russie et au SVR, le service"
+        },
+        {
+          "title": "Cameroon - Food Security Outlook: Humanitarian needs to peak amid persistent reduced funding, February - September 2026",
+          "url": "https://reliefweb.int/report/cameroon/cameroon-food-security-outlook-humanitarian-needs-peak-amid-persistent-reduced-funding-february-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T02:22:57",
+          "lead": "Country: Cameroon\n                                      Source: Famine Early Warning System Network\n                    "
         },
         {
           "title": "Cameroon: Humanitarian Needs and Response Plan 2026",
@@ -1113,24 +1180,36 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "ReliefWeb"
+        "ReliefWeb",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.94,
-      "status": "normal",
+      "ratio": 1.88,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Famine",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         },
         {
@@ -1138,16 +1217,23 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Drought",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Cameroon - Food Security Outlook: Humanitarian needs to peak amid persistent reduced funding, February - September 2026",
+          "url": "https://reliefweb.int/report/cameroon/cameroon-food-security-outlook-humanitarian-needs-peak-amid-persistent-reduced-funding-february-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T02:22:57",
+          "lead": "Country: Cameroon\n                                      Source: Famine Early Warning System Network\n                    "
+        },
         {
           "title": "Cameroon: Humanitarian Needs and Response Plan 2026",
           "url": "https://reliefweb.int/report/cameroon/cameroon-humanitarian-needs-and-response-plan-2026",
@@ -1161,17 +1247,13 @@
       ]
     },
     "South Sudan": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
       "baseline": 1.6,
-      "ratio": 2.5,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.84,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
-        {
-          "word": "Minister",
-          "count": 2
-        },
         {
           "word": "Violence",
           "count": 2
@@ -1181,7 +1263,7 @@
           "count": 2
         },
         {
-          "word": "Humanitarian",
+          "word": "Minister",
           "count": 2
         },
         {
@@ -1189,15 +1271,19 @@
           "count": 1
         },
         {
-          "word": "Flood",
-          "count": 1
-        },
-        {
           "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         }
       ],
@@ -1223,19 +1309,12 @@
           "source": "ReliefWeb",
           "published": "2026-02-26T18:47:03",
           "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
-        },
-        {
-          "title": "Somalia: Worsening drought - Urgent call for assistance",
-          "url": "https://reliefweb.int/report/somalia/somalia-worsening-drought-urgent-call-assistance",
-          "source": "ReliefWeb",
-          "published": "2026-02-26T11:33:16",
-          "lead": "Country: Somalia\n                                      Source: Food and Agriculture Organization of the United Nations\n "
         }
       ],
       "sources": [
-        "Africanews",
+        "ReliefWeb",
         "DW Africa",
-        "ReliefWeb"
+        "Africanews"
       ]
     },
     "Eq. Guinea": {
@@ -1254,7 +1333,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 1.67,
+      "ratio": 1.62,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1288,8 +1367,8 @@
     "Congo": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.4,
-      "ratio": 1.4,
+      "baseline": 1.5,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1298,11 +1377,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1324,14 +1403,14 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "AllAfrica"
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "DRC": {
       "article_count": 8,
       "source_count": 6,
-      "baseline": 7.7,
+      "baseline": 7.8,
       "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
@@ -1353,11 +1432,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1422,11 +1501,11 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "Le Monde Afrique",
         "ReliefWeb",
         "Human Rights Watch",
-        "Africanews"
+        "Jeune Afrique",
+        "Africanews",
+        "Le Monde Afrique"
       ]
     },
     "São Tomé": {
@@ -1444,8 +1523,8 @@
     "Angola": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 1.94,
+      "baseline": 1.1,
+      "ratio": 1.82,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -1499,7 +1578,7 @@
       "article_count": 6,
       "source_count": 4,
       "baseline": 4.4,
-      "ratio": 1.35,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1566,31 +1645,31 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "RFI Afrique",
         "Africanews",
-        "BBC Africa",
         "AllAfrica"
       ]
     },
     "Somalia": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 1.3,
+      "baseline": 2.2,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Crisis",
-          "count": 3
-        },
-        {
-          "word": "Drought",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Humanitarian",
-          "count": 3
+          "count": 2
+        },
+        {
+          "word": "Drought",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -1608,13 +1687,6 @@
           "source": "ReliefWeb",
           "published": "2026-02-26T12:29:19",
           "lead": "Country: Somalia\n                                      Source: European Commission's Directorate-General for European Ci"
-        },
-        {
-          "title": "Somalia: Worsening drought - Urgent call for assistance",
-          "url": "https://reliefweb.int/report/somalia/somalia-worsening-drought-urgent-call-assistance",
-          "source": "ReliefWeb",
-          "published": "2026-02-26T11:33:16",
-          "lead": "Country: Somalia\n                                      Source: Food and Agriculture Organization of the United Nations\n "
         }
       ],
       "sources": [
@@ -1625,7 +1697,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.6,
-      "ratio": 1.14,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1659,17 +1731,17 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "AllAfrica"
       ]
     },
     "Kenya": {
       "article_count": 15,
       "source_count": 8,
-      "baseline": 5.9,
-      "ratio": 2.56,
-      "status": "high",
-      "confidence": "high",
+      "baseline": 6.2,
+      "ratio": 2.43,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "War",
@@ -1776,29 +1848,29 @@
           "lead": "[Africa Check] Fake graphics claim that Kenyan president hinted at dropping his deputy as running mate for 2027 election"
         },
         {
-          "title": "Kenya: Pesalink and Papss Unlock Cross-Border Payments in Local Currencies in Kenya",
-          "url": "https://allafrica.com/stories/202602260498.html",
+          "title": "Kenya: Sakaja Ties Political Fate to Implementation of Deal With Ruto",
+          "url": "https://allafrica.com/stories/202602260569.html",
           "source": "AllAfrica",
-          "published": "2026-02-26T13:01:20",
-          "lead": "[Afreximbank] Instant 24/7 bank-to-bank transfers across African borders in local currencies Simpler cross-border paymen"
+          "published": "2026-02-26T14:08:11",
+          "lead": "[Capital FM] Nairobi -- The Senate Committee on Devolution and and Intergovernmental Relations Committee is set to condu"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
-        "Jeune Afrique",
-        "Le Monde Afrique",
         "AllAfrica",
-        "France24 Afrique",
+        "RFI Afrique",
+        "Jeune Afrique",
+        "BBC Africa",
         "Al Jazeera",
-        "Africanews"
+        "Africanews",
+        "Le Monde Afrique",
+        "France24 Afrique"
       ]
     },
     "Rwanda": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.4,
-      "ratio": 1.23,
+      "baseline": 2.2,
+      "ratio": 1.34,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1857,27 +1929,19 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 2.8,
-      "ratio": 1.45,
+      "baseline": 2.9,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Humanitarian",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1903,13 +1967,6 @@
           "source": "ReliefWeb",
           "published": "2026-02-26T12:29:18",
           "lead": "Country: Madagascar\n                                      Source: European Commission's Directorate-General for European"
-        },
-        {
-          "title": "Madagascar: Humanitarian impact of Tropical Cyclone Gezani Flash Update No. 4 (26 February 2026)",
-          "url": "https://reliefweb.int/report/madagascar/madagascar-humanitarian-impact-tropical-cyclone-gezani-flash-update-no-4-26-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-02-26T10:46:23",
-          "lead": "Country: Madagascar\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
         }
       ],
       "sources": [
@@ -1978,7 +2035,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1988,23 +2045,43 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 1.8,
-      "ratio": 1.7,
+      "ratio": 2.26,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Violence",
           "count": 2
         },
         {
           "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -2025,6 +2102,13 @@
           "lead": "RGS Group Holdings escalates its legal battle against Tongaat Hulett’s liquidation, emphasising the urgent need for tran"
         },
         {
+          "title": "Mozambique: MSF winds down operations in Mueda following transition to local health authorities",
+          "url": "https://reliefweb.int/report/mozambique/msf-winds-down-operations-mueda-following-transition-local-health-authorities",
+          "source": "ReliefWeb",
+          "published": "2026-02-27T02:45:58",
+          "lead": "Country: Mozambique\n                                      Source: Médecins Sans Frontières\n                             "
+        },
+        {
           "title": "Madagascar, Mozambique | Tropical cyclone GEZANI and EU response - DG ECHO Daily Map | 26/02/2026",
           "url": "https://reliefweb.int/map/mozambique/madagascar-mozambique-tropical-cyclone-gezani-and-eu-response-dg-echo-daily-map-26022026",
           "source": "ReliefWeb",
@@ -2033,16 +2117,16 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
         "AllAfrica",
-        "ReliefWeb"
+        "ReliefWeb",
+        "Daily Maverick"
       ]
     },
     "Zimbabwe": {
       "article_count": 8,
       "source_count": 5,
-      "baseline": 2.2,
-      "ratio": 3.58,
+      "baseline": 2.4,
+      "ratio": 3.29,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -2115,9 +2199,9 @@
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique",
         "BBC Africa",
-        "AllAfrica",
         "Al Jazeera",
         "Africanews"
       ]
@@ -2125,8 +2209,8 @@
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.36,
+      "baseline": 0.8,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -2153,7 +2237,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
-      "ratio": 2.0,
+      "ratio": 1.88,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -2177,10 +2261,10 @@
       ]
     },
     "South Africa": {
-      "article_count": 12,
+      "article_count": 11,
       "source_count": 3,
-      "baseline": 12.7,
-      "ratio": 0.94,
+      "baseline": 12.8,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2189,11 +2273,11 @@
           "count": 2
         },
         {
-          "word": "Dead",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Dead",
           "count": 1
         },
         {
@@ -2283,19 +2367,12 @@
           "source": "Daily Maverick",
           "published": "2026-02-26T12:27:00",
           "lead": "With national reading goals slipping out of reach, a new report reveals the stark reality of South Africa’s literacy cri"
-        },
-        {
-          "title": "FEBRUARY BY-ELECTIONS: Dominant wins for DA, IFP, ANC in Joburg, KZN and Limpopo wards",
-          "url": "https://www.dailymaverick.co.za/article/dominant-wins-for-da-ifp-anc-in-joburg-kzn-and-limpopo-wards",
-          "source": "Daily Maverick",
-          "published": "2026-02-26T09:31:15",
-          "lead": "In the latest round of by-elections the DA romped home in a safe Johannesburg seat, while the IFP won a seat off the Nat"
         }
       ],
       "sources": [
-        "Daily Maverick",
         "BBC Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
