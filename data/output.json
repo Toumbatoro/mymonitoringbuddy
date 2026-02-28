@@ -1,29 +1,22 @@
 {
-  "generated_at": "2026-02-28T04:12:12.314595",
+  "generated_at": "2026-02-28T06:26:47.964221",
   "summary": {
-    "high": 3,
-    "elevated": 11,
-    "normal": 26,
+    "high": 4,
+    "elevated": 9,
+    "normal": 27,
     "quiet": 14
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 3.9,
-      "ratio": 1.03,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Epstein tried to buy a palace in Morocco days before his arrest in 2019",
-          "url": "https://www.bbc.com/news/articles/c1w5848vq51o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-02-27T06:02:12",
-          "lead": "The disgraced financier was in talks to buy luxury abode Bin Ennakhi - but the purchase was never completed."
-        },
         {
           "title": "Sahara occidental: «On constate un effritement des soutiens internationaux à la RASD»",
           "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260227-sahara-occidental-on-constate-un-effritement-des-soutiens-internationaux-%C3%A0-la-rasd",
@@ -47,9 +40,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -91,15 +83,15 @@
       ],
       "sources": [
         "Human Rights Watch",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Tunisia": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.81,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -131,11 +123,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Déplacés",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Déplacés",
           "count": 1
         },
         {
@@ -181,8 +173,8 @@
       "sources": [
         "France24 Afrique",
         "Africanews",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
@@ -194,7 +186,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Election",
+          "word": "Government",
           "count": 1
         },
         {
@@ -202,7 +194,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Election",
           "count": 1
         }
       ],
@@ -317,21 +309,21 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "UN News Africa",
-        "RFI Afrique",
         "Africanews",
-        "Jeune Afrique",
-        "AllAfrica"
+        "RFI Afrique",
+        "ReliefWeb",
+        "AllAfrica",
+        "UN News Africa",
+        "Jeune Afrique"
       ]
     },
     "Mauritania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.5,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 3.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
@@ -341,6 +333,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Mauritanie: l’ONG abolitionniste IRA dénonce l’arrestation de ses membres après la révélation d’un cas d’esclavage",
+          "url": "https://www.rfi.fr/fr/afrique/20260228-mauritanie-l-ong-abolitionniste-ira-d%C3%A9nonce-l-arrestation-de-ses-membres-apr%C3%A8s-la-r%C3%A9v%C3%A9lation-d-un-cas-d-esclavage",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T05:48:11",
+          "lead": "En Mauritanie, le mouvement d'opposition Initiative de résurgence du mouvement abolitionniste (IRA), qui milite pour l’a"
+        },
+        {
           "title": "OIF : face à la RDC et au Rwanda, comment la Mauritanie prépare en coulisses sa candidate",
           "url": "https://www.jeuneafrique.com/1769588/politique/oif-face-a-la-rdc-et-au-rwanda-comment-la-mauritanie-prepare-en-coulisses-sa-candidate/",
           "source": "Jeune Afrique",
@@ -349,7 +348,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Mali": {
@@ -426,38 +426,31 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Le Monde Afrique",
-        "BBC Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb",
+        "BBC Africa"
       ]
     },
     "Niger": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.7,
-      "ratio": 0.54,
+      "ratio": 0.27,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitaire",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Humanitaire",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "« Spinosaurus mirabilis », un nouveau dinosaure à la crête spectaculaire",
-          "url": "https://www.lemonde.fr/sciences/article/2026/02/27/un-nouveau-dinosaure-africain-a-crete-friand-de-poissons_6668470_1650684.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-27T05:00:39",
-          "lead": "Découvert au Niger, ce dinosaure de 14 mètres de long était un piscivore chassant à l’affût qui vivait il y a 95 million"
-        },
         {
           "title": "Niger: Besoins Humanitaires et Plan de Réponse (Février 2026)",
           "url": "https://reliefweb.int/report/niger/niger-besoins-humanitaires-et-plan-de-reponse-fevrier-2026",
@@ -467,22 +460,17 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Le Monde Afrique"
+        "ReliefWeb"
       ]
     },
     "Senegal": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 4.9,
-      "ratio": 0.41,
+      "ratio": 0.62,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        },
         {
           "word": "Minister",
           "count": 1
@@ -490,10 +478,21 @@
         {
           "word": "Government",
           "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le «One Poet Show» du Sénégalais Souleymane Diamanka, entre humour et poésie",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260228-le-one-poet-show-du-s%C3%A9n%C3%A9galais-souleymane-diamanka-entre-humour-et-po%C3%A9sie",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T06:02:36",
+          "lead": "L'humoriste et poète sénégalais Souleymane Diamanka joue en ce moment son spectacle à Paris : le « One Poet Show », créa"
+        },
         {
           "title": "Senegal: parliament refers former minister to court over embezzlement claims",
           "url": "http://www.africanews.com/2026/02/27/senegal-parliament-refers-former-minister-to-court-over-embezzlement-claims/",
@@ -510,8 +509,9 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -584,18 +584,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "La Cédéao trace le contour de sa «force en attente» pour lutter contre le terrorisme et l'insécurité",
+          "url": "https://www.rfi.fr/fr/afrique/20260228-la-c%C3%A9d%C3%A9ao-trace-le-contour-de-sa-force-en-attente-pour-lutter-contre-le-terrorisme-et-l-ins%C3%A9curit%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T04:09:49",
+          "lead": "Au terme de trois jours de réunion en Sierra Leone, les chefs d'état-major des pays membres de l'organisation ont pour l"
+        },
+        {
           "title": "La Sierra Leone annonce la libération de ses soldats et policiers arrêtés par l'armée guinéenne",
           "url": "https://www.rfi.fr/fr/afrique/20260227-la-sierra-leone-annonce-la-lib%C3%A9ration-de-ses-soldats-et-policiers-arr%C3%AAt%C3%A9s-par-l-arm%C3%A9e-guin%C3%A9enne",
           "source": "RFI Afrique",
           "published": "2026-02-27T21:22:01",
           "lead": "La Sierra Leone a annoncé, vendredi 27 février, la libération de ses soldats et policiers interpellés en début de semain"
-        },
-        {
-          "title": "Terrorisme en Afrique: «Il faut accroître encore plus la surveillance» en ligne",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260227-terrorisme-en-afrique-il-faut-accro%C3%AEtre-encore-plus-la-surveillance-en-ligne",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T07:09:31",
-          "lead": "Alors que les chefs d'état-major des pays membres de la Cédéao doivent achever leur sommet vendredi 27 février à Freetow"
         },
         {
           "title": "Guinea releases 16 Sierra Leonean soldiers arrested earlier this week",
@@ -663,12 +663,12 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 2.11,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.05,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Élection",
@@ -685,20 +685,6 @@
           "lead": "En Côte d’Ivoire, le ministère public a requis trois ans de prison avec sursis et 500 000 francs CFA d’amende à l’encont"
         },
         {
-          "title": "Terrorisme en Afrique: «Il faut accroître encore plus la surveillance» en ligne",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260227-terrorisme-en-afrique-il-faut-accro%C3%AEtre-encore-plus-la-surveillance-en-ligne",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T07:09:31",
-          "lead": "Alors que les chefs d'état-major des pays membres de la Cédéao doivent achever leur sommet vendredi 27 février à Freetow"
-        },
-        {
-          "title": "La Côte d’Ivoire attire toujours plus les investisseurs étrangers",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/27/la-cote-d-ivoire-attire-toujours-plus-les-investisseurs-etrangers_6668463_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-27T05:00:17",
-          "lead": "Le pays présente un risque de défaut jugé modéré et la signature de crédit d’Abidjan est la plus solide d’Afrique subsah"
-        },
-        {
           "title": "Cote d'Ivoire: Ivory Coast Faces 200,000 Tons of Unsold Cocoa Over Price Dispute",
           "url": "https://allafrica.com/stories/202602270864.html",
           "source": "AllAfrica",
@@ -707,7 +693,6 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "AllAfrica",
         "RFI Afrique"
       ]
@@ -716,7 +701,7 @@
       "article_count": 5,
       "source_count": 4,
       "baseline": 2.9,
-      "ratio": 1.74,
+      "ratio": 1.72,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -737,11 +722,11 @@
           "count": 2
         },
         {
-          "word": "Election",
+          "word": "Ceasefire",
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Government",
           "count": 1
         },
         {
@@ -749,7 +734,7 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Election",
           "count": 1
         }
       ],
@@ -798,8 +783,8 @@
       ],
       "sources": [
         "The Guardian Africa",
-        "AllAfrica",
         "Africanews",
+        "AllAfrica",
         "Jeune Afrique"
       ]
     },
@@ -845,8 +830,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Benin": {
@@ -882,23 +867,19 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "AllAfrica",
         "Jeune Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 8,
+      "article_count": 7,
       "source_count": 3,
       "baseline": 9.6,
-      "ratio": 0.83,
+      "ratio": 0.73,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Boko haram",
-          "count": 2
-        },
         {
           "word": "Minister",
           "count": 2
@@ -908,7 +889,7 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Boko haram",
           "count": 1
         },
         {
@@ -924,13 +905,6 @@
           "source": "Le Monde Afrique",
           "published": "2026-02-27T16:00:21",
           "lead": "Selon une enquête de l’Agence France-Presse, Abuja aurait livré plusieurs millions d’euros au groupe terroriste. Un paie"
-        },
-        {
-          "title": "Nigeria : deux attaques djihadistes, imputées au groupe Boko Haram, font plusieurs morts",
-          "url": "https://www.lemonde.fr/afrique/article/2026/02/27/nigeria-deux-attaques-djihadistes-imputees-au-groupe-boko-haram-font-plusieurs-morts_6668476_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-02-27T06:00:10",
-          "lead": "Des hommes armés ont ouvert le feu sur des habitants du village de Shiwari, mardi 24 février, ainsi que sur des militair"
         },
         {
           "title": "Nigerian court grant former justice minister bail in 'terrorism' case",
@@ -976,9 +950,9 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Le Monde Afrique",
-        "AllAfrica",
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -1070,11 +1044,11 @@
           "count": 2
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "President",
           "count": 1
         },
         {
@@ -1135,11 +1109,11 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "UN News Africa",
         "RFI Afrique",
         "DW Africa",
-        "AllAfrica"
+        "ReliefWeb",
+        "AllAfrica",
+        "UN News Africa"
       ]
     },
     "Eq. Guinea": {
@@ -1155,12 +1129,12 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.3,
-      "ratio": 1.54,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.77,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1170,17 +1144,9 @@
           "source": "Jeune Afrique",
           "published": "2026-02-27T12:33:09",
           "lead": "Entre relance minière et reprise en main du secteur pétrolier, Libreville mise sur ses ressources pour desserrer l’étau "
-        },
-        {
-          "title": "Gabon in talks with Meta and TikTok over social media ban",
-          "url": "http://www.africanews.com/2026/02/27/gabon-in-talks-with-meta-and-tiktok-over-social-media-ban/",
-          "source": "Africanews",
-          "published": "2026-02-27T06:13:01",
-          "lead": "Gabon is in talks with Meta and TikTok over the country’s social media ban, the communication ministry said on Thursday."
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique"
       ]
     },
@@ -1197,24 +1163,20 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 12,
+      "article_count": 10,
       "source_count": 7,
       "baseline": 8.2,
-      "ratio": 1.47,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 3
+          "count": 2
         },
         {
           "word": "M23",
           "count": 2
-        },
-        {
-          "word": "Crise",
-          "count": 1
         },
         {
           "word": "Rebel",
@@ -1245,20 +1207,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-27T10:32:33",
           "lead": "La course à la tête de l'Organisation internationale de la Francophonie (OIF) se précise : la République démocratique du"
-        },
-        {
-          "title": "RDC: Martin Fayulu présente sa proposition de dialogue national incluant les groupes armés",
-          "url": "https://www.rfi.fr/fr/afrique/20260227-rdc-martin-fayulu-pr%C3%A9sente-sa-proposition-de-dialogue-national-incluant-les-groupes-arm%C3%A9s",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T06:10:59",
-          "lead": "La République démocratique du Congo (RDC) cherche toujours à sortir de la double crise - sécuritaire à l’Est et institut"
-        },
-        {
-          "title": "À la Une: deux possibles charniers découverts à Uvira, dans l'est de la RDC",
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260227-%C3%A0-la-une-deux-possibles-charniers-d%C3%A9couverts-%C3%A0-uvira-dans-l-est-de-la-rdc",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T09:59:25",
-          "lead": ""
         },
         {
           "title": "RDC, les ADF à l'origine d'une nouvelle vague de violences",
@@ -1325,13 +1273,13 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "RFI Afrique",
-        "Le Monde Afrique",
         "Africanews",
-        "Jeune Afrique",
+        "RFI Afrique",
+        "ReliefWeb",
+        "AllAfrica",
         "France24 Afrique",
-        "AllAfrica"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -1487,8 +1435,8 @@
       ],
       "sources": [
         "ReliefWeb",
-        "DW Africa",
         "AllAfrica",
+        "DW Africa",
         "RFI Afrique"
       ]
     },
@@ -1711,8 +1659,8 @@
       "sources": [
         "Le Monde Afrique",
         "AllAfrica",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1724,15 +1672,15 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "M23",
-          "count": 1
-        },
-        {
           "word": "Refugees",
           "count": 1
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "M23",
           "count": 1
         }
       ],
@@ -1754,8 +1702,8 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Tanzania": {
@@ -1767,15 +1715,15 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "M23",
-          "count": 1
-        },
-        {
           "word": "Refugees",
           "count": 1
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "M23",
           "count": 1
         }
       ],
@@ -1797,8 +1745,8 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Madagascar": {
@@ -1818,11 +1766,11 @@
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -2022,15 +1970,15 @@
       "confidence": "low",
       "keywords": [
         {
+          "word": "Government",
+          "count": 1
+        },
+        {
           "word": "Humanitarian",
           "count": 1
         },
         {
           "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -2165,10 +2113,10 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
         "Daily Maverick",
-        "AllAfrica",
-        "Africanews"
+        "Human Rights Watch",
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Eswatini": {
