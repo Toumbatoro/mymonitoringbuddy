@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-02-28T21:13:19.517662",
+  "generated_at": "2026-03-01T01:24:49.426036",
   "summary": {
-    "high": 0,
-    "elevated": 1,
-    "normal": 17,
-    "quiet": 36
+    "high": 1,
+    "elevated": 0,
+    "normal": 18,
+    "quiet": 35
   },
   "countries": {
     "Morocco": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 3.8,
-      "ratio": 0.52,
+      "ratio": 0.78,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -22,6 +22,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Maroc: Think Tanger, dix ans d'existence pour un collectif qui pense la ville",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260228-maroc-think-tanger-dix-ans-d-existence-pour-un-collectif-qui-pense-la-ville",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T23:55:33",
+          "lead": "Think Tanger – collectif regroupant des artistes, des architectes, des entrepreneurs ou encore des chercheurs – fête ses"
+        },
         {
           "title": "Sénégal : 250 personnes réunies lors d’une marche contre l’emprisonnement, au Maroc, de 18 supporters pour « hooliganisme »",
           "url": "https://www.jeuneafrique.com/1770046/politique/au-senegal-250-personnes-reunies-lors-dune-marche-contre-lemprisonnement-au-maroc-de-18-supporters-pour-hooliganisme/",
@@ -38,7 +45,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -66,40 +74,21 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.5,
-      "ratio": 0.4,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tigré: fuyant le camp de Hitsats, des jeunes déplacés préfèrent les dangers de l'exil",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260227-tigr%C3%A9-fuyant-le-camp-de-hitsats-des-jeunes-d%C3%A9plac%C3%A9s-pr%C3%A9f%C3%A8rent-les-dangers-de-l-exil",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T23:21:34",
-          "lead": "Depuis cinq ans et le déclenchement de la guerre au Tigré, des milliers de personnes déplacées se sont installées dans l"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Egypt": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -184,9 +173,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
@@ -202,15 +191,31 @@
       "sources": []
     },
     "Niger": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 3.7,
-      "ratio": 0.27,
+      "ratio": 0.55,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Milice",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Niger: 25 membres d'un groupe d'auto-défense tués par le groupe État islamique dans la région de Tillabéry",
+          "url": "https://www.rfi.fr/fr/afrique/20260228-niger-25-membres-d-un-groupe-d-auto-d%C3%A9fense-tu%C3%A9s-par-le-groupe-%C3%A9tat-islamique-dans-la-r%C3%A9gion-de-tillab%C3%A9ry",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T23:42:56",
+          "lead": "Issues de quatre villages dont les habitants sont contraints de s'organiser en milice armée pour se défendre contre les "
+        },
         {
           "title": "Niger: création d’une plateforme pour prendre en charge les migrants de retour",
           "url": "https://www.rfi.fr/fr/afrique/20260228-niger-cr%C3%A9ation-d-une-plateforme-pour-prendre-en-charge-les-migrants-de-retour",
@@ -226,7 +231,7 @@
     "Senegal": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 5.0,
+      "baseline": 4.9,
       "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
@@ -263,8 +268,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -304,11 +309,11 @@
       "sources": []
     },
     "Sierra Leone": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "elevated",
+      "ratio": 2.0,
+      "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
@@ -319,13 +324,6 @@
           "source": "RFI Afrique",
           "published": "2026-02-28T04:09:49",
           "lead": "Au terme de trois jours de réunion en Sierra Leone, les chefs d'état-major des pays membres de l'organisation ont pour l"
-        },
-        {
-          "title": "La Sierra Leone annonce la libération de ses soldats et policiers arrêtés par l'armée guinéenne",
-          "url": "https://www.rfi.fr/fr/afrique/20260227-la-sierra-leone-annonce-la-lib%C3%A9ration-de-ses-soldats-et-policiers-arr%C3%AAt%C3%A9s-par-l-arm%C3%A9e-guin%C3%A9enne",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T21:22:01",
-          "lead": "La Sierra Leone a annoncé, vendredi 27 février, la libération de ses soldats et policiers interpellés en début de semain"
         }
       ],
       "sources": [
@@ -357,12 +355,12 @@
       "sources": []
     },
     "Ghana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.8,
-      "ratio": 0.36,
+      "ratio": 0.72,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Attack",
@@ -373,15 +371,7 @@
           "count": 1
         },
         {
-          "word": "President",
-          "count": 1
-        },
-        {
           "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "War",
           "count": 1
         },
         {
@@ -389,7 +379,15 @@
           "count": 1
         },
         {
+          "word": "War",
+          "count": 1
+        },
+        {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Election",
           "count": 1
         },
         {
@@ -405,10 +403,18 @@
           "source": "The Guardian Africa",
           "published": "2026-02-28T03:57:15",
           "lead": "France suspects Russian ‘provocation’ amid worries Moscow will interfere in European elections as part of broader strate"
+        },
+        {
+          "title": "Frontière maritime entre le Ghana et le Togo: à son tour, Lomé se dit prêt à un arbitrage international",
+          "url": "https://www.rfi.fr/fr/afrique/20260228-fronti%C3%A8re-maritime-entre-le-ghana-et-le-togo-%C3%A0-son-tour-lom%C3%A9-se-dit-pr%C3%AAt-%C3%A0-un-arbitrage-international",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T22:41:01",
+          "lead": "Une semaine après la décision prise par le Ghana de saisir les instances internationales pour trancher le litige concern"
         }
       ],
       "sources": [
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "RFI Afrique"
       ]
     },
     "Togo": {
@@ -418,20 +424,15 @@
       "ratio": 1.43,
       "status": "normal",
       "confidence": "low",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Togo: peines alourdies au procès en appel sur la mort en 2020 du colonel Bitala Madjoulba",
-          "url": "https://www.rfi.fr/fr/afrique/20260227-togo-peines-alourdies-au-proc%C3%A8s-en-appel-sur-la-mort-en-2020-du-colonel-bitala-madjoulba",
+          "title": "Frontière maritime entre le Ghana et le Togo: à son tour, Lomé se dit prêt à un arbitrage international",
+          "url": "https://www.rfi.fr/fr/afrique/20260228-fronti%C3%A8re-maritime-entre-le-ghana-et-le-togo-%C3%A0-son-tour-lom%C3%A9-se-dit-pr%C3%AAt-%C3%A0-un-arbitrage-international",
           "source": "RFI Afrique",
-          "published": "2026-02-27T22:05:37",
-          "lead": "La Cour d'appel militaire du Togo a rendu son verdict, vendredi 27 février, dans le procès en appel sur la mort du colon"
+          "published": "2026-02-28T22:41:01",
+          "lead": "Une semaine après la décision prise par le Ghana de saisir les instances internationales pour trancher le litige concern"
         }
       ],
       "sources": [
@@ -441,7 +442,7 @@
     "Benin": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -451,16 +452,35 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 9.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.11,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Nigeria: Nigeria Calls for Restraint, Dialogue As U.S./Israel War With Iran Continues",
+          "url": "https://allafrica.com/stories/202602280215.html",
+          "source": "AllAfrica",
+          "published": "2026-02-28T21:38:35",
+          "lead": "[Premium Times] The Nigerian government urged the warring parties to avoid actions that are likely to intensify hostilit"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Cape Verde": {
       "article_count": 0,
@@ -487,12 +507,12 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 0.34,
+      "ratio": 0.69,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -502,10 +522,18 @@
           "source": "Jeune Afrique",
           "published": "2026-02-28T08:00:00",
           "lead": "Cette semaine, le Brief de Jeune Afrique revient sur les conséquences du boom de l’or. Une enquête dévoile l’influence d"
+        },
+        {
+          "title": "Cameroon: Okali, a Musical Love Story Between France and Cameroon",
+          "url": "https://allafrica.com/stories/202602280212.html",
+          "source": "AllAfrica",
+          "published": "2026-02-28T21:36:33",
+          "lead": "[RFI] Musical duo Okali - Cameroonian singer Ga&#xeb;lle Minali-Bella and French multi-instrumentalist Florent Sorin - r"
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "CAR": {
@@ -523,7 +551,7 @@
     "South Sudan": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.8,
+      "baseline": 1.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -557,12 +585,12 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 1.5,
-      "ratio": 1.36,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.73,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Élection",
@@ -573,11 +601,15 @@
           "count": 1
         },
         {
+          "word": "Election",
+          "count": 1
+        },
+        {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "M23",
           "count": 1
         }
       ],
@@ -591,16 +623,32 @@
           "lead": "Le Congo-Brazzaville lance officiellement samedi 28 février la campagne électorale en vue de l’élection présidentielle d"
         },
         {
+          "title": "Début de la campagne présidentielle au Congo, premier tour le 15 mars",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260228-d%C3%A9but-de-la-campagne-pr%C3%A9sidentielle-au-congo-premier-tour-le-15-mars",
+          "source": "France24 Afrique",
+          "published": "2026-02-28T21:49:05",
+          "lead": "La campagne électorale s’est officiellement ouverte ce samedi 28 février en République du Congo, sur fond de démonstrati"
+        },
+        {
           "title": "Presidential campaign starts in Congo-Brazzaville",
           "url": "http://www.africanews.com/2026/02/28/presidential-campaign-starts-in-congo-brazzaville/",
           "source": "Africanews",
           "published": "2026-02-28T12:23:02",
           "lead": "The campaign for March's presidential election in Congo-Brazzaville begins on Saturday, with 82-year-old President Denis"
+        },
+        {
+          "title": "Congo-Kinshasa: Mass Graves Found in Eastern DRC Following M23 Withdrawal From Uvira",
+          "url": "https://allafrica.com/stories/202602280211.html",
+          "source": "AllAfrica",
+          "published": "2026-02-28T21:35:25",
+          "lead": "[RFI] The Congolese authorities and civil society groups in the eastern Democratic Republic of Congo have reported the d"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "DRC": {
@@ -613,7 +661,7 @@
       "keywords": [
         {
           "word": "M23",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -626,24 +674,24 @@
           "lead": "Les États-Unis et la République démocratique du Congo (RDC) ont signé, à Kinshasa, un partenariat sanitaire d'un montant"
         },
         {
-          "title": "RDC, les ADF à l'origine d'une nouvelle vague de violences",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260227-rdc-les-adf-%C3%A0-l-origine-d-une-nouvelle-vague-de-violences",
-          "source": "France24 Afrique",
-          "published": "2026-02-27T22:28:47",
-          "lead": "En RD Congo, le ADF, groupe armé qui a prêté allégeance à l’État islamique, est à l'origine depuis le début de l’année d"
-        },
-        {
           "title": "RDC : comment Trump veut prendre le contrôle de la mine de coltan de Rubaya, tenue par l’AFC/M23",
           "url": "https://www.jeuneafrique.com/1769464/politique/rdc-comment-trump-veut-prendre-le-controle-de-la-mine-de-coltan-de-rubaya-tenue-par-lafc-m23/",
           "source": "Jeune Afrique",
           "published": "2026-02-28T12:30:00",
           "lead": "Premier site mondial pour l’extraction de coltan, la mine de Rubaya figure désormais officiellement sur la liste des act"
+        },
+        {
+          "title": "Congo-Kinshasa: Mass Graves Found in Eastern DRC Following M23 Withdrawal From Uvira",
+          "url": "https://allafrica.com/stories/202602280211.html",
+          "source": "AllAfrica",
+          "published": "2026-02-28T21:35:25",
+          "lead": "[RFI] The Congolese authorities and civil society groups in the eastern Democratic Republic of Congo have reported the d"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -659,22 +707,32 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.97,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Angola: Press Release - - Carrinho Group's Right of Reply",
+          "url": "https://allafrica.com/stories/202602280210.html",
+          "source": "AllAfrica",
+          "published": "2026-02-28T21:34:38",
+          "lead": "[Maka] PRESS RELEASE"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 1.43,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -714,12 +772,12 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.2,
-      "ratio": 0.24,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 4.3,
+      "ratio": 0.47,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
@@ -738,10 +796,18 @@
           "source": "France24 Afrique",
           "published": "2026-02-28T19:37:54",
           "lead": "Plus de trois ans après la fin d'un conflit qui a fait 600 000 morts, l'Éthiopie et la région rebelle du Tigré, appuyée "
+        },
+        {
+          "title": "Ethiopia: News - Ethiopia Earns $288.48 Million From Horticulture Exports in Seven Months, Amid Sector Bottlenecks",
+          "url": "https://allafrica.com/stories/202602280213.html",
+          "source": "AllAfrica",
+          "published": "2026-02-28T21:37:13",
+          "lead": "[Addis Standard] Addis Abeba -- Ethiopia has generated $288.48 million from the export of more than 160,000 tons of hort"
         }
       ],
       "sources": [
-        "France24 Afrique"
+        "France24 Afrique",
+        "AllAfrica"
       ]
     },
     "Somalia": {
@@ -794,25 +860,25 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 2.4,
-      "ratio": 0.82,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Tour du Rwanda: 18 éditions et la reconnaissance d'une course «qui peut révéler de jeunes talents»",
+          "url": "https://www.rfi.fr/fr/sports/20260228-tour-du-rwanda-18-%C3%A9ditions-et-la-reconnaissance-d-une-course-qui-peut-r%C3%A9v%C3%A9ler-de-jeunes-talents",
+          "source": "RFI Afrique",
+          "published": "2026-02-28T19:11:29",
+          "lead": "Le Tour du Rwanda, dont la 8e et dernière étape sera courue dimanche à Kigali, en est à sa 18e édition en cette année 20"
+        },
+        {
           "title": "Tour du Rwanda: le Brésilien Henrique Bravo remporte la 7e étape, Moritz Kretschy garde la tête",
           "url": "https://www.rfi.fr/fr/sports/20260228-tour-du-rwanda-le-br%C3%A9silien-henrique-bravo-remporte-la-7e-%C3%A9tape-moritz-kretschy-garde-la-t%C3%AAte",
           "source": "RFI Afrique",
           "published": "2026-02-28T16:36:52",
           "lead": "Ce samedi 28 février, le Brésilien Henrique Bravo s'est adjugé la 7e étape du Tour du Rwanda après l'ascension Mur de Ki"
-        },
-        {
-          "title": "Génocide des Tutsis au Rwanda: Claude Muhayimana condamné à 14 ans de réclusion en appel à Paris",
-          "url": "https://www.rfi.fr/fr/afrique/20260227-g%C3%A9nocide-des-tutsis-au-rwanda-claude-muhayimana-condamn%C3%A9-%C3%A0-14-ans-de-r%C3%A9clusion-en-appel-%C3%A0-paris",
-          "source": "RFI Afrique",
-          "published": "2026-02-27T23:07:43",
-          "lead": "Comme en première instance, l'ancien chauffeur franco-rwandais, aujourd'hui âgé de 65 ans, a été reconnu coupable de com"
         }
       ],
       "sources": [
@@ -1022,8 +1088,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Eswatini": {
