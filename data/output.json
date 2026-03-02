@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-02T04:43:28.989930",
+  "generated_at": "2026-03-02T06:45:10.162284",
   "summary": {
     "high": 0,
-    "elevated": 0,
-    "normal": 18,
-    "quiet": 36
+    "elevated": 4,
+    "normal": 27,
+    "quiet": 23
   },
   "countries": {
     "Morocco": {
@@ -47,16 +47,38 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tunisia: Tunisia Voices Deep Concern Over Military Escalation in Middle East, Calls for Immediate De-Escalation",
+          "url": "https://allafrica.com/stories/202603020099.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:35",
+          "lead": "[Tunis Afrique Presse] Tunis, March 1 -- Tunisia said it is following with deep concern and grave anxiety the serious mi"
+        },
+        {
+          "title": "Tunisia: Tunisia Welcomes Injured Palestinian Child Khalil Abou Dagga for Medical Treatment",
+          "url": "https://allafrica.com/stories/202603020100.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:35",
+          "lead": "[Tunis Afrique Presse] Tunis, March 1 -- Injured ten-year-old Palestinian Khalil Islam Abou Dagga arrived in Tunis on Su"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Libya": {
       "article_count": 1,
@@ -81,28 +103,120 @@
       ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.3,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tunisia: Tunisia Welcomes Injured Palestinian Child Khalil Abou Dagga for Medical Treatment",
+          "url": "https://allafrica.com/stories/202603020100.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:35",
+          "lead": "[Tunis Afrique Presse] Tunis, March 1 -- Injured ten-year-old Palestinian Khalil Islam Abou Dagga arrived in Tunis on Su"
+        },
+        {
+          "title": "Egypt: New Arrivals from Sudan as of 26 February 2026",
+          "url": "https://reliefweb.int/report/egypt/egypt-new-arrivals-sudan-26-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-01T13:03:12",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "ReliefWeb"
+      ]
     },
     "Sudan": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 6.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.66,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Sudan: Security and Defense Council Convenes Regular Meeting Under Al-Burhan, Reviews Security Situation",
+          "url": "https://allafrica.com/stories/202603020078.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:22:23",
+          "lead": "[SNA] Khartoum, March 1, 2026 (SUNA) - The Security and Defense Council held its regular meeting in Khartoum today under"
+        },
+        {
+          "title": "UNFPA Central African Republic Situation Report - January 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/unfpa-central-african-republic-situation-report-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T02:05:28",
+          "lead": "Countries: Central African Republic, Sudan\n                                      Source: United Nations Population Fund\n"
+        },
+        {
+          "title": "Report of the Commission on Human Rights in South Sudan (A/HRC/61/25) (Advance unedited version)",
+          "url": "https://reliefweb.int/report/south-sudan/report-commission-human-rights-south-sudan-ahrc6125-advance-unedited-version",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T00:26:04",
+          "lead": "Country: South Sudan\n                                      Source: UN Human Rights Council\n                             "
+        },
+        {
+          "title": "Egypt: New Arrivals from Sudan as of 26 February 2026",
+          "url": "https://reliefweb.int/report/egypt/egypt-new-arrivals-sudan-26-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-01T13:03:12",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "ReliefWeb"
+      ]
     },
     "Mauritania": {
       "article_count": 0,
@@ -117,16 +231,38 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.71,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mali: Acute Malnutrition Snapshot | November 2025 - October 2026",
+          "url": "https://reliefweb.int/report/mali/mali-acute-malnutrition-snapshot-november-2025-october-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T00:49:36",
+          "lead": "Country: Mali\n                                      Source: Integrated Food Security Phase Classification\n              "
+        },
+        {
+          "title": "Mali : Analyse IPC de la malnutrition aiguë, novembre 2025 - octobre 2026 (publié 27 février 2026)",
+          "url": "https://reliefweb.int/report/mali/mali-analyse-ipc-de-la-malnutrition-aigue-novembre-2025-octobre-2026-publie-27-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T00:47:25",
+          "lead": "Country: Mali\n                                      Source: Integrated Food Security Phase Classification\n              "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Burkina Faso": {
       "article_count": 1,
@@ -156,13 +292,22 @@
       ]
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.0,
-      "ratio": 0.33,
+      "ratio": 0.66,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -171,9 +316,17 @@
           "source": "RFI Afrique",
           "published": "2026-03-01T12:25:55",
           "lead": "L'armée nationale libyenne (ANL) dirigée par le maréchal Khalifa Haftar qui contrôle l'est et le sud libyen, a annoncé j"
+        },
+        {
+          "title": "Niger - Perspectives sur la sécurité alimentaire : Les conflits se prolongent avec des résultats de Crise (Phase 3 de l’IPC) dans les zones affectées, Février - Septembre 2026",
+          "url": "https://reliefweb.int/report/niger/niger-perspectives-sur-la-securite-alimentaire-les-conflits-se-prolongent-avec-des-resultats-de-crise-phase-3-de-lipc-dans-les-zones-affectees-fevrier-septembre-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T03:21:14",
+          "lead": "Country: Niger\n                                      Source: Famine Early Warning System Network\n                       "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
@@ -247,11 +400,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Refugees",
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -290,16 +443,33 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Africa: FACE Africa Dedicates 71 Latrines and Two Water Projects in Rural Bentol",
+          "url": "https://allafrica.com/stories/202603020098.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:10",
+          "lead": "[FrontPageAfrica] Bentol, Montserrado County -- FACE Africa, a Liberia and U.S.-based nonprofit organization, has comple"
+        },
+        {
+          "title": "Liberia: 'The Greatest Joy in My Life Is When We Obtain Justice for Survivors' - Liberia's One-Stop Centres Are Helping Women and Girls to Heal",
+          "url": "https://allafrica.com/stories/202603020096.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:09",
+          "lead": "[Spotlight Initiative] MONROVIA, Liberia - Between 2019 and 2023, Spotlight Initiative's Africa Regional Programme assis"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Côte d'Ivoire": {
       "article_count": 1,
@@ -310,11 +480,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Élection",
           "count": 1
         },
         {
-          "word": "Élection",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -369,16 +539,137 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 19,
+      "source_count": 2,
       "baseline": 9.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.11,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 6
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Protest",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Cameroon: Aviation Minister Signs Nigeria-Cameroon Technical Aeronautical Search, Rescue Agreement",
+          "url": "https://allafrica.com/stories/202603020029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T04:51:07",
+          "lead": "[This Day] Chinedu Eze"
+        },
+        {
+          "title": "Nigeria: NECA, FRCN Deepen Collaboration On Corporate Transparency and Sustainability Reporting",
+          "url": "https://allafrica.com/stories/202603020030.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T04:51:07",
+          "lead": "[This Day] The Nigeria Employers' Consultative Association (NECA), led by its Director-General, Mr. Adewale-Smatt Oyerin"
+        },
+        {
+          "title": "Nigeria: APC Expresses Confidence in INEC Timetable, Says It's Fair to All Political Parties",
+          "url": "https://allafrica.com/stories/202603020103.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:37",
+          "lead": "[This Day] Akure -- The All Progressives Congress (APC), Ondo State Chapter, has expressed confidence in the revised 202"
+        },
+        {
+          "title": "Nigeria: Protest in Kano Over Ayatollah Khamenei's Death in U.S.-Israel Strike",
+          "url": "https://allafrica.com/stories/202603020104.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:37",
+          "lead": "[This Day] Kano. -- Thousands of Muslims took to the streets of Kano condemning the killing of Ayatollah Ali Khamenei, t"
+        },
+        {
+          "title": "West Africa: Ecowas Sounds Alarm Over Gulf Escalation, Warns of Economic Shockwaves for West Africa",
+          "url": "https://allafrica.com/stories/202603020101.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:36",
+          "lead": "[This Day] Abuja -- The Economic Community of West African States (ECOWAS) has raised fresh concerns over the escalating"
+        },
+        {
+          "title": "Nigeria: Shekarau Lauds Adebayo's Vision, Says 'Great Minds Think Alike' Despite Party Differences",
+          "url": "https://allafrica.com/stories/202603020102.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:33:36",
+          "lead": "[This Day] Former Governor of Kano State, Ibrahim Shekarau, has commended Adewole Adebayo of the Social Democratic Party"
+        },
+        {
+          "title": "Nigeria: Lassa Fever Kills 10 Health Workers in Benue",
+          "url": "https://allafrica.com/stories/202603020095.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:30:42",
+          "lead": "[This Day] The Benue State Government has confirmed the death of 10 health workers following an outbreak of Lassa fever,"
+        },
+        {
+          "title": "Nigeria: Tinubu Hails Lebara Nigeria's Launch, Says Entry Strong Vote of Confidence in Digital Economy",
+          "url": "https://allafrica.com/stories/202603020093.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:30:41",
+          "lead": "[This Day] Abuja -- President Bola Ahmed Tinubu has welcomed the official launch of Lebara Nigeria, describing the devel"
+        },
+        {
+          "title": "Nigeria: Iyabo Obasanjo Unveils Ogun Governorship Ambition, Hails Tinubu's Economic Reforms",
+          "url": "https://allafrica.com/stories/202603020094.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:30:41",
+          "lead": "[This Day] Abeokuta -- The first child of former President Olusegun Obasanjo, Prof. Iyabo Obasanjo-Bello, yesterday form"
+        },
+        {
+          "title": "Nigeria: Family Ties, Fortune Divides - Court Hands Indimi Daughters $43.51m in Oriental Energy Row",
+          "url": "https://allafrica.com/stories/202603020091.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:30:40",
+          "lead": "[This Day] A family dispute inside one of Nigeria's most prominent oil businesses has now moved firmly into the courts."
+        },
+        {
+          "title": "Nigeria: Seyi Tinubu Breaks Silence On King Mitchy, VeryDarkMan Controversy, Says He Will Not Be Bullied",
+          "url": "https://allafrica.com/stories/202603020092.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:30:40",
+          "lead": "[This Day] Seyi Tinubu, son of President Bola Tinubu, has debunked the allegations linking him to a feud between social "
+        },
+        {
+          "title": "Nigeria: NCAA Orders Airline to Refund Passengers Charged VAT Before January 1",
+          "url": "https://allafrica.com/stories/202603020089.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:30:39",
+          "lead": "[This Day] The Nigeria Civil Aviation Authority (NCAA) has directed Overland Airways to refund passengers who were wrong"
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "ReliefWeb"
+      ]
     },
     "Cape Verde": {
       "article_count": 0,
@@ -405,37 +696,152 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.08,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Au Cameroun, les Mbororos pris au piège de la crise anglophone",
+          "url": "https://www.jeuneafrique.com/1765362/politique/au-cameroun-les-mbororos-pris-au-piege-de-la-crise-anglophone/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-02T07:00:00",
+          "lead": "Depuis 2016, la communauté mbororo affirme payer un lourd tribut à la guerre qui oppose l’État aux séparatistes ambazoni"
+        },
+        {
+          "title": "Cameroon: Aviation Minister Signs Nigeria-Cameroon Technical Aeronautical Search, Rescue Agreement",
+          "url": "https://allafrica.com/stories/202603020029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T04:51:07",
+          "lead": "[This Day] Chinedu Eze"
+        },
+        {
+          "title": "Nigeria Situation Report - January 2026",
+          "url": "https://reliefweb.int/report/nigeria/nigeria-situation-report-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T02:03:40",
+          "lead": "Countries: Nigeria, Cameroon\n                                      Source: United Nations Population Fund\n              "
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "Jeune Afrique",
+        "ReliefWeb"
+      ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.59,
+      "baseline": 1.0,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "UNFPA Central African Republic Situation Report - January 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/unfpa-central-african-republic-situation-report-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T02:05:28",
+          "lead": "Countries: Central African Republic, Sudan\n                                      Source: United Nations Population Fund\n"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "South Sudan": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.7,
+      "ratio": 1.18,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -444,10 +850,18 @@
           "source": "UN News Africa",
           "published": "2026-03-01T12:00:00",
           "lead": "Travelling more than 200 kilometres (124 miles) from Yambio, the capital of&nbsp;Western Equatoria State in southwestern"
+        },
+        {
+          "title": "Report of the Commission on Human Rights in South Sudan (A/HRC/61/25) (Advance unedited version)",
+          "url": "https://reliefweb.int/report/south-sudan/report-commission-human-rights-south-sudan-ahrc6125-advance-unedited-version",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T00:26:04",
+          "lead": "Country: South Sudan\n                                      Source: UN Human Rights Council\n                             "
         }
       ],
       "sources": [
-        "UN News Africa"
+        "UN News Africa",
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -465,7 +879,7 @@
     "Gabon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -507,11 +921,11 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         },
         {
@@ -595,16 +1009,26 @@
       ]
     },
     "Eritrea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Finale of Tour du Rwanda 2026: German rider Kretschy wins",
+          "url": "http://www.africanews.com/2026/03/02/finale-of-tour-du-rwanda-2026-german-rider-kretschy-wins/",
+          "source": "Africanews",
+          "published": "2026-03-02T06:24:57",
+          "lead": "The Tour du Rwanda 2026, one of Africa's most prestigious cycling competitions, has come to an end. The winner is German"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Djibouti": {
       "article_count": 0,
@@ -641,34 +1065,111 @@
       ]
     },
     "Somalia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.55,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Somalia: Somali Intelligence Says Over 40 Al-Shabab Fighters Killed in Operations",
+          "url": "https://allafrica.com/stories/202603020068.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:22:18",
+          "lead": "[Shabelle] Mogadishu, Somalia -- Somalia's National Intelligence and Security Agency, NISA, said it carried out coordina"
+        },
+        {
+          "title": "Somalia: Crisis-Level Hunger in Somalia Nearly Doubles to 6.5 Million People, UN Experts Warn",
+          "url": "https://allafrica.com/stories/202603020008.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T04:42:58",
+          "lead": "[RFI] The number of people in Somalia experiencing crisis-levels of food insecurity has nearly doubled in the past year "
+        },
+        {
+          "title": "Somalia 2025 Post Deyr Seasonal Food Security and Nutrition Assessment: Key Nutrition Results Summary (February 28, 2026)",
+          "url": "https://reliefweb.int/report/somalia/somalia-2025-post-deyr-seasonal-food-security-and-nutrition-assessment-key-nutrition-results-summary-february-28-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T01:02:11",
+          "lead": "Country: Somalia\n                                      Source: Food Security and Nutrition Analysis Unit - Somalia\n     "
+        }
+      ],
+      "sources": [
+        "AllAfrica",
+        "ReliefWeb"
+      ]
     },
     "Uganda": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.48,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Report of the Commission on Human Rights in South Sudan (A/HRC/61/25) (Advance unedited version)",
+          "url": "https://reliefweb.int/report/south-sudan/report-commission-human-rights-south-sudan-ahrc6125-advance-unedited-version",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T00:26:04",
+          "lead": "Country: South Sudan\n                                      Source: UN Human Rights Council\n                             "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Kenya": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 5.8,
-      "ratio": 0.34,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -696,27 +1197,35 @@
           "source": "Africanews",
           "published": "2026-03-01T10:40:49",
           "lead": "The helicopter went down minutes after takeoff and burst into flames in a hilly area of Nandi County in the west of the "
+        },
+        {
+          "title": "Kenya: Parliament Airlifts Remains of MP Johanna Ng'eno, 5 Others After Helicopter Crash",
+          "url": "https://allafrica.com/stories/202603020039.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:19:30",
+          "lead": "[Capital FM] Nairobi -- Parliament has facilitated the airlifting of the remains of Emurua Dikirr Member of Parliament J"
         }
       ],
       "sources": [
         "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.3,
-      "ratio": 0.87,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Mort",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -739,9 +1248,17 @@
           "source": "Jeune Afrique",
           "published": "2026-03-01T08:55:00",
           "lead": "Le décès du porte-parole militaire de l’AFC/M23 dans une frappe de drone confirme une nouvelle fois l’importance de la l"
+        },
+        {
+          "title": "Finale of Tour du Rwanda 2026: German rider Kretschy wins",
+          "url": "http://www.africanews.com/2026/03/02/finale-of-tour-du-rwanda-2026-german-rider-kretschy-wins/",
+          "source": "Africanews",
+          "published": "2026-03-02T06:24:57",
+          "lead": "The Tour du Rwanda 2026, one of Africa's most prestigious cycling competitions, has come to an end. The winner is German"
         }
       ],
       "sources": [
+        "Africanews",
         "Jeune Afrique",
         "RFI Afrique"
       ]
@@ -794,16 +1311,31 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.37,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "WFP Madagascar Situation Report No. 2 - March 2026",
+          "url": "https://reliefweb.int/report/madagascar/wfp-madagascar-situation-report-no-2-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T06:32:56",
+          "lead": "Country: Madagascar\n                                      Source: World Food Programme\n                                 "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Comoros": {
       "article_count": 0,
@@ -878,13 +1410,22 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 0.8,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -900,24 +1441,42 @@
           "source": "Daily Maverick",
           "published": "2026-03-01T19:13:22",
           "lead": "South Africa 154 for 5 (Dewald Brevis 42, Sikandar Raza 3-29) beat Zimbabwe 153 for 7 (Sikandar Raza 73, Kwena Maphaka 2"
+        },
+        {
+          "title": "Zimbabwe - Food Security Outlook: Excessive rains and dry spell likely to drive localized 2026 harvest reductions, February - September 2026",
+          "url": "https://reliefweb.int/report/zimbabwe/zimbabwe-food-security-outlook-excessive-rains-and-dry-spell-likely-drive-localized-2026-harvest-reductions-february-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-02T00:59:06",
+          "lead": "Country: Zimbabwe\n                                      Source: Famine Early Warning System Network\n                    "
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Daily Maverick"
+        "Daily Maverick",
+        "ReliefWeb",
+        "BBC Africa"
       ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Namibia: Namibian MPs Slam Directive to Use Public Health Facilities As 'Inhumane' and 'Premature'",
+          "url": "https://allafrica.com/stories/202603020058.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:22:13",
+          "lead": "[Namibian] Former members of parliament (MPs) have condemned a new directive requiring public servants to use state heal"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Botswana": {
       "article_count": 0,
@@ -932,19 +1491,23 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 11,
-      "source_count": 3,
+      "article_count": 13,
+      "source_count": 4,
       "baseline": 12.6,
-      "ratio": 0.87,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Government",
           "count": 1
         },
         {
@@ -967,6 +1530,20 @@
           "source": "RFI Afrique",
           "published": "2026-03-01T07:39:46",
           "lead": "Après l’attaque lancée par les États-Unis et Israël samedi matin sur l’Iran, et le risque d’embrasement de la région, le"
+        },
+        {
+          "title": "South Africa: Gauteng to Take Full Ownership of Gautrain - South African News Briefs - March 2, 2026",
+          "url": "https://allafrica.com/stories/202603020105.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:48:42",
+          "lead": "[allAfrica]"
+        },
+        {
+          "title": "South Africa: Learners Stand On Bus Steps With Doors Open to Get to School",
+          "url": "https://allafrica.com/stories/202603020033.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T04:58:45",
+          "lead": "[GroundUp] Government-contracted buses are chronically overloaded"
         },
         {
           "title": "PHANTOM SHARES : The Finance Ghost: Spar and Truworths show how ruthless retail gets when margins shrink",
@@ -1023,19 +1600,13 @@
           "source": "Daily Maverick",
           "published": "2026-03-01T13:18:33",
           "lead": "South Africa’s carbon tax remains intact, but concerns linger about corporate lobbying and its alignment with urgent eco"
-        },
-        {
-          "title": "EXTREME CHALLENGES : ‘Crazy, beautiful’: Crossing False Bay twice is these swimmers’ toughest endurance test yet",
-          "url": "https://www.dailymaverick.co.za/article/crazy-beautiful-crossing-false-bay-twiceice-is-these-swimmers-toughest-endurance",
-          "source": "Daily Maverick",
-          "published": "2026-03-01T10:09:24",
-          "lead": "Over the past two years, Pretoria Boys High alumni Chris Oldnall and Peet Crowther have tackled tough and technical open"
         }
       ],
       "sources": [
-        "BBC Africa",
+        "AllAfrica",
+        "Daily Maverick",
         "RFI Afrique",
-        "Daily Maverick"
+        "BBC Africa"
       ]
     },
     "Eswatini": {
@@ -1047,11 +1618,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Minister",
           "count": 1
         }
       ],
