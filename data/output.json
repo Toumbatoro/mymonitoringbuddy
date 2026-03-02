@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-02T12:37:02.425615",
+  "generated_at": "2026-03-02T15:33:34.803576",
   "summary": {
-    "high": 1,
-    "elevated": 3,
-    "normal": 25,
-    "quiet": 25
+    "high": 2,
+    "elevated": 5,
+    "normal": 26,
+    "quiet": 21
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 3.8,
-      "ratio": 0.79,
+      "ratio": 0.78,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -45,21 +45,31 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Algeria": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.51,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "L’Algérie lâche son allié iranien et se solidarise avec les pays arabes",
+          "url": "https://www.jeuneafrique.com/1770186/politique/lalgerie-lache-son-allie-iranien-et-se-solidarise-avec-les-pays-arabes/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-02T13:58:19",
+          "lead": "Traditionnel soutien du régime iranien, Alger a surpris en s’abstenant de condamner les frappes américaines et israélien"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Tunisia": {
       "article_count": 0,
@@ -76,7 +86,7 @@
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.6,
+      "baseline": 2.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -86,25 +96,39 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 6.2,
-      "ratio": 0.16,
+      "baseline": 1.5,
+      "ratio": 0.65,
       "status": "normal",
       "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Ancient Egypt’s golden treasures dazzle London in landmark exhibition",
+          "url": "http://www.africanews.com/2026/03/02/ancient-egypts-golden-treasures-dazzle-london-in-landmark-exhibition/",
+          "source": "Africanews",
+          "published": "2026-03-02T13:31:06",
+          "lead": "The golden mask of King Amenemope, ruler of Egypt’s Twenty-First Dynasty, is among more than 180 artefacts now on displa"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
+    },
+    "Sudan": {
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 6.1,
+      "ratio": 0.49,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -112,6 +136,20 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Soudan du Sud: l’ONU alerte sur les violences, l’ONG MSF a perdu le contact avec 26 employés",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-soudan-du-sud-l-onu-alerte-sur-les-violences-l-ong-msf-a-perdu-le-contact-avec-26-employ%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T14:02:53",
+          "lead": "L'ONG Médecins sans frontières (MSF) a déploré lundi 2 mars 2026 avoir perdu le contact avec 26 de ses employés dans l'É"
+        },
+        {
+          "title": "Soudan du Sud : plusieurs dizaines de morts dans le nord du pays, à la suite de « massacres » commis près de la frontière avec le Soudan",
+          "url": "https://www.lemonde.fr/international/article/2026/03/02/soudan-du-sud-plusieurs-dizaines-de-morts-dans-le-nord-du-pays-a-la-suite-de-massacres-commis-pres-de-la-frontiere-avec-le-soudan_6669253_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-02T14:28:09",
+          "lead": "Des jeunes armés sont venus, dimanche matin, venger le meurtre de certains des membres de leur communauté en visant un m"
+        },
         {
           "title": "Soudan du Sud : MSF annonce avoir perdu le contact avec 26 de ses employés",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/02/soudan-du-sud-msf-annonce-avoir-perdu-le-contact-avec-26-de-ses-employes_6669229_3212.html",
@@ -121,6 +159,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -140,7 +179,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.9,
-      "ratio": 0.34,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -162,7 +201,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.95,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -196,7 +235,7 @@
     "Niger": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.1,
+      "baseline": 3.0,
       "ratio": 0.33,
       "status": "normal",
       "confidence": "low",
@@ -246,8 +285,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
@@ -266,7 +305,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.6,
-      "ratio": 3.53,
+      "ratio": 3.33,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -304,8 +343,8 @@
     "Guinea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.6,
+      "baseline": 1.6,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -355,24 +394,27 @@
       ]
     },
     "Liberia": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 3.75,
+      "baseline": 1.4,
+      "ratio": 2.79,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
           "word": "Government",
           "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Liberia: House Halts Bill Expanding Presidential Power Over Anti-Corruption Commission",
+          "url": "https://allafrica.com/stories/202603020387.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T10:46:21",
+          "lead": "[Liberian Investigator] CAPITOL HILL -- Liberia's House of Representatives last Thursday abruptly halted a controversial"
+        },
         {
           "title": "Liberia: 'The Greatest Joy in My Life Is When We Obtain Justice for Survivors' - Liberia's One-Stop Centres Are Helping Women and Girls to Heal",
           "url": "https://allafrica.com/stories/202603020096.html",
@@ -393,20 +435,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T10:20:16",
           "lead": "[Liberian Observer] A Liberian national identified only as Austin was tragically beaten to death in Ghana after a misund"
-        },
-        {
-          "title": "Liberia: LEC MD Unveils &#x20ac;1.6 Billion Power Reform Plan, Rallies Investors Behind Sector Overhaul",
-          "url": "https://allafrica.com/stories/202603020410.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T11:02:56",
-          "lead": "[FrontPageAfrica] Monrovia -- Liberia's electricity sector is poised for its most ambitious transformation since the civ"
-        },
-        {
-          "title": "Liberia: CSA Establishes New Baseline for Accountability",
-          "url": "https://allafrica.com/stories/202603020400.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T10:52:06",
-          "lead": "[Liberian Observer] The Civil Service Agency (CSA) has unveiled the results of a sweeping workforce verification and ins"
         }
       ],
       "sources": [
@@ -422,10 +450,6 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Élection",
-          "count": 1
-        },
-        {
           "word": "Crise",
           "count": 1
         }
@@ -433,18 +457,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Cacao: la Côte d’Ivoire avance le début de sa campagne de commercialisation en raison des prix à la tonne",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-la-c%C3%B4te-d-ivoire-avance-le-d%C3%A9but-de-sa-campagne-de-commercialisation-en-raison-des-prix-%C3%A0-la-tonne",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T13:29:10",
+          "lead": "En Côte d’Ivoire, la campagne intermédiaire de commercialisation du cacao a officiellement démarré le 1er mars, avec un "
+        },
+        {
           "title": "La Cédéao active sa «Force en attente»: «Il faut qu'on ait un minimum de coopération pour accroître le projet»",
           "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260302-la-c%C3%A9d%C3%A9ao-active-sa-force-en-attente-il-faut-qu-on-ait-un-minimum-de-coop%C3%A9ration-pour-accro%C3%AEtre-le-projet",
           "source": "RFI Afrique",
           "published": "2026-03-02T06:54:38",
           "lead": "Les chefs d'état-major de la Cédéao ont annoncé vendredi 27 février que 2 000 éléments feront partie de la Force en atte"
-        },
-        {
-          "title": "Côte d'Ivoire: le syndicat national des journalistes miné par les divisions",
-          "url": "https://www.rfi.fr/fr/afrique/20260301-c%C3%B4te-d-ivoire-le-syndicat-national-des-journalistes-min%C3%A9-par-les-divisions",
-          "source": "RFI Afrique",
-          "published": "2026-03-01T15:22:08",
-          "lead": "L'Union nationale des journalistes de Côte d'Ivoire (UNJCI) pique sa crise. Le principal syndicat de la profession est d"
         }
       ],
       "sources": [
@@ -452,18 +476,13 @@
       ]
     },
     "Ghana": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 1.07,
+      "baseline": 2.9,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -479,13 +498,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T10:20:16",
           "lead": "[Liberian Observer] A Liberian national identified only as Austin was tragically beaten to death in Ghana after a misund"
-        },
-        {
-          "title": "Ghana: Former MCE, Eight Others in Court Over Fraudulent Sale of Govt Land",
-          "url": "https://allafrica.com/stories/202603020426.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T11:05:43",
-          "lead": "[Ghanaian Times] A Kumasi High Court has granted bail to the former Municipal Chief Executive (MCE) of Asokore-Mampong, "
         }
       ],
       "sources": [
@@ -505,15 +517,22 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.2,
-      "ratio": 0.86,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le Bénin et Le Nigeria préparent une coopération sécuritaire et transfrontalière contre le terrorisme",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-le-b%C3%A9nin-et-le-nigeria-pr%C3%A9parent-une-coop%C3%A9ration-s%C3%A9curitaire-et-transfrontali%C3%A8re-contre-le-terrorisme",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T13:18:47",
+          "lead": "Bénin et Nigeria s'apprêtent à formaliser une coopération sécuritaire bilatérale pour combattre les groupes terroristes "
+        },
         {
           "title": "Au Bénin, clap de fin pour Thomas Boni Yayi et Les Démocrates ?",
           "url": "https://www.jeuneafrique.com/1760355/politique/au-benin-clap-de-fin-pour-thomas-boni-yayi-et-les-democrates/",
@@ -523,12 +542,13 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
     "Nigeria": {
       "article_count": 6,
-      "source_count": 3,
+      "source_count": 4,
       "baseline": 9.2,
       "ratio": 0.65,
       "status": "normal",
@@ -539,11 +559,15 @@
           "count": 1
         },
         {
+          "word": "Tué",
+          "count": 1
+        },
+        {
           "word": "Mort",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -557,11 +581,25 @@
           "lead": "Members of Nigeria’s Shia Muslim community are mourning Iran’s Supreme Leader Ayatollah Ali Khamenei who was killed."
         },
         {
+          "title": "Le Bénin et Le Nigeria préparent une coopération sécuritaire et transfrontalière contre le terrorisme",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-le-b%C3%A9nin-et-le-nigeria-pr%C3%A9parent-une-coop%C3%A9ration-s%C3%A9curitaire-et-transfrontali%C3%A8re-contre-le-terrorisme",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T13:18:47",
+          "lead": "Bénin et Nigeria s'apprêtent à formaliser une coopération sécuritaire bilatérale pour combattre les groupes terroristes "
+        },
+        {
           "title": "Mort de l’ayatollah Khamenei : au Nigeria, des milliers de chiites pro-iraniens manifestent dans le Nord",
           "url": "https://www.jeuneafrique.com/1770117/politique/mort-de-layatollah-khamenei-au-nigeria-des-milliers-de-chiites-pro-iraniens-manifestent-dans-le-nord/",
           "source": "Jeune Afrique",
           "published": "2026-03-02T09:35:44",
           "lead": "Des milliers de membres d’un groupe chiite pro-iranien sont descendus dimanche 1er mars dans les rues de plusieurs ville"
+        },
+        {
+          "title": "Nigeria: Airport Cashless Policy - Keyamo Apologises to Nigerians Over Gridlock At Toll Gates",
+          "url": "https://allafrica.com/stories/202603020563.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T12:43:42",
+          "lead": "[Premium Times] The Minister apologised to Nigerians over traffic congestion that followed the enforcement of a cashless"
         },
         {
           "title": "Nigeria: National Grid Collapse - Systemic Failure or Opportunity Gap?",
@@ -571,31 +609,18 @@
           "lead": "[Premium Times] In recent times, Nigeria's national grid has collapsed with a frequency that has become almost routine. "
         },
         {
-          "title": "Nigeria: Why Governors Are Leaders of Their Parties in the States",
-          "url": "https://allafrica.com/stories/202603020453.html",
+          "title": "West Africa: Ecowas Sounds Alarm Over Gulf Escalation, Warns of Economic Shockwaves for West Africa",
+          "url": "https://allafrica.com/stories/202603020101.html",
           "source": "AllAfrica",
-          "published": "2026-03-02T11:25:07",
-          "lead": "[Daily Trust] Nigeria's Fourth Republic, which commenced in 1999, introduced a distinctive political culture that has si"
-        },
-        {
-          "title": "Nigeria: Chaos At Lagos, Abuja Airports As Faan Begins Cashless Policy",
-          "url": "https://allafrica.com/stories/202603020450.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T11:21:50",
-          "lead": "[Daily Trust] Passengers and motorists were stranded for hours on Sunday as confusion and heavy gridlock trailed the com"
-        },
-        {
-          "title": "Nigeria: Passengers, Motorists Stranded As Nnamdi Azikiwe Airport Goes Fully Cashless",
-          "url": "https://allafrica.com/stories/202603020398.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T10:51:35",
-          "lead": "[Vanguard] Chaos and traffic congestion erupted at the entrance of Nnamdi Azikiwe International Airport (NAIA) on Sunday"
+          "published": "2026-03-02T05:33:36",
+          "lead": "[This Day] Abuja -- The Economic Community of West African States (ECOWAS) has raised fresh concerns over the escalating"
         }
       ],
       "sources": [
-        "AllAfrica",
+        "RFI Afrique",
         "Jeune Afrique",
-        "Al Jazeera"
+        "Al Jazeera",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -626,7 +651,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.35,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -666,13 +691,33 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 5,
       "baseline": 1.7,
-      "ratio": 1.15,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 3.46,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -682,12 +727,33 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Nearly 170 people killed in attack in South Sudan’s Ruweng, officials say",
+          "url": "https://www.aljazeera.com/news/2026/3/2/nearly-170-people-killed-in-attack-in-south-sudans-ruweng-officials-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-02T12:39:22",
+          "lead": "Separately, MSF says 26 humanitarian workers are missing following recent violence in South Sudan&#039;s Jonglei state."
+        },
+        {
+          "title": "Soudan du Sud: l’ONU alerte sur les violences, l’ONG MSF a perdu le contact avec 26 employés",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-soudan-du-sud-l-onu-alerte-sur-les-violences-l-ong-msf-a-perdu-le-contact-avec-26-employ%C3%A9s",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T14:02:53",
+          "lead": "L'ONG Médecins sans frontières (MSF) a déploré lundi 2 mars 2026 avoir perdu le contact avec 26 de ses employés dans l'É"
+        },
+        {
+          "title": "Soudan du Sud : plusieurs dizaines de morts dans le nord du pays, à la suite de « massacres » commis près de la frontière avec le Soudan",
+          "url": "https://www.lemonde.fr/international/article/2026/03/02/soudan-du-sud-plusieurs-dizaines-de-morts-dans-le-nord-du-pays-a-la-suite-de-massacres-commis-pres-de-la-frontiere-avec-le-soudan_6669253_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-02T14:28:09",
+          "lead": "Des jeunes armés sont venus, dimanche matin, venger le meurtre de certains des membres de leur communauté en visant un m"
+        },
         {
           "title": "Soudan du Sud : MSF annonce avoir perdu le contact avec 26 de ses employés",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/02/soudan-du-sud-msf-annonce-avoir-perdu-le-contact-avec-26-de-ses-employes_6669229_3212.html",
@@ -701,11 +767,21 @@
           "source": "Africanews",
           "published": "2026-03-02T12:18:08",
           "lead": "On Friday, UN High Commissioner for Human Rights Volker Turk warned of the country’s deteriorating situation and called "
+        },
+        {
+          "title": "South Sudan: Dozens of MSF Staff Missing After Escalation of Violence",
+          "url": "https://allafrica.com/stories/202603020628.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T13:48:05",
+          "lead": "[MSF] On 3 February 2026, MSF hospital in Lankien, Jonglei state, South Sudan, was hit in an airstrike by the government"
         }
       ],
       "sources": [
         "Le Monde Afrique",
-        "Africanews"
+        "AllAfrica",
+        "Africanews",
+        "RFI Afrique",
+        "Al Jazeera"
       ]
     },
     "Eq. Guinea": {
@@ -733,39 +809,49 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.68,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Présidentielle au Congo-Brazzaville: dans la capitale, un engouement très inégal pour la campagne",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-pr%C3%A9sidentielle-au-congo-brazzaville-dans-la-capitale-un-engouement-tr%C3%A8s-in%C3%A9gal-pour-la-campagne",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T13:56:57",
+          "lead": "Au Congo-Brazzaville, la campagne électorale a démarré le 28 février en vue de la présidentielle du 15 mars 2026. Deux s"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "DRC": {
-      "article_count": 3,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 7.6,
-      "ratio": 0.39,
+      "ratio": 0.66,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 2
+          "count": 3
         },
         {
-          "word": "Guerre",
-          "count": 1
+          "word": "Attaque",
+          "count": 2
         },
         {
           "word": "Réfugiés",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -776,11 +862,25 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Nord-est de la RDC: l’aéroport de Kisangani à nouveau ciblé par des drones",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-nord-est-de-la-rdc-l-a%C3%A9roport-de-kisangani-%C3%A0-nouveau-cibl%C3%A9-par-des-drones",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T14:07:21",
+          "lead": "L’aéroport de Bangboka, à Kisangani, dans le nord-est de la RDC, a été visé ce 1er mars 2026 par des drones, un mois apr"
+        },
+        {
           "title": "Au Burundi, les réfugiés traumatisés par les blessures invisibles de la guerre",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260302-au-burundi-les-r%C3%A9fugi%C3%A9s-traumatis%C3%A9s-par-les-blessures-invisibles-de-la-guerre",
           "source": "RFI Afrique",
           "published": "2026-03-02T00:46:30",
           "lead": "L'offensive de l'AFC/M23 sur le territoire d'Uvira, dans le Sud-Kivu en décembre 2025, a provoqué la fuite de dizaines d"
+        },
+        {
+          "title": "OIF  : « La candidature de Juliana Amato Lumumba face à Louise Mushikiwabo est un acte de responsabilité, pas de confrontation »",
+          "url": "https://www.jeuneafrique.com/1770258/politique/oif-la-candidature-de-juliana-amato-lumumba-face-a-louise-mushikiwabo-est-un-acte-de-responsabilite-pas-de-confrontation/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-02T16:03:08",
+          "lead": "Quelle est la stratégie de Kinshasa pour défendre la candidature de Juliana Amato Lumumba à la tête de l’OIF ? Dans un e"
         },
         {
           "title": "RDC : l’aéroport de Kisangani ciblé par une nouvelle attaque de drones de l’AFC/M23",
@@ -798,9 +898,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -874,8 +974,8 @@
     "Ethiopia": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 3.9,
-      "ratio": 0.77,
+      "baseline": 4.0,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -884,11 +984,11 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -917,15 +1017,15 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Somalia": {
       "article_count": 4,
       "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 1.97,
+      "baseline": 2.1,
+      "ratio": 1.94,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -952,6 +1052,13 @@
           "lead": "[Shabelle] Mogadishu -- The Commander of the Somali National Army (SNA), Gen. Ibrahim Mohamed Mohamud, has directed all "
         },
         {
+          "title": "Somalia: Somaliland's Israel Deal Could Put Berbera Port At Risk",
+          "url": "https://allafrica.com/stories/202603020357.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T10:32:00",
+          "lead": "[Addis Standard] Addis Abeba -- Somaliland says its recognition by Israel could be a boon for its Berbera port. But with"
+        },
+        {
           "title": "Somalia: Somali Intelligence Says Over 40 Al-Shabab Fighters Killed in Operations",
           "url": "https://allafrica.com/stories/202603020068.html",
           "source": "AllAfrica",
@@ -964,13 +1071,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T04:42:58",
           "lead": "[RFI] The number of people in Somalia experiencing crisis-levels of food insecurity has nearly doubled in the past year "
-        },
-        {
-          "title": "Somalia: Somaliland's Israel Deal Could Put Berbera Port At Risk",
-          "url": "https://allafrica.com/stories/202603020357.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T10:32:00",
-          "lead": "[Addis Standard] Addis Abeba -- Somaliland says its recognition by Israel could be a boon for its Berbera port. But with"
         }
       ],
       "sources": [
@@ -978,22 +1078,37 @@
       ]
     },
     "Uganda": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.1,
+      "ratio": 0.48,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Uganda: Prisons Explains Process of Pardoning of Convicts",
+          "url": "https://allafrica.com/stories/202603020648.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T13:54:36",
+          "lead": "[Nile Post] Uganda Prisons Service has clarified the legal process through which convicted prisoners may be granted a pr"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Kenya": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 2,
-      "baseline": 6.0,
-      "ratio": 0.99,
+      "baseline": 5.9,
+      "ratio": 0.84,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1003,10 +1118,6 @@
         },
         {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1020,11 +1131,11 @@
           "lead": "Un accident d’hélicoptère survenu dans l’ouest du Kenya a coûté la vie aux six passagers à bord de l’appareil, dont un d"
         },
         {
-          "title": "Kenya: Parliament Airlifts Remains of MP Johanna Ng'eno, 5 Others After Helicopter Crash",
-          "url": "https://allafrica.com/stories/202603020039.html",
+          "title": "Kenya: System Failure At SHA Halts Critical Healthcare Approvals Services Nationwide",
+          "url": "https://allafrica.com/stories/202603020651.html",
           "source": "AllAfrica",
-          "published": "2026-03-02T05:19:30",
-          "lead": "[Capital FM] Nairobi -- Parliament has facilitated the airlifting of the remains of Emurua Dikirr Member of Parliament J"
+          "published": "2026-03-02T13:55:48",
+          "lead": "[Capital FM] Nairobi -- The Social Health Authority (SHA) has announced a major service interruption affecting its digit"
         },
         {
           "title": "Kenya: Traffic Snarl-Up On Mombasa Road After Fuel Tanker Collides With Container Lorry",
@@ -1041,40 +1152,33 @@
           "lead": "[Capital FM] Nairobi -- The preliminary report into the helicopter crash that killed Emurrua Dikir Member of Parliament "
         },
         {
-          "title": "Kenya: Koome - 787 Causing Death Cases Among 62,932 Traffic Offences Filed in 2024/2025",
-          "url": "https://allafrica.com/stories/202603020459.html",
+          "title": "Kenya: Parliament Airlifts Remains of MP Johanna Ng'eno, 5 Others After Helicopter Crash",
+          "url": "https://allafrica.com/stories/202603020039.html",
           "source": "AllAfrica",
-          "published": "2026-03-02T11:28:28",
-          "lead": "[Capital FM] Nairobi -- Chief Justice Martha Koome has revealed that 787 cases of causing death were among 62,932 traffi"
-        },
-        {
-          "title": "Kenya: Nairobi Hospital Trains Police Officers in Basic Life Support Skills",
-          "url": "https://allafrica.com/stories/202603020441.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T11:15:32",
-          "lead": "[Capital FM] Nairobi -- The Nairobi Hospital has successfully completed Basic Emergency and Basic Life Support (BLS) tra"
+          "published": "2026-03-02T05:19:30",
+          "lead": "[Capital FM] Nairobi -- Parliament has facilitated the airlifting of the remains of Emurua Dikirr Member of Parliament J"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 4,
-      "baseline": 2.3,
-      "ratio": 1.71,
+      "baseline": 2.4,
+      "ratio": 2.11,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Attaque",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Killed",
@@ -1083,6 +1187,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Nord-est de la RDC: l’aéroport de Kisangani à nouveau ciblé par des drones",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-nord-est-de-la-rdc-l-a%C3%A9roport-de-kisangani-%C3%A0-nouveau-cibl%C3%A9-par-des-drones",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T14:07:21",
+          "lead": "L’aéroport de Bangboka, à Kisangani, dans le nord-est de la RDC, a été visé ce 1er mars 2026 par des drones, un mois apr"
+        },
         {
           "title": "Tour du Rwanda: Moritz Kretschy grand vainqueur, le jeune espoir Éthiopien Amaniel Desta 4e",
           "url": "https://www.rfi.fr/fr/sports/20260301-tour-du-rwanda-moritz-kretschy-grand-vainqueur-le-jeune-espoir-%C3%A9thiopien-amaniel-desta-4e",
@@ -1113,10 +1224,10 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Burundi": {
@@ -1128,7 +1239,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "M23",
+          "word": "Réfugiés",
           "count": 1
         },
         {
@@ -1136,7 +1247,7 @@
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "M23",
           "count": 1
         }
       ],
@@ -1155,37 +1266,39 @@
       ]
     },
     "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.0,
-      "ratio": 1.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Madagascar": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.8,
+      "ratio": 0.72,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Tanzania: Innovative Finance Pilot to Unlock Investment",
-          "url": "https://allafrica.com/stories/202603020446.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T11:19:35",
-          "lead": "[Daily News] Arusha -- TANZANIA has taken a major step towards financing forest and landscape restoration in the country"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
-    "Madagascar": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.36,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
+          "title": "Transition à Madagascar: société civile et Gen Z réservées sur le «Programme de la Refondation»",
+          "url": "https://www.rfi.fr/fr/afrique/20260302-transition-%C3%A0-madagascar-soci%C3%A9t%C3%A9-civile-et-gen-z-r%C3%A9serv%C3%A9s-sur-le-programme-de-la-refondation",
+          "source": "RFI Afrique",
+          "published": "2026-03-02T13:41:30",
+          "lead": "À Madagascar, société civile et Gen Z réagissent à la publication par les autorités samedi 28 février du « Programme de "
+        },
         {
           "title": "Quelles synergies pour le groupe panafricain Axian au-delà des télécoms ?",
           "url": "https://www.jeuneafrique.com/1763868/economie-entreprises/quelles-synergies-pour-le-groupe-panafricain-axian-au-dela-des-telecoms/",
@@ -1195,6 +1308,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -1235,16 +1349,31 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.2,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Africa: Africa CDC Backs Zimbabwe, Zambia Over U.S. Health Deal Dispute",
+          "url": "https://allafrica.com/stories/202603020125.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T07:01:11",
+          "lead": "[New Zimbabwe] Africa Centres for Disease Control and Prevention has expressed support for Zimbabwe and Zambia's stand i"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Malawi": {
       "article_count": 0,
@@ -1271,21 +1400,26 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 2,
+      "article_count": 4,
       "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 0.77,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "baseline": 2.5,
+      "ratio": 1.6,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "South Africa beat Zimbabwe to set up NZ semi-final",
-          "url": "https://www.bbc.com/sport/cricket/articles/cj0d11qrz9eo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-01T12:59:35",
-          "lead": "South Africa produce an unconvincing performance with the bat as they beat Zimbabwe by five wickets to set up a semi-fin"
+          "title": "Africa: Africa CDC Backs Zimbabwe, Zambia Over U.S. Health Deal Dispute",
+          "url": "https://allafrica.com/stories/202603020125.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T07:01:11",
+          "lead": "[New Zimbabwe] Africa Centres for Disease Control and Prevention has expressed support for Zimbabwe and Zambia's stand i"
         },
         {
           "title": "Zimbabwe: Zimbabweans Now Keeping ZiG for Longer Periods Due to Its Stability - Survey",
@@ -1293,18 +1427,32 @@
           "source": "AllAfrica",
           "published": "2026-03-02T07:04:50",
           "lead": "[New Zimbabwe] ZIMBABWEANS are now keeping the ZWG currency, also known as Zimbabwe Gold (ZiG), for much longer periods "
+        },
+        {
+          "title": "POWER SHIFT: Associate nations on the march as Zimbabwe spark World Cup shake-up",
+          "url": "https://www.dailymaverick.co.za/article/associate-nations-on-the-march-as-zimbabwe-spark-world-cup-shakeup",
+          "source": "Daily Maverick",
+          "published": "2026-03-02T17:08:01",
+          "lead": "Zimbabwe’s advancement into the Super Eight phase of the T20 World Cup signified that the gap between cricket’s establis"
+        },
+        {
+          "title": "Raza-sharp Zimbabwe fall to unbeaten Proteas in closing Super Eights T20 World Cup match",
+          "url": "https://www.dailymaverick.co.za/article/razasharp-zimbabwe-fall-to-unbeaten-protroteas-in-closing-super-eights-t20-world",
+          "source": "Daily Maverick",
+          "published": "2026-03-01T19:13:22",
+          "lead": "South Africa 154 for 5 (Dewald Brevis 42, Sikandar Raza 3-29) beat Zimbabwe 153 for 7 (Sikandar Raza 73, Kwena Maphaka 2"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa"
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.2,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1335,13 +1483,21 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 12.8,
-      "ratio": 0.31,
+      "article_count": 14,
+      "source_count": 4,
+      "baseline": 12.4,
+      "ratio": 1.13,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "Killed",
           "count": 1
@@ -1350,11 +1506,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "South Africa beat Zimbabwe to set up NZ semi-final",
-          "url": "https://www.bbc.com/sport/cricket/articles/cj0d11qrz9eo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-01T12:59:35",
-          "lead": "South Africa produce an unconvincing performance with the bat as they beat Zimbabwe by five wickets to set up a semi-fin"
+          "title": "L’Afrique du Sud se prive de Biennale d’art contemporain sur fond de désaccord autour de la guerre à Gaza",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/02/l-afrique-du-sud-se-prive-de-biennale-d-art-contemporain-sur-fond-de-desaccord-autour-de-la-guerre-a-gaza_6669240_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-02T13:00:01",
+          "lead": "Le ministre de la culture sud-africain a renoncé à la vitrine internationale de Venise, refusant que l’artiste retenue p"
         },
         {
           "title": "Cape Town Shia Muslim association mourns Ayatollah Ali Khamenei",
@@ -1364,11 +1520,18 @@
           "lead": "Congregants at the Ahlul Bait Foundation of South Africa - an association of Shia Muslim communities - gathered in Cape "
         },
         {
-          "title": "South Africa: Gauteng to Take Full Ownership of Gautrain - South African News Briefs - March 2, 2026",
-          "url": "https://allafrica.com/stories/202603020105.html",
+          "title": "South Africa: Government Calls for Regulatory Assurance for Menstrual Hygiene Products",
+          "url": "https://allafrica.com/stories/202603020654.html",
           "source": "AllAfrica",
-          "published": "2026-03-02T05:48:42",
-          "lead": "[allAfrica]"
+          "published": "2026-03-02T13:57:35",
+          "lead": "[SAnews.gov.za] The Department of Women, Youth and Persons with Disabilities (DWYPD) has formally engaged the University"
+        },
+        {
+          "title": "South Africa: Middle East Conflict - Oil and Gold Price Surge Will Shock South Africa",
+          "url": "https://allafrica.com/stories/202603020633.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T13:52:10",
+          "lead": "[Daily Maverick] The spectre of oil at $100 (R1,607) a barrel will haunt the South African Reserve Bank's efforts to con"
         },
         {
           "title": "South Africa: Revealed - Brian Molefe's Alleged State Capture Era 'Slush Fund'",
@@ -1376,12 +1539,62 @@
           "source": "AllAfrica",
           "published": "2026-03-02T07:15:41",
           "lead": "[Daily Maverick] Newly obtained bank records and related documents link Brian Molefe, the uMkhonto Wesizwe party's newly"
+        },
+        {
+          "title": "South Africa: Gauteng to Take Full Ownership of Gautrain - South African News Briefs - March 2, 2026",
+          "url": "https://allafrica.com/stories/202603020105.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T05:48:42",
+          "lead": "[allAfrica]"
+        },
+        {
+          "title": "AGE OF ACCOUNTABILITY: FSCA slaps ex-Steinhoff legal and treasury chief Grobler with R359m fraud fine",
+          "url": "https://www.dailymaverick.co.za/article/fsca-slaps-exsteinhoff-legal-and-treasury-chief-grobler-with-r359m-fraud-fine",
+          "source": "Daily Maverick",
+          "published": "2026-03-02T14:03:56",
+          "lead": "The net tightens around Steinhoff’s inner circle. With a R359-million penalty, the FSCA signals that accountability for "
+        },
+        {
+          "title": "COMMODITIES CONFLICT : Middle East conflict: Oil and gold price surge will shock and awe SA",
+          "url": "https://www.dailymaverick.co.za/article/oil-and-gold-price-surge-will-shock-and-awe-sa",
+          "source": "Daily Maverick",
+          "published": "2026-03-02T13:38:44",
+          "lead": "The spectre of oil at $100 (R1,607) a barrel will haunt the South African Reserve Bank’s efforts to contain inflation. A"
+        },
+        {
+          "title": "PHANTOM SHARES : The Finance Ghost: Spar and Truworths show how ruthless retail gets when margins shrink",
+          "url": "https://www.dailymaverick.co.za/article/the-finance-ghost-spar-and-truworths-shoow-how-ruthless-retail-gets-when-margins",
+          "source": "Daily Maverick",
+          "published": "2026-03-01T22:19:34",
+          "lead": "South Africa’s retail pain is back in focus. Truworths leans on Office UK while its local arm limps, and Spar’s supply-c"
+        },
+        {
+          "title": "VEXED ALLIANCE: ANC's long friendship with Iran has come at a cost",
+          "url": "https://www.dailymaverick.co.za/article/ancs-long-friendship-with-iran-has-come-at-a-cost",
+          "source": "Daily Maverick",
+          "published": "2026-03-01T20:09:08",
+          "lead": "The South African government has for many years faithfully defended Iran at the United Nations."
+        },
+        {
+          "title": "EXPLAINER: How the US-Israeli attacks on Iran affect SA travellers to and from Middle East",
+          "url": "https://www.dailymaverick.co.za/article/how-the-usisraeli-attacks-on-iran-affect-sa-travellers-to-and-from-middle-east",
+          "source": "Daily Maverick",
+          "published": "2026-03-01T20:05:25",
+          "lead": "As conflict erupts in the Middle East, South African travellers face flight suspensions and safety concerns — here’s wha"
+        },
+        {
+          "title": "Raza-sharp Zimbabwe fall to unbeaten Proteas in closing Super Eights T20 World Cup match",
+          "url": "https://www.dailymaverick.co.za/article/razasharp-zimbabwe-fall-to-unbeaten-protroteas-in-closing-super-eights-t20-world",
+          "source": "Daily Maverick",
+          "published": "2026-03-01T19:13:22",
+          "lead": "South Africa 154 for 5 (Dewald Brevis 42, Sikandar Raza 3-29) beat Zimbabwe 153 for 7 (Sikandar Raza 73, Kwena Maphaka 2"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa",
-        "Africanews"
+        "Daily Maverick",
+        "Le Monde Afrique",
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Eswatini": {
