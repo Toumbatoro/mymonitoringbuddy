@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-03T06:39:16.140263",
+  "generated_at": "2026-03-03T09:33:34.341108",
   "summary": {
-    "high": 2,
-    "elevated": 6,
-    "normal": 25,
-    "quiet": 21
+    "high": 3,
+    "elevated": 5,
+    "normal": 23,
+    "quiet": 23
   },
   "countries": {
     "Morocco": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 3.8,
-      "ratio": 0.78,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -30,13 +30,6 @@
           "lead": "Après l’attaque américano-israélienne et les ripostes iraniennes, Rabat a affiché une solidarité assumée envers les mona"
         },
         {
-          "title": "2 mars 1956 : le jour où la France et le Maroc se sont dit adieu",
-          "url": "https://www.jeuneafrique.com/1768492/politique/2-mars-1956-le-jour-ou-la-france-et-le-maroc-se-sont-dit-adieu/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-02T08:06:00",
-          "lead": "Il y a soixante-dix ans, le 2 mars 1956, après quatre mois de négociations entre les délégations française et marocaine,"
-        },
-        {
           "title": "Morocco: Finland Supports Morocco's Autonomy Plan for Sahara",
           "url": "https://allafrica.com/stories/202603020341.html",
           "source": "AllAfrica",
@@ -45,8 +38,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Algeria": {
@@ -74,7 +67,7 @@
     "Tunisia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -96,22 +89,15 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 1.2,
+      "ratio": 0.6,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "US urges citizens to immediately leave over a dozen Middle East countries",
-          "url": "https://www.aljazeera.com/news/2026/3/3/us-urges-citizens-to-immediately-leave-over-a-dozen-middle-east-countries?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-03T00:07:30",
-          "lead": "The latest advisory includes Egypt, Israel, Saudi Arabia and Qatar, according to a State Department official."
-        },
         {
           "title": "Ancient Egypt’s golden treasures dazzle London in landmark exhibition",
           "url": "http://www.africanews.com/2026/03/02/ancient-egypts-golden-treasures-dazzle-london-in-landmark-exhibition/",
@@ -121,8 +107,7 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Al Jazeera"
+        "Africanews"
       ]
     },
     "Sudan": {
@@ -192,9 +177,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "Mauritania": {
@@ -222,13 +207,26 @@
       "sources": []
     },
     "Burkina Faso": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.47,
+      "ratio": 0.94,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Terroriste",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -237,10 +235,18 @@
           "source": "RFI Afrique",
           "published": "2026-03-02T23:19:37",
           "lead": "Au Burkina, les importations et les exportations de produits céréaliers sont soumises à des autorisations spéciales, ce "
+        },
+        {
+          "title": "Tuerie de Titao, au Burkina Faso : le Ghana peut-il rester à l’abri du Jnim qui sévit au Sahel ?",
+          "url": "https://www.jeuneafrique.com/1770267/politique/tuerie-de-titao-au-burkina-faso-le-ghana-peut-il-rester-a-labri-du-jnim-qui-sevit-au-sahel/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-03T07:55:00",
+          "lead": "Le 14 février, les jihadistes du Jnim ont tué huit commerçants ghanéens lors d’une attaque sur Titao, dans le nord du Bu"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Niger": {
@@ -256,16 +262,16 @@
       "sources": []
     },
     "Senegal": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 4.7,
-      "ratio": 0.63,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Gouvernement",
@@ -274,6 +280,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La candidature de Macky Sall pour le poste de Secrétaire général de l'ONU proposée par le Burundi",
+          "url": "https://www.rfi.fr/fr/afrique/20260303-la-candidature-de-macky-sall-pour-le-poste-de-secr%C3%A9taire-g%C3%A9n%C3%A9ral-de-l-onu-propos%C3%A9e-par-le-burundi",
+          "source": "RFI Afrique",
+          "published": "2026-03-03T06:13:26",
+          "lead": "Le Burundi a présenté lundi 2 mars la candidature de Macky Sall pour succéder à Antonio Guterres à la tête de l’ONU. Un "
+        },
         {
           "title": "«Tu vis dans la peur»: au Sénégal, la répression de l'homosexualité menace la lutte contre le sida",
           "url": "https://www.rfi.fr/fr/afrique/20260302-tu-vis-dans-la-peur-au-s%C3%A9n%C3%A9gal-la-r%C3%A9pression-de-l-homosexualit%C3%A9-menace-la-lutte-contre-le-sida",
@@ -349,11 +362,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -379,39 +392,29 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Sierra Leone": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "La Cédéao active sa «Force en attente»: «Il faut qu'on ait un minimum de coopération pour accroître le projet»",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260302-la-c%C3%A9d%C3%A9ao-active-sa-force-en-attente-il-faut-qu-on-ait-un-minimum-de-coop%C3%A9ration-pour-accro%C3%AEtre-le-projet",
-          "source": "RFI Afrique",
-          "published": "2026-03-02T06:54:38",
-          "lead": "Les chefs d'état-major de la Cédéao ont annoncé vendredi 27 février que 2 000 éléments feront partie de la Force en atte"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Liberia": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.96,
-      "status": "elevated",
-      "confidence": "low",
+      "ratio": 1.33,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
@@ -433,13 +436,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T10:21:08",
           "lead": "[FrontPageAfrica] Monrovia -- The Office of the Ombudsman says it is preparing to submit an official report to the Liber"
-        },
-        {
-          "title": "Ghana: Liberian Beaten to Death in Ghana",
-          "url": "https://allafrica.com/stories/202603020334.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T10:20:16",
-          "lead": "[Liberian Observer] A Liberian national identified only as Austin was tragically beaten to death in Ghana after a misund"
         }
       ],
       "sources": [
@@ -447,12 +443,12 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.4,
-      "ratio": 2.09,
-      "status": "elevated",
-      "confidence": "low",
+      "ratio": 1.4,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Crise",
@@ -474,13 +470,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-02T13:29:10",
           "lead": "En Côte d’Ivoire, la campagne intermédiaire de commercialisation du cacao a officiellement démarré le 1er mars, avec un "
-        },
-        {
-          "title": "La Cédéao active sa «Force en attente»: «Il faut qu'on ait un minimum de coopération pour accroître le projet»",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260302-la-c%C3%A9d%C3%A9ao-active-sa-force-en-attente-il-faut-qu-on-ait-un-minimum-de-coop%C3%A9ration-pour-accro%C3%AEtre-le-projet",
-          "source": "RFI Afrique",
-          "published": "2026-03-02T06:54:38",
-          "lead": "Les chefs d'état-major de la Cédéao ont annoncé vendredi 27 février que 2 000 éléments feront partie de la Force en atte"
         }
       ],
       "sources": [
@@ -489,30 +478,44 @@
     },
     "Ghana": {
       "article_count": 2,
-      "source_count": 1,
+      "source_count": 2,
       "baseline": 2.9,
       "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Terroriste",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tuerie de Titao, au Burkina Faso : le Ghana peut-il rester à l’abri du Jnim qui sévit au Sahel ?",
+          "url": "https://www.jeuneafrique.com/1770267/politique/tuerie-de-titao-au-burkina-faso-le-ghana-peut-il-rester-a-labri-du-jnim-qui-sevit-au-sahel/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-03T07:55:00",
+          "lead": "Le 14 février, les jihadistes du Jnim ont tué huit commerçants ghanéens lors d’une attaque sur Titao, dans le nord du Bu"
+        },
         {
           "title": "Ghana: Ghana Activates Emergency Plan As Middle East Conflict Escalates",
           "url": "https://allafrica.com/stories/202603020340.html",
           "source": "AllAfrica",
           "published": "2026-03-02T10:23:18",
           "lead": "[Ghanaian Times] The Ministry of Foreign Affairs has activated an emergency preparedness plan and begun a partial evacua"
-        },
-        {
-          "title": "Ghana: Liberian Beaten to Death in Ghana",
-          "url": "https://allafrica.com/stories/202603020334.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T10:20:16",
-          "lead": "[Liberian Observer] A Liberian national identified only as Austin was tragically beaten to death in Ghana after a misund"
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "AllAfrica"
       ]
     },
@@ -575,10 +578,10 @@
       ]
     },
     "Nigeria": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 5,
       "baseline": 9.6,
-      "ratio": 0.83,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -591,11 +594,19 @@
           "count": 1
         },
         {
+          "word": "Tué",
+          "count": 1
+        },
+        {
           "word": "Mort",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         },
         {
@@ -638,6 +649,20 @@
           "lead": "Des milliers de membres d’un groupe chiite pro-iranien sont descendus dimanche 1er mars dans les rues de plusieurs ville"
         },
         {
+          "title": "Nigeria: U.S. Issues Security Alert to Citizens in Nigeria After Iran Attack",
+          "url": "https://allafrica.com/stories/202603030167.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T08:57:31",
+          "lead": "[Daily Trust] The United States government has issued a global security alert to its citizens in Nigeria and across the "
+        },
+        {
+          "title": "Nigeria: Nigerian Tugboat Sinks Off South Africa's Coast",
+          "url": "https://allafrica.com/stories/202603030139.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T08:36:09",
+          "lead": "[Premium Times] The vessel, carrying 18 people, ran aground 18 nautical miles offshore between Cape Town and Durban."
+        },
+        {
           "title": "Nigeria: 12 Rescued, One Dies, As Nigerian Tugboat Capsizes Off South Africa Coast",
           "url": "https://allafrica.com/stories/202603020717.html",
           "source": "AllAfrica",
@@ -652,13 +677,6 @@
           "lead": "[Premium Times] The Minister apologised to Nigerians over traffic congestion that followed the enforcement of a cashless"
         },
         {
-          "title": "Nigeria: National Grid Collapse - Systemic Failure or Opportunity Gap?",
-          "url": "https://allafrica.com/stories/202603020138.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T07:39:20",
-          "lead": "[Premium Times] In recent times, Nigeria's national grid has collapsed with a frequency that has become almost routine. "
-        },
-        {
           "title": "PROSPERITY PROPERTY PITCH: Meet the Nigerian mega pastor shouting hallelujah after bidding to buy iconic Cape Town building",
           "url": "https://www.dailymaverick.co.za/article/meet-the-nigerian-mega-pastor-shouting-hg-hallelujah-after-bidding-to-buy-iconic",
           "source": "Daily Maverick",
@@ -667,10 +685,10 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "AllAfrica",
         "BBC Africa",
+        "Jeune Afrique",
+        "AllAfrica",
+        "RFI Afrique",
         "Daily Maverick"
       ]
     },
@@ -699,23 +717,15 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.71,
+      "ratio": 0.35,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Boko haram",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -727,13 +737,6 @@
           "source": "Jeune Afrique",
           "published": "2026-03-03T07:00:00",
           "lead": "Dans les régions du Nord, ces Peuls camerounais sont au cœur d’un marché criminel facilité par la porosité des frontière"
-        },
-        {
-          "title": "Au Cameroun, les Mbororos pris au piège de la crise anglophone",
-          "url": "https://www.jeuneafrique.com/1765362/politique/au-cameroun-les-mbororos-pris-au-piege-de-la-crise-anglophone/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-02T07:00:00",
-          "lead": "Depuis 2016, la communauté mbororo affirme payer un lourd tribut à la guerre qui oppose l’État aux séparatistes ambazoni"
         }
       ],
       "sources": [
@@ -753,19 +756,23 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 5,
-      "baseline": 2.1,
-      "ratio": 3.75,
+      "baseline": 2.2,
+      "ratio": 4.15,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Killed",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "War",
           "count": 2
         },
         {
@@ -778,10 +785,6 @@
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "War",
           "count": 1
         },
         {
@@ -838,6 +841,13 @@
           "lead": "On Friday, UN High Commissioner for Human Rights Volker Turk warned of the country’s deteriorating situation and called "
         },
         {
+          "title": "South Sudan: Scores of Civilians Killed in Attacks in South Sudan",
+          "url": "https://allafrica.com/stories/202603030143.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T08:39:22",
+          "lead": "[DW] Intensifying violence in the country has led the United Nations to warn that it could be returning to a civil war. "
+        },
+        {
           "title": "South Sudan: MSF Concerned for Unaccounted Staff in Lankien and Pieri",
           "url": "https://allafrica.com/stories/202603030047.html",
           "source": "AllAfrica",
@@ -853,11 +863,11 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique",
-        "RFI Afrique",
+        "BBC Africa",
         "AllAfrica",
-        "BBC Africa"
+        "RFI Afrique",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Eq. Guinea": {
@@ -936,29 +946,37 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Africanews"
       ]
     },
     "DRC": {
-      "article_count": 9,
-      "source_count": 5,
+      "article_count": 12,
+      "source_count": 6,
       "baseline": 8.0,
-      "ratio": 1.13,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.51,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
-          "count": 7
+          "count": 9
         },
         {
           "word": "Attaque",
           "count": 3
         },
         {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
           "word": "Rebelle",
+          "count": 1
+        },
+        {
+          "word": "Mort",
           "count": 1
         },
         {
@@ -966,19 +984,11 @@
           "count": 1
         },
         {
+          "word": "President",
+          "count": 1
+        },
+        {
           "word": "Armed group",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
           "count": 1
         }
       ],
@@ -990,11 +1000,25 @@
       ],
       "articles": [
         {
+          "title": "US sanctions Rwandan army and top officials for supporting M23 in DRC",
+          "url": "https://www.aljazeera.com/news/2026/3/3/us-sanctions-rwandan-army-and-top-officials-for-supporting-m23-in-drc?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-03T06:52:23",
+          "lead": "Kinshasa welcomed the sanctions while Kigali said the US move &#039;unjustly&#039; targets Rwanda."
+        },
+        {
           "title": "RDC: Washington annonce des sanctions contre l’armée rwandaise pour son soutien au M23",
           "url": "https://www.rfi.fr/fr/afrique/20260302-rdc-washington-annonce-des-sanctions-contre-l-arm%C3%A9e-rwandaise-pour-son-soutien-au-m23",
           "source": "RFI Afrique",
           "published": "2026-03-02T23:44:53",
           "lead": "C'était attendu, c'est désormais officiel. Les États-Unis ont sanctionné, ce lundi 2 mars, l'armée rwandaise ainsi que q"
+        },
+        {
+          "title": "Est de la RDC: les défenseurs des droits humains «pris pour cible par le M23», pointe l'ONU",
+          "url": "https://www.rfi.fr/fr/afrique/20260303-est-de-la-rdc-les-d%C3%A9fenseurs-des-droits-humains-pris-pour-cible-par-le-m23-pointe-l-onu",
+          "source": "RFI Afrique",
+          "published": "2026-03-03T06:40:20",
+          "lead": "En République démocratique du Congo, des experts des Nations unies tirent la sonnette d’alarme. Ils dénoncent des violen"
         },
         {
           "title": "Nord-est de la RDC: l’aéroport de Kisangani à nouveau ciblé par des drones",
@@ -1011,7 +1035,7 @@
           "lead": "Depuis décembre, avec l’offensive de l'AFC/M23 dans le Sud-Kivu, plus de 60 000 réfugiés congolais ont été regroupés sur"
         },
         {
-          "title": "En RDC, une nouvelle attaque de drones du M23 vise l’aéroport de Kisangani",
+          "title": "En RDC, une nouvelle attaque de drones du M23 vise l’aéroport de Kisangani",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/03/nouvelle-attaque-de-drones-du-m23-sur-un-aeroport-en-republique-democratique-du-congo_6669298_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-02T23:52:05",
@@ -1039,6 +1063,13 @@
           "lead": "Le groupe armé, soutenu par le Rwanda et son armée, a attaqué dimanche l’aéroport de cette ville de 1,5 million d’habita"
         },
         {
+          "title": "United States imposes sanctions on Rwanda military over fighting in DR Congo",
+          "url": "http://www.africanews.com/2026/03/03/united-states-imposes-sanctions-on-rwanda-military-over-fighting-in-dr-congo/",
+          "source": "Africanews",
+          "published": "2026-03-03T07:28:40",
+          "lead": "It says its actions in the eastern DRC are sabotaging President Donald Trump's peace deal between Kigali and Kinshasa."
+        },
+        {
           "title": "Drone attack targets DRC's strategic Kisangani airport",
           "url": "http://www.africanews.com/2026/03/02/drone-attack-targets-drcs-strategic-kisangani-airport/",
           "source": "Africanews",
@@ -1054,11 +1085,12 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
-        "Le Monde Afrique",
+        "Al Jazeera",
         "RFI Afrique",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1088,8 +1120,8 @@
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.15,
+      "baseline": 0.8,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1120,16 +1152,20 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 5,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 4.1,
-      "ratio": 1.23,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Minister",
           "count": 2
+        },
+        {
+          "word": "Guerre",
+          "count": 1
         },
         {
           "word": "Crisis",
@@ -1146,6 +1182,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ethiopian, Egyptair, Emirates… Déroute dans le ciel africain après le début de la guerre en Iran",
+          "url": "https://www.jeuneafrique.com/1770133/economie-entreprises/ethiopian-egyptair-emirates-deroute-dans-le-ciel-africain-apres-le-debut-de-la-guerre-en-iran/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-03T08:30:45",
+          "lead": "L’offensive militaire américano-israélienne contre l’Iran a provoqué la fermeture des principaux espaces aériens du Moye"
+        },
         {
           "title": "Ethiopia marks battle of Adwa anniversary amid rising tensions with Eritrea",
           "url": "http://www.africanews.com/2026/03/02/ethiopia-marks-battle-of-adwa-anniversary-amid-rising-tensions-with-eritrea/",
@@ -1183,6 +1226,7 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Africanews",
         "AllAfrica"
       ]
@@ -1249,12 +1293,12 @@
       ]
     },
     "Kenya": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
-      "baseline": 5.9,
-      "ratio": 0.34,
+      "baseline": 5.8,
+      "ratio": 0.17,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1264,13 +1308,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T13:55:48",
           "lead": "[Capital FM] Nairobi -- The Social Health Authority (SHA) has announced a major service interruption affecting its digit"
-        },
-        {
-          "title": "Kenya: Traffic Snarl-Up On Mombasa Road After Fuel Tanker Collides With Container Lorry",
-          "url": "https://allafrica.com/stories/202603020202.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T09:14:20",
-          "lead": "[Capital FM] Nairobi -- There was a traffic snarl-up after a fuel tanker collided with a trailer and burst into flames o"
         }
       ],
       "sources": [
@@ -1278,19 +1315,23 @@
       ]
     },
     "Rwanda": {
-      "article_count": 6,
-      "source_count": 5,
+      "article_count": 8,
+      "source_count": 6,
       "baseline": 2.7,
-      "ratio": 2.22,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.0,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "M23",
-          "count": 4
+          "count": 5
         },
         {
           "word": "Attaque",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
           "count": 2
         },
         {
@@ -1302,20 +1343,27 @@
           "count": 1
         },
         {
+          "word": "President",
+          "count": 1
+        },
+        {
           "word": "Armed group",
           "count": 1
         },
         {
           "word": "Attack",
           "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "US sanctions Rwandan army and top officials for supporting M23 in DRC",
+          "url": "https://www.aljazeera.com/news/2026/3/3/us-sanctions-rwandan-army-and-top-officials-for-supporting-m23-in-drc?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-03T06:52:23",
+          "lead": "Kinshasa welcomed the sanctions while Kigali said the US move &#039;unjustly&#039; targets Rwanda."
+        },
         {
           "title": "RDC: Washington annonce des sanctions contre l’armée rwandaise pour son soutien au M23",
           "url": "https://www.rfi.fr/fr/afrique/20260302-rdc-washington-annonce-des-sanctions-contre-l-arm%C3%A9e-rwandaise-pour-son-soutien-au-m23",
@@ -1336,6 +1384,13 @@
           "source": "Jeune Afrique",
           "published": "2026-03-02T11:28:01",
           "lead": "Le groupe armé, soutenu par le Rwanda et son armée, a attaqué dimanche l’aéroport de cette ville de 1,5 million d’habita"
+        },
+        {
+          "title": "United States imposes sanctions on Rwanda military over fighting in DR Congo",
+          "url": "http://www.africanews.com/2026/03/03/united-states-imposes-sanctions-on-rwanda-military-over-fighting-in-dr-congo/",
+          "source": "Africanews",
+          "published": "2026-03-03T07:28:40",
+          "lead": "It says its actions in the eastern DRC are sabotaging President Donald Trump's peace deal between Kigali and Kinshasa."
         },
         {
           "title": "Drone attack targets DRC's strategic Kisangani airport",
@@ -1360,21 +1415,26 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
         "AllAfrica",
+        "Al Jazeera",
         "RFI Afrique",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Africanews"
       ]
     },
     "Burundi": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.3,
-      "ratio": 1.5,
+      "ratio": 2.25,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 2
+        },
         {
           "word": "M23",
           "count": 1
@@ -1382,14 +1442,17 @@
         {
           "word": "Réfugiés",
           "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La candidature de Macky Sall pour le poste de Secrétaire général de l'ONU proposée par le Burundi",
+          "url": "https://www.rfi.fr/fr/afrique/20260303-la-candidature-de-macky-sall-pour-le-poste-de-secr%C3%A9taire-g%C3%A9n%C3%A9ral-de-l-onu-propos%C3%A9e-par-le-burundi",
+          "source": "RFI Afrique",
+          "published": "2026-03-03T06:13:26",
+          "lead": "Le Burundi a présenté lundi 2 mars la candidature de Macky Sall pour succéder à Antonio Guterres à la tête de l’ONU. Un "
+        },
         {
           "title": "Au Burundi, des réfugiés congolais pris au piège d’une aide qui s’essouffle [2/4]",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260302-au-burundi-des-r%C3%A9fugi%C3%A9s-congolais-pris-au-pi%C3%A8ge-d-une-aide-qui-s-essouffle-2-4",
@@ -1411,15 +1474,22 @@
       ]
     },
     "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 0.94,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.82,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "My sexual freedom odyssey: what ancient African wisdom can teach us about pleasure today",
+          "url": "https://www.theguardian.com/global-development/2026/mar/03/sexual-freedom-ancient-african-wisdom-teach-us-about-pleasure-today-nana-darkoa-sekyiama",
+          "source": "The Guardian Africa",
+          "published": "2026-03-03T08:00:33",
+          "lead": "By speaking to women across the continent, I discovered how reclaiming pre-colonial rites and rituals can help us find j"
+        },
         {
           "title": "Tanzania: How Child Labour Persists Along Zanzibar's Blue Economy",
           "url": "https://allafrica.com/stories/202603030007.html",
@@ -1429,7 +1499,8 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "The Guardian Africa"
       ]
     },
     "Madagascar": {
@@ -1504,31 +1575,16 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.9,
-      "ratio": 1.07,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Africa: Africa CDC Backs Zimbabwe, Zambia Over U.S. Health Deal Dispute",
-          "url": "https://allafrica.com/stories/202603020125.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T07:01:11",
-          "lead": "[New Zimbabwe] Africa Centres for Disease Control and Prevention has expressed support for Zimbabwe and Zambia's stand i"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Malawi": {
       "article_count": 0,
@@ -1545,8 +1601,8 @@
     "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.81,
+      "baseline": 1.3,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1573,20 +1629,16 @@
       "article_count": 7,
       "source_count": 3,
       "baseline": 2.8,
-      "ratio": 2.53,
+      "ratio": 2.5,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "President",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1607,18 +1659,18 @@
           "lead": "A total of 4,305 -- including 223 women -- will eventually be released, Ziyambi said, with the scheme \"focusing on vulne"
         },
         {
+          "title": "Zimbabwe: Chatunga Mugabe Back in Court for Bail Application in Attempted Murder Case",
+          "url": "https://allafrica.com/stories/202603030102.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T06:57:11",
+          "lead": "[New Zimbabwe] Bellarmine Chatunga Mugabe, son of late former President Robert Mugabe, is expected to return to the Alex"
+        },
+        {
           "title": "Zimbabwe: Thousands Walk Free As Govt Grants Amnesty to Rehabilitated Prisoners",
           "url": "https://allafrica.com/stories/202603030029.html",
           "source": "AllAfrica",
           "published": "2026-03-03T05:11:31",
           "lead": "[263Chat] Thousands of prisoners across Zimbabwe have begun regaining their freedom after President Emmerson Dambudzo Mn"
-        },
-        {
-          "title": "Africa: Africa CDC Backs Zimbabwe, Zambia Over U.S. Health Deal Dispute",
-          "url": "https://allafrica.com/stories/202603020125.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T07:01:11",
-          "lead": "[New Zimbabwe] Africa Centres for Disease Control and Prevention has expressed support for Zimbabwe and Zambia's stand i"
         },
         {
           "title": "CHECKED: Parents still seeking accountability from Chess SA over Zimbabwe tournament chaos",
@@ -1643,16 +1695,16 @@
         }
       ],
       "sources": [
+        "Daily Maverick",
         "Africanews",
-        "AllAfrica",
-        "Daily Maverick"
+        "AllAfrica"
       ]
     },
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.3,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1688,10 +1740,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 16,
+      "article_count": 18,
       "source_count": 6,
       "baseline": 13.1,
-      "ratio": 1.22,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1747,6 +1799,13 @@
           "lead": "[allAfrica]"
         },
         {
+          "title": "Nigeria: Nigerian Tugboat Sinks Off South Africa's Coast",
+          "url": "https://allafrica.com/stories/202603030139.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T08:36:09",
+          "lead": "[Premium Times] The vessel, carrying 18 people, ran aground 18 nautical miles offshore between Cape Town and Durban."
+        },
+        {
           "title": "Africa: South Africa's Hex Battery Energy Storage System Is Delivering Energy Solutions That Africa Can Scale",
           "url": "https://allafrica.com/stories/202603020799.html",
           "source": "AllAfrica",
@@ -1775,6 +1834,13 @@
           "lead": "[Daily Maverick] The spectre of oil at $100 (R1,607) a barrel will haunt the South African Reserve Bank's efforts to con"
         },
         {
+          "title": "STORY SPARKERS: Inside the joyful crusade to save SA’s lost generation of readers",
+          "url": "https://www.dailymaverick.co.za/article/inside-the-joyful-crusade-to-save-sas-lost-generation-of-readers",
+          "source": "Daily Maverick",
+          "published": "2026-03-03T10:32:00",
+          "lead": "With shocking statistics revealing a deep-rooted reading emergency in South African schools, one organisation is abandon"
+        },
+        {
           "title": "CHECKED: Parents still seeking accountability from Chess SA over Zimbabwe tournament chaos",
           "url": "https://www.dailymaverick.co.za/article/parents-still-seeking-accountability-froy-from-chess-sa-over-zimbabwe-tournament",
           "source": "Daily Maverick",
@@ -1787,29 +1853,15 @@
           "source": "Daily Maverick",
           "published": "2026-03-02T22:53:09",
           "lead": "Last week, the City of Cape Town auctioned off 53 City-owned properties, including the famous Good Hope Centre. The man "
-        },
-        {
-          "title": "ORGANISED CRIME: Fugitive personal trainer Stamenov remains in custody following Cape Town arrest",
-          "url": "https://www.dailymaverick.co.za/article/fugitive-personal-trainer-stamenov-remains-in-custody-following-cape-town-arrest",
-          "source": "Daily Maverick",
-          "published": "2026-03-02T22:28:28",
-          "lead": "Former freelance Virgin Active gym personal trainer Stanislav Stamenov, who is wanted in Romania, where he faces a drug "
-        },
-        {
-          "title": "TV WARS ANALYSIS: Winter Olympics blackout was the Canal+ opening salvo in the TV wars",
-          "url": "https://www.dailymaverick.co.za/article/winter-olympics-blackout-was-the-canal-opening-salvo-in-the-tv-wars",
-          "source": "Daily Maverick",
-          "published": "2026-03-02T18:55:18",
-          "lead": "DStv subscribers in South Africa were left out of the global conversations about Knight of the Seven Kingdoms and the Wi"
         }
       ],
       "sources": [
-        "Africanews",
-        "Human Rights Watch",
-        "Le Monde Afrique",
-        "AllAfrica",
         "BBC Africa",
-        "Daily Maverick"
+        "AllAfrica",
+        "Human Rights Watch",
+        "Daily Maverick",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Eswatini": {
