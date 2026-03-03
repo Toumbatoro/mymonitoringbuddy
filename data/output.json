@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-03T04:41:44.886117",
+  "generated_at": "2026-03-03T06:39:16.140263",
   "summary": {
-    "high": 3,
+    "high": 2,
     "elevated": 6,
-    "normal": 22,
-    "quiet": 23
+    "normal": 25,
+    "quiet": 21
   },
   "countries": {
     "Morocco": {
@@ -45,8 +45,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
@@ -72,26 +72,16 @@
       ]
     },
     "Tunisia": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 0.88,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.2,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tunisia: Do Doctors Treat Poorer Patients Differently? Our Study in Tunisia Found They Do - in Subtle Ways",
-          "url": "https://allafrica.com/stories/202603030005.html",
-          "source": "AllAfrica",
-          "published": "2026-03-03T04:34:22",
-          "lead": "[The Conversation Africa] People with lower income and less education get sick more often, have worse access to care, an"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Libya": {
       "article_count": 0,
@@ -131,15 +121,15 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
-        "Africanews"
+        "Africanews",
+        "Al Jazeera"
       ]
     },
     "Sudan": {
       "article_count": 6,
       "source_count": 3,
-      "baseline": 6.8,
-      "ratio": 0.88,
+      "baseline": 6.7,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -202,8 +192,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
+        "RFI Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -222,7 +212,7 @@
     "Mali": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.8,
+      "baseline": 2.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -234,8 +224,8 @@
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.46,
+      "baseline": 2.1,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -389,8 +379,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Sierra Leone": {
@@ -416,10 +406,10 @@
       ]
     },
     "Liberia": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 2.61,
+      "ratio": 1.96,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -436,13 +426,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T10:46:21",
           "lead": "[Liberian Investigator] CAPITOL HILL -- Liberia's House of Representatives last Thursday abruptly halted a controversial"
-        },
-        {
-          "title": "Liberia: 'The Greatest Joy in My Life Is When We Obtain Justice for Survivors' - Liberia's One-Stop Centres Are Helping Women and Girls to Heal",
-          "url": "https://allafrica.com/stories/202603020096.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T05:33:09",
-          "lead": "[Spotlight Initiative] MONROVIA, Liberia - Between 2019 and 2023, Spotlight Initiative's Africa Regional Programme assis"
         },
         {
           "title": "Liberia: Ombudsman Raises Red Flag On Officials Serving in Government, Party Positions Simultaneously",
@@ -466,8 +449,8 @@
     "Côte d'Ivoire": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 2.05,
+      "baseline": 1.4,
+      "ratio": 2.09,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -507,8 +490,8 @@
     "Ghana": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 3.0,
-      "ratio": 0.67,
+      "baseline": 2.9,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -536,7 +519,7 @@
     "Togo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -549,8 +532,8 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 2.5,
-      "status": "high",
+      "ratio": 2.43,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
@@ -604,11 +587,15 @@
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Boko haram",
           "count": 1
         },
         {
           "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Tué",
           "count": 1
         },
         {
@@ -635,6 +622,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-02T13:18:47",
           "lead": "Bénin et Nigeria s'apprêtent à formaliser une coopération sécuritaire bilatérale pour combattre les groupes terroristes "
+        },
+        {
+          "title": "Au Cameroun, les Mbororos, otages en sursis entre Boko Haram et l’armée",
+          "url": "https://www.jeuneafrique.com/1765419/politique/au-cameroun-les-mbororos-otages-en-sursis-entre-boko-haram-et-larmee/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-03T07:00:00",
+          "lead": "Dans les régions du Nord, ces Peuls camerounais sont au cœur d’un marché criminel facilité par la porosité des frontière"
         },
         {
           "title": "Mort de l’ayatollah Khamenei : au Nigeria, des milliers de chiites pro-iraniens manifestent dans le Nord",
@@ -665,13 +659,6 @@
           "lead": "[Premium Times] In recent times, Nigeria's national grid has collapsed with a frequency that has become almost routine. "
         },
         {
-          "title": "West Africa: Nigeria Extends Shea Export Ban to Boost Local Processing",
-          "url": "https://allafrica.com/stories/202603020810.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T18:57:17",
-          "lead": "[Daba Finance] Nigeria has extended its ban on the export of raw shea nuts for another year, reinforcing its push to exp"
-        },
-        {
           "title": "PROSPERITY PROPERTY PITCH: Meet the Nigerian mega pastor shouting hallelujah after bidding to buy iconic Cape Town building",
           "url": "https://www.dailymaverick.co.za/article/meet-the-nigerian-mega-pastor-shouting-hg-hallelujah-after-bidding-to-buy-iconic",
           "source": "Daily Maverick",
@@ -680,9 +667,9 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
         "AllAfrica",
-        "Jeune Afrique",
         "BBC Africa",
         "Daily Maverick"
       ]
@@ -712,24 +699,35 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.35,
+      "ratio": 0.71,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Boko haram",
           "count": 1
         },
         {
           "word": "Guerre",
           "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Au Cameroun, les Mbororos, otages en sursis entre Boko Haram et l’armée",
+          "url": "https://www.jeuneafrique.com/1765419/politique/au-cameroun-les-mbororos-otages-en-sursis-entre-boko-haram-et-larmee/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-03T07:00:00",
+          "lead": "Dans les régions du Nord, ces Peuls camerounais sont au cœur d’un marché criminel facilité par la porosité des frontière"
+        },
         {
           "title": "Au Cameroun, les Mbororos pris au piège de la crise anglophone",
           "url": "https://www.jeuneafrique.com/1765362/politique/au-cameroun-les-mbororos-pris-au-piege-de-la-crise-anglophone/",
@@ -745,7 +743,7 @@
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -755,15 +753,19 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 7,
+      "article_count": 8,
       "source_count": 5,
-      "baseline": 2.2,
-      "ratio": 3.23,
+      "baseline": 2.1,
+      "ratio": 3.75,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Violence",
           "count": 2
         },
         {
@@ -783,15 +785,11 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Airstrike",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -840,6 +838,13 @@
           "lead": "On Friday, UN High Commissioner for Human Rights Volker Turk warned of the country’s deteriorating situation and called "
         },
         {
+          "title": "South Sudan: MSF Concerned for Unaccounted Staff in Lankien and Pieri",
+          "url": "https://allafrica.com/stories/202603030047.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:15:57",
+          "lead": "[MSF] M&#xe9;decins Sans Fronti&#xe8;res (MSF) is deeply concerned for the safety and wellbeing of our staff in Lankien "
+        },
+        {
           "title": "South Sudan: Dozens of MSF Staff Missing After Escalation of Violence",
           "url": "https://allafrica.com/stories/202603020628.html",
           "source": "AllAfrica",
@@ -848,11 +853,11 @@
         }
       ],
       "sources": [
+        "Africanews",
+        "Le Monde Afrique",
         "RFI Afrique",
         "AllAfrica",
-        "Le Monde Afrique",
-        "BBC Africa",
-        "Africanews"
+        "BBC Africa"
       ]
     },
     "Eq. Guinea": {
@@ -931,16 +936,16 @@
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Daily Maverick",
-        "Africanews"
+        "Daily Maverick"
       ]
     },
     "DRC": {
       "article_count": 9,
       "source_count": 5,
       "baseline": 8.0,
-      "ratio": 1.12,
+      "ratio": 1.13,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -961,15 +966,15 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Armed group",
           "count": 1
         },
         {
           "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         },
         {
@@ -1049,11 +1054,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "Jeune Afrique",
         "Le Monde Afrique",
-        "Daily Maverick",
-        "Africanews"
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "São Tomé": {
@@ -1081,11 +1086,11 @@
       "sources": []
     },
     "Eritrea": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 2.31,
-      "status": "elevated",
+      "ratio": 1.15,
+      "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
@@ -1096,13 +1101,6 @@
           "source": "Africanews",
           "published": "2026-03-02T19:17:35",
           "lead": "With full military pomp, Ethiopia has marked the 130th anniversary of the historic Battle of Adwa, celebrating its 1896 "
-        },
-        {
-          "title": "Finale of Tour du Rwanda 2026: German rider Kretschy wins",
-          "url": "http://www.africanews.com/2026/03/02/finale-of-tour-du-rwanda-2026-german-rider-kretschy-wins/",
-          "source": "Africanews",
-          "published": "2026-03-02T06:24:57",
-          "lead": "The Tour du Rwanda 2026, one of Africa's most prestigious cycling competitions, has come to an end. The winner is German"
         }
       ],
       "sources": [
@@ -1122,19 +1120,23 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
+      "article_count": 5,
       "source_count": 2,
-      "baseline": 4.3,
-      "ratio": 0.7,
+      "baseline": 4.1,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Wounded",
+          "word": "Minister",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Wounded",
           "count": 1
         },
         {
@@ -1152,6 +1154,20 @@
           "lead": "With full military pomp, Ethiopia has marked the 130th anniversary of the historic Battle of Adwa, celebrating its 1896 "
         },
         {
+          "title": "Ethiopia: Ethiopia Marks 130 Years Since Adwa Victory",
+          "url": "https://allafrica.com/stories/202603030059.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:16:04",
+          "lead": "[Horn Diplomat] Addis Ababa -- Ethiopia Prime Minister Abiy Ahmed Ali on Monday led tributes marking the 130th anniversa"
+        },
+        {
+          "title": "East Africa: Triple Planetary Crisis Threatens Eastern Africa's Food Security, Ministry Warns",
+          "url": "https://allafrica.com/stories/202603030044.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:14:06",
+          "lead": "[ENA] Addis Ababa -- The Ministry of Planning and Development has announced that the triple planetary crisis, comprising"
+        },
+        {
           "title": "Ethiopia: Ethiopian Among 58 Injured in Iran Attacks On UAE",
           "url": "https://allafrica.com/stories/202603020358.html",
           "source": "AllAfrica",
@@ -1167,8 +1183,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Somalia": {
@@ -1233,18 +1249,13 @@
       ]
     },
     "Kenya": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 5.9,
-      "ratio": 0.51,
+      "ratio": 0.34,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Killed",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1260,13 +1271,6 @@
           "source": "AllAfrica",
           "published": "2026-03-02T09:14:20",
           "lead": "[Capital FM] Nairobi -- There was a traffic snarl-up after a fuel tanker collided with a trailer and burst into flames o"
-        },
-        {
-          "title": "Kenya: Preliminary Report On MP Ngeno Chopper Crash Due in 30 Days",
-          "url": "https://allafrica.com/stories/202603020109.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T06:54:53",
-          "lead": "[Capital FM] Nairobi -- The preliminary report into the helicopter crash that killed Emurrua Dikir Member of Parliament "
         }
       ],
       "sources": [
@@ -1274,12 +1278,12 @@
       ]
     },
     "Rwanda": {
-      "article_count": 7,
+      "article_count": 6,
       "source_count": 5,
       "baseline": 2.7,
-      "ratio": 2.56,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.22,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
@@ -1290,11 +1294,11 @@
           "count": 2
         },
         {
-          "word": "Rebelle",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
-          "word": "Government",
+          "word": "Rebelle",
           "count": 1
         },
         {
@@ -1303,10 +1307,6 @@
         },
         {
           "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         },
         {
@@ -1345,18 +1345,11 @@
           "lead": "Provincial authorities in Tshopo said the attack took place on Sunday and blamed the anti-government M23 armed group, wh"
         },
         {
-          "title": "Finale of Tour du Rwanda 2026: German rider Kretschy wins",
-          "url": "http://www.africanews.com/2026/03/02/finale-of-tour-du-rwanda-2026-german-rider-kretschy-wins/",
-          "source": "Africanews",
-          "published": "2026-03-02T06:24:57",
-          "lead": "The Tour du Rwanda 2026, one of Africa's most prestigious cycling competitions, has come to an end. The winner is German"
-        },
-        {
-          "title": "Rwanda: Illicit Alcohol Kills 20, Leaves 300 Blind in Eastern Province",
-          "url": "https://allafrica.com/stories/202603020111.html",
+          "title": "Rwanda: Govt Backs RDF Defensive Posture Amidst 'One-Sided' Sanctions By U.S.",
+          "url": "https://allafrica.com/stories/202603030072.html",
           "source": "AllAfrica",
-          "published": "2026-03-02T06:56:53",
-          "lead": "[New Times] The Rwanda National Police has raised alarm over the deadly impact of illicit alcohol in Eastern Province, r"
+          "published": "2026-03-03T05:21:51",
+          "lead": "[New Times] The Rwandan government has rejected sanctions imposed by the United States on the Rwanda Defence Force (RDF)"
         },
         {
           "title": "US imposes sanctions on Rwanda Defence Force",
@@ -1367,11 +1360,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
+        "Africanews",
         "Jeune Afrique",
-        "Daily Maverick",
-        "Africanews"
+        "AllAfrica",
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "Burundi": {
@@ -1383,11 +1376,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "M23",
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Réfugiés",
           "count": 1
         },
         {
@@ -1418,16 +1411,26 @@
       ]
     },
     "Tanzania": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.94,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tanzania: How Child Labour Persists Along Zanzibar's Blue Economy",
+          "url": "https://allafrica.com/stories/202603030007.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T04:36:09",
+          "lead": "[IPS] Kiwengwa, Tanzania -- As the tide falls on Zanzibar's western coast, 13-year-old Asha* moves across the reef, her "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Madagascar": {
       "article_count": 2,
@@ -1540,25 +1543,48 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.2,
+      "ratio": 0.81,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mozambique: Chapo Announces Action Against Corruption",
+          "url": "https://allafrica.com/stories/202603030027.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:11:31",
+          "lead": "[AIM] Maputo -- Mozambican President Daniel Chapo announced in Maputo on Monday that the ruling Frelimo Party will step "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 3,
       "baseline": 2.8,
-      "ratio": 2.17,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.53,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
         {
           "word": "Government",
           "count": 1
@@ -1567,6 +1593,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Zimbabwe releases over 4,000 prisoners under presidential amnesty",
+          "url": "http://www.africanews.com/2026/03/03/zimbabwe-releases-over-4000-prisoners-under-presidential-amnesty/",
+          "source": "Africanews",
+          "published": "2026-03-03T06:19:17",
+          "lead": "The justice minister says the amnesty focuses on vulnerable groups and those who have demonstrated significant progress "
+        },
+        {
           "title": "Zimbabwe frees nearly 4,000 inmates under presidential amnesty",
           "url": "http://www.africanews.com/2026/03/02/zimbabwe-frees-nearly-4000-inmates-under-presidential-amnesty/",
           "source": "Africanews",
@@ -1574,18 +1607,18 @@
           "lead": "A total of 4,305 -- including 223 women -- will eventually be released, Ziyambi said, with the scheme \"focusing on vulne"
         },
         {
+          "title": "Zimbabwe: Thousands Walk Free As Govt Grants Amnesty to Rehabilitated Prisoners",
+          "url": "https://allafrica.com/stories/202603030029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:11:31",
+          "lead": "[263Chat] Thousands of prisoners across Zimbabwe have begun regaining their freedom after President Emmerson Dambudzo Mn"
+        },
+        {
           "title": "Africa: Africa CDC Backs Zimbabwe, Zambia Over U.S. Health Deal Dispute",
           "url": "https://allafrica.com/stories/202603020125.html",
           "source": "AllAfrica",
           "published": "2026-03-02T07:01:11",
           "lead": "[New Zimbabwe] Africa Centres for Disease Control and Prevention has expressed support for Zimbabwe and Zambia's stand i"
-        },
-        {
-          "title": "Zimbabwe: Zimbabweans Now Keeping ZiG for Longer Periods Due to Its Stability - Survey",
-          "url": "https://allafrica.com/stories/202603020127.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T07:04:50",
-          "lead": "[New Zimbabwe] ZIMBABWEANS are now keeping the ZWG currency, also known as Zimbabwe Gold (ZiG), for much longer periods "
         },
         {
           "title": "CHECKED: Parents still seeking accountability from Chess SA over Zimbabwe tournament chaos",
@@ -1610,22 +1643,37 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
-        "Daily Maverick",
-        "Africanews"
+        "Daily Maverick"
       ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.3,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Namibia: Nearly 400 Foreigners Exit Namibia Under Immigration Amnesty",
+          "url": "https://allafrica.com/stories/202603030054.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:16:01",
+          "lead": "[Namibian] At least 379 foreign nationals have voluntarily left Namibia under the government's immigration amnesty progr"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Botswana": {
       "article_count": 0,
@@ -1640,10 +1688,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 17,
+      "article_count": 16,
       "source_count": 6,
       "baseline": 13.1,
-      "ratio": 1.3,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1692,6 +1740,20 @@
           "lead": "Congregants at the Ahlul Bait Foundation of South Africa - an association of Shia Muslim communities - gathered in Cape "
         },
         {
+          "title": "South Africa: City Probes Fatal Ormonde Building Collapse - South African News Briefs - March 3, 2026",
+          "url": "https://allafrica.com/stories/202603030101.html",
+          "source": "AllAfrica",
+          "published": "2026-03-03T05:43:11",
+          "lead": "[allAfrica]"
+        },
+        {
+          "title": "Africa: South Africa's Hex Battery Energy Storage System Is Delivering Energy Solutions That Africa Can Scale",
+          "url": "https://allafrica.com/stories/202603020799.html",
+          "source": "AllAfrica",
+          "published": "2026-03-02T18:46:03",
+          "lead": "[African Development Bank (AfDB)] The alarm goes off at 4:47 a.m in Pieter Loubser's farmhouse in Worcester, South Afric"
+        },
+        {
           "title": "Nigeria: 12 Rescued, One Dies, As Nigerian Tugboat Capsizes Off South Africa Coast",
           "url": "https://allafrica.com/stories/202603020717.html",
           "source": "AllAfrica",
@@ -1713,27 +1775,6 @@
           "lead": "[Daily Maverick] The spectre of oil at $100 (R1,607) a barrel will haunt the South African Reserve Bank's efforts to con"
         },
         {
-          "title": "South Africa: Revealed - Brian Molefe's Alleged State Capture Era 'Slush Fund'",
-          "url": "https://allafrica.com/stories/202603020135.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T07:15:41",
-          "lead": "[Daily Maverick] Newly obtained bank records and related documents link Brian Molefe, the uMkhonto Wesizwe party's newly"
-        },
-        {
-          "title": "Africa: South Africa's Hex Battery Energy Storage System Is Delivering Energy Solutions That Africa Can Scale",
-          "url": "https://allafrica.com/stories/202603020799.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T18:46:03",
-          "lead": "[African Development Bank (AfDB)] The alarm goes off at 4:47 a.m in Pieter Loubser's farmhouse in Worcester, South Afric"
-        },
-        {
-          "title": "South Africa: Gauteng to Take Full Ownership of Gautrain - South African News Briefs - March 2, 2026",
-          "url": "https://allafrica.com/stories/202603020105.html",
-          "source": "AllAfrica",
-          "published": "2026-03-02T05:48:42",
-          "lead": "[allAfrica]"
-        },
-        {
           "title": "CHECKED: Parents still seeking accountability from Chess SA over Zimbabwe tournament chaos",
           "url": "https://www.dailymaverick.co.za/article/parents-still-seeking-accountability-froy-from-chess-sa-over-zimbabwe-tournament",
           "source": "Daily Maverick",
@@ -1753,15 +1794,22 @@
           "source": "Daily Maverick",
           "published": "2026-03-02T22:28:28",
           "lead": "Former freelance Virgin Active gym personal trainer Stanislav Stamenov, who is wanted in Romania, where he faces a drug "
+        },
+        {
+          "title": "TV WARS ANALYSIS: Winter Olympics blackout was the Canal+ opening salvo in the TV wars",
+          "url": "https://www.dailymaverick.co.za/article/winter-olympics-blackout-was-the-canal-opening-salvo-in-the-tv-wars",
+          "source": "Daily Maverick",
+          "published": "2026-03-02T18:55:18",
+          "lead": "DStv subscribers in South Africa were left out of the global conversations about Knight of the Seven Kingdoms and the Wi"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Le Monde Afrique",
-        "BBC Africa",
-        "Daily Maverick",
         "Africanews",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "Le Monde Afrique",
+        "AllAfrica",
+        "BBC Africa",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
