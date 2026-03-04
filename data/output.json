@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-04T12:36:17.719703",
+  "generated_at": "2026-03-04T15:31:40.075406",
   "summary": {
-    "high": 2,
-    "elevated": 8,
-    "normal": 24,
-    "quiet": 20
+    "high": 1,
+    "elevated": 6,
+    "normal": 29,
+    "quiet": 18
   },
   "countries": {
     "Morocco": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.8,
-      "ratio": 0.53,
+      "baseline": 3.7,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -40,7 +40,7 @@
     "Algeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -50,16 +50,31 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.83,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tunisie: un riche homme d’affaires et un ex-Premier ministre condamnés dans une affaire de corruption",
+          "url": "https://www.rfi.fr/fr/afrique/20260304-tunisie-un-riche-homme-d-affaires-et-un-ex-premier-ministre-condamn%C3%A9s-dans-une-affaire-de-corruption",
+          "source": "RFI Afrique",
+          "published": "2026-03-04T12:31:16",
+          "lead": "Le riche homme d’affaires Marouane Mabrouk, l’ancien Premier ministre Youssef Chahed et cinq ex-membres du gouvernement "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Libya": {
       "article_count": 1,
@@ -98,22 +113,14 @@
     "Sudan": {
       "article_count": 6,
       "source_count": 5,
-      "baseline": 7.1,
-      "ratio": 0.85,
+      "baseline": 6.9,
+      "ratio": 0.87,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
-          "count": 4
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
+          "count": 5
         },
         {
           "word": "President",
@@ -124,7 +131,11 @@
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         }
       ],
@@ -143,13 +154,6 @@
           "source": "The Guardian Africa",
           "published": "2026-03-03T15:49:36",
           "lead": "At least 169 killed in raid near Sudan border as clashes between government and opposition forces intensifySouth Sudan i"
-        },
-        {
-          "title": "Guerre au Soudan: des attaques de drones sont menées depuis l'Éthiopie, accuse Khartoum",
-          "url": "https://www.rfi.fr/fr/afrique/20260303-guerre-au-soudan-des-attaques-de-drones-sont-men%C3%A9es-depuis-l-%C3%A9thiopie-accuse-khartoum",
-          "source": "RFI Afrique",
-          "published": "2026-03-03T14:02:55",
-          "lead": "Des attaques de drones « en provenance du territoire éthiopien » ont visé des cibles à l'intérieur du Soudan en février "
         },
         {
           "title": "Soudan du Sud: des dizaines de civils tués dans des violences dans le nord, selon l'ONU",
@@ -171,20 +175,27 @@
           "source": "Africanews",
           "published": "2026-03-03T15:55:35",
           "lead": "In a statement on Monday, Sudan’s foreign ministry warned Ethiopian authorities of what it called the consequences of th"
+        },
+        {
+          "title": "Africa: UK to Stop Issuing Study Visas for Cameroon and Sudan",
+          "url": "https://allafrica.com/stories/202603040503.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T12:38:30",
+          "lead": "[Vanguard] The British government announced Tuesday that it would stop issuing education visas to nationals from Afghani"
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "France24 Afrique",
-        "RFI Afrique",
         "BBC Africa",
-        "Africanews"
+        "The Guardian Africa",
+        "AllAfrica",
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Mauritania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -240,8 +251,8 @@
     "Niger": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.0,
-      "ratio": 0.67,
+      "baseline": 2.9,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -268,36 +279,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 5.0,
-      "ratio": 1.2,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 4.9,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "President",
-          "count": 2
-        },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -318,58 +317,26 @@
           "lead": "Un rapport de l'Initiative mondiale contre le crime organisé (GI-TOC) publié ce 3 mars 2026 établit la « Cartographie de"
         },
         {
-          "title": "Le premier ministre du Sénégal Ousmane Sonko dénonce les frappes israélo-américaines sur l’Iran",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260303-le-premier-ministre-du-s%C3%A9n%C3%A9gal-ousmane-sonko-d%C3%A9nonce-les-frappes-isra%C3%A9lo-am%C3%A9ricaines-sur-l-iran",
-          "source": "France24 Afrique",
-          "published": "2026-03-03T14:37:45",
-          "lead": "Le premier ministre du Sénégal Ousmane Sonko dénonce les frappes israélo-américaines sur l’Iran, il estime qu’il s’agit "
-        },
-        {
           "title": "French court rules partially in favor of extraditing Senegalese media mogul Madiambal Diagne",
           "url": "http://www.africanews.com/2026/03/03/french-court-rules-partially-in-favor-of-extraditing-senegalese-media-mogul-madiambal-diag/",
           "source": "Africanews",
           "published": "2026-03-03T16:53:20",
           "lead": "A French Court of Appeal has issued a “partially favorable” ruling on the extradition of Madiambal Diagne, a prominent S"
-        },
-        {
-          "title": "Senegal PM Sonko threatens exit from government amid rift with President Faye",
-          "url": "http://www.africanews.com/2026/03/03/senegal-pm-sonko-threatens-exit-from-government-amid-rift-with-president-faye/",
-          "source": "Africanews",
-          "published": "2026-03-03T14:22:12",
-          "lead": "Prime Minister Ousmane Sonko says he’s prepared to pull his Pastef party out of government and return to the opposition "
-        },
-        {
-          "title": "Burundi: Burundi Nominates Former Senegalese President Sall for UN Chief",
-          "url": "https://allafrica.com/stories/202603040002.html",
-          "source": "AllAfrica",
-          "published": "2026-03-04T04:39:01",
-          "lead": "[RFI] A new secretary-general of the United Nations will be appointed on 1 January, 2027 to succeed Antonio Guterres, wi"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
-        "France24 Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -378,18 +345,10 @@
           "source": "RFI Afrique",
           "published": "2026-03-04T08:37:51",
           "lead": "Un rapport de l'Initiative mondiale contre le crime organisé (GI-TOC) publié ce 3 mars 2026 établit la « Cartographie de"
-        },
-        {
-          "title": "Gambia: Minister's Withdrawal of Controversial Security Vetting Bill Sparks Parliamentary Uproar",
-          "url": "https://allafrica.com/stories/202603040060.html",
-          "source": "AllAfrica",
-          "published": "2026-03-04T05:30:40",
-          "lead": "[The Point] In a move that has raised eyebrows, the Minister for Justice, Dawda A. Jallow, on Monday withdrew the highly"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Guinea-Bissau": {
@@ -405,26 +364,33 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.18,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Zaven Najjar adapte en animation le roman «Allah n'est pas obligé» d'Ahmadou Kourouma",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20260303-zaven-najjar-adapte-en-animation-le-roman-allah-n-est-pas-oblig%C3%A9-d-ahmadou-kourouma",
+          "title": "Guinée: des proches de l'ex-ministre Tibou Kamara enlevés dans le centre du pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260304-guin%C3%A9e-des-proches-de-l-ex-ministre-tibou-kamara-enlev%C3%A9s-dans-le-centre-du-pays",
           "source": "RFI Afrique",
-          "published": "2026-03-03T23:02:04",
-          "lead": "Un petit orphelin né à la frontière entre la Guinée et la Côte d'Ivoire, obligé de traverser le Liberia et la Sierra Leo"
+          "published": "2026-03-04T12:37:47",
+          "lead": "En Guinée, deux proches de Tibou Kamara, qui était conseiller de l’ex-président Alpha Condé, ont été arrêtés. Les faits,"
+        },
+        {
+          "title": "En Guinée, ce que l’on sait de l’enlèvement de la mère et de la sœur de l’ancien ministre Tibou Kamara",
+          "url": "https://www.jeuneafrique.com/1771015/politique/en-guinee-ce-que-lon-sait-de-lenlevement-de-la-mere-et-de-la-soeur-de-lancien-ministre-tibou-kamara/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-04T16:06:56",
+          "lead": "Selon leur entourage, des proches de l’ex-homme de confiance d’Alpha Condé ont été emmenés mardi soir par des individus "
         },
         {
           "title": "Rumeurs sur l’état de santé de Mamadi Doumbouya : de Singapour à la France, le discret séjour « de repos » du président guinéen",
@@ -435,16 +401,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Sierra Leone": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
-      "ratio": 3.75,
-      "status": "elevated",
+      "ratio": 1.88,
+      "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
@@ -455,13 +421,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-04T08:37:51",
           "lead": "Un rapport de l'Initiative mondiale contre le crime organisé (GI-TOC) publié ce 3 mars 2026 établit la « Cartographie de"
-        },
-        {
-          "title": "Zaven Najjar adapte en animation le roman «Allah n'est pas obligé» d'Ahmadou Kourouma",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20260303-zaven-najjar-adapte-en-animation-le-roman-allah-n-est-pas-oblig%C3%A9-d-ahmadou-kourouma",
-          "source": "RFI Afrique",
-          "published": "2026-03-03T23:02:04",
-          "lead": "Un petit orphelin né à la frontière entre la Guinée et la Côte d'Ivoire, obligé de traverser le Liberia et la Sierra Leo"
         }
       ],
       "sources": [
@@ -469,12 +428,12 @@
       ]
     },
     "Liberia": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 2.05,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.33,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Crisis",
@@ -487,13 +446,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Zaven Najjar adapte en animation le roman «Allah n'est pas obligé» d'Ahmadou Kourouma",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20260303-zaven-najjar-adapte-en-animation-le-roman-allah-n-est-pas-oblig%C3%A9-d-ahmadou-kourouma",
-          "source": "RFI Afrique",
-          "published": "2026-03-03T23:02:04",
-          "lead": "Un petit orphelin né à la frontière entre la Guinée et la Côte d'Ivoire, obligé de traverser le Liberia et la Sierra Leo"
-        },
         {
           "title": "Liberia: Land Commissioner Warns Lawmakers of Escalating National Crisis Over Boundary, Ownership Disputes",
           "url": "https://allafrica.com/stories/202603040357.html",
@@ -510,17 +462,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "AllAfrica"
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.3,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.75,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Président",
@@ -530,13 +481,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Zaven Najjar adapte en animation le roman «Allah n'est pas obligé» d'Ahmadou Kourouma",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-culture/20260303-zaven-najjar-adapte-en-animation-le-roman-allah-n-est-pas-oblig%C3%A9-d-ahmadou-kourouma",
-          "source": "RFI Afrique",
-          "published": "2026-03-03T23:02:04",
-          "lead": "Un petit orphelin né à la frontière entre la Guinée et la Côte d'Ivoire, obligé de traverser le Liberia et la Sierra Leo"
-        },
-        {
           "title": "De l’hôtel du Golf au RHDP, comment Anne Ouloto est devenue un pilier du système Ouattara",
           "url": "https://www.jeuneafrique.com/1770513/politique/de-lhotel-du-golf-au-rhdp-comment-anne-ouloto-est-devenue-un-pilier-du-systeme-ouattara/",
           "source": "Jeune Afrique",
@@ -545,7 +489,6 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -580,8 +523,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Togo": {
@@ -597,13 +540,17 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 0.79,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.2,
+      "ratio": 1.62,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Coup",
           "count": 1
@@ -616,6 +563,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Bénin: l'ex-président Thomas Boni Yayi quitte la tête du parti d'opposition Les Démocrates",
+          "url": "https://www.rfi.fr/fr/afrique/20260304-b%C3%A9nin-l-ex-pr%C3%A9sident-thomas-boni-yayi-quitte-la-t%C3%AAte-du-parti-d-opposition-les-d%C3%A9mocrates",
+          "source": "RFI Afrique",
+          "published": "2026-03-04T11:19:45",
+          "lead": "Au Bénin, l’ancien chef d’État et opposant, Thomas Boni Yayi, se retire de ses fonctions à la tête des Démocrates et ces"
+        },
+        {
           "title": "Tentative de coup d’État au Bénin : 20 millions de francs CFA pour la capture de Pascal Tigri",
           "url": "https://www.jeuneafrique.com/1770809/politique/tentative-de-coup-detat-au-benin-20-millions-de-francs-cfa-pour-la-capture-de-pascal-tigri/",
           "source": "Jeune Afrique",
@@ -624,30 +578,31 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 9.6,
-      "ratio": 0.42,
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 9.5,
+      "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Rebel",
+          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Anglican divisions deepen as rebel clerics pick rival to first female leader",
-          "url": "https://www.bbc.com/news/articles/cgrz1rx0ejzo?at_medium=RSS&at_campaign=rss",
+          "title": "Nigerian doctors suspended over death of Adichie's son",
+          "url": "https://www.bbc.com/news/articles/cp8rrk5ngngo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-03-03T15:28:49",
-          "lead": "Conservative clerics are meeting in Nigeria to choose a rival to the first female Archbishop of Canterbury."
+          "published": "2026-03-04T14:17:14",
+          "lead": "The author's 21-month-old son died in January after complications during medical procedures at a private hospital in Lag"
         },
         {
           "title": "En Afrique de l’Ouest, un essor de plus en plus rapide et complexe des drogues de synthèse",
@@ -657,24 +612,32 @@
           "lead": "Un rapport de l'Initiative mondiale contre le crime organisé (GI-TOC) publié ce 3 mars 2026 établit la « Cartographie de"
         },
         {
+          "title": "Nigerian health agency urges stronger state action on lassa fever outbreak",
+          "url": "http://www.africanews.com/2026/03/04/nigerian-health-agency-urges-stronger-state-action-on-lassa-fever-outbreak/",
+          "source": "Africanews",
+          "published": "2026-03-04T14:38:58",
+          "lead": "Nigeria's Centre for Disease Control is calling for stronger state-level action amid a worsening outbreak of Lassa fever"
+        },
+        {
+          "title": "Nigeria: Airport Cashless Policy - Keyamo Urges Nigerians to Exercise Patience",
+          "url": "https://allafrica.com/stories/202603040542.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T13:59:09",
+          "lead": "[Premium Times] According to the aviation minister, the first week of Nigeria's airport cashless policy will be reviewed"
+        },
+        {
           "title": "Nigeria: Three Doctors Suspended After Alleged Negligence Involving Adichie's Son",
           "url": "https://allafrica.com/stories/202603040146.html",
           "source": "AllAfrica",
           "published": "2026-03-04T07:20:46",
           "lead": "[Daily Trust] The Medical and Dental Practitioners Investigation Panel has suspended three doctors following a prima fac"
-        },
-        {
-          "title": "Nigeria: Nigeria Records 82 Lassa Fever Cases, 20 Deaths in One Week",
-          "url": "https://allafrica.com/stories/202603040092.html",
-          "source": "AllAfrica",
-          "published": "2026-03-04T06:47:32",
-          "lead": "[Leadership] The Nigeria Centre for Disease Control and Prevention (NCDC) has said that the country has recorded an incr"
         }
       ],
       "sources": [
+        "Africanews",
+        "AllAfrica",
         "RFI Afrique",
-        "BBC Africa",
-        "AllAfrica"
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -702,16 +665,16 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 5,
-      "baseline": 3.3,
-      "ratio": 1.84,
+      "baseline": 3.2,
+      "ratio": 2.19,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Government",
-          "count": 2
+          "count": 3
         },
         {
           "word": "War",
@@ -760,6 +723,13 @@
           "lead": "The British government announced Tuesday that it would stop issuing education visas to nationals from Afghanistan, Camer"
         },
         {
+          "title": "Africa: UK to Stop Issuing Study Visas for Cameroon and Sudan",
+          "url": "https://allafrica.com/stories/202603040503.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T12:38:30",
+          "lead": "[Vanguard] The British government announced Tuesday that it would stop issuing education visas to nationals from Afghani"
+        },
+        {
           "title": "Cameroon: Belgian Police Detain Three Linked to Cameroonian Separatist Group",
           "url": "https://allafrica.com/stories/202603040109.html",
           "source": "AllAfrica",
@@ -768,17 +738,17 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
+        "Jeune Afrique",
         "BBC Africa",
+        "AllAfrica",
         "Africanews",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -788,23 +758,23 @@
       "sources": []
     },
     "South Sudan": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 1.32,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.2,
+      "ratio": 0.91,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 2
+          "word": "President",
+          "count": 1
         },
         {
           "word": "Violence",
-          "count": 2
+          "count": 1
         },
         {
-          "word": "Government",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -812,7 +782,7 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -831,18 +801,10 @@
           "source": "France24 Afrique",
           "published": "2026-03-04T10:37:54",
           "lead": "Au moins 176 personnes ont été tuées par des attaquants armés dimanche dans le nord du Soudan du Sud, où les violences o"
-        },
-        {
-          "title": "South Sudan: UN Warns of Resurgence of Violence in South Sudan Following Massacre",
-          "url": "https://allafrica.com/stories/202603040001.html",
-          "source": "AllAfrica",
-          "published": "2026-03-04T04:38:52",
-          "lead": "[RFI] The United Nations has expressed deep concern following another massacre in South Sudan, in which at least 169 peo"
         }
       ],
       "sources": [
         "France24 Afrique",
-        "AllAfrica",
         "The Guardian Africa"
       ]
     },
@@ -861,8 +823,8 @@
     "Gabon": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.2,
-      "ratio": 1.67,
+      "baseline": 1.3,
+      "ratio": 1.58,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -884,15 +846,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Congo": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.15,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -901,23 +863,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Armed group",
           "count": 1
         },
         {
-          "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
+          "word": "President",
           "count": 1
         },
         {
@@ -925,7 +875,19 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "M23",
           "count": 1
         }
       ],
@@ -943,7 +905,7 @@
           "url": "https://www.hrw.org/news/2026/03/03/us-sanctions-rwandan-army-commanders",
           "source": "Human Rights Watch",
           "published": "2026-03-04T03:00:00",
-          "lead": "(Washington, DC) – The United States government on March 2, 2026, announced sanctions on Rwanda’s military and four seni"
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Member"
         }
       ],
       "sources": [
@@ -954,8 +916,8 @@
     "DRC": {
       "article_count": 11,
       "source_count": 5,
-      "baseline": 7.9,
-      "ratio": 1.39,
+      "baseline": 8.0,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -968,11 +930,11 @@
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Réfugiés",
           "count": 1
         },
         {
@@ -980,15 +942,15 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Armed group",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1069,15 +1031,15 @@
           "url": "https://www.hrw.org/news/2026/03/03/us-sanctions-rwandan-army-commanders",
           "source": "Human Rights Watch",
           "published": "2026-03-04T03:00:00",
-          "lead": "(Washington, DC) – The United States government on March 2, 2026, announced sanctions on Rwanda’s military and four seni"
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Member"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Le Monde Afrique",
-        "RFI Afrique",
+        "Jeune Afrique",
         "Human Rights Watch",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique",
+        "France24 Afrique"
       ]
     },
     "São Tomé": {
@@ -1122,8 +1084,8 @@
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.2,
+      "baseline": 0.9,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1159,17 +1121,13 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 4.1,
-      "ratio": 1.46,
+      "article_count": 5,
+      "source_count": 3,
+      "baseline": 4.2,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
         {
           "word": "War",
           "count": 1
@@ -1191,13 +1149,6 @@
           "source": "BBC Africa",
           "published": "2026-03-04T00:40:48",
           "lead": "A project to introduce unmanned sites is part of a broader adoption of digital technologies."
-        },
-        {
-          "title": "Guerre au Soudan: des attaques de drones sont menées depuis l'Éthiopie, accuse Khartoum",
-          "url": "https://www.rfi.fr/fr/afrique/20260303-guerre-au-soudan-des-attaques-de-drones-sont-men%C3%A9es-depuis-l-%C3%A9thiopie-accuse-khartoum",
-          "source": "RFI Afrique",
-          "published": "2026-03-03T14:02:55",
-          "lead": "Des attaques de drones « en provenance du territoire éthiopien » ont visé des cibles à l'intérieur du Soudan en février "
         },
         {
           "title": "Abiy Ahmed insists Ethiopia will not go to war over sea access",
@@ -1229,38 +1180,25 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
         "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "BBC Africa"
       ]
     },
     "Somalia": {
       "article_count": 4,
-      "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 1.76,
+      "source_count": 2,
+      "baseline": 2.2,
+      "ratio": 1.79,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Famine",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Sécheresse",
+          "word": "Drought",
           "count": 1
         },
         {
           "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Drought",
           "count": 1
         },
         {
@@ -1274,13 +1212,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Somalie : la sécheresse, qui perdure, expose des millions d’habitants à un risque de famine, alerte la Croix-Rouge",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/03/somalie-la-secheresse-qui-perdure-expose-des-millions-d-habitants-a-un-risque-de-famine-alerte-la-croix-rouge_6669362_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-03T12:55:01",
-          "lead": "La population classée comme étant dans une situation « de crise ou pire » a « presque doublé » en un an, après deux sais"
-        },
         {
           "title": "Somalia's drought leaves 6.5 million on brink of hunger crisis, says ICRC",
           "url": "http://www.africanews.com/2026/03/03/somalias-drought-leaves-65-million-on-brink-of-hunger-crisis-says-icrc/",
@@ -1296,6 +1227,13 @@
           "lead": "[Shabelle] Mogadishu -- Somali security forces raided a hotel in the capital overnight, wounding two federal lawmakers a"
         },
         {
+          "title": "Somalia: Somali Parliament Approves Official Constitution After Comprehensive Review",
+          "url": "https://allafrica.com/stories/202603040566.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T14:22:06",
+          "lead": "[Shabelle] Mogadishu, Somalia -- Somalia's federal parliament has formally approved the country's Official Constitution "
+        },
+        {
           "title": "Somalia: Jubaland Rejects Somalia Constitutional Amendments Amid Rising Federal Tensions",
           "url": "https://allafrica.com/stories/202603040328.html",
           "source": "AllAfrica",
@@ -1305,7 +1243,6 @@
       ],
       "sources": [
         "AllAfrica",
-        "Le Monde Afrique",
         "Africanews"
       ]
     },
@@ -1313,7 +1250,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.94,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1325,7 +1262,7 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Uganda: High Alert As MAM Forecast Warns of Floods, Landslides and Disease Outbreaks",
+          "title": "Uganda: High Alert As Forecasts Warn of Floods, Landslides and Disease Outbreaks",
           "url": "https://allafrica.com/stories/202603040017.html",
           "source": "AllAfrica",
           "published": "2026-03-04T04:56:47",
@@ -1344,13 +1281,18 @@
       ]
     },
     "Kenya": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 2,
       "baseline": 5.8,
-      "ratio": 0.69,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Flood",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1359,6 +1301,20 @@
           "source": "Jeune Afrique",
           "published": "2026-03-04T12:26:09",
           "lead": "Il deviendra directeur général des services bancaires personnels et privés pour l’Afrique d’Absa Bank, en avril. Le parc"
+        },
+        {
+          "title": "Africa: Financing Africa's Biodiversity Conservation With Dwindling Donor Support",
+          "url": "https://allafrica.com/stories/202603040003.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T04:40:35",
+          "lead": "[IPS] Nairobi -- Relying on donor funding is not the right way to finance biodiversity conservation. Biodiversity is not"
+        },
+        {
+          "title": "Kenya: Heavy Rains Peak in Nairobi As Flood Risk Rises, Met Warns",
+          "url": "https://allafrica.com/stories/202603040538.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T13:55:57",
+          "lead": "[Capital FM] Nairobi -- Heavy rains are now peaking across Nairobi and its surrounding counties, raising the risk of fla"
         },
         {
           "title": "Ethiopia: Ethiopia, Kenya Agree to Launch Joint Military Operations to Secure Border Corridor, Lapsset",
@@ -1373,25 +1329,18 @@
           "source": "AllAfrica",
           "published": "2026-03-04T06:48:06",
           "lead": "[Capital FM] Nairobi -- An autopsy conducted on the six victims of the fatal helicopter crash in Mosop, Nandi County, ha"
-        },
-        {
-          "title": "Kenya: Track Queen Faith Kipyegon Headlines Laureus 2026 Nominees",
-          "url": "https://allafrica.com/stories/202603030552.html",
-          "source": "AllAfrica",
-          "published": "2026-03-03T14:45:15",
-          "lead": "[Capital FM] Nairobi -- For the third consecutive year, Faith Kipyegon has been shortlisted for the most prestigious ind"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 8,
+      "article_count": 7,
       "source_count": 4,
       "baseline": 2.8,
-      "ratio": 2.89,
+      "ratio": 2.53,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1404,27 +1353,27 @@
           "count": 1
         },
         {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Réfugiés",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Armed group",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -1443,13 +1392,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-03T23:09:04",
           "lead": "En RDC, l’offensive de décembre dernier de l’AFC/M23, un groupe politico-militaire soutenu par le Rwanda, a forcé des di"
-        },
-        {
-          "title": "À la Une: les États-Unis haussent le ton envers le Rwanda",
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260304-%C3%A0-la-une-les-%C3%A9tats-unis-haussent-le-ton-envers-le-rwanda",
-          "source": "RFI Afrique",
-          "published": "2026-03-04T08:33:33",
-          "lead": ""
         },
         {
           "title": "RD Congo : quelles conséquences des sanctions de Washington contre le Rwanda ?",
@@ -1484,34 +1426,26 @@
           "url": "https://www.hrw.org/news/2026/03/03/us-sanctions-rwandan-army-commanders",
           "source": "Human Rights Watch",
           "published": "2026-03-04T03:00:00",
-          "lead": "(Washington, DC) – The United States government on March 2, 2026, announced sanctions on Rwanda’s military and four seni"
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Member"
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "RFI Afrique",
         "France24 Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Human Rights Watch",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.96,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "M23",
           "count": 1
         },
         {
@@ -1519,7 +1453,11 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -1538,28 +1476,24 @@
           "source": "RFI Afrique",
           "published": "2026-03-03T23:09:04",
           "lead": "En RDC, l’offensive de décembre dernier de l’AFC/M23, un groupe politico-militaire soutenu par le Rwanda, a forcé des di"
-        },
-        {
-          "title": "Burundi: Burundi Nominates Former Senegalese President Sall for UN Chief",
-          "url": "https://allafrica.com/stories/202603040002.html",
-          "source": "AllAfrica",
-          "published": "2026-03-04T04:39:01",
-          "lead": "[RFI] A new secretary-general of the United Nations will be appointed on 1 January, 2027 to succeed Antonio Guterres, wi"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 1.71,
+      "baseline": 1.1,
+      "ratio": 2.65,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Crisis",
+          "count": 1
+        },
         {
           "word": "Election",
           "count": 1
@@ -1575,6 +1509,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tanzania: Gulf Crisis Hits Tanzania As Fuel Price Soars By 10.76 Percent",
+          "url": "https://allafrica.com/stories/202603040556.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T14:09:45",
+          "lead": "[Daily News] Dar es Salaam -- The Energy and Water Utilities Regulatory Authority (EWURA) has announced new fuel prices "
+        },
         {
           "title": "Tanzania: Tanzania Rebuts International Claims On Poll Violence",
           "url": "https://allafrica.com/stories/202603040290.html",
@@ -1633,8 +1574,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -1701,47 +1642,42 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 0.75,
+      "baseline": 0.9,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "M23",
-          "count": 1
-        },
-        {
           "word": "War",
           "count": 1
-        },
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
         {
-          "word": "Displaced",
-          "count": 1
-        },
+          "title": "Malawi: Malawi Omitted From Russia's Recruitment 'Blacklist' Despite Safety Concerns",
+          "url": "https://allafrica.com/stories/202603040552.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T14:06:51",
+          "lead": "[Nyasa Times] Malawi and four other nations within the Southern African Development Community (SADC) have been excluded "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
+    },
+    "Mozambique": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.2,
+      "ratio": 0.81,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
         {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
+          "word": "Armed group",
           "count": 1
         },
         {
@@ -1749,7 +1685,27 @@
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
           "count": 1
         }
       ],
@@ -1760,7 +1716,7 @@
           "url": "https://www.hrw.org/news/2026/03/03/us-sanctions-rwandan-army-commanders",
           "source": "Human Rights Watch",
           "published": "2026-03-04T03:00:00",
-          "lead": "(Washington, DC) – The United States government on March 2, 2026, announced sanctions on Rwanda’s military and four seni"
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Member"
         }
       ],
       "sources": [
@@ -1771,7 +1727,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.8,
-      "ratio": 1.06,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1834,19 +1790,19 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 19,
+      "article_count": 18,
       "source_count": 6,
-      "baseline": 13.6,
-      "ratio": 1.4,
+      "baseline": 13.5,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 2
+          "word": "Minister",
+          "count": 3
         },
         {
-          "word": "Minister",
+          "word": "President",
           "count": 2
         },
         {
@@ -1854,19 +1810,11 @@
           "count": 2
         },
         {
-          "word": "Dead",
-          "count": 2
-        },
-        {
           "word": "Violence",
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Bombing",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1876,7 +1824,7 @@
           "title": "South Africa's long-serving former defence minister and former Robben Island prisoner dies",
           "url": "https://www.bbc.com/news/articles/clyzzdgv2k0o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-03-04T11:36:43",
+          "published": "2026-03-04T12:45:24",
           "lead": "Mosiuoa Lekota was imprisoned with former South African President Nelson Mandela on Robben Island."
         },
         {
@@ -1901,11 +1849,11 @@
           "lead": "Danica De La Rey Jones’s elite fighter is targeted in a film that would be more exciting if its padded runtime was trimm"
         },
         {
-          "title": "‘Imperialist undertones’: global south condemns US-Israeli war with Iran",
-          "url": "https://www.theguardian.com/world/2026/mar/03/global-south-condemns-us-israeli-war-with-iran",
-          "source": "The Guardian Africa",
-          "published": "2026-03-03T13:11:17",
-          "lead": "China calls it unacceptable to ‘kill leader of sovereign state’, while South Africa questions ‘pre-emptive’ justificatio"
+          "title": "South Africa offers to mediate in Middle East conflict if asked",
+          "url": "http://www.africanews.com/2026/03/04/south-africa-offers-to-mediate-in-middle-east-conflict-if-asked/",
+          "source": "Africanews",
+          "published": "2026-03-04T13:46:19",
+          "lead": "Ramaphosa also noted that his government is actively working to repatriate South African citizens stranded in the confli"
         },
         {
           "title": "South African anti-apartheid activist Mosiuoa Lekota dies at 77",
@@ -1922,25 +1870,11 @@
           "lead": "A new online campaign is promoting South African billionaire Patrice Motsepe as the next head of the ruling African Nati"
         },
         {
-          "title": "South Africa: Tributes Pour in For Former COPE Leader Mosiuoa Lekota",
-          "url": "https://allafrica.com/stories/202603040155.html",
+          "title": "South Africa: SAPS Failure to Fight Crime Is Shameful, Say MPs As Army Deployment Nears",
+          "url": "https://allafrica.com/stories/202603040532.html",
           "source": "AllAfrica",
-          "published": "2026-03-04T08:10:09",
-          "lead": "[allAfrica] Congress of the People (COPE) founder Mosiuoa Lekota has died at the age of 77  ."
-        },
-        {
-          "title": "South Africa: COPE Founder Mosiuoa Lekota Dies - South African News Briefs - March 4, 2026",
-          "url": "https://allafrica.com/stories/202603040068.html",
-          "source": "AllAfrica",
-          "published": "2026-03-04T05:47:49",
-          "lead": "[allAfrica]"
-        },
-        {
-          "title": "South Africa: Nine Dead in Joburg Building Collapse As City Says Construction Was Illegal",
-          "url": "https://allafrica.com/stories/202603030528.html",
-          "source": "AllAfrica",
-          "published": "2026-03-03T14:18:27",
-          "lead": "[Daily Maverick] Rescue teams retrieved the last body from the building collapse in Ormonde, Johannesburg, on Tuesday mo"
+          "published": "2026-03-04T13:52:06",
+          "lead": "[Daily Maverick] Parliament has heard that the SANDF deployment to fight gangsterism and illegal mining will last one ye"
         },
         {
           "title": "South Africa: Ramaphosa Extends Condolences on the Passing of Mosiuoa Gerard Patrick Lekota",
@@ -1950,20 +1884,34 @@
           "lead": "[Govt of SA] President Cyril Ramaphosa learnt with profound sadness of the passing of Mosiuoa Gerard Patrick Lekota, for"
         },
         {
+          "title": "South Africa: Tributes Pour in For Former COPE Leader Mosiuoa Lekota",
+          "url": "https://allafrica.com/stories/202603040155.html",
+          "source": "AllAfrica",
+          "published": "2026-03-04T08:10:09",
+          "lead": "[allAfrica] Congress of the People (COPE) founder Mosiuoa Lekota has died at the age of 77  ."
+        },
+        {
           "title": "Africa: Johannesburg's Dry Taps Threaten to Unravel Africa's Most Ambitious Water Plans",
           "url": "https://allafrica.com/stories/202603040265.html",
           "source": "AllAfrica",
           "published": "2026-03-04T09:55:40",
           "lead": "[Daily Maverick] The effects of Africa's richest city running dry would be disastrous for its residents, the country's e"
+        },
+        {
+          "title": "IN PICTURES: From Terror to Mosiuoa: Anti-apartheid veteran Mosiuoa Lekota dies at 77",
+          "url": "https://www.dailymaverick.co.za/article/from-terror-to-mosiuoa-antiapartheid-veteran-mosiuoa-lekota-dies-at-77",
+          "source": "Daily Maverick",
+          "published": "2026-03-04T17:24:34",
+          "lead": "Anti-apartheid veteran and former defence minister Mosiuoa Lekota has died at the age of 77, marking the passing of a pr"
         }
       ],
       "sources": [
+        "BBC Africa",
+        "Al Jazeera",
+        "Daily Maverick",
         "The Guardian Africa",
         "AllAfrica",
-        "BBC Africa",
-        "Daily Maverick",
-        "Africanews",
-        "Al Jazeera"
+        "Africanews"
       ]
     },
     "Eswatini": {
