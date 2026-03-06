@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-06T04:26:57.574226",
+  "generated_at": "2026-03-06T06:36:12.395762",
   "summary": {
-    "high": 3,
-    "elevated": 4,
-    "normal": 29,
-    "quiet": 18
+    "high": 2,
+    "elevated": 6,
+    "normal": 27,
+    "quiet": 19
   },
   "countries": {
     "Morocco": {
@@ -91,12 +91,12 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "BBC Africa",
-        "Africanews",
-        "Le Monde Afrique",
+        "RFI Afrique",
         "AllAfrica",
-        "RFI Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "Africanews",
+        "BBC Africa"
       ]
     },
     "Algeria": {
@@ -112,92 +112,39 @@
       "sources": []
     },
     "Tunisia": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.2,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Libya": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.8,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Egypt": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.83,
+      "baseline": 1.3,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Tunisia: Inflation Rate Stands At 5 Percent in February 2026",
-          "url": "https://allafrica.com/stories/202603050700.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:49:37",
-          "lead": "[Tunis Afrique Presse] Tunis -- The inflation rate stood at 5% in February 2026, up 0.1% compared with January 2026, acc"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
-    "Libya": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 0.55,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Power without a throne: how Khalifa Haftar controls Libya",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/mar/05/power-without-a-throne-how-khalifa-haftar-controls-libya-and-is-answerable-to-no-one",
-          "source": "The Guardian Africa",
-          "published": "2026-03-05T05:00:51",
-          "lead": "When Nato helped overthrow Gaddafi in 2011, there were hopes of a new beginning. More than a decade later, a former CIA "
-        }
-      ],
-      "sources": [
-        "The Guardian Africa"
-      ]
-    },
-    "Egypt": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.3,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Power without a throne: how Khalifa Haftar controls Libya",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/mar/05/power-without-a-throne-how-khalifa-haftar-controls-libya-and-is-answerable-to-no-one",
-          "source": "The Guardian Africa",
-          "published": "2026-03-05T05:00:51",
-          "lead": "When Nato helped overthrow Gaddafi in 2011, there were hopes of a new beginning. More than a decade later, a former CIA "
-        },
         {
           "title": "Egypt: Tourism holds strong despite regional tensions [Business Africa]",
           "url": "http://www.africanews.com/2026/03/05/egypt-tourism-holds-strong-despite-regional-tensions-business-africa/",
@@ -207,44 +154,44 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "Africanews"
       ]
     },
     "Sudan": {
       "article_count": 4,
-      "source_count": 3,
+      "source_count": 2,
       "baseline": 6.8,
       "ratio": 0.59,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Power without a throne: how Khalifa Haftar controls Libya",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/mar/05/power-without-a-throne-how-khalifa-haftar-controls-libya-and-is-answerable-to-no-one",
-          "source": "The Guardian Africa",
-          "published": "2026-03-05T05:00:51",
-          "lead": "When Nato helped overthrow Gaddafi in 2011, there were hopes of a new beginning. More than a decade later, a former CIA "
-        },
         {
           "title": "Soudan : 51 morts en vingt-quatre heures au Kordofan",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/05/soudan-51-morts-en-vingt-quatre-heures-au-kordofan_6669685_3212.html",
@@ -260,6 +207,13 @@
           "lead": "Située dans le sud du pays, la zone est contrôlée par les paramilitaires soudanais, les Forces de soutien rapide (FSR), "
         },
         {
+          "title": "Sudan: At Least 9 Dead in New Kordofan Shelling Carnage",
+          "url": "https://allafrica.com/stories/202603060014.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:35:43",
+          "lead": "[Dabanga] At least nine people were killed, and 51 reported injured today, after artillery shelling hit the town of Dill"
+        },
+        {
           "title": "Sudan: Sudan's Civil War Exposes a Paralysed Multilateral System",
           "url": "https://allafrica.com/stories/202603050490.html",
           "source": "AllAfrica",
@@ -269,7 +223,6 @@
       ],
       "sources": [
         "AllAfrica",
-        "The Guardian Africa",
         "Le Monde Afrique"
       ]
     },
@@ -424,28 +377,53 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.64,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Kidnappings en Guinée: «Les populations ne demandent qu'à être sécurisées»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260306-kidnappings-en-guin%C3%A9e-les-populations-ne-demandent-qu-%C3%A0-%C3%AAtre-s%C3%A9curis%C3%A9es",
+          "source": "RFI Afrique",
+          "published": "2026-03-06T06:16:13",
+          "lead": "Alors que le président guinéen Mamadi Doumbouya est censé rentrer ce vendredi 6 mars 2026 à Conakry, trois semaines aprè"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Sierra Leone": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Africa: How a World Bank Program Is Turning Creativity Into Jobs for Women in Sierra Leone",
+          "url": "https://allafrica.com/stories/202603060085.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T05:24:40",
+          "lead": "[World Bank] By pairing a Creative Economy Diagnostic with a women-focused accelerator, Sierra Leone's CreatiFi program "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Liberia": {
       "article_count": 1,
@@ -526,9 +504,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "France24 Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Ghana": {
@@ -589,12 +567,12 @@
       ]
     },
     "Benin": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
       "baseline": 1.5,
-      "ratio": 2.61,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.96,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Attaque",
@@ -622,13 +600,6 @@
           "lead": "Le nord-est du Bénin est endeuillé. Mercredi 5 mars, la localité de Kofonou, nichée près de Karimama, à l'extrême nord-e"
         },
         {
-          "title": "Bénin: après la démission de Thomas Boni Yayi, les cadres du parti Les Démocrates réunis en urgence",
-          "url": "https://www.rfi.fr/fr/afrique/20260305-b%C3%A9nin-apr%C3%A8s-la-d%C3%A9mission-de-thomas-boni-yayi-les-cadres-du-parti-les-d%C3%A9mocrates-r%C3%A9unis-en-urgence",
-          "source": "RFI Afrique",
-          "published": "2026-03-05T07:14:00",
-          "lead": "Quelques heures après la lettre de démission de Thomas Boni Yayi, datée de ce mercredi 3 mars 2026, les hauts responsabl"
-        },
-        {
           "title": "Au Bénin, l’armée confrontée à une reprise de l’offensive jihadiste dans le Nord",
           "url": "https://www.jeuneafrique.com/1771572/politique/au-benin-larmee-confrontee-a-une-reprise-de-loffensive-jihadiste-dans-le-nord/",
           "source": "Jeune Afrique",
@@ -637,19 +608,44 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "The Guardian Africa",
+        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 9,
+      "article_count": 10,
       "source_count": 3,
       "baseline": 9.3,
-      "ratio": 0.97,
+      "ratio": 1.08,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Boko haram",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -688,38 +684,45 @@
           "lead": "Nigeria’s medical regulator has taken disciplinary action against three doctors in connection with the death of the youn"
         },
         {
-          "title": "Nigeria: Kwara Court Sentences Two Bandits to Death By Hanging",
-          "url": "https://allafrica.com/stories/202603050712.html",
+          "title": "Nigeria: Tinubu Oversees Historic Resolution of 15 Year-Old OPL245 Dispute",
+          "url": "https://allafrica.com/stories/202603060093.html",
           "source": "AllAfrica",
-          "published": "2026-03-05T15:54:15",
-          "lead": "[Vanguard] The Kwara State High Court sitting in Ilorin on Thursday sentenced two bandits, Abubakar Sodiki and Abubakar "
+          "published": "2026-03-06T05:25:19",
+          "lead": "[This Day] President Bola Tinubu on Thursday presided over the successful conclusion of a historic settlement agreement "
         },
         {
-          "title": "Nigeria: Weight Loss Injections - Six Dangerous Mistakes Nigerians Make",
-          "url": "https://allafrica.com/stories/202603050671.html",
+          "title": "Nigeria: Court Acquits Abba Kyari of 23-Count Asset Declaration Charge",
+          "url": "https://allafrica.com/stories/202603060047.html",
           "source": "AllAfrica",
-          "published": "2026-03-05T15:35:51",
-          "lead": "[Premium Times] To use weight loss injections safely in Nigeria, start by consulting a qualified doctor who can properly"
+          "published": "2026-03-06T04:59:18",
+          "lead": "[Leadership] The Federal High Court sitting in Abuja has discharged and acquitted suspended Deputy Commissioner of Polic"
         },
         {
-          "title": "Nigeria: How Ex-PDP Chairperson Clinched APC Leadership in Taraba",
-          "url": "https://allafrica.com/stories/202603050669.html",
+          "title": "Nigeria: Boko Haram Kills Soldiers, Abducts Women, Children in Borno",
+          "url": "https://allafrica.com/stories/202603060031.html",
           "source": "AllAfrica",
-          "published": "2026-03-05T15:33:56",
-          "lead": "[Premium Times] At the APC state congress held in Jalingo late Tuesday, Abubakar Bawa, until recently the PDP chairman i"
+          "published": "2026-03-06T04:49:21",
+          "lead": "[Daily Trust] Suspected terrorists have attacked a military base and Internally Displaced Persons camp in Ngoshe town, G"
         },
         {
-          "title": "Nigeria: PDP Appoints Caretaker Committee for Shendam, Replaces Wase Lga Chair",
-          "url": "https://allafrica.com/stories/202603050666.html",
+          "title": "Nigeria: Beyond 'Christian Genocide' - the Real Roots of Criminal Violence in Nigeria",
+          "url": "https://allafrica.com/stories/202603060013.html",
           "source": "AllAfrica",
-          "published": "2026-03-05T15:31:38",
-          "lead": "[Premium Times] In a statement issued on Thursday, signed by Choji Felix, its state publicity secretary, the PDP said th"
+          "published": "2026-03-06T04:35:42",
+          "lead": "[The New Humanitarian] Haute-Savoie, France -- \"The only real way to reduce kidnapping in the long term is to improve ec"
+        },
+        {
+          "title": "Nigeria: Nigerian Female Investigative Reporter, Juliana Francis, Loses Mother",
+          "url": "https://allafrica.com/stories/202603060021.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:46:39",
+          "lead": "[This Day] Nigerian female investigative reporter, Juliana Francis, is in deep mourning following the passing of her bel"
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Cape Verde": {
@@ -784,10 +787,10 @@
       ]
     },
     "CAR": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.2,
-      "ratio": 1.62,
+      "ratio": 2.43,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -802,6 +805,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Bossembélé, Centrafrique : douze années après les massacres, vivre avec les morts",
+          "url": "https://www.jeuneafrique.com/1769485/politique/bossembele-centrafrique-douze-annees-apres-les-massacres-vivre-avec-les-morts/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-06T07:00:00",
+          "lead": "Plus d’une décennie après les violences de janvier 2014, Bossembélé offre le visage d’une ville paisible, dont les habit"
+        },
         {
           "title": "Bossembélé, Centrafrique : janvier 2014, le mois où la vie a basculé",
           "url": "https://www.jeuneafrique.com/1769430/politique/bossembele-centrafrique-janvier-2014-le-mois-ou-la-vie-a-bascule/",
@@ -818,15 +828,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.48,
+      "baseline": 2.0,
+      "ratio": 0.49,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -887,36 +897,21 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Congo": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.65,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Élection",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Présidentielle au Congo-Brazzaville: Dave Mafoula tente sa chance pour la deuxième fois",
-          "url": "https://www.rfi.fr/fr/afrique/20260305-pr%C3%A9sidentielle-au-congo-brazzaville-dave-mafoula-tente-sa-chance-pour-la-deuxi%C3%A8me-fois",
-          "source": "RFI Afrique",
-          "published": "2026-03-05T08:58:02",
-          "lead": "Leader du parti d’opposition Les Souverainistes, Uphrem Dave Mafoula repart pour la deuxième fois consécutive comme cand"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "DRC": {
       "article_count": 6,
@@ -931,15 +926,15 @@
           "count": 2
         },
         {
-          "word": "Killed",
-          "count": 2
+          "word": "Rebel",
+          "count": 1
         },
         {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -947,15 +942,15 @@
           "count": 1
         },
         {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
           "count": 1
         }
       ],
@@ -990,25 +985,25 @@
           "lead": "Depuis janvier 2025, toutes les parties au conflit dans l’est de la RDC sont accusées d’avoir commis de graves violation"
         },
         {
+          "title": "« Il faut un début de retrait des troupes rwandaises », plaide la ministre des affaires étrangères congolaise",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/06/il-faut-un-debut-de-retrait-des-troupes-rwandaises-plaide-la-ministre-des-affaires-etrangeres-congolaise_6669711_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-06T05:00:23",
+          "lead": "Le Trésor américain a placé sous sanctions l’armée rwandaise, le 2 mars, pour son intervention dans l’est de la Républiq"
+        },
+        {
           "title": "RDC – André Mbata : « C’est au président Tshisekedi de convoquer un dialogue, pas à une confession religieuse »",
           "url": "https://www.jeuneafrique.com/1770907/politique/rdc-andre-mbata-cest-au-president-tshisekedi-de-convoquer-un-dialogue-pas-a-une-confession-religieuse/",
           "source": "Jeune Afrique",
           "published": "2026-03-05T10:55:35",
           "lead": "Secrétaire permanent de l’Union sacrée de la nation, la coalition au pouvoir, André Mbata continue d’alimenter le débat "
-        },
-        {
-          "title": "Congo-Kinshasa: Over 200 Feared Dead in DR Congo Coltan Mine Landslide",
-          "url": "https://allafrica.com/stories/202603050074.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T06:27:28",
-          "lead": "[allAfrica] More than 200 people have been reported killed after a landslide triggered by heavy rains struck the Rubaya "
         }
       ],
       "sources": [
         "RFI Afrique",
-        "AllAfrica",
-        "BBC Africa",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "BBC Africa"
       ]
     },
     "São Tomé": {
@@ -1024,15 +1019,19 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 1.4,
-      "ratio": 2.93,
+      "ratio": 3.57,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "President",
           "count": 2
         },
         {
@@ -1045,10 +1044,6 @@
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -1069,6 +1064,13 @@
           "lead": "À l'occasion de l'ouverture de l'année judiciaire en Angola, la lutte contre la corruption était au centre des discours."
         },
         {
+          "title": "Angola: Angola's President Signs Repressive Civil Society Law",
+          "url": "https://allafrica.com/stories/202603060053.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:59:21",
+          "lead": "[HRW] New Legislation Undermines Freedom of Association, Expression"
+        },
+        {
           "title": "Angola: Angolan Tourism Yields 667 Million Dollars in 2025",
           "url": "https://allafrica.com/stories/202603050707.html",
           "source": "AllAfrica",
@@ -1084,9 +1086,9 @@
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "AllAfrica",
-        "RFI Afrique",
-        "Human Rights Watch"
+        "RFI Afrique"
       ]
     },
     "Eritrea": {
@@ -1117,7 +1119,7 @@
       "article_count": 6,
       "source_count": 4,
       "baseline": 4.3,
-      "ratio": 1.4,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1130,11 +1132,11 @@
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -1189,48 +1191,30 @@
       ],
       "sources": [
         "RFI Afrique",
+        "Africanews",
         "AllAfrica",
-        "BBC Africa",
-        "Africanews"
+        "BBC Africa"
       ]
     },
     "Somalia": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.4,
-      "ratio": 2.08,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.83,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 2
-        },
-        {
-          "word": "Président",
+          "word": "Drought",
           "count": 1
         },
         {
-          "word": "Drought",
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Juge militaire et star de TikTok : en Somalie, la double vie d’Hassan Ali Nur Shuute",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/05/juge-militaire-et-star-de-tiktok-en-somalie-la-double-vie-d-hassan-ali-nur-shuute_6669588_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-05T04:45:06",
-          "lead": "Alors que la Somalie lutte depuis vingt ans contre les djihadistes du groupe Al-Chabab, le président du tribunal militai"
-        },
-        {
-          "title": "Somalia's new constitution will see directly elected lawmakers",
-          "url": "http://www.africanews.com/2026/03/05/somalias-new-constitution-will-see-directly-elected-lawmakers/",
-          "source": "Africanews",
-          "published": "2026-03-05T06:10:21",
-          "lead": "In the past, MPs voted for the president while clan heads and elders elected lawmakers."
-        },
         {
           "title": "Somalia: Somaliland Cabinet Reviews Security, Economy and Drought Impact",
           "url": "https://allafrica.com/stories/202603050704.html",
@@ -1244,19 +1228,10 @@
           "source": "AllAfrica",
           "published": "2026-03-05T15:25:09",
           "lead": "[World Bank] Nairobi -- A new World Bank Group report finds that cost-effective and smart development investments, parti"
-        },
-        {
-          "title": "Somalia: Somali Lawmakers From Puntland Allowed to Leave Mogadishu After Constitution Vote",
-          "url": "https://allafrica.com/stories/202603050706.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:51:28",
-          "lead": "[Shabelle] Mogadishu -- Lawmakers from Somalia's Puntland who were recently prevented from traveling to their regional c"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews",
-        "Le Monde Afrique"
+        "AllAfrica"
       ]
     },
     "Uganda": {
@@ -1272,18 +1247,13 @@
       "sources": []
     },
     "Kenya": {
-      "article_count": 8,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 5.8,
-      "ratio": 1.37,
+      "baseline": 5.9,
+      "ratio": 0.51,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1306,41 +1276,6 @@
           "source": "AllAfrica",
           "published": "2026-03-05T15:25:09",
           "lead": "[World Bank] Nairobi -- A new World Bank Group report finds that cost-effective and smart development investments, parti"
-        },
-        {
-          "title": "Kenya: Kenya Airways Names Kiprono Kittony Chair, David Ndii Director",
-          "url": "https://allafrica.com/stories/202603050702.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:50:09",
-          "lead": "[Capital FM] Nairobi -- The board of Kenya Airways (KQ) has appointed Kiprono Kittony as its new Chairman and David Ndii"
-        },
-        {
-          "title": "Kenya: Hundreds Gather in Emurua Dikirr to Honour Late MP Johana Ng'eno and Five Community Members",
-          "url": "https://allafrica.com/stories/202603050674.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:36:36",
-          "lead": "[Capital FM] Nairobi -- Hundreds of residents have gathered at Emurua Dikirr Primary School to pay their last respects t"
-        },
-        {
-          "title": "Kenya: EACC Seeks Constitutional Amendments to Bar Impeached Leaders From 2027 Ballot",
-          "url": "https://allafrica.com/stories/202603050673.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:36:20",
-          "lead": "[Capital FM] Nairobi -- The Ethics and Anti-Corruption Commission (EACC) has proposed amendments to key constitutional p"
-        },
-        {
-          "title": "Kenya: Kindiki Forgives Gachagua, Mt Kenya Critics for the Sake of Unity and Development",
-          "url": "https://allafrica.com/stories/202603050670.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:34:37",
-          "lead": "[Capital FM] Nairobi -- Deputy President Kithure Kindiki says he is unperturbed by the barrage of attacks directed at hi"
-        },
-        {
-          "title": "Kenya: 576 Youth Apply for One Job That Requires Facing Teargas",
-          "url": "https://allafrica.com/stories/202603050664.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:31:03",
-          "lead": "[Capital FM] Nairobi -- Kiambu Senator Karungo wa Thang'wa has disclosed that a total of 600 Kenyans applied for a singl"
         }
       ],
       "sources": [
@@ -1351,7 +1286,7 @@
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1383,11 +1318,11 @@
       ]
     },
     "Tanzania": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.88,
-      "status": "normal",
+      "ratio": 1.76,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
@@ -1397,6 +1332,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tanzania: Tanzania Achieves Milestone in Child Survival, Reduces Maternal Mortality By 80%",
+          "url": "https://allafrica.com/stories/202603060029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:49:20",
+          "lead": "[Daily News] Dar es Salaam -- TANZANIA has achieved a significant milestone in child survival, cutting under-five deaths"
+        },
         {
           "title": "Tanzania: Leaders Raise Alarm Over Children's Lack of Play, Rest Time",
           "url": "https://allafrica.com/stories/202603050355.html",
@@ -1532,25 +1474,58 @@
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.65,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 2
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mozambique: Chapo Calls for Rigorous Action Against Corruption",
+          "url": "https://allafrica.com/stories/202603060033.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:49:22",
+          "lead": "[AIM] Maputo -- Mozambican President Daniel Chapo has called for rigorous administrative action against corruption in or"
+        },
+        {
+          "title": "Mozambique: Diplomacy Strategic in Defending Mozambican Interests",
+          "url": "https://allafrica.com/stories/202603060035.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:49:23",
+          "lead": "[AIM] Maputo -- Mozambican President Daniel Chapo on Thursday declared that diplomacy should play a strategic role in de"
+        },
+        {
+          "title": "Mozambique: 72 New Cholera Cases Recorded in Two Days",
+          "url": "https://allafrica.com/stories/202603060036.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:49:23",
+          "lead": "[AIM] Maputo -- The Mozambican health authorities recorded 72 new cases of cholera on Sunday and Monday, bringing the to"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 4,
+      "article_count": 6,
       "source_count": 3,
       "baseline": 2.9,
-      "ratio": 1.36,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.05,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
         {
           "word": "President",
           "count": 1
@@ -1564,6 +1539,13 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-05T18:00:11",
           "lead": "A la suite du démantèlement brutal de son aide au développement international, en janvier 2025, l’administration américa"
+        },
+        {
+          "title": "Zimbabwe: Mnangagwa Has His Priorities Wrong - Opposition Says Following Launch of U.S.$25 Million Munhumutapa Tournament",
+          "url": "https://allafrica.com/stories/202603060022.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:46:40",
+          "lead": "[New Zimbabwe] Government has been criticised for availing US$25 million towards a football tournament in a move that ha"
         },
         {
           "title": "Zimbabwe: Zimbabwe Energy Regulatory Authority Announces Fuel Price Hike",
@@ -1580,6 +1562,13 @@
           "lead": "[New Zimbabwe] Power outage at the Alexandra Magistrate's Court delayed the case against Bellarmine Chatunga Mugabe and "
         },
         {
+          "title": "Zimbabwe: Zimbabweans Must Shift Mindset and Be Positive of ZiG Currency - RBZ Top Official",
+          "url": "https://allafrica.com/stories/202603060024.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T04:46:41",
+          "lead": "[New Zimbabwe] Negative perceptions of the local ZiG currency must be changed so that the nation quickly moves towards t"
+        },
+        {
           "title": "JUSTICE DELAYED: Mugabe case postponed due to court power outage, no fuel for generator",
           "url": "https://www.dailymaverick.co.za/article/mugabe-case-postponed-due-to-court-power-outage-no-fuel-for-generator",
           "source": "Daily Maverick",
@@ -1589,8 +1578,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Daily Maverick",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Daily Maverick"
       ]
     },
     "Namibia": {
@@ -1606,41 +1595,27 @@
       "sources": []
     },
     "Botswana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Botswana: Mining Conference to Tackle Industrial Challenges",
-          "url": "https://allafrica.com/stories/202603050650.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:24:17",
-          "lead": "[Botswana Daily News] Gaborone -- In the face of challenges the energy sector and commodity sale have posed on the natio"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Africa": {
       "article_count": 12,
       "source_count": 4,
       "baseline": 13.4,
-      "ratio": 0.89,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         },
         {
@@ -1672,10 +1647,10 @@
           "lead": "South Africa is seeking to produce a key HIV prevention drug locally as part of a broader effort to improve access to tr"
         },
         {
-          "title": "South Africa: Comedian and Actor Soli Philander Dies - South African News Briefs - March 5, 2026",
-          "url": "https://allafrica.com/stories/202603050073.html",
+          "title": "South Africa: Emirates Resumes Limited UAE-South Africa Flights - South African News Briefs - March 6, 2026",
+          "url": "https://allafrica.com/stories/202603060107.html",
           "source": "AllAfrica",
-          "published": "2026-03-05T05:27:39",
+          "published": "2026-03-06T05:50:21",
           "lead": "[allAfrica]"
         },
         {
@@ -1686,11 +1661,11 @@
           "lead": "[GroundUp] National Conventional Arms Control Committee has not filed record of decisions despite being ordered to do so"
         },
         {
-          "title": "South Africa: ANC Begs DA to Hide Truth From Gauteng Residents About Water Crisis",
-          "url": "https://allafrica.com/stories/202603050708.html",
+          "title": "South Africa: Activists Criticise Social Grant 'Savings'",
+          "url": "https://allafrica.com/stories/202603060020.html",
           "source": "AllAfrica",
-          "published": "2026-03-05T15:52:08",
-          "lead": "[DA] Today, the African National Congress (ANC) has written to the Democratic Alliance (DA) demanding that we remove the"
+          "published": "2026-03-06T04:46:39",
+          "lead": "[GroundUp] The Universal Basic Income Coalition says tighter controls risk excluding eligible beneficiaries"
         },
         {
           "title": "The Right To Die: End-of-life-care vs suicide: Von Memerty’s death muddies attempts at legislative change for terminally ill",
@@ -1736,10 +1711,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "The Guardian Africa",
-        "Daily Maverick",
-        "Africanews"
+        "Africanews",
+        "AllAfrica",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
