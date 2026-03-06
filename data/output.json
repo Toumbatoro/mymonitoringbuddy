@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-06T15:28:27.828681",
+  "generated_at": "2026-03-06T18:32:50.282919",
   "summary": {
-    "high": 2,
-    "elevated": 5,
-    "normal": 30,
-    "quiet": 17
+    "high": 3,
+    "elevated": 9,
+    "normal": 26,
+    "quiet": 16
   },
   "countries": {
     "Morocco": {
-      "article_count": 7,
-      "source_count": 5,
-      "baseline": 4.0,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 3.9,
+      "ratio": 1.27,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Coup",
@@ -22,13 +22,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Caf postpones Wafcon 2026 just 12 days before kick-off",
-          "url": "https://www.bbc.com/sport/football/articles/c24dg1m1v27o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-05T18:02:40",
-          "lead": "The 2026 Women's Africa Cup of Nations is postponed just 12 days before the finals were due to kick off in Morocco."
-        },
         {
           "title": "Regragui departs as Morocco appoint Ouahbi as new coach",
           "url": "https://www.bbc.com/sport/football/articles/c62dnepz5g7o?at_medium=RSS&at_campaign=rss",
@@ -63,21 +56,13 @@
           "source": "Jeune Afrique",
           "published": "2026-03-05T23:59:00",
           "lead": "Les Lions de l’Atlas se rendront à la prochaine Coupe du monde avec un nouveau sélectionneur : Mohamed Ouahbi, qui a réc"
-        },
-        {
-          "title": "Kenya: CAF Postpones Wafcon 2026 Over Unseen Circumstances",
-          "url": "https://allafrica.com/stories/202603050672.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:36:06",
-          "lead": "[Capital FM] Nairobi -- The Women's Africa Cup of Nations (Wafcon), earlier scheduled to begin on March 17 this year in "
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "BBC Africa",
-        "AllAfrica",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "BBC Africa",
+        "Le Monde Afrique"
       ]
     },
     "Algeria": {
@@ -127,24 +112,31 @@
       ]
     },
     "Egypt": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.77,
-      "status": "normal",
+      "ratio": 1.54,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
           "word": "President",
-          "count": 1
+          "count": 2
         },
         {
           "word": "War",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Egypt in 'state of near-emergency' as conflict threatens economy",
+          "url": "http://www.africanews.com/2026/03/06/egypt-in-state-of-near-emergency-as-conflict-threatens-economy/",
+          "source": "Africanews",
+          "published": "2026-03-06T15:28:01",
+          "lead": "Egyptian President Abdel Fattah al-Sisi said on Thursday his country is in an economic \"state of near-emergency\" as a re"
+        },
         {
           "title": "Iran denies seeking talks with US after Trump comments",
           "url": "http://www.africanews.com/2026/03/06/iran-denies-seeking-talks-with-us-after-trump-comments/",
@@ -158,21 +150,13 @@
       ]
     },
     "Sudan": {
-      "article_count": 5,
-      "source_count": 5,
-      "baseline": 6.9,
-      "ratio": 0.72,
+      "article_count": 6,
+      "source_count": 6,
+      "baseline": 6.8,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Dead",
-          "count": 2
-        },
-        {
-          "word": "Killed",
-          "count": 2
-        },
         {
           "word": "Manifestation",
           "count": 1
@@ -182,24 +166,31 @@
           "count": 1
         },
         {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "Fighting",
           "count": 1
         },
         {
-          "word": "Casualties",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Rsf",
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Dead",
-          "Killed"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "Sanctions contre le Rwanda, massacre au Soudan du Sud, manifestation au Sénégal : l’hebdo Afrique",
@@ -230,26 +221,34 @@
           "lead": "Clashes across Sudan's southern Kordofan region killed at least 51 people between Wednesday and Thursday, medical source"
         },
         {
-          "title": "Sudan: At Least 9 Dead in New Kordofan Shelling Carnage",
-          "url": "https://allafrica.com/stories/202603060014.html",
+          "title": "Sudan: Hospitals, Supply Routes Hit as Conflict Spreads in Kordofan",
+          "url": "https://allafrica.com/stories/202603060153.html",
           "source": "AllAfrica",
-          "published": "2026-03-06T04:35:43",
-          "lead": "[Dabanga] At least nine people were killed, and 51 reported injured today, after artillery shelling hit the town of Dill"
+          "published": "2026-03-06T08:02:57",
+          "lead": "[OCHA] #Sudan"
+        },
+        {
+          "title": "The drought-conflict reality for women and girls in Sudan, South Sudan and Somalia",
+          "url": "https://reliefweb.int/report/sudan/drought-conflict-reality-women-and-girls-sudan-south-sudan-and-somalia",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:55:12",
+          "lead": "Countries: Sudan, Somalia, South Sudan\n                                      Source: Inter-Agency Working Group East and"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
+        "Jeune Afrique",
         "AllAfrica",
-        "France24 Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "France24 Afrique",
+        "ReliefWeb",
+        "Le Monde Afrique"
       ]
     },
     "Mauritania": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 1.43,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -268,22 +267,37 @@
       ]
     },
     "Mali": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.41,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Manifestation",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mali : à Nioro du Sahel, une manifestation contre l’insécurité interdite",
+          "url": "https://www.jeuneafrique.com/1772002/politique/mali-a-nioro-du-sahel-une-manifestation-contre-linsecurite-interdite/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-06T18:29:35",
+          "lead": "À Nioro du Sahel, une manifestation était prévue ce 6 mars contre les conséquences du blocus imposé par les jihadistes d"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 0.51,
+      "baseline": 1.9,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -339,21 +353,25 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Senegal": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 4.8,
-      "ratio": 0.62,
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 4.9,
+      "ratio": 0.82,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Manifestation",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -379,11 +397,19 @@
           "source": "France24 Afrique",
           "published": "2026-03-06T09:30:26",
           "lead": ""
+        },
+        {
+          "title": "Senegal says company's scandal-plagued sanitary pads are safe",
+          "url": "http://www.africanews.com/2026/03/06/senegal-says-companys-scandal-plagued-sanitary-pads-are-safe/",
+          "source": "Africanews",
+          "published": "2026-03-06T16:44:50",
+          "lead": "Senegal's minister of health said that menstrual pads made by a leading Chinese firm embroiled in a scandal over expired"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Gambia": {
@@ -491,15 +517,19 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.5,
-      "ratio": 0.65,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.05,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -511,10 +541,26 @@
           "source": "RFI Afrique",
           "published": "2026-03-05T18:51:47",
           "lead": "En Côte d’Ivoire, c’est la douche froide pour les cacaoculteurs. Après un prix record de 2 800 francs CFA le kilo lors d"
+        },
+        {
+          "title": "Crise du cacao en Côte d’Ivoire : comment expliquer la baisse drastique du prix d’achat ?",
+          "url": "https://www.jeuneafrique.com/1771909/economie-entreprises/crise-du-cacao-en-cote-divoire-comment-expliquer-la-baisse-drastique-du-prix-dachat/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-06T18:38:00",
+          "lead": "Les autorités ivoiriennes ont réduit de 60 % le prix du cacao payé aux producteurs. Entre chute des cours mondiaux, stoc"
+        },
+        {
+          "title": "Ivory Coast: women tap into financial freedom through rubber tree farms",
+          "url": "http://www.africanews.com/2026/03/06/ivory-coast-women-tap-into-financial-freedom-through-rubber-tree-farms/",
+          "source": "Africanews",
+          "published": "2026-03-06T15:38:52",
+          "lead": "In Ivory Coast, only five percent of women own agricultural land. But this is changing: for many women, owning their own"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "Jeune Afrique",
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Ghana": {
@@ -559,8 +605,8 @@
     "Benin": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 1.6,
-      "ratio": 2.55,
+      "baseline": 1.5,
+      "ratio": 2.61,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -573,7 +619,7 @@
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -581,7 +627,7 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Jihadist",
           "count": 1
         }
       ],
@@ -617,41 +663,29 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Nigeria": {
       "article_count": 9,
-      "source_count": 4,
+      "source_count": 5,
       "baseline": 9.3,
-      "ratio": 0.96,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
-          "count": 2
+          "word": "Killed",
+          "count": 1
         },
         {
-          "word": "President",
+          "word": "Attack",
           "count": 1
         },
         {
           "word": "Boko haram",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Violence",
           "count": 1
         },
         {
@@ -662,11 +696,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Nigeria: ‘Renewed Hope’ or ‘Hopelessness’? | Mehdi Hasan and Daniel Bwala",
-          "url": "https://www.aljazeera.com/video/head-to-head/2026/3/6/nigeria-renewed-hope-or-hopelessness-mehdi-hasan-and-daniel-bwala?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-06T11:02:44",
-          "lead": "Mehdi Hasan goes head-to-head with Nigerian president’s spokesperson Daniel Bwala on the government’s record in office."
+          "title": "'Massive' numbers killed by gunmen in latest Nigeria attack, senator tells BBC",
+          "url": "https://www.bbc.com/news/articles/c1d69z3p9g2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-06T17:06:14",
+          "lead": "Suspected Islamist militants reportedly seized control of a village for two days before being forced out by troops and a"
         },
         {
           "title": "Nigeria: des anglicans conservateurs se réorganisent en opposition à la nouvelle archevêque de Canterbury",
@@ -676,25 +710,11 @@
           "lead": "Des membres d'un courant conservateur de l'Église anglicane ont annoncé la création d'un Conseil anglican mondial jeudi "
         },
         {
-          "title": "Women rickshaw drivers defy norms in Nigeria's conservative Kano",
-          "url": "http://www.africanews.com/2026/03/05/women-rickshaw-drivers-defy-norms-in-nigerias-conservative-kano/",
+          "title": "Nigeria's Mothers of Chibok go from farm to factory in bid to build a better future",
+          "url": "http://www.africanews.com/2026/03/06/nigerias-mothers-of-chibok-go-from-farm-to-factory-in-bid-to-build-a-better-future/",
           "source": "Africanews",
-          "published": "2026-03-05T15:45:59",
-          "lead": "Women rickshaw drivers defy norms in conservative Nigerian city of Kano"
-        },
-        {
-          "title": "Nigeria: Boko Haram Kills Soldiers, Abducts Women, Children in Borno",
-          "url": "https://allafrica.com/stories/202603060031.html",
-          "source": "AllAfrica",
-          "published": "2026-03-06T04:49:21",
-          "lead": "[Daily Trust] Suspected terrorists have attacked a military base and Internally Displaced Persons camp in Ngoshe town, G"
-        },
-        {
-          "title": "Nigeria: Beyond 'Christian Genocide' - the Real Roots of Criminal Violence in Nigeria",
-          "url": "https://allafrica.com/stories/202603060013.html",
-          "source": "AllAfrica",
-          "published": "2026-03-06T04:35:42",
-          "lead": "[The New Humanitarian] Haute-Savoie, France -- \"The only real way to reduce kidnapping in the long term is to improve ec"
+          "published": "2026-03-06T16:24:39",
+          "lead": "Nigerian women whose daughters were kidnapped by Boko Haram refused to give up on their dream of a better future for the"
         },
         {
           "title": "Nigeria: Nigerian Soldiers Foil Midnight Attacks On Borno Military Bases - - Official",
@@ -723,13 +743,28 @@
           "source": "AllAfrica",
           "published": "2026-03-06T06:40:17",
           "lead": "[Premium Times] The presidency said the agreement paves the way for a development that could add approximately 150,000 b"
+        },
+        {
+          "title": "Nigeria — Transhumance Tracking Tool — Flow Monitoring Dashboard 14 — Katsina and Zamfara States (November 2026)",
+          "url": "https://reliefweb.int/report/nigeria/nigeria-transhumance-tracking-tool-flow-monitoring-dashboard-14-katsina-and-zamfara-states-november-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T13:33:16",
+          "lead": "Country: Nigeria\n                                      Source: International Organization for Migration\n                "
+        },
+        {
+          "title": "Nigeria — Transhumance Tracking Tool Report — Early Warning Dashboard 20 — Katsina and Zamfara States (January 2026)",
+          "url": "https://reliefweb.int/report/nigeria/nigeria-transhumance-tracking-tool-report-early-warning-dashboard-20-katsina-and-zamfara-states-january-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T13:33:11",
+          "lead": "Country: Nigeria\n                                      Source: International Organization for Migration\n                "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Al Jazeera",
         "AllAfrica",
-        "Africanews"
+        "BBC Africa",
+        "Africanews",
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Cape Verde": {
@@ -747,8 +782,8 @@
     "Chad": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 0.82,
+      "baseline": 2.5,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -757,11 +792,11 @@
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Rebel",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "Government",
           "count": 1
         },
         {
@@ -798,15 +833,24 @@
       "ratio": 0.33,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Au Cameroun, Paul Biya s’apprête-t-il à modifier la Constitution ?",
-          "url": "https://www.jeuneafrique.com/1770273/politique/au-cameroun-paul-biya-sapprete-a-modifier-la-constitution/",
+          "title": "Crise anglophone au Cameroun : quatre personnes arrêtées en Belgique pour des « crimes de guerre » présumés",
+          "url": "https://www.jeuneafrique.com/1771936/politique/crise-anglophone-au-cameroun-quatre-personnes-arretees-en-belgique-pour-des-crimes-de-guerre-presumes/",
           "source": "Jeune Afrique",
-          "published": "2026-03-05T16:50:39",
-          "lead": "Plusieurs fois annoncée mais longtemps différée, la réforme constitutionnelle et institutionnelle n’est plus une simple "
+          "published": "2026-03-06T17:01:58",
+          "lead": "La justice belge a annoncé l’arrestation de quatre individus soupçonnés d’avoir soutenu, depuis l’Europe, les activités "
         }
       ],
       "sources": [
@@ -814,20 +858,16 @@
       ]
     },
     "CAR": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.3,
-      "ratio": 3.16,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.31,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
           "count": 2
-        },
-        {
-          "word": "President",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -852,35 +892,51 @@
           "source": "Jeune Afrique",
           "published": "2026-03-06T07:00:00",
           "lead": "Plus d’une décennie après les violences de janvier 2014, Bossembélé offre le visage d’une ville paisible, dont les habit"
-        },
-        {
-          "title": "CAR president pledges closer ties with Russia",
-          "url": "http://www.africanews.com/2026/03/05/car-president-pledges-closer-ties-with-russia/",
-          "source": "Africanews",
-          "published": "2026-03-05T16:06:15",
-          "lead": "Since 2018, Bangui has forged closer ties with Moscow, with the later providing security and economic assistance"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 1.22,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 15,
+      "source_count": 3,
+      "baseline": 2.1,
+      "ratio": 7.14,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Refugees",
+          "count": 11
+        },
         {
           "word": "Killed",
           "count": 2
         },
         {
           "word": "Manifestation",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -906,9 +962,73 @@
           "source": "Africanews",
           "published": "2026-03-05T20:17:54",
           "lead": "At least 25 civilians, including women and children, were killed in Ayod County in Jonglei state on February 21, accordi"
+        },
+        {
+          "title": "The drought-conflict reality for women and girls in Sudan, South Sudan and Somalia",
+          "url": "https://reliefweb.int/report/sudan/drought-conflict-reality-women-and-girls-sudan-south-sudan-and-somalia",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:55:12",
+          "lead": "Countries: Sudan, Somalia, South Sudan\n                                      Source: Inter-Agency Working Group East and"
+        },
+        {
+          "title": "Uganda Refugee Response: Adjumani Sub-Office Q4 2025 UCRRP Settlement Performance Snapshot",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-adjumani-sub-office-q4-2025-ucrrp-settlement-performance-snapshot",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:44",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Arua Sub-Office Q4 2025 UCRRP Settlement Performance Snapshot",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-arua-sub-office-q4-2025-ucrrp-settlement-performance-snapshot",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:41",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: RRP Funding Dashboard Q4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-rrp-funding-dashboard-q4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:38",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: National Performance Snapshot Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-national-performance-snapshot-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:35",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Protection dashboard - Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-protection-dashboard-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:32",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Health & Nutrition Sector dashboard Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-health-nutrition-sector-dashboard-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:29",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: WASH dashboard Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-wash-dashboard-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:26",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Food Security dashboard Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-food-security-dashboard-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:23",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "France24 Afrique",
         "Africanews"
       ]
@@ -929,7 +1049,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.4,
-      "ratio": 1.46,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -956,8 +1076,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Congo": {
@@ -988,31 +1108,43 @@
       ]
     },
     "DRC": {
-      "article_count": 6,
-      "source_count": 3,
-      "baseline": 7.7,
-      "ratio": 0.78,
+      "article_count": 11,
+      "source_count": 4,
+      "baseline": 7.6,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Violence",
+          "count": 3
+        },
         {
           "word": "M23",
           "count": 2
         },
         {
           "word": "Gouvernement",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
+          "word": "Humanitarian",
+          "count": 2
         },
         {
           "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1024,6 +1156,20 @@
           "source": "RFI Afrique",
           "published": "2026-03-06T07:05:17",
           "lead": "Le patron de l’ONU Antonio Guterres vient de nommer un nouveau chef pour sa mission pour la stabilisation en République "
+        },
+        {
+          "title": "RDC: Faire réaliser le cessez-le-feu, premier test pour le nouveau chef de la Monusco",
+          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260306-rdc-faire-r%C3%A9aliser-le-cessez-le-feu-premier-test-pour-le-nouveau-chef-de-la-monusco",
+          "source": "RFI Afrique",
+          "published": "2026-03-06T16:33:22",
+          "lead": "Après le départ de la Guinéenne Bintou Keita, c'est l'Américain James Swan qui prend la tête de la mission de stabilisat"
+        },
+        {
+          "title": "Est de la RDC: le Groupe de contact sur les Grands Lacs appelle «toutes les parties à respecter leurs obligations»",
+          "url": "https://www.rfi.fr/fr/afrique/20260306-est-de-la-rdc-le-groupe-de-contact-sur-les-grands-lacs-appelle-toutes-les-parties-%C3%A0-respecter-leurs-obligations",
+          "source": "RFI Afrique",
+          "published": "2026-03-06T17:11:14",
+          "lead": "Dans un communiqué conjoint, ce 5 mars 2026, les États-Unis, l'Allemagne, la Belgique, le Danemark, la France, les Pays-"
         },
         {
           "title": "RDC: des députés veulent déposer une motion de défiance contre la gestion du ministre des Sports",
@@ -1040,13 +1186,6 @@
           "lead": "Un avion abandonné depuis près de vingt ans sur le tarmac de l'aéroport de Faro, au Portugal, revient dans l'actualité. "
         },
         {
-          "title": "Est de la RDC: comment l’AFC/M23 conteste les accusations de crimes contenues dans un rapport de l’ONU",
-          "url": "https://www.rfi.fr/fr/afrique/20260305-est-de-la-rdc-comment-l-afc-m23-conteste-les-accusations-de-crimes-contenues-dans-un-rapport-de-l-onu",
-          "source": "RFI Afrique",
-          "published": "2026-03-05T16:22:31",
-          "lead": "Depuis janvier 2025, toutes les parties au conflit dans l’est de la RDC sont accusées d’avoir commis de graves violation"
-        },
-        {
           "title": "« Il faut un début de retrait des troupes rwandaises », plaide la ministre des affaires étrangères congolaise",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/06/il-faut-un-debut-de-retrait-des-troupes-rwandaises-plaide-la-ministre-des-affaires-etrangeres-congolaise_6669711_3212.html",
           "source": "Le Monde Afrique",
@@ -1054,17 +1193,46 @@
           "lead": "Le Trésor américain a placé sous sanctions l’armée rwandaise, le 2 mars, pour son intervention dans l’est de la Républiq"
         },
         {
+          "title": "RDC : le plan de la Monusco pour soutenir le cessez-le-feu dans l’Est",
+          "url": "https://www.jeuneafrique.com/1771746/politique/rdc-le-plan-de-la-monusco-pour-soutenir-le-cessez-le-feu-dans-lest/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-06T18:53:47",
+          "lead": "Alors que les multiples engagements en faveur d’un cessez-le-feu tardent à se concrétiser, la mission onusienne étudie l"
+        },
+        {
           "title": "RDC : l’Américain James Swan prend la tête de la Monusco",
           "url": "https://www.jeuneafrique.com/1771868/politique/rdc-lamericain-james-swan-prend-la-tete-de-la-monusco/",
           "source": "Jeune Afrique",
           "published": "2026-03-06T15:25:29",
           "lead": "L’ancien ambassadeur des États-Unis en RDC prend la tête d’une mission appelée à jouer un rôle décisif dans la surveilla"
+        },
+        {
+          "title": "Democratic Republic of the Congo - Landslide (media, mediamedia, NOAA-CPC) (ECHO Daily Flash of 6 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-landslide-media-mediamedia-noaa-cpc-echo-daily-flash-6-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T12:29:14",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: European Commission's Directorat"
+        },
+        {
+          "title": "The drought-conflict reality for women and girls in Sudan, South Sudan and Somalia",
+          "url": "https://reliefweb.int/report/sudan/drought-conflict-reality-women-and-girls-sudan-south-sudan-and-somalia",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:55:12",
+          "lead": "Countries: Sudan, Somalia, South Sudan\n                                      Source: Inter-Agency Working Group East and"
+        },
+        {
+          "title": "UNHCR Appeal: Voluntary repatriation of Burundian refugees from Tanzania and other countries. January - June 2026",
+          "url": "https://reliefweb.int/report/burundi/unhcr-appeal-voluntary-repatriation-burundian-refugees-tanzania-and-other-countries-january-june-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:47",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Jeune Afrique",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "São Tomé": {
@@ -1083,7 +1251,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.75,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1174,15 +1342,43 @@
       ]
     },
     "Somalia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 2.3,
-      "ratio": 0.43,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
+          "word": "Drought",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
           "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1194,20 +1390,46 @@
           "source": "RFI Afrique",
           "published": "2026-03-06T07:05:17",
           "lead": "Le patron de l’ONU Antonio Guterres vient de nommer un nouveau chef pour sa mission pour la stabilisation en République "
+        },
+        {
+          "title": "Walking for her life: the triple healthcare delay for women in Somalia",
+          "url": "https://reliefweb.int/report/somalia/walking-her-life-triple-healthcare-delay-women-somalia",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T16:24:12",
+          "lead": "Country: Somalia\n                                      Source: Médecins Sans Frontières\n                                "
+        },
+        {
+          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 6 March 2026",
+          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-6-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T12:31:45",
+          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
+        },
+        {
+          "title": "The drought-conflict reality for women and girls in Sudan, South Sudan and Somalia",
+          "url": "https://reliefweb.int/report/sudan/drought-conflict-reality-women-and-girls-sudan-south-sudan-and-somalia",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:55:12",
+          "lead": "Countries: Sudan, Somalia, South Sudan\n                                      Source: Inter-Agency Working Group East and"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Uganda": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 1.74,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 17,
+      "source_count": 4,
+      "baseline": 1.9,
+      "ratio": 8.79,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Refugees",
+          "count": 13
+        },
         {
           "word": "Government",
           "count": 2
@@ -1219,6 +1441,18 @@
         {
           "word": "Combat",
           "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1227,7 +1461,7 @@
           "title": "Ugandan students who fled Iran air strikes recall 'ground trembling'",
           "url": "https://www.bbc.com/news/articles/cn8zd3q3090o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-03-06T14:49:22",
+          "published": "2026-03-06T17:14:56",
           "lead": "Some opted to remain in Iran, even after their government offered to bring them home."
         },
         {
@@ -1250,22 +1484,100 @@
           "source": "AllAfrica",
           "published": "2026-03-06T10:09:33",
           "lead": "[Nile Post] Ugandan health advocate Regina Mariam Namata Kamoga has been named among eight Global Female Trailblazers re"
+        },
+        {
+          "title": "Burundi: Plan de reponse pour le retour massif des refugies Burundais et autres populations en provenance de Tanzanie et autres pays d’asile",
+          "url": "https://reliefweb.int/report/burundi/plan-de-reponse-pour-le-retour-massif-des-refugies-burundais-et-autres-populations-en-provenance-de-tanzanie-et-autres-pays-dasile",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:51",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        },
+        {
+          "title": "UNHCR Appeal: Voluntary repatriation of Burundian refugees from Tanzania and other countries. January - June 2026",
+          "url": "https://reliefweb.int/report/burundi/unhcr-appeal-voluntary-repatriation-burundian-refugees-tanzania-and-other-countries-january-june-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:47",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        },
+        {
+          "title": "Uganda Refugee Response: Adjumani Sub-Office Q4 2025 UCRRP Settlement Performance Snapshot",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-adjumani-sub-office-q4-2025-ucrrp-settlement-performance-snapshot",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:44",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Arua Sub-Office Q4 2025 UCRRP Settlement Performance Snapshot",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-arua-sub-office-q4-2025-ucrrp-settlement-performance-snapshot",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:41",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: RRP Funding Dashboard Q4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-rrp-funding-dashboard-q4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:38",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: National Performance Snapshot Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-national-performance-snapshot-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:35",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Protection dashboard - Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-protection-dashboard-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:32",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
+        },
+        {
+          "title": "Uganda Refugee Response: Health & Nutrition Sector dashboard Quarter 4 2025",
+          "url": "https://reliefweb.int/report/uganda/uganda-refugee-response-health-nutrition-sector-dashboard-quarter-4-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:29",
+          "lead": "Countries: Uganda, Democratic Republic of the Congo, South Sudan\n                                      Source: UN High C"
         }
       ],
       "sources": [
+        "ReliefWeb",
+        "BBC Africa",
         "AllAfrica",
-        "Africanews",
-        "BBC Africa"
+        "Africanews"
       ]
     },
     "Kenya": {
-      "article_count": 5,
-      "source_count": 2,
+      "article_count": 8,
+      "source_count": 3,
       "baseline": 5.8,
-      "ratio": 0.86,
+      "ratio": 1.39,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1274,13 +1586,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-06T03:56:18",
           "lead": "Au Kenya, ils seraient plus de 1 000 Kényans à avoir été recrutés au sein des forces armées russes, selon un rapport des"
-        },
-        {
-          "title": "Kenya: CAF Postpones Wafcon 2026 Over Unseen Circumstances",
-          "url": "https://allafrica.com/stories/202603050672.html",
-          "source": "AllAfrica",
-          "published": "2026-03-05T15:36:06",
-          "lead": "[Capital FM] Nairobi -- The Women's Africa Cup of Nations (Wafcon), earlier scheduled to begin on March 17 this year in "
         },
         {
           "title": "Kenya: Court of Appeal Nullifies Sections of Cybercrimes Act",
@@ -1302,88 +1607,218 @@
           "source": "AllAfrica",
           "published": "2026-03-06T07:59:21",
           "lead": "[Capital FM] Nairobi -- The National Assembly has passed the National Infrastructure Fund (NIF) Bill, 2026, a landmark l"
+        },
+        {
+          "title": "Kenya: World Bank Commits Sh64.6bn to Upgrade Nairobi Commuter Rail",
+          "url": "https://allafrica.com/stories/202603060645.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T14:29:47",
+          "lead": "[Capital FM] Nairobi -- The World Bank has committed $500.00 million (64.6billion) to transform the Nairobi Metropolitan"
+        },
+        {
+          "title": "Kenya: Probe Chopper Crash That Killed MP Johana Ngeno, Says Patrick Ole Ntutu",
+          "url": "https://allafrica.com/stories/202603060644.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T14:07:25",
+          "lead": "[Capital FM] Nairobi -- Narok Governor Patrick Ole Ntutu has called for a thorough investigation into the helicopter cra"
+        },
+        {
+          "title": "Burundi: Plan de reponse pour le retour massif des refugies Burundais et autres populations en provenance de Tanzanie et autres pays d’asile",
+          "url": "https://reliefweb.int/report/burundi/plan-de-reponse-pour-le-retour-massif-des-refugies-burundais-et-autres-populations-en-provenance-de-tanzanie-et-autres-pays-dasile",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:51",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        },
+        {
+          "title": "UNHCR Appeal: Voluntary repatriation of Burundian refugees from Tanzania and other countries. January - June 2026",
+          "url": "https://reliefweb.int/report/burundi/unhcr-appeal-voluntary-repatriation-burundian-refugees-tanzania-and-other-countries-january-june-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:47",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique",
         "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.62,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "M23",
+          "count": 1
+        },
+        {
           "word": "Manifestation",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Est de la RDC: le Groupe de contact sur les Grands Lacs appelle «toutes les parties à respecter leurs obligations»",
+          "url": "https://www.rfi.fr/fr/afrique/20260306-est-de-la-rdc-le-groupe-de-contact-sur-les-grands-lacs-appelle-toutes-les-parties-%C3%A0-respecter-leurs-obligations",
+          "source": "RFI Afrique",
+          "published": "2026-03-06T17:11:14",
+          "lead": "Dans un communiqué conjoint, ce 5 mars 2026, les États-Unis, l'Allemagne, la Belgique, le Danemark, la France, les Pays-"
+        },
         {
           "title": "Sanctions contre le Rwanda, massacre au Soudan du Sud, manifestation au Sénégal : l’hebdo Afrique",
           "url": "https://www.france24.com/fr/afrique/20260306-sanctions-contre-rwanda-massacre-soudan-du-sud-manifestation-s%C3%A9n%C3%A9gal-hebdo-afrique-cedeao",
           "source": "France24 Afrique",
           "published": "2026-03-06T09:30:26",
           "lead": ""
+        },
+        {
+          "title": "Burundi: Plan de reponse pour le retour massif des refugies Burundais et autres populations en provenance de Tanzanie et autres pays d’asile",
+          "url": "https://reliefweb.int/report/burundi/plan-de-reponse-pour-le-retour-massif-des-refugies-burundais-et-autres-populations-en-provenance-de-tanzanie-et-autres-pays-dasile",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:51",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        },
+        {
+          "title": "UNHCR Appeal: Voluntary repatriation of Burundian refugees from Tanzania and other countries. January - June 2026",
+          "url": "https://reliefweb.int/report/burundi/unhcr-appeal-voluntary-repatriation-burundian-refugees-tanzania-and-other-countries-january-june-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:47",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
         }
       ],
       "sources": [
+        "ReliefWeb",
+        "RFI Afrique",
         "France24 Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Tanzania": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.83,
+      "baseline": 1.5,
+      "ratio": 1.33,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Tanzania: Tanzania Achieves Milestone in Child Survival, Reduces Maternal Mortality By 80%",
-          "url": "https://allafrica.com/stories/202603060029.html",
-          "source": "AllAfrica",
-          "published": "2026-03-06T04:49:20",
-          "lead": "[Daily News] Dar es Salaam -- TANZANIA has achieved a significant milestone in child survival, cutting under-five deaths"
+          "title": "Burundi: Plan de reponse pour le retour massif des refugies Burundais et autres populations en provenance de Tanzanie et autres pays d’asile",
+          "url": "https://reliefweb.int/report/burundi/plan-de-reponse-pour-le-retour-massif-des-refugies-burundais-et-autres-populations-en-provenance-de-tanzanie-et-autres-pays-dasile",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:51",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        },
+        {
+          "title": "UNHCR Appeal: Voluntary repatriation of Burundian refugees from Tanzania and other countries. January - June 2026",
+          "url": "https://reliefweb.int/report/burundi/unhcr-appeal-voluntary-repatriation-burundian-refugees-tanzania-and-other-countries-january-june-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:47",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "ReliefWeb"
+      ]
+    },
+    "Tanzania": {
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 1.1,
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Burundi: Plan de reponse pour le retour massif des refugies Burundais et autres populations en provenance de Tanzanie et autres pays d’asile",
+          "url": "https://reliefweb.int/report/burundi/plan-de-reponse-pour-le-retour-massif-des-refugies-burundais-et-autres-populations-en-provenance-de-tanzanie-et-autres-pays-dasile",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:51",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        },
+        {
+          "title": "UNHCR Appeal: Voluntary repatriation of Burundian refugees from Tanzania and other countries. January - June 2026",
+          "url": "https://reliefweb.int/report/burundi/unhcr-appeal-voluntary-repatriation-burundian-refugees-tanzania-and-other-countries-january-june-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-06T11:03:47",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, Kenya, Rwanda, Uganda, United Republic of Tanzania\n               "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
       ]
     },
     "Madagascar": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.35,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Épidémie",
+          "word": "Combat",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Épidémie",
           "count": 1
         }
       ],
@@ -1480,23 +1915,23 @@
           "lead": "En Afrique, une vingtaine de pays ont signé un accord bilatéral avec les États-Unis dans le cadre de « La stratégie mond"
         },
         {
-          "title": "La Zambie et le Zimbabwe se rebiffent contre les « deals » de Donald Trump sur la santé",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/05/la-zambie-et-le-zimbabwe-se-rebiffent-contre-les-deals-de-donald-trump-sur-la-sante_6669672_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-05T18:00:11",
-          "lead": "A la suite du démantèlement brutal de son aide au développement international, en janvier 2025, l’administration américa"
+          "title": "IMF expects talks with Zambia on new financial package to start in April",
+          "url": "http://www.africanews.com/2026/03/06/imf-expects-talks-with-zambia-on-new-financial-package-to-start-in-april/",
+          "source": "Africanews",
+          "published": "2026-03-06T15:02:07",
+          "lead": "Lusaka's most recent program with the IMF, a $1.7 billion facility agreed in 2022, ended in January"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Africanews"
       ]
     },
     "Malawi": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.4,
+      "baseline": 0.9,
+      "ratio": 2.31,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1527,42 +1962,27 @@
         }
       ],
       "sources": [
-        "DW Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "DW Africa"
       ]
     },
     "Mozambique": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.2,
-      "ratio": 0.86,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Chapo Calls for Rigorous Action Against Corruption",
-          "url": "https://allafrica.com/stories/202603060033.html",
-          "source": "AllAfrica",
-          "published": "2026-03-06T04:49:22",
-          "lead": "[AIM] Maputo -- Mozambican President Daniel Chapo has called for rigorous administrative action against corruption in or"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Zimbabwe": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 1.36,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1585,13 +2005,6 @@
           "lead": "En Afrique, une vingtaine de pays ont signé un accord bilatéral avec les États-Unis dans le cadre de « La stratégie mond"
         },
         {
-          "title": "La Zambie et le Zimbabwe se rebiffent contre les « deals » de Donald Trump sur la santé",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/05/la-zambie-et-le-zimbabwe-se-rebiffent-contre-les-deals-de-donald-trump-sur-la-sante_6669672_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-05T18:00:11",
-          "lead": "A la suite du démantèlement brutal de son aide au développement international, en janvier 2025, l’administration américa"
-        },
-        {
           "title": "Malawi: Who Is Wicknell Chivayo and What Is He Doing in Malawi?",
           "url": "https://allafrica.com/stories/202603060122.html",
           "source": "AllAfrica",
@@ -1608,8 +2021,7 @@
       ],
       "sources": [
         "RFI Afrique",
-        "AllAfrica",
-        "Le Monde Afrique"
+        "AllAfrica"
       ]
     },
     "Namibia": {
@@ -1637,19 +2049,19 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 18,
-      "source_count": 5,
+      "article_count": 19,
+      "source_count": 3,
       "baseline": 13.6,
-      "ratio": 1.33,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Minister",
-          "count": 2
+          "count": 3
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         },
         {
@@ -1659,20 +2071,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "‘Segregation’: Multimillion-dollar crime wall causes uproar in S Africa",
-          "url": "https://www.aljazeera.com/features/2026/3/6/segregation-multimillion-dollar-crime-wall-causes-uproar-in-s-africa?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-06T11:31:36",
-          "lead": "As Cape Town plans security measures along N2 highway, shack dwellers say the project will separate the poor from rich."
-        },
-        {
-          "title": "South Africa’s president calls Trump’s policy to offer refuge to white Afrikaners ‘racist’",
-          "url": "https://www.theguardian.com/world/2026/mar/05/south-africa-president-cyril-ramaphosa-calls-donald-trump-policy-white-afrikaners-racist",
-          "source": "The Guardian Africa",
-          "published": "2026-03-05T16:23:57",
-          "lead": "US president is ‘truly uninformed’ for spreading claims of ‘white genocide’ in South Africa, Cyril Ramaphosa tells New Y"
-        },
         {
           "title": "Uproar over Cape Town's plan to build an anti-crime wall on airport highway",
           "url": "http://www.africanews.com/2026/03/06/uproar-over-cape-towns-plan-to-build-an-anti-crime-wall-on-airport-highway/",
@@ -1737,19 +2135,31 @@
           "lead": "[allAfrica]"
         },
         {
-          "title": "RISK ANALYSIS: SA-US relations — a new worst-case scenario",
-          "url": "https://www.dailymaverick.co.za/article/saus-relations-a-new-worstcase-scenario",
-          "source": "Daily Maverick",
-          "published": "2026-03-06T12:29:47",
-          "lead": "The potential for escalating US trade pressures looms over South Africa, highlighting the risks of diplomatic strains an"
+          "title": "South Africa: Farewell to Soli Philander, a Relentless Observer of South African Life",
+          "url": "https://allafrica.com/stories/202603060151.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T08:00:39",
+          "lead": "[Daily Maverick] Soli Philander, Cape Town's versatile actor, comedian, and passionate activist, has died from cancer. H"
+        },
+        {
+          "title": "South Africa: Central Karoo Lags Behind Western Cape's Progress",
+          "url": "https://allafrica.com/stories/202603060643.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T14:06:17",
+          "lead": "[GroundUp] Teenage pregnancy, low birth weights, and high neonatal mortality plague the areas around Beaufort West and L"
+        },
+        {
+          "title": "South Africa: Bronkhorstspruit Gets Water Relief As Government Intervention Delivers New Borehole",
+          "url": "https://allafrica.com/stories/202603060621.html",
+          "source": "AllAfrica",
+          "published": "2026-03-06T13:36:53",
+          "lead": "[SAnews.gov.za] Water and Sanitation Minister Pemmy Majodina will this morning officiate the handover of a newly complet"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Al Jazeera",
         "Daily Maverick",
-        "Africanews",
-        "The Guardian Africa"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Eswatini": {
