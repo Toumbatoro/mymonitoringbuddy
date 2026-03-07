@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-07T01:12:36.146016",
+  "generated_at": "2026-03-07T04:18:05.555560",
   "summary": {
-    "high": 0,
-    "elevated": 9,
-    "normal": 24,
-    "quiet": 21
+    "high": 4,
+    "elevated": 5,
+    "normal": 23,
+    "quiet": 22
   },
   "countries": {
     "Morocco": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 3.8,
-      "ratio": 0.52,
+      "baseline": 3.7,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -33,8 +33,8 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Algeria": {
@@ -64,8 +64,8 @@
     "Libya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 0.55,
+      "baseline": 1.6,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -87,7 +87,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 1.5,
+      "ratio": 1.54,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -122,13 +122,21 @@
       ]
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 6.8,
-      "ratio": 0.44,
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 6.2,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Manifestation",
           "count": 1
@@ -138,7 +146,7 @@
           "count": 1
         },
         {
-          "word": "Fighting",
+          "word": "Dead",
           "count": 1
         },
         {
@@ -146,12 +154,19 @@
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Fighting",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Soudan du Sud: l’armée donne 72 heures aux casques bleus et aux ONG pour quitter la ville d'Akobo",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-soudan-du-sud-l-arm%C3%A9e-donne-72-heures-aux-casques-bleus-et-aux-ong-pour-quitter-la-ville-d-akobo",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:49:39",
+          "lead": "Au Soudan du Sud, un ultimatum de 72 heures a été lancé, vendredi 6 mars, par l’armée gouvernementale à l’attention de l"
+        },
         {
           "title": "Sanctions contre le Rwanda, massacre au Soudan du Sud, manifestation au Sénégal : l’hebdo Afrique",
           "url": "https://www.france24.com/fr/afrique/20260306-sanctions-contre-rwanda-massacre-soudan-du-sud-manifestation-s%C3%A9n%C3%A9gal-hebdo-afrique-cedeao",
@@ -175,9 +190,10 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -205,8 +221,8 @@
     "Mali": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 0.41,
+      "baseline": 2.3,
+      "ratio": 0.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -232,8 +248,8 @@
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 0.52,
+      "baseline": 1.8,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -254,8 +270,8 @@
     "Niger": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.1,
+      "baseline": 2.6,
+      "ratio": 1.14,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -289,9 +305,9 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Senegal": {
@@ -343,9 +359,9 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "RFI Afrique",
         "France24 Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Gambia": {
@@ -373,16 +389,16 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 1.6,
-      "ratio": 1.84,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 1.5,
+      "ratio": 1.33,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 2
+          "count": 1
         },
         {
           "word": "President",
@@ -399,13 +415,6 @@
           "lead": "Mamadi Doumbouya est rentré en Guinée ce vendredi 6 mars vers midi après trois semaines d’absence. Il a été accueilli à "
         },
         {
-          "title": "Kidnappings en Guinée: «Les populations ne demandent qu'à être sécurisées»",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260306-kidnappings-en-guin%C3%A9e-les-populations-ne-demandent-qu-%C3%A0-%C3%AAtre-s%C3%A9curis%C3%A9es",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T06:16:13",
-          "lead": "Alors que le président guinéen Mamadi Doumbouya est censé rentrer ce vendredi 6 mars 2026 à Conakry, trois semaines aprè"
-        },
-        {
           "title": "Doumbouya returns to Guinea after prolonged absence",
           "url": "http://www.africanews.com/2026/03/06/doumbouya-returns-to-guinea-after-prolonged-absence/",
           "source": "Africanews",
@@ -414,8 +423,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Sierra Leone": {
@@ -433,8 +442,8 @@
     "Liberia": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 1.28,
+      "baseline": 1.5,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -502,15 +511,15 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "RFI Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.8,
+      "baseline": 2.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -522,7 +531,7 @@
     "Togo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -532,19 +541,15 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 1.5,
-      "ratio": 2.0,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 1.6,
+      "ratio": 2.55,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Jihadist",
           "count": 1
         },
         {
@@ -554,10 +559,21 @@
         {
           "word": "Attack",
           "count": 1
+        },
+        {
+          "word": "Jihadist",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Bénin: le parti les Démocrates veut rencontrer Thomas Boni Yayi avant d’accepter sa démission",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-b%C3%A9nin-le-parti-les-d%C3%A9mocrates-veut-rencontrer-thomas-boni-yayi-avant-d-accepter-sa-d%C3%A9mission",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:25:03",
+          "lead": "Au Bénin, la démission de l'ancien chef d'État de la tête du principal parti d'opposition n'est toujours pas actée par l"
+        },
         {
           "title": "Une position de l'armée près de Karimama attaquée au Bénin, au moins 15 soldats tués",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260306-une-position-de-l-arm%C3%A9e-pr%C3%A8s-de-karimama-attaqu%C3%A9e-au-b%C3%A9nin-au-moins-15-soldats-tu%C3%A9s",
@@ -581,16 +597,17 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Nigeria": {
       "article_count": 7,
       "source_count": 4,
-      "baseline": 9.2,
-      "ratio": 0.76,
+      "baseline": 8.8,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -664,10 +681,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews",
+        "RFI Afrique",
         "BBC Africa",
-        "RFI Afrique"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -685,17 +702,17 @@
     "Chad": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 0.41,
+      "baseline": 2.3,
+      "ratio": 0.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rebel",
+          "word": "Minister",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Rebel",
           "count": 1
         },
         {
@@ -718,12 +735,12 @@
       ]
     },
     "Cameroon": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 3.1,
-      "ratio": 0.65,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 3.0,
+      "ratio": 0.33,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Crise",
@@ -731,26 +748,6 @@
         },
         {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Violence",
           "count": 1
         }
       ],
@@ -762,26 +759,18 @@
           "source": "Jeune Afrique",
           "published": "2026-03-06T17:01:58",
           "lead": "La justice belge a annoncé l’arrestation de quatre individus soupçonnés d’avoir soutenu, depuis l’Europe, les activités "
-        },
-        {
-          "title": "Cameroonian Separatist Leaders Arrested in Belgium",
-          "url": "https://www.hrw.org/news/2026/03/06/cameroonian-separatist-leaders-arrested-in-belgium",
-          "source": "Human Rights Watch",
-          "published": "2026-03-06T19:23:13",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Cars d"
         }
       ],
       "sources": [
-        "Human Rights Watch",
         "Jeune Afrique"
       ]
     },
     "CAR": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.3,
-      "ratio": 2.37,
-      "status": "elevated",
+      "baseline": 1.2,
+      "ratio": 2.5,
+      "status": "high",
       "confidence": "medium",
       "keywords": [
         {
@@ -814,18 +803,26 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.1,
-      "ratio": 0.97,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 2.0,
+      "ratio": 1.5,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Manifestation",
           "count": 1
@@ -837,6 +834,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Soudan du Sud: l’armée donne 72 heures aux casques bleus et aux ONG pour quitter la ville d'Akobo",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-soudan-du-sud-l-arm%C3%A9e-donne-72-heures-aux-casques-bleus-et-aux-ong-pour-quitter-la-ville-d-akobo",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:49:39",
+          "lead": "Au Soudan du Sud, un ultimatum de 72 heures a été lancé, vendredi 6 mars, par l’armée gouvernementale à l’attention de l"
+        },
         {
           "title": "Sanctions contre le Rwanda, massacre au Soudan du Sud, manifestation au Sénégal : l’hebdo Afrique",
           "url": "https://www.france24.com/fr/afrique/20260306-sanctions-contre-rwanda-massacre-soudan-du-sud-manifestation-s%C3%A9n%C3%A9gal-hebdo-afrique-cedeao",
@@ -853,8 +857,9 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "France24 Afrique"
+        "RFI Afrique",
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Eq. Guinea": {
@@ -870,16 +875,20 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 1.4,
-      "ratio": 2.14,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.79,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Coup",
           "count": 2
+        },
+        {
+          "word": "Crise",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -890,6 +899,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-06T23:21:27",
           "lead": "Sylvia Bongo s'est exprimée pour la première fois depuis la fin de sa détention, vendredi 6 mars, dans une interview acc"
+        },
+        {
+          "title": "Selon Marianne, le Quai d'Orsay a entravé une enquête pour crimes contre l'humanité au Gabon",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-selon-marianne-le-quai-d-orsay-a-entrav%C3%A9-une-enqu%C3%AAte-pour-crimes-contre-l-humanit%C3%A9-au-gabon",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:36:35",
+          "lead": "Dans une enquête publiée ce jeudi 5 mars, l'hebdomadaire français Marianne affirme que le ministère français des Affaire"
         },
         {
           "title": "Exclusif : \"Mon fils et moi avons été torturés\", dit Sylvia Bongo, ex-Première dame du Gabon",
@@ -907,16 +923,16 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Congo": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.65,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -940,16 +956,20 @@
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 3,
       "baseline": 7.7,
-      "ratio": 1.04,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 3
+          "count": 4
+        },
+        {
+          "word": "Crise",
+          "count": 1
         },
         {
           "word": "Gouvernement",
@@ -971,11 +991,25 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "RDC: l'ONU nomme l'américain James Swan à la tête de la Monusco",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-rdc-l-onu-nomme-l-am%C3%A9ricain-james-swan-%C3%A0-la-t%C3%AAte-de-la-monusco",
+          "title": "RDC: ces défis qui attendent James Swan à la tête de la Monusco",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-rdc-ces-d%C3%A9fis-qui-attendent-james-swan-%C3%A0-la-t%C3%AAte-de-la-monusco",
           "source": "RFI Afrique",
-          "published": "2026-03-06T07:05:17",
-          "lead": "Le patron de l’ONU Antonio Guterres vient de nommer un nouveau chef pour sa mission pour la stabilisation en République "
+          "published": "2026-03-07T03:50:35",
+          "lead": "Le nouveau patron de la Monusco est américain. James Swan, ancien ambassadeur des États-Unis en RDC sous Barack Obama, a"
+        },
+        {
+          "title": "RDC: la nomination de James Swan à la tête de la Monusco, un compromis arraché au Conseil de sécurité",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-rdc-la-nomination-de-james-swan-%C3%A0-la-t%C3%AAte-de-la-monusco-un-compromis-arrach%C3%A9-au-conseil-de-s%C3%A9curit%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:33:17",
+          "lead": "Il aura fallu trois mois pour y arriver. La nomination de James Swan à la tête de la Monusco n'a pas été un long fleuve "
+        },
+        {
+          "title": "Est de la RDC: Washington impose des restrictions de visas à «plusieurs hauts responsables rwandais»",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-est-de-la-rdc-washington-impose-des-restrictions-de-visas-%C3%A0-plusieurs-hauts-responsables-rwandais",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:45:36",
+          "lead": "La pression américaine s’accentue sur Kigali. Quelques jours après des sanctions économiques d'une ampleur inédite visan"
         },
         {
           "title": "RDC: Faire réaliser le cessez-le-feu, premier test pour le nouveau chef de la Monusco",
@@ -990,13 +1024,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-06T17:11:14",
           "lead": "Dans un communiqué conjoint, ce 5 mars 2026, les États-Unis, l'Allemagne, la Belgique, le Danemark, la France, les Pays-"
-        },
-        {
-          "title": "RDC: les autorités portugaises pressent Jean-Pierre Bemba de récupérer un avion saisi depuis 2007",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-rdc-les-autorit%C3%A9s-portugaises-pressent-jean-pierre-bemba-de-r%C3%A9cup%C3%A9rer-un-avion-saisi-depuis-2007",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T03:37:20",
-          "lead": "Un avion abandonné depuis près de vingt ans sur le tarmac de l'aéroport de Faro, au Portugal, revient dans l'actualité. "
         },
         {
           "title": "Entre Kinshasa et le M23, la bataille pour le ciel congolais",
@@ -1028,9 +1055,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -1046,31 +1073,16 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.3,
-      "ratio": 0.77,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Angola: la loi sur les ONG inquiète la société civile à l'approche des élections générales",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-angola-la-loi-sur-les-ong-inqui%C3%A8te-la-soci%C3%A9t%C3%A9-civile-%C3%A0-l-approche-des-%C3%A9lections-g%C3%A9n%C3%A9rales",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T03:50:23",
-          "lead": "La loi des ONG est entrée en vigueur mardi 3 mars en Angola, adoptée par un Parlement majoritairement acquis au parti au"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eritrea": {
       "article_count": 0,
@@ -1097,15 +1109,19 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 2,
-      "baseline": 4.3,
-      "ratio": 0.94,
+      "baseline": 4.4,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -1113,11 +1129,11 @@
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Minister",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "War",
           "count": 1
         }
       ],
@@ -1129,6 +1145,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-06T23:09:21",
           "lead": "Mamadi Doumbouya est rentré en Guinée ce vendredi 6 mars vers midi après trois semaines d’absence. Il a été accueilli à "
+        },
+        {
+          "title": "Soudan du Sud: l’armée donne 72 heures aux casques bleus et aux ONG pour quitter la ville d'Akobo",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-soudan-du-sud-l-arm%C3%A9e-donne-72-heures-aux-casques-bleus-et-aux-ong-pour-quitter-la-ville-d-akobo",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:49:39",
+          "lead": "Au Soudan du Sud, un ultimatum de 72 heures a été lancé, vendredi 6 mars, par l’armée gouvernementale à l’attention de l"
         },
         {
           "title": "Regain de tensions au Tigré: «Nous ne voulons pas la guerre», assure le Premier ministre éthiopien",
@@ -1153,18 +1176,22 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Somalia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.44,
+      "baseline": 2.2,
+      "ratio": 0.45,
       "status": "normal",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "M23",
           "count": 1
@@ -1173,11 +1200,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "RDC: l'ONU nomme l'américain James Swan à la tête de la Monusco",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-rdc-l-onu-nomme-l-am%C3%A9ricain-james-swan-%C3%A0-la-t%C3%AAte-de-la-monusco",
+          "title": "RDC: ces défis qui attendent James Swan à la tête de la Monusco",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-rdc-ces-d%C3%A9fis-qui-attendent-james-swan-%C3%A0-la-t%C3%AAte-de-la-monusco",
           "source": "RFI Afrique",
-          "published": "2026-03-06T07:05:17",
-          "lead": "Le patron de l’ONU Antonio Guterres vient de nommer un nouveau chef pour sa mission pour la stabilisation en République "
+          "published": "2026-03-07T03:50:35",
+          "lead": "Le nouveau patron de la Monusco est américain. James Swan, ancien ambassadeur des États-Unis en RDC sous Barack Obama, a"
         }
       ],
       "sources": [
@@ -1187,8 +1214,8 @@
     "Uganda": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 1.9,
-      "ratio": 2.07,
+      "baseline": 2.0,
+      "ratio": 2.03,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1237,16 +1264,16 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "BBC Africa",
         "Africanews",
-        "BBC Africa"
+        "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 6,
-      "source_count": 2,
-      "baseline": 5.8,
-      "ratio": 1.03,
+      "article_count": 5,
+      "source_count": 1,
+      "baseline": 5.9,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1257,13 +1284,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "«Ramenez-nous nos fils»: au Kenya, des familles sans nouvelles de proches partis en Russie",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-ramenez-nous-nos-fils-au-kenya-des-familles-sans-nouvelles-de-proches-partis-en-russie",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T03:56:18",
-          "lead": "Au Kenya, ils seraient plus de 1 000 Kényans à avoir été recrutés au sein des forces armées russes, selon un rapport des"
-        },
         {
           "title": "Kenya: Court of Appeal Nullifies Sections of Cybercrimes Act",
           "url": "https://allafrica.com/stories/202603060646.html",
@@ -1301,21 +1321,20 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 0.8,
+      "baseline": 2.4,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Manifestation",
@@ -1324,6 +1343,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Est de la RDC: Washington impose des restrictions de visas à «plusieurs hauts responsables rwandais»",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-est-de-la-rdc-washington-impose-des-restrictions-de-visas-%C3%A0-plusieurs-hauts-responsables-rwandais",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T03:45:36",
+          "lead": "La pression américaine s’accentue sur Kigali. Quelques jours après des sanctions économiques d'une ampleur inédite visan"
+        },
         {
           "title": "Est de la RDC: le Groupe de contact sur les Grands Lacs appelle «toutes les parties à respecter leurs obligations»",
           "url": "https://www.rfi.fr/fr/afrique/20260306-est-de-la-rdc-le-groupe-de-contact-sur-les-grands-lacs-appelle-toutes-les-parties-%C3%A0-respecter-leurs-obligations",
@@ -1340,8 +1366,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Burundi": {
@@ -1371,17 +1397,17 @@
     "Madagascar": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.36,
+      "baseline": 2.7,
+      "ratio": 0.37,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Épidémie",
+          "word": "Combat",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Épidémie",
           "count": 1
         }
       ],
@@ -1449,8 +1475,8 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.8,
-      "ratio": 2.4,
-      "status": "elevated",
+      "ratio": 2.5,
+      "status": "high",
       "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
@@ -1471,15 +1497,15 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Malawi": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.9,
-      "ratio": 2.31,
+      "ratio": 2.22,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1510,8 +1536,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "DW Africa"
+        "DW Africa",
+        "AllAfrica"
       ]
     },
     "Mozambique": {
@@ -1568,14 +1594,14 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Namibia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1599,8 +1625,8 @@
     "South Africa": {
       "article_count": 19,
       "source_count": 3,
-      "baseline": 13.6,
-      "ratio": 1.39,
+      "baseline": 13.9,
+      "ratio": 1.37,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1701,9 +1727,9 @@
         }
       ],
       "sources": [
+        "Daily Maverick",
         "AllAfrica",
-        "Africanews",
-        "Daily Maverick"
+        "Africanews"
       ]
     },
     "Eswatini": {
