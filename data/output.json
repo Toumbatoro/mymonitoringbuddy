@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-08T06:32:25.297042",
+  "generated_at": "2026-03-08T09:21:03.598735",
   "summary": {
-    "high": 0,
-    "elevated": 2,
-    "normal": 19,
-    "quiet": 33
+    "high": 1,
+    "elevated": 1,
+    "normal": 15,
+    "quiet": 37
   },
   "countries": {
     "Morocco": {
@@ -78,16 +78,31 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 6.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.16,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Soudan : Au moins 33 morts après des frappes de drones sur des marchés du Kordofan",
+          "url": "https://www.france24.com/fr/afrique/20260308-soudan-au-moins-33-morts-apr%C3%A8s-des-frappes-de-drones-sur-des-march%C3%A9s-du-kordofan",
+          "source": "France24 Afrique",
+          "published": "2026-03-08T08:33:58",
+          "lead": "Des frappes de drones sur les marchés de deux localités soudanaises tenues par les rebelles paramilitaires, en guerre av"
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
     },
     "Mauritania": {
       "article_count": 0,
@@ -129,31 +144,16 @@
       ]
     },
     "Burkina Faso": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.8,
-      "ratio": 0.57,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitaire",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Burkina Faso: fin des débats dans le procès d'un détournement massif de fonds ministériels",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-burkina-faso-fin-des-d%C3%A9bats-dans-le-proc%C3%A8s-d-un-d%C3%A9tournement-massif-de-fonds-minist%C3%A9riels",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T07:14:27",
-          "lead": "Au Burkina Faso, fin des débats dans un procès très médiatisé : le deuxième volet de l’affaire du détournement d’environ"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Niger": {
       "article_count": 0,
@@ -180,11 +180,11 @@
           "count": 3
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         }
       ],
@@ -236,8 +236,8 @@
       "sources": [
         "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique",
-        "Africanews"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -265,12 +265,12 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 1.8,
-      "ratio": 2.26,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 5,
+      "source_count": 5,
+      "baseline": 1.7,
+      "ratio": 2.88,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Gouvernement",
@@ -310,13 +310,21 @@
           "source": "Jeune Afrique",
           "published": "2026-03-07T17:11:21",
           "lead": "Au lendemain du retour du président Mamadi Doumbouya après une absence de trois semaines, et moins de deux mois après so"
+        },
+        {
+          "title": "Guinea's junta dissolves 40 political parties with late-night decree",
+          "url": "http://www.africanews.com/2026/03/08/guineas-junta-dissolves-40-political-parties-with-late-night-decree/",
+          "source": "Africanews",
+          "published": "2026-03-08T08:45:46",
+          "lead": "Guinea has dissolved 40 political parties, including its three main opposition groups, via a late-night decree, in the l"
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique",
         "France24 Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -344,16 +352,26 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.71,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "« Ici on pratique l’archéologie comme au siècle dernier » : le patrimoine ivoirien encore largement sous-exploité",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/08/ici-on-pratique-l-archeologie-comme-au-siecle-dernier-le-patrimoine-ivoirien-encore-largement-sous-exploite_6669974_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-08T09:00:12",
+          "lead": "En Côte d’Ivoire, l’archéologie est l’une des disciplines les plus pauvrement dotées : les chercheurs n’ont pas accès au"
+        }
+      ],
+      "sources": [
+        "Le Monde Afrique"
+      ]
     },
     "Ghana": {
       "article_count": 1,
@@ -364,15 +382,15 @@
       "confidence": "low",
       "keywords": [
         {
+          "word": "Blessé",
+          "count": 1
+        },
+        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Blessé",
           "count": 1
         }
       ],
@@ -415,15 +433,22 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 8.2,
-      "ratio": 0.12,
+      "ratio": 0.24,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Nigeria: le gouverneur d'Anambra durcit le ton face aux opérations «villes mortes»",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-nigeria-le-gouverneur-d-anambra-durcit-le-ton-face-aux-op%C3%A9rations-villes-mortes",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T08:01:57",
+          "lead": "Au Nigeria, depuis le début de l'année 2026, le gouverneur de l'État d'Anambra a sérieusement durci le ton pour tenter d"
+        },
         {
           "title": "Etuk Ubong, un trompettiste nigérian né pour faire groover et conscientiser l’Afrique",
           "url": "https://www.rfi.fr/fr/podcasts/les-p%C3%A9pites-musicales-de-rfi/20260307-etuk-ubong-un-trompettiste-nig%C3%A9rian-n%C3%A9-pour-faire-groover-et-conscientiser-l-afrique",
@@ -470,14 +495,10 @@
       "keywords": [
         {
           "word": "Combat",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -491,55 +512,29 @@
           "lead": "À la veille de la Journée internationale des droits des femmes, le Journal de l’Afrique reçoit Denise Epoté, figure hist"
         },
         {
-          "title": "Macky Sall candidat à l’ONU, les 500 Champions africains de l’économie, Touadéra à Moscou… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1771525/politique/macky-sall-candidat-a-lonu-les-500-champions-africains-de-leconomie-touadera-a-moscou-les-5-infos-quil-ne-fallait-pas-manquer/",
+          "title": "Cameroun : « Mon père, Anicet Ekane, est mort en martyr, mais son combat va continuer »",
+          "url": "https://www.jeuneafrique.com/1771755/politique/cameroun-mon-pere-anicet-ekane-est-mort-en-martyr-mais-son-combat-va-continuer/",
           "source": "Jeune Afrique",
-          "published": "2026-03-07T08:00:00",
-          "lead": "Cette semaine, le Brief de Jeune Afrique revient sur la guerre en Iran et ses conséquences pour le continent africain, p"
+          "published": "2026-03-08T08:57:00",
+          "lead": "Arrêté dans un contexte politique tendu, au lendemain de la présidentielle d’octobre 2025, l’opposant Anicet Ekane est d"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.2,
-      "ratio": 1.62,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Macky Sall candidat à l’ONU, les 500 Champions africains de l’économie, Touadéra à Moscou… Les 5 infos qu’il ne fallait pas manquer",
-          "url": "https://www.jeuneafrique.com/1771525/politique/macky-sall-candidat-a-lonu-les-500-champions-africains-de-leconomie-touadera-a-moscou-les-5-infos-quil-ne-fallait-pas-manquer/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-07T08:00:00",
-          "lead": "Cette semaine, le Brief de Jeune Afrique revient sur la guerre en Iran et ses conséquences pour le continent africain, p"
-        },
-        {
-          "title": "Bossembélé, Centrafrique : après de tels massacres, la justice a-t-elle encore un sens ?",
-          "url": "https://www.jeuneafrique.com/1769511/politique/bossembele-centrafrique-apres-de-tels-massacres-la-justice-a-t-elle-encore-un-sens/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-07T07:00:00",
-          "lead": "Alors que la Cour pénale spéciale se penche, en ce début 2026, sur les exactions commises à Bossembélé en 2014, l’espoir"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Sudan": {
       "article_count": 0,
@@ -591,7 +586,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.36,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -626,27 +621,27 @@
       ]
     },
     "DRC": {
-      "article_count": 5,
-      "source_count": 4,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 7.5,
-      "ratio": 0.67,
+      "ratio": 0.53,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Guerre",
-          "count": 2
-        },
-        {
-          "word": "Explosion",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Explosion",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -682,13 +677,6 @@
           "lead": "L’implication volontariste du président américain dans un conflit vieux de trois décennies est notable, mais ne semble p"
         },
         {
-          "title": "Qui est Erik Prince, le businessman de la guerre qui a jeté son dévolu sur la RDC ?",
-          "url": "https://www.jeuneafrique.com/1771404/politique/qui-est-erik-prince-le-businessman-de-la-guerre-qui-a-jete-son-devolu-sur-la-rdc/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-07T07:00:00",
-          "lead": "Les hommes du fondateur de Blackwater ont été déployés à Uvira pour prêter main-forte à l’armée congolaise. Que vient fa"
-        },
-        {
           "title": "DRC: armed forces find secret weapons stash in Ituri province",
           "url": "http://www.africanews.com/2026/03/07/drc-armed-forces-find-secret-weapons-stash-in-ituri-province/",
           "source": "Africanews",
@@ -698,9 +686,8 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -788,13 +775,17 @@
       "sources": []
     },
     "Kenya": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 9,
+      "source_count": 5,
       "baseline": 6.0,
-      "ratio": 1.01,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.51,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Killed",
+          "count": 1
+        },
         {
           "word": "Flood",
           "count": 1
@@ -817,11 +808,32 @@
           "lead": "Flights in and out of Nairobi Airport have been disrupted while some roads in the capital are submerged."
         },
         {
+          "title": "Life on Kenya’s largest dump: the invisible workers sorting the world’s rubbish",
+          "url": "https://www.theguardian.com/global-development/2026/mar/08/waste-pickers-kenya-recycling-dandora-rubbish-dump",
+          "source": "The Guardian Africa",
+          "published": "2026-03-08T07:00:13",
+          "lead": "Plastic, textiles, e-waste and more end up at the vast Dandora site, where waste pickers spend all hours sifting through"
+        },
+        {
+          "title": "‘History longs to heal’: how Africa hopes to advance campaign for reparative justice",
+          "url": "https://www.theguardian.com/news/2026/mar/08/how-africa-hopes-to-advance-campaign-for-reparative-justice",
+          "source": "The Guardian Africa",
+          "published": "2026-03-08T07:00:12",
+          "lead": "At festival in Kenya, artists and writers discuss role arts can play in continent’s growing push for redress over coloni"
+        },
+        {
           "title": "Au Kenya, des crues soudaines à Nairobi font au moins 23 morts",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/07/au-kenya-des-crues-soudaines-a-nairobi-font-au-moins-23-morts_6669912_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-07T15:05:30",
           "lead": "Selon les ​scientifiques, le réchauffement climatique aggrave les inondations et les sécheresses en Afrique de l’Est, en"
+        },
+        {
+          "title": "Kenya: Floods in Nairobi kill at least 23, police operations ongoing",
+          "url": "http://www.africanews.com/2026/03/08/kenya-floods-in-nairobi-kill-at-least-23-police-operations-ongoing/",
+          "source": "Africanews",
+          "published": "2026-03-08T08:10:10",
+          "lead": "Overnight torrential rains in the Kenyan capital Nairobi killed at least 23 people, and leaves destruction in its wake."
         },
         {
           "title": "Kenya: Nairobi battles flood waters after heavy overnight rains",
@@ -846,8 +858,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "The Guardian Africa",
+        "AllAfrica",
         "Le Monde Afrique",
         "BBC Africa"
       ]
@@ -861,11 +874,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -884,80 +897,40 @@
       ]
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.65,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tanzania pushes out Burundian refugees, UN concerned",
-          "url": "http://www.africanews.com/2026/03/07/tanzania-pushes-out-burundian-refugees-un-concerned/",
-          "source": "Africanews",
-          "published": "2026-03-07T08:04:22",
-          "lead": "Refugees from Burundi are being forcibly evicted from camps as Tanzania destroys their homes and churches, pushing them "
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
-    },
-    "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 0.91,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Tanzania pushes out Burundian refugees, UN concerned",
-          "url": "http://www.africanews.com/2026/03/07/tanzania-pushes-out-burundian-refugees-un-concerned/",
-          "source": "Africanews",
-          "published": "2026-03-07T08:04:22",
-          "lead": "Refugees from Burundi are being forcibly evicted from camps as Tanzania destroys their homes and churches, pushing them "
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
-    },
-    "Madagascar": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.7,
-      "ratio": 0.37,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Madagascar: troisième mandat d’arrêt international contre l’homme d’affaires Mamy Ravatomanga",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-madagascar-troisi%C3%A8me-mandat-d-arr%C3%AAt-international-contre-l-homme-d-affaires-mamy-ravatomanga",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T07:58:14",
-          "lead": "À Madagascar, un nouveau mandat d’arrêt international - le troisième - a été émis contre l’homme d’affaires Mamy Ravatom"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
+    },
+    "Tanzania": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.1,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Madagascar": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.7,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
     },
     "Comoros": {
       "article_count": 1,
@@ -1030,26 +1003,16 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.1,
-      "ratio": 0.94,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Carlitos Cadangue visé après ses enquêtes sur l’exploitation minière illégale",
-          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260307-mozambique-carlitos-cadangue-vis%C3%A9-apr%C3%A8s-ses-enqu%C3%AAtes-sur-l-exploitation-mini%C3%A8re-ill%C3%A9gale",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T06:42:34",
-          "lead": "Le Mozambique est l’un des pays les plus vulnérables au changement climatique et aux catastrophes naturelles. De plus en"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Zimbabwe": {
       "article_count": 1,
@@ -1098,13 +1061,17 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 6,
+      "source_count": 4,
       "baseline": 13.1,
-      "ratio": 0.23,
+      "ratio": 0.46,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 2
+        },
         {
           "word": "Violence",
           "count": 1
@@ -1113,6 +1080,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Afrique du Sud: l’augmentation des prix à la pompe met en péril le budget du pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-afrique-du-sud-l-augmentation-des-prix-%C3%A0-la-pompe-met-en-p%C3%A9ril-le-budget-du-pays",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T07:31:02",
+          "lead": "En Afrique du Sud, comme dans beaucoup de pays à travers le monde, on s’inquiète des répercussions économiques de la gue"
+        },
+        {
           "title": "Afrique du Sud: à Durban, les très coûteuses statues de Mandela et Tambo font grincer des dents",
           "url": "https://www.rfi.fr/fr/afrique/20260307-afrique-du-sud-%C3%A0-durban-les-tr%C3%A8s-co%C3%BBteuses-statues-de-mandela-et-tambo-font-grincer-des-dents",
           "source": "RFI Afrique",
@@ -1120,11 +1094,25 @@
           "lead": "En Afrique du Sud, deux statues sèment la discorde au sein de la ville de Durban, sur la côte est du pays. Ces représent"
         },
         {
+          "title": "En Afrique du Sud, Jo Ractliffe a photographié des paysages défigurés par les guerres et la surexploitation des hommes",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/08/en-afrique-du-sud-jo-ractliffe-a-photographie-des-paysages-defigures-par-les-guerres-et-la-surexploitation-des-hommes_6669968_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-08T07:04:17",
+          "lead": "Pour raconter son pays longtemps fracturé par l’apartheid et la guerre, Jo Ractliffe a choisi de faire parler les lieux."
+        },
+        {
           "title": "Facing staggering gender-based violence, SA women turn to self-defence",
           "url": "http://www.africanews.com/2026/03/07/facing-staggering-gender-based-violence-sa-women-turn-to-self-defence/",
           "source": "Africanews",
           "published": "2026-03-07T14:05:15",
           "lead": "In South Africa, femicide rates are thought to be five times higher than the global average. With many women victims of "
+        },
+        {
+          "title": "FOOTBALL TRAGEDY: Two years after rising soccer star Luke Fleurs’ death, his family awaits justice",
+          "url": "https://www.dailymaverick.co.za/article/two-years-after-rising-soccer-star-luke-fleurs-death-his-family-awaits-justice",
+          "source": "Daily Maverick",
+          "published": "2026-03-08T09:51:40",
+          "lead": "The Kaizer Chiefs defender’s mother says his death is a symptom of South African society’s ills."
         },
         {
           "title": "AMABHUNGANE: EXCLUSIVE: Alleged 28s gang boss ‘captured’ mega rail project – with Prasa’s ‘help’",
@@ -1137,6 +1125,7 @@
       "sources": [
         "Daily Maverick",
         "RFI Afrique",
+        "Le Monde Afrique",
         "Africanews"
       ]
     },
