@@ -1,57 +1,93 @@
 {
-  "generated_at": "2026-03-08T15:15:35.996317",
+  "generated_at": "2026-03-08T18:21:59.604049",
   "summary": {
     "high": 0,
     "elevated": 0,
-    "normal": 16,
-    "quiet": 38
+    "normal": 19,
+    "quiet": 35
   },
   "countries": {
     "Morocco": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 3.5,
-      "ratio": 0.29,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Algeria": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.7,
+      "ratio": 1.15,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Du désert aux plateformes : avec Khadija Alami, le Maroc se rêve en centre mondial du cinéma",
-          "url": "https://www.jeuneafrique.com/1769205/culture/du-desert-aux-plateformes-avec-khadija-alami-le-maroc-se-reve-en-centre-mondial-du-cinema/",
+          "title": "En Algérie, l’impact contrasté de la crise du détroit d’Ormuz, entre profits pétrogaziers et risque inflationniste",
+          "url": "https://www.lemonde.fr/economie/article/2026/03/08/en-algerie-l-impact-contraste-de-la-crise-du-detroit-d-ormuz-entre-profits-petrogaziers-et-risque-inflationniste_6670008_3234.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-08T15:30:11",
+          "lead": "La flambée des cours des hydrocarbures redonne des marges financières à l’économie algérienne, mais la perturbation des "
+        },
+        {
+          "title": "Pourquoi le nom de Bugeaud reste synonyme de brutalité coloniale, en France comme en Algérie",
+          "url": "https://www.jeuneafrique.com/1770684/politique/pourquoi-le-nom-de-bugeaud-reste-synonyme-de-brutalite-coloniale-en-france-comme-en-algerie/",
           "source": "Jeune Afrique",
-          "published": "2026-03-07T16:09:21",
-          "lead": "Défendu par la productrice Khadija Alami, le projet Argan Studios marque une nouvelle étape dans la stratégie culturelle"
+          "published": "2026-03-08T16:41:48",
+          "lead": "Son nom symbolise à lui seul la conquête de l’Algérie par la France au milieu du XIXe siècle, puis la mise en place d’un"
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
-    "Algeria": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.97,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Protest",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tunisians protest against US-Israeli war against Iran",
+          "url": "http://www.africanews.com/2026/03/08/tunisians-protest-against-us-israeli-war-against-iran/",
+          "source": "Africanews",
+          "published": "2026-03-08T15:31:51",
+          "lead": "Around one hundred people took to the streets of downtown Tunis, the Tunisian capital, to denounce US and Israeli action"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Libya": {
       "article_count": 0,
@@ -78,13 +114,21 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 6.1,
-      "ratio": 0.16,
+      "ratio": 0.49,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        },
         {
           "word": "Guerre",
           "count": 1
@@ -93,14 +137,30 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Soudan du Sud: les habitants d'Akobo fuient la ville, craignant de nouveaux combats",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-soudan-du-sud-les-habitants-d-akobo-fuient-la-ville-craignant-de-nouveaux-combats",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T16:14:11",
+          "lead": "Au Soudan du Sud, la ville d'Akobo – frontalière de l'Éthiopie, à l'est de l'État du Jonglei – s'est vidée de ses habita"
+        },
+        {
           "title": "Soudan : au moins 33 morts après des frappes de drones sur des marchés du Kordofan",
           "url": "https://www.france24.com/fr/afrique/20260308-soudan-au-moins-33-morts-apr%C3%A8s-des-frappes-de-drones-sur-des-march%C3%A9s-du-kordofan",
           "source": "France24 Afrique",
           "published": "2026-03-08T08:33:58",
           "lead": "Des frappes de drones sur les marchés de deux localités soudanaises tenues par les rebelles paramilitaires, en guerre av"
+        },
+        {
+          "title": "Au Soudan, une frappe de drones fait 33 morts sur des marchés du Kordofan",
+          "url": "https://www.jeuneafrique.com/1772189/politique/au-soudan-une-frappe-de-drones-fait-33-morts-sur-des-marches-du-kordofan/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-08T17:59:25",
+          "lead": "Des frappes de drones imputées à l’armée sur des marchés du Kordofan et du Darfour ont fait 33 morts dimanche 8 mars. Ri"
         }
       ],
       "sources": [
+        "Jeune Afrique",
+        "RFI Afrique",
         "France24 Afrique"
       ]
     },
@@ -183,7 +243,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 4.9,
-      "ratio": 0.81,
+      "ratio": 0.82,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -224,9 +284,9 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -254,31 +314,15 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 1.15,
+      "ratio": 0.6,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Le gouvernement guinéen dissout 40 partis, dont les trois plus importants d’opposition",
-          "url": "https://www.jeuneafrique.com/1772168/politique/le-gouvernement-guineen-dissout-40-partis-dont-les-trois-plus-importants-dopposition/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-07T17:11:21",
-          "lead": "Au lendemain du retour du président Mamadi Doumbouya après une absence de trois semaines, et moins de deux mois après so"
-        },
         {
           "title": "Guinea's junta dissolves 40 political parties with late-night decree",
           "url": "http://www.africanews.com/2026/03/08/guineas-junta-dissolves-40-political-parties-with-late-night-decree/",
@@ -288,8 +332,7 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Sierra Leone": {
@@ -319,8 +362,8 @@
     "Côte d'Ivoire": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.4,
-      "ratio": 1.4,
+      "baseline": 1.5,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -342,8 +385,8 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Ghana": {
@@ -355,15 +398,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
           "word": "Blessé",
           "count": 1
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -493,33 +536,62 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.86,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Racing down a river for International Women's Day",
+          "url": "http://www.africanews.com/2026/03/08/racing-down-a-river-for-international-womens-day/",
+          "source": "Africanews",
+          "published": "2026-03-08T16:10:31",
+          "lead": "Dozens of women participated in an all-female boat race on the river Oubangui in the Central African Republic to celebra"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "South Sudan": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.53,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Soudan du Sud: les habitants d'Akobo fuient la ville, craignant de nouveaux combats",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-soudan-du-sud-les-habitants-d-akobo-fuient-la-ville-craignant-de-nouveaux-combats",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T16:14:11",
+          "lead": "Au Soudan du Sud, la ville d'Akobo – frontalière de l'Éthiopie, à l'est de l'État du Jonglei – s'est vidée de ses habita"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -546,19 +618,15 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.33,
+      "ratio": 0.67,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Élection",
           "count": 1
         }
       ],
@@ -570,13 +638,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-08T05:57:50",
           "lead": "Au Congo-Brazzaville, la campagne se poursuit avant la présidentielle de dimanche 15 mars. Joseph Kignoumbi Kia Mboungou"
-        },
-        {
-          "title": "Présidentielle au Congo-Brazzaville: l’UPADS n’a pas de candidat mais appelle ses militants à voter",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-pr%C3%A9sidentielle-au-congo-brazzaville-l-upads-n-a-pas-de-candidat-mais-appelle-ses-militants-%C3%A0-voter",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T17:10:02",
-          "lead": "Pour l'élection présidentielle au Congo-Brazzaville, l’Union panafricaine pour la démocratie sociale (UPADS), le premier"
         }
       ],
       "sources": [
@@ -584,15 +645,15 @@
       ]
     },
     "DRC": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 7.4,
-      "ratio": 0.27,
+      "ratio": 0.41,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         },
         {
@@ -602,10 +663,21 @@
         {
           "word": "Explosion",
           "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Trésor Lualua veut alerter sur l'état du football chez les jeunes en RDC",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260308-tr%C3%A9sor-lualua-veut-alerter-sur-l-%C3%A9tat-du-football-chez-les-jeunes-en-rdc",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T16:32:29",
+          "lead": "Alors que les élections des dirigeants des différentes ligues de la Fecofa ont été repoussées à début avril, les candida"
+        },
         {
           "title": "RDC: Le gouvernement reconnaît des retards dans le paiement des salaires des fonctionnaires",
           "url": "https://www.rfi.fr/fr/afrique/20260308-rdc-le-gouvernement-reconna%C3%AEt-des-retards-dans-le-paiement-des-salaires-des-fonctionnaires",
@@ -674,16 +746,35 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.23,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Soudan du Sud: les habitants d'Akobo fuient la ville, craignant de nouveaux combats",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-soudan-du-sud-les-habitants-d-akobo-fuient-la-ville-craignant-de-nouveaux-combats",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T16:14:11",
+          "lead": "Au Soudan du Sud, la ville d'Akobo – frontalière de l'Éthiopie, à l'est de l'État du Jonglei – s'est vidée de ses habita"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Somalia": {
       "article_count": 0,
@@ -701,7 +792,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.57,
+      "ratio": 0.56,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -722,21 +813,21 @@
     "Kenya": {
       "article_count": 5,
       "source_count": 4,
-      "baseline": 6.0,
-      "ratio": 0.83,
+      "baseline": 5.9,
+      "ratio": 0.84,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
           "count": 1
         },
         {
@@ -784,8 +875,8 @@
       ],
       "sources": [
         "Africanews",
-        "The Guardian Africa",
         "BBC Africa",
+        "The Guardian Africa",
         "RFI Afrique"
       ]
     },
@@ -920,26 +1011,16 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.8,
-      "ratio": 0.36,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Descendants of Zimbabwe resistance heroes urge UK to locate looted skulls",
-          "url": "https://www.theguardian.com/world/2026/mar/07/descendants-of-zimbabwe-resistance-heroes-urge-uk-to-locate-looted-skulls",
-          "source": "The Guardian Africa",
-          "published": "2026-03-07T17:00:56",
-          "lead": "Relatives call on institutions to help them find remains of ancestors who led fight against British colonisers in 1890s•"
-        }
-      ],
-      "sources": [
-        "The Guardian Africa"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Namibia": {
       "article_count": 0,
@@ -966,10 +1047,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 10,
+      "article_count": 11,
       "source_count": 4,
-      "baseline": 13.3,
-      "ratio": 0.75,
+      "baseline": 13.4,
+      "ratio": 0.82,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1007,6 +1088,13 @@
           "source": "Africanews",
           "published": "2026-03-08T10:41:17",
           "lead": "South Africa embarked on a mass vaccination of cattle on Friday to stem an outbreak of foot-and-mouth disease that threa"
+        },
+        {
+          "title": "SHAPING KNOWLEDGE OP-ED: When women scientists are invisible, science suffers: 5 ways to fix Africa’s STEM pipeline",
+          "url": "https://www.dailymaverick.co.za/article/when-women-scientists-are-invisible-scieience-suffers-5-ways-to-fix-africas-stem",
+          "source": "Daily Maverick",
+          "published": "2026-03-08T17:27:34",
+          "lead": "On International Women’s Day, this is a call for the South African research community to value increased visibility of w"
         },
         {
           "title": "INVESTMENT INSIGHT: Phantom Shares: The Shoprite vs Woolworths battle, where efficiency vs pricing power",
@@ -1052,10 +1140,10 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Daily Maverick",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
