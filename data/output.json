@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-08T04:28:32.617999",
+  "generated_at": "2026-03-08T06:32:25.297042",
   "summary": {
-    "high": 1,
-    "elevated": 1,
+    "high": 0,
+    "elevated": 2,
     "normal": 19,
     "quiet": 33
   },
@@ -234,10 +234,10 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
         "Jeune Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Africanews"
       ]
     },
     "Gambia": {
@@ -265,19 +265,19 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 4,
       "baseline": 1.8,
-      "ratio": 2.83,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.26,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 3
         },
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 3
         }
       ],
@@ -289,13 +289,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-07T12:50:34",
           "lead": "En Guinée, le gouvernement a annoncé, dans la nuit de vendredi à ce samedi 7 mars, la dissolution de quarante partis pol"
-        },
-        {
-          "title": "Queen Rima: «Je rêve de voir la musique guinéenne voyager encore plus loin dans le monde»",
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260307-queen-rima-je-r%C3%AAve-de-voir-la-musique-guin%C3%A9enne-voyager-encore-plus-loin-dans-le-monde",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T05:25:18",
-          "lead": "« Conakry à Paris », c’est le titre du festival Africapitales qui se tient à Paris jusqu’au 15 mars. Avec des exposition"
         },
         {
           "title": "En Guinée, le gouvernement dissout 40 partis politiques, dont les 3 principaux d'opposition",
@@ -320,10 +313,10 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
-        "Le Monde Afrique",
-        "France24 Afrique"
+        "Jeune Afrique",
+        "France24 Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Sierra Leone": {
@@ -371,15 +364,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Blessé",
-          "count": 1
-        },
-        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Blessé",
           "count": 1
         }
       ],
@@ -576,7 +569,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -595,13 +588,17 @@
       ]
     },
     "Congo": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.68,
+      "ratio": 1.36,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Élection",
           "count": 1
@@ -609,6 +606,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Présidentielle au Congo-Brazzaville: Joseph Kignoumbi Kia Mboungou, candidat pour la cinquième fois",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-pr%C3%A9sidentielle-au-congo-brazzaville-joseph-kignoumbi-kia-mboungou-candidat-pour-la-cinqui%C3%A8me-fois",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T05:57:50",
+          "lead": "Au Congo-Brazzaville, la campagne se poursuit avant la présidentielle de dimanche 15 mars. Joseph Kignoumbi Kia Mboungou"
+        },
         {
           "title": "Présidentielle au Congo-Brazzaville: l’UPADS n’a pas de candidat mais appelle ses militants à voter",
           "url": "https://www.rfi.fr/fr/afrique/20260307-pr%C3%A9sidentielle-au-congo-brazzaville-l-upads-n-a-pas-de-candidat-mais-appelle-ses-militants-%C3%A0-voter",
@@ -624,17 +628,25 @@
     "DRC": {
       "article_count": 5,
       "source_count": 4,
-      "baseline": 7.6,
-      "ratio": 0.66,
+      "baseline": 7.5,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 3
+          "count": 2
         },
         {
-          "word": "Milice",
+          "word": "Explosion",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         },
         {
@@ -649,18 +661,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "RDC: Le gouvernement reconnaît des retards dans le paiement des salaires des fonctionnaires",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-rdc-le-gouvernement-reconna%C3%AEt-des-retards-dans-le-paiement-des-salaires-des-fonctionnaires",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T05:29:53",
+          "lead": "En République démocratique du Congo (RDC), le gouvernement reconnaît des tensions sur la trésorerie étatique. Conséquenc"
+        },
+        {
           "title": "RDC: les élections des Ligues de football congolaises de nouveau reportées",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260307-rdc-les-%C3%A9lections-des-ligues-de-football-congolaises-de-nouveau-report%C3%A9es",
           "source": "RFI Afrique",
           "published": "2026-03-07T20:08:59",
           "lead": "Les élections des dirigeants des Ligues de football en République démocratique du Congo (RDC), prévues du 9 au 11 mars, "
-        },
-        {
-          "title": "Est de la RDC: l'armée annonce la découverte d'une importante cache d'armes dans l'Ituri",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-est-de-la-rdc-l-arm%C3%A9e-annonce-la-d%C3%A9couverte-d-une-importante-cache-d-armes-dans-l-ituri",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T05:17:29",
-          "lead": "En République démocratique du Congo (RDC), l’armée annonce avoir découvert une importante cache d’armes dans la province"
         },
         {
           "title": "La guerre Rwanda-RDC à la merci de l’hubris de Trump",
@@ -685,9 +697,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
         "Africanews",
-        "RFI Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -754,7 +766,7 @@
     "Somalia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.3,
+      "baseline": 2.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -778,7 +790,7 @@
     "Kenya": {
       "article_count": 6,
       "source_count": 4,
-      "baseline": 5.9,
+      "baseline": 6.0,
       "ratio": 1.01,
       "status": "normal",
       "confidence": "normal",
@@ -834,8 +846,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "AllAfrica",
+        "Africanews",
         "Le Monde Afrique",
         "BBC Africa"
       ]
@@ -1123,9 +1135,9 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "Daily Maverick",
         "RFI Afrique",
-        "Daily Maverick"
+        "Africanews"
       ]
     },
     "Eswatini": {
