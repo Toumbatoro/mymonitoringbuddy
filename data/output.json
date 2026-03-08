@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-08T09:21:03.598735",
+  "generated_at": "2026-03-08T12:29:41.001909",
   "summary": {
-    "high": 1,
+    "high": 0,
     "elevated": 1,
-    "normal": 15,
-    "quiet": 37
+    "normal": 14,
+    "quiet": 39
   },
   "countries": {
     "Morocco": {
@@ -93,7 +93,7 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Soudan : Au moins 33 morts après des frappes de drones sur des marchés du Kordofan",
+          "title": "Soudan : au moins 33 morts après des frappes de drones sur des marchés du Kordofan",
           "url": "https://www.france24.com/fr/afrique/20260308-soudan-au-moins-33-morts-apr%C3%A8s-des-frappes-de-drones-sur-des-march%C3%A9s-du-kordofan",
           "source": "France24 Afrique",
           "published": "2026-03-08T08:33:58",
@@ -117,15 +117,19 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.2,
-      "ratio": 0.45,
+      "ratio": 0.91,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -137,16 +141,24 @@
           "source": "RFI Afrique",
           "published": "2026-03-07T18:50:49",
           "lead": "Il y a vingt ans, le 7 mars 2006, disparaissait le musicien malien Ali Farka Touré. Génial guitariste de blues dont la c"
+        },
+        {
+          "title": "Au Mali, le cercle des fidèles de l’ancien Premier ministre Choguel Maïga",
+          "url": "https://www.jeuneafrique.com/1771338/politique/au-mali-le-cercle-des-fideles-de-lancien-premier-ministre-choguel-maiga/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-08T12:32:24",
+          "lead": "Limogé par Assimi Goïta en novembre 2024, puis incarcéré depuis août 2025 à Koulikoro, l’ex-chef du gouvernement, autref"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.8,
+      "baseline": 1.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -169,7 +181,7 @@
     },
     "Senegal": {
       "article_count": 6,
-      "source_count": 4,
+      "source_count": 3,
       "baseline": 4.9,
       "ratio": 1.22,
       "status": "normal",
@@ -178,14 +190,6 @@
         {
           "word": "Président",
           "count": 3
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -212,6 +216,13 @@
           "lead": "Au Sénégal, Bassirou Diomaye Faye se démarque de plus en plus d'Ousmane Sonko. Le chef de l'Etat sénégalais a présidé ce"
         },
         {
+          "title": "Sénégal : les députés examineront le 11 mars un projet de durcissement de la loi contre l’homosexualité",
+          "url": "https://www.jeuneafrique.com/1772170/politique/senegal-les-deputes-examineront-le-11-mars-un-projet-de-durcissement-de-la-loi-contre-lhomosexualite/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-08T11:03:25",
+          "lead": "Le Premier ministre Ousmane Sonko a rendu public un projet de loi visant à doubler les peines encourues pour relations e"
+        },
+        {
           "title": "Candidature de Macky Sall à l’ONU : un collectif sénégalais s’insurge",
           "url": "https://www.jeuneafrique.com/1772159/politique/candidature-de-macky-sall-a-lonu-un-collectif-senegalais-sinsurge/",
           "source": "Jeune Afrique",
@@ -224,19 +235,11 @@
           "source": "Jeune Afrique",
           "published": "2026-03-07T12:31:33",
           "lead": "Au Sénégal, le parti d’Ousmane Sonko veut doubler les peines encourues pour « actes contre-nature » au nom de la défense"
-        },
-        {
-          "title": "Senegal: opponents speak out against Macky Sall's UN candidacy",
-          "url": "http://www.africanews.com/2026/03/07/senegal-opponents-speak-out-against-macky-salls-un-candidacy/",
-          "source": "Africanews",
-          "published": "2026-03-07T11:11:27",
-          "lead": "Senegal's former president Macky Sall is seeking one of the most coveted positions on the international scene: Secretary"
         }
       ],
       "sources": [
         "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
         "France24 Afrique"
       ]
     },
@@ -265,12 +268,12 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 5,
-      "source_count": 5,
-      "baseline": 1.7,
-      "ratio": 2.88,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 1.8,
+      "ratio": 2.26,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
@@ -278,7 +281,7 @@
         },
         {
           "word": "Président",
-          "count": 3
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -298,13 +301,6 @@
           "lead": "Quarante partis politiques en Guinée, dont les trois principales formations d'opposition, ont été dissous par décret dan"
         },
         {
-          "title": "En Guinée, 40 partis politiques dissous par décret",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/07/en-guinee-40-partis-politiques-dissous-par-decret_6669892_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-07T11:47:32",
-          "lead": "Moins de deux mois après l’intronisation du président, Mamadi Doumbouya, le décret ordonne la dissolution des partis pou"
-        },
-        {
           "title": "Le gouvernement guinéen dissout 40 partis, dont les trois plus importants d’opposition",
           "url": "https://www.jeuneafrique.com/1772168/politique/le-gouvernement-guineen-dissout-40-partis-dont-les-trois-plus-importants-dopposition/",
           "source": "Jeune Afrique",
@@ -322,9 +318,8 @@
       "sources": [
         "Africanews",
         "RFI Afrique",
-        "France24 Afrique",
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Sierra Leone": {
@@ -355,7 +350,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.71,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -382,15 +377,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Blessé",
-          "count": 1
-        },
-        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Blessé",
           "count": 1
         }
       ],
@@ -520,8 +515,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "CAR": {
@@ -561,26 +556,16 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.68,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mark-Alexandre Doumba : « Au Gabon, nous souhaitons scanner les réseaux sociaux pour contrer la désinformation »",
-          "url": "https://www.jeuneafrique.com/1772112/economie-entreprises/mark-alexandre-doumba-au-gabon-nous-souhaitons-scanner-les-reseaux-sociaux-pour-contrer-la-desinformation/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-07T11:05:00",
-          "lead": "Le ministre gabonais de l’Économie numérique assume le choix fait par les autorités de suspendre les réseaux sociaux, po"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Congo": {
       "article_count": 2,
@@ -621,17 +606,13 @@
       ]
     },
     "DRC": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 7.5,
-      "ratio": 0.53,
+      "ratio": 0.27,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
         {
           "word": "Crise",
           "count": 1
@@ -641,15 +622,7 @@
           "count": 1
         },
         {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Militia",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -668,26 +641,10 @@
           "source": "RFI Afrique",
           "published": "2026-03-07T20:08:59",
           "lead": "Les élections des dirigeants des Ligues de football en République démocratique du Congo (RDC), prévues du 9 au 11 mars, "
-        },
-        {
-          "title": "La guerre Rwanda-RDC à la merci de l’hubris de Trump",
-          "url": "https://www.lemonde.fr/idees/article/2026/03/07/la-guerre-rwanda-rdc-a-la-merci-de-l-hubris-de-trump_6669886_3232.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-07T10:30:11",
-          "lead": "L’implication volontariste du président américain dans un conflit vieux de trois décennies est notable, mais ne semble p"
-        },
-        {
-          "title": "DRC: armed forces find secret weapons stash in Ituri province",
-          "url": "http://www.africanews.com/2026/03/07/drc-armed-forces-find-secret-weapons-stash-in-ituri-province/",
-          "source": "Africanews",
-          "published": "2026-03-07T10:29:00",
-          "lead": "The Congolese armed forces made an unexpected discovery this week: buried in a mining site in Noro, a secret weapons sta"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -775,12 +732,12 @@
       "sources": []
     },
     "Kenya": {
-      "article_count": 9,
+      "article_count": 8,
       "source_count": 5,
-      "baseline": 6.0,
-      "ratio": 1.51,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 6.1,
+      "ratio": 1.32,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Killed",
@@ -799,13 +756,6 @@
           "source": "BBC Africa",
           "published": "2026-03-08T02:57:15",
           "lead": "Kenyan celebrities are driving a surge in weight‑loss and cosmetic procedures, sparking criticism and concerns."
-        },
-        {
-          "title": "Heavy rains and flooding kills at least 23 in Nairobi",
-          "url": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-07T12:21:40",
-          "lead": "Flights in and out of Nairobi Airport have been disrupted while some roads in the capital are submerged."
         },
         {
           "title": "Life on Kenya’s largest dump: the invisible workers sorting the world’s rubbish",
@@ -858,43 +808,24 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "The Guardian Africa",
         "AllAfrica",
+        "The Guardian Africa",
+        "Africanews",
         "Le Monde Afrique",
         "BBC Africa"
       ]
     },
     "Rwanda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.3,
-      "ratio": 0.43,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "La guerre Rwanda-RDC à la merci de l’hubris de Trump",
-          "url": "https://www.lemonde.fr/idees/article/2026/03/07/la-guerre-rwanda-rdc-a-la-merci-de-l-hubris-de-trump_6669886_3232.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-07T10:30:11",
-          "lead": "L’implication volontariste du président américain dans un conflit vieux de trois décennies est notable, mais ne semble p"
-        }
-      ],
-      "sources": [
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Burundi": {
       "article_count": 0,
@@ -1005,7 +936,7 @@
     "Mozambique": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1061,10 +992,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 6,
+      "article_count": 8,
       "source_count": 4,
-      "baseline": 13.1,
-      "ratio": 0.46,
+      "baseline": 13.2,
+      "ratio": 0.6,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1101,11 +1032,25 @@
           "lead": "Pour raconter son pays longtemps fracturé par l’apartheid et la guerre, Jo Ractliffe a choisi de faire parler les lieux."
         },
         {
+          "title": "South Africa still battling FMD in cattle, mass vaccination campaign launched",
+          "url": "http://www.africanews.com/2026/03/08/south-africa-still-battling-fmd-in-cattle-mass-vaccination-campagin-launched/",
+          "source": "Africanews",
+          "published": "2026-03-08T10:41:17",
+          "lead": "South Africa embarked on a mass vaccination of cattle on Friday to stem an outbreak of foot-and-mouth disease that threa"
+        },
+        {
           "title": "Facing staggering gender-based violence, SA women turn to self-defence",
           "url": "http://www.africanews.com/2026/03/07/facing-staggering-gender-based-violence-sa-women-turn-to-self-defence/",
           "source": "Africanews",
           "published": "2026-03-07T14:05:15",
           "lead": "In South Africa, femicide rates are thought to be five times higher than the global average. With many women victims of "
+        },
+        {
+          "title": "OUR CITY NEWS: City moves to appoint managing agent for the Johannesburg Transport Interchange Centre",
+          "url": "https://www.dailymaverick.co.za/article/city-moves-to-appoint-managing-agent-forr-the-johannesburg-transport-interchange",
+          "source": "Daily Maverick",
+          "published": "2026-03-08T12:34:30",
+          "lead": "Ten years after construction began, the tender to appoint an agent to operate and manage the Johannesburg Transport Inte"
         },
         {
           "title": "FOOTBALL TRAGEDY: Two years after rising soccer star Luke Fleurs’ death, his family awaits justice",
@@ -1123,10 +1068,10 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "RFI Afrique",
+        "Africanews",
         "Le Monde Afrique",
-        "Africanews"
+        "Daily Maverick",
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
