@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-07T21:13:28.271171",
+  "generated_at": "2026-03-08T01:18:06.927256",
   "summary": {
     "high": 1,
-    "elevated": 2,
+    "elevated": 1,
     "normal": 23,
-    "quiet": 28
+    "quiet": 29
   },
   "countries": {
     "Morocco": {
@@ -86,11 +86,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -175,43 +175,28 @@
       ]
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.6,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Une position de l'armée près de Karimama attaquée au Bénin, au moins 15 soldats tués",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260306-une-position-de-l-arm%C3%A9e-pr%C3%A8s-de-karimama-attaqu%C3%A9e-au-b%C3%A9nin-au-moins-15-soldats-tu%C3%A9s",
-          "source": "France24 Afrique",
-          "published": "2026-03-06T21:33:21",
-          "lead": "Au Bénin, nouvelle attaque meurtrière dans le nord du pays. Une position de l’armée a été visée mercredi dans la commune"
-        }
-      ],
-      "sources": [
-        "France24 Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Senegal": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 4.9,
-      "ratio": 0.82,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 2
+          "count": 3
         },
         {
           "word": "Government",
@@ -230,6 +215,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-07T19:31:31",
           "lead": "Au Sénégal, la coalition « Diomaye Président » réunie ce samedi 7 mars à Dakar pour sa première assemblée générale. L’al"
+        },
+        {
+          "title": "Sénégal: Diomaye Faye réaffirme son attachement à la coalition \"Diomaye Président\"",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260307-s%C3%A9n%C3%A9gal-diomaye-faye-r%C3%A9affirme-son-attachement-%C3%A0-la-coalition-diomaye-pr%C3%A9sident",
+          "source": "France24 Afrique",
+          "published": "2026-03-07T22:10:13",
+          "lead": "Au Sénégal, Bassirou Diomaye Faye se démarque de plus en plus d'Ousmane Sonko. Le chef de l'Etat sénégalais a présidé ce"
         },
         {
           "title": "Candidature de Macky Sall à l’ONU : un collectif sénégalais s’insurge",
@@ -254,9 +246,10 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -284,16 +277,16 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 4,
       "baseline": 1.6,
-      "ratio": 3.75,
+      "ratio": 3.12,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Président",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Gouvernement",
@@ -308,13 +301,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-07T12:50:34",
           "lead": "En Guinée, le gouvernement a annoncé, dans la nuit de vendredi à ce samedi 7 mars, la dissolution de quarante partis pol"
-        },
-        {
-          "title": "Guinée: le président Mamadi Doumbouya de retour après plus de deux semaines d'absence",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-guin%C3%A9e-le-pr%C3%A9sident-mamadi-doumbouya-de-retour-apr%C3%A8s-plus-de-deux-semaines-d-absence",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T23:09:21",
-          "lead": "Mamadi Doumbouya est rentré en Guinée ce vendredi 6 mars vers midi après trois semaines d’absence. Il a été accueilli à "
         },
         {
           "title": "Queen Rima: «Je rêve de voir la musique guinéenne voyager encore plus loin dans le monde»",
@@ -346,10 +332,10 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
-        "France24 Afrique",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "France24 Afrique"
       ]
     },
     "Sierra Leone": {
@@ -377,31 +363,9 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.68,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Côte d'Ivoire: les femmes Tchinlovogo transforment leur localité grâce au maraîchage",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260306-c%C3%B4te-d-ivoire-les-femmes-tchinlovogo-transforment-leur-localit%C3%A9-gr%C3%A2ce-au-mara%C3%AEchage",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T23:05:08",
-          "lead": "En Côte d’Ivoire, l’autonomie des femmes en milieu rural est toujours un sujet dans certaines zones reculées. Mais la si"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
-    },
-    "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.7,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -409,6 +373,41 @@
       "keyword_pairs": [],
       "articles": [],
       "sources": []
+    },
+    "Ghana": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.7,
+      "ratio": 0.38,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Blessé",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Guerre au Moyen-Orient: trois Casques bleus ghanéens blessés dans une attaque au Liban, Accra saisit l'ONU",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-guerre-au-moyen-orient-trois-casques-bleus-ghan%C3%A9ens-bless%C3%A9s-dans-une-attaque-au-liban-accra-saisit-l-onu",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T22:40:29",
+          "lead": "Le ministre ghanéen des Affaires étrangères, Samuel Okudzeto Ablakwa, a protesté ce samedi 7 mars 2026 auprès de l'ONU a"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Togo": {
       "article_count": 0,
@@ -423,44 +422,9 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 1.3,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Attaque",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Bénin: le parti les Démocrates veut rencontrer Thomas Boni Yayi avant d’accepter sa démission",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-b%C3%A9nin-le-parti-les-d%C3%A9mocrates-veut-rencontrer-thomas-boni-yayi-avant-d-accepter-sa-d%C3%A9mission",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T03:25:03",
-          "lead": "Au Bénin, la démission de l'ancien chef d'État de la tête du principal parti d'opposition n'est toujours pas actée par l"
-        },
-        {
-          "title": "Une position de l'armée près de Karimama attaquée au Bénin, au moins 15 soldats tués",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260306-une-position-de-l-arm%C3%A9e-pr%C3%A8s-de-karimama-attaqu%C3%A9e-au-b%C3%A9nin-au-moins-15-soldats-tu%C3%A9s",
-          "source": "France24 Afrique",
-          "published": "2026-03-06T21:33:21",
-          "lead": "Au Bénin, nouvelle attaque meurtrière dans le nord du pays. Une position de l’armée a été visée mercredi dans la commune"
-        }
-      ],
-      "sources": [
-        "RFI Afrique",
-        "France24 Afrique"
-      ]
-    },
-    "Nigeria": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 8.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -468,6 +432,28 @@
       "keyword_pairs": [],
       "articles": [],
       "sources": []
+    },
+    "Nigeria": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 8.6,
+      "ratio": 0.12,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Etuk Ubong, un trompettiste nigérian né pour faire groover et conscientiser l’Afrique",
+          "url": "https://www.rfi.fr/fr/podcasts/les-p%C3%A9pites-musicales-de-rfi/20260307-etuk-ubong-un-trompettiste-nig%C3%A9rian-n%C3%A9-pour-faire-groover-et-conscientiser-l-afrique",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T23:15:06",
+          "lead": "Ce dimanche 8 mars, prenons une bonne « dose de groove » et de réflexion sur l'avenir du continent africain avec un chef"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Cape Verde": {
       "article_count": 0,
@@ -494,13 +480,17 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.0,
-      "ratio": 0.33,
+      "ratio": 0.67,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Combat",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -513,6 +503,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Denise Epoté : la pionnière du journal télévisé africain raconte 40 ans de carrière",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260307-denise-epot%C3%A9-la-pionni%C3%A8re-du-journal-t%C3%A9l%C3%A9vis%C3%A9-africain-raconte-40-ans-de-carri%C3%A8re",
+          "source": "France24 Afrique",
+          "published": "2026-03-07T22:00:59",
+          "lead": "À la veille de la Journée internationale des droits des femmes, le Journal de l’Afrique reçoit Denise Epoté, figure hist"
+        },
+        {
           "title": "Macky Sall candidat à l’ONU, les 500 Champions africains de l’économie, Touadéra à Moscou… Les 5 infos qu’il ne fallait pas manquer",
           "url": "https://www.jeuneafrique.com/1771525/politique/macky-sall-candidat-a-lonu-les-500-champions-africains-de-leconomie-touadera-a-moscou-les-5-infos-quil-ne-fallait-pas-manquer/",
           "source": "Jeune Afrique",
@@ -521,7 +518,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "CAR": {
@@ -571,11 +569,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -606,19 +604,15 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 1.4,
-      "ratio": 2.09,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.4,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -632,13 +626,6 @@
           "lead": "Dans une enquête publiée ce jeudi 5 mars, l'hebdomadaire français Marianne affirme que le ministère français des Affaire"
         },
         {
-          "title": "Gabon: «Mon fils et moi avons été torturés», assure l'ex-première dame Sylvia Bongo à France 24",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-gabon-mon-fils-et-moi-avons-%C3%A9t%C3%A9-tortur%C3%A9s-assure-l-ex-premi%C3%A8re-dame-sylvia-bongo-%C3%A0-france-24",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T23:21:27",
-          "lead": "Sylvia Bongo s'est exprimée pour la première fois depuis la fin de sa détention, vendredi 6 mars, dans une interview acc"
-        },
-        {
           "title": "Mark-Alexandre Doumba : « Au Gabon, nous souhaitons scanner les réseaux sociaux pour contrer la désinformation »",
           "url": "https://www.jeuneafrique.com/1772112/economie-entreprises/mark-alexandre-doumba-au-gabon-nous-souhaitons-scanner-les-reseaux-sociaux-pour-contrer-la-desinformation/",
           "source": "Jeune Afrique",
@@ -647,8 +634,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Congo": {
@@ -771,10 +758,10 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Africanews",
         "RFI Afrique",
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Le Monde Afrique"
       ]
     },
     "São Tomé": {
@@ -826,31 +813,24 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
-      "baseline": 4.4,
-      "ratio": 0.46,
+      "baseline": 4.3,
+      "ratio": 0.23,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
-          "count": 2
+          "word": "Humanitaire",
+          "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Guinée: le président Mamadi Doumbouya de retour après plus de deux semaines d'absence",
-          "url": "https://www.rfi.fr/fr/afrique/20260306-guin%C3%A9e-le-pr%C3%A9sident-mamadi-doumbouya-de-retour-apr%C3%A8s-plus-de-deux-semaines-d-absence",
-          "source": "RFI Afrique",
-          "published": "2026-03-06T23:09:21",
-          "lead": "Mamadi Doumbouya est rentré en Guinée ce vendredi 6 mars vers midi après trois semaines d’absence. Il a été accueilli à "
-        },
         {
           "title": "Soudan du Sud: l’armée donne 72 heures aux casques bleus et aux ONG pour quitter la ville d'Akobo",
           "url": "https://www.rfi.fr/fr/afrique/20260307-soudan-du-sud-l-arm%C3%A9e-donne-72-heures-aux-casques-bleus-et-aux-ong-pour-quitter-la-ville-d-akobo",
@@ -872,11 +852,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "M23",
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "M23",
           "count": 1
         }
       ],
@@ -958,10 +938,10 @@
         }
       ],
       "sources": [
-        "Africanews",
         "AllAfrica",
-        "Le Monde Afrique",
-        "BBC Africa"
+        "Africanews",
+        "BBC Africa",
+        "Le Monde Afrique"
       ]
     },
     "Rwanda": {
@@ -1237,23 +1217,23 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Afrique du Sud: à Durban, les très coûteuses statues de Mandela et Tambo font grincer des dents",
+          "url": "https://www.rfi.fr/fr/afrique/20260307-afrique-du-sud-%C3%A0-durban-les-tr%C3%A8s-co%C3%BBteuses-statues-de-mandela-et-tambo-font-grincer-des-dents",
+          "source": "RFI Afrique",
+          "published": "2026-03-07T23:48:02",
+          "lead": "En Afrique du Sud, deux statues sèment la discorde au sein de la ville de Durban, sur la côte est du pays. Ces représent"
+        },
+        {
           "title": "Facing staggering gender-based violence, SA women turn to self-defence",
           "url": "http://www.africanews.com/2026/03/07/facing-staggering-gender-based-violence-sa-women-turn-to-self-defence/",
           "source": "Africanews",
           "published": "2026-03-07T14:05:15",
           "lead": "In South Africa, femicide rates are thought to be five times higher than the global average. With many women victims of "
-        },
-        {
-          "title": "THE WEEKEND WRAP: ANC bigwig’s state capture sentence, Lekota’s legacy and earthly pleasures",
-          "url": "https://www.dailymaverick.co.za/article/anc-bigwigs-state-capture-sentence-lekotas-legacy-and-earthly-pleasures",
-          "source": "Daily Maverick",
-          "published": "2026-03-07T00:07:00",
-          "lead": "The Weekend Wrap highlights Vincent Smith’s sentencing for corruption, reflects on Mosiuoa Lekota’s political legacy, an"
         }
       ],
       "sources": [
         "Africanews",
-        "Daily Maverick"
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
