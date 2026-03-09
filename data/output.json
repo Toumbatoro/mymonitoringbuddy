@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-08T21:15:17.860557",
+  "generated_at": "2026-03-09T01:17:59.258431",
   "summary": {
     "high": 0,
     "elevated": 0,
@@ -54,8 +54,8 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Tunisia": {
@@ -160,8 +160,8 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "Jeune Afrique"
       ]
     },
     "Mauritania": {
@@ -204,16 +204,31 @@
       ]
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.58,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Burkina Faso: des dizaines de morts dans une attaque contre un détachement de police à Yamba",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-burkina-faso-des-dizaines-de-morts-dans-une-attaque-contre-un-d%C3%A9tachement-de-police-%C3%A0-yamba",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T22:39:58",
+          "lead": "Au Burkina Faso, une nouvelle attaque a eu lieu contre les forces de sécurité, vendredi 6 mars. Ce sont les policiers du"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Niger": {
       "article_count": 0,
@@ -229,32 +244,27 @@
     },
     "Senegal": {
       "article_count": 3,
-      "source_count": 3,
-      "baseline": 4.9,
+      "source_count": 2,
+      "baseline": 4.8,
       "ratio": 0.62,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sénégal: l'Institut Pasteur de Dakar en pointe dans l'élaboration d'un vaccin contre la fièvre de Marburg",
+          "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260308-s%C3%A9n%C3%A9gal-l-institut-pasteur-de-dakar-en-pointe-dans-l-%C3%A9laboration-d-un-vaccin-contre-la-fi%C3%A8vre-de-marburg",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T23:47:47",
+          "lead": "Ebola a désormais son vaccin, mais pas encore la fièvre de Marburg. Cette fièvre hémorragique virale, de la même famille"
+        },
         {
           "title": "Sénégal: la banalisation des violences faites aux femmes dans les séries télé pointée du doigt",
           "url": "https://www.rfi.fr/fr/afrique/20260308-s%C3%A9n%C3%A9gal-la-banalisation-des-violences-faites-aux-femmes-dans-les-s%C3%A9ries-t%C3%A9l%C3%A9-point%C3%A9e-du-doigt",
           "source": "RFI Afrique",
           "published": "2026-03-08T02:40:32",
           "lead": "Au Sénégal, la lutte contre les violences faites aux femmes passe aussi par le petit écran. Depuis quelques semaines, un"
-        },
-        {
-          "title": "Sénégal: Diomaye Faye réaffirme son attachement à la coalition \"Diomaye Président\"",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260307-s%C3%A9n%C3%A9gal-diomaye-faye-r%C3%A9affirme-son-attachement-%C3%A0-la-coalition-diomaye-pr%C3%A9sident",
-          "source": "France24 Afrique",
-          "published": "2026-03-07T22:10:13",
-          "lead": "Au Sénégal, Bassirou Diomaye Faye se démarque de plus en plus d'Ousmane Sonko. Le chef de l'Etat sénégalais a présidé ce"
         },
         {
           "title": "Sénégal : les députés examineront le 11 mars un projet de durcissement de la loi contre l’homosexualité",
@@ -266,8 +276,7 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
@@ -295,15 +304,22 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 0.61,
+      "ratio": 1.22,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "One ‘party state’: Guinea dissolves main opposition parties",
+          "url": "https://www.aljazeera.com/news/2026/3/8/one-party-state-guinea-dissolves-main-opposition-parties?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-08T21:45:02",
+          "lead": "Decree strips parties of legal status and assets, as opposition leader calls on Guineans to resist."
+        },
         {
           "title": "Guinea's junta dissolves 40 political parties with late-night decree",
           "url": "http://www.africanews.com/2026/03/08/guineas-junta-dissolves-40-political-parties-with-late-night-decree/",
@@ -313,7 +329,8 @@
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "Al Jazeera"
       ]
     },
     "Sierra Leone": {
@@ -366,44 +383,21 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.6,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Blessé",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Guerre au Moyen-Orient: trois Casques bleus ghanéens blessés dans une attaque au Liban, Accra saisit l'ONU",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-guerre-au-moyen-orient-trois-casques-bleus-ghan%C3%A9ens-bless%C3%A9s-dans-une-attaque-au-liban-accra-saisit-l-onu",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T22:40:29",
-          "lead": "Le ministre ghanéen des Affaires étrangères, Samuel Okudzeto Ablakwa, a protesté ce samedi 7 mars 2026 auprès de l'ONU a"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Togo": {
       "article_count": 0,
@@ -418,24 +412,34 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.65,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Silifatou Amanké Bouari, première femme à diriger le lycée militaire de Natitingou",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260308-silifatou-amank%C3%A9-bouari-premi%C3%A8re-femme-%C3%A0-diriger-le-lyc%C3%A9e-militaire-de-natitingou",
+          "source": "France24 Afrique",
+          "published": "2026-03-08T21:37:21",
+          "lead": "À Natitingou, dans l’extrême nord du Bénin, le Lycée militaire des jeunes filles est l’un des établissements les plus sé"
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
     },
     "Nigeria": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 8.2,
-      "ratio": 0.24,
+      "ratio": 0.12,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -445,13 +449,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-08T08:01:57",
           "lead": "Au Nigeria, depuis le début de l'année 2026, le gouverneur de l'État d'Anambra a sérieusement durci le ton pour tenter d"
-        },
-        {
-          "title": "Etuk Ubong, un trompettiste nigérian né pour faire groover et conscientiser l’Afrique",
-          "url": "https://www.rfi.fr/fr/podcasts/les-p%C3%A9pites-musicales-de-rfi/20260307-etuk-ubong-un-trompettiste-nig%C3%A9rian-n%C3%A9-pour-faire-groover-et-conscientiser-l-afrique",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T23:15:06",
-          "lead": "Ce dimanche 8 mars, prenons une bonne « dose de groove » et de réflexion sur l'avenir du continent africain avec un chef"
         }
       ],
       "sources": [
@@ -483,16 +480,16 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.0,
-      "ratio": 0.67,
+      "ratio": 0.34,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Combat",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Mort",
@@ -502,13 +499,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Denise Epoté : la pionnière du journal télévisé africain raconte 40 ans de carrière",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260307-denise-epot%C3%A9-la-pionni%C3%A8re-du-journal-t%C3%A9l%C3%A9vis%C3%A9-africain-raconte-40-ans-de-carri%C3%A8re",
-          "source": "France24 Afrique",
-          "published": "2026-03-07T22:00:59",
-          "lead": "À la veille de la Journée internationale des droits des femmes, le Journal de l’Afrique reçoit Denise Epoté, figure hist"
-        },
-        {
           "title": "Cameroun : « Mon père, Anicet Ekane, est mort en martyr, mais son combat va continuer »",
           "url": "https://www.jeuneafrique.com/1771755/politique/cameroun-mon-pere-anicet-ekane-est-mort-en-martyr-mais-son-combat-va-continuer/",
           "source": "Jeune Afrique",
@@ -517,8 +507,7 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "CAR": {
@@ -546,8 +535,8 @@
     "South Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.9,
-      "ratio": 1.03,
+      "baseline": 2.0,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -634,13 +623,21 @@
       ]
     },
     "DRC": {
-      "article_count": 2,
+      "article_count": 4,
       "source_count": 1,
       "baseline": 7.4,
-      "ratio": 0.27,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "M23",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -650,16 +647,30 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Explosion",
           "count": 1
         },
         {
-          "word": "Explosion",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RDC: le derby de Lubumbashi, entre le TP Mazembe et Saint-Éloi Lupopo, a sombré dans la violence",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260309-rdc-le-derby-de-lubumbashi-entre-le-tp-mazembe-et-saint-%C3%A9loi-lupopo-a-sombr%C3%A9-dans-la-violence",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T00:21:14",
+          "lead": "Le derby entre le Tout Puissant Mazembe et le FC Saint-Éloi Lupopo du dimanche 8 mars, comptant pour la 17e journée de l"
+        },
+        {
+          "title": "RDC: la surexploitation et le manque de règles de sécurité à l'origine des éboulements miniers",
+          "url": "https://www.rfi.fr/fr/afrique/20260308-rdc-la-surexploitation-et-le-manque-de-r%C3%A8gles-de-s%C3%A9curit%C3%A9-%C3%A0-l-origine-des-%C3%A9boulements-miniers",
+          "source": "RFI Afrique",
+          "published": "2026-03-08T20:06:42",
+          "lead": "Les recherches se poursuivent dans l'est de la RDC après l'éboulement, mardi 3 mars, d'une mine de coltan à Rubaya, au N"
+        },
         {
           "title": "Trésor Lualua veut alerter sur l'état du football chez les jeunes en RDC",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260308-tr%C3%A9sor-lualua-veut-alerter-sur-l-%C3%A9tat-du-football-chez-les-jeunes-en-rdc",
@@ -728,12 +739,12 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 4.3,
-      "ratio": 0.23,
+      "ratio": 0.47,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Déplacés",
@@ -746,6 +757,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Éthiopie: le parti du Front populaire de libération du Tigré en péril",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260309-%C3%A9thiopie-le-parti-du-front-populaire-de-lib%C3%A9ration-du-tigr%C3%A9-en-p%C3%A9ril",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T00:08:59",
+          "lead": "Le 18 février 2026, le Front populaire de libération du Tigré (TPLF) a célébré son 51e anniversaire dans un contexte trè"
+        },
         {
           "title": "Soudan du Sud: les habitants d'Akobo fuient la ville, craignant de nouveaux combats",
           "url": "https://www.rfi.fr/fr/afrique/20260308-soudan-du-sud-les-habitants-d-akobo-fuient-la-ville-craignant-de-nouveaux-combats",
@@ -771,26 +789,16 @@
       "sources": []
     },
     "Uganda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.8,
-      "ratio": 0.56,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Uganda’s Jacob Kiplimo regains half-marathon world record in Lisbon",
-          "url": "https://www.aljazeera.com/sports/2026/3/8/ugandas-jacob-kiplimo-regains-half-marathon-world-record-in-lisbon?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-08T14:18:54",
-          "lead": "The 25-year-old is back on top, five years after first setting the record on the same course."
-        }
-      ],
-      "sources": [
-        "Al Jazeera"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Kenya": {
       "article_count": 5,
@@ -805,11 +813,11 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -856,10 +864,10 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "The Guardian Africa",
         "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "BBC Africa",
+        "The Guardian Africa"
       ]
     },
     "Rwanda": {
@@ -1019,10 +1027,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 11,
+      "article_count": 12,
       "source_count": 4,
       "baseline": 13.4,
-      "ratio": 0.82,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1034,18 +1042,25 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "L'Afrique du Sud veut produire du Lenacapavir, traitement préventif contre le VIH",
+          "url": "https://www.rfi.fr/fr/afrique/20260309-l-afrique-du-sud-veut-produire-du-lenacapavir-traitement-pr%C3%A9ventif-contre-le-vih",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T00:27:29",
+          "lead": "Les premières injections de Lenacapavir, traitement préventif révolutionnaire contre le virus de l'immunodéficience huma"
+        },
+        {
+          "title": "Afrique du Sud: un nouveau terminal va voir le jour pour doper les exportations de manganèse",
+          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260309-afrique-du-sud-un-nouveau-terminal-va-voir-le-jour-pour-doper-les-exportations-de-mangan%C3%A8se",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T00:00:36",
+          "lead": "L'Afrique du Sud passe à la vitesse supérieure sur l'exportation de son manganèse. C'est le premier fournisseur mondial "
+        },
+        {
           "title": "Afrique du Sud: l’augmentation des prix à la pompe met en péril le budget du pays",
           "url": "https://www.rfi.fr/fr/afrique/20260308-afrique-du-sud-l-augmentation-des-prix-%C3%A0-la-pompe-met-en-p%C3%A9ril-le-budget-du-pays",
           "source": "RFI Afrique",
           "published": "2026-03-08T07:31:02",
           "lead": "En Afrique du Sud, comme dans beaucoup de pays à travers le monde, on s’inquiète des répercussions économiques de la gue"
-        },
-        {
-          "title": "Afrique du Sud: à Durban, les très coûteuses statues de Mandela et Tambo font grincer des dents",
-          "url": "https://www.rfi.fr/fr/afrique/20260307-afrique-du-sud-%C3%A0-durban-les-tr%C3%A8s-co%C3%BBteuses-statues-de-mandela-et-tambo-font-grincer-des-dents",
-          "source": "RFI Afrique",
-          "published": "2026-03-07T23:48:02",
-          "lead": "En Afrique du Sud, deux statues sèment la discorde au sein de la ville de Durban, sur la côte est du pays. Ces représent"
         },
         {
           "title": "En Afrique du Sud, Jo Ractliffe a photographié des paysages défigurés par les guerres et la surexploitation des hommes",
@@ -1112,10 +1127,10 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Daily Maverick",
         "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "Daily Maverick",
+        "Le Monde Afrique"
       ]
     },
     "Eswatini": {
