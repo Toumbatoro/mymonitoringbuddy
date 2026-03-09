@@ -1,23 +1,38 @@
 {
-  "generated_at": "2026-03-09T04:46:25.754280",
+  "generated_at": "2026-03-09T06:51:32.655315",
   "summary": {
     "high": 0,
-    "elevated": 0,
-    "normal": 19,
-    "quiet": 35
+    "elevated": 4,
+    "normal": 21,
+    "quiet": 29
   },
   "countries": {
     "Morocco": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 3.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.31,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Visas pour la France: «Avec un déficit de communication, on a une machine à mécontentement»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260309-visas-pour-la-france-avec-un-d%C3%A9ficit-de-communication-on-a-une-machine-%C3%A0-m%C3%A9contentement",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T05:45:04",
+          "lead": "C'est une difficulté qui alimente les débats dans une bonne partie de l'Afrique francophone : le parcours du combattant "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Algeria": {
       "article_count": 2,
@@ -122,11 +137,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Déplacés",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Déplacés",
           "count": 1
         },
         {
@@ -159,8 +174,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "France24 Afrique",
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -231,27 +246,49 @@
       ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Senegal": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 4.7,
-      "ratio": 0.43,
+      "ratio": 0.41,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Nigeria: Govt to Complete 570MW Alaoji Plant Next Year",
+          "url": "https://allafrica.com/stories/202603090029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:33",
+          "lead": "[Daily Trust] The Managing Director and Chief Executive Officer of the Niger Delta Power Holding Company (NDPHC), Engr. "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
+    },
+    "Senegal": {
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 4.7,
+      "ratio": 0.64,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Visas pour la France: «Avec un déficit de communication, on a une machine à mécontentement»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260309-visas-pour-la-france-avec-un-d%C3%A9ficit-de-communication-on-a-une-machine-%C3%A0-m%C3%A9contentement",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T05:45:04",
+          "lead": "C'est une difficulté qui alimente les débats dans une bonne partie de l'Afrique francophone : le parcours du combattant "
+        },
         {
           "title": "Sénégal: l'Institut Pasteur de Dakar en pointe dans l'élaboration d'un vaccin contre la fièvre de Marburg",
           "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20260308-s%C3%A9n%C3%A9gal-l-institut-pasteur-de-dakar-en-pointe-dans-l-%C3%A9laboration-d-un-vaccin-contre-la-fi%C3%A8vre-de-marburg",
@@ -268,8 +305,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -405,13 +442,18 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 0.64,
+      "ratio": 1.28,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Coup",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -420,20 +462,41 @@
           "source": "France24 Afrique",
           "published": "2026-03-08T21:37:21",
           "lead": "À Natitingou, dans l’extrême nord du Bénin, le Lycée militaire des jeunes filles est l’un des établissements les plus sé"
+        },
+        {
+          "title": "Au Bénin, putschistes et présumés jihadistes défilent devant la Criet, une cour d’exception",
+          "url": "https://www.jeuneafrique.com/1762331/politique/au-benin-putschistes-et-presumes-jihadistes-defilent-devant-la-criet-une-cour-dexception/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-09T07:00:00",
+          "lead": "La Cour de répression des infractions économiques et du terrorisme (Criet) est connue pour les lourdes condamnations qu’"
         }
       ],
       "sources": [
-        "France24 Afrique"
+        "France24 Afrique",
+        "Jeune Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 12,
+      "source_count": 2,
       "baseline": 8.3,
-      "ratio": 0.12,
+      "ratio": 1.45,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 3
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -442,10 +505,88 @@
           "source": "RFI Afrique",
           "published": "2026-03-08T08:01:57",
           "lead": "Au Nigeria, depuis le début de l'année 2026, le gouverneur de l'État d'Anambra a sérieusement durci le ton pour tenter d"
+        },
+        {
+          "title": "Nigeria: Nigeria Demands Release of 42 Citizens Detained By Mozambique",
+          "url": "https://allafrica.com/stories/202603090032.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:34",
+          "lead": "[Daily Trust] The Nigerian government has called for the immediate release of 42 Nigerians allegedly arrested by Mozambi"
+        },
+        {
+          "title": "Nigeria: Dangote Refinery Commits to Energy Stability Amid Global Refineries Shutdown",
+          "url": "https://allafrica.com/stories/202603090086.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:23:31",
+          "lead": "[Vanguard] Dangote Petroleum Refinery &#x26;amp; Petrochemicals has indicated its commitment to stabilising energy suppl"
+        },
+        {
+          "title": "Nigeria: 2027 Polls - Parties Scramble to Meet Electoral Act Deadline",
+          "url": "https://allafrica.com/stories/202603090085.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:23:31",
+          "lead": "[Vanguard] ABUJA -- With the release of the 2026 Electoral Act and a revised timetable for the 2027 general elections, p"
+        },
+        {
+          "title": "Nigeria: NiDCOM Condemns Arrest of 42 Nigerians in Mozambique",
+          "url": "https://allafrica.com/stories/202603090084.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:21:30",
+          "lead": "[Premium Times] Ms Dabiri-Erewa said the sudden and specific round-up of only Nigerians seemed to be a xenophobic attack"
+        },
+        {
+          "title": "Nigeria: How 2.3bn Govt's Electricity Project Failed",
+          "url": "https://allafrica.com/stories/202603090083.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:20:47",
+          "lead": "[Vanguard] Despite the injection of &#x20ac;2.3billion (N3.7 trillion at current exchange rate), to the Presidential Pow"
+        },
+        {
+          "title": "Nigeria: I'll Prevent Health Workers' Strike, Gwagwalada Chair-Elect Says",
+          "url": "https://allafrica.com/stories/202603090033.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:34",
+          "lead": "[Daily Trust] The chairman-elect of Gwagwalada Area Council, Comrade Kasim Mohammed Ikwa, has pledged that his administr"
+        },
+        {
+          "title": "Nigeria: Govt to Complete 570MW Alaoji Plant Next Year",
+          "url": "https://allafrica.com/stories/202603090029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:33",
+          "lead": "[Daily Trust] The Managing Director and Chief Executive Officer of the Niger Delta Power Holding Company (NDPHC), Engr. "
+        },
+        {
+          "title": "Nigeria: 76% of 2025 Capital Spending Achieved - Govt",
+          "url": "https://allafrica.com/stories/202603090030.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:33",
+          "lead": "[Daily Trust] The Federal Ministry of Finance has clarified that capital projects across the country are still being imp"
+        },
+        {
+          "title": "Nigeria: What Resolution of 30-Year OPL 245 Dispute Means for Nigeria - Govt",
+          "url": "https://allafrica.com/stories/202603090031.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:33",
+          "lead": "[Daily Trust] The federal government has said the resolution of the long-running dispute over OPL 245 marks a significan"
+        },
+        {
+          "title": "Nigeria: New Agencies Won't Solve Power Crisis - Experts",
+          "url": "https://allafrica.com/stories/202603090027.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:32",
+          "lead": "[Daily Trust] Experts have cautioned the federal government against proliferation of agencies in the power sector, which"
+        },
+        {
+          "title": "Nigeria: States Reject Removal of Power Subsidy, Others From Federation Account",
+          "url": "https://allafrica.com/stories/202603090028.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:32",
+          "lead": "[Daily Trust] States governments under the Federal Account Allocation Committee (FAAC) Postmortem Sub-Committee have exp"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -473,13 +614,17 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.0,
-      "ratio": 0.33,
+      "ratio": 0.67,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Combat",
           "count": 1
@@ -492,6 +637,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Visas pour la France: «Avec un déficit de communication, on a une machine à mécontentement»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260309-visas-pour-la-france-avec-un-d%C3%A9ficit-de-communication-on-a-une-machine-%C3%A0-m%C3%A9contentement",
+          "source": "RFI Afrique",
+          "published": "2026-03-09T05:45:04",
+          "lead": "C'est une difficulté qui alimente les débats dans une bonne partie de l'Afrique francophone : le parcours du combattant "
+        },
+        {
           "title": "Cameroun : « Mon père, Anicet Ekane, est mort en martyr, mais son combat va continuer »",
           "url": "https://www.jeuneafrique.com/1771755/politique/cameroun-mon-pere-anicet-ekane-est-mort-en-martyr-mais-son-combat-va-continuer/",
           "source": "Jeune Afrique",
@@ -500,7 +652,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "CAR": {
@@ -534,11 +687,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Déplacés",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Déplacés",
           "count": 1
         }
       ],
@@ -589,19 +742,15 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.36,
+      "ratio": 0.67,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Élection",
-          "count": 1
-        },
-        {
-          "word": "Président",
           "count": 1
         }
       ],
@@ -613,13 +762,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-09T01:57:44",
           "lead": "Au Congo-Brazzaville, l'élection présidentielle se tient dans une semaine, le 15 mars 2026. Denis Sassou-Nguesso, après "
-        },
-        {
-          "title": "Présidentielle au Congo-Brazzaville: Joseph Kignoumbi Kia Mboungou, candidat pour la cinquième fois",
-          "url": "https://www.rfi.fr/fr/afrique/20260308-pr%C3%A9sidentielle-au-congo-brazzaville-joseph-kignoumbi-kia-mboungou-candidat-pour-la-cinqui%C3%A8me-fois",
-          "source": "RFI Afrique",
-          "published": "2026-03-08T05:57:50",
-          "lead": "Au Congo-Brazzaville, la campagne se poursuit avant la présidentielle de dimanche 15 mars. Joseph Kignoumbi Kia Mboungou"
         }
       ],
       "sources": [
@@ -627,10 +769,10 @@
       ]
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 7.4,
-      "ratio": 0.54,
+      "ratio": 0.41,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -644,18 +786,6 @@
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Explosion",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -681,13 +811,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-08T16:32:29",
           "lead": "Alors que les élections des dirigeants des différentes ligues de la Fecofa ont été repoussées à début avril, les candida"
-        },
-        {
-          "title": "RDC: Le gouvernement reconnaît des retards dans le paiement des salaires des fonctionnaires",
-          "url": "https://www.rfi.fr/fr/afrique/20260308-rdc-le-gouvernement-reconna%C3%AEt-des-retards-dans-le-paiement-des-salaires-des-fonctionnaires",
-          "source": "RFI Afrique",
-          "published": "2026-03-08T05:29:53",
-          "lead": "En République démocratique du Congo (RDC), le gouvernement reconnaît des tensions sur la trésorerie étatique. Conséquenc"
         }
       ],
       "sources": [
@@ -751,11 +874,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Déplacés",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Déplacés",
           "count": 1
         }
       ],
@@ -805,13 +928,29 @@
       "sources": []
     },
     "Kenya": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 6.1,
-      "ratio": 0.66,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 11,
+      "source_count": 4,
+      "baseline": 6.0,
+      "ratio": 1.82,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Flood",
+          "count": 2
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -821,11 +960,7 @@
           "count": 1
         },
         {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Killed",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -858,25 +993,111 @@
           "source": "Africanews",
           "published": "2026-03-08T08:10:10",
           "lead": "Overnight torrential rains in the Kenyan capital Nairobi killed at least 23 people, and leaves destruction in its wake."
+        },
+        {
+          "title": "Kenya: Nairobi Bears Brunt of Weekend Downpours As Floods Sweep Across the City",
+          "url": "https://allafrica.com/stories/202603090068.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:01:06",
+          "lead": "[Capital FM] Nairobi -- Nairobi experienced exceptionally heavy rainfall over the weekend, with torrential downpours tri"
+        },
+        {
+          "title": "Kenya: Kenya Flood Toll Rises to 42 As Government Pledges Support for Affected Families",
+          "url": "https://allafrica.com/stories/202603090053.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:13:32",
+          "lead": "[Capital FM] Nairobi -- The government says the national death toll from the floods that struck on Friday evening curren"
+        },
+        {
+          "title": "Kenya: Floods Damage Nairobi Water Pipelines, Disrupt Supply",
+          "url": "https://allafrica.com/stories/202603090050.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:13:30",
+          "lead": "[Capital FM] Nairobi -- Residents in several Nairobi estates are grappling with water supply disruptions after heavy rai"
+        },
+        {
+          "title": "Kenya: Health PS Warns Long Rains Could Trigger Cholera, Malaria Outbreaks",
+          "url": "https://allafrica.com/stories/202603090044.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:13:26",
+          "lead": "[Capital FM] NAIROBI, Kenya Mar 8 - Public Health Principal Secretary Mary Muthoni has warned that the ongoing March-Apr"
+        },
+        {
+          "title": "Kenya: NTSA Rolls Out Instant Traffic Fines System With SMS Alerts to Motorists",
+          "url": "https://allafrica.com/stories/202603090069.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:16:46",
+          "lead": "[Capital FM] Nairobi -- The National Transport and Safety Authority (NTSA) has officially launched the long-anticipated "
+        },
+        {
+          "title": "Kenya: Muli Demands Probe Into Nairobi Drainage Failures After Floods Kill Over 20 People",
+          "url": "https://allafrica.com/stories/202603090070.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:16:46",
+          "lead": "[Capital FM] Nairobi -- National Liberal Party (NLP) leader Augustus Muli has demanded a transparent public audit of Nai"
+        },
+        {
+          "title": "Kenya: Police Intercept 181kg of Cannabis in High-Speed Chase, Suspect Flees",
+          "url": "https://allafrica.com/stories/202603090071.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:16:46",
+          "lead": "[Capital FM] Nairobi -- Police officers have intercepted a vehicle transporting 181 kilograms of suspected narcotics alo"
         }
       ],
       "sources": [
-        "Africanews",
         "The Guardian Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 4,
+      "source_count": 1,
       "baseline": 2.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Rwanda: Govt Moves to Curb Subsidy Misuse Under New Law",
+          "url": "https://allafrica.com/stories/202603090072.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:18:08",
+          "lead": "[New Times] Rwanda's new law on competition and consumer protection has introduced provisions aimed at ensuring that pub"
+        },
+        {
+          "title": "Rwanda: Farmers Join Fight to Restore Forests in Eastern Province",
+          "url": "https://allafrica.com/stories/202603090073.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:18:08",
+          "lead": "[New Times] Four to five decades ago, Rwanda's Eastern Province had significant forest cover. Once characterised by roll"
+        },
+        {
+          "title": "Rwanda: Refugees, Locals Turn to Beekeeping to Rebuild Livelihoods in Gatsibo",
+          "url": "https://allafrica.com/stories/202603090074.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:18:08",
+          "lead": "[New Times] Every few months, Seraphina Mujawamariya walks to a cluster of wooden beehives near Nyabiheke Refugee Camp i"
+        },
+        {
+          "title": "Rwanda: How a Former Patient Became a Trusted Face of Hospital Care",
+          "url": "https://allafrica.com/stories/202603090075.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:18:08",
+          "lead": "[New Times] At the reception area of La Croix du Sud Hospital in Remera, better known to many Kigali residents as Kwa Ny"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Burundi": {
       "article_count": 0,
@@ -985,28 +1206,76 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.94,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Nigeria: Nigeria Demands Release of 42 Citizens Detained By Mozambique",
+          "url": "https://allafrica.com/stories/202603090032.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T04:57:34",
+          "lead": "[Daily Trust] The Nigerian government has called for the immediate release of 42 Nigerians allegedly arrested by Mozambi"
+        },
+        {
+          "title": "Nigeria: NiDCOM Condemns Arrest of 42 Nigerians in Mozambique",
+          "url": "https://allafrica.com/stories/202603090084.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:21:30",
+          "lead": "[Premium Times] Ms Dabiri-Erewa said the sudden and specific round-up of only Nigerians seemed to be a xenophobic attack"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.73,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 2
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Zimbabwe: Defiant Madhuku Vows to Stop Mnangagwa's Term Extension Despite Crackdown On Anti-2030 Proponents",
+          "url": "https://allafrica.com/stories/202603090058.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:30:06",
+          "lead": "[New Zimbabwe] LOVEMORE Madhuku, leader of opposition National Constitutional Assembly (NCA) party, has vowed to mobilis"
+        },
+        {
+          "title": "Zimbabwe: Zanu-PF Harare Province Gives Thumbs Up to Constitutional Amendment Bill Number 3 to Stretch Mnangagwa's Incumbency",
+          "url": "https://allafrica.com/stories/202603090082.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:19:40",
+          "lead": "[New Zimbabwe] ZANU PF Harare Province has endorsed the proposed Constitutional Amendment Bill Number 3 to extend Presid"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Namibia": {
       "article_count": 0,
@@ -1021,22 +1290,44 @@
       "sources": []
     },
     "Botswana": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 4.0,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Botswana: Boko Refutes Death Penalty Opposition Allegations",
+          "url": "https://allafrica.com/stories/202603090041.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:13:25",
+          "lead": "[Botswana Daily News] Gaborone -- President Advocate Duma Boko has refuted allegations that he opposes the death penalty"
+        },
+        {
+          "title": "Botswana: Ministry Heightens Polio Surveillance After Virus Detection",
+          "url": "https://allafrica.com/stories/202603090040.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:13:24",
+          "lead": "[Botswana Daily News] Gaborone -- Ministry of Health authorities are strengthening polio surveillance and preparedness m"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "South Africa": {
-      "article_count": 12,
-      "source_count": 4,
+      "article_count": 14,
+      "source_count": 5,
       "baseline": 13.8,
-      "ratio": 0.87,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1083,6 +1374,27 @@
           "lead": "South Africa embarked on a mass vaccination of cattle on Friday to stem an outbreak of foot-and-mouth disease that threa"
         },
         {
+          "title": "South Africa: Cape Town Fires Displace Over 500 Residents - South African News Briefs - March 9, 2026",
+          "url": "https://allafrica.com/stories/202603090067.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T05:57:19",
+          "lead": "[allAfrica]"
+        },
+        {
+          "title": "South Africa: Did the Competition Commission Let Meta Off the Hook?",
+          "url": "https://allafrica.com/stories/202603090096.html",
+          "source": "AllAfrica",
+          "published": "2026-03-09T06:45:54",
+          "lead": "[Daily Maverick] South Africa's landmark market inquiry imposed financial remedies on Google but not Meta. With publishe"
+        },
+        {
+          "title": "AQUATIC VISION: Tatjana Smith reunites with her gold-medal pool as AquaPark makes a splash",
+          "url": "https://www.dailymaverick.co.za/article/tatjana-smith-reunites-with-her-goldmedal-pool-as-aquapark-makes-a-splash",
+          "source": "Daily Maverick",
+          "published": "2026-03-09T08:00:00",
+          "lead": "Tatjana Smith’s gold-medal pool has found an unlikely new home in Pietermaritzburg, where St Charles College’s AquaPark "
+        },
+        {
           "title": "SHAPING KNOWLEDGE OP-ED: When women scientists are invisible, science suffers: 5 ways to fix Africa’s STEM pipeline",
           "url": "https://www.dailymaverick.co.za/article/when-women-scientists-are-invisible-scieience-suffers-5-ways-to-fix-africas-stem",
           "source": "Daily Maverick",
@@ -1109,32 +1421,12 @@
           "source": "Daily Maverick",
           "published": "2026-03-08T14:39:09",
           "lead": "The Universal Basic Income Coalition says the 2026 Budget’s modest social grant increases and stricter compliance measur"
-        },
-        {
-          "title": "OUR CITY NEWS: City moves to appoint managing agent for the Johannesburg Transport Interchange Centre",
-          "url": "https://www.dailymaverick.co.za/article/city-moves-to-appoint-managing-agent-forr-the-johannesburg-transport-interchange",
-          "source": "Daily Maverick",
-          "published": "2026-03-08T12:34:30",
-          "lead": "Ten years after construction began, the tender to appoint an agent to operate and manage the Johannesburg Transport Inte"
-        },
-        {
-          "title": "FOOTBALL TRAGEDY: Two years after rising soccer star Luke Fleurs’ death, his family awaits justice",
-          "url": "https://www.dailymaverick.co.za/article/two-years-after-rising-soccer-star-luke-fleurs-death-his-family-awaits-justice",
-          "source": "Daily Maverick",
-          "published": "2026-03-08T09:51:40",
-          "lead": "The Kaizer Chiefs defender’s mother says his death is a symptom of South African society’s ills."
-        },
-        {
-          "title": "AMABHUNGANE: EXCLUSIVE: Alleged 28s gang boss ‘captured’ mega rail project – with Prasa’s ‘help’",
-          "url": "https://www.dailymaverick.co.za/article/exclusive-alleged-28s-gang-boss-captured-mega-rail-project-with-prasas-help",
-          "source": "Daily Maverick",
-          "published": "2026-03-08T06:00:00",
-          "lead": "Evidence suggests Prasa’s shadowy security head, Alexio Papadopulo, helped alleged gang boss Ralph Stanfield capture key"
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
+        "Africanews",
+        "AllAfrica",
         "Daily Maverick",
         "Le Monde Afrique"
       ]
