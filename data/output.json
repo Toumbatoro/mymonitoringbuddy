@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-03-10T06:37:24.829883",
+  "generated_at": "2026-03-10T09:35:29.020275",
   "summary": {
-    "high": 3,
-    "elevated": 7,
-    "normal": 21,
+    "high": 4,
+    "elevated": 5,
+    "normal": 22,
     "quiet": 23
   },
   "countries": {
@@ -11,7 +11,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 3.3,
-      "ratio": 0.3,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -31,9 +31,9 @@
     },
     "Algeria": {
       "article_count": 5,
-      "source_count": 4,
+      "source_count": 5,
       "baseline": 2.1,
-      "ratio": 2.38,
+      "ratio": 2.42,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -54,13 +54,6 @@
           "lead": "Le Parlement algérien a approuvé, lundi, la version amendée de la loi criminalisant la colonisation française, dont ont "
         },
         {
-          "title": "Crash d'Air Algérie en 2014 : le procès de la compagnie espagnole Swiftair s'ouvre à Paris",
-          "url": "https://www.france24.com/fr/afrique/20260309-crash-air-alg%C3%A9rie-2014-proc%C3%A8s-compagnie-espagnole-swiftair-s-ouvre-paris",
-          "source": "France24 Afrique",
-          "published": "2026-03-09T09:00:58",
-          "lead": "Le procès de Swiftair pour homicides involontaires s'ouvre lundi devant le tribunal correctionnel de Paris. La compagnie"
-        },
-        {
           "title": "L’Algérie retire l’exigence d’excuses dans la loi criminalisant la colonisation française",
           "url": "https://www.lemonde.fr/international/article/2026/03/09/l-algerie-retire-l-exigence-d-excuses-dans-la-loi-criminalisant-la-colonisation-francaise_6670137_3210.html",
           "source": "Le Monde Afrique",
@@ -73,13 +66,21 @@
           "source": "Jeune Afrique",
           "published": "2026-03-09T14:05:44",
           "lead": "Ce pourrait être le signe d’un début de détente entre Paris et Alger : plusieurs armes ayant appartenu à l’émir Abdelkad"
+        },
+        {
+          "title": "Air Algerie crash: Manslaughter trial for aircraft lessor starts in Paris",
+          "url": "http://www.africanews.com/2026/03/10/air-algerie-crash-manslaughter-trial-for-aircraft-lessor-starts-in-paris/",
+          "source": "Africanews",
+          "published": "2026-03-10T08:01:36",
+          "lead": "The aircraft involved in the 2014 crash, a McDonnell Douglas MD-83, had been leased to AirAlgerie, Algeria's national ca"
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "Le Monde Afrique",
         "RFI Afrique",
+        "Africanews",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "France24 Afrique"
       ]
     },
     "Tunisia": {
@@ -117,12 +118,12 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 2.2,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.46,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -139,28 +140,36 @@
           "source": "Africanews",
           "published": "2026-03-09T14:11:27",
           "lead": "The Egyptian pound fell on Sunday to its lowest level on record, dropping for the first time below 52 pounds to the US d"
-        },
-        {
-          "title": "Africa: Gcr Affirms African Export-Import Bank's International Scale Ratings of a and A2",
-          "url": "https://allafrica.com/stories/202603090108.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T08:04:30",
-          "lead": "[Afreximbank] Cairo -- African Export-Import Bank (Afreximbank) welcomes GCR Ratings' (\"GCR\") latest Rating action on th"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews"
       ]
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 6.2,
-      "ratio": 0.48,
+      "ratio": 0.65,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Terroriste",
+          "count": 1
+        },
         {
           "word": "Terrorist",
           "count": 1
@@ -170,18 +179,22 @@
           "count": 1
         },
         {
-          "word": "Terroriste",
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "US blacklists Sudanese Muslim Brotherhood as ‘terrorist’ group",
-          "url": "https://www.aljazeera.com/news/2026/3/9/us-blacklists-sudanese-muslim-brotherhood-as-terrorist-group?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-09T21:51:11",
-          "lead": "Trump administration accuses the group of receiving support from Iran and carrying out violence against civilians."
+          "title": "‘Extraordinary cruelty’: images show longterm ‘starvation strategy’ in Sudan",
+          "url": "https://www.theguardian.com/global-development/ng-interactive/2026/mar/10/extraordinary-cruelty-images-show-longterm-starvation-strategy-in-sudan",
+          "source": "The Guardian Africa",
+          "published": "2026-03-10T07:00:12",
+          "lead": "Experts argue sensor and satellite data reveal targeted attacks on farming communities by the Rapid Support Forces were "
         },
         {
           "title": "Au Soudan, les Frères musulmans désignés comme «organisation terroriste étrangère» par les États-Unis",
@@ -191,45 +204,44 @@
           "lead": "Les États-Unis ont annoncé, lundi 9 mars, avoir désigné les Frères musulmans au Soudan comme « organisation terroriste é"
         },
         {
-          "title": "Cameroun: les étudiants choqués après l’annonce de la suspension des visas par le Royaume-Uni",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-cameroun-les-%C3%A9tudiants-choqu%C3%A9s-apr%C3%A8s-l-annonce-de-la-suspension-des-visas-par-le-royaume-uni",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T10:17:17",
-          "lead": "À compter du 26 mars 2026, le Royaume-Uni va suspendre la délivrance de visas étudiants aux ressortissants de plusieurs "
+          "title": "Sudan: U.S. Designates Sudanese Muslim Brotherhood a Global Terrorist Group",
+          "url": "https://allafrica.com/stories/202603100081.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T06:57:13",
+          "lead": "[Capital FM] Nairobi -- The United States has designated the Sudanese Muslim Brotherhood (SMB) as a Specially Designated"
+        },
+        {
+          "title": "Haiti: Drone Strikes Put Residents at Risk",
+          "url": "https://www.hrw.org/news/2026/03/10/haiti-drone-strikes-put-residents-at-risk",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": ".paragraph--id--11756 .pb-video {\npadding-bottom: 73.25%;\n}  \n\n\n\n      \n\n\n  \n  \n\n\n\n\n  \n          \n                    \n\n"
         }
       ],
       "sources": [
+        "The Guardian Africa",
         "RFI Afrique",
-        "Al Jazeera"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Mauritania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.43,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mali: sept personnes tuées par l'armée et l'Africa Corps russe près de la frontière mauritanienne",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-mali-sept-personnes-tu%C3%A9es-par-l-arm%C3%A9e-et-l-africa-corps-russe-pr%C3%A8s-de-la-fronti%C3%A8re-mauritanienne",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T13:50:55",
-          "lead": "Au Mali, sept personnes qui venaient de quitter la Mauritanie ont été tuées vendredi 6 mars par l'armée malienne et ses "
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mali": {
       "article_count": 5,
-      "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 2.03,
+      "source_count": 4,
+      "baseline": 2.4,
+      "ratio": 2.05,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -238,7 +250,27 @@
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -259,13 +291,6 @@
           "lead": "Le premier jour du procès contre la compagnie aérienne Swiftair s'est tenu, lundi 9 mars, au tribunal correctionnel de P"
         },
         {
-          "title": "Mali: sept personnes tuées par l'armée et l'Africa Corps russe près de la frontière mauritanienne",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-mali-sept-personnes-tu%C3%A9es-par-l-arm%C3%A9e-et-l-africa-corps-russe-pr%C3%A8s-de-la-fronti%C3%A8re-mauritanienne",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T13:50:55",
-          "lead": "Au Mali, sept personnes qui venaient de quitter la Mauritanie ont été tuées vendredi 6 mars par l'armée malienne et ses "
-        },
-        {
           "title": "Niger : des tirs et des explosions entendus à Tahoua",
           "url": "https://www.jeuneafrique.com/1772215/politique/niger-des-tirs-et-des-explosions-entendus-a-tahoua/",
           "source": "Jeune Afrique",
@@ -273,37 +298,81 @@
           "lead": "Si jusqu’à présent la ville était épargnée, la région est confrontée à des attaques jihadistes régulières dans sa partie"
         },
         {
-          "title": "Mali : pourquoi les opérations militaires russes s’essoufflent depuis l’arrivée d’Africa Corps",
-          "url": "https://www.jeuneafrique.com/1771580/politique/mali-pourquoi-les-operations-militaires-russes-sessoufflent-depuis-larrivee-dafrica-corps/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-09T08:00:00",
-          "lead": "Depuis le remplacement du groupe Wagner par l’Africa Corps, les opérations russes au Mali ont ralenti, malgré une recrud"
+          "title": "Mali: Mali - Armed Islamist Group Executes Truck Drivers",
+          "url": "https://allafrica.com/stories/202603100077.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T06:47:44",
+          "lead": "[HRW] Nairobi -- 12 Victims Found with Throats Slit, Hands Tied"
+        },
+        {
+          "title": "Mali: Armed Islamist Group Executes Truck Drivers",
+          "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Screen"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique"
+        "Human Rights Watch",
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.59,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mali: Armed Islamist Group Executes Truck Drivers",
+          "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Screen"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Niger": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
       "baseline": 2.7,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.12,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
@@ -328,13 +397,6 @@
           "lead": "Le journaliste malien Youssouf Sissoko a comparu lundi 9 mars devant le pôle judiciaire spécialisé contre la cybercrimin"
         },
         {
-          "title": "Niger: des groupes terroristes ont attaqué pour la première fois l’importante ville de Tahoua",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-niger-des-groupes-terroristes-ont-attaqu%C3%A9-pour-la-premi%C3%A8re-fois-l-importante-ville-de-tahoua",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T13:21:00",
-          "lead": "Des combattants des groupes jihadistes ont mené deux assauts contre des bases militaires au Niger, dans la nuit de diman"
-        },
-        {
           "title": "Niger : des tirs et des explosions entendus à Tahoua",
           "url": "https://www.jeuneafrique.com/1772215/politique/niger-des-tirs-et-des-explosions-entendus-a-tahoua/",
           "source": "Jeune Afrique",
@@ -345,7 +407,7 @@
           "title": "Niger: Army repels attack on Tahoua drone base",
           "url": "http://www.africanews.com/2026/03/09/niger-army-repels-attack-on-tahoua-drone-base/",
           "source": "Africanews",
-          "published": "2026-03-09T17:37:58",
+          "published": "2026-03-10T08:06:05",
           "lead": "A military drone base at the airport in Niger’s Tahoua was targeted overnight Sunday. Local authorities say the army fen"
         }
       ],
@@ -356,10 +418,10 @@
       ]
     },
     "Senegal": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 4.9,
-      "ratio": 0.82,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -368,22 +430,42 @@
           "count": 1
         },
         {
+          "word": "Violence",
+          "count": 1
+        },
+        {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Sénégal: le Pastef serre les rangs face à la coalition «Diomaye président»",
+          "title": "Sénégal: le parti au pouvoir serre les rangs face à la coalition lancée par le président",
           "url": "https://www.rfi.fr/fr/afrique/20260310-s%C3%A9n%C3%A9gal-le-pastef-serre-les-rangs-face-%C3%A0-la-coalition-diomaye-pr%C3%A9sident",
           "source": "RFI Afrique",
           "published": "2026-03-10T06:21:53",
-          "lead": "Au Sénégal, le Pastef, le parti au pouvoir serre les rangs. Alors que le fossé se creuse entre le président Bassirou Dio"
+          "lead": "Au Sénégal, le Pastef, le parti au pouvoir, serre les rangs. Alors que le fossé se creuse entre le président Bassirou Di"
         },
         {
           "title": "Mory Sacko, de la gastronomie africaine de haut vol",
@@ -405,43 +487,41 @@
           "source": "Africanews",
           "published": "2026-03-09T11:20:40",
           "lead": "Macky Sall to succeed United Nations Secretary General Antonio Guterres? Not everyone in Senegal likes the idea. Victims"
+        },
+        {
+          "title": "Mali: Armed Islamist Group Executes Truck Drivers",
+          "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Screen"
         }
       ],
       "sources": [
         "RFI Afrique",
         "Jeune Afrique",
+        "Human Rights Watch",
         "Africanews"
       ]
     },
     "Gambia": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.5,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Guinea-Bissau": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
       "ratio": 2.0,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Gambia: Peter Obi to Arrive in Banjul Today for Refela's Landmark Women's Conference",
-          "url": "https://allafrica.com/stories/202603090674.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:23:51",
-          "lead": "[The Point] Banjul is poised to take centre stage on the global map as Peter Obi, former Nigerian presidential candidate"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
-    "Guinea-Bissau": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "high",
-      "confidence": "medium",
       "keywords": [
         {
           "word": "Guerre",
@@ -450,13 +530,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "How the ‘Galápagos of west Africa’ is plundered by floating fish factories",
-          "url": "https://www.theguardian.com/environment/2026/mar/09/fish-factories-west-africa-guardian-investigation-desmog-fishmeal-oil",
-          "source": "The Guardian Africa",
-          "published": "2026-03-09T07:00:43",
-          "lead": "A Guardian investigation with DeSmog reveals thousands of tonnes of fish are illegally turned into fishmeal and oil off "
-        },
         {
           "title": "Guerre au Moyen-Orient: «Nous sommes dans un mécanisme qui peut être très coûteux pour l’Afrique»",
           "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260310-guerre-au-moyen-orient-nous-sommes-dans-un-m%C3%A9canisme-qui-peut-%C3%AAtre-tr%C3%A8s-co%C3%BBteux-pour-l-afrique",
@@ -466,15 +539,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "The Guardian Africa"
+        "RFI Afrique"
       ]
     },
     "Guinea": {
-      "article_count": 5,
-      "source_count": 4,
-      "baseline": 1.8,
-      "ratio": 2.78,
+      "article_count": 6,
+      "source_count": 5,
+      "baseline": 1.9,
+      "ratio": 3.21,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -484,14 +556,6 @@
         },
         {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Président",
           "count": 1
         },
         {
@@ -509,6 +573,13 @@
           "lead": "Cellou Dalein Diallo accuses the junta-leader-turned-president of erasing political threats."
         },
         {
+          "title": "Guinée: libération de deux membres de la famille de l’opposant Tibou Kamara",
+          "url": "https://www.rfi.fr/fr/afrique/20260310-guin%C3%A9e-lib%C3%A9ration-de-deux-membres-de-la-famille-de-l-opposant-tibou-kamara",
+          "source": "RFI Afrique",
+          "published": "2026-03-10T07:41:56",
+          "lead": "En Guinée, la mère et la sœur de l'ancien ministre et opposant en exil Tibou Kamara ont été relâchées ce 9 mars. Elles s"
+        },
+        {
           "title": "Guerre au Moyen-Orient: «Nous sommes dans un mécanisme qui peut être très coûteux pour l’Afrique»",
           "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260310-guerre-au-moyen-orient-nous-sommes-dans-un-m%C3%A9canisme-qui-peut-%C3%AAtre-tr%C3%A8s-co%C3%BBteux-pour-l-afrique",
           "source": "RFI Afrique",
@@ -516,17 +587,17 @@
           "lead": "Au onzième jour de la guerre au Moyen-Orient, les prix du pétrole ont flambé hier, lundi 9 mars, au-dessus des 100 dolla"
         },
         {
-          "title": "Dissolution des partis en Guinée: l’opposant Cellou Dalein Diallo appelle l’opposition à «l’union sacrée»",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-dissolution-des-partis-en-guin%C3%A9e-l-opposant-cellou-dalein-diallo-appelle-l-opposition-%C3%A0-l-union-sacr%C3%A9e",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T13:11:14",
-          "lead": "Après l’annonce du gouvernement guinéen dans la nuit de vendredi 6 à samedi 7 mars de la dissolution de quarante partis "
+          "title": "L’opposant guinéen Tibou Kamara annonce la libération de sa mère et sa sœur",
+          "url": "https://www.jeuneafrique.com/1772511/politique/lopposant-guineen-tibou-kamara-annonce-la-liberation-de-sa-mere-et-sa-soeur/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-10T09:53:52",
+          "lead": "La mère et la sœur de l’ancien ministre, qui vit actuellement en exil, avaient été enlevées le 3 mars par des hommes en "
         },
         {
           "title": "Guinea: Opposition reacts to dissolution of 40 political parties",
           "url": "http://www.africanews.com/2026/03/09/guinea-opposition-reacts-to-dissolution-of-40-political-parties/",
           "source": "Africanews",
-          "published": "2026-03-09T17:11:37",
+          "published": "2026-03-10T08:32:37",
           "lead": "Guinea's main opposition figure, Cellou Dalein Diallo, accused President Mamadi Doumbouya of attempting to build a one p"
         },
         {
@@ -538,10 +609,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
         "BBC Africa",
-        "Africanews"
+        "AllAfrica",
+        "RFI Afrique",
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -599,15 +671,39 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.91,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.55,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -633,23 +729,43 @@
           "source": "Africanews",
           "published": "2026-03-09T10:28:32",
           "lead": "In 2024, a surge in cocoa on international markets reached more than $12,000 per metric ton, the highest in decades. The"
+        },
+        {
+          "title": "Mali: Armed Islamist Group Executes Truck Drivers",
+          "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Screen"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "Human Rights Watch",
         "Africanews"
       ]
     },
     "Ghana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.6,
-      "ratio": 0.38,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.56,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -661,10 +777,33 @@
           "source": "BBC Africa",
           "published": "2026-03-09T12:13:42",
           "lead": "Four soldiers were injured but all are now in a stable condition, Ghana's army says."
+        },
+        {
+          "title": "Ghana: 5 Dead in Renewed Violence At Gbinyiri",
+          "url": "https://allafrica.com/stories/202603100094.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T07:18:47",
+          "lead": "[Ghanaian Times] FIVE persons have been reported dead while others, including a child, have sustained gunshot wounds fol"
+        },
+        {
+          "title": "Ghana: Ghana's Parliament Revives Dangerous Anti-LGBT Bill",
+          "url": "https://allafrica.com/stories/202603100076.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T06:47:17",
+          "lead": "[HRW] Proposed Law Threatens Rights to Nondiscrimination, Free Expression"
+        },
+        {
+          "title": "Ghana's Parliament Revives Dangerous Anti-LGBT Bill",
+          "url": "https://www.hrw.org/news/2026/03/10/ghanas-parliament-revives-dangerous-anti-lgbt-bill",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Lawmakers in Ghana have reintroduced a draconian bill that jeopardizes the rights of lesbian, gay, bisexual, and transge"
         }
       ],
       "sources": [
-        "BBC Africa"
+        "BBC Africa",
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -680,19 +819,15 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 1.18,
+      "ratio": 0.59,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -704,31 +839,31 @@
           "source": "RFI Afrique",
           "published": "2026-03-09T18:02:53",
           "lead": "Le journaliste malien Youssouf Sissoko a comparu lundi 9 mars devant le pôle judiciaire spécialisé contre la cybercrimin"
-        },
-        {
-          "title": "Au Bénin, putschistes et présumés jihadistes défilent devant la Criet, une cour d’exception",
-          "url": "https://www.jeuneafrique.com/1762331/politique/au-benin-putschistes-et-presumes-jihadistes-defilent-devant-la-criet-une-cour-dexception/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-09T07:00:00",
-          "lead": "La Cour de répression des infractions économiques et du terrorisme (Criet) est connue pour les lourdes condamnations qu’"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 12,
-      "source_count": 3,
+      "article_count": 9,
+      "source_count": 4,
       "baseline": 8.9,
-      "ratio": 1.35,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
           "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
         },
         {
           "word": "Boko haram",
@@ -739,15 +874,7 @@
           "count": 1
         },
         {
-          "word": "Dead",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Attack",
+          "word": "Terrorist",
           "count": 1
         }
       ],
@@ -775,6 +902,27 @@
           "lead": "Si jusqu’à présent la ville était épargnée, la région est confrontée à des attaques jihadistes régulières dans sa partie"
         },
         {
+          "title": "Oil: Nigeria's Dangote says will prioritise domestic fuel market",
+          "url": "http://www.africanews.com/2026/03/10/oil-nigerias-dangote-says-will-prioritise-domestic-fuel-market/",
+          "source": "Africanews",
+          "published": "2026-03-10T06:33:40",
+          "lead": "Fuel prices in the west African country have already risen by around 20 percent in the space of a week, following US and"
+        },
+        {
+          "title": "Nigeria: Special Report - How Families Coped With 10-Year Closure of 23 Schools in Oyo",
+          "url": "https://allafrica.com/stories/202603100079.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T06:50:23",
+          "lead": "[Premium Times] A community initiative and advocacy by a socio-political group helped persuade the Oyo government to reo"
+        },
+        {
+          "title": "Nigeria: Former Super Eagles Coach Adegboye Onigbinde Is Dead",
+          "url": "https://allafrica.com/stories/202603100093.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T07:06:45",
+          "lead": "[Premium Times] Beyond the national team, Onigbinde achieved notable success at the club level, particularly with Shooti"
+        },
+        {
           "title": "Nigeria: Army Base Overrun - Commanding Officer Killed in Brutal Raid",
           "url": "https://allafrica.com/stories/202603090677.html",
           "source": "AllAfrica",
@@ -782,66 +930,25 @@
           "lead": "[Daily Trust] Boko Haram terrorists have overrun another military camp in Borno State, killing the commanding officer an"
         },
         {
-          "title": "Nigeria: Nigeria's First Indigenous Super Eagles Coach, Onigbinde, Is Dead",
-          "url": "https://allafrica.com/stories/202603100067.html",
+          "title": "Nigeria: NNPC January Revenue Drops 46.7 Percent to N2.57tn Amid Increased Oil Sales",
+          "url": "https://allafrica.com/stories/202603100104.html",
           "source": "AllAfrica",
-          "published": "2026-03-10T05:15:40",
-          "lead": "[This Day] Foremost Nigeria's football coach and administrator, Chief Adegboye Festus Onigbinde, is dead. He was aged 89"
+          "published": "2026-03-10T08:01:00",
+          "lead": "[This Day] Nigeria's national oil company, the Nigerian National Petroleum Company Limited (NNPC Ltd) recorded N2.571 tr"
         },
         {
-          "title": "Nigeria: Tinubu Lauded Over Extension of Raw Shea Nut Export Ban",
-          "url": "https://allafrica.com/stories/202603090683.html",
+          "title": "Nigeria: U.S. Embassy Warns of Possible Terror Threat Against American Facilities, Schools in Nigeria",
+          "url": "https://allafrica.com/stories/202603100089.html",
           "source": "AllAfrica",
-          "published": "2026-03-09T15:29:46",
-          "lead": "[Leadership] Bola Ahmed Tinubu has been commended for approving the extension of the ban on the export of raw shea nuts,"
-        },
-        {
-          "title": "Nigeria: Panic Grips Civil Servants As Firefighters Battle to Quell Inferno At Head of Service",
-          "url": "https://allafrica.com/stories/202603090682.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:29:26",
-          "lead": "[Leadership] Panic gripped civil servants on Monday morning as firefighters battled to quell an inferno at the Office of"
-        },
-        {
-          "title": "Gambia: Peter Obi to Arrive in Banjul Today for Refela's Landmark Women's Conference",
-          "url": "https://allafrica.com/stories/202603090674.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:23:51",
-          "lead": "[The Point] Banjul is poised to take centre stage on the global map as Peter Obi, former Nigerian presidential candidate"
-        },
-        {
-          "title": "Africa: Intra-African Trade Fair 2027 (IATF2027) Host signing ceremony in Lagos, Nigeria",
-          "url": "https://allafrica.com/stories/202603090120.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T08:18:33",
-          "lead": "[Afreximbank] The Federal Government of Nigeria, African Export-Import Bank (Afreximbank), African Union Commission (AUC"
-        },
-        {
-          "title": "Nigeria: Breaking - Appeal Court Invalidates PDP's Ibadan Convention, Fines Turaki-Led Faction",
-          "url": "https://allafrica.com/stories/202603090656.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:00:43",
-          "lead": "[Premium Times] A three-member panel of the panel unanimously dismissed the appeals brought before it by the Mr Turaki-l"
-        },
-        {
-          "title": "Nigeria: Exposing Fake Facebook Pages Posing As LAPO Bank and Offering Bogus Loans to Nigerians",
-          "url": "https://allafrica.com/stories/202603090653.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T14:59:05",
-          "lead": "[Africa Check] IN SHORT: These Facebook accounts use the name and logo of LAPO Microfinance Bank, a reputable financial "
-        },
-        {
-          "title": "Nigeria: Terrorists Attack Two Nigerian Military Bases",
-          "url": "https://allafrica.com/stories/202603090647.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T14:51:50",
-          "lead": "[Premium Times] Security sources told PREMIUM TIMES that the attacks were launched overnight on Monday."
+          "published": "2026-03-10T07:02:10",
+          "lead": "[This Day] The United States Embassy in Abuja has warned of a possible terrorist threat targeting American facilities an"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "Jeune Afrique",
         "AllAfrica",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -877,6 +984,10 @@
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Manifestation",
+          "count": 1
+        },
+        {
           "word": "Président",
           "count": 1
         }
@@ -884,11 +995,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Cameroun: les étudiants choqués après l’annonce de la suspension des visas par le Royaume-Uni",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-cameroun-les-%C3%A9tudiants-choqu%C3%A9s-apr%C3%A8s-l-annonce-de-la-suspension-des-visas-par-le-royaume-uni",
+          "title": "Cameroun: des commerçants en colère après la destruction de leurs boutiques au marché Mokolo",
+          "url": "https://www.rfi.fr/fr/afrique/20260310-cameroun-des-commer%C3%A7ants-en-col%C3%A8re-apr%C3%A8s-la-destruction-de-leurs-boutiques-au-march%C3%A9-mokolo",
           "source": "RFI Afrique",
-          "published": "2026-03-09T10:17:17",
-          "lead": "À compter du 26 mars 2026, le Royaume-Uni va suspendre la délivrance de visas étudiants aux ressortissants de plusieurs "
+          "published": "2026-03-10T08:41:14",
+          "lead": "Une manifestation s’est déroulée le 9 mars 2026 sur l'esplanade de l'hôtel de ville de Yaoundé. Une centaine de commerça"
         },
         {
           "title": "Un vice-président pour le Cameroun ? Un serpent de mer et un dilemme pour Paul Biya",
@@ -904,32 +1015,61 @@
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.2,
-      "ratio": 0.83,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 2.5,
+      "status": "high",
+      "confidence": "high",
+      "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 2
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "En Centrafrique, un employé français de MSF arrêté sur soupçons d’activités subversives",
+          "title": "Centrafrique: arrestation d'un humanitaire français de MSF par des mercenaires russes",
+          "url": "https://www.rfi.fr/fr/afrique/20260310-centrafrique-arrestation-d-un-humanitaire-fran%C3%A7ais-de-msf-par-des-mercenaires-russes",
+          "source": "RFI Afrique",
+          "published": "2026-03-10T07:11:35",
+          "lead": "Le gouvernement centrafricain accuse un travailleur humanitaire français de la branche suisse de Médecins sans frontière"
+        },
+        {
+          "title": "En Centrafrique, un employé français de MSF arrêté sur soupçons d’activités subversives",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/10/en-centrafrique-un-employe-francais-de-msf-arrete-sur-soupcons-d-activites-subversives_6670160_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-10T00:07:10",
-          "lead": "Interpellé aux alentours de Zémio, dans le sud-est du pays, il est soupçonné « d’activités visant la déstabilisation de "
+          "lead": "Interpellé aux alentours de Zemio, dans le sud-est du pays, il est soupçonné d’« activités visant la déstabilisation de "
+        },
+        {
+          "title": "Centrafrique : un employé français de Médecins Sans Frontières arrêté et soupçonné de « déstabilisation »",
+          "url": "https://www.jeuneafrique.com/1772516/politique/centrafrique-un-employe-francais-de-medecins-sans-frontieres-arrete-et-soupconne-de-destabilisation/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-10T10:29:58",
+          "lead": "Cet employé français de l’ONG humanitaire est soupçonné « d’activités visant la déstabilisation de la situation sécurita"
         }
       ],
       "sources": [
-        "Le Monde Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.0,
-      "ratio": 0.98,
+      "baseline": 2.1,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -938,15 +1078,15 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
           "word": "Killed",
           "count": 1
         },
         {
           "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -968,8 +1108,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Eq. Guinea": {
@@ -985,15 +1125,31 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 1.36,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Coup",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le Gabon réagit et juge \"diffamatoires\" les accusations de torture de Sylvia Bongo",
+          "url": "https://www.france24.com/fr/afrique/20260310-gabon-juge-diffamatoires-accusations-torture-sylvia-bongo-noureddin-d%C3%A9tention",
+          "source": "France24 Afrique",
+          "published": "2026-03-10T09:05:24",
+          "lead": "Dans une interview exclusive accordée à France 24 et diffusée vendredi, l'ex-première dame Sylvia Bongo affirmait avoir "
+        },
         {
           "title": "Gabon : un plan d’urgence et Suez peuvent-ils enrayer la descente aux enfers de la SEEG ?",
           "url": "https://www.jeuneafrique.com/1772092/economie-entreprises/gabon-un-plan-durgence-et-suez-peuvent-ils-enrayer-la-descente-aux-enfers-de-la-seeg/",
@@ -1003,6 +1159,7 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "Jeune Afrique"
       ]
     },
@@ -1034,15 +1191,31 @@
       ]
     },
     "DRC": {
-      "article_count": 6,
+      "article_count": 8,
       "source_count": 2,
       "baseline": 7.5,
-      "ratio": 0.8,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
           "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         },
         {
@@ -1052,20 +1225,30 @@
         {
           "word": "Attaque",
           "count": 1
-        },
-        {
-          "word": "Épidémie",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Centrafrique: arrestation d'un humanitaire français de MSF par des mercenaires russes",
+          "url": "https://www.rfi.fr/fr/afrique/20260310-centrafrique-arrestation-d-un-humanitaire-fran%C3%A7ais-de-msf-par-des-mercenaires-russes",
+          "source": "RFI Afrique",
+          "published": "2026-03-10T07:11:35",
+          "lead": "Le gouvernement centrafricain accuse un travailleur humanitaire français de la branche suisse de Médecins sans frontière"
+        },
         {
           "title": "RDC: ce que l'on sait de l'annonce de libération de militaires FARDC par l'AFC/M23",
           "url": "https://www.rfi.fr/fr/afrique/20260309-rdc-ce-que-l-on-sait-de-l-annonce-de-lib%C3%A9ration-de-militaires-fardc-par-l-afc-m23",
           "source": "RFI Afrique",
           "published": "2026-03-09T17:46:55",
           "lead": "L'annonce, par l'AFC/M23, de la libération prochaine de militaires des Forces armées de la République démocratique du Co"
+        },
+        {
+          "title": "Sud-est de la RDC: une enquête accuse le géant minier CMOC de pollutions ayant «provoqué une crise sanitaire»",
+          "url": "https://www.rfi.fr/fr/afrique/20260310-sud-est-de-la-rdc-une-enqu%C3%AAte-accuse-le-g%C3%A9ant-minier-cmoc-de-pollutions-ayant-provoqu%C3%A9-une-crise-sanitaire",
+          "source": "RFI Afrique",
+          "published": "2026-03-10T07:45:07",
+          "lead": "L’Environmental Investigation Agency (EIA), organisation internationale qui « enquête et mène campagne contre les crimes"
         },
         {
           "title": "La RDC veut diversifier les investisseurs pour son grand projet d'extension de Kinshasa",
@@ -1096,7 +1279,7 @@
           "lead": "Les autorités de la République démocratique du Congo renforcent le dispositif de sécurité du Parc national de l'Upemba, "
         },
         {
-          "title": "En RDC, le premier producteur mondial de cobalt suspecté d’être à l’origine d’une épidémie de maladies respiratoires",
+          "title": "« Le sang coulait de mon nez. Les enfants, eux, vomissent du sang » : le premier producteur mondial de cobalt soupçonné d’avoir rejeté un gaz toxique sur une ville de RDC",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/10/en-rdc-le-premier-producteur-mondial-de-cobalt-suspecte-d-etre-a-l-origine-d-une-epidemie-de-maladies-respiratoires_6670187_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-10T06:00:29",
@@ -1179,27 +1362,27 @@
       ]
     },
     "Somalia": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 2.4,
-      "ratio": 1.69,
-      "status": "elevated",
-      "confidence": "low",
+      "ratio": 1.25,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
-          "count": 2
+          "word": "Killed",
+          "count": 1
         },
         {
           "word": "Airstrike",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Dead",
           "count": 1
         },
         {
-          "word": "Dead",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1225,13 +1408,6 @@
           "source": "AllAfrica",
           "published": "2026-03-09T12:00:05",
           "lead": "[Shabelle] Mogadishu, Somalia -- Former Somali president Mohamed Abdullahi Mohamed has strongly opposed a newly signed c"
-        },
-        {
-          "title": "Somalia: Somali President Praises Women's Role On International Women's Day",
-          "url": "https://allafrica.com/stories/202603090667.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:20:52",
-          "lead": "[Shabelle] Mogadishu -- Somali President Hassan Sheikh Mohamud on Saturday congratulated women across the country and in"
         }
       ],
       "sources": [
@@ -1239,22 +1415,37 @@
       ]
     },
     "Uganda": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.57,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ghana's Parliament Revives Dangerous Anti-LGBT Bill",
+          "url": "https://www.hrw.org/news/2026/03/10/ghanas-parliament-revives-dangerous-anti-lgbt-bill",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Lawmakers in Ghana have reintroduced a draconian bill that jeopardizes the rights of lesbian, gay, bisexual, and transge"
+        }
+      ],
+      "sources": [
+        "Human Rights Watch"
+      ]
     },
     "Kenya": {
-      "article_count": 7,
-      "source_count": 4,
-      "baseline": 6.4,
-      "ratio": 1.09,
+      "article_count": 9,
+      "source_count": 5,
+      "baseline": 6.3,
+      "ratio": 1.42,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1263,7 +1454,31 @@
           "count": 2
         },
         {
-          "word": "Displaced",
+          "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Terrorist",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1298,41 +1513,56 @@
           "lead": "South Sudan's healthcare system has been so crippled by years of corruption that when a state governor experienced high "
         },
         {
-          "title": "Kenya evacuates tourists as death toll from flooding rises",
-          "url": "http://www.africanews.com/2026/03/09/kenya-evacuates-tourists-as-death-toll-from-flooding-rises/",
-          "source": "Africanews",
-          "published": "2026-03-09T07:54:27",
-          "lead": "At least 42 people have died, local media reported Monday. Most of the deaths occured in the capital, Nairobi"
+          "title": "Kenya: Boniface Mwangi Proposes Public Hangings for Corrupt Officials in Push for People-Centred Leadership",
+          "url": "https://allafrica.com/stories/202603100159.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T09:16:23",
+          "lead": "[Capital FM] Nairobi -- Activist and presidential hopeful Boniface Mwangi has proposed public hangings for corrupt offic"
         },
         {
-          "title": "Kenya: Ti-Kenya Report - Political Elites Undermining Leadership Integrity Framework",
-          "url": "https://allafrica.com/stories/202603090666.html",
+          "title": "Kenya: Boniface Mwangi Takes On President Ruto for Turning Kenya Into 'Private Property'",
+          "url": "https://allafrica.com/stories/202603100108.html",
           "source": "AllAfrica",
-          "published": "2026-03-09T15:20:36",
-          "lead": "[Capital FM] Nairobi -- A new report by Transparency International Kenya has revealed a persistent gap between the const"
+          "published": "2026-03-10T08:13:02",
+          "lead": "[Capital FM] Nairobi -- Activist Boniface Mwangi has sharply criticized President William Ruto, accusing him of turning "
         },
         {
-          "title": "Kenya: Floods Displace 48 Households in Central Kenya As Child Feared Dead",
-          "url": "https://allafrica.com/stories/202603090654.html",
+          "title": "Sudan: U.S. Designates Sudanese Muslim Brotherhood a Global Terrorist Group",
+          "url": "https://allafrica.com/stories/202603100081.html",
           "source": "AllAfrica",
-          "published": "2026-03-09T14:59:46",
-          "lead": "[Capital FM] Nyeri -- At least 48 households across Central Kenya have been displaced following heavy rains that have be"
+          "published": "2026-03-10T06:57:13",
+          "lead": "[Capital FM] Nairobi -- The United States has designated the Sudanese Muslim Brotherhood (SMB) as a Specially Designated"
+        },
+        {
+          "title": "Mali: Mali - Armed Islamist Group Executes Truck Drivers",
+          "url": "https://allafrica.com/stories/202603100077.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T06:47:44",
+          "lead": "[HRW] Nairobi -- 12 Victims Found with Throats Slit, Hands Tied"
+        },
+        {
+          "title": "Mali: Armed Islamist Group Executes Truck Drivers",
+          "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T04:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Screen"
         }
       ],
       "sources": [
-        "DW Africa",
-        "RFI Afrique",
         "AllAfrica",
-        "Africanews"
+        "RFI Afrique",
+        "Africanews",
+        "Human Rights Watch",
+        "DW Africa"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.3,
-      "ratio": 0.86,
+      "ratio": 0.43,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Président",
@@ -1347,18 +1577,10 @@
           "source": "RFI Afrique",
           "published": "2026-03-10T03:11:11",
           "lead": "Paris accueille mardi 10 mars le deuxième sommet mondial sur l’énergie nucléaire civile. Parmi les chefs d’État attendus"
-        },
-        {
-          "title": "Rwanda: Cervical Cancer - Rwanda Rolls Out New HPV Vaccine",
-          "url": "https://allafrica.com/stories/202603090671.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:22:31",
-          "lead": "[New Times] Rwanda has started using a new human papillomavirus (HPV) vaccine, Gardasil 9, in four districts to broaden "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1386,24 +1608,35 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.7,
-      "ratio": 0.37,
+      "ratio": 0.74,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Government",
           "count": 1
         },
         {
           "word": "Président",
           "count": 1
+        },
+        {
+          "word": "Gouvernement",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Madagascar military leader dissolves government in surprise move",
+          "url": "https://www.bbc.com/news/articles/c39wywm298lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-10T07:48:51",
+          "lead": "Col Randrianirina, who seized power last year, did not give a reason for dissolving his government."
+        },
         {
           "title": "Madagascar: en pleine «Refondation», le président Randrianirina dissout le gouvernement",
           "url": "https://www.rfi.fr/fr/afrique/20260309-madagascar-en-pleine-refondation-le-pr%C3%A9sident-randrianirina-dissout-le-gouvernement",
@@ -1413,6 +1646,7 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "RFI Afrique"
       ]
     },
@@ -1489,13 +1723,34 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 5,
+      "source_count": 2,
       "baseline": 2.8,
-      "ratio": 0.71,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1511,9 +1766,31 @@
           "source": "AllAfrica",
           "published": "2026-03-10T04:59:28",
           "lead": "[263Chat] Harare Mayor Jacob Mafume has warned vendors against cooking in the city's central business district saying th"
+        },
+        {
+          "title": "Zimbabwe: Breaking the Silence On Menstrual Health in Zimbabwe",
+          "url": "https://allafrica.com/stories/202603100112.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T08:18:15",
+          "lead": "[263Chat] Across Zimbabwe, many girls navigate adolescence in silence coping with menstrual pain, irregular cycles, limi"
+        },
+        {
+          "title": "Zimbabwe: Harare Is Not a Refugee Camp Says Mafume As Council Struggles to Control Illegal Street Vending",
+          "url": "https://allafrica.com/stories/202603100098.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T07:22:08",
+          "lead": "[New Zimbabwe] Harare Mayor Jacob Mafume has said a balance must be struck between the pursuit of livelihoods and the ma"
+        },
+        {
+          "title": "Zimbabwe: Violence and Intimidation Against Opponents of Presidential Term Extension",
+          "url": "https://www.hrw.org/news/2026/03/10/zimbabwe-violence-and-intimidation-against-opponents-of-presidential-term-extension",
+          "source": "Human Rights Watch",
+          "published": "2026-03-10T06:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              SAPES "
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "AllAfrica"
       ]
     },
@@ -1530,10 +1807,10 @@
       "sources": []
     },
     "Botswana": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 5.62,
+      "baseline": 0.6,
+      "ratio": 3.53,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1557,13 +1834,6 @@
           "source": "AllAfrica",
           "published": "2026-03-09T15:27:06",
           "lead": "[Botswana Daily News] Gaborone -- The Leader of the Opposition and Maun North MP, Mr Dumelang Saleshando, has urged gove"
-        },
-        {
-          "title": "Botswana: Same-Sex Couple Challenges Marriage Act",
-          "url": "https://allafrica.com/stories/202603090679.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:27:25",
-          "lead": "[Botswana Daily News] Gaborone -- A same sex couple, Bonolo Selelo and Tsholofelo Kumile, has approached the High Court "
         }
       ],
       "sources": [
@@ -1571,19 +1841,23 @@
       ]
     },
     "South Africa": {
-      "article_count": 13,
-      "source_count": 4,
+      "article_count": 15,
+      "source_count": 6,
       "baseline": 14.0,
-      "ratio": 0.93,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "War",
-          "count": 1
+          "word": "President",
+          "count": 2
         },
         {
-          "word": "President",
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "War",
           "count": 1
         },
         {
@@ -1591,15 +1865,19 @@
           "count": 1
         },
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
           "word": "Minister",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1627,11 +1905,25 @@
           "lead": "C’est une belle histoire, et elle a lieu en Afrique du Sud. En un peu plus de dix ans, l'artiste James Delaney a transfo"
         },
         {
+          "title": "Afrique du Sud : chez les Zuma, on fait de la politique en famille",
+          "url": "https://www.jeuneafrique.com/1772326/politique/afrique-du-sud-chez-les-zuma-on-fait-de-la-politique-en-famille/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-10T09:05:36",
+          "lead": "Le MK a tout d’une affaire de famille. Autour de Jacob Zuma, enfants, neveux et proches sont de plus en plus nombreux à "
+        },
+        {
           "title": "South Africa: Action Demanded Over Nyanga Taxi Attacks - South African News Briefs - March 10, 2026",
           "url": "https://allafrica.com/stories/202603100070.html",
           "source": "AllAfrica",
           "published": "2026-03-10T05:34:54",
           "lead": "[allAfrica]"
+        },
+        {
+          "title": "South Africa: Middle East Conflict Leaves South African Farmers Counting the Cost",
+          "url": "https://allafrica.com/stories/202603100110.html",
+          "source": "AllAfrica",
+          "published": "2026-03-10T08:15:34",
+          "lead": "[Scrolla] The Cape Chamber of Commerce and Industry says some Cape Town shipments to the Middle East are on hold indefin"
         },
         {
           "title": "South Africa: Electricity Arrests Expose Deep-Seated Billing Corruption",
@@ -1646,13 +1938,6 @@
           "source": "AllAfrica",
           "published": "2026-03-09T11:10:00",
           "lead": "[Bhekisisa] South Africa's National Aids Council, Sanac, has asked local drug companies to   submit applications by Apri"
-        },
-        {
-          "title": "South Africa: Soldiers Promised to Fight Gangs but Parliament Has No Clear Plan",
-          "url": "https://allafrica.com/stories/202603090658.html",
-          "source": "AllAfrica",
-          "published": "2026-03-09T15:02:33",
-          "lead": "[Scrolla] Ian Cameron, chair of Parliament's police portfolio committee, says oversight committees still do not have a f"
         },
         {
           "title": "DIVISIVE PLAN: Mayor vs Minister: Firoz Cachalia says Cape Town’s N2 wall can’t replace policing",
@@ -1681,20 +1966,15 @@
           "source": "Daily Maverick",
           "published": "2026-03-09T19:33:34",
           "lead": "Two-time Olympic marathon champion Eliud Kipchoge will run the 2026 Sanlam Cape Town Marathon on 24 May as part of his i"
-        },
-        {
-          "title": "COHESION UPTICK: South Africa’s social fabric is fragile, but it may be starting to mend",
-          "url": "https://www.dailymaverick.co.za/article/south-africas-social-fabric-is-fragile-but-it-may-be-starting-to-mend",
-          "source": "Daily Maverick",
-          "published": "2026-03-09T19:30:58",
-          "lead": "Recent data reveal that South Africa’s social cohesion is stabilising after years of decline, yet underlying tensions re"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Daily Maverick",
+        "The Guardian Africa",
         "AllAfrica",
-        "The Guardian Africa"
+        "Daily Maverick",
+        "RFI Afrique",
+        "Jeune Afrique",
+        "Human Rights Watch"
       ]
     },
     "Eswatini": {
