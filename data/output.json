@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-10T18:39:43.251673",
+  "generated_at": "2026-03-10T21:22:37.624320",
   "summary": {
-    "high": 6,
-    "elevated": 10,
-    "normal": 20,
-    "quiet": 18
+    "high": 3,
+    "elevated": 6,
+    "normal": 24,
+    "quiet": 21
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 3.3,
-      "ratio": 0.91,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -29,7 +29,7 @@
           "url": "https://www.lemonde.fr/international/article/2026/03/10/christophe-lecourtier-actuel-ambassadeur-au-maroc-propose-pour-remplacer-remy-rioux-a-la-tete-de-l-agence-francaise-de-developpement_6670282_3210.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-10T17:46:49",
-          "lead": "Validée par l’exécutif, sa nomination doit encore être approuvée par le parlement. L’AFD est l’un des principaux instrum"
+          "lead": "Validée par l’exécutif, sa nomination doit encore être approuvée par le Parlement. L’AFD est l’un des principaux instrum"
         },
         {
           "title": "Au Maroc, plusieurs rappeurs soutenant la « gen Z » arrêtés",
@@ -40,15 +40,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 2.1,
-      "ratio": 1.9,
+      "baseline": 2.0,
+      "ratio": 1.97,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -89,9 +89,9 @@
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique",
-        "Africanews"
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
@@ -119,15 +119,31 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.75,
-      "status": "normal",
+      "ratio": 1.54,
+      "status": "elevated",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Egypt: Residents struggle amid price hikes",
+          "url": "http://www.africanews.com/2026/03/10/egypt-residents-struggle-amid-price-hikes/",
+          "source": "Africanews",
+          "published": "2026-03-10T19:15:24",
+          "lead": "Egyptians are fretting over price hikes that have seen the cost of everyday goods surge. It comes after the government i"
+        },
         {
           "title": "Egypt raises fuel prices by up to 30 percent",
           "url": "http://www.africanews.com/2026/03/10/egypt-raises-fuel-prices-by-up-to-30-percent/",
@@ -141,36 +157,24 @@
       ]
     },
     "Sudan": {
-      "article_count": 11,
-      "source_count": 5,
-      "baseline": 6.3,
-      "ratio": 1.75,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 7,
+      "source_count": 4,
+      "baseline": 6.5,
+      "ratio": 1.08,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 4
-        },
         {
           "word": "War",
           "count": 2
         },
         {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
           "word": "Rsf",
-          "count": 2
-        },
-        {
-          "word": "Killed",
-          "count": 2
-        },
-        {
-          "word": "Violence",
-          "count": 2
-        },
-        {
-          "word": "Minister",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Président",
@@ -178,6 +182,18 @@
         },
         {
           "word": "Terroriste",
+          "count": 1
+        },
+        {
+          "word": "Terrorist",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Explosion",
           "count": 1
         }
       ],
@@ -226,34 +242,6 @@
           "lead": "[Capital FM] Nairobi -- The United States has designated the Sudanese Muslim Brotherhood (SMB) as a Specially Designated"
         },
         {
-          "title": "TCHAD : Aperçu de la situation humanitaire à l’Est (06 mars 2026)",
-          "url": "https://reliefweb.int/report/chad/tchad-apercu-de-la-situation-humanitaire-lest-06-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T15:03:04",
-          "lead": "Countries: Chad, South Sudan\n                                      Source: UN Office for the Coordination of Humanitaria"
-        },
-        {
-          "title": "Attacks on Health Care in Sudan, 18 February - 03 March 2026",
-          "url": "https://reliefweb.int/report/sudan/attacks-health-care-sudan-18-february-03-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T12:45:13",
-          "lead": "Country: Sudan\n                                      Source: Insecurity Insight\n                                        "
-        },
-        {
-          "title": "Sudan declares an end to its cholera outbreak",
-          "url": "https://reliefweb.int/report/sudan/sudan-declares-end-its-cholera-outbreak",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T12:37:46",
-          "lead": "Country: Sudan\n                                      Source: World Health Organization\n                                 "
-        },
-        {
-          "title": "Multipurpose Cash Assistance (MPCA) Guidance Note for the Sudan Minimum Expenditure Basket (MEB) and setting of Transfer Value (TV)",
-          "url": "https://reliefweb.int/report/sudan/multipurpose-cash-assistance-mpca-guidance-note-sudan-minimum-expenditure-basket-meb-and-setting-transfer-value-tv",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T10:09:34",
-          "lead": "Country: Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n    "
-        },
-        {
           "title": "Haiti: Drone Strikes Put Residents at Risk",
           "url": "https://www.hrw.org/news/2026/03/10/haiti-drone-strikes-put-residents-at-risk",
           "source": "Human Rights Watch",
@@ -262,59 +250,32 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb",
+        "AllAfrica",
         "The Guardian Africa",
-        "Human Rights Watch",
-        "AllAfrica"
+        "RFI Afrique",
+        "Human Rights Watch"
       ]
     },
     "Mauritania": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 3.0,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mali": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 2.4,
-      "ratio": 2.54,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 2.5,
+      "ratio": 1.22,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 4
-        },
         {
           "word": "Attaque",
           "count": 1
@@ -324,11 +285,11 @@
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Armed group",
+          "word": "War",
           "count": 1
         },
         {
@@ -336,7 +297,11 @@
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -357,27 +322,6 @@
           "lead": "Alors que Paris comme Bamako entretiennent le flou sur le sort de l’officier français de la DGSE détenu depuis août 2025"
         },
         {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "Mali : Qui Fait Quoi et Où (3W) Présence opérationnelle des acteurs humanitaires (au 31 décembre 2025)",
-          "url": "https://reliefweb.int/report/mali/mali-qui-fait-quoi-et-ou-3w-presence-operationnelle-des-acteurs-humanitaires-au-31-decembre-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T10:49:43",
-          "lead": "Country: Mali\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n     "
-        },
-        {
           "title": "Mali: Armed Islamist Group Executes Truck Drivers",
           "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
           "source": "Human Rights Watch",
@@ -386,26 +330,25 @@
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "RFI Afrique",
-        "ReliefWeb",
-        "Jeune Afrique",
-        "Human Rights Watch"
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 1.7,
-      "ratio": 2.88,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 0.54,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 5
+          "word": "Dead",
+          "count": 1
         },
         {
-          "word": "Dead",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -413,48 +356,20 @@
           "count": 1
         },
         {
-          "word": "Armed group",
-          "count": 1
-        },
-        {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Cameroon: Afrique de l’Ouest et centrale : Derniers événements en bref (3-9 mars 2026)",
-          "url": "https://reliefweb.int/report/cameroon/afrique-de-louest-et-centrale-derniers-evenements-en-bref-3-9-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T18:11:56",
-          "lead": "Countries: Cameroon, Burkina Faso, Democratic Republic of the Congo, Nigeria\n                                      Sourc"
-        },
-        {
-          "title": "Cameroon: West and Central Africa: Latest Events at a glance (3 - 9 March 2026)",
-          "url": "https://reliefweb.int/report/cameroon/west-and-central-africa-latest-events-glance-3-9-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T18:00:37",
-          "lead": "Countries: Cameroon, Burkina Faso, Democratic Republic of the Congo, Nigeria\n                                      Sourc"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
         {
           "title": "Mali: Armed Islamist Group Executes Truck Drivers",
           "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
@@ -464,22 +379,17 @@
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Human Rights Watch"
       ]
     },
     "Niger": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 2.6,
-      "ratio": 1.17,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
         {
           "word": "Dead",
           "count": 1
@@ -492,44 +402,33 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Au Niger, une nouvelle base militaire stratégique attaquée par des djihadistes",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/10/au-niger-une-nouvelle-base-militaire-strategique-attaquee-par-des-djihadistes_6670294_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-10T19:00:12",
+          "lead": "L’assaut survenu dans la nuit de dimanche 8 à lundi 9 mars n’a pas été revendiqué, mais tout laisse à penser qu’il est l"
+        },
+        {
           "title": "Niger: Army repels attack on Tahoua drone base",
           "url": "http://www.africanews.com/2026/03/09/niger-army-repels-attack-on-tahoua-drone-base/",
           "source": "Africanews",
           "published": "2026-03-10T08:06:05",
           "lead": "A military drone base at the airport in Niger’s Tahoua was targeted overnight Sunday. Local authorities say the army fen"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
         }
       ],
       "sources": [
         "Africanews",
-        "ReliefWeb"
+        "Le Monde Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 6,
-      "source_count": 5,
-      "baseline": 4.8,
-      "ratio": 1.24,
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 4.9,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 3
-        },
         {
           "word": "Président",
           "count": 1
@@ -539,11 +438,11 @@
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Armed group",
+          "word": "War",
           "count": 1
         },
         {
@@ -551,7 +450,11 @@
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -569,7 +472,7 @@
           "url": "https://www.lemonde.fr/afrique/article/2026/03/10/au-senegal-la-communaute-homosexuelle-dans-l-effroi-la-lutte-contre-le-sida-en-danger_6670220_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-10T11:00:08",
-          "lead": "Le climat homophobe déjà présent dans le pays risque de se dégrader encore. Mercredi 11 mars, les députés doivent étudie"
+          "lead": "Le climat homophobe déjà présent dans le pays risque de s’accentuer. Les députés doivent étudier, mercredi 11 mars, un p"
         },
         {
           "title": "Affaire Madiambal Diagne : pourquoi la justice française se dit « partiellement favorable » à une extradition vers le Sénégal",
@@ -577,20 +480,6 @@
           "source": "Jeune Afrique",
           "published": "2026-03-10T17:21:43",
           "lead": "Après avoir sollicité de la justice sénégalaise un complément d’information, la chambre de l’instruction de la cour d’ap"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
         },
         {
           "title": "Mali: Armed Islamist Group Executes Truck Drivers",
@@ -601,11 +490,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique",
-        "ReliefWeb",
         "Le Monde Afrique",
-        "Human Rights Watch"
+        "RFI Afrique",
+        "Human Rights Watch",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
@@ -707,9 +595,9 @@
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique",
-        "Africanews"
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -776,15 +664,11 @@
           "count": 1
         },
         {
+          "word": "Attack",
+          "count": 1
+        },
+        {
           "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Armed group",
           "count": 1
         },
         {
@@ -792,7 +676,11 @@
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -821,8 +709,8 @@
     "Ghana": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 2.6,
-      "ratio": 1.52,
+      "baseline": 2.7,
+      "ratio": 1.5,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -872,9 +760,9 @@
       ],
       "sources": [
         "Africanews",
-        "Jeune Afrique",
+        "AllAfrica",
         "Human Rights Watch",
-        "AllAfrica"
+        "Jeune Afrique"
       ]
     },
     "Togo": {
@@ -890,58 +778,31 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.61,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.7,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Benin – Attack on a Military Position in Kofounon and Potential Incident at Pendjari Lodge (DG ECHO) (ECHO Daily Flash of 10 March 2026)",
-          "url": "https://reliefweb.int/report/benin/benin-attack-military-position-kofounon-and-potential-incident-pendjari-lodge-dg-echo-echo-daily-flash-10-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T11:29:16",
-          "lead": "Country: Benin\n                                      Source: European Commission's Directorate-General for European Civi"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Nigeria": {
-      "article_count": 19,
-      "source_count": 6,
-      "baseline": 8.8,
-      "ratio": 2.16,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 12,
+      "source_count": 5,
+      "baseline": 9.1,
+      "ratio": 1.32,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 6
+          "word": "Terrorist",
+          "count": 2
         },
         {
           "word": "Government",
-          "count": 4
-        },
-        {
-          "word": "Terrorist",
           "count": 2
         },
         {
@@ -1053,12 +914,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "AllAfrica",
         "France24 Afrique",
-        "Africanews",
         "DW Africa",
-        "ReliefWeb",
-        "AllAfrica"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -1074,35 +934,15 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 2.2,
-      "ratio": 2.27,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.3,
+      "ratio": 0.43,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 4
-        },
-        {
-          "word": "Humanitaire",
-          "count": 2
-        },
-        {
           "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -1114,71 +954,26 @@
           "source": "AllAfrica",
           "published": "2026-03-10T10:22:54",
           "lead": "[Shabelle] N'djamena -- Chad has officially closed its border with Sudan, saying the move is aimed at preventing the thr"
-        },
-        {
-          "title": "TCHAD : Aperçu de la situation humanitaire à l’Est (06 mars 2026)",
-          "url": "https://reliefweb.int/report/chad/tchad-apercu-de-la-situation-humanitaire-lest-06-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T15:03:04",
-          "lead": "Countries: Chad, South Sudan\n                                      Source: UN Office for the Coordination of Humanitaria"
-        },
-        {
-          "title": "TCHAD : Aperçu de la situation humanitaire au Sud (06 mars 2026)",
-          "url": "https://reliefweb.int/report/chad/tchad-apercu-de-la-situation-humanitaire-au-sud-06-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:44:46",
-          "lead": "Country: Chad\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n     "
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Cameroon": {
-      "article_count": 8,
-      "source_count": 4,
-      "baseline": 3.1,
-      "ratio": 2.61,
-      "status": "high",
-      "confidence": "high",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 3.2,
+      "ratio": 0.93,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 5
-        },
         {
           "word": "Manifestation",
           "count": 1
         },
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -1204,64 +999,24 @@
           "source": "Africanews",
           "published": "2026-03-10T12:13:12",
           "lead": "Cameroonian MMA star Francis Ngannou is set to return to action on 16 May in Los Angeles, where he will face Brazilian f"
-        },
-        {
-          "title": "Cameroon: Afrique de l’Ouest et centrale : Derniers événements en bref (3-9 mars 2026)",
-          "url": "https://reliefweb.int/report/cameroon/afrique-de-louest-et-centrale-derniers-evenements-en-bref-3-9-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T18:11:56",
-          "lead": "Countries: Cameroon, Burkina Faso, Democratic Republic of the Congo, Nigeria\n                                      Sourc"
-        },
-        {
-          "title": "Cameroon: West and Central Africa: Latest Events at a glance (3 - 9 March 2026)",
-          "url": "https://reliefweb.int/report/cameroon/west-and-central-africa-latest-events-glance-3-9-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T18:00:37",
-          "lead": "Countries: Cameroon, Burkina Faso, Democratic Republic of the Congo, Nigeria\n                                      Sourc"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "Cameroon’s “silent food insecurity crisis” deepens as millions struggle to find food",
-          "url": "https://reliefweb.int/report/cameroon/cameroons-silent-food-insecurity-crisis-deepens-millions-struggle-find-food",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T08:33:06",
-          "lead": "Country: Cameroon\n                                      Source: International Federation of Red Cross and Red Crescent S"
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique",
-        "ReliefWeb",
-        "Jeune Afrique",
-        "Africanews"
+        "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 1.3,
-      "ratio": 4.74,
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 1.4,
+      "ratio": 2.93,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Humanitaire",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
           "count": 2
         },
         {
@@ -1302,27 +1057,12 @@
           "source": "Jeune Afrique",
           "published": "2026-03-10T10:29:58",
           "lead": "Cet employé français de l’ONG humanitaire est soupçonné « d’activités visant la déstabilisation de la situation sécurita"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2026 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:16:44",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
-        },
-        {
-          "title": "DR Congo: West and Central Africa: 2025 Regional Funding Status - General Overview (as of 09 March 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2025-regional-funding-status-general-overview-09-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T13:19:32",
-          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Mali, Maurit"
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "RFI Afrique",
-        "ReliefWeb",
-        "Jeune Afrique",
-        "Le Monde Afrique"
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
@@ -1336,26 +1076,6 @@
         {
           "word": "Président",
           "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1368,16 +1088,16 @@
           "lead": "La Mission des Nations unies au Soudan du Sud (Minuss) a annoncé ce 9 mars 2026 « que ses \"casques bleus\" resteront à Ak"
         },
         {
-          "title": "TCHAD : Aperçu de la situation humanitaire à l’Est (06 mars 2026)",
-          "url": "https://reliefweb.int/report/chad/tchad-apercu-de-la-situation-humanitaire-lest-06-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T15:03:04",
-          "lead": "Countries: Chad, South Sudan\n                                      Source: UN Office for the Coordination of Humanitaria"
+          "title": "South Sudan: UN official concerned over human rights violations",
+          "url": "http://www.africanews.com/2026/03/10/south-sudan-un-official-concerned-over-human-rights-violations/",
+          "source": "Africanews",
+          "published": "2026-03-10T19:05:00",
+          "lead": "As accounts of human rights violations in South Sudan pile up, the spokesperson for the UN high comisisoner of human rig"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Eq. Guinea": {
@@ -1406,16 +1126,16 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.67,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Coup",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Coup",
           "count": 1
         }
       ],
@@ -1447,8 +1167,8 @@
     },
     "DRC": {
       "article_count": 5,
-      "source_count": 4,
-      "baseline": 7.4,
+      "source_count": 3,
+      "baseline": 7.5,
       "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
@@ -1468,14 +1188,17 @@
         {
           "word": "Crise",
           "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RDC: un audit du «contrat du siècle» relance le débat sur cet accord signé avec des groupes chinois en 2008",
+          "url": "https://www.rfi.fr/fr/afrique/20260310-rdc-un-audit-du-contrat-du-si%C3%A8cle-relance-le-d%C3%A9bat-sur-cet-accord-sign%C3%A9-avec-des-groupes-chinois-en-2008",
+          "source": "RFI Afrique",
+          "published": "2026-03-10T19:26:42",
+          "lead": "Près de 20 ans après sa signature, le programme minier sino-congolais entre dans une nouvelle phase d'examen. Le 5 mars "
+        },
         {
           "title": "Centrafrique: arrestation d'un humanitaire français de MSF par des mercenaires russes",
           "url": "https://www.rfi.fr/fr/afrique/20260310-centrafrique-arrestation-d-un-humanitaire-fran%C3%A7ais-de-msf-par-des-mercenaires-russes",
@@ -1503,20 +1226,12 @@
           "source": "Jeune Afrique",
           "published": "2026-03-10T17:45:58",
           "lead": "La justice néerlandaise a annoncé que la société de droit néerlandais Fleurette, ex-holding du groupe de l’homme d’affai"
-        },
-        {
-          "title": "DR Congo: République démocratique du Congo : Calendrier des réunions humanitaires - Kinshasa (mars 2026)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/republique-democratique-du-congo-calendrier-des-reunions-humanitaires-kinshasa-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T11:51:24",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "RFI Afrique",
-        "ReliefWeb",
-        "Jeune Afrique",
-        "Le Monde Afrique"
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -1602,8 +1317,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Somalia": {
@@ -1682,10 +1397,10 @@
       ]
     },
     "Kenya": {
-      "article_count": 8,
-      "source_count": 4,
-      "baseline": 6.3,
-      "ratio": 1.28,
+      "article_count": 5,
+      "source_count": 2,
+      "baseline": 6.4,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1694,23 +1409,11 @@
           "count": 3
         },
         {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
           "word": "President",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Terrorist",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
           "count": 1
         },
         {
@@ -1718,19 +1421,24 @@
           "count": 1
         },
         {
+          "word": "Attack",
+          "count": 1
+        },
+        {
           "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Kenya: au moins 45 morts dans des inondations, de nombreuses victimes à Nairobi",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-kenya-au-moins-45-morts-dans-des-inondations-de-nombreuses-victimes-%C3%A0-nairobi",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T20:44:27",
-          "lead": "Le Kenya est toujours sous le choc après les inondations soudaines qui ont frappé la capitale Nairobi, dans la nuit du v"
-        },
         {
           "title": "Kenya: Sewerage and Sanitation Take Centre Stage in Nairobi's Sh80bn Development Plan",
           "url": "https://allafrica.com/stories/202603100496.html",
@@ -1760,20 +1468,6 @@
           "lead": "[Capital FM] Nairobi -- The United States has designated the Sudanese Muslim Brotherhood (SMB) as a Specially Designated"
         },
         {
-          "title": "Kenya | Severe weather and flash floods - DG ECHO Daily Map | 10/03/2026",
-          "url": "https://reliefweb.int/map/kenya/kenya-severe-weather-and-flash-floods-dg-echo-daily-map-10032026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T16:17:16",
-          "lead": "Country: Kenya\n                                      Source: European Commission's Directorate-General for European Civi"
-        },
-        {
-          "title": "Cameroon’s “silent food insecurity crisis” deepens as millions struggle to find food",
-          "url": "https://reliefweb.int/report/cameroon/cameroons-silent-food-insecurity-crisis-deepens-millions-struggle-find-food",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T08:33:06",
-          "lead": "Country: Cameroon\n                                      Source: International Federation of Red Cross and Red Crescent S"
-        },
-        {
           "title": "Mali: Armed Islamist Group Executes Truck Drivers",
           "url": "https://www.hrw.org/news/2026/03/10/mali-armed-islamist-group-executes-truck-drivers",
           "source": "Human Rights Watch",
@@ -1782,8 +1476,6 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "ReliefWeb",
         "AllAfrica",
         "Human Rights Watch"
       ]
@@ -1830,8 +1522,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1877,28 +1569,24 @@
       "article_count": 5,
       "source_count": 5,
       "baseline": 2.8,
-      "ratio": 1.79,
+      "ratio": 1.76,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Government",
           "count": 3
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 2
         },
         {
-          "word": "Président",
-          "count": 1
+          "word": "Gouvernement",
+          "count": 2
         },
         {
           "word": "Élection",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         },
         {
@@ -1916,11 +1604,11 @@
           "lead": "Col Randrianirina, who seized power last year, did not give a reason for dissolving his government."
         },
         {
-          "title": "Madagascar: en pleine «Refondation», le président Randrianirina dissout le gouvernement",
-          "url": "https://www.rfi.fr/fr/afrique/20260309-madagascar-en-pleine-refondation-le-pr%C3%A9sident-randrianirina-dissout-le-gouvernement",
-          "source": "RFI Afrique",
-          "published": "2026-03-09T23:17:57",
-          "lead": "À Madagascar, dix jours seulement après avoir transmis le calendrier de la transition à la Communauté de développement d"
+          "title": "Madagascar strongman sacks government after just 5 months",
+          "url": "https://www.dw.com/en/madagascar-strongman-sacks-government-after-just-5-months/a-76294299?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-03-10T18:00:00",
+          "lead": "Madagascar's military leader Colonel Michael Randrianirina has sacked his prime minister and dissolved the entire Cabine"
         },
         {
           "title": "A Madagascar, le colonel Michaël Randrianirina, qui a pris le pouvoir en 2025, suspend le gouvernement et démet le premier ministre",
@@ -1945,11 +1633,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Le Monde Afrique",
         "Jeune Afrique",
+        "DW Africa",
         "Africanews",
-        "BBC Africa",
-        "Le Monde Afrique"
+        "BBC Africa"
       ]
     },
     "Comoros": {
@@ -2038,53 +1726,16 @@
       ]
     },
     "Mozambique": {
-      "article_count": 3,
-      "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 2.9,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.1,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mozambique: Boletim Diário da Cólera Data: 09/03/2026",
-          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-09032026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T14:19:54",
-          "lead": "Country: Mozambique\n                                      Source: Government of Mozambique\n                             "
-        },
-        {
-          "title": "Mozambique: Humanitarian Operational Presence (HNRP and Non-HRNP) - Who's doing, What, Where (3W), as of 31 January 2026",
-          "url": "https://reliefweb.int/report/mozambique/mozambique-humanitarian-operational-presence-hnrp-and-non-hrnp-whos-doing-what-where-3w-31-january-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T11:19:25",
-          "lead": "Country: Mozambique\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
-        },
-        {
-          "title": "Mozambique: 2026 Humanitarian Response (Conflict), as 31 January 2026",
-          "url": "https://reliefweb.int/report/mozambique/mozambique-2026-humanitarian-response-conflict-31-january-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-10T10:55:35",
-          "lead": "Country: Mozambique\n                                      Source: UN Office for the Coordination of Humanitarian Affairs"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Zimbabwe": {
       "article_count": 4,
@@ -2131,8 +1782,8 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "AllAfrica"
+        "AllAfrica",
+        "Daily Maverick"
       ]
     },
     "Namibia": {
@@ -2177,8 +1828,8 @@
     "South Africa": {
       "article_count": 22,
       "source_count": 6,
-      "baseline": 14.2,
-      "ratio": 1.55,
+      "baseline": 14.3,
+      "ratio": 1.54,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -2203,7 +1854,7 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -2287,20 +1938,20 @@
           "lead": "[SAnews.gov.za] President Cyril Ramaphosa has extended the period for the Judicial Commission of Inquiry into Criminalit"
         },
         {
-          "title": "PULMONARY DISEASES: The silent scourge - why poverty drives chronic respiratory illnesses in South Africa",
-          "url": "https://www.dailymaverick.co.za/article/the-silent-scourge-why-poverty-drives-cs-chronic-respiratory-illnesses-in-south",
+          "title": "ORGANISED CRIME: SA’s Benjamin Mauerberger embroiled in ‘Thailand state capture’ accusations and billion-dollar scam probes",
+          "url": "https://www.dailymaverick.co.za/article/sas-benjamin-mauerberger-embroiled-in-thn-thailand-state-capture-accusations-and",
           "source": "Daily Maverick",
-          "published": "2026-03-10T20:37:04",
-          "lead": "Chronic respiratory diseases such as asthma account for 4% of all deaths in South Africa and poverty is the main underly"
+          "published": "2026-03-10T22:25:43",
+          "lead": "South African-born Benjamin Mauerberger’s name has cropped up in a global scandal involving suspicions of money launderi"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "AllAfrica",
         "Jeune Afrique",
-        "Africanews",
-        "Daily Maverick",
         "The Guardian Africa",
-        "AllAfrica"
+        "Daily Maverick",
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Eswatini": {
