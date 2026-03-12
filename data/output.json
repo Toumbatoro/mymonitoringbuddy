@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-12T12:38:21.291076",
+  "generated_at": "2026-03-12T15:50:46.370148",
   "summary": {
-    "high": 5,
-    "elevated": 6,
-    "normal": 24,
-    "quiet": 19
+    "high": 3,
+    "elevated": 7,
+    "normal": 29,
+    "quiet": 15
   },
   "countries": {
     "Morocco": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 3.3,
-      "ratio": 0.6,
+      "ratio": 0.3,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -23,13 +23,6 @@
           "source": "Jeune Afrique",
           "published": "2026-03-11T19:01:50",
           "lead": "Présenté par une entreprise dubaïote nommée MJM Investments Limited, le projet de reprise de la raffinerie marocaine a é"
-        },
-        {
-          "title": "Qui est Christophe Lecourtier, le futur visage de l’AFD scruté par l’Afrique ?",
-          "url": "https://www.jeuneafrique.com/1773032/economie-entreprises/qui-est-christophe-lecourtier-le-futur-visage-de-lafd-scrute-par-lafrique/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-11T14:20:55",
-          "lead": "Le directeur général de l’Agence française de développement devrait céder sa place à l’actuel ambassadeur de France au M"
         }
       ],
       "sources": [
@@ -40,10 +33,19 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.95,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -54,16 +56,16 @@
           "lead": "116 personnes, dont 54 Français, sont mortes dans le crash survenu le 24 juillet 2014. Le procès de la compagnie espagno"
         },
         {
-          "title": "DZ Mafia, nouveaux consuls : le lien entre Alger et Paris commence à se retisser",
-          "url": "https://www.jeuneafrique.com/1773040/politique/dz-mafia-nouveaux-consuls-le-lien-entre-alger-et-paris-commence-a-se-retisser/",
+          "title": "L’influenceur algérien Imad Tintin toujours dans le collimateur de la justice française",
+          "url": "https://www.jeuneafrique.com/1773435/politique/linfluenceur-algerien-imad-tintin-toujours-dans-le-collimateur-de-la-justice-francaise/",
           "source": "Jeune Afrique",
-          "published": "2026-03-11T13:57:06",
-          "lead": "Trois semaines après la visite en Algérie du ministre français de l’Intérieur, plusieurs indices semblent montrer que la"
+          "published": "2026-03-12T14:56:10",
+          "lead": "En pleine crise diplomatique entre France et Algérie, l’influenceur installé en Isère avait choqué par ses diatribes vio"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
@@ -96,51 +98,68 @@
       ]
     },
     "Libya": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.94,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Libya PM Dbeibah reshuffles government in bid to boost services",
+          "url": "http://www.africanews.com/2026/03/12/libya-pm-dbeibah-reshuffles-government-in-bid-to-boost-services/",
+          "source": "Africanews",
+          "published": "2026-03-12T14:40:35",
+          "lead": "Libya's Prime Minister Abdulhamid Dbeibah has reshuffled his UN-backed government, saying Thursday he wanted to improve "
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.79,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Égypte : la manne du ramadan pour les hôpitaux",
+          "url": "https://www.france24.com/fr/%C3%A9missions/focus/20260312-h%C3%B4pitaux-caritatifs-en-%C3%A9gypte-la-manne-du-ramadan",
+          "source": "France24 Afrique",
+          "published": "2026-03-12T13:24:43",
+          "lead": "Durant le mois ramadan en Égypte, la générosité liée à la Zakat (l'aumône obligatoire) et à la Sadaqa (le don volontaire"
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
     },
     "Sudan": {
-      "article_count": 7,
-      "source_count": 5,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 6.3,
-      "ratio": 1.11,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Killed",
-          "count": 3
-        },
-        {
-          "word": "Attack",
-          "count": 2
-        },
-        {
-          "word": "Dead",
-          "count": 2
-        },
-        {
-          "word": "Rsf",
           "count": 2
         },
         {
@@ -158,17 +177,22 @@
         {
           "word": "Terroriste",
           "count": 1
+        },
+        {
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Students among 17 dead in RSF drone attack in Sudan’s White Nile State",
-          "url": "https://www.aljazeera.com/news/2026/3/12/students-among-17-dead-in-rsf-drone-attack-in-sudans-white-nile-state?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-12T06:04:11",
-          "lead": "Sudanese Doctors Network says &#039;horrific crime represents a continuation of the violations committed by the RSF.&#03"
-        },
         {
           "title": "At least 17 killed after drone strikes school in Sudan",
           "url": "https://www.theguardian.com/world/2026/mar/11/at-least-17-killed-after-drone-strikes-school-in-sudan",
@@ -203,21 +227,13 @@
           "source": "AllAfrica",
           "published": "2026-03-12T04:42:48",
           "lead": "[Dabanga] Um Rimta, White Nile State -- At least nine people have been killed and 17 others injured after a Rapid Suppor"
-        },
-        {
-          "title": "Sudan: 52 Killed in West Kordofan Drone Convoy Carnage",
-          "url": "https://allafrica.com/stories/202603120014.html",
-          "source": "AllAfrica",
-          "published": "2026-03-12T04:42:48",
-          "lead": "[Dabanga] El Fula -- At least 52 people have been killed, including 17 or more women from the same family - have been ki"
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "RFI Afrique",
-        "The Guardian Africa",
         "AllAfrica",
-        "Al Jazeera",
-        "Le Monde Afrique"
+        "The Guardian Africa"
       ]
     },
     "Mauritania": {
@@ -255,7 +271,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 1.41,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -293,18 +309,22 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 1.6,
-      "ratio": 3.67,
+      "article_count": 7,
+      "source_count": 5,
+      "baseline": 1.7,
+      "ratio": 4.12,
       "status": "high",
       "confidence": "high",
       "keywords": [
+        {
+          "word": "Killed",
+          "count": 2
+        },
         {
           "word": "Putsch",
           "count": 1
@@ -326,7 +346,7 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -372,6 +392,13 @@
           "lead": "Le Groupe de soutien à l’islam et aux musulmans (Jnim) a tué en quelques semaines des dizaines de civils dans trois atta"
         },
         {
+          "title": "At least 38 civilians killed in Burkina Faso in wave of JNIM attacks",
+          "url": "http://www.africanews.com/2026/03/12/at-least-38-civilians-killed-in-burkina-faso-in-wave-of-jnim-attacks/",
+          "source": "Africanews",
+          "published": "2026-03-12T12:51:01",
+          "lead": "Burkina Faso is facing another surge of violence as jihadists linked to Al-Qaeda intensify attacks on civilians. Accordi"
+        },
+        {
           "title": "Burkina Faso: Islamist Armed Group Commits New Atrocities",
           "url": "https://allafrica.com/stories/202603120104.html",
           "source": "AllAfrica",
@@ -381,9 +408,10 @@
       ],
       "sources": [
         "AllAfrica",
-        "RFI Afrique",
+        "Le Monde Afrique",
+        "Africanews",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "Niger": {
@@ -409,10 +437,10 @@
       ]
     },
     "Senegal": {
-      "article_count": 15,
+      "article_count": 14,
       "source_count": 9,
-      "baseline": 4.6,
-      "ratio": 3.26,
+      "baseline": 4.7,
+      "ratio": 2.98,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -513,23 +541,23 @@
           "lead": "Sur fond de vague d’homophobie et d’arrestations pour homosexualité présumée, les députés sénégalais ont voté la loi qui"
         },
         {
-          "title": "Répression de l’homosexualité au Sénégal : une loi qui vient de loin",
-          "url": "https://www.jeuneafrique.com/1772888/politique/repression-de-lhomosexualite-au-senegal-une-loi-qui-vient-de-loin/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-11T12:43:42",
-          "lead": "La loi durcissant les peines pour homosexualité doit être soumise ce 11 mars aux députés sénégalais. Derrière ce texte p"
+          "title": "Senegal parliament doubles penalty for gay sex",
+          "url": "http://www.africanews.com/2026/03/12/senegal-parliament-doubles-penalty-for-gay-sex/",
+          "source": "Africanews",
+          "published": "2026-03-12T07:55:45",
+          "lead": "Senegal's parliament on Wednesday passed legislation doubling the maximum penalty for same-sex relations, making them pu"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
-        "AllAfrica",
-        "Africanews",
         "France24 Afrique",
-        "DW Africa",
+        "AllAfrica",
         "Daily Maverick",
+        "Le Monde Afrique",
+        "DW Africa",
+        "Africanews",
+        "BBC Africa",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -557,12 +585,12 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 2.26,
+      "ratio": 1.64,
       "status": "elevated",
-      "confidence": "medium",
+      "confidence": "low",
       "keywords": [
         {
           "word": "President",
@@ -576,20 +604,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "En Guinée, la crainte d’un retour au parti unique après la dissolution de l’opposition par Mamadi Doumbouya",
-          "url": "https://www.jeuneafrique.com/1772893/politique/en-guinee-la-crainte-dun-retour-au-parti-unique-apres-la-dissolution-de-lopposition-par-mamadi-doumbouya/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-11T13:09:21",
-          "lead": "À quelques semaines des élections législatives et communales, Mamadi Doumbouya a décrété la dissolution des principaux p"
-        },
-        {
-          "title": "Guinea: Guinean Soldiers Open Fire, Recapture Disputed Border Area in Foya, Liberian Injured",
-          "url": "https://allafrica.com/stories/202603120065.html",
-          "source": "AllAfrica",
-          "published": "2026-03-12T05:14:11",
-          "lead": "[Liberian Investigator] FOYA DISTRICT, Lofa County -- Tensions along the Liberia-Guinea border escalated Wednesday after"
-        },
-        {
           "title": "Liberia: Boakai Consults Legislature Amid Guinean Military Incursion",
           "url": "https://allafrica.com/stories/202603120254.html",
           "source": "AllAfrica",
@@ -602,18 +616,24 @@
           "source": "AllAfrica",
           "published": "2026-03-12T10:14:26",
           "lead": "[Liberian Observer] The withdrawal of Guinean troops from a disputed border point in Lofa County has eased immediate ten"
+        },
+        {
+          "title": "Guinea: Guinean Soldiers Open Fire, Recapture Disputed Border Area in Foya, Liberian Injured",
+          "url": "https://allafrica.com/stories/202603120065.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T05:14:11",
+          "lead": "[Liberian Investigator] FOYA DISTRICT, Lofa County -- Tensions along the Liberia-Guinea border escalated Wednesday after"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "Sierra Leone": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.76,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -634,8 +654,8 @@
     "Liberia": {
       "article_count": 4,
       "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 3.0,
+      "baseline": 1.4,
+      "ratio": 2.79,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -650,13 +670,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Guinea: Guinean Soldiers Open Fire, Recapture Disputed Border Area in Foya, Liberian Injured",
-          "url": "https://allafrica.com/stories/202603120065.html",
-          "source": "AllAfrica",
-          "published": "2026-03-12T05:14:11",
-          "lead": "[Liberian Investigator] FOYA DISTRICT, Lofa County -- Tensions along the Liberia-Guinea border escalated Wednesday after"
-        },
         {
           "title": "Liberia: World Bank Pumps $137m Into Digital Jobs, Skills in Liberia, S/Leone, Benin",
           "url": "https://allafrica.com/stories/202603120310.html",
@@ -677,6 +690,13 @@
           "source": "AllAfrica",
           "published": "2026-03-12T10:14:26",
           "lead": "[Liberian Observer] The withdrawal of Guinean troops from a disputed border point in Lofa County has eased immediate ten"
+        },
+        {
+          "title": "Guinea: Guinean Soldiers Open Fire, Recapture Disputed Border Area in Foya, Liberian Injured",
+          "url": "https://allafrica.com/stories/202603120065.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T05:14:11",
+          "lead": "[Liberian Investigator] FOYA DISTRICT, Lofa County -- Tensions along the Liberia-Guinea border escalated Wednesday after"
         }
       ],
       "sources": [
@@ -687,7 +707,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.64,
+      "ratio": 0.62,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -706,12 +726,12 @@
       ]
     },
     "Ghana": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.88,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 2.8,
+      "ratio": 1.45,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Réfugiés",
@@ -720,13 +740,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "‘Imagine, if everyone had a sex auntie’: Nana Darkoa Sekyiamah on tradition as a basis for pleasure",
-          "url": "https://www.theguardian.com/news/2026/mar/11/nana-darkoa-sekyiamah-seeking-sexual-freedom-sex-aunties",
-          "source": "The Guardian Africa",
-          "published": "2026-03-11T12:58:59",
-          "lead": "The author tells how chronicling the sex lives of African women led her to many examples of openness around the body gro"
-        },
         {
           "title": "Ghana: dans le camp de réfugiés de Tarikom, malgré l'accueil chaleureux, la précarité subsiste [2/2]",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260311-ghana-dans-le-camp-de-r%C3%A9fugi%C3%A9s-de-tarikom-malgr%C3%A9-l-accueil-chaleureux-la-pr%C3%A9carit%C3%A9-subsiste-2-2",
@@ -742,24 +755,23 @@
           "lead": "[Ghanaian Times] NEARLY 1,000 women died during childbirth across health facilities in the country last year."
         },
         {
-          "title": "Ghana: How School Meals Feed Nations - and Changed My Life",
-          "url": "https://allafrica.com/stories/202603120267.html",
-          "source": "AllAfrica",
-          "published": "2026-03-12T10:20:41",
-          "lead": "[WFP] Our Ghana Communications Officer, Abdul-Wahab Mohammed, describes growing up on hearty WFP meals - and how they ca"
-        },
-        {
           "title": "Ghana: Gis Rescues 73 Victims  - Arrests 93 Nigerians in Anti-Fraud Operation",
           "url": "https://allafrica.com/stories/202603120329.html",
           "source": "AllAfrica",
           "published": "2026-03-12T10:54:24",
           "lead": "[Ghanaian Times] THE Ghana Immigration Service (GIS) has arrested 93 Nigerian nationals for their alleged involvement in"
+        },
+        {
+          "title": "Ghana: How School Meals Feed Nations - and Changed My Life",
+          "url": "https://allafrica.com/stories/202603120267.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T10:20:41",
+          "lead": "[WFP] Our Ghana Communications Officer, Abdul-Wahab Mohammed, describes growing up on hearty WFP meals - and how they ca"
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Togo": {
@@ -797,7 +809,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.64,
+      "ratio": 0.62,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -816,10 +828,10 @@
       ]
     },
     "Nigeria": {
-      "article_count": 9,
+      "article_count": 11,
       "source_count": 3,
-      "baseline": 9.0,
-      "ratio": 1.0,
+      "baseline": 9.1,
+      "ratio": 1.21,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -828,33 +840,25 @@
           "count": 2
         },
         {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Jihadist",
-          "count": 1
-        },
-        {
-          "word": "War",
+          "word": "Protest",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east",
-          "url": "https://www.theguardian.com/world/2026/mar/11/nigerian-soldiers-killed-jihadist-raids-north-east",
-          "source": "The Guardian Africa",
-          "published": "2026-03-11T13:18:05",
-          "lead": "Gunmen from Islamic State West Africa Province overran four military bases and abducted 300 civilians, say reportsAt lea"
+          "title": "One house, two faiths, one fasting season",
+          "url": "https://www.bbc.com/news/videos/cwygeypnevxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-12T12:40:13",
+          "lead": "Ramadan and Lent haven't overlapped since 1993 and couples like Olanrewaju and Kaosara in Nigeria are observing them tog"
         },
         {
-          "title": "Nigeria: Dangote refinery supports oil distribution amid Iran war",
-          "url": "http://www.africanews.com/2026/03/11/nigeria-dangote-refinery-supports-oil-distribution-amid-iran-war/",
-          "source": "Africanews",
-          "published": "2026-03-11T15:34:36",
-          "lead": "In order to avoid shortages as the war in the Middle East rages on, Nigeria can rely upon billionaire Aliko Dangote’s re"
+          "title": "Au sein de l’anglicanisme, le schisme des Eglises africaines",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/12/au-sein-de-l-anglicanisme-le-schisme-des-eglises-africaines_6670759_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-12T15:00:33",
+          "lead": "Réuni à Abuja, au Nigeria, un réseau d’Eglises conservatrices a annoncé, le 5 mars, la création d’un Conseil anglican mo"
         },
         {
           "title": "Africa: African Health Financing Faces Governance Crisis, Not Just Funding Gap",
@@ -871,18 +875,18 @@
           "lead": "[Premium Times] The development was announced in a statement issued on Wednesday by the National AIDS, Viral Hepatitis a"
         },
         {
-          "title": "West Africa: Middle East Crisis - Nigeria, West Africa Risk Losing Shipping Lines to European Markets",
-          "url": "https://allafrica.com/stories/202603120293.html",
-          "source": "AllAfrica",
-          "published": "2026-03-12T10:36:04",
-          "lead": "[Vanguard] Shipping companies, freight forwarders and other port users have raised concerns over the potential impact of"
-        },
-        {
           "title": "Nigeria: One in Three Nigerian Adolescents Underweight - Report",
           "url": "https://allafrica.com/stories/202603120290.html",
           "source": "AllAfrica",
           "published": "2026-03-12T10:34:53",
           "lead": "[Premium Times] This is according to the 2025 State of the Health of the Nation Report released by the Federal Ministry "
+        },
+        {
+          "title": "Nigeria: NNPC Cuts Petrol Price By N100 in Lagos, N95 in Abuja",
+          "url": "https://allafrica.com/stories/202603120560.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T14:34:30",
+          "lead": "[Daily Trust] The Nigerian National Petroleum Company Limited has reduced the pump price of petrol at its retail outlets"
         },
         {
           "title": "Nigeria: PSC Unveils Roadmap for Implementation of State Police",
@@ -899,17 +903,31 @@
           "lead": "[Ghanaian Times] THE Ghana Immigration Service (GIS) has arrested 93 Nigerian nationals for their alleged involvement in"
         },
         {
+          "title": "West Africa: Middle East Crisis - Nigeria, West Africa Risk Losing Shipping Lines to European Markets",
+          "url": "https://allafrica.com/stories/202603120293.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T10:36:04",
+          "lead": "[Vanguard] Shipping companies, freight forwarders and other port users have raised concerns over the potential impact of"
+        },
+        {
           "title": "Nigeria: Customs Intercepts 1,907 Explosive-Making Compressors in Kwara",
           "url": "https://allafrica.com/stories/202603120226.html",
           "source": "AllAfrica",
           "published": "2026-03-12T10:08:20",
           "lead": "[Daily Trust] The Nigeria Customs Service, Kwara Area Command, on Wednesday, unveiled a large haul of seized items inter"
+        },
+        {
+          "title": "Mozambique: Nigerians Protest At 'Illegal Detention'",
+          "url": "https://allafrica.com/stories/202603120028.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T04:51:57",
+          "lead": "[AIM] Maputo -- A group of members of the Nigerian Community in Mozambique on Tuesday gathered in front of the Nigerian "
         }
       ],
       "sources": [
-        "The Guardian Africa",
+        "Le Monde Afrique",
         "AllAfrica",
-        "Africanews"
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -962,7 +980,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 1.3,
-      "ratio": 3.16,
+      "ratio": 3.0,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1003,20 +1021,20 @@
           "url": "https://www.jeuneafrique.com/1773251/politique/centrafrique-comment-la-france-tente-de-revenir-a-bangui-face-a-la-russie/",
           "source": "Jeune Afrique",
           "published": "2026-03-12T08:03:00",
-          "lead": "Le ministre des Affaires étrangères français, Jean-Noël Barrot, est en visite à Bangui ces 12 et 13 mars. Son séjour doi"
+          "lead": "Le ministre français des Affaires étrangères, Jean-Noël Barrot, est en visite à Bangui ces 12 et 13 mars. Son séjour doi"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Le Monde Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "South Sudan": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 1.45,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1029,11 +1047,11 @@
           "count": 2
         },
         {
-          "word": "War",
+          "word": "Rebel",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "War",
           "count": 1
         },
         {
@@ -1066,8 +1084,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Eq. Guinea": {
@@ -1083,41 +1101,35 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.68,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Gabon asks IMF for new arrangement in a bid to stabilise finances",
-          "url": "http://www.africanews.com/2026/03/11/gabon-asks-imf-for-new-arrangement-in-a-bid-to-stabilise-finances/",
-          "source": "Africanews",
-          "published": "2026-03-11T14:04:02",
-          "lead": "Gabon has formally requested an arrangement with the International Monetary Fund, IMF officials said on Wednesday. The n"
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Congo": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 2.73,
-      "status": "high",
+      "ratio": 2.26,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
         {
           "word": "Élection",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Militia",
           "count": 1
         },
         {
@@ -1126,14 +1138,6 @@
         },
         {
           "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Militia",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -1166,86 +1170,56 @@
           "source": "Africanews",
           "published": "2026-03-11T16:15:30",
           "lead": "A French aid worker for the UN children's agency has been killed in an air strike in the eastern Democratic Republic of "
-        },
-        {
-          "title": "Presidential candidates hold last campaign rallies in Congo",
-          "url": "http://www.africanews.com/2026/03/11/presidential-candidates-hold-last-campaign-rallies-in-congo/",
-          "source": "Africanews",
-          "published": "2026-03-11T14:51:57",
-          "lead": "Campaigning for president in the Republic of Congo wraps up on Friday with polling scheduled for Sunday"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "DRC": {
-      "article_count": 15,
-      "source_count": 7,
+      "article_count": 10,
+      "source_count": 5,
       "baseline": 7.9,
-      "ratio": 1.91,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.27,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Humanitaire",
-          "count": 7
-        },
-        {
-          "word": "M23",
-          "count": 5
-        },
-        {
-          "word": "Killed",
           "count": 4
         },
         {
           "word": "Attaque",
-          "count": 4
+          "count": 3
         },
         {
-          "word": "Rebel",
+          "word": "M23",
           "count": 2
         },
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
+          "word": "Killed",
+          "count": 2
         },
         {
           "word": "Explosion",
           "count": 1
+        },
+        {
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Militia",
+          "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Killed",
-          "Rebel"
-        ],
-        [
-          "Attaque",
-          "Humanitaire"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
-        {
-          "title": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-          "url": "https://www.bbc.com/news/articles/cvgj8veg0gno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-11T15:24:57",
-          "lead": "Witnesses say drone strikes hit a residential building frequently occupied by expatriates and aid workers in Goma."
-        },
-        {
-          "title": "French aid worker among three killed in dronestrike in east DRC, M23 rebels say",
-          "url": "https://www.theguardian.com/world/2026/mar/11/drone-attack-goma-eastern-democratic-republic-of-the-congo-m23-rebels",
-          "source": "The Guardian Africa",
-          "published": "2026-03-11T15:06:01",
-          "lead": "Rebel group blames government for attack on residential area of M23-controlled city of GomaThree people including a Fren"
-        },
         {
           "title": "RDC: les processus de paix toujours plus fragilisés après une attaque de drone sur Goma",
           "url": "https://www.rfi.fr/fr/afrique/20260312-rdc-les-processus-de-paix-toujours-plus-fragilis%C3%A9s-apr%C3%A8s-une-attaque-de-drone-sur-goma",
@@ -1275,13 +1249,6 @@
           "lead": "Une employée humanitaire française de l'Unicef a été tuée par une frappe de drone à Goma, dans l'est de la République dé"
         },
         {
-          "title": "RD Congo : une humanitaire française de l'Unicef tuée à Goma",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260311-rd-congo-une-humanitaire-fran%C3%A7aise-de-l-unicef-tu%C3%A9e-%C3%A0-goma",
-          "source": "France24 Afrique",
-          "published": "2026-03-11T15:20:01",
-          "lead": "🚨 Une #humanitaire française de l'#Unicef a été tuée dans une frappe de drone à #Goma, en #RDCongo, le 11 mars. Karine B"
-        },
-        {
           "title": "RDC : une humanitaire française tuée par une frappe de drone à Goma",
           "url": "https://www.lemonde.fr/afrique/video/2026/03/11/rdc-une-humanitaire-francaise-tuee-par-une-frappe-de-drone-a-goma_6670556_3212.html",
           "source": "Le Monde Afrique",
@@ -1296,13 +1263,6 @@
           "lead": "Le match entre le Tout Puissant Mazembe et le FC Saint-Eloi Lupopo, le 8 mars, a été interrompu lorsque des supporteurs "
         },
         {
-          "title": "Une humanitaire française tuée par une frappe de drone  à Goma, dans l’est de la RDC",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/11/est-de-la-rdc-une-humanitaire-francaise-tuee-a-goma-par-une-frappe-de-drones_6670497_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-11T13:18:48",
-          "lead": "La rébellion de l’Alliance Fleuve Congo/Mouvement du 23 mars a imputé la responsabilité des attaques menées mercredi 11 "
-        },
-        {
           "title": "10 choses à savoir sur James Swan, nouveau chef de la Monusco en RDC",
           "url": "https://www.jeuneafrique.com/1773056/politique/10-choses-a-savoir-sur-james-swan-nouveau-chef-de-la-monusco-en-rdc/",
           "source": "Jeune Afrique",
@@ -1310,21 +1270,33 @@
           "lead": "Cet ancien ambassadeur des États-Unis en RDC devra superviser un éventuel redéploiement de la mission onusienne dans la "
         },
         {
-          "title": "En RDC, ce que l’on sait de la frappe qui a tué au moins une humanitaire française à Goma",
-          "url": "https://www.jeuneafrique.com/1772953/politique/en-rdc-ce-que-lon-sait-de-la-frappe-qui-a-tue-au-moins-une-humanitaire-francaise-a-goma/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-11T12:49:14",
-          "lead": "Une employée de l’Unicef est morte lors de l’attaque menée dans la nuit sur cette grande ville de l’Est contrôlée par la"
+          "title": "UN chief condemns killing of UNICEF worker in DR Congo strike",
+          "url": "http://www.africanews.com/2026/03/12/un-chief-condemns-killing-of-unicef-worker-in-dr-congo-strike/",
+          "source": "Africanews",
+          "published": "2026-03-12T10:45:12",
+          "lead": "The Secretary-General expressed outrage over the death of UNICEF’s Karine Buisset, who was killed in a drone strike on a"
+        },
+        {
+          "title": "Israeli billionaire's firm settles DR Congo graft probe for $30 million",
+          "url": "http://www.africanews.com/2026/03/11/israeli-billionaires-firm-settles-dr-congo-graft-probe-for-30-million/",
+          "source": "Africanews",
+          "published": "2026-03-11T21:03:57",
+          "lead": "A former holding company of Israeli billionaire Dan Gertler is paying $30 billion to settle a Dutch corruption investiga"
+        },
+        {
+          "title": "French aid worker among three killed in DR Congo air strike",
+          "url": "http://www.africanews.com/2026/03/11/french-aid-worker-among-three-killed-in-dr-congo-air-strike/",
+          "source": "Africanews",
+          "published": "2026-03-11T16:15:30",
+          "lead": "A French aid worker for the UN children's agency has been killed in an air strike in the eastern Democratic Republic of "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
-        "The Guardian Africa",
-        "Africanews",
         "France24 Afrique",
+        "Africanews",
+        "Le Monde Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1352,16 +1324,26 @@
       "sources": []
     },
     "Eritrea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.76,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Cartoonist freed after 15 years in prison without charge in Eritrea",
+          "url": "https://www.bbc.com/news/articles/c70kg0x4xk5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-12T13:57:01",
+          "lead": "Biniam Solomon was known for his witty and critical cartoons before the free press was closed."
+        }
+      ],
+      "sources": [
+        "BBC Africa"
+      ]
     },
     "Djibouti": {
       "article_count": 1,
@@ -1391,19 +1373,27 @@
       ]
     },
     "Ethiopia": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 4.2,
-      "ratio": 1.2,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 8,
+      "source_count": 6,
+      "baseline": 4.1,
+      "ratio": 1.94,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "War",
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Flood",
           "count": 1
         },
         {
           "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         },
         {
@@ -1414,11 +1404,32 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Death toll from Ethiopia floods and landslides rises to more than 60",
+          "title": "Death toll from Ethiopia floods and landslides rises to more than 100",
           "url": "https://www.bbc.com/news/articles/ce947x4m0e1o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
-          "published": "2026-03-12T10:33:24",
+          "published": "2026-03-12T14:46:09",
           "lead": "Forecasters say storms are becoming more intense in the region, partly due to global warming."
+        },
+        {
+          "title": "At least 64 killed, dozens reported missing in Ethiopia landslides, floods",
+          "url": "https://www.aljazeera.com/news/2026/3/12/at-least-52-killed-dozens-reported-missing-after-landslides-in-ethiopia?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-12T12:15:51",
+          "lead": "Authorities have said most of those who died were found buried in mud."
+        },
+        {
+          "title": "En Éthiopie, des officiers de la marine décorés dans un pays dépourvu d'accès à la mer",
+          "url": "https://www.rfi.fr/fr/afrique/20260312-en-%C3%A9thiopie-des-officiers-de-la-marine-d%C3%A9cor%C3%A9s-dans-un-pays-d%C3%A9pourvu-d-acc%C3%A8s-%C3%A0-la-mer",
+          "source": "RFI Afrique",
+          "published": "2026-03-12T12:57:24",
+          "lead": "Plusieurs officiers de la marine ont été promus lors d'une cérémonie lundi 9 mars. Le commandant en chef de la marine ét"
+        },
+        {
+          "title": "East Africa flood: death toll tops 110 as heavy rains wreak havoc",
+          "url": "http://www.africanews.com/2026/03/12/east-africa-flood-death-toll-tops-110-as-heavy-rains-wreak-havoc/",
+          "source": "Africanews",
+          "published": "2026-03-12T12:51:54",
+          "lead": "The death toll from devastating floods and landslides across East Africa has surpassed 110, with at least 64 people kill"
         },
         {
           "title": "Ethiopia: Flash Floods, Landslides Kill 30 in Southern Ethiopia",
@@ -1451,15 +1462,18 @@
       ],
       "sources": [
         "AllAfrica",
+        "Africanews",
         "BBC Africa",
-        "Human Rights Watch"
+        "RFI Afrique",
+        "Human Rights Watch",
+        "Al Jazeera"
       ]
     },
     "Somalia": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.2,
-      "ratio": 1.38,
+      "ratio": 0.92,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1470,13 +1484,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "US to end special protection for Somali migrants as lawsuits mount",
-          "url": "http://www.africanews.com/2026/03/11/us-to-end-special-protection-for-somali-migrants-as-lawsuits-mount/",
-          "source": "Africanews",
-          "published": "2026-03-11T15:03:55",
-          "lead": "The Trump administration is set to end the Temporary Protected Status (TPS) program for Somalis next week, a move that w"
-        },
         {
           "title": "Somalia: Former Somali President Condemns Arrest of Tuk-Tuk Drivers in Mogadishu",
           "url": "https://allafrica.com/stories/202603120349.html",
@@ -1493,30 +1500,52 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "Uganda": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.62,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Un étudiant ougandais en Iran fuit la guerre, il raconte son périple",
+          "url": "https://www.rfi.fr/fr/afrique/20260312-un-%C3%A9tudiant-ougandais-en-iran-fuit-la-guerre-il-raconte-son-p%C3%A9riple",
+          "source": "RFI Afrique",
+          "published": "2026-03-12T14:58:28",
+          "lead": "La guerre en Iran a aussi bouleversé la vie d’étudiants étrangers. En Ouganda, quarante-trois étudiants ont été évacués "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Kenya": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 5.7,
-      "ratio": 0.71,
+      "ratio": 0.87,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
         {
           "word": "President",
           "count": 1
@@ -1530,6 +1559,13 @@
           "source": "BBC Africa",
           "published": "2026-03-12T08:43:10",
           "lead": "The suspect had packed some ants in test tubes while others were concealed in tissue paper rolls, prosecutor says."
+        },
+        {
+          "title": "East Africa flood: death toll tops 110 as heavy rains wreak havoc",
+          "url": "http://www.africanews.com/2026/03/12/east-africa-flood-death-toll-tops-110-as-heavy-rains-wreak-havoc/",
+          "source": "Africanews",
+          "published": "2026-03-12T12:51:54",
+          "lead": "The death toll from devastating floods and landslides across East Africa has surpassed 110, with at least 64 people kill"
         },
         {
           "title": "Chinese man arrested in Kenya with 2,000 live queen ants at Nairobi airport",
@@ -1554,29 +1590,29 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
-        "BBC Africa",
-        "Africanews"
+        "BBC Africa"
       ]
     },
     "Rwanda": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Militia",
+          "count": 1
+        },
         {
           "word": "Killed",
           "count": 1
         },
         {
           "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Militia",
           "count": 1
         }
       ],
@@ -1598,17 +1634,17 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Burundi": {
       "article_count": 4,
       "source_count": 4,
       "baseline": 1.6,
-      "ratio": 2.55,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.45,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Coup",
@@ -1659,10 +1695,10 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique",
+        "Le Monde Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Tanzania": {
@@ -1739,7 +1775,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.5,
-      "ratio": 2.0,
+      "ratio": 1.88,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1770,19 +1806,23 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 1.0,
-      "ratio": 1.94,
+      "ratio": 2.9,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        },
         {
           "word": "Flood",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Protest",
           "count": 1
         }
       ],
@@ -1801,6 +1841,13 @@
           "source": "AllAfrica",
           "published": "2026-03-12T04:51:57",
           "lead": "[AIM] Maputo -- The storms and floods that hit Mozambique earlier this year caused 270 deaths, Prime Minister Benvinda L"
+        },
+        {
+          "title": "Mozambique: Nigerians Protest At 'Illegal Detention'",
+          "url": "https://allafrica.com/stories/202603120028.html",
+          "source": "AllAfrica",
+          "published": "2026-03-12T04:51:57",
+          "lead": "[AIM] Maputo -- A group of members of the Nigerian Community in Mozambique on Tuesday gathered in front of the Nigerian "
         }
       ],
       "sources": [
@@ -1832,8 +1879,8 @@
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.6,
-      "ratio": 1.67,
+      "baseline": 0.5,
+      "ratio": 1.88,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1865,26 +1912,26 @@
     },
     "South Africa": {
       "article_count": 19,
-      "source_count": 9,
-      "baseline": 15.1,
-      "ratio": 1.26,
+      "source_count": 8,
+      "baseline": 14.9,
+      "ratio": 1.27,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Violence",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Dead",
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Combat",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -1912,13 +1959,6 @@
           "source": "BBC Africa",
           "published": "2026-03-11T21:30:16",
           "lead": "Leo Brent Bozell apologises after weighing in on a dispute rooted in the country's apartheid past."
-        },
-        {
-          "title": "South Africa deploys troops in cities to tackle crime",
-          "url": "https://www.dw.com/en/south-africa-deploys-troops-in-cities-to-tackle-crime/a-76307027?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-03-11T14:12:00",
-          "lead": "A surge in gang-related violence has prompted South Africa to deploy the military to major cities. Supporters call it de"
         },
         {
           "title": "‘Light in this darkness’: communities push back against Cape Town gang culture",
@@ -1989,31 +2029,47 @@
           "source": "AllAfrica",
           "published": "2026-03-12T05:30:50",
           "lead": "[SAnews.gov.za] The Department of International Relations and Cooperation (DIRCO) has confirmed that the United States A"
+        },
+        {
+          "title": "GROUNDUP: This may be as good as a Master’s Office gets in South Africa",
+          "url": "https://www.dailymaverick.co.za/article/this-may-be-as-good-as-a-masters-office-gets-in-south-africa",
+          "source": "Daily Maverick",
+          "published": "2026-03-12T17:14:44",
+          "lead": "Sources close to the Bloemfontein Master’s Office rate it higher than Master’s Offices in other major centres GroundUp h"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
-        "The Guardian Africa",
         "AllAfrica",
-        "Africanews",
-        "DW Africa",
         "Daily Maverick",
+        "Le Monde Afrique",
+        "Africanews",
+        "The Guardian Africa",
+        "BBC Africa",
         "Jeune Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "US deports four more migrants to Eswatini under controversial scheme",
+          "url": "http://www.africanews.com/2026/03/12/us-deports-four-more-migrants-to-eswatini-under-controversial-scheme/",
+          "source": "Africanews",
+          "published": "2026-03-12T14:49:12",
+          "lead": "Four additional men deported from the United States have arrived in Eswatini, a lawyer and prison official confirmed Thu"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Lesotho": {
       "article_count": 0,
