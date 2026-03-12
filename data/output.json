@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-12T06:42:24.741001",
+  "generated_at": "2026-03-12T09:34:38.211421",
   "summary": {
-    "high": 2,
-    "elevated": 8,
-    "normal": 25,
-    "quiet": 19
+    "high": 3,
+    "elevated": 7,
+    "normal": 22,
+    "quiet": 22
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 3.4,
-      "ratio": 0.89,
+      "baseline": 3.3,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -40,15 +40,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.2,
-      "ratio": 1.38,
+      "baseline": 2.1,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -77,16 +77,16 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "AllAfrica",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 1.76,
+      "ratio": 1.82,
       "status": "elevated",
       "confidence": "low",
       "keywords": [],
@@ -112,35 +112,27 @@
       ]
     },
     "Libya": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.1,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Egypt": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.86,
+      "baseline": 1.3,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Armed group",
-          "count": 1
-        },
-        {
-          "word": "Militia",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
           "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Killed",
           "count": 1
         },
         {
@@ -150,48 +142,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Libya: Surrender International Criminal Court Suspect",
-          "url": "https://www.hrw.org/news/2026/03/11/libya-surrender-international-criminal-court-suspect",
-          "source": "Human Rights Watch",
-          "published": "2026-03-11T08:00:00",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              The In"
-        }
-      ],
-      "sources": [
-        "Human Rights Watch"
-      ]
-    },
-    "Egypt": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 1.5,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Egypt prime minister defends fuel price hike",
-          "url": "http://www.africanews.com/2026/03/11/egypt-prime-minister-defends-fuel-price-hike/",
-          "source": "Africanews",
-          "published": "2026-03-11T07:18:47",
-          "lead": "Madbouly said during a cabinet meeting that the government faced a choice between maintaining current fuel prices — a mo"
-        },
         {
           "title": "Egypt: Residents struggle amid price hikes",
           "url": "http://www.africanews.com/2026/03/10/egypt-residents-struggle-amid-price-hikes/",
@@ -207,8 +157,8 @@
     "Sudan": {
       "article_count": 9,
       "source_count": 6,
-      "baseline": 6.4,
-      "ratio": 1.41,
+      "baseline": 6.3,
+      "ratio": 1.42,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -217,11 +167,11 @@
           "count": 4
         },
         {
-          "word": "Rsf",
+          "word": "Dead",
           "count": 3
         },
         {
-          "word": "Dead",
+          "word": "Rsf",
           "count": 3
         },
         {
@@ -237,11 +187,11 @@
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Terroriste",
           "count": 1
         },
         {
-          "word": "Terroriste",
+          "word": "Combat",
           "count": 1
         }
       ],
@@ -285,7 +235,7 @@
           "url": "https://www.lemonde.fr/afrique/article/2026/03/12/au-soudan-des-dizaines-de-civils-tues-dans-deux-attaques-de-drones_6670577_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-12T01:50:50",
-          "lead": "Une frappe a entraîné la mort de 17 civils, mercredi, dans l’Etat du Nil Blanc. La veille, au moins 40 personnes avaient"
+          "lead": "Une frappe a entraîné la mort de 17 civils, mercredi, dans l’Etat du Nil-Blanc. La veille, au moins 40 personnes avaient"
         },
         {
           "title": "Sudan assures on fuel supply security amid panic buying",
@@ -317,12 +267,12 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Al Jazeera",
-        "The Guardian Africa",
-        "Le Monde Afrique",
         "AllAfrica",
-        "RFI Afrique"
+        "The Guardian Africa",
+        "RFI Afrique",
+        "Al Jazeera",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -334,11 +284,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Tué",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -359,17 +309,17 @@
     "Mali": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 2.2,
-      "ratio": 1.85,
+      "baseline": 2.1,
+      "ratio": 1.88,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Tué",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -405,8 +355,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
@@ -478,7 +428,7 @@
     "Niger": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -488,23 +438,23 @@
       "sources": []
     },
     "Senegal": {
-      "article_count": 9,
-      "source_count": 6,
-      "baseline": 4.4,
-      "ratio": 2.03,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 12,
+      "source_count": 7,
+      "baseline": 4.5,
+      "ratio": 2.67,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Président",
           "count": 3
         },
         {
-          "word": "Mort",
+          "word": "Tué",
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -525,6 +475,13 @@
           "lead": "Les députés sénégalais ont adopté, mercredi 11 mars, une loi qui durcit les peines encourues pour les rapports sexuels e"
         },
         {
+          "title": "À la Une: le Sénégal durcit encore la loi contre l’homosexualité",
+          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260312-%C3%A0-la-une-le-s%C3%A9n%C3%A9gal-durcit-encore-la-loi-contre-l-homosexualit%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-03-12T07:56:24",
+          "lead": ""
+        },
+        {
           "title": "L’armée malienne accusée d’avoir tué sept civils dans la zone frontalière avec la Mauritanie et le Sénégal",
           "url": "https://www.rfi.fr/fr/afrique/20260312-l-arm%C3%A9e-malienne-accus%C3%A9e-d-avoir-tu%C3%A9-sept-civils-dans-la-zone-frontali%C3%A8re-avec-la-mauritanie-et-le-s%C3%A9n%C3%A9gal",
           "source": "RFI Afrique",
@@ -537,6 +494,13 @@
           "source": "France24 Afrique",
           "published": "2026-03-11T22:24:48",
           "lead": "Les relations homosexuelles au Sénégal seront désormais punies de cinq à dix ans de prison, après le doublement des pein"
+        },
+        {
+          "title": "Le Sénégal vote une loi doublant les peines de prison réprimant l’homosexualité",
+          "url": "https://www.lemonde.fr/international/video/2026/03/12/le-senegal-vote-une-loi-doublant-les-peines-de-prison-reprimant-l-homosexualite_6670707_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-12T08:39:45",
+          "lead": "Le projet de loi avait été présenté par le premier ministre sénégalais, Ousmane Sonko, le 24 février dernier. Les relati"
         },
         {
           "title": "Le Sénégal adopte une loi réprimant plus sévèrement l’homosexualité au nom de la lutte contre l’influence occidentale",
@@ -567,6 +531,13 @@
           "lead": "La loi durcissant les peines pour homosexualité doit être soumise ce 11 mars aux députés sénégalais. Derrière ce texte p"
         },
         {
+          "title": "Senegal parliament doubles penalty for gay sex",
+          "url": "http://www.africanews.com/2026/03/12/senegal-parliament-doubles-penalty-for-gay-sex/",
+          "source": "Africanews",
+          "published": "2026-03-12T07:55:45",
+          "lead": "Senegal's parliament on Wednesday passed legislation doubling the maximum penalty for same-sex relations, making them pu"
+        },
+        {
           "title": "Senegal: Senegal Lawmakers Back Tougher Anti-LGBTQ+ Law",
           "url": "https://allafrica.com/stories/202603120108.html",
           "source": "AllAfrica",
@@ -575,12 +546,13 @@
         }
       ],
       "sources": [
+        "AllAfrica",
+        "RFI Afrique",
+        "Jeune Afrique",
+        "DW Africa",
         "France24 Afrique",
         "Le Monde Afrique",
-        "DW Africa",
-        "Jeune Afrique",
-        "AllAfrica",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Gambia": {
@@ -643,8 +615,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -663,7 +635,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.77,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -682,37 +654,22 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.62,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "La huitième édition des Rencontres internationales du Cirque d'Abidjan ouvre ses portes",
-          "url": "https://www.rfi.fr/fr/afrique/20260311-la-huiti%C3%A8me-%C3%A9dition-des-rencontres-internationales-du-cirque-d-abidjan-ouvre-ses-portes",
-          "source": "RFI Afrique",
-          "published": "2026-03-11T15:27:43",
-          "lead": "En Côte d'Ivoire, ce mercredi 11 mars marque le coup d'envoi des Rencontres internationales du Cirque d'Abidjan (Rica), "
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Ghana": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.1,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -736,13 +693,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-11T23:07:23",
           "lead": "Deuxième et dernier épisode de notre série de reportages consacrés aux réfugiés burkinabè dans le nord du Ghana. Ils éta"
-        },
-        {
-          "title": "Le Ghana revoit son régime de redevances pour mieux tirer profit de son or",
-          "url": "https://www.rfi.fr/fr/afrique/20260311-le-ghana-revoit-son-r%C3%A9gime-de-redevances-pour-mieux-tirer-profit-de-son-or",
-          "source": "RFI Afrique",
-          "published": "2026-03-11T12:53:30",
-          "lead": "Le nouveau régime mis en place mardi 10 mars lie les redevances payées par les producteurs d’or aux prix mondiaux. Cela "
         }
       ],
       "sources": [
@@ -754,7 +704,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.76,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -794,23 +744,19 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 11,
-      "source_count": 5,
-      "baseline": 9.2,
-      "ratio": 1.2,
+      "article_count": 8,
+      "source_count": 4,
+      "baseline": 9.1,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 2
-        },
-        {
-          "word": "Killed",
+          "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -819,6 +765,10 @@
         },
         {
           "word": "Protest",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         },
         {
@@ -850,25 +800,11 @@
           "lead": "In order to avoid shortages as the war in the Middle East rages on, Nigeria can rely upon billionaire Aliko Dangote’s re"
         },
         {
-          "title": "Nigeria: Senate Confirms Taiwo Oyedele As Minister",
-          "url": "https://allafrica.com/stories/202603120086.html",
-          "source": "AllAfrica",
-          "published": "2026-03-12T05:28:30",
-          "lead": "[Premium Times] Mr Oyedele is to replace Doris Anite-Uzoka as Minister of State for Finance."
-        },
-        {
           "title": "Nigeria: Nigeria's Meningitis Burden Persists As Dry Season Fuels Outbreaks",
           "url": "https://allafrica.com/stories/202603110325.html",
           "source": "AllAfrica",
           "published": "2026-03-11T12:12:13",
           "lead": "[Leadership] Meningitis remains one of Nigeria's recurring public health challenges, particularly in the northern region"
-        },
-        {
-          "title": "South Africa: 'No Immediate Risk' of Fuel Shortages in South Africa, Most Oil Imports From Nigeria",
-          "url": "https://allafrica.com/stories/202603110227.html",
-          "source": "AllAfrica",
-          "published": "2026-03-11T09:31:22",
-          "lead": "[Daily Maverick] The Department of Mineral and Petroleum Resources message follows alarms raised in the media media abou"
         },
         {
           "title": "Mozambique: Nigerians Protest At 'Illegal Detention'",
@@ -897,21 +833,13 @@
           "source": "AllAfrica",
           "published": "2026-03-11T12:38:28",
           "lead": "[Vanguard] Activities at the Lagos International Trade Fair Complex were disrupted as traders shut down the facility whi"
-        },
-        {
-          "title": "MIDDLE EAST FALLOUT: ‘No immediate risk’ of fuel shortages in SA, most oil imports from Nigeria",
-          "url": "https://www.dailymaverick.co.za/article/no-immediate-risk-of-fuel-shortages-in-sa-most-oil-imports-from-nigeria",
-          "source": "Daily Maverick",
-          "published": "2026-03-11T09:46:52",
-          "lead": "The Department of Mineral and Petroleum Resources message follows alarms raised in the media media about impending fuel "
         }
       ],
       "sources": [
-        "Africanews",
-        "Daily Maverick",
+        "AllAfrica",
         "The Guardian Africa",
         "Le Monde Afrique",
-        "AllAfrica"
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -939,18 +867,13 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 3.0,
-      "ratio": 0.67,
+      "ratio": 0.33,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Crise",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -959,13 +882,6 @@
           "source": "Jeune Afrique",
           "published": "2026-03-12T07:00:00",
           "lead": "L’opposant camerounais, candidat face à Paul Biya lors de la présidentielle d’octobre 2025, s’apprête à publier son auto"
-        },
-        {
-          "title": "Cameroun : comment l’affaire Okala Ebode empoisonne Maurice Kamto et le MRC",
-          "url": "https://www.jeuneafrique.com/1772598/politique/cameroun-comment-laffaire-okala-ebode-empoisonne-maurice-kamto-et-le-mrc/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-11T07:00:00",
-          "lead": "Le retour de l’opposant à la tête du parti se heurte depuis plusieurs mois à une crise interne. Il est contesté par Okal"
         }
       ],
       "sources": [
@@ -973,12 +889,12 @@
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 0.79,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.2,
+      "ratio": 1.62,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
@@ -993,17 +909,25 @@
           "source": "RFI Afrique",
           "published": "2026-03-12T03:49:14",
           "lead": "Le ministre français des Affaires étrangères est attendu dans la capitale centrafricaine ce jeudi 12 mars. Si une rencon"
+        },
+        {
+          "title": "Centrafrique : comment la France tente de revenir à Bangui face à la Russie",
+          "url": "https://www.jeuneafrique.com/1773251/politique/centrafrique-comment-la-france-tente-de-revenir-a-bangui-face-a-la-russie/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-12T08:03:00",
+          "lead": "Le ministre des Affaires étrangères français, Jean-Noël Barrot, est en visite à Bangui ces 12 et 13 mars. Son séjour doi"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.2,
-      "ratio": 0.92,
+      "baseline": 2.1,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1046,8 +970,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Eq. Guinea": {
@@ -1087,30 +1011,52 @@
     "Congo": {
       "article_count": 7,
       "source_count": 2,
-      "baseline": 1.9,
-      "ratio": 3.68,
+      "baseline": 1.8,
+      "ratio": 3.82,
       "status": "high",
       "confidence": "medium",
       "keywords": [
         {
+          "word": "Élection",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
           "word": "Militia",
-          "count": 2
+          "count": 1
         },
         {
           "word": "M23",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Killed",
-          "count": 2
+          "count": 1
         },
         {
           "word": "President",
-          "count": 2
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Congo-Brazzaville: derniers jours d'une campagne «déséquilibrée» avant la présidentielle de dimanche",
+          "url": "https://www.rfi.fr/fr/afrique/20260312-congo-brazzaville-derniers-jours-d-une-campagne-d%C3%A9s%C3%A9quilibr%C3%A9e-avant-la-pr%C3%A9sidentielle-de-dimanche",
+          "source": "RFI Afrique",
+          "published": "2026-03-12T09:26:28",
+          "lead": "Les électeurs de la République du Congo s’apprêtent à se rendre aux urnes dimanche 15 mars. Si la campagne a été suspend"
+        },
+        {
+          "title": "Congo-B: «Cette élection suscite peu d'engouement du fait de la précarité de la situation socio-économique»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260312-congo-b-cette-%C3%A9lection-suscite-peu-d-engouement-du-fait-de-la-pr%C3%A9carit%C3%A9-de-la-situation-socio-%C3%A9conomique",
+          "source": "RFI Afrique",
+          "published": "2026-03-12T07:09:31",
+          "lead": "Au Congo-Brazzaville, les militaires votent aujourd’hui, jeudi 12 mars, par anticipation pour l’élection présidentielle."
+        },
         {
           "title": "Présidentielle au Congo-Brazzaville: «silence électoral» en pleine deuxième semaine de campagne",
           "url": "https://www.rfi.fr/fr/afrique/20260311-pr%C3%A9sidentielle-au-congo-brazzaville-silence-%C3%A9lectoral-en-pleine-deuxi%C3%A8me-semaine-de-campagne",
@@ -1145,49 +1091,35 @@
           "source": "Africanews",
           "published": "2026-03-11T11:51:11",
           "lead": "One of Africa's longest-serving leaders, Denis Sassou Nguesso has ruled Congo-Brazzaville for decades, keeping a firm gr"
-        },
-        {
-          "title": "Ex-Congo football chief gets life sentence over $1.1m FIFA funds",
-          "url": "http://www.africanews.com/2026/03/11/ex-congo-football-chief-gets-life-sentence-over-11m-fifa-funds/",
-          "source": "Africanews",
-          "published": "2026-03-11T09:29:36",
-          "lead": "Former Republic of Congo soccer federation president Jean-Guy Blaise Mayolas was convicted of embezzling $1.1 million in"
-        },
-        {
-          "title": "Drone strikes on M23-held DR Congo city kill several people",
-          "url": "http://www.africanews.com/2026/03/11/drone-strikes-on-m23-held-dr-congo-city-kill-several-people/",
-          "source": "Africanews",
-          "published": "2026-03-11T08:45:27",
-          "lead": "Air strikes overnight Tuesday to Wednesday killed several people in the key eastern Democratic Republic of Congo city of"
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "DRC": {
-      "article_count": 17,
+      "article_count": 15,
       "source_count": 7,
-      "baseline": 8.1,
-      "ratio": 2.1,
+      "baseline": 7.9,
+      "ratio": 1.89,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "M23",
-          "count": 8
-        },
         {
           "word": "Humanitaire",
           "count": 8
         },
         {
-          "word": "Killed",
-          "count": 4
+          "word": "M23",
+          "count": 7
         },
         {
           "word": "Rebel",
+          "count": 3
+        },
+        {
+          "word": "Killed",
           "count": 3
         },
         {
@@ -1199,12 +1131,12 @@
           "count": 2
         },
         {
-          "word": "Mort",
-          "count": 2
+          "word": "Attack",
+          "count": 1
         },
         {
-          "word": "Militia",
-          "count": 2
+          "word": "Mort",
+          "count": 1
         }
       ],
       "keyword_pairs": [
@@ -1219,10 +1151,6 @@
         [
           "Government",
           "Rebel"
-        ],
-        [
-          "Killed",
-          "M23"
         ],
         [
           "M23",
@@ -1256,7 +1184,7 @@
           "lead": "Quelques heures seulement après la mort de plusieurs personnes - dont une humanitaire française - dans une attaque de dr"
         },
         {
-          "title": "RD Congo: une humanitaire française et deux civils tués par une frappe de drone à Goma",
+          "title": "RD Congo : une humanitaire française et deux civils tués par une frappe de drone à Goma",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260311-rd-congo-une-humanitaire-fran%C3%A7aise-et-deux-civils-tu%C3%A9s-par-une-frappe-de-drone-%C3%A0-goma",
           "source": "France24 Afrique",
           "published": "2026-03-11T21:32:55",
@@ -1320,13 +1248,13 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "France24 Afrique",
-        "The Guardian Africa",
         "BBC Africa",
-        "Le Monde Afrique",
+        "The Guardian Africa",
+        "RFI Afrique",
         "Jeune Afrique",
-        "RFI Afrique"
+        "France24 Afrique",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1469,15 +1397,15 @@
       "sources": [
         "AllAfrica",
         "BBC Africa",
-        "Human Rights Watch",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Human Rights Watch"
       ]
     },
     "Somalia": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.2,
-      "ratio": 1.34,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1511,44 +1439,29 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Uganda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.61,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Election",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Uganda: MPs Demand Answers Over Election Internet Shutdown",
-          "url": "https://allafrica.com/stories/202603110200.html",
-          "source": "AllAfrica",
-          "published": "2026-03-11T09:17:12",
-          "lead": "[Nile Post] Members of Parliament have intensified calls for transparency over the internet shutdown imposed during Ugan"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Kenya": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 5.8,
-      "ratio": 0.17,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 5.6,
+      "ratio": 0.36,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "President",
@@ -1558,6 +1471,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+          "url": "https://www.bbc.com/news/articles/cz7gd57z33zo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-12T08:43:10",
+          "lead": "The suspect had packed some ants in test tubes while others were concealed in tissue paper rolls, prosecutor says."
+        },
+        {
           "title": "Kenya: Power Cuts Are the New Normal in Kenya - What Went Wrong and How to Fix It",
           "url": "https://allafrica.com/stories/202603120008.html",
           "source": "AllAfrica",
@@ -1566,68 +1486,50 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 1.17,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.5,
+      "ratio": 0.39,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Militia",
-          "count": 2
+          "count": 1
         },
         {
           "word": "M23",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Killed",
-          "count": 2
-        },
-        {
-          "word": "Mort",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "RDC : frappes aériennes sur Goma, au moins un mort",
-          "url": "https://www.jeuneafrique.com/1772923/politique/rdc-frappes-aeriennes-sur-goma-au-moins-un-mort/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-11T09:29:59",
-          "lead": "Des détonations ainsi que des bruits de drones ont été entendus dans la nuit du 10 au 11 mars dans des quartiers résiden"
-        },
-        {
           "title": "French aid worker among three killed in DR Congo air strike",
           "url": "http://www.africanews.com/2026/03/11/french-aid-worker-among-three-killed-in-dr-congo-air-strike/",
           "source": "Africanews",
           "published": "2026-03-11T16:15:30",
           "lead": "A French aid worker for the UN children's agency has been killed in an air strike in the eastern Democratic Republic of "
-        },
-        {
-          "title": "Drone strikes on M23-held DR Congo city kill several people",
-          "url": "http://www.africanews.com/2026/03/11/drone-strikes-on-m23-held-dr-congo-city-kill-several-people/",
-          "source": "Africanews",
-          "published": "2026-03-11T08:45:27",
-          "lead": "Air strikes overnight Tuesday to Wednesday killed several people in the key eastern Democratic Republic of Congo city of"
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews"
       ]
     },
     "Burundi": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 1.3,
+      "baseline": 1.6,
+      "ratio": 1.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1675,18 +1577,13 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.6,
-      "ratio": 0.77,
+      "ratio": 0.38,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1695,17 +1592,9 @@
           "source": "RFI Afrique",
           "published": "2026-03-12T05:48:14",
           "lead": "À Madagascar, la vidéo d’un colonel portant des accusations de corruption contre le régime de transition suscite de vive"
-        },
-        {
-          "title": "Madagascar cautiously welcomes dismissal of cabinet",
-          "url": "http://www.africanews.com/2026/03/11/madagascar-cautiously-welcomes-dismissal-of-cabinet/",
-          "source": "Africanews",
-          "published": "2026-03-11T09:21:42",
-          "lead": "Madagascar's leader, Colonel Michael Randrianirina, has sacked his prime minister and dissolved the cabinet he appointed"
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique"
       ]
     },
@@ -1773,10 +1662,14 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.0,
-      "ratio": 2.0,
+      "ratio": 1.94,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
+        {
+          "word": "Flood",
+          "count": 1
+        },
         {
           "word": "Minister",
           "count": 1
@@ -1789,7 +1682,7 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Mozambique: Death Toll Stands At 270, Says PM",
+          "title": "Mozambique: Mozambique Flood Death Toll Rises to 270, Says PM",
           "url": "https://allafrica.com/stories/202603120027.html",
           "source": "AllAfrica",
           "published": "2026-03-12T04:51:57",
@@ -1808,27 +1701,15 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.9,
-      "ratio": 0.7,
+      "ratio": 0.35,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Zimbabwe: Human Rights Watch dénonce les pressions contre des opposants au changement de Constitution",
-          "url": "https://www.rfi.fr/fr/afrique/20260311-zimbabwe-human-rights-watch-d%C3%A9nonce-les-pressions-contre-des-opposants-au-changement-de-constitution",
-          "source": "RFI Afrique",
-          "published": "2026-03-11T10:18:40",
-          "lead": "Les autorités zimbabwéennes ont intensifié leur répression contre les opposants à un changement de Constitution qui perm"
-        },
         {
           "title": "Mugabe's son appears in South Africa court over shooting",
           "url": "http://www.africanews.com/2026/03/11/mugabes-son-appears-in-south-africa-court-over-shooting/",
@@ -1838,15 +1719,14 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Namibia": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 0.6,
-      "ratio": 3.33,
+      "ratio": 5.29,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -1870,6 +1750,13 @@
           "source": "AllAfrica",
           "published": "2026-03-11T12:07:54",
           "lead": "[Namibian] The recently tabled budget in the National Assembly has been criticised for failing to address the lack of sh"
+        },
+        {
+          "title": "Namibia: PDM's Hengari Alarmed By Country's Debt Burden",
+          "url": "https://allafrica.com/stories/202603110321.html",
+          "source": "AllAfrica",
+          "published": "2026-03-11T12:08:22",
+          "lead": "[Namibian] Popular Democratic Movement parliamentarian Inna Hengari says she is concerned about the accelerating debt-se"
         }
       ],
       "sources": [
@@ -1891,15 +1778,23 @@
     },
     "South Africa": {
       "article_count": 23,
-      "source_count": 8,
-      "baseline": 15.2,
-      "ratio": 1.51,
+      "source_count": 9,
+      "baseline": 15.1,
+      "ratio": 1.53,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
+          "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "President",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Violence",
@@ -1907,6 +1802,10 @@
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         },
         {
@@ -1935,18 +1834,18 @@
           "lead": "Bellarmine Mugabe will negotiate a plea deal after being accused of attempted murder and other charges in South Africa."
         },
         {
-          "title": "South Africa summons new US ambassador over ‘undiplomatic remarks’",
-          "url": "https://www.aljazeera.com/news/2026/3/11/south-africa-summons-new-us-ambassador-over-undiplomatic-remarks?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-11T22:33:32",
-          "lead": "US President Trump has claimed South Africa is engaged in a campaign of white persecution, which Pretoria denies."
-        },
-        {
           "title": "Why South Africa is sending soldiers into cities",
           "url": "https://www.dw.com/en/why-south-africa-is-sending-soldiers-into-cities/a-76307027?maca=en-rss-en-africa-8291-xml-mrss",
           "source": "DW Africa",
           "published": "2026-03-11T14:12:00",
           "lead": "A rise in violent crime has pushed South Africa to deploy the military to major cities. Supporters see urgent action, wh"
+        },
+        {
+          "title": "Zulu Dawn review – fine ensemble cast show arrogance that led to British imperial disaster",
+          "url": "https://www.theguardian.com/film/2026/mar/12/zulu-dawn-review-peter-o-toole-burt-lancaster",
+          "source": "The Guardian Africa",
+          "published": "2026-03-12T07:00:13",
+          "lead": "Peter O’Toole, Burt Lancaster and  Denholm Elliott are all present and correct for watchable return to colonial clash in"
         },
         {
           "title": "Afrique du Sud: le nouvel ambassadeur américain convoqué après ses critiques sur la politique intérieure",
@@ -1961,6 +1860,13 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-11T19:40:10",
           "lead": "Lors de sa première prise de parole en public après son arrivée, en février, Brent Bozell a dénoncé les paroles « haineu"
+        },
+        {
+          "title": "En Afrique du Sud, le nouvel ambassadeur américain convoqué pour des « propos non-diplomatiques »",
+          "url": "https://www.jeuneafrique.com/1773337/politique/en-afrique-du-sud-le-nouvel-ambassadeur-americain-convoque-pour-des-propos-non-diplomatiques/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-12T09:14:09",
+          "lead": "La tension monte entre Washington et Pretoria : convoqué par le chef de la diplomatie sud-africaine, le nouvel ambassade"
         },
         {
           "title": "Mugabe's son appears in South Africa court over shooting",
@@ -1984,7 +1890,7 @@
           "lead": "[allAfrica]"
         },
         {
-          "title": "South Africa: U.S. Ambassador Apologises for Remarks Following Meeting With Dirco",
+          "title": "South Africa: U.S. Ambassador Apologises for Remarks Following Meeting With DIRCO",
           "url": "https://allafrica.com/stories/202603120101.html",
           "source": "AllAfrica",
           "published": "2026-03-12T05:30:50",
@@ -1996,24 +1902,18 @@
           "source": "AllAfrica",
           "published": "2026-03-11T12:06:47",
           "lead": "[Health-e] As the midday sun intensifies, Busisiwe Khumalo is inside her homein Maitland, Cape Town."
-        },
-        {
-          "title": "South Africa: 'No Immediate Risk' of Fuel Shortages in South Africa, Most Oil Imports From Nigeria",
-          "url": "https://allafrica.com/stories/202603110227.html",
-          "source": "AllAfrica",
-          "published": "2026-03-11T09:31:22",
-          "lead": "[Daily Maverick] The Department of Mineral and Petroleum Resources message follows alarms raised in the media media abou"
         }
       ],
       "sources": [
-        "Africanews",
-        "Daily Maverick",
-        "Al Jazeera",
-        "BBC Africa",
-        "Le Monde Afrique",
-        "DW Africa",
         "AllAfrica",
-        "RFI Afrique"
+        "BBC Africa",
+        "The Guardian Africa",
+        "RFI Afrique",
+        "Jeune Afrique",
+        "DW Africa",
+        "Daily Maverick",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Eswatini": {
