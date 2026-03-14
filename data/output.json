@@ -1,23 +1,66 @@
 {
-  "generated_at": "2026-03-14T04:27:53.077825",
+  "generated_at": "2026-03-14T06:35:53.788549",
   "summary": {
-    "high": 2,
-    "elevated": 4,
-    "normal": 31,
+    "high": 1,
+    "elevated": 6,
+    "normal": 30,
     "quiet": 17
   },
   "countries": {
     "Morocco": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.68,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Rabat prépare un plan de rapatriement de combattants marocains du groupe État islamique",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-rabat-pr%C3%A9pare-un-plan-de-rapatriement-de-combattants-marocains-du-groupe-%C3%A9tat-islamique",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T05:32:42",
+          "lead": "Le Maroc prépare un nouveau plan de rapatriement des combattants marocains du groupe État islamique, transférés de la Sy"
+        },
+        {
+          "title": "Attaque de drone à Goma, Africa Corps au Mali, guerre au Moyen-Orient… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1773787/politique/attaque-de-drone-a-goma-africa-corps-au-mali-guerre-au-moyen-orient-les-5-infos-quil-ne-fallait-pas-manquer/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-14T07:24:00",
+          "lead": "Cette semaine, le Brief de Jeune Afrique revient sur les conséquences économiques de la guerre au Moyen-Orient. Nos jour"
+        }
+      ],
+      "sources": [
+        "RFI Afrique",
+        "Jeune Afrique"
+      ]
     },
     "Algeria": {
       "article_count": 1,
@@ -139,15 +182,15 @@
       "confidence": "normal",
       "keywords": [
         {
+          "word": "War",
+          "count": 1
+        },
+        {
           "word": "Attack",
           "count": 1
         },
         {
           "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "War",
           "count": 1
         },
         {
@@ -201,7 +244,7 @@
     },
     "Mali": {
       "article_count": 3,
-      "source_count": 2,
+      "source_count": 3,
       "baseline": 1.8,
       "ratio": 1.67,
       "status": "elevated",
@@ -209,10 +252,26 @@
       "keywords": [
         {
           "word": "Wagner",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -233,35 +292,29 @@
           "lead": "Au Mali, Bamako connaît une pénurie de gasoil depuis environ deux semaines. L'approvisionnement du pays en hydrocarbures"
         },
         {
-          "title": "La visite de l’émissaire américain Nick Checker amorce un réchauffement entre Washington et Ouagadougou",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-la-visite-de-l-%C3%A9missaire-am%C3%A9ricain-nick-checker-amorce-un-r%C3%A9chauffement-entre-washington-et-ouagadougou",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T04:28:50",
-          "lead": "Au Burkina Faso, l’émissaire américain Nick Checker, responsable du bureau des affaires africaines au département d’État"
+          "title": "Attaque de drone à Goma, Africa Corps au Mali, guerre au Moyen-Orient… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1773787/politique/attaque-de-drone-a-goma-africa-corps-au-mali-guerre-au-moyen-orient-les-5-infos-quil-ne-fallait-pas-manquer/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-14T07:24:00",
+          "lead": "Cette semaine, le Brief de Jeune Afrique revient sur les conséquences économiques de la guerre au Moyen-Orient. Nos jour"
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
         "The Guardian Africa"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 1.2,
+      "ratio": 0.6,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "La visite de l’émissaire américain Nick Checker amorce un réchauffement entre Washington et Ouagadougou",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-la-visite-de-l-%C3%A9missaire-am%C3%A9ricain-nick-checker-amorce-un-r%C3%A9chauffement-entre-washington-et-ouagadougou",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T04:28:50",
-          "lead": "Au Burkina Faso, l’émissaire américain Nick Checker, responsable du bureau des affaires africaines au département d’État"
-        },
         {
           "title": "Le Burkina Faso et les États-Unis affirment vouloir renforcer leur coopération sécuritaire et économique",
           "url": "https://www.jeuneafrique.com/1773738/politique/le-burkina-faso-et-les-etats-unis-affirment-vouloir-renforcer-leur-cooperation-securitaire-et-economique/",
@@ -271,7 +324,6 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -284,11 +336,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "President",
           "count": 2
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 2
         },
         {
@@ -333,8 +385,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "Africanews"
       ]
     },
     "Senegal": {
@@ -401,10 +453,10 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "France24 Afrique",
+        "Jeune Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Africanews",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -567,7 +619,7 @@
       "article_count": 11,
       "source_count": 7,
       "baseline": 2.3,
-      "ratio": 4.78,
+      "ratio": 4.85,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -592,7 +644,7 @@
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -621,18 +673,18 @@
           "lead": "Djidji Ayôkwé was handed to Ivorian officials in Paris earlier this monthA sacred artefact looted by French colonial aut"
         },
         {
-          "title": "Côte d'Ivoire: dix ans après, le pays rend hommage aux victimes de l'attentat de Grand-Bassam",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-c%C3%B4te-d-ivoire-dix-ans-apr%C3%A8s-le-pays-rend-hommage-aux-victimes-de-l-attentat-de-grand-bassam",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T18:56:45",
-          "lead": "C’était le 13 mars 2016 en Côte d’Ivoire… Il y a 10 ans, ce jour-là, trois assaillants armés de kalachnikov tuaient 19 p"
-        },
-        {
           "title": "«Un jour historique»: le retour en Côte d’Ivoire du tambour parleur salué à Abidjan",
           "url": "https://www.rfi.fr/fr/afrique/20260313-un-jour-historique-le-retour-en-c%C3%B4te-d-ivoire-du-tambour-parleur-c%C3%A9l%C3%A9br%C3%A9-%C3%A0-abidjan",
           "source": "RFI Afrique",
           "published": "2026-03-13T11:24:08",
           "lead": "À Abidjan, le Djidji Ayokwé est rentré en Côte d’Ivoire ce 13 mars 2026, dans la capitale économique du pays. Cet objet "
+        },
+        {
+          "title": "Côte d'Ivoire: dix ans après, le pays rend hommage aux victimes de l'attentat de Grand-Bassam",
+          "url": "https://www.rfi.fr/fr/afrique/20260313-c%C3%B4te-d-ivoire-dix-ans-apr%C3%A8s-le-pays-rend-hommage-aux-victimes-de-l-attentat-de-grand-bassam",
+          "source": "RFI Afrique",
+          "published": "2026-03-13T18:56:45",
+          "lead": "C’était le 13 mars 2016 en Côte d’Ivoire… Il y a 10 ans, ce jour-là, trois assaillants armés de kalachnikov tuaient 19 p"
         },
         {
           "title": "Restitution du tambour parleur en Côte d'Ivoire: «Un jour historique»",
@@ -686,19 +738,19 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique",
-        "Africanews",
-        "France24 Afrique",
+        "BBC Africa",
         "Le Monde Afrique",
+        "France24 Afrique",
         "The Guardian Africa",
-        "BBC Africa"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Ghana": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.8,
-      "ratio": 1.08,
+      "baseline": 2.7,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -750,22 +802,41 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.67,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Élection",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Bénin: le parti d'opposition Les Démocrates acte la démission de Thomas Boni Yayi",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-b%C3%A9nin-le-parti-d-opposition-les-d%C3%A9mocrates-acte-la-d%C3%A9mission-de-thomas-boni-yayi",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T06:08:41",
+          "lead": "Le parti d'opposition Les Démocrates a finalement acté la démission de son président fondateur, l'ancien chef de l'État "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Nigeria": {
-      "article_count": 7,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 1,
       "baseline": 8.8,
-      "ratio": 0.79,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -776,13 +847,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Anthony Joshua relocates to Dubai as 'millionaire exodus' hits UK",
-          "url": "http://www.africanews.com/2026/03/13/anthony-joshua-relocates-to-dubai-as-millionaire-exodus-hits-uk/",
-          "source": "Africanews",
-          "published": "2026-03-13T06:29:52",
-          "lead": "British-Nigerian boxer Anthony Joshua has become a Dubai resident even as some foreigners scramble to exit the United Ar"
-        },
         {
           "title": "West Africa: Border Tensions - Ecowas Urges Restraint Among Guinea, Liberia, Sierra Leone",
           "url": "https://allafrica.com/stories/202603130247.html",
@@ -827,7 +891,6 @@
         }
       ],
       "sources": [
-        "Africanews",
         "AllAfrica"
       ]
     },
@@ -852,11 +915,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -912,23 +975,19 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "CAR": {
-      "article_count": 5,
-      "source_count": 5,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 1.6,
-      "ratio": 3.06,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 2.45,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
-        {
-          "word": "Militia",
-          "count": 2
-        },
         {
           "word": "Président",
           "count": 1
@@ -938,22 +997,18 @@
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "War",
+          "word": "Militia",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Centrafrique: à Bangui, Jean-Noël Barrot inaugure un bâtiment d’aide aux victimes de violences sexuelles",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-centrafrique-%C3%A0-bangui-jean-no%C3%ABl-barrot-inaugure-un-b%C3%A2timent-d-aide-aux-victimes-de-violences-sexuelles",
+          "title": "Centrafrique: la visite de Jean-Noël Barrot entérine le réchauffement diplomatique entre Bangui et Paris",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-centrafrique-la-visite-de-jean-no%C3%ABl-barrot-ent%C3%A9rine-le-r%C3%A9chauffement-diplomatique-entre-bangui-et-paris",
           "source": "RFI Afrique",
-          "published": "2026-03-13T05:42:45",
-          "lead": "En République centrafricaine, le ministre français de l’Europe et des Affaires étrangères, Jean-Noël Barrot, a entamé je"
+          "published": "2026-03-14T05:13:45",
+          "lead": "En Centrafrique, Jean-Noël Barrot a achevé ce vendredi une visite officielle de deux jours dans la capitale centrafricai"
         },
         {
           "title": "A Bangui, Jean-Noël Barrot entérine le retour de la France en Centrafrique « après une période de refroidissement »",
@@ -975,21 +1030,13 @@
           "source": "AllAfrica",
           "published": "2026-03-13T06:46:20",
           "lead": "[HRW] Maturin Kombo's Death Highlights Continued Need for Justice"
-        },
-        {
-          "title": "Central African Militia Leader Dies in Custody",
-          "url": "https://www.hrw.org/news/2026/03/13/central-african-militia-leader-dies-in-custody",
-          "source": "Human Rights Watch",
-          "published": "2026-03-13T05:00:00",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Maturi"
         }
       ],
       "sources": [
-        "Human Rights Watch",
-        "RFI Afrique",
         "AllAfrica",
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "South Sudan": {
@@ -1029,8 +1076,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.4,
-      "ratio": 0.7,
+      "baseline": 1.5,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1057,11 +1104,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         }
       ],
@@ -1091,25 +1138,25 @@
       ],
       "sources": [
         "Africanews",
-        "Al Jazeera",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Al Jazeera"
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 4,
-      "baseline": 7.5,
-      "ratio": 1.06,
+      "baseline": 7.6,
+      "ratio": 1.19,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 5
+          "count": 6
         },
         {
           "word": "Mort",
-          "count": 5
+          "count": 4
         },
         {
           "word": "Humanitaire",
@@ -1120,11 +1167,19 @@
           "count": 3
         },
         {
+          "word": "Attaque",
+          "count": 2
+        },
+        {
           "word": "Explosion",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
           "count": 1
         }
       ],
@@ -1144,6 +1199,13 @@
       ],
       "articles": [
         {
+          "title": "À la Une: la «frappe embarrassante» de Goma, Lukwebo se rétracte et «Happy End» pour Gertler",
+          "url": "https://www.rfi.fr/fr/podcasts/la-une-de-la-presse-cette-semaine-%C3%A0-kinshasa/20260314-%C3%A0-la-une-la-frappe-embarrassante-de-goma-lukwebo-se-r%C3%A9tracte-et-happy-end-pour-gertler",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T06:12:37",
+          "lead": ""
+        },
+        {
           "title": "RDC: un rapport d'une agence de l'ONU alerte sur la hausse des violations des droits humains en 2025",
           "url": "https://www.rfi.fr/fr/afrique/20260314-rdc-un-rapport-d-une-agence-de-l-onu-alerte-sur-la-hausse-des-violations-des-droits-humains-en-2025",
           "source": "RFI Afrique",
@@ -1156,13 +1218,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-13T10:13:45",
           "lead": "L’humanitaire française Karine Buisset, qui travaillait à Goma pour l’Unicef, a été tuée le 11 mars 2026 dans une explos"
-        },
-        {
-          "title": "À la Une: la mort d’une humanitaire française à Goma, dans l'est de la RDC",
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260313-%C3%A0-la-une-la-mort-d-une-humanitaire-fran%C3%A7aise-%C3%A0-goma-dans-l-est-de-la-rdc",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T10:04:05",
-          "lead": ""
         },
         {
           "title": "Humanitaire française tuée en RD Congo : la justice ouvre une enquête pour crime de guerre",
@@ -1186,6 +1241,13 @@
           "lead": "L’employée de l’Unicef a été tuée par une frappe de drone non revendiquée à Goma, grande ville de l’est du pays, aux mai"
         },
         {
+          "title": "Attaque de drone à Goma, Africa Corps au Mali, guerre au Moyen-Orient… Les 5 infos qu’il ne fallait pas manquer",
+          "url": "https://www.jeuneafrique.com/1773787/politique/attaque-de-drone-a-goma-africa-corps-au-mali-guerre-au-moyen-orient-les-5-infos-quil-ne-fallait-pas-manquer/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-14T07:24:00",
+          "lead": "Cette semaine, le Brief de Jeune Afrique revient sur les conséquences économiques de la guerre au Moyen-Orient. Nos jour"
+        },
+        {
           "title": "Est de la RDC : la lutte contre les ADF, une guerre oubliée ?",
           "url": "https://www.jeuneafrique.com/1770927/politique/est-de-la-rdc-la-lutte-contre-les-adf-une-guerre-oubliee/",
           "source": "Jeune Afrique",
@@ -1201,9 +1263,9 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique",
         "Le Monde Afrique",
+        "RFI Afrique",
+        "France24 Afrique",
         "Jeune Afrique"
       ]
     },
@@ -1281,10 +1343,10 @@
       ]
     },
     "Ethiopia": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 3.9,
-      "ratio": 0.51,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1308,11 +1370,18 @@
           "source": "AllAfrica",
           "published": "2026-03-13T16:40:12",
           "lead": "[Reporter] The Federal High Court has lifted the injunction it had previously imposed on the National Election Board of "
+        },
+        {
+          "title": "Ethiopia: Action Plan a Bellwether for South-South Co-Ordination",
+          "url": "https://allafrica.com/stories/202603130581.html",
+          "source": "AllAfrica",
+          "published": "2026-03-13T16:40:45",
+          "lead": "[Reporter] As the world grapples with a slowdown in multilateral co-operation and growing economic fragmentation, the Gl"
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Somalia": {
@@ -1375,11 +1444,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Dead",
+          "word": "Flood",
           "count": 1
         },
         {
-          "word": "Flood",
+          "word": "Dead",
           "count": 1
         }
       ],
@@ -1463,12 +1532,12 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.94,
+      "ratio": 0.47,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1478,13 +1547,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-13T23:05:07",
           "lead": "À Antananarivo, ouvrir le robinet est devenu un calvaire. Dans une capitale qui a largement dépassé ses capacités d'accu"
-        },
-        {
-          "title": "Madagascar: à Antananarivo, les déchets s’accumulent suite à une grève des agents d’assainissement",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-dans-la-capitale-de-madagascar-les-d%C3%A9chets-s-accumulent-suite-%C3%A0-une-gr%C3%A8ve-des-agents-d-assainissement",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T09:22:51",
-          "lead": "À Madagascar, les déchets s’accumulent dans les rues d’Antananarivo. Et pour cause, plusieurs centaines d’employés de la"
         }
       ],
       "sources": [
@@ -1528,35 +1590,16 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.6,
-      "ratio": 1.58,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Dead",
-          "count": 1
-        },
-        {
-          "word": "Flood",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Mining’s toxic timebomb: dams full of poisonous waste are dotted around the world. What happens when they burst?",
-          "url": "https://www.theguardian.com/environment/2026/mar/13/minings-toxic-timebomb-dams-full-of-poisonous-waste-are-dotted-around-the-world-what-happens-when-they-burst-aoe",
-          "source": "The Guardian Africa",
-          "published": "2026-03-13T05:00:41",
-          "lead": "While tailings dams are meant to last for ever, extreme weather events are making many unstable – with devastating conse"
-        }
-      ],
-      "sources": [
-        "The Guardian Africa"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Malawi": {
       "article_count": 0,
@@ -1571,11 +1614,11 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.0,
-      "ratio": 1.0,
-      "status": "normal",
+      "ratio": 2.0,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
@@ -1584,6 +1627,10 @@
         },
         {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
           "count": 1
         }
       ],
@@ -1595,6 +1642,13 @@
           "source": "AllAfrica",
           "published": "2026-03-13T16:34:38",
           "lead": "[AIM] Maputo -- The Mozambican Minister of Communications, Am&#xe9;rico Muchanga, has claimed that the the government's "
+        },
+        {
+          "title": "Mozambique: Of Cholera Cases Over 7,000",
+          "url": "https://allafrica.com/stories/202603130572.html",
+          "source": "AllAfrica",
+          "published": "2026-03-13T16:35:43",
+          "lead": "[AIM] Maputo -- The number of cases of cholera in Mozambique in the current epidemic has now reached 7,326, according to"
         }
       ],
       "sources": [
@@ -1602,26 +1656,16 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.7,
-      "ratio": 0.37,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Zimbabwe: State Pushes Court to Compel Magaya to Plead, Accuses Him of Delaying Rape Trial",
-          "url": "https://allafrica.com/stories/202603130024.html",
-          "source": "AllAfrica",
-          "published": "2026-03-13T04:52:55",
-          "lead": "[New Zimbabwe] Prosecutors have asked a Harare court to compel Prophetic Healing and Deliverance (PHD) Ministries founde"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Namibia": {
       "article_count": 1,
@@ -1734,13 +1778,6 @@
           "lead": "South Africa said it had seized four Chinese fishing vessels after they entered its Exclusive Economic Zone without auth"
         },
         {
-          "title": "South Africa: Court to Decide on Matric Result Publication - South African News Briefs - March 13, 2026",
-          "url": "https://allafrica.com/stories/202603130103.html",
-          "source": "AllAfrica",
-          "published": "2026-03-13T05:45:23",
-          "lead": "[allAfrica]"
-        },
-        {
           "title": "South Africa: 2 200 Soldiers Deployed to Five Provinces",
           "url": "https://allafrica.com/stories/202603130575.html",
           "source": "AllAfrica",
@@ -1769,6 +1806,13 @@
           "lead": "[Parliament of South Africa] The Select Committee on Security and Justice has noted with appreciation the speedy deploym"
         },
         {
+          "title": "THE WEEKEND WRAP: A paralysed ANC, tips for Bozell and the IEC’s fight against AI",
+          "url": "https://www.dailymaverick.co.za/article/a-paralysed-anc-tips-for-bozell-and-the-iecs-fight-against-ai",
+          "source": "Daily Maverick",
+          "published": "2026-03-14T07:00:00",
+          "lead": "New NPA boss Andy Mothibi has an ambitious push for a fully independent prosecuting authority, while South African scien"
+        },
+        {
           "title": "REBUKE: Lessons in diplomacy for the new US ambassador, with love from SA",
           "url": "https://www.dailymaverick.co.za/article/lessons-in-diplomacy-for-the-new-us-ambassador-with-love-from-sa",
           "source": "Daily Maverick",
@@ -1791,10 +1835,10 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
+        "AllAfrica",
         "Africanews",
         "RFI Afrique",
-        "AllAfrica"
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
