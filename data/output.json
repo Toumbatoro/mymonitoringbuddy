@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-14T12:31:01.118263",
+  "generated_at": "2026-03-14T15:19:35.085608",
   "summary": {
     "high": 2,
     "elevated": 3,
-    "normal": 26,
-    "quiet": 23
+    "normal": 25,
+    "quiet": 24
   },
   "countries": {
     "Morocco": {
@@ -20,7 +20,7 @@
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Wagner",
           "count": 1
         },
         {
@@ -28,11 +28,11 @@
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Tué",
           "count": 1
         },
         {
@@ -63,21 +63,40 @@
       ]
     },
     "Algeria": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.49,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "En Algérie, les réfugiés sahraouis de Tindouf victimes du déclin de l’aide internationale",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/14/en-algerie-les-refugies-sahraouis-de-tindouf-victimes-du-declin-de-l-aide-internationale_6671201_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-14T13:00:13",
+          "lead": "Le désengagement des bailleurs étrangers fragilise les conditions de vie dans les camps de déplacés de l’Ouest algérien,"
+        }
+      ],
+      "sources": [
+        "Le Monde Afrique"
+      ]
     },
     "Tunisia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -111,19 +130,43 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 6.1,
-      "ratio": 0.49,
+      "article_count": 4,
+      "source_count": 4,
+      "baseline": 6.0,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -149,12 +192,20 @@
           "source": "AllAfrica",
           "published": "2026-03-13T16:28:25",
           "lead": "[FrontPageAfrica] When the aircraft carrying Liberia's Foreign Minister, Sara Beysolow Nyanti, landed Thursday at Kharto"
+        },
+        {
+          "title": "South Sudan: Conflict in Jonglei State Flash Update No. 12 (as of 13 March 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-12-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-13T18:23:19",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
         "AllAfrica",
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -173,12 +224,12 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.11,
+      "ratio": 1.13,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Attaque",
+          "word": "Wagner",
           "count": 1
         },
         {
@@ -186,11 +237,11 @@
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Tué",
           "count": 1
         },
         {
@@ -223,8 +274,8 @@
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.59,
+      "baseline": 1.6,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -243,57 +294,22 @@
       ]
     },
     "Niger": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 0.83,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 2
-        },
-        {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Protest",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.3,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Niger protest EU's resolution for unconditional relase of Bazoum",
-          "url": "http://www.africanews.com/2026/03/13/niger-protest-eus-resolution-for-unconditional-relase-of-bazoum/",
-          "source": "Africanews",
-          "published": "2026-03-13T12:41:53",
-          "lead": "Niger's government summoned the European Union's chargé d'affaires in Niamey on Thursday to protest a European Parliamen"
-        },
-        {
-          "title": "European Parliament Urges Niger to Free Detained Ex-President",
-          "url": "https://www.hrw.org/news/2026/03/13/european-parliament-urges-niger-to-free-detained-ex-president",
-          "source": "Human Rights Watch",
-          "published": "2026-03-13T21:04:14",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Former"
-        }
-      ],
-      "sources": [
-        "Human Rights Watch",
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Senegal": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 4.4,
-      "ratio": 0.68,
+      "ratio": 0.46,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -305,13 +321,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Le Sénégal va révoquer 71 permis miniers et bloque les comptes d’une entreprise spécialisée dans le phosphate",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-le-s%C3%A9n%C3%A9gal-va-r%C3%A9voquer-71-permis-miniers-et-bloque-les-comptes-d-une-entreprise-sp%C3%A9cialis%C3%A9e-dans-le-phosphate",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T13:01:20",
-          "lead": "Au Sénégal, presque deux ans après leur arrivée au pouvoir et cette promesse d’auditer, voire de renégocier, les contrat"
-        },
-        {
           "title": "Macky Sall à l’ONU : les coulisses d’une surprenante candidature",
           "url": "https://www.jeuneafrique.com/1773902/politique/macky-sall-a-lonu-les-coulisses-dune-candidature-atypique/",
           "source": "Jeune Afrique",
@@ -319,16 +328,16 @@
           "lead": "L’ex-président sénégalais est officiellement en lice pour succéder à Antonio Guterres au poste de secrétaire générale de"
         },
         {
-          "title": "Sénégal : pourquoi la renégociation des contrats pétroliers et gaziers patine",
-          "url": "https://www.jeuneafrique.com/1773782/economie-entreprises/senegal-pourquoi-la-renegociation-des-contrats-petroliers-et-gaziers-patine/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-13T13:30:25",
-          "lead": "Le Premier ministre Ousmane Sonko vient de faire le point sur cette promesse de campagne emblématique qui peine à se con"
+          "title": "Senegal makes $471 Million debt payment but faces tough times head",
+          "url": "http://www.africanews.com/2026/03/14/senegal-makes-471-million-debt-payment-but-faces-tough-times-head/",
+          "source": "Africanews",
+          "published": "2026-03-14T13:24:46",
+          "lead": "Senegal successfully paid nearly half a billion dollars in debt obligations on Friday, avoiding default, but spending cu"
         }
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Gambia": {
@@ -359,7 +368,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.53,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -381,7 +390,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 1.36,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -402,8 +411,8 @@
     "Liberia": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 1.73,
+      "baseline": 1.6,
+      "ratio": 1.84,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -445,10 +454,10 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 9,
-      "source_count": 7,
-      "baseline": 2.3,
-      "ratio": 3.91,
+      "article_count": 7,
+      "source_count": 6,
+      "baseline": 2.2,
+      "ratio": 3.18,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -461,11 +470,11 @@
           "count": 2
         },
         {
-          "word": "Gouvernement",
-          "count": 2
+          "word": "Terroriste",
+          "count": 1
         },
         {
-          "word": "Terroriste",
+          "word": "Gouvernement",
           "count": 1
         },
         {
@@ -473,11 +482,11 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Attack",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Minister",
           "count": 1
         },
         {
@@ -495,25 +504,11 @@
           "lead": "The move forms part of a broader process of returning cultural artefacts to African countries that started in 2017.‎"
         },
         {
-          "title": "France returns sacred talking drum looted from Côte d’Ivoire over 100 years ago",
-          "url": "https://www.theguardian.com/world/2026/mar/13/france-returns-sacred-djidji-ayokwe-talking-drum-looted-from-cote-divoire",
-          "source": "The Guardian Africa",
-          "published": "2026-03-13T13:06:53",
-          "lead": "Djidji Ayôkwé was handed to Ivorian officials in Paris earlier this monthA sacred artefact looted by French colonial aut"
-        },
-        {
           "title": "Côte d'Ivoire: dix ans après, le pays rend hommage aux victimes de l'attentat de Grand-Bassam",
           "url": "https://www.rfi.fr/fr/afrique/20260313-c%C3%B4te-d-ivoire-dix-ans-apr%C3%A8s-le-pays-rend-hommage-aux-victimes-de-l-attentat-de-grand-bassam",
           "source": "RFI Afrique",
           "published": "2026-03-13T18:56:45",
           "lead": "C’était le 13 mars 2016 en Côte d’Ivoire… Il y a 10 ans, ce jour-là, trois assaillants armés de kalachnikov tuaient 19 p"
-        },
-        {
-          "title": "Restitution du tambour parleur en Côte d'Ivoire: «Un jour historique»",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260313-restitution-du-tambour-parleur-en-c%C3%B4te-d-ivoire-un-jour-historique",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T15:04:02",
-          "lead": "Le tambour parleur est de retour en Côte d'Ivoire. Le Djidji Ayokwé est arrivé tôt ce matin 13 mars à Abidjan, depuis Pa"
         },
         {
           "title": "10 ans après les attentats de Bassam, la Côte d'Ivoire se souvient",
@@ -552,36 +547,25 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Africanews",
-        "Jeune Afrique",
         "RFI Afrique",
-        "The Guardian Africa",
+        "Le Monde Afrique",
+        "Jeune Afrique",
         "France24 Afrique",
-        "Le Monde Afrique"
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Ghana": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.36,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.7,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Ghana's new gold royalty hike shakes mining industry",
-          "url": "https://www.dw.com/en/ghana-s-new-gold-royalty-hike-shakes-mining-industry/a-76345203?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-03-13T13:30:00",
-          "lead": "As gold prices surge, Ghana has introduced a new 'sliding-scale' to capture more royalties from its mined gold. Mining g"
-        }
-      ],
-      "sources": [
-        "DW Africa"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Togo": {
       "article_count": 0,
@@ -604,11 +588,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Élection",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Élection",
           "count": 1
         }
       ],
@@ -629,17 +613,17 @@
     "Nigeria": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 8.8,
-      "ratio": 0.45,
+      "baseline": 8.7,
+      "ratio": 0.46,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "War",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "War",
           "count": 1
         }
       ],
@@ -675,8 +659,8 @@
         }
       ],
       "sources": [
-        "DW Africa",
         "AllAfrica",
+        "DW Africa",
         "Africanews"
       ]
     },
@@ -705,10 +689,10 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 1.02,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -727,17 +711,9 @@
           "source": "Jeune Afrique",
           "published": "2026-03-14T12:39:00",
           "lead": "Victime de violences et d’enlèvements perpétrés par des séparatistes anglophones, la communauté peule mbororo est égalem"
-        },
-        {
-          "title": "Cameroon: Bauxite In Cameroon - Minim-Martap As a Test Of Maturity For a Sector Seeking Transformation",
-          "url": "https://allafrica.com/stories/202603130659.html",
-          "source": "AllAfrica",
-          "published": "2026-03-13T17:29:50",
-          "lead": "[InfoWire] Long portrayed as a ''sleeping mining giant'', Cameroon continues to struggle to convert its geological poten"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Jeune Afrique",
         "France24 Afrique"
       ]
@@ -746,7 +722,7 @@
       "article_count": 5,
       "source_count": 4,
       "baseline": 1.6,
-      "ratio": 3.19,
+      "ratio": 3.06,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -799,31 +775,64 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
         "Le Monde Afrique",
+        "RFI Afrique",
         "Africanews"
       ]
     },
     "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.46,
+      "baseline": 2.1,
+      "ratio": 0.48,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Airstrike",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "South Sudan models chase global fashion dream despite visa hurdles",
-          "url": "http://www.africanews.com/2026/03/13/south-sudan-models-chase-global-fashion-dream-despite-visa-hurdles/",
-          "source": "Africanews",
-          "published": "2026-03-13T13:15:09",
-          "lead": "Many aspiring models look up to stars such as Awar Odhiang, who rose from a refugee camp in Ethiopia to close a show for"
+          "title": "South Sudan: Conflict in Jonglei State Flash Update No. 12 (as of 13 March 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-12-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-13T18:23:19",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
-        "Africanews"
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -842,7 +851,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.5,
-      "ratio": 1.36,
+      "ratio": 1.33,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -869,12 +878,12 @@
       ]
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 1.18,
+      "ratio": 0.6,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -884,25 +893,17 @@
           "source": "RFI Afrique",
           "published": "2026-03-13T21:41:17",
           "lead": "Dernier jour de campagne ce vendredi 13 mars au Congo-Brazzaville. Dimanche 15, les autorités organisent un scrutin prés"
-        },
-        {
-          "title": "Dusty reels, living history: Volunteers fight to save Congo’s TV archives",
-          "url": "http://www.africanews.com/2026/03/13/dusty-reels-living-history-volunteers-fight-to-save-congos-tv-archives/",
-          "source": "Africanews",
-          "published": "2026-03-13T15:08:53",
-          "lead": "Since 2019, Boukambou and a handful of fellow volunteers have worked to save these archives in the national broadcaster'"
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique"
       ]
     },
     "DRC": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 7.7,
-      "ratio": 0.65,
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 7.5,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -911,15 +912,15 @@
           "count": 2
         },
         {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Tué",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
           "count": 1
         },
         {
@@ -948,13 +949,6 @@
           "lead": "Le Bureau conjoint des Nations Unies aux droits de l’homme (le BCNUDH) vient de publier ses chiffres annuels en Républiq"
         },
         {
-          "title": "Dans l’est de la RDC, la présence des humanitaires de plus en plus menacée",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/13/dans-l-est-de-la-rdc-la-presence-des-humanitaires-de-plus-en-plus-menacee_6671031_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-13T13:00:17",
-          "lead": "La Française Karine Buisset, 54 ans, employée de l’Unicef, est morte mercredi 11 mars à Goma, avec deux autres civils. L"
-        },
-        {
           "title": "Attaque de drone à Goma, Africa Corps au Mali, guerre au Moyen-Orient… Les 5 infos qu’il ne fallait pas manquer",
           "url": "https://www.jeuneafrique.com/1773787/politique/attaque-de-drone-a-goma-africa-corps-au-mali-guerre-au-moyen-orient-les-5-infos-quil-ne-fallait-pas-manquer/",
           "source": "Jeune Afrique",
@@ -971,8 +965,7 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1002,7 +995,7 @@
     "Eritrea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1041,25 +1034,46 @@
     "Ethiopia": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 4.1,
-      "ratio": 0.98,
+      "baseline": 4.0,
+      "ratio": 1.0,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Election",
           "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "South Sudan models chase global fashion dream despite visa hurdles",
-          "url": "http://www.africanews.com/2026/03/13/south-sudan-models-chase-global-fashion-dream-despite-visa-hurdles/",
-          "source": "Africanews",
-          "published": "2026-03-13T13:15:09",
-          "lead": "Many aspiring models look up to stars such as Awar Odhiang, who rose from a refugee camp in Ethiopia to close a show for"
-        },
         {
           "title": "Ethiopia: High Court Lifts Injunction Against Election Board",
           "url": "https://allafrica.com/stories/202603130579.html",
@@ -1080,18 +1094,25 @@
           "source": "AllAfrica",
           "published": "2026-03-13T16:41:09",
           "lead": "[Reporter] China's commitment to high-quality development and its emphasis on dialogue and long-term planning underscore"
+        },
+        {
+          "title": "South Sudan: Conflict in Jonglei State Flash Update No. 12 (as of 13 March 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-conflict-jonglei-state-flash-update-no-12-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-13T18:23:19",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
         }
       ],
       "sources": [
         "AllAfrica",
-        "Africanews"
+        "ReliefWeb"
       ]
     },
     "Somalia": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.94,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1117,13 +1138,17 @@
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.8,
+      "ratio": 2.31,
       "status": "elevated",
-      "confidence": "low",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Election",
+          "count": 1
+        },
         {
           "word": "Killed",
           "count": 1
@@ -1135,6 +1160,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ugandan opposition leader Bobi Wine flees country due to threats",
+          "url": "http://www.africanews.com/2026/03/14/ugandan-opposition-leader-bobi-wine-flees-country-due-to-threats/",
+          "source": "Africanews",
+          "published": "2026-03-14T14:27:55",
+          "lead": "Ugandan opposition leader Bobi Wine announced Saturday that he has fled the country to escape a military-led manhunt fol"
+        },
         {
           "title": "Uganda: Tension Rises in Nsoowe Forest As Pastoralists Clash With Licensed Tree Growers",
           "url": "https://allafrica.com/stories/202603130588.html",
@@ -1158,7 +1190,8 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Kenya": {
@@ -1210,8 +1243,8 @@
     "Rwanda": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 2.6,
-      "ratio": 1.15,
+      "baseline": 2.4,
+      "ratio": 1.23,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1246,8 +1279,8 @@
     "Burundi": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.6,
+      "baseline": 1.6,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1285,8 +1318,8 @@
     "Madagascar": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.44,
+      "baseline": 2.1,
+      "ratio": 0.48,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1355,8 +1388,8 @@
     "Malawi": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.3,
+      "baseline": 0.7,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1377,17 +1410,17 @@
     "Mozambique": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 1.71,
+      "baseline": 1.0,
+      "ratio": 1.94,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 1
         },
         {
@@ -1437,11 +1470,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Mort",
+          "word": "Wagner",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -1472,10 +1505,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 14,
+      "article_count": 12,
       "source_count": 5,
       "baseline": 14.3,
-      "ratio": 0.98,
+      "ratio": 0.84,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1484,11 +1517,11 @@
           "count": 2
         },
         {
-          "word": "Mort",
+          "word": "Wagner",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Mort",
           "count": 1
         },
         {
@@ -1501,10 +1534,6 @@
         },
         {
           "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1596,11 +1625,11 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
         "AllAfrica",
-        "Africanews",
         "RFI Afrique",
-        "Al Jazeera"
+        "Daily Maverick",
+        "Al Jazeera",
+        "Africanews"
       ]
     },
     "Eswatini": {
