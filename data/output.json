@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-14T18:25:54.550827",
+  "generated_at": "2026-03-14T21:19:00.986899",
   "summary": {
     "high": 0,
-    "elevated": 1,
-    "normal": 21,
-    "quiet": 32
+    "elevated": 2,
+    "normal": 18,
+    "quiet": 34
   },
   "countries": {
     "Morocco": {
@@ -20,7 +20,11 @@
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
           "count": 1
         },
         {
@@ -28,15 +32,11 @@
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Attaque",
           "count": 1
         },
         {
           "word": "Tué",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
           "count": 1
         }
       ],
@@ -58,8 +58,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
@@ -71,11 +71,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Déplacés",
+          "word": "Réfugiés",
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Déplacés",
           "count": 1
         }
       ],
@@ -132,7 +132,7 @@
     "Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 6.0,
+      "baseline": 5.9,
       "ratio": 0.17,
       "status": "normal",
       "confidence": "low",
@@ -166,13 +166,17 @@
     "Mali": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 0.57,
+      "baseline": 1.7,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Attaque",
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
           "count": 1
         },
         {
@@ -180,15 +184,11 @@
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Attaque",
           "count": 1
         },
         {
           "word": "Tué",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
           "count": 1
         }
       ],
@@ -229,62 +229,27 @@
       ]
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.3,
-      "ratio": 0.44,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "European Parliament Urges Niger to Free Detained Ex-President",
-          "url": "https://www.hrw.org/news/2026/03/13/european-parliament-urges-niger-to-free-detained-ex-president",
-          "source": "Human Rights Watch",
-          "published": "2026-03-13T21:04:14",
-          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              Former"
-        }
-      ],
-      "sources": [
-        "Human Rights Watch"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Senegal": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.3,
-      "ratio": 0.46,
+      "ratio": 0.23,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Macky Sall à l’ONU : les coulisses d’une surprenante candidature",
-          "url": "https://www.jeuneafrique.com/1773902/politique/macky-sall-a-lonu-les-coulisses-dune-candidature-atypique/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-13T19:17:39",
-          "lead": "L’ex-président sénégalais est officiellement en lice pour succéder à Antonio Guterres au poste de secrétaire générale de"
-        },
         {
           "title": "Senegal makes $471 Million debt payment but faces tough times head",
           "url": "http://www.africanews.com/2026/03/14/senegal-makes-471-million-debt-payment-but-faces-tough-times-head/",
@@ -294,7 +259,6 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews"
       ]
     },
@@ -323,15 +287,27 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 0.54,
+      "ratio": 1.07,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "L'agence de notation Standard and Poor's relève la perspective de la note souveraine de la Guinée",
+          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260314-l-agence-de-notation-standard-and-poor-s-rel%C3%A8ve-la-perspective-de-la-note-souveraine-de-la-guin%C3%A9e",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T20:49:01",
+          "lead": "Le gouvernement guinéen salue « un signal important envoyé à l'ensemble des partenaires économiques et financiers » du p"
+        },
         {
           "title": "S&amp;P relève la perspective de la Guinée à « positive »",
           "url": "https://www.jeuneafrique.com/1774225/economie-entreprises/sp-releve-la-perspective-de-la-guinee-a-positive/",
@@ -341,6 +317,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -359,7 +336,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -369,74 +346,38 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.1,
-      "ratio": 1.41,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.0,
+      "ratio": 0.5,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "Attaque",
-          "count": 2
-        },
-        {
-          "word": "Attentat",
-          "count": 1
-        },
-        {
-          "word": "Terroriste",
-          "count": 1
-        },
-        {
-          "word": "Djihadiste",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Jihadist",
+          "word": "Djihadiste",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Côte d'Ivoire: dix ans après, le pays rend hommage aux victimes de l'attentat de Grand-Bassam",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-c%C3%B4te-d-ivoire-dix-ans-apr%C3%A8s-le-pays-rend-hommage-aux-victimes-de-l-attentat-de-grand-bassam",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T18:56:45",
-          "lead": "C’était le 13 mars 2016 en Côte d’Ivoire… Il y a 10 ans, ce jour-là, trois assaillants armés de kalachnikov tuaient 19 p"
-        },
-        {
           "title": "10 ans après les attentats de Bassam, la Côte d'Ivoire se souvient",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260313-10-ans-apr%C3%A8s-les-attentats-de-bassam-la-c%C3%B4te-d-ivoire-se-souvient",
           "source": "France24 Afrique",
           "published": "2026-03-13T21:39:32",
           "lead": "Il y a 10 ans, jour pour jour, 19 personnes ont été tués lors d'une attaque djihadiste sur la plage de Grand Bassam. Pen"
-        },
-        {
-          "title": "Ivory Coast pays tribute to 19 victims of Grand-Bassam jihadist attack",
-          "url": "http://www.africanews.com/2026/03/13/ivory-coast-pays-tribute-to-19-victims-of-grand-bassam-jihadist-attack/",
-          "source": "Africanews",
-          "published": "2026-03-13T20:02:56",
-          "lead": "In front of a memorial honouring the 19 dead on Friday, Deputy Prime Minister Téné Birahima Ouattara said the attack tar"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Africanews",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Ghana": {
@@ -472,11 +413,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Élection",
           "count": 1
         },
         {
-          "word": "Élection",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -529,8 +470,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "DW Africa"
+        "DW Africa",
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -558,22 +499,15 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.9,
-      "ratio": 0.69,
+      "ratio": 0.34,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Tirailleurs africains : l’exposition de Bonaventure Soh Bejeng Ndikung à Berlin",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260313-tirailleurs-africains-l-exposition-de-bonaventure-soh-bejeng-ndikung-%C3%A0-berlin",
-          "source": "France24 Afrique",
-          "published": "2026-03-13T21:15:37",
-          "lead": "Le curateur camerounais Bonaventure Soh Bejeng Ndikung prépare à Berlin l’exposition “Tirailleurs: Trials and Tribulatio"
-        },
         {
           "title": "Au Cameroun, la persécution silencieuse des Mbororos",
           "url": "https://www.jeuneafrique.com/1774033/politique/au-cameroun-la-persecution-silencieuse-des-mbororos/",
@@ -583,15 +517,14 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "France24 Afrique"
+        "Jeune Afrique"
       ]
     },
     "CAR": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.84,
+      "ratio": 1.91,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -629,15 +562,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "South Sudan": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.1,
+      "baseline": 2.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -684,8 +617,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Congo": {
@@ -711,27 +644,15 @@
       ]
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 7.4,
-      "ratio": 0.54,
+      "ratio": 0.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 2
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
-          "word": "Tué",
           "count": 1
         },
         {
@@ -739,7 +660,15 @@
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Tué",
           "count": 1
         }
       ],
@@ -765,18 +694,11 @@
           "source": "Jeune Afrique",
           "published": "2026-03-14T07:24:00",
           "lead": "Cette semaine, le Brief de Jeune Afrique revient sur les conséquences économiques de la guerre au Moyen-Orient. Nos jour"
-        },
-        {
-          "title": "Est de la RDC : la lutte contre les ADF, une guerre oubliée ?",
-          "url": "https://www.jeuneafrique.com/1770927/politique/est-de-la-rdc-la-lutte-contre-les-adf-une-guerre-oubliee/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-13T19:22:42",
-          "lead": "Alors que la résurgence de l’AFC/M23 dans l’est du pays mobilise l’essentiel des forces armées congolaises et l’attentio"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "São Tomé": {
@@ -830,8 +752,8 @@
     "Ethiopia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 4.0,
-      "ratio": 0.25,
+      "baseline": 3.9,
+      "ratio": 0.26,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -852,7 +774,7 @@
     "Somalia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.1,
+      "baseline": 2.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -862,15 +784,19 @@
       "sources": []
     },
     "Uganda": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.13,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.7,
+      "ratio": 1.76,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Élection",
+          "count": 2
+        },
+        {
+          "word": "Combat",
           "count": 1
         },
         {
@@ -880,6 +806,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ouganda: l'opposant Bobi Wine annonce avoir quitté le pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-ouganda-l-opposant-bobi-wine-annonce-avoir-quitt%C3%A9-le-pays",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T19:41:57",
+          "lead": "L'opposant Bobi Wine a annoncé dans une vidéo avoir quitté l'Ouganda ce samedi 14 mars.  Bobi Wine est en fuite depuis l"
+        },
         {
           "title": "Ouganda : l’opposant Bobi Wine dit avoir quitté le pays",
           "url": "https://www.jeuneafrique.com/1774221/politique/ouganda-lopposant-bobi-wine-dit-avoir-quitte-le-pays/",
@@ -896,14 +829,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Kenya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.6,
+      "baseline": 5.5,
       "ratio": 0.18,
       "status": "normal",
       "confidence": "low",
@@ -925,7 +859,7 @@
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -935,31 +869,16 @@
       "sources": []
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.64,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Macky Sall à l’ONU : les coulisses d’une surprenante candidature",
-          "url": "https://www.jeuneafrique.com/1773902/politique/macky-sall-a-lonu-les-coulisses-dune-candidature-atypique/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-13T19:17:39",
-          "lead": "L’ex-président sénégalais est officiellement en lice pour succéder à Antonio Guterres au poste de secrétaire générale de"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tanzania": {
       "article_count": 0,
@@ -1106,7 +1025,7 @@
     "South Africa": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 14.2,
+      "baseline": 13.9,
       "ratio": 0.14,
       "status": "normal",
       "confidence": "normal",
@@ -1129,8 +1048,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Africanews"
       ]
     },
     "Eswatini": {
