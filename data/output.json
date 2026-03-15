@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-15T09:26:00.277988",
+  "generated_at": "2026-03-15T12:32:50.784611",
   "summary": {
-    "high": 0,
-    "elevated": 3,
-    "normal": 18,
-    "quiet": 33
+    "high": 2,
+    "elevated": 1,
+    "normal": 19,
+    "quiet": 32
   },
   "countries": {
     "Morocco": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.0,
+      "baseline": 2.9,
       "ratio": 0.34,
       "status": "normal",
       "confidence": "low",
@@ -38,11 +38,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Déplacés",
+          "word": "Réfugiés",
           "count": 1
         },
         {
-          "word": "Réfugiés",
+          "word": "Déplacés",
           "count": 1
         }
       ],
@@ -131,13 +131,18 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 0.59,
+      "ratio": 1.2,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -146,35 +151,58 @@
           "source": "RFI Afrique",
           "published": "2026-03-14T23:01:29",
           "lead": "Cette semaine, le groupe Tinariwen a publié son dixième album : Hoggar. Un disque puissant où se mêlent la colère d’un p"
+        },
+        {
+          "title": "Après le Mali et le Burkina Faso, les États-Unis veulent relancer la coopération avec le Niger",
+          "url": "https://www.jeuneafrique.com/1774232/politique/apres-le-mali-et-le-burkina-faso-les-etats-unis-veulent-relancer-la-cooperation-avec-le-niger/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-15T11:25:19",
+          "lead": "Depuis le retour au pouvoir du président américain Donald Trump, les États-Unis affichent une nouvelle approche et veule"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Niger": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.46,
+      "baseline": 1.6,
+      "ratio": 0.61,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
           "word": "Président",
           "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Après le Mali et le Burkina Faso, les États-Unis veulent relancer la coopération avec le Niger",
+          "url": "https://www.jeuneafrique.com/1774232/politique/apres-le-mali-et-le-burkina-faso-les-etats-unis-veulent-relancer-la-cooperation-avec-le-niger/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-15T11:25:19",
+          "lead": "Depuis le retour au pouvoir du président américain Donald Trump, les États-Unis affichent une nouvelle approche et veule"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
+    },
+    "Niger": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.2,
+      "ratio": 0.92,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 2
         },
         {
           "word": "Coup",
@@ -189,17 +217,25 @@
           "source": "RFI Afrique",
           "published": "2026-03-15T05:01:12",
           "lead": "Au Niger, le ministre des Affaires étrangères a convoqué jeudi la chargée d'affaires de l'Union européenne à Niamey. Bak"
+        },
+        {
+          "title": "Après le Mali et le Burkina Faso, les États-Unis veulent relancer la coopération avec le Niger",
+          "url": "https://www.jeuneafrique.com/1774232/politique/apres-le-mali-et-le-burkina-faso-les-etats-unis-veulent-relancer-la-cooperation-avec-le-niger/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-15T11:25:19",
+          "lead": "Depuis le retour au pouvoir du président américain Donald Trump, les États-Unis affichent une nouvelle approche et veule"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Senegal": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 4.1,
-      "ratio": 0.74,
+      "ratio": 0.73,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -372,11 +408,7 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
@@ -387,11 +419,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Energy crisis grips Nigeria amid US-Israel war in Iran",
-          "url": "https://www.dw.com/en/energy-crisis-grips-nigeria-amid-us-israel-war-in-iran/a-76358906?maca=en-rss-en-africa-8291-xml-mrss",
-          "source": "DW Africa",
-          "published": "2026-03-14T10:17:00",
-          "lead": "Rising oil prices, spurred on by the war in Iran, have exacerbated Nigeria's energy crisis."
+          "title": "Nigeria’s online content creator market has boomed. Can the skit-makers and streamers make it pay?",
+          "url": "https://www.theguardian.com/media/2026/mar/15/nigerias-online-content-creator-market-has-boomed-can-the-skit-makers-and-streamers-make-it-pay",
+          "source": "The Guardian Africa",
+          "published": "2026-03-15T11:00:23",
+          "lead": "As platforms make less from advertising, creators are struggling to monetise work – leading to calls for more government"
         },
         {
           "title": "Au Nigeria, une attaque menée par « plusieurs centaines d’individus » sur une équipe de sécurité fait 20 morts dans l’Etat du Plateau",
@@ -403,7 +435,7 @@
       ],
       "sources": [
         "Le Monde Afrique",
-        "DW Africa"
+        "The Guardian Africa"
       ]
     },
     "Cape Verde": {
@@ -433,8 +465,8 @@
     "Cameroon": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 2.8,
-      "ratio": 0.71,
+      "baseline": 2.9,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -465,19 +497,15 @@
       ]
     },
     "CAR": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.6,
-      "ratio": 1.22,
+      "ratio": 0.61,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         }
       ],
@@ -489,17 +517,9 @@
           "source": "Jeune Afrique",
           "published": "2026-03-14T12:41:09",
           "lead": "En visite à Bangui, le chef de la diplomatie française, Jean-Noël Barrot, a rencontré le président Faustin-Archange Toua"
-        },
-        {
-          "title": "France renews ties with CAR in first Ministerial visit in eight years",
-          "url": "http://www.africanews.com/2026/03/14/france-renews-ties-with-car-in-first-ministerial-visit-in-eight-years/",
-          "source": "Africanews",
-          "published": "2026-03-14T11:27:03",
-          "lead": "French Foreign Minister Jean-Noël Barrot arrived in Bangui on Friday for the first high-level French visit in eight year"
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique"
       ]
     },
@@ -550,31 +570,36 @@
       ]
     },
     "Congo": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 1.6,
-      "ratio": 2.45,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 7,
+      "source_count": 6,
+      "baseline": 1.7,
+      "ratio": 4.2,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Président",
-          "count": 3
+          "count": 4
         },
         {
           "word": "President",
-          "count": 1
+          "count": 3
         },
         {
           "word": "Election",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Élection",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Election",
+          "President"
+        ]
+      ],
       "articles": [
         {
           "title": "Republic of Congo votes in election that could extend Sassou’s 42-year rule",
@@ -582,6 +607,13 @@
           "source": "Al Jazeera",
           "published": "2026-03-15T07:37:50",
           "lead": "Incumbent President Denis Sassou Nguesso, 82, is running for fifth term in polls boycotted by major political parties."
+        },
+        {
+          "title": "Republic of Congo votes in presidential election",
+          "url": "https://www.dw.com/en/republic-of-congo-votes-in-presidential-election/a-76365354?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-03-15T09:55:00",
+          "lead": "President Dennis Sassou N'Guesso, 82, seems set to win a fifth term in a row in Sunday's election in the Republic of Con"
         },
         {
           "title": "Présidentielle au Congo-Brazzaville: l’observation citoyenne veut prendre le pouls de la participation électorale",
@@ -598,24 +630,41 @@
           "lead": "Les électeurs congolais sont attendus aux urnes ce dimanche 15 mars 2026, à l’occasion de l’élection présidentielle orga"
         },
         {
+          "title": "Présidentielle au Congo-Brazzaville : les électeurs aux urnes, Sassou Nguesso largement favori",
+          "url": "https://www.france24.com/fr/afrique/20260315-pr%C3%A9sidentielle-au-congo-brazzaville-les-%C3%A9lecteurs-aux-urnes-sassou-nguesso-largement-favori",
+          "source": "France24 Afrique",
+          "published": "2026-03-15T03:25:18",
+          "lead": "Les Congolais élisent dimanche leur président. Largement favori, le chef de l'État sortant, Denis Sassou-Nguesso, 82 ans"
+        },
+        {
           "title": "Au Congo, Denis Sassou Nguesso, « l’empereur » qui ne voulait pas quitter son trône",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/15/au-congo-denis-sassou-nguesso-l-empereur-qui-ne-voulait-pas-quitter-son-trone_6671252_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-03-15T03:30:05",
+          "published": "2026-03-15T03:30:00",
           "lead": "Au pouvoir depuis 1997, le président du Congo-Brazzaville brigue, dimanche 15 mars, un cinquième mandat consécutif. Malg"
+        },
+        {
+          "title": "Congo-Brazzaville's president set to extend four-decade rule",
+          "url": "http://www.africanews.com/2026/03/15/congo-brazzavilles-president-set-to-extend-four-decade-rule/",
+          "source": "Africanews",
+          "published": "2026-03-15T09:07:33",
+          "lead": "Three million people are registered to vote in Sunday's elections, but voter turnout is expected to be low."
         }
       ],
       "sources": [
-        "Le Monde Afrique",
+        "France24 Afrique",
+        "Al Jazeera",
+        "Africanews",
+        "DW Africa",
         "RFI Afrique",
-        "Al Jazeera"
+        "Le Monde Afrique"
       ]
     },
     "DRC": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 7.3,
-      "ratio": 0.27,
+      "ratio": 0.28,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -728,16 +777,24 @@
       "sources": []
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 5,
       "baseline": 1.8,
-      "ratio": 1.7,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.83,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Élection",
           "count": 2
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
         },
         {
           "word": "Combat",
@@ -750,6 +807,20 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ugandan opposition leader goes abroad after two months in hiding",
+          "url": "https://www.bbc.com/news/articles/cwy8vk24wyvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-15T12:27:57",
+          "lead": "Uganda's military chief has said Bobi Wine is wanted \"dead or alive\", although some ministers have denied he is being so"
+        },
+        {
+          "title": "Uganda's Bobi Wine says he has fled the country",
+          "url": "https://www.dw.com/en/uganda-s-bobi-wine-says-he-has-fled-the-country/a-76365882?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-03-15T11:18:00",
+          "lead": "Ugandan opposition leader Bobi Wine says he has left the country after two months in hiding following January elections."
+        },
         {
           "title": "Ouganda: l'opposant Bobi Wine annonce avoir quitté le pays",
           "url": "https://www.rfi.fr/fr/afrique/20260314-ouganda-l-opposant-bobi-wine-annonce-avoir-quitt%C3%A9-le-pays",
@@ -773,21 +844,30 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "BBC Africa",
+        "Jeune Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "DW Africa",
+        "RFI Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 5.3,
-      "ratio": 0.38,
+      "article_count": 4,
+      "source_count": 3,
+      "baseline": 5.4,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Severe flooding kills 62 in Kenya, as heavy rains continue",
+          "url": "https://www.bbc.com/news/articles/cz6e5eng03yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-15T10:13:03",
+          "lead": "Eleven people were rescued overnight after a minibus taxi got stuck in rising floodwaters in Nairobi."
+        },
         {
           "title": "Kenya: un ressortissant chinois arrêté à Nairobi pour trafic de fourmis",
           "url": "https://www.rfi.fr/fr/afrique/20260315-kenya-un-ressortissant-chinois-arr%C3%AAt%C3%A9-%C3%A0-nairobi-pour-trafic-de-fourmis",
@@ -796,23 +876,31 @@
           "lead": "C’est une nouvelle affaire de trafic de fourmis au Kenya qui fait la une des médias. Un ressortissant chinois a été arrê"
         },
         {
-          "title": "Naivas, Quickmart : qui des frères ennemis de la distribution kényane s’offrira le premier un destin continental ?",
-          "url": "https://www.jeuneafrique.com/1772338/economie-entreprises/naivas-quickmart-qui-des-freres-ennemis-de-la-distribution-kenyane-soffrira-le-premier-un-destin-continental/",
+          "title": "Fintech : la stratégie d’Equity Bank pour faire de sa filiale tech un nouveau M-Pesa",
+          "url": "https://www.jeuneafrique.com/1774009/economie-entreprises/fintech-la-strategie-dequity-bank-pour-faire-de-sa-filiale-tech-un-nouveau-m-pesa/",
           "source": "Jeune Afrique",
-          "published": "2026-03-14T10:41:21",
-          "lead": "Emancipés des familles fondatrices et revigorés par l’apport d’investisseurs privés venus de Maurice, les deux enseignes"
+          "published": "2026-03-15T11:26:18",
+          "lead": "L’établissement de crédit kényan serait sur le point de faire de sa filiale technologique une société indépendante dont "
+        },
+        {
+          "title": "Enrôlement forcé de Kényans dans l’armée russe : le chef de la diplomatie du Kenya attendu à Moscou",
+          "url": "https://www.jeuneafrique.com/1774227/politique/enrolement-force-de-kenyans-dans-larmee-russe-le-chef-de-la-diplomatie-du-kenya-attendu-a-moscou/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-15T10:56:26",
+          "lead": "Des Kényans se sont vus promettre des emplois civils bien rémunérés en Russie pour se retrouver, une fois sur place, con"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "BBC Africa",
         "Jeune Afrique"
       ]
     },
     "Rwanda": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.3,
-      "ratio": 0.86,
+      "baseline": 2.4,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -834,7 +922,7 @@
           "title": "Rwanda threatens to withdraw troops from Mozambique anti-jihadist operation",
           "url": "http://www.africanews.com/2026/03/15/rwanda-threatens-to-withdraw-troops-from-mozambique-anti-jihadist-operation/",
           "source": "Africanews",
-          "published": "2026-03-15T07:41:22",
+          "published": "2026-03-15T08:59:00",
           "lead": "Kigali says will pull out of the operation if sufficient funding for the mission is not assured."
         }
       ],
@@ -953,7 +1041,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 0.9,
-      "ratio": 2.22,
+      "ratio": 2.14,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -975,7 +1063,7 @@
           "title": "Rwanda threatens to withdraw troops from Mozambique anti-jihadist operation",
           "url": "http://www.africanews.com/2026/03/15/rwanda-threatens-to-withdraw-troops-from-mozambique-anti-jihadist-operation/",
           "source": "Africanews",
-          "published": "2026-03-15T07:41:22",
+          "published": "2026-03-15T08:59:00",
           "lead": "Kigali says will pull out of the operation if sufficient funding for the mission is not assured."
         }
       ],
@@ -1037,7 +1125,7 @@
     },
     "South Africa": {
       "article_count": 3,
-      "source_count": 3,
+      "source_count": 2,
       "baseline": 13.6,
       "ratio": 0.22,
       "status": "normal",
@@ -1062,11 +1150,11 @@
           "lead": "C’est une tendance qui contredit quelques polémiques. En Afrique du Sud, pays régulièrement ciblé par la Maison Blanche,"
         },
         {
-          "title": "Cape Town rallies for Quds Day as US-Israel strikes rock Tehran",
-          "url": "http://www.africanews.com/2026/03/14/cape-town-rallies-for-quds-day-as-us-israel-strikes-rock-tehran/",
-          "source": "Africanews",
-          "published": "2026-03-14T09:35:36",
-          "lead": "As explosions echoed over Tehran and the United States vowed to intensify strikes against Iran, hundreds gathered in Cap"
+          "title": "GROUNDUP: Space to grow: Carnarvon sets sights on jobs through astrotourism",
+          "url": "https://www.dailymaverick.co.za/article/space-to-grow-carnarvon-sets-sights-on-jobs-through-astrotourism",
+          "source": "Daily Maverick",
+          "published": "2026-03-15T13:44:04",
+          "lead": "The South African Radio Astronomy Observatory is training star guides to transform the Karoo’s night skies into economic"
         },
         {
           "title": "VIDEO: Watch – How Cape Town families found loved ones in paupers’ graves",
@@ -1078,7 +1166,6 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Africanews",
         "Daily Maverick"
       ]
     },
