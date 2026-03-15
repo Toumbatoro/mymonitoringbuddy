@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-15T01:27:11.193663",
+  "generated_at": "2026-03-15T04:59:43.807332",
   "summary": {
     "high": 0,
-    "elevated": 2,
+    "elevated": 3,
     "normal": 18,
-    "quiet": 34
+    "quiet": 33
   },
   "countries": {
     "Morocco": {
@@ -20,11 +20,15 @@
           "count": 1
         },
         {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -33,10 +37,6 @@
         },
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
           "count": 1
         }
       ],
@@ -58,15 +58,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.48,
+      "baseline": 2.0,
+      "ratio": 0.5,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -132,7 +132,7 @@
     "Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.9,
+      "baseline": 5.7,
       "ratio": 0.17,
       "status": "normal",
       "confidence": "low",
@@ -154,7 +154,7 @@
     "Mauritania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -167,16 +167,20 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.7,
-      "ratio": 1.15,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Wagner",
+          "count": 1
+        },
         {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -185,10 +189,6 @@
         },
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
           "count": 1
         }
       ],
@@ -210,15 +210,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.61,
+      "baseline": 1.7,
+      "ratio": 0.6,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -239,7 +239,7 @@
     "Niger": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.3,
+      "baseline": 2.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -249,15 +249,22 @@
       "sources": []
     },
     "Senegal": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.3,
-      "ratio": 0.23,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 4.0,
+      "ratio": 0.5,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Dette extérieure: le Sénégal évite le défaut de paiement et règle une partie de ses créances",
+          "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260315-dette-ext%C3%A9rieure-le-s%C3%A9n%C3%A9gal-%C3%A9vite-le-d%C3%A9faut-de-paiement-et-r%C3%A8gle-une-partie-de-ses-cr%C3%A9ances",
+          "source": "RFI Afrique",
+          "published": "2026-03-15T04:15:36",
+          "lead": "Dakar a réglé cette semaine près d’un demi-milliard de dollars à ses créanciers sur sa dette internationale, selon une i"
+        },
         {
           "title": "Senegal makes $471 Million debt payment but faces tough times head",
           "url": "http://www.africanews.com/2026/03/14/senegal-makes-471-million-debt-payment-but-faces-tough-times-head/",
@@ -267,7 +274,8 @@
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -325,8 +333,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Sierra Leone": {
@@ -368,7 +376,7 @@
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.6,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -393,16 +401,16 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.65,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Élection",
           "count": 1
         },
         {
-          "word": "Élection",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -421,19 +429,23 @@
       ]
     },
     "Nigeria": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 8.7,
-      "ratio": 0.23,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 8.4,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Crisis",
+          "count": 1
+        },
         {
           "word": "War",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -447,6 +459,13 @@
           "lead": "Rising oil prices, spurred on by the war in Iran, have exacerbated Nigeria's energy crisis."
         },
         {
+          "title": "Au Nigeria, une attaque menée par « plusieurs centaines d’individus » sur une équipe de sécurité fait 20 morts dans l’Etat du Plateau",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/15/au-nigeria-une-attaque-menee-par-plusieurs-centaines-d-individus-sur-une-equipe-de-securite-fait-20-morts-dans-l-etat-du-plateau_6671253_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-15T03:39:26",
+          "lead": "Douze membres des forces de sécurité, dont deux officiers supérieurs, ont été tués dans cet assaut, selon une associatio"
+        },
+        {
           "title": "Scores of Pro-Iran Shias defy ban to rally in Nigeria's capital",
           "url": "http://www.africanews.com/2026/03/14/scores-of-pro-iran-shias-defy-ban-to-rally-in-nigerias-capital/",
           "source": "Africanews",
@@ -456,7 +475,8 @@
       ],
       "sources": [
         "Africanews",
-        "DW Africa"
+        "DW Africa",
+        "Le Monde Afrique"
       ]
     },
     "Cape Verde": {
@@ -474,7 +494,7 @@
     "Chad": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.9,
+      "baseline": 1.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -486,7 +506,7 @@
     "Cameroon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.9,
+      "baseline": 2.8,
       "ratio": 0.35,
       "status": "normal",
       "confidence": "low",
@@ -508,8 +528,8 @@
     "CAR": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.6,
-      "ratio": 1.91,
+      "baseline": 1.7,
+      "ratio": 1.8,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -547,9 +567,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "South Sudan": {
@@ -577,22 +597,15 @@
       "sources": []
     },
     "Gabon": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.33,
+      "ratio": 0.65,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Gabon: l'ex-ministre Hervé Patrick Opiangah bénéficie d'un non-lieu dans une affaire de viol",
-          "url": "https://www.rfi.fr/fr/afrique/20260314-gabon-l-ex-ministre-herv%C3%A9-patrick-opiangah-b%C3%A9n%C3%A9ficie-d-un-non-lieu-dans-une-affaire-de-viol",
-          "source": "RFI Afrique",
-          "published": "2026-03-14T03:50:18",
-          "lead": "Au Gabon, le leader politique du parti Union pour la démocratie et l'intégration sociale, Hervé Patrick Opiangah, poursu"
-        },
         {
           "title": "Au Gabon, abandon des poursuites contre Hervé Patrick Opiangah",
           "url": "https://www.jeuneafrique.com/1774217/politique/au-gabon-abandon-des-poursuites-contre-herve-patrick-opiangah/",
@@ -602,27 +615,60 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
     "Congo": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 1.5,
+      "ratio": 1.96,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 3
+        },
+        {
+          "word": "Élection",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Présidentielle au Congo-Brazzaville: l’observation citoyenne veut prendre le pouls de la participation électorale",
+          "url": "https://www.rfi.fr/fr/afrique/20260315-pr%C3%A9sidentielle-au-congo-brazzaville-l-observation-citoyenne-veut-prendre-le-pouls-de-la-participation-%C3%A9lectorale",
+          "source": "RFI Afrique",
+          "published": "2026-03-15T04:11:20",
+          "lead": "Dimanche 15 mars 2026, les bureaux de vote ouvriront en principe de 7h à 18h. Le président Denis Sassou Nguesso, 82 ans,"
+        },
+        {
+          "title": "Présidentielle au Congo-Brazzaville: qui sont les candidats face au président sortant Denis Sassou-Nguesso?",
+          "url": "https://www.rfi.fr/fr/afrique/20260315-pr%C3%A9sidentielle-au-congo-brazzaville-qui-sont-les-candidats-face-au-pr%C3%A9sident-sortant-denis-sassou-nguesso",
+          "source": "RFI Afrique",
+          "published": "2026-03-15T04:11:08",
+          "lead": "Les électeurs congolais sont attendus aux urnes ce dimanche 15 mars 2026, à l’occasion de l’élection présidentielle orga"
+        },
+        {
+          "title": "Au Congo, Denis Sassou Nguesso, « l’empereur » qui ne voulait pas quitter son trône",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/15/au-congo-denis-sassou-nguesso-l-empereur-qui-ne-voulait-pas-quitter-son-trone_6671252_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-15T03:30:05",
+          "lead": "Au pouvoir depuis 1997, le président du Congo-Brazzaville brigue, dimanche 15 mars, un cinquième mandat consécutif. Malg"
+        }
+      ],
+      "sources": [
+        "Le Monde Afrique",
+        "RFI Afrique"
+      ]
     },
     "DRC": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
-      "baseline": 7.4,
-      "ratio": 0.54,
+      "baseline": 7.3,
+      "ratio": 0.41,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -631,11 +677,15 @@
           "count": 1
         },
         {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -644,10 +694,6 @@
         },
         {
           "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
           "count": 1
         }
       ],
@@ -668,13 +714,6 @@
           "lead": ""
         },
         {
-          "title": "RDC: un rapport d'une agence de l'ONU alerte sur la hausse des violations des droits humains en 2025",
-          "url": "https://www.rfi.fr/fr/afrique/20260314-rdc-un-rapport-d-une-agence-de-l-onu-alerte-sur-la-hausse-des-violations-des-droits-humains-en-2025",
-          "source": "RFI Afrique",
-          "published": "2026-03-14T04:01:51",
-          "lead": "Le Bureau conjoint des Nations Unies aux droits de l’homme (le BCNUDH) vient de publier ses chiffres annuels en Républiq"
-        },
-        {
           "title": "Attaque de drone à Goma, Africa Corps au Mali, guerre au Moyen-Orient… Les 5 infos qu’il ne fallait pas manquer",
           "url": "https://www.jeuneafrique.com/1773787/politique/attaque-de-drone-a-goma-africa-corps-au-mali-guerre-au-moyen-orient-les-5-infos-quil-ne-fallait-pas-manquer/",
           "source": "Jeune Afrique",
@@ -683,8 +722,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -702,7 +741,7 @@
     "Angola": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -714,7 +753,7 @@
     "Eritrea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -738,8 +777,8 @@
     "Ethiopia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.9,
-      "ratio": 0.26,
+      "baseline": 3.6,
+      "ratio": 0.28,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -760,7 +799,7 @@
     "Somalia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -772,8 +811,8 @@
     "Uganda": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.7,
-      "ratio": 1.73,
+      "baseline": 1.8,
+      "ratio": 1.7,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -815,16 +854,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Kenya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 5.5,
-      "ratio": 0.18,
+      "baseline": 5.3,
+      "ratio": 0.19,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -867,7 +906,7 @@
     "Burundi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -879,7 +918,7 @@
     "Tanzania": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -891,8 +930,8 @@
     "Madagascar": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.48,
+      "baseline": 2.0,
+      "ratio": 0.51,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -961,7 +1000,7 @@
     "Malawi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -973,8 +1012,8 @@
     "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.03,
+      "baseline": 0.9,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -995,7 +1034,7 @@
     "Zimbabwe": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.7,
+      "baseline": 2.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1029,15 +1068,27 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 13.9,
-      "ratio": 0.14,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 13.6,
+      "ratio": 0.22,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Gouvernement",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "De nombreux Sud-Africains blancs expatriés à l’étranger décident de se réinstaller en Afrique du Sud",
+          "url": "https://www.rfi.fr/fr/afrique/20260315-de-nombreux-sud-africains-blancs-expatri%C3%A9s-%C3%A0-l-%C3%A9tranger-d%C3%A9cident-de-se-r%C3%A9installer-en-afrique-du-sud",
+          "source": "RFI Afrique",
+          "published": "2026-03-15T04:17:41",
+          "lead": "C’est une tendance qui contredit quelques polémiques. En Afrique du Sud, pays régulièrement ciblé par la Maison Blanche,"
+        },
         {
           "title": "Cape Town rallies for Quds Day as US-Israel strikes rock Tehran",
           "url": "http://www.africanews.com/2026/03/14/cape-town-rallies-for-quds-day-as-us-israel-strikes-rock-tehran/",
@@ -1055,7 +1106,8 @@
       ],
       "sources": [
         "Daily Maverick",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
