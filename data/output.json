@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-14T21:19:00.986899",
+  "generated_at": "2026-03-15T01:27:11.193663",
   "summary": {
     "high": 0,
     "elevated": 2,
@@ -20,7 +20,7 @@
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -28,7 +28,7 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Tué",
           "count": 1
         },
         {
@@ -36,7 +36,7 @@
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Guerre",
           "count": 1
         }
       ],
@@ -164,15 +164,15 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 0.58,
+      "ratio": 1.15,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -180,7 +180,7 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Tué",
           "count": 1
         },
         {
@@ -188,12 +188,19 @@
           "count": 1
         },
         {
-          "word": "Tué",
+          "word": "Guerre",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tinariwen: la voix d’un peuple pour dénoncer et revendiquer la liberté",
+          "url": "https://www.rfi.fr/fr/podcasts/les-p%C3%A9pites-musicales-de-rfi/20260314-tinariwen-la-voix-d-un-peuple-pour-d%C3%A9noncer-et-revendiquer-la-libert%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T23:01:29",
+          "lead": "Cette semaine, le groupe Tinariwen a publié son dixième album : Hoggar. Un disque puissant où se mêlent la colère d’un p"
+        },
         {
           "title": "Attaque de drone à Goma, Africa Corps au Mali, guerre au Moyen-Orient… Les 5 infos qu’il ne fallait pas manquer",
           "url": "https://www.jeuneafrique.com/1773787/politique/attaque-de-drone-a-goma-africa-corps-au-mali-guerre-au-moyen-orient-les-5-infos-quil-ne-fallait-pas-manquer/",
@@ -203,6 +210,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -290,7 +298,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.07,
+      "ratio": 1.05,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -346,39 +354,16 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 0.5,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Attaque",
-          "count": 1
-        },
-        {
-          "word": "Djihadiste",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.9,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "10 ans après les attentats de Bassam, la Côte d'Ivoire se souvient",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260313-10-ans-apr%C3%A8s-les-attentats-de-bassam-la-c%C3%B4te-d-ivoire-se-souvient",
-          "source": "France24 Afrique",
-          "published": "2026-03-13T21:39:32",
-          "lead": "Il y a 10 ans, jour pour jour, 19 personnes ont été tués lors d'une attaque djihadiste sur la plage de Grand Bassam. Pen"
-        }
-      ],
-      "sources": [
-        "France24 Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Ghana": {
       "article_count": 0,
@@ -413,11 +398,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Élection",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Élection",
           "count": 1
         }
       ],
@@ -444,11 +429,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Crisis",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -470,8 +455,8 @@
         }
       ],
       "sources": [
-        "DW Africa",
-        "Africanews"
+        "Africanews",
+        "DW Africa"
       ]
     },
     "Cape Verde": {
@@ -502,7 +487,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.9,
-      "ratio": 0.34,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -562,9 +547,9 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "South Sudan": {
@@ -622,41 +607,27 @@
       ]
     },
     "Congo": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.61,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo-Brazzaville: dernier jour de campagne avant le scrutin présidentiel",
-          "url": "https://www.rfi.fr/fr/afrique/20260313-congo-brazzaville-dernier-jour-de-campagne-avant-le-scrutin-pr%C3%A9sidentiel",
-          "source": "RFI Afrique",
-          "published": "2026-03-13T21:41:17",
-          "lead": "Dernier jour de campagne ce vendredi 13 mars au Congo-Brazzaville. Dimanche 15, les autorités organisent un scrutin prés"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "DRC": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 7.4,
-      "ratio": 0.4,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
+          "word": "Président",
           "count": 1
         },
         {
@@ -664,16 +635,31 @@
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Wagner",
           "count": 1
         },
         {
           "word": "Tué",
           "count": 1
+        },
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RDC: la lutte anti-gang au centre de la réunion du Conseil des ministres",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-rdc-la-lutte-anti-gang-au-centre-de-la-r%C3%A9union-du-conseil-des-ministres",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T21:34:59",
+          "lead": "Dans la capitale de la République démocratique du Congo, Kinshasa, la psychose gagne la population face à la multiplicat"
+        },
         {
           "title": "À la Une: la «frappe embarrassante» de Goma, Lukwebo se rétracte et «Happy End» pour Gertler",
           "url": "https://www.rfi.fr/fr/podcasts/la-une-de-la-presse-cette-semaine-%C3%A0-kinshasa/20260314-%C3%A0-la-une-la-frappe-embarrassante-de-goma-lukwebo-se-r%C3%A9tracte-et-happy-end-pour-gertler",
@@ -787,7 +773,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 1.7,
-      "ratio": 1.76,
+      "ratio": 1.73,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -811,7 +797,7 @@
           "url": "https://www.rfi.fr/fr/afrique/20260314-ouganda-l-opposant-bobi-wine-annonce-avoir-quitt%C3%A9-le-pays",
           "source": "RFI Afrique",
           "published": "2026-03-14T19:41:57",
-          "lead": "L'opposant Bobi Wine a annoncé dans une vidéo avoir quitté l'Ouganda ce samedi 14 mars.  Bobi Wine est en fuite depuis l"
+          "lead": "L'opposant Bobi Wine a annoncé dans une vidéo avoir quitté l'Ouganda ce samedi 14 mars. Bobi Wine est en fuite depuis l'"
         },
         {
           "title": "Ouganda : l’opposant Bobi Wine dit avoir quitté le pays",
@@ -829,9 +815,9 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Kenya": {
@@ -857,21 +843,31 @@
       ]
     },
     "Rwanda": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.43,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Le Rwanda menace de retirer son soutien à la lutte anti-jihadiste au Mozambique",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-le-rwanda-menace-de-retirer-son-soutien-%C3%A0-la-lutte-anti-jihadiste-au-mozambique",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T22:33:35",
+          "lead": "Le Rwanda a averti samedi 14 mars que, faute de garanties de financements, il retirera ses troupes aidant à la lutte ant"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Burundi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -903,11 +899,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "À Madagascar, les métiers de l'économie informelle: les porteurs d'eau [2/3]",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260313-%C3%A0-madagascar-les-m%C3%A9tiers-de-l-%C3%A9conomie-informelle-les-porteurs-d-eau-2-3",
+          "title": "À Madagascar, les métiers de l'économie informelle: les loueurs de lumière [3/3]",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260314-%C3%A0-madagascar-les-m%C3%A9tiers-de-l-%C3%A9conomie-informelle-les-loueurs-de-lumi%C3%A8re-3-3",
           "source": "RFI Afrique",
-          "published": "2026-03-13T23:05:07",
-          "lead": "À Antananarivo, ouvrir le robinet est devenu un calvaire. Dans une capitale qui a largement dépassé ses capacités d'accu"
+          "published": "2026-03-14T23:10:07",
+          "lead": "À Madagascar, l’obscurité n’est pas qu’une question de cycle naturel, c’est une barrière sociale. Avec 70 % des foyers p"
         }
       ],
       "sources": [
@@ -975,16 +971,26 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.03,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Le Rwanda menace de retirer son soutien à la lutte anti-jihadiste au Mozambique",
+          "url": "https://www.rfi.fr/fr/afrique/20260314-le-rwanda-menace-de-retirer-son-soutien-%C3%A0-la-lutte-anti-jihadiste-au-mozambique",
+          "source": "RFI Afrique",
+          "published": "2026-03-14T22:33:35",
+          "lead": "Le Rwanda a averti samedi 14 mars que, faute de garanties de financements, il retirera ses troupes aidant à la lutte ant"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Zimbabwe": {
       "article_count": 0,
