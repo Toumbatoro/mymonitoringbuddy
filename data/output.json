@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-16T07:06:15.672724",
+  "generated_at": "2026-03-16T09:56:11.444426",
   "summary": {
-    "high": 2,
+    "high": 7,
     "elevated": 5,
-    "normal": 22,
-    "quiet": 25
+    "normal": 20,
+    "quiet": 22
   },
   "countries": {
     "Morocco": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 3.0,
-      "ratio": 0.66,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -33,20 +33,27 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Africanews"
+        "Africanews",
+        "Le Monde Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 2.0,
-      "ratio": 0.49,
+      "ratio": 0.98,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Algérie-France : les ministres Ahmed Attaf et Jean-Noël Barrot ont repris le dialogue",
+          "url": "https://www.jeuneafrique.com/1774254/politique/algerie-france-les-ministres-ahmed-attaf-et-jean-noel-barrot-ont-repris-le-dialogue/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-16T09:10:00",
+          "lead": "Les ministres alégrien et français des Affaires étrangères « ont évoqué les enjeux de la relance de la coopération bilat"
+        },
         {
           "title": "Au programme de Léon XIV en Algérie : Abdelmadjid Tebboune, les martyrs et… Christophe Gleizes ?",
           "url": "https://www.jeuneafrique.com/1773805/politique/au-programme-de-leon-xiv-en-algerie-abdelmadjid-tebboune-les-martyrs-et-christophe-gleizes/",
@@ -60,16 +67,26 @@
       ]
     },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.97,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Africa: 2026 Oscars - Norway's 'Sentimental Value' Wins Best International Feature As Africa's Wait Continues (Full List)",
+          "url": "https://allafrica.com/stories/202603160272.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:33:35",
+          "lead": "[Premium Times] The Tunisian docudrama The Voice of Hind Rajab, which generated strong pre-ceremony buzz, ultimately fai"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Libya": {
       "article_count": 0,
@@ -84,27 +101,84 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Sudan": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 5.8,
-      "ratio": 0.69,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.43,
+      "status": "elevated",
+      "confidence": "low",
       "keywords": [
         {
+          "word": "Refugees",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
           "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Egypt: New Arrivals from Sudan as of 12 March 2026",
+          "url": "https://reliefweb.int/report/egypt/egypt-new-arrivals-sudan-12-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-15T16:03:11",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        },
+        {
+          "title": "UNHCR Egypt Fact Sheet - March 2026",
+          "url": "https://reliefweb.int/report/egypt/unhcr-egypt-fact-sheet-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-15T13:03:20",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        },
+        {
+          "title": "UNHCR Egypt Monthly Operational Update (February 2026)",
+          "url": "https://reliefweb.int/report/egypt/unhcr-egypt-monthly-operational-update-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-15T13:03:16",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Sudan": {
+      "article_count": 9,
+      "source_count": 4,
+      "baseline": 5.8,
+      "ratio": 1.55,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Crisis",
+          "count": 4
+        },
+        {
+          "word": "War",
+          "count": 3
+        },
+        {
+          "word": "Government",
+          "count": 3
+        },
+        {
+          "word": "Refugees",
           "count": 3
         },
         {
@@ -112,19 +186,11 @@
           "count": 2
         },
         {
-          "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Government",
+          "word": "Militia",
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Wounded",
           "count": 1
         }
       ],
@@ -177,6 +243,41 @@
           "lead": "[Dabanga] Adr&#xe9;, Eastern Chad -- More than three-quarters of Sudanese refugee families in Chad say the their childre"
         },
         {
+          "title": "Sudan: Khartoum State Commemorates Anniversary of Rebel Militia Expulsion",
+          "url": "https://allafrica.com/stories/202603160254.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T07:52:51",
+          "lead": "[SNA] Khartoum, 15-3-2026 (SUNA) - The Government of Khartoum State marked the anniversary of the expulsion of rebel mil"
+        },
+        {
+          "title": "Alight Sudan - Nutrition Program Impact Brief (March 2026)",
+          "url": "https://reliefweb.int/report/sudan/alight-sudan-nutrition-program-impact-brief-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T08:58:50",
+          "lead": "Country: Sudan\n                                      Source: Alight\n                                                    "
+        },
+        {
+          "title": "Egypt: New Arrivals from Sudan as of 12 March 2026",
+          "url": "https://reliefweb.int/report/egypt/egypt-new-arrivals-sudan-12-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-15T16:03:11",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        },
+        {
+          "title": "UNHCR Egypt Fact Sheet - March 2026",
+          "url": "https://reliefweb.int/report/egypt/unhcr-egypt-fact-sheet-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-15T13:03:20",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        },
+        {
+          "title": "UNHCR Egypt Monthly Operational Update (February 2026)",
+          "url": "https://reliefweb.int/report/egypt/unhcr-egypt-monthly-operational-update-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-15T13:03:16",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        },
+        {
           "title": "Corruption-Linked Arrests in South Sudan Raise Questions",
           "url": "https://www.hrw.org/news/2026/03/16/corruption-linked-arrests-in-south-sudan-raise-questions",
           "source": "Human Rights Watch",
@@ -185,9 +286,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "DW Africa",
         "Human Rights Watch",
-        "DW Africa"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Mauritania": {
@@ -240,8 +342,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
@@ -300,7 +402,7 @@
     },
     "Senegal": {
       "article_count": 2,
-      "source_count": 1,
+      "source_count": 2,
       "baseline": 4.1,
       "ratio": 0.49,
       "status": "normal",
@@ -316,14 +418,15 @@
           "lead": "Le Sénégal et les États-Unis ont signé vendredi à Dakar un protocole d'accord sur la santé d'une valeur de 135 millions "
         },
         {
-          "title": "Sénégal: les cimentiers s'inquiètent des conséquences du durcissement fiscal annoncé par Ousmane Sonko",
-          "url": "https://www.rfi.fr/fr/afrique/20260315-s%C3%A9n%C3%A9gal-les-cimentiers-s-inqui%C3%A8tent-des-cons%C3%A9quences-du-durcissement-fiscal-annonc%C3%A9-par-ousmane-sonko",
-          "source": "RFI Afrique",
-          "published": "2026-03-15T07:29:11",
-          "lead": "Les industries cimentières installées au Sénégal répliquent après les déclarations fracassantes du Premier ministre Ousm"
+          "title": "Pétrole et gaz : pourquoi le Sénégal cherche encore la formule gagnante",
+          "url": "https://www.jeuneafrique.com/1771553/economie-entreprises/petrole-et-gaz-pourquoi-le-senegal-cherche-encore-la-formule-gagnante/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-16T08:31:41",
+          "lead": "Propulsé dans le club des producteurs africains de pétrole et de gaz naturel liquéfié (GNL) par Woodside et BP, le pays "
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
@@ -352,15 +455,15 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.61,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.05,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Coup",
+          "word": "Président",
           "count": 1
         },
         {
@@ -368,7 +471,7 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Coup",
           "count": 1
         }
       ],
@@ -387,17 +490,9 @@
           "source": "France24 Afrique",
           "published": "2026-03-15T21:11:51",
           "lead": "La Guinée est-elle entrée dans une nouvelle ère politique après la fin officielle de la transition ouverte par le coup d"
-        },
-        {
-          "title": "Liberia: LDEA Seizes Drugs Worth L$7.77 Million At Ganta Border - Guinean National Arrested",
-          "url": "https://allafrica.com/stories/202603160217.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T05:23:06",
-          "lead": "[FrontPageAfrica] Ganta, Nimba County -- March 14, 2026: The Liberia Drug Enforcement Agency (LDEA) has arrested a 47-ye"
         }
       ],
       "sources": [
-        "AllAfrica",
         "France24 Afrique",
         "RFI Afrique"
       ]
@@ -415,26 +510,16 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.68,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Liberia: LDEA Seizes Drugs Worth L$7.77 Million At Ganta Border - Guinean National Arrested",
-          "url": "https://allafrica.com/stories/202603160217.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T05:23:06",
-          "lead": "[FrontPageAfrica] Ganta, Nimba County -- March 14, 2026: The Liberia Drug Enforcement Agency (LDEA) has arrested a 47-ye"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Côte d'Ivoire": {
       "article_count": 0,
@@ -451,7 +536,7 @@
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.5,
+      "baseline": 2.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -500,23 +585,15 @@
       ]
     },
     "Nigeria": {
-      "article_count": 18,
+      "article_count": 8,
       "source_count": 4,
       "baseline": 8.9,
-      "ratio": 2.01,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.9,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
-          "count": 6
-        },
-        {
-          "word": "President",
-          "count": 3
-        },
-        {
-          "word": "Election",
           "count": 2
         },
         {
@@ -537,6 +614,10 @@
         },
         {
           "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -571,6 +652,13 @@
           "lead": "[Daily Trust] Suspected Boko Haram terrorists have attacked a military outpost at Ajilari, an outskirt of Maiduguri, Bor"
         },
         {
+          "title": "Nigeria: Midnight Terror Attack Foiled in Maiduguri, Other Parts of Borno",
+          "url": "https://allafrica.com/stories/202603160269.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:32:13",
+          "lead": "[Premium Times] The midnight attack on Monday occurred around 12:30 am, according to residents. The attack was carried o"
+        },
+        {
           "title": "Nigeria: Nigerian Army Accuses IPOB of Ethnicity-Driven Propaganda Over IED Images",
           "url": "https://allafrica.com/stories/202603160243.html",
           "source": "AllAfrica",
@@ -578,60 +666,25 @@
           "lead": "[Premium Times] He explained that the explosives were recovered from the Orsu-Eketutu Mother Valley and Orsu-Ihiteukwa a"
         },
         {
-          "title": "Nigeria: Mass Resignation Hits Benue APC As Guber Aspirants Attend PDP Meeting",
-          "url": "https://allafrica.com/stories/202603160139.html",
+          "title": "Nigeria: Govt to Curb Nigeria's Insecurity, U.S.' Role Must Be Supportive, Not Direct Intervention",
+          "url": "https://allafrica.com/stories/202603160247.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T04:58:08",
-          "lead": "[Daily Trust] Following internal disagreements within the Benue State chapter of the All Progressives Congress (APC) sco"
+          "published": "2026-03-16T07:22:53",
+          "lead": "[This Day] The federal government has said the United States and other global powers should play a supportive, rather th"
         },
         {
-          "title": "Nigeria: 2027 - Oil, Gas Communities Back Tinubu for Second Term",
-          "url": "https://allafrica.com/stories/202603160140.html",
+          "title": "Nigeria: NLC Demands Wage Increase to Cushion Effect of Rising Fuel Price",
+          "url": "https://allafrica.com/stories/202603160248.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T04:58:08",
-          "lead": "[Daily Trust] A coalition of oil and gas producing communities under the aegis of Communities of Oil and Gas in Nigeria "
-        },
-        {
-          "title": "Nigeria: NNPP, Kwankwasiyya Accuse APC of Attack On Members",
-          "url": "https://allafrica.com/stories/202603160141.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T04:58:08",
-          "lead": "[Daily Trust] The New Nigeria Peoples Party (NNPP) and the Kwankwasiyya Movement have accused thugs allegedly loyal to t"
-        },
-        {
-          "title": "Nigeria: Fuel Price Hike - Labour Seeks Tax Relief",
-          "url": "https://allafrica.com/stories/202603160134.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T04:58:07",
-          "lead": "[Daily Trust] The Nigeria Labour Congress (NLC) yesterday demanded a cost-of-living allowance, a wage award for workers "
-        },
-        {
-          "title": "Nigeria: Stakes As Tinubu Embarks On State Visit to UK",
-          "url": "https://allafrica.com/stories/202603160135.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T04:58:07",
-          "lead": "[Daily Trust] President Bola Ahmed Tinubu is set to make history on March 17, 2026, when he lands in the United Kingdom "
-        },
-        {
-          "title": "Nigeria: Plateau - How Security Operatives, Bandits Killed in Gunfire-Residents",
-          "url": "https://allafrica.com/stories/202603160136.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T04:58:07",
-          "lead": "[Daily Trust] Bandits operating in communities around Wase and Kanam local government areas of Plateau State killed abou"
-        },
-        {
-          "title": "Nigeria: Govt Targets Women for Energy Access, Digital Inclusion, Others",
-          "url": "https://allafrica.com/stories/202603160137.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T04:58:07",
-          "lead": "[Daily Trust] The Federal Government has unveiled plans to expand targeted interventions for women across Nigeria in are"
+          "published": "2026-03-16T07:22:53",
+          "lead": "[This Day] Nigeria Labour Congress (NLC) has asked the federal and state governments to urgently grant Wage Award and Co"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
+        "The Guardian Africa",
         "Jeune Afrique",
-        "The Guardian Africa"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -647,12 +700,12 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 0.61,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.84,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Crisis",
@@ -667,22 +720,37 @@
           "source": "AllAfrica",
           "published": "2026-03-16T04:49:27",
           "lead": "[Dabanga] Adr&#xe9;, Eastern Chad -- More than three-quarters of Sudanese refugee families in Chad say the their childre"
+        },
+        {
+          "title": "Tchad - Apercu des projets et financements en sante sexuelle et reproductive (SSR)",
+          "url": "https://reliefweb.int/report/chad/tchad-apercu-des-projets-et-financements-en-sante-sexuelle-et-reproductive-ssr",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T00:32:53",
+          "lead": "Country: Chad\n                                      Sources: Health Cluster, World Health Organization\n                 "
+        },
+        {
+          "title": "Cartographie des sage-femmes humanitaires à l'Est du Tchad",
+          "url": "https://reliefweb.int/report/chad/cartographie-des-sage-femmes-humanitaires-lest-du-tchad",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T00:26:53",
+          "lead": "Country: Chad\n                                      Sources: Health Cluster, World Health Organization\n                 "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
       "article_count": 2,
-      "source_count": 1,
+      "source_count": 2,
       "baseline": 2.8,
       "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "President",
           "count": 1
         }
       ],
@@ -696,25 +764,35 @@
           "lead": "Longtemps resté à distance des cercles visibles du pouvoir, Franck Hertz, l’un des fils de Chantal Biya, s’impose progre"
         },
         {
-          "title": "Au Cameroun, comment Samuel Eto’o veut s’affranchir du ministère des Sports",
-          "url": "https://www.jeuneafrique.com/1773779/politique/au-cameroun-comment-samuel-etoo-veut-saffranchir-du-ministere-des-sports/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-15T09:00:00",
-          "lead": "La Fédération camerounaise de football (Fecafoot) a pris une décision spectaculaire, comme l’a annoncé Samuel Eto’o, son"
+          "title": "Congo begins vote count as President Denis Sassou N’Guesso eyes fifth term",
+          "url": "http://www.africanews.com/2026/03/16/congo-begins-vote-count-as-president-denis-sassou-nguesso-eyes-fifth-term/",
+          "source": "Africanews",
+          "published": "2026-03-16T08:26:10",
+          "lead": "If confirmed, Sassou N’Guesso’s victory would reinforce a broader pattern of long-serving African leaders maintaining th"
         }
       ],
       "sources": [
+        "Africanews",
         "Jeune Afrique"
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 0.62,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 2.55,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -723,17 +801,39 @@
           "source": "RFI Afrique",
           "published": "2026-03-15T23:14:16",
           "lead": "En Centrafrique, l’accès aux soins de santé demeure un défi majeur, en particulier dans les zones rurales et enclavées. "
+        },
+        {
+          "title": "Two MSF staff members released in Central African Republic",
+          "url": "https://reliefweb.int/report/central-african-republic/two-msf-staff-members-released-central-african-republic",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T01:36:50",
+          "lead": "Country: Central African Republic\n                                      Source: Médecins Sans Frontières\n               "
+        },
+        {
+          "title": "UNICEF Republic of Congo Humanitarian Flash Update No. 3 (Cholera Outbreak Response), 13 March 2026",
+          "url": "https://reliefweb.int/report/congo/unicef-republic-congo-humanitarian-flash-update-no-3-cholera-outbreak-response-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T01:31:21",
+          "lead": "Country: Congo\n                                      Source: UN Children's Fund\n                                        "
+        },
+        {
+          "title": "CAR: Mécanisme de réponse humanitaire : République centrafricaine, Bulletin bimestriel (01 janvier - 28 février 2026)",
+          "url": "https://reliefweb.int/report/central-african-republic/mecanisme-de-reponse-humanitaire-republique-centrafricaine-bulletin-bimestriel-01-janvier-28-fevrier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T01:11:47",
+          "lead": "Country: Central African Republic\n                                      Sources: REACH Initiative, UN Office for the Coo"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.0,
-      "ratio": 1.0,
+      "ratio": 1.48,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -756,6 +856,13 @@
           "lead": "[HRW] Are Accountability Efforts Credible or a Farce?"
         },
         {
+          "title": "South Sudan: CRITICAL FUNDING GAP FOR LIFE-SAVING SERVICES BENTIU AND MALAKAL",
+          "url": "https://reliefweb.int/report/south-sudan/critical-funding-gap-life-saving-services-bentiu-and-malakal",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T08:19:53",
+          "lead": "Country: South Sudan\n                                      Source: International Organization for Migration\n            "
+        },
+        {
           "title": "Corruption-Linked Arrests in South Sudan Raise Questions",
           "url": "https://www.hrw.org/news/2026/03/16/corruption-linked-arrests-in-south-sudan-raise-questions",
           "source": "Human Rights Watch",
@@ -764,21 +871,37 @@
         }
       ],
       "sources": [
+        "Human Rights Watch",
         "AllAfrica",
-        "Human Rights Watch"
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Congo begins vote count as President Denis Sassou N’Guesso eyes fifth term",
+          "url": "http://www.africanews.com/2026/03/16/congo-begins-vote-count-as-president-denis-sassou-nguesso-eyes-fifth-term/",
+          "source": "Africanews",
+          "published": "2026-03-16T08:26:10",
+          "lead": "If confirmed, Sassou N’Guesso’s victory would reinforce a broader pattern of long-serving African leaders maintaining th"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Gabon": {
       "article_count": 0,
@@ -793,10 +916,10 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 7,
+      "source_count": 4,
       "baseline": 1.9,
-      "ratio": 2.63,
+      "ratio": 3.62,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -806,6 +929,14 @@
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
           "count": 1
         }
       ],
@@ -845,19 +976,34 @@
           "source": "AllAfrica",
           "published": "2026-03-15T15:21:20",
           "lead": "[RFI] Congo-Brazzaville holds elections Sunday in a vote expected to extend 82-year-old President Denis Sassou Nguesso's"
+        },
+        {
+          "title": "UNICEF Republic of Congo Humanitarian Flash Update No. 3 (Cholera Outbreak Response), 13 March 2026",
+          "url": "https://reliefweb.int/report/congo/unicef-republic-congo-humanitarian-flash-update-no-3-cholera-outbreak-response-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T01:31:21",
+          "lead": "Country: Congo\n                                      Source: UN Children's Fund\n                                        "
+        },
+        {
+          "title": "DR Congo: Democratic Republic of Congo: Cholera Epidemic 2026 - DREF Operation (MDRCD049)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-cholera-epidemic-2026-dref-operation-mdrcd049",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T00:48:26",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Federation of Red "
         }
       ],
       "sources": [
-        "AllAfrica",
+        "Africanews",
         "RFI Afrique",
-        "Africanews"
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 7.2,
-      "ratio": 0.28,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -866,11 +1012,23 @@
           "count": 1
         },
         {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
           "word": "Attaque",
           "count": 1
         },
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
           "count": 1
         }
       ],
@@ -884,14 +1042,36 @@
           "lead": "Le président Felix Tshisekedi a créé ce week-end par ordonnance le tribunal pénal économique et financier, une instance "
         },
         {
+          "title": "RDC: ouverture de la nouvelle session parlementaire",
+          "url": "https://www.rfi.fr/fr/afrique/20260316-rdc-ouverture-de-la-nouvelle-session-parlementaire",
+          "source": "RFI Afrique",
+          "published": "2026-03-16T07:36:21",
+          "lead": "En RDC, les députés font leur retour ce 16 mars 2026 au Palais du peuple à Kinshasa, le siège du parlement où la rentrée"
+        },
+        {
           "title": "RDC : une attaque des rebelles ADF liés à l’organisation Etat islamique contre des sites miniers fait plusieurs morts",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/15/rdc-une-attaque-des-rebelles-adf-lies-a-organisation-etat-islamique-contre-des-sites-miniers-fait-plusieurs-morts_6671335_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-15T22:09:52",
           "lead": "Le groupe armé a attaqué, dans la nuit de mercredi à jeudi, des sites miniers situés dans la province de l’Ituri, annonc"
+        },
+        {
+          "title": "UNICEF Republic of Congo Humanitarian Flash Update No. 3 (Cholera Outbreak Response), 13 March 2026",
+          "url": "https://reliefweb.int/report/congo/unicef-republic-congo-humanitarian-flash-update-no-3-cholera-outbreak-response-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T01:31:21",
+          "lead": "Country: Congo\n                                      Source: UN Children's Fund\n                                        "
+        },
+        {
+          "title": "DR Congo: Democratic Republic of Congo: Cholera Epidemic 2026 - DREF Operation (MDRCD049)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-cholera-epidemic-2026-dref-operation-mdrcd049",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T00:48:26",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Federation of Red "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique",
         "Le Monde Afrique"
       ]
@@ -923,17 +1103,17 @@
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.5,
-      "ratio": 1.88,
+      "baseline": 0.6,
+      "ratio": 1.76,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -964,19 +1144,27 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 3.4,
-      "ratio": 0.3,
+      "ratio": 0.59,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -988,20 +1176,61 @@
           "source": "RFI Afrique",
           "published": "2026-03-16T06:35:23",
           "lead": "Au Tigré, au nord de l'Éthiopie, le climat est toujours plus tendu entre le TPLF, le Front de Libération du peuple du Ti"
+        },
+        {
+          "title": "Ethiopia: PM Abiy Urges Responsible Fuel Use Amid Middle East Crisis",
+          "url": "https://allafrica.com/stories/202603160268.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:29:27",
+          "lead": "[ENA] Addis Ababa -- Prime Minister Abiy Ahmed has called on fuel distributors, stations and consumers to use petroleum "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Somalia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 2.0,
-      "ratio": 1.0,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "ratio": 2.54,
+      "status": "high",
+      "confidence": "high",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Drought",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Al-shabaab",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1017,24 +1246,46 @@
           "source": "RFI Afrique",
           "published": "2026-03-15T21:29:41",
           "lead": "En décembre dernier, Israël a été le premier pays du monde à reconnaître le Somaliland. Cette région sécessioniste a déc"
+        },
+        {
+          "title": "Somalia: Protection and Solutions Monitoring Flash Alert 9 | March 2026 Clashes Between Somali National Armed Forces and Al-Shabaab in Mubarak and Darusalaam Villages in Lower Shabelle Displace Nearly 2400 Civilians",
+          "url": "https://reliefweb.int/report/somalia/protection-and-solutions-monitoring-flash-alert-9-march-2026-clashes-between-somali-national-armed-forces-and-al-shabaab-mubarak-and-darusalaam-villages-lower-shabelle-displace-nearly-2400-civilians",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T07:03:13",
+          "lead": "Country: Somalia\n                                      Source: UN High Commissioner for Refugees\n                       "
+        },
+        {
+          "title": "Somalia: Protection and Solutions Monitoring Flash Alert 7 | March 2 - Severe Drought in Wajid District Southwest State Triggers Displacement of Over 4,500 Civilians",
+          "url": "https://reliefweb.int/report/somalia/protection-and-solutions-monitoring-flash-alert-7-march-2-severe-drought-wajid-district-southwest-state-triggers-displacement-over-4500-civilians",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T07:03:10",
+          "lead": "Country: Somalia\n                                      Source: UN High Commissioner for Refugees\n                       "
+        },
+        {
+          "title": "Somalia Dengue Outbreak DREF Response - DREF Operation (MDRSO026)",
+          "url": "https://reliefweb.int/report/somalia/somalia-dengue-outbreak-dref-response-dref-operation-mdrso026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T00:41:59",
+          "lead": "Country: Somalia\n                                      Source: International Federation of Red Cross and Red Crescent So"
         }
       ],
       "sources": [
         "BBC Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.7,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.11,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 2
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1052,40 +1303,32 @@
           "source": "DW Africa",
           "published": "2026-03-15T11:18:00",
           "lead": "Ugandan opposition leader Bobi Wine says he has left the country after two months in hiding following January elections."
-        },
-        {
-          "title": "Uganda: Uganda's Bobi Wine Says He Has Fled the Country",
-          "url": "https://allafrica.com/stories/202603160236.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T06:23:14",
-          "lead": "[DW] Ugandan opposition leader Bobi Wine says he has left the country after two months in hiding following January elect"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa",
-        "DW Africa"
+        "DW Africa",
+        "BBC Africa"
       ]
     },
     "Kenya": {
-      "article_count": 7,
+      "article_count": 12,
       "source_count": 4,
-      "baseline": 5.6,
-      "ratio": 1.24,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 5.7,
+      "ratio": 2.12,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
+          "count": 2
         },
         {
           "word": "Government",
-          "count": 1
+          "count": 2
+        },
+        {
+          "word": "President",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -1126,6 +1369,20 @@
           "lead": "[Capital FM] Nairobi -- Heavy rainfall that started on Saturday evening caused flooding in several parts of Nairobi, dis"
         },
         {
+          "title": "Kenya: Sakaja Orders 48-Hour Action Plan to Tackle Flooding and Infrastructure Damage",
+          "url": "https://allafrica.com/stories/202603160305.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T09:04:20",
+          "lead": "[Capital FM] Nairobi -- Nairobi Governor and Chair of the Implementation Committee on the Cooperation Agreement, Johnson"
+        },
+        {
+          "title": "Kenya: NYS Opens Nationwide Recruitment",
+          "url": "https://allafrica.com/stories/202603160302.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T09:01:47",
+          "lead": "[Capital FM] Nairobi -- The National Youth Service (NYS) has officially launched its nationwide recruitment exercise, in"
+        },
+        {
           "title": "Kenya: Ruto Activates Multi-Agency Response As Floods Hit Parts of Kenya",
           "url": "https://allafrica.com/stories/202603160200.html",
           "source": "AllAfrica",
@@ -1138,28 +1395,44 @@
           "source": "AllAfrica",
           "published": "2026-03-16T05:22:54",
           "lead": "[Capital FM] Nairobi -- Foreign Affairs Cabinet Secretary Musalia Mudavadi has left the country for Moscow for bilateral"
+        },
+        {
+          "title": "East Africa: Tanzanian Tycoons Step Up Acquisitions of Kenyan Companies",
+          "url": "https://allafrica.com/stories/202603160273.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:34:17",
+          "lead": "[Capital FM] Nairobi -- Kenyan companies have recently attracted growing interest from Tanzanian billionaires, with seve"
+        },
+        {
+          "title": "Kenya: Opposition Leaders Condemn Alleged Illegal Takeover of Raphael Tuju Property",
+          "url": "https://allafrica.com/stories/202603160246.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T07:22:52",
+          "lead": "[Capital FM] Murang'a -- Leaders of the United Alternative Government have strongly condemned what they described as the"
+        },
+        {
+          "title": "Kenya: President Ruto Begins Western Kenya Tour With Infrastructure Inspection",
+          "url": "https://allafrica.com/stories/202603160245.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T07:22:51",
+          "lead": "[Capital FM] Kakamega -- William Ruto has begun a five-day development tour across Western Kenya, starting with an inspe"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa",
+        "DW Africa",
         "Jeune Afrique",
-        "DW Africa"
+        "BBC Africa",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.5,
-      "ratio": 1.2,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Jihadist",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1175,19 +1448,11 @@
           "source": "Jeune Afrique",
           "published": "2026-03-15T17:07:45",
           "lead": "Le chef de la diplomatie rwandaise Olivier Nduhungirehe a affirmé que son pays « retirera ses troupes du Mozambique si u"
-        },
-        {
-          "title": "Rwanda threatens to withdraw troops from Mozambique anti-jihadist operation",
-          "url": "http://www.africanews.com/2026/03/15/rwanda-threatens-to-withdraw-troops-from-mozambique-anti-jihadist-operation/",
-          "source": "Africanews",
-          "published": "2026-03-15T08:59:00",
-          "lead": "Kigali says will pull out of the operation if sufficient funding for the mission is not assured."
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1203,25 +1468,43 @@
       "sources": []
     },
     "Tanzania": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.2,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "East Africa: Tanzanian Tycoons Step Up Acquisitions of Kenyan Companies",
+          "url": "https://allafrica.com/stories/202603160273.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:34:17",
+          "lead": "[Capital FM] Nairobi -- Kenyan companies have recently attracted growing interest from Tanzanian billionaires, with seve"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Madagascar": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 6,
+      "source_count": 6,
       "baseline": 2.1,
-      "ratio": 1.9,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.81,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Minister",
+          "count": 3
+        },
+        {
+          "word": "President",
+          "count": 2
+        },
         {
           "word": "Government",
           "count": 2
@@ -1229,18 +1512,22 @@
         {
           "word": "Président",
           "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Minister",
+          "President"
+        ]
+      ],
       "articles": [
+        {
+          "title": "Madagascar names anticorruption chief as PM days after cabinet dissolved",
+          "url": "https://www.aljazeera.com/news/2026/3/16/madagascar-names-anticorruption-chief-as-pm-days-after-cabinet-dissolved?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-16T06:55:40",
+          "lead": "President announces Mamitiana Rajaonarison as prime minister after Herintsalama Rajaonarivelo was dismissed."
+        },
         {
           "title": "Madagascar anti-corruption chief appointed as new PM",
           "url": "https://www.dw.com/en/madagascar-anti-corruption-chief-appointed-as-new-pm/a-76368134?maca=en-rss-en-africa-8291-xml-mrss",
@@ -1254,6 +1541,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-16T04:18:49",
           "lead": "Moins d’une semaine après la dissolution de l’équipe de Herintsalama Rajaonarivelo, le président de transition, le colon"
+        },
+        {
+          "title": "Madagascar leader appoints financial intelligence chief as new prime minister",
+          "url": "http://www.africanews.com/2026/03/16/madagascar-leader-appoints-financial-intelligence-chief-as-new-prime-minister/",
+          "source": "Africanews",
+          "published": "2026-03-16T07:14:33",
+          "lead": "Speaking during a ceremony at the presidential palace in Antananarivo, Randrianirina said the nation required “bold deci"
         },
         {
           "title": "Madagascar: Madagascar Anti-Corruption Chief Appointed as New PM",
@@ -1271,10 +1565,12 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "AllAfrica",
         "RFI Afrique",
-        "Daily Maverick",
-        "DW Africa"
+        "DW Africa",
+        "Africanews",
+        "Daily Maverick"
       ]
     },
     "Comoros": {
@@ -1326,24 +1622,31 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.6,
-      "ratio": 1.67,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 3.33,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "Violence",
+          "word": "Combat",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "WFP Malawi Country Brief March 2026",
+          "url": "https://reliefweb.int/report/malawi/wfp-malawi-country-brief-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T08:36:59",
+          "lead": "Country: Malawi\n                                      Source: World Food Programme\n                                     "
+        },
         {
           "title": "Reimagining Albinism Rights Advocacy",
           "url": "https://www.hrw.org/news/2026/03/16/reimagining-albinism-rights-advocacy",
@@ -1353,7 +1656,8 @@
         }
       ],
       "sources": [
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "ReliefWeb"
       ]
     },
     "Mozambique": {
@@ -1363,12 +1667,7 @@
       "ratio": 2.81,
       "status": "high",
       "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Jihadist",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1386,17 +1685,17 @@
           "lead": "Le chef de la diplomatie rwandaise Olivier Nduhungirehe a affirmé que son pays « retirera ses troupes du Mozambique si u"
         },
         {
-          "title": "Rwanda threatens to withdraw troops from Mozambique anti-jihadist operation",
-          "url": "http://www.africanews.com/2026/03/15/rwanda-threatens-to-withdraw-troops-from-mozambique-anti-jihadist-operation/",
-          "source": "Africanews",
-          "published": "2026-03-15T08:59:00",
-          "lead": "Kigali says will pull out of the operation if sufficient funding for the mission is not assured."
+          "title": "Mozambique Food Security Cluster: Overview Dashboard - Response Monitoring (January to December 2025)",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-food-security-cluster-overview-dashboard-response-monitoring-january-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-16T09:09:00",
+          "lead": "Country: Mozambique\n                                      Sources: Food and Agriculture Organization of the United Natio"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
-        "Africanews"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Zimbabwe": {
@@ -1412,15 +1711,22 @@
       "sources": []
     },
     "Namibia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 4.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Namibia: NamPower Warns N$700 Million in Unpaid Bills Threatens Finances",
+          "url": "https://allafrica.com/stories/202603160255.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T07:52:52",
+          "lead": "[Namibian] The Namibia Power Corporation (NamPower) says it is struggling to recover about N$700 million in unpaid elect"
+        },
         {
           "title": "RUNNING OUT OF TRACK OP-ED: Why the US visa bond is a gamble for the Trans-Kalahari Railway’s future",
           "url": "https://www.dailymaverick.co.za/article/why-the-us-visa-bond-is-a-gamble-for-the-trans-kalahari-railways-future",
@@ -1430,7 +1736,8 @@
         }
       ],
       "sources": [
-        "Daily Maverick"
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Botswana": {
@@ -1456,10 +1763,10 @@
       ]
     },
     "South Africa": {
-      "article_count": 18,
+      "article_count": 21,
       "source_count": 4,
       "baseline": 14.4,
-      "ratio": 1.25,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1468,15 +1775,19 @@
           "count": 2
         },
         {
-          "word": "Gouvernement",
-          "count": 1
-        },
-        {
           "word": "Guerre",
           "count": 1
         },
         {
+          "word": "Gouvernement",
+          "count": 1
+        },
+        {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         },
         {
@@ -1485,10 +1796,6 @@
         },
         {
           "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Dead",
           "count": 1
         }
       ],
@@ -1530,11 +1837,39 @@
           "lead": "[allAfrica]"
         },
         {
+          "title": "South Africa: A New TB Dashboard Can Help Boost Testing, We Need to Make the Most of It",
+          "url": "https://allafrica.com/stories/202603160301.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T09:01:21",
+          "lead": "[spotlight] The new government TB dashboard is a step forward for transparency and accountability in South Africa's resp"
+        },
+        {
           "title": "South Africa: Foot and Mouth Disease Cases in North West Rise to 179",
           "url": "https://allafrica.com/stories/202603160179.html",
           "source": "AllAfrica",
           "published": "2026-03-16T05:20:30",
           "lead": "[SAnews.gov.za] The North West Department of Agriculture and Rural Development has announced a rise in confirmed cases o"
+        },
+        {
+          "title": "South Africa: One Food Basket Must Stretch Across Seven People in Many Homes",
+          "url": "https://allafrica.com/stories/202603160266.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:27:56",
+          "lead": "[Scrolla] The household food basket used in the affordability index is calculated for a family of seven people each mont"
+        },
+        {
+          "title": "South Africa: Pimville Man Left Factory Job to Build Candle Brand From R2,000",
+          "url": "https://allafrica.com/stories/202603160267.html",
+          "source": "AllAfrica",
+          "published": "2026-03-16T08:28:59",
+          "lead": "[Scrolla] Makatu Tshivhula, 27, left his candle factory job in 2021 and opened his own shop in Pimville, Soweto, with R2"
+        },
+        {
+          "title": "GOLDEN STREAK: SA swimming sensation Callan Lötter rides wave of local success toward Olympic goal",
+          "url": "https://www.dailymaverick.co.za/article/sa-swimming-sensation-callan-lotter-rides-wave-of-local-success-toward-olympic-goal",
+          "source": "Daily Maverick",
+          "published": "2026-03-16T10:44:06",
+          "lead": "Callan Lötter is one of the brightest prospects in South African swimming, with domestic dominance to show for it. But s"
         },
         {
           "title": "BIOSECURITY: Fears mount that provincial budget allocations are insufficient to combat foot-and-mouth disease outbreak",
@@ -1549,41 +1884,13 @@
           "source": "Daily Maverick",
           "published": "2026-03-15T21:31:45",
           "lead": "When the National Energy Regulator of South Africa inspected the Nelson Mandela Bay Municipality’s electricity infrastru"
-        },
-        {
-          "title": "TORN APART: The year the ANC broke: Jackie Selebi’s war with Bulelani Ngcuka and Vusi Pikoli",
-          "url": "https://www.dailymaverick.co.za/article/the-year-the-anc-broke-jackie-selebis-war-with-bulelani-ngcuka-and-vusi-pikoli-",
-          "source": "Daily Maverick",
-          "published": "2026-03-15T21:09:18",
-          "lead": "Three men,  all veterans of the African National Congress and key players in the history of democratic South Africa, as "
-        },
-        {
-          "title": "GUEST ESSAY: Mountain high, mine dump deep — the soulful collision of SA’s two hearts",
-          "url": "https://www.dailymaverick.co.za/article/mountain-high-mine-dump-deep-the-soulful-collision-of-sas-two-hearts",
-          "source": "Daily Maverick",
-          "published": "2026-03-15T20:22:08",
-          "lead": "While Cape Town may look perfect, Johannesburg still wins on energy, encounter and the unpredictable collisions that mak"
-        },
-        {
-          "title": "OUT OF OPTIONS: When steel mills close: the death of the Vaal Triangle",
-          "url": "https://www.dailymaverick.co.za/article/when-steel-mills-close-the-death-of-the-vaal-triangle",
-          "source": "Daily Maverick",
-          "published": "2026-03-15T20:21:48",
-          "lead": "South Africa is deindustrialising rapidly and the Vaal Triangle is ground zero. Daily Maverick went to the Vaal to see h"
-        },
-        {
-          "title": "OP-ED: How groundwater is used, abused and paraded in a crisis",
-          "url": "https://www.dailymaverick.co.za/article/how-groundwater-is-used-abused-and-paraded-in-a-crisis",
-          "source": "Daily Maverick",
-          "published": "2026-03-15T20:07:54",
-          "lead": "While South Africa has various legislation and ample guideline documents governing the use of water resources, they have"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique",
+        "Africanews",
         "Daily Maverick",
-        "Africanews"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Eswatini": {
