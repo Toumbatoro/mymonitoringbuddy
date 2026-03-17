@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-17T15:56:17.485543",
+  "generated_at": "2026-03-17T18:50:11.754752",
   "summary": {
-    "high": 2,
-    "elevated": 9,
-    "normal": 28,
-    "quiet": 15
+    "high": 4,
+    "elevated": 7,
+    "normal": 30,
+    "quiet": 13
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 3.1,
-      "ratio": 1.3,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -21,7 +21,7 @@
           "title": "Ibtissame Lachgar, militante féministe en prison au Maroc, en appelle à la grâce royale après avoir perdu l’usage d’un bras",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/17/ibtissame-lachgar-militante-feministe-en-prison-au-maroc-en-appelle-a-la-grace-royale-apres-avoir-perdu-l-usage-d-un-bras_6671744_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-03-17T15:00:14",
+          "published": "2026-03-17T15:00:12",
           "lead": "Rescapée d’un cancer des os, l’activiste de 50 ans portait une prothèse de l’humérus qui s’est détachée pendant sa déten"
         },
         {
@@ -37,17 +37,9 @@
           "source": "Jeune Afrique",
           "published": "2026-03-17T09:41:17",
           "lead": "Détenus au Maroc depuis la finale de la CAN, ces supporters sont poursuivis pour « hooliganisme ». Des peines de trois m"
-        },
-        {
-          "title": "AFCON 2025 becomes most widely watched edition with 61% global rise",
-          "url": "http://www.africanews.com/2026/03/16/afcon-2025-becomes-most-widely-watched-edition-with-61-global-rise/",
-          "source": "Africanews",
-          "published": "2026-03-16T16:12:30",
-          "lead": "The 37th edition of the Africa Cup of Nations (AFCON 2025), held in Morocco, has shattered records. Preliminary figures "
         }
       ],
       "sources": [
-        "Africanews",
         "Jeune Afrique",
         "Le Monde Afrique"
       ]
@@ -86,8 +78,8 @@
       ],
       "sources": [
         "AllAfrica",
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Tunisia": {
@@ -121,14 +113,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -140,17 +132,17 @@
     "Egypt": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.81,
+      "baseline": 1.3,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Ceasefire",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Ceasefire",
           "count": 1
         }
       ],
@@ -171,19 +163,28 @@
     "Sudan": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 5.6,
+      "baseline": 5.5,
       "ratio": 0.36,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Le Tchad confirme son potentiel de production de gomme arabique",
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260316-le-tchad-confirme-son-potentiel-de-production-de-gomme-arabique",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T23:05:08",
-          "lead": "Le conflit qui oppose l’armée régulière aux forces paramilitaires soudanaises s'est intensifié ces derniers mois et cont"
+          "title": "Drones expand the deadly front lines of Sudan’s devastating war",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/17/drones-expand-the-deadly-front-lines-of-sudans-devastating-war?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-17T15:46:39",
+          "lead": "The United Nations is warning that escalating drone warfare in Sudan has killed more than 200 people in over a week."
         },
         {
           "title": "Au Soudan du Sud, 100 000 personnes ont fui en un mois vers l’Ethiopie",
@@ -194,7 +195,7 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Al Jazeera",
         "Le Monde Afrique"
       ]
     },
@@ -224,7 +225,7 @@
       "article_count": 5,
       "source_count": 4,
       "baseline": 1.9,
-      "ratio": 2.63,
+      "ratio": 2.59,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -237,11 +238,11 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Wagner",
           "count": 1
         },
         {
-          "word": "Wagner",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -284,22 +285,34 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique",
+        "AllAfrica",
         "Human Rights Watch",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.7,
-      "ratio": 0.6,
+      "ratio": 1.2,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Attack",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Suspected jihadists attack village in Burkina Faso, killing at least 12",
+          "url": "http://www.africanews.com/2026/03/17/suspected-jihadists-attack-village-in-burkina-faso-killing-at-least-12/",
+          "source": "Africanews",
+          "published": "2026-03-17T15:46:39",
+          "lead": "Suspected jihadists have attacked a village in Burkina Faso, killing at least 12 civilians, including nine members of a "
+        },
         {
           "title": "West Africa: Algeria's Return to the Sahel - an Opportunity to Show AES Cohesion",
           "url": "https://allafrica.com/stories/202603170044.html",
@@ -309,7 +322,8 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Niger": {
@@ -335,19 +349,15 @@
       ]
     },
     "Senegal": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 4,
       "baseline": 4.3,
-      "ratio": 1.41,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
-          "count": 2
-        },
-        {
-          "word": "Guerre",
           "count": 1
         },
         {
@@ -376,13 +386,6 @@
           "lead": "Détenus au Maroc depuis la finale de la CAN, ces supporters sont poursuivis pour « hooliganisme ». Des peines de trois m"
         },
         {
-          "title": "Sénégal : la coalition Diomaye Président, une « déclaration de guerre » à Ousmane Sonko ?",
-          "url": "https://www.jeuneafrique.com/1773735/politique/senegal-la-coalition-diomaye-president-une-declaration-de-guerre-a-ousmane-sonko/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-16T18:44:34",
-          "lead": "Les relations sont plus tendues que jamais au sommet de l’État, à mesure que la coalition politique de Bassirou Diomaye "
-        },
-        {
           "title": "Appeal trial of 18 Senegalese nationals detained during AFCON final postponed",
           "url": "http://www.africanews.com/2026/03/17/appeal-trial-of-18-senegalese-nationals-detained-during-afcon-final-postponed/",
           "source": "Africanews",
@@ -405,10 +408,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
         "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -436,13 +439,17 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 4,
       "baseline": 1.9,
-      "ratio": 2.11,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.63,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -450,6 +457,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sommet Guinée-Liberia-Sierra Leone: «Une coopération militaire renforcée évitera une escalade à nos frontières»",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-sommet-guin%C3%A9e-liberia-sierra-leone-une-coop%C3%A9ration-militaire-renforc%C3%A9e-%C3%A9vitera-une-escalade-%C3%A0-nos-fronti%C3%A8res",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T16:17:00",
+          "lead": "Après plusieurs incidents à leurs frontières, Guinée, Liberia et Sierra Leone ont signé, lundi16 mars 2026 à Conakry, un"
+        },
         {
           "title": "La Guinée, le Liberia et la Sierra Leone s'engagent à résoudre leurs tensions frontalières par le «dialogue»",
           "url": "https://www.rfi.fr/fr/afrique/20260317-la-guin%C3%A9e-le-liberia-et-la-sierra-leone-s-engagent-%C3%A0-r%C3%A9soudre-leurs-tensions-frontali%C3%A8res-par-le-dialogue",
@@ -480,20 +494,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique",
         "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Sierra Leone": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 0.8,
-      "ratio": 3.91,
+      "ratio": 5.22,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -501,6 +519,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sommet Guinée-Liberia-Sierra Leone: «Une coopération militaire renforcée évitera une escalade à nos frontières»",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-sommet-guin%C3%A9e-liberia-sierra-leone-une-coop%C3%A9ration-militaire-renforc%C3%A9e-%C3%A9vitera-une-escalade-%C3%A0-nos-fronti%C3%A8res",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T16:17:00",
+          "lead": "Après plusieurs incidents à leurs frontières, Guinée, Liberia et Sierra Leone ont signé, lundi16 mars 2026 à Conakry, un"
+        },
         {
           "title": "La Guinée, le Liberia et la Sierra Leone s'engagent à résoudre leurs tensions frontalières par le «dialogue»",
           "url": "https://www.rfi.fr/fr/afrique/20260317-la-guin%C3%A9e-le-liberia-et-la-sierra-leone-s-engagent-%C3%A0-r%C3%A9soudre-leurs-tensions-frontali%C3%A8res-par-le-dialogue",
@@ -524,19 +549,23 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "AllAfrica",
         "France24 Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Liberia": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.88,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "Président",
           "count": 1
@@ -544,6 +573,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sommet Guinée-Liberia-Sierra Leone: «Une coopération militaire renforcée évitera une escalade à nos frontières»",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-sommet-guin%C3%A9e-liberia-sierra-leone-une-coop%C3%A9ration-militaire-renforc%C3%A9e-%C3%A9vitera-une-escalade-%C3%A0-nos-fronti%C3%A8res",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T16:17:00",
+          "lead": "Après plusieurs incidents à leurs frontières, Guinée, Liberia et Sierra Leone ont signé, lundi16 mars 2026 à Conakry, un"
+        },
         {
           "title": "La Guinée, le Liberia et la Sierra Leone s'engagent à résoudre leurs tensions frontalières par le «dialogue»",
           "url": "https://www.rfi.fr/fr/afrique/20260317-la-guin%C3%A9e-le-liberia-et-la-sierra-leone-s-engagent-%C3%A0-r%C3%A9soudre-leurs-tensions-frontali%C3%A8res-par-le-dialogue",
@@ -567,16 +603,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "AllAfrica",
         "France24 Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Côte d'Ivoire": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 0.51,
+      "baseline": 1.9,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -598,7 +634,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.6,
-      "ratio": 0.38,
+      "ratio": 0.39,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -656,24 +692,32 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 19,
+      "article_count": 18,
       "source_count": 7,
       "baseline": 8.9,
-      "ratio": 2.14,
+      "ratio": 2.02,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "President",
+          "count": 5
+        },
         {
           "word": "Killed",
           "count": 5
         },
         {
-          "word": "President",
-          "count": 4
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Boko haram",
+          "count": 1
         },
         {
           "word": "Attack",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Attaque",
@@ -685,10 +729,6 @@
         },
         {
           "word": "Wounded",
-          "count": 1
-        },
-        {
-          "word": "Violence",
           "count": 1
         }
       ],
@@ -702,11 +742,11 @@
           "lead": "Multiple blasts struck some of the Maiduguri's busiest locations on Monday evening."
         },
         {
-          "title": "Fifa sanctions Nigeria and DR Congo over World Cup play-off",
-          "url": "https://www.bbc.com/sport/football/articles/cdxg10vzwp2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-16T18:13:30",
-          "lead": "Fifa fines the Nigeria Football Federation and DR Congo Football Association for separate disciplinary breaches by suppo"
+          "title": "Nigeria tightens security in Maiduguri after suicide attacks",
+          "url": "https://www.dw.com/en/nigeria-tightens-security-in-maiduguri-after-suicide-attacks/a-76398081?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-03-17T16:37:00",
+          "lead": "President Bola Tinubu has ordered security chiefs to relocate to Maiduguri, following Monday's suicide bombings that lef"
         },
         {
           "title": "Nigeria: At least 23 killed in Maiduguri 'suicide' attacks",
@@ -781,11 +821,11 @@
       ],
       "sources": [
         "The Guardian Africa",
+        "RFI Afrique",
         "DW Africa",
+        "BBC Africa",
         "AllAfrica",
         "Le Monde Afrique",
-        "RFI Afrique",
-        "BBC Africa",
         "Africanews"
       ]
     },
@@ -802,12 +842,12 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.88,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.25,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -819,13 +859,6 @@
           "lead": "Au Tchad et en particulier dans la capitale, des enseignants n’ont pas perçu de salaire depuis février 2026. En cause, u"
         },
         {
-          "title": "Le Tchad confirme son potentiel de production de gomme arabique",
-          "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260316-le-tchad-confirme-son-potentiel-de-production-de-gomme-arabique",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T23:05:08",
-          "lead": "Le conflit qui oppose l’armée régulière aux forces paramilitaires soudanaises s'est intensifié ces derniers mois et cont"
-        },
-        {
           "title": "Ventes d’armes : Mali, Guinée, Tchad, Maroc… Qui figure dans le top 10 des acheteurs africains ?",
           "url": "https://www.jeuneafrique.com/1774263/politique/ventes-darmes-mali-guinee-tchad-maroc-qui-figure-dans-le-top-10-des-acheteurs-africains/",
           "source": "Jeune Afrique",
@@ -834,15 +867,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Cameroon": {
       "article_count": 5,
       "source_count": 2,
-      "baseline": 3.0,
-      "ratio": 1.67,
+      "baseline": 3.1,
+      "ratio": 1.63,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -898,8 +931,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "CAR": {
@@ -972,12 +1005,12 @@
       ]
     },
     "Gabon": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.5,
-      "ratio": 1.33,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.0,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -994,23 +1027,31 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-17T10:14:07",
           "lead": "Pour justifier cette suspension, la Haute Autorité de la communication du pays évoque notamment la diffusion « récurrent"
+        },
+        {
+          "title": "Dette : les dessous du fonds diaspora made in Gabon qui doit soulager les finances publiques",
+          "url": "https://www.jeuneafrique.com/1774860/economie-entreprises/dette-les-dessous-du-fonds-diaspora-made-in-gabon-qui-doit-soulager-les-finances-publiques/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-17T19:45:55",
+          "lead": "Un collectif d’investisseurs de la diaspora finalise la création d’un fonds pour injecter des capitaux dans l’économie g"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Jeune Afrique",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Congo": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 2.0,
-      "ratio": 1.5,
+      "ratio": 2.03,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "President",
+          "word": "Président",
           "count": 2
         },
         {
@@ -1018,12 +1059,19 @@
           "count": 2
         },
         {
-          "word": "Président",
-          "count": 1
+          "word": "President",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Congo-Brazzaville: Denis Sassou-Nguesso élu président pour la cinquième fois consécutive",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-congo-brazzaville-denis-sassou-nguesso-%C3%A9lu-pr%C3%A9sident-pour-la-cinqui%C3%A8me-fois-cons%C3%A9cutive",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T17:38:46",
+          "lead": "Au Congo-Brazzaville, le président sortant Denis Sassou-Nguesso a été annoncé, mardi 17 mars 2026 en fin de journée, vai"
+        },
         {
           "title": "Présidentielle au Congo-B: la commission électorale satisfaite malgré la coupure des télécommunications",
           "url": "https://www.rfi.fr/fr/afrique/20260317-pr%C3%A9sidentielle-au-congo-b-commission-%C3%A9lectorale-satisfaite-malgr%C3%A9-la-coupure-des-t%C3%A9l%C3%A9communications",
@@ -1047,18 +1095,26 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "DRC": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 7,
+      "source_count": 4,
       "baseline": 7.3,
-      "ratio": 0.55,
+      "ratio": 0.96,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
         {
           "word": "Attaque",
           "count": 1
@@ -1066,10 +1122,29 @@
         {
           "word": "M23",
           "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Belgian court sends ex-diplomat, 93, to trial over 1961 murder of Congo leader",
+          "url": "https://www.theguardian.com/world/2026/mar/17/ex-belgian-diplomat-93-trial-1961-murder-patrice-lumumba",
+          "source": "The Guardian Africa",
+          "published": "2026-03-17T18:03:45",
+          "lead": "Family of then PM, Patrice Lumumba, welcome decision to charge Étienne Davignon as ‘beginning of a reckoning’ A former B"
+        },
         {
           "title": "Nord-Est de la RDC: nouvelle attaque meurtrière attribuée au groupe ADF dans l’Ituri",
           "url": "https://www.rfi.fr/fr/afrique/20260317-nord-est-de-la-rdc-nouvelle-attaque-meurtri%C3%A8re-attribu%C3%A9e-au-groupe-adf-dans-l-ituri",
@@ -1092,16 +1167,32 @@
           "lead": "Incursions d’hommes armés et tirs nourris dans la nuit de dimanche à lundi à Mugunga, dans la commune de Karisimbi, à l’"
         },
         {
+          "title": "En RDC, la Constitution est-elle l’otage des ambitions de Félix Tshisekedi ?",
+          "url": "https://www.jeuneafrique.com/1774283/politique/en-rdc-la-constitution-est-elle-lotage-des-ambitions-de-felix-tshisekedi/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-17T18:49:28",
+          "lead": "Alors qu’il avait été mis en sourdine après l’intensification de la guerre dans l’Est, le débat sur une révision de la C"
+        },
+        {
           "title": "Est de la RDC : des émissaires de Félix Tshisekedi et Paul Kagame attendus à Washington",
           "url": "https://www.jeuneafrique.com/1774559/politique/est-de-la-rdc-des-emissaires-de-felix-tshisekedi-et-paul-kagame-attendus-a-washington/",
           "source": "Jeune Afrique",
           "published": "2026-03-16T19:07:43",
           "lead": "L’administration Trump a invité des représentants rwandais et congolais à reprendre les discussions après plusieurs sema"
+        },
+        {
+          "title": "Thousands of DR Congo refugees struggle in overcrowded Burundi camp",
+          "url": "http://www.africanews.com/2026/03/17/thousands-of-dr-congo-refugees-struggle-in-overcrowded-burundi-camp/",
+          "source": "Africanews",
+          "published": "2026-03-17T17:14:06",
+          "lead": "Tens of thousands of Congolese refugees are enduring dire conditions at Burundi's Busuma camp after fleeing renewed figh"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "The Guardian Africa",
+        "Africanews",
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1120,7 +1211,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.97,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1176,7 +1267,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 3.3,
-      "ratio": 0.3,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1202,8 +1293,8 @@
     "Somalia": {
       "article_count": 2,
       "source_count": 1,
-      "baseline": 2.0,
-      "ratio": 1.0,
+      "baseline": 2.1,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1264,15 +1355,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 11,
-      "source_count": 6,
+      "article_count": 12,
+      "source_count": 5,
       "baseline": 6.2,
-      "ratio": 1.76,
+      "ratio": 1.95,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1283,14 +1374,6 @@
         {
           "word": "Killed",
           "count": 2
-        },
-        {
-          "word": "Drought",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
         },
         {
           "word": "Minister",
@@ -1305,19 +1388,20 @@
           "count": 1
         },
         {
+          "word": "Attack",
+          "count": 1
+        },
+        {
           "word": "Déplacés",
+          "count": 1
+        },
+        {
+          "word": "Flood",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "‘How do I survive?’ Drought plagues Kenya’s Turkana amid surplus elsewhere",
-          "url": "https://www.aljazeera.com/features/2026/3/17/how-do-i-survive-drought-plagues-kenyas-turkana-amid-surplus-elsewhere?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-17T11:07:46",
-          "lead": "As a quarter of Kenya’s population faces severe food shortages, up to 40% of food produced is lost or wasted each year."
-        },
         {
           "title": "Kenya: Building demolition work goes wrong, killing several",
           "url": "https://www.dw.com/en/kenya-building-demolition-work-goes-wrong-killing-several/a-76387733?maca=en-rss-en-africa-8291-xml-mrss",
@@ -1333,11 +1417,25 @@
           "lead": "No more Kenyans to be enlisted by Moscow; Starmer warns against fossil fuel ‘windfall for Putin’ during war on Iran. Wha"
         },
         {
+          "title": "Les Kényans ne seront plus enrôlés au sein de l’armée russe, affirme de Moscou le ministre des affaires étrangères kényan",
+          "url": "https://www.lemonde.fr/international/article/2026/03/17/les-kenyans-ne-seront-plus-enroles-au-sein-de-l-armee-russe-affirme-de-moscou-le-ministre-des-affaires-etrangeres-kenyan_6671774_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-17T17:34:19",
+          "lead": "En visite à Moscou, Musalia Mudavadi, premier ministre et chef de la diplomatie kényane, a affirmé lundi que la Russie a"
+        },
+        {
           "title": "Au Kenya, après plus de 70 morts dans des inondations, la polémique enfle",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/17/au-kenya-apres-plus-de-60-morts-dans-des-inondations-la-polemique-enfle_6671702_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-17T11:30:00",
           "lead": "Des pluies torrentielles à travers le pays ont fait des victimes et des milliers de déplacés. A Nairobi, la colère monte"
+        },
+        {
+          "title": "Two men appear in Nairobi court charged with illegally trading in ants",
+          "url": "http://www.africanews.com/2026/03/17/two-men-appear-in-nairobi-court-charged-with-illegally-trading-in-ants/",
+          "source": "Africanews",
+          "published": "2026-03-17T17:10:01",
+          "lead": "Two men appeared before a Nairobi court on Tuesday, charged with illegally trading in live ants."
         },
         {
           "title": "Kenya: Nairobi building collapse kills at least two and injures several others",
@@ -1390,7 +1488,6 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
         "The Guardian Africa",
         "DW Africa",
         "AllAfrica",
@@ -1402,7 +1499,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1434,22 +1531,41 @@
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.77,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Thousands of DR Congo refugees struggle in overcrowded Burundi camp",
+          "url": "http://www.africanews.com/2026/03/17/thousands-of-dr-congo-refugees-struggle-in-overcrowded-burundi-camp/",
+          "source": "Africanews",
+          "published": "2026-03-17T17:14:06",
+          "lead": "Tens of thousands of Congolese refugees are enduring dire conditions at Burundi's Busuma camp after fleeing renewed figh"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Tanzania": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.11,
+      "ratio": 1.15,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1468,27 +1584,19 @@
       ]
     },
     "Madagascar": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.2,
-      "ratio": 1.38,
+      "ratio": 0.92,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
+          "word": "Election",
           "count": 1
         },
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Election",
           "count": 1
         }
       ],
@@ -1502,13 +1610,6 @@
           "lead": "Inconnu du grand public, Mamitiana Rajaonarison a fait l’essentiel de sa carrière dans l’administration publique et la l"
         },
         {
-          "title": "À Madagascar, le président Randrianirina, déjà critiqué, fait le pari d’un Premier ministre « anticorruption »",
-          "url": "https://www.jeuneafrique.com/1774426/politique/a-madagascar-le-president-randrianirina-deja-critique-fait-le-pari-dun-premier-ministre-anticorruption/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-16T17:20:14",
-          "lead": "Le nouveau chef du gouvernement, Rajaonarison Mamitiana, entre en fonction alors que les autorités cherchent toujours à "
-        },
-        {
           "title": "FORBIDDEN STORIES: Mbalula's covert meetings and manoeuvres of Russian influence agents in SA, Namibia and Madagascar",
           "url": "https://www.dailymaverick.co.za/article/mbalulas-covert-meetings-and-manoeuvres-of-russian-influence-agents-in-sa-namibia-and-madagascar",
           "source": "Daily Maverick",
@@ -1518,7 +1619,6 @@
       ],
       "sources": [
         "Daily Maverick",
-        "Jeune Afrique",
         "Le Monde Afrique"
       ]
     },
@@ -1562,14 +1662,14 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.76,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Aspiring female Zambian politicians asked for sexual favours, official says",
+          "title": "Aspiring female Zambian politicians were asked for sexual favours, official says",
           "url": "https://www.bbc.com/news/articles/cm28ldvj3jvo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
           "published": "2026-03-17T13:31:08",
@@ -1584,7 +1684,7 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 2.73,
+      "ratio": 2.86,
       "status": "elevated",
       "confidence": "low",
       "keywords": [],
@@ -1610,16 +1710,26 @@
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.9,
+      "ratio": 1.07,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mozambique troops accused of killing fishermen in conflict-hit Cabo Delgado",
+          "url": "http://www.africanews.com/2026/03/17/mozambique-troops-accused-of-killing-fishermen-in-conflict-hit-cabo-delgado/",
+          "source": "Africanews",
+          "published": "2026-03-17T17:07:11",
+          "lead": "Mozambique’s military is under scrutiny after troops reportedly opened fire on fishermen in the country’s conflict-hit n"
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Zimbabwe": {
       "article_count": 2,
@@ -1659,11 +1769,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1684,8 +1794,8 @@
     "Botswana": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.6,
-      "ratio": 1.76,
+      "baseline": 0.5,
+      "ratio": 1.88,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1704,31 +1814,31 @@
       ]
     },
     "South Africa": {
-      "article_count": 14,
+      "article_count": 12,
       "source_count": 5,
       "baseline": 14.6,
-      "ratio": 0.96,
+      "ratio": 0.82,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 3
-        },
-        {
-          "word": "Minister",
-          "count": 2
-        },
         {
           "word": "Guerre",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         },
         {
           "word": "Election",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         },
         {
@@ -1740,12 +1850,7 @@
           "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Government",
-          "Minister"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "Afrique du Sud: la lassitude des victimes de l’apartheid face à une commission d'enquête paralysée",
@@ -1767,13 +1872,6 @@
           "source": "Africanews",
           "published": "2026-03-17T13:53:18",
           "lead": "South Africa's state prosecutors have reinstated bribery and corruption charges against a former government minister and"
-        },
-        {
-          "title": "South African farmers reeling from foot-and-mouth disaster",
-          "url": "http://www.africanews.com/2026/03/16/south-african-farmers-reeling-from-foot-and-mouth-disaster/",
-          "source": "Africanews",
-          "published": "2026-03-16T17:22:11",
-          "lead": "Farmers in South Africa facing an eruption of foot-and-mouth disease say a government vaccination effort has come too la"
         },
         {
           "title": "South Africa: Missing Joburg Mayoral Chains and Sword Found - - but Questions Remain",
@@ -1830,13 +1928,20 @@
           "source": "Daily Maverick",
           "published": "2026-03-16T21:13:03",
           "lead": "As South Africa’s genocide case against Israel progresses, the International Court of Justice’s eventual ruling may take"
+        },
+        {
+          "title": "MOVING ART: Joburg spends R23.6m relocating City’s most valuable art to location with security concerns",
+          "url": "https://www.dailymaverick.co.za/article/joburg-spends-r236m-relocating-citys-most-valuable-art-to-location-with-security-concerns",
+          "source": "Daily Maverick",
+          "published": "2026-03-16T20:22:57",
+          "lead": "Mayor Dada Morero’s commitment to spending R50m on restoring the Johannesburg Art Gallery was welcomed by residents and "
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Daily Maverick",
         "AllAfrica",
         "Le Monde Afrique",
-        "RFI Afrique",
         "Africanews"
       ]
     },
