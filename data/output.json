@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-17T06:53:52.973908",
+  "generated_at": "2026-03-17T09:45:44.255391",
   "summary": {
-    "high": 2,
-    "elevated": 7,
-    "normal": 26,
-    "quiet": 19
+    "high": 3,
+    "elevated": 5,
+    "normal": 30,
+    "quiet": 16
   },
   "countries": {
     "Morocco": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 3.1,
-      "ratio": 0.97,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -23,6 +23,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-16T23:01:28",
           "lead": "Caftan, jellaba, babouche, les habits traditionnels marocains ont la côte en Afrique de l’Ouest pour la Korité, la fête "
+        },
+        {
+          "title": "CAN au Maroc : dès son ouverture, le procès en appel des 18 supporters sénégalais a été reporté",
+          "url": "https://www.jeuneafrique.com/1774664/societe/can-au-maroc-des-son-ouverture-le-proces-en-appel-des-18-supporters-senegalais-a-ete-reporte/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-17T09:41:17",
+          "lead": "Détenus au Maroc depuis la finale de la CAN, ces supporters sont poursuivis pour « hooliganisme ». Des peines de trois m"
         },
         {
           "title": "Pourquoi le Maroc est-il devenu le premier acheteur d’armes du continent ?",
@@ -40,31 +47,39 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Jeune Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.48,
+      "ratio": 0.97,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Algérie-France : les ministres Ahmed Attaf et Jean-Noël Barrot ont repris le dialogue",
-          "url": "https://www.jeuneafrique.com/1774254/politique/algerie-france-les-ministres-ahmed-attaf-et-jean-noel-barrot-ont-repris-le-dialogue/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-16T09:10:00",
-          "lead": "Les ministres alégrien et français des Affaires étrangères « ont évoqué les enjeux de la relance de la coopération bilat"
+          "title": "Pope Leo XIV to deliver prayers and calls for peace on landmark Africa tour",
+          "url": "http://www.africanews.com/2026/03/17/pope-leo-xiv-to-deliver-prayers-and-calls-for-peace-on-landmark-africa-tour/",
+          "source": "Africanews",
+          "published": "2026-03-17T06:32:20",
+          "lead": "The head of the Catholic Church will travel to four countries — Algeria, Cameroon, Angola and Equatorial Guinea — delive"
+        },
+        {
+          "title": "West Africa: Algeria's Return to the Sahel - an Opportunity to Show AES Cohesion",
+          "url": "https://allafrica.com/stories/202603170044.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:29:41",
+          "lead": "[ISS] Although Mali remains sceptical, Niger and Burkina Faso's thawing relationship with Algeria could pave the way for"
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Tunisia": {
@@ -129,13 +144,22 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 5.5,
-      "ratio": 0.18,
+      "ratio": 0.36,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -144,52 +168,40 @@
           "source": "RFI Afrique",
           "published": "2026-03-16T23:05:08",
           "lead": "Le conflit qui oppose l’armée régulière aux forces paramilitaires soudanaises s'est intensifié ces derniers mois et cont"
+        },
+        {
+          "title": "Sudan: RSF Reportedly Seizes Bara in North Kordofan Advance",
+          "url": "https://allafrica.com/stories/202603170052.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:35:37",
+          "lead": "[Dabanga] Bara / El Obeid / El Tina / Kosti -- The paramilitary Rapid Support Forces (RSF) have reportedly seized contro"
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique"
       ]
     },
     "Mauritania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.43,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Réfugiés",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Le Mali affirme que deux soldats étaient «détenus par des groupes terroristes» en Mauritanie",
-          "url": "https://www.rfi.fr/fr/afrique/20260316-le-mali-affirme-que-deux-soldats-%C3%A9taient-d%C3%A9tenus-par-des-groupes-terroristes-en-mauritanie",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T13:04:15",
-          "lead": "Le ministère mauritanien des Affaires étrangères a fait part ce 16 mars 2026 de sa « stupéfaction » et de son « indignat"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mali": {
       "article_count": 2,
-      "source_count": 1,
+      "source_count": 2,
       "baseline": 1.8,
-      "ratio": 1.11,
+      "ratio": 1.09,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Réfugiés",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -200,46 +212,67 @@
           "lead": "Une parabole blanche qui permet de se connecter n’importe où : au Sahel, les groupes armés utilisent de plus en plus le "
         },
         {
-          "title": "Le Mali affirme que deux soldats étaient «détenus par des groupes terroristes» en Mauritanie",
-          "url": "https://www.rfi.fr/fr/afrique/20260316-le-mali-affirme-que-deux-soldats-%C3%A9taient-d%C3%A9tenus-par-des-groupes-terroristes-en-mauritanie",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T13:04:15",
-          "lead": "Le ministère mauritanien des Affaires étrangères a fait part ce 16 mars 2026 de sa « stupéfaction » et de son « indignat"
+          "title": "West Africa: Algeria's Return to the Sahel - an Opportunity to Show AES Cohesion",
+          "url": "https://allafrica.com/stories/202603170044.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:29:41",
+          "lead": "[ISS] Although Mali remains sceptical, Niger and Burkina Faso's thawing relationship with Algeria could pave the way for"
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.61,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "West Africa: Algeria's Return to the Sahel - an Opportunity to Show AES Cohesion",
+          "url": "https://allafrica.com/stories/202603170044.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:29:41",
+          "lead": "[ISS] Although Mali remains sceptical, Niger and Burkina Faso's thawing relationship with Algeria could pave the way for"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.55,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "West Africa: Algeria's Return to the Sahel - an Opportunity to Show AES Cohesion",
+          "url": "https://allafrica.com/stories/202603170044.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:29:41",
+          "lead": "[ISS] Although Mali remains sceptical, Niger and Burkina Faso's thawing relationship with Algeria could pave the way for"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Senegal": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 4.3,
-      "ratio": 0.94,
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 4.2,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -249,6 +282,10 @@
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -262,6 +299,13 @@
           "lead": "Au Sénégal, les camps politiques autour du président et de son premier ministre se structurent. Une semaine après l’orga"
         },
         {
+          "title": "CAN au Maroc : dès son ouverture, le procès en appel des 18 supporters sénégalais a été reporté",
+          "url": "https://www.jeuneafrique.com/1774664/societe/can-au-maroc-des-son-ouverture-le-proces-en-appel-des-18-supporters-senegalais-a-ete-reporte/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-17T09:41:17",
+          "lead": "Détenus au Maroc depuis la finale de la CAN, ces supporters sont poursuivis pour « hooliganisme ». Des peines de trois m"
+        },
+        {
           "title": "Sénégal : la coalition Diomaye Président, une « déclaration de guerre » à Ousmane Sonko ?",
           "url": "https://www.jeuneafrique.com/1773735/politique/senegal-la-coalition-diomaye-president-une-declaration-de-guerre-a-ousmane-sonko/",
           "source": "Jeune Afrique",
@@ -269,24 +313,25 @@
           "lead": "Les relations sont plus tendues que jamais au sommet de l’État, à mesure que la coalition politique de Bassirou Diomaye "
         },
         {
-          "title": "Pétrole et gaz : pourquoi le Sénégal cherche encore la formule gagnante",
-          "url": "https://www.jeuneafrique.com/1771553/economie-entreprises/petrole-et-gaz-pourquoi-le-senegal-cherche-encore-la-formule-gagnante/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-16T08:31:41",
-          "lead": "Propulsé dans le club des producteurs africains de pétrole et de gaz naturel liquéfié (GNL) par Woodside et BP, le pays "
-        },
-        {
           "title": "Senegal makes $471 Million debt payment but faces tough times head",
           "url": "http://www.africanews.com/2026/03/14/senegal-makes-471-million-debt-payment-but-faces-tough-times-head/",
           "source": "Africanews",
           "published": "2026-03-16T12:23:42",
           "lead": "Senegal successfully paid nearly half a billion dollars in debt obligations on Friday, avoiding default, but spending cu"
+        },
+        {
+          "title": "Senegal: Senegal's Crisis - Why Debt Restructuring May Be the Least Bad Option",
+          "url": "https://allafrica.com/stories/202603170047.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:31:07",
+          "lead": "[The Conversation Africa] Senegal is facing a serious debt crisis. The IMF estimated the country's debt at 132% of GDP a"
         }
       ],
       "sources": [
+        "AllAfrica",
+        "Africanews",
         "Jeune Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -344,8 +389,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Sierra Leone": {
@@ -386,9 +431,9 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "Jeune Afrique",
-        "RFI Afrique",
-        "France24 Afrique"
+        "RFI Afrique"
       ]
     },
     "Liberia": {
@@ -433,14 +478,14 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "The Guardian Africa",
         "RFI Afrique",
-        "The Guardian Africa"
+        "France24 Afrique"
       ]
     },
     "Côte d'Ivoire": {
       "article_count": 2,
-      "source_count": 2,
+      "source_count": 1,
       "baseline": 2.0,
       "ratio": 1.02,
       "status": "normal",
@@ -449,44 +494,41 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Bruno Nabagné Koné : « Les difficultés dans le cacao vont renforcer l’alliance entre la Côte d’Ivoire et le Ghana »",
+          "url": "https://www.jeuneafrique.com/1774579/economie-entreprises/bruno-nabagne-kone-les-difficultes-dans-le-cacao-vont-renforcer-lalliance-entre-la-cote-divoire-et-le-ghana/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-17T08:04:03",
+          "lead": "Souveraineté alimentaire, cacao, transformation… Pour le nouveau ministre ivoirien de l’Agriculture, le pays doit consol"
+        },
+        {
           "title": "Air Côte d’Ivoire : la ligne Paris-Abidjan piétine, Beyrouth déjà incertaine",
           "url": "https://www.jeuneafrique.com/1774031/economie-entreprises/air-cote-divoire-la-ligne-paris-abidjan-pietine-beyrouth-deja-incertaine/",
           "source": "Jeune Afrique",
           "published": "2026-03-16T13:37:29",
           "lead": "Entre une ligne Paris-Abidjan encore loin de la rentabilité et un projet vers Beyrouth suspendu au conflit au Moyen-Orie"
-        },
-        {
-          "title": "Ivory Coast marks 10 years since deadly Grand-Bassam beach attacks",
-          "url": "http://www.africanews.com/2026/03/13/ivory-coast-marks-10-years-since-deadly-grand-bassam-beach-attacks/",
-          "source": "Africanews",
-          "published": "2026-03-16T12:26:16",
-          "lead": "On March 13, 2016, three gunmen moved along the beach and stormed three adjacent hotels, sometimes shooting people in th"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Jeune Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 5,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.85,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 1.48,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Bruno Nabagné Koné : « Les difficultés dans le cacao vont renforcer l’alliance entre la Côte d’Ivoire et le Ghana »",
+          "url": "https://www.jeuneafrique.com/1774579/economie-entreprises/bruno-nabagne-kone-les-difficultes-dans-le-cacao-vont-renforcer-lalliance-entre-la-cote-divoire-et-le-ghana/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-17T08:04:03",
+          "lead": "Souveraineté alimentaire, cacao, transformation… Pour le nouveau ministre ivoirien de l’Agriculture, le pays doit consol"
+        },
         {
           "title": "Africa: After Nearly 30 Years with AGOA--Passing the Baton",
           "url": "https://allafrica.com/stories/202603160699.html",
@@ -507,24 +549,11 @@
           "source": "AllAfrica",
           "published": "2026-03-16T10:53:46",
           "lead": "[Ghanaian Times] THE Public Utilities Regulatory Commission (PURC) has announced reductions in electricity and water tar"
-        },
-        {
-          "title": "Ghana: 2 Days Holiday Declared for Eid-UL-Fitr and Shaqq Day Celebrations",
-          "url": "https://allafrica.com/stories/202603160455.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T10:54:23",
-          "lead": "[Ghanaian Times] The government has declared Friday, March 20 and Saturday, March 21, 2026, as statutory public holidays"
-        },
-        {
-          "title": "Ghana: Ghana's Investment Reset - 1 Year Into John Mahama's Presidency",
-          "url": "https://allafrica.com/stories/202603160453.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T10:53:07",
-          "lead": "[Ghanaian Times] GHANA is experiencing a remarkable resurgence as a credible and increasingly attractive destination for"
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Togo": {
@@ -567,15 +596,15 @@
       "sources": []
     },
     "Nigeria": {
-      "article_count": 10,
+      "article_count": 12,
       "source_count": 7,
-      "baseline": 8.7,
-      "ratio": 1.15,
+      "baseline": 8.6,
+      "ratio": 1.4,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
+          "word": "Attack",
           "count": 2
         },
         {
@@ -587,19 +616,23 @@
           "count": 2
         },
         {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
           "word": "War",
           "count": 1
         },
         {
+          "word": "Président",
+          "count": 1
+        },
+        {
           "word": "Djihadiste",
-          "count": 1
-        },
-        {
-          "word": "Attack",
-          "count": 1
-        },
-        {
-          "word": "Violence",
           "count": 1
         }
       ],
@@ -613,18 +646,18 @@
           "lead": "Fifa fines the Nigeria Football Federation and DR Congo Football Association for separate disciplinary breaches by suppo"
         },
         {
-          "title": "At least 23 killed after blasts hit Nigeria’s Maiduguri, police say",
-          "url": "https://www.aljazeera.com/news/2026/3/17/many-killed-wounded-after-blasts-hit-nigerias-maiduguri-witnesses-say?traffic_source=rss",
+          "title": "Nigeria’s first state visit since 1989: President Bola Tinubu heads to UK",
+          "url": "https://www.aljazeera.com/news/2026/3/17/nigerias-first-state-visit-since-1989-president-bola-tinubu-heads-to-uk?traffic_source=rss",
           "source": "Al Jazeera",
-          "published": "2026-03-17T01:05:44",
-          "lead": "Police say &#039;preliminary investigation reveals that the incidents were carried out by suspected suicide bombers&#039"
+          "published": "2026-03-17T08:29:41",
+          "lead": "British pomp and pageantry await the Nigerian leader, but some in the diaspora are sceptical about his trip."
         },
         {
-          "title": "Scores of people killed in series of bomb blasts in northern Nigeria",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/17/scores-of-people-killed-in-series-of-bomb-blasts-in-northern-nigeria?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-17T00:35:27",
-          "lead": "Footage shows the aftermath of deadly blasts in Maiduguri in northeastern Nigeria."
+          "title": "Nigeria: At least 23 killed in Maiduguri 'suicide' attacks",
+          "url": "https://www.dw.com/en/nigeria-at-least-23-killed-in-maiduguri-suicide-attacks/a-76389982?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-03-17T07:48:00",
+          "lead": "The series of suicide bombings in Borno state came after an attack on a military post on Sunday night."
         },
         {
           "title": "Africa: What oil producers can do to counter price shocks",
@@ -641,11 +674,18 @@
           "lead": "Scène de chaos à Maiduguri ce lundi soir. Moins d'une heure après la rupture du jeûne des musulmans, la capitale de l'Ét"
         },
         {
-          "title": "Au Nigeria, la ville de Maiduguri frappée par une série d’attentats",
+          "title": "Royaume-Uni: Bola Tinubu effectue la première visite d’État d’un président du Nigeria depuis 1989",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-royaume-uni-bola-tinubu-effectue-la-premi%C3%A8re-visite-d-%C3%A9tat-d-un-pr%C3%A9sident-du-nigeria-depuis-1989",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T07:30:17",
+          "lead": "Le président nigérian Bola Tinubu est attendu à Londres ce 17 mars 2026 pour la première visite d'État en près de 40 ans"
+        },
+        {
+          "title": "Au Nigeria, la ville de Maiduguri frappée par une série d’attentats, au moins 23 morts",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/17/nigeria-la-ville-de-maiduguri-frappee-par-une-serie-d-attentats_6671479_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-17T00:27:15",
-          "lead": "Boko Haram et d’autres groupes djihadistes ont intensifié leurs attaques autour de cette ville stratégique du nord-est d"
+          "lead": "Ces attentats surviennent après une période de relative tranquillité dans cette ville du Nord-Est depuis que l’insurrect"
         },
         {
           "title": "Au Nigeria, une attaque djihadiste repoussée à Maiduguri, une première depuis des années",
@@ -669,21 +709,28 @@
           "lead": "Suspected jihadists launched an overnight attack on a Nigerian military post on the outskirts of Maiduguri, a key northe"
         },
         {
-          "title": "Nigeria: Lassa Fever Death Toll Hits 109 Despite Decline in New Infections - NCDC",
-          "url": "https://allafrica.com/stories/202603160658.html",
+          "title": "Africa: Mental Health Laws Ignore Traditional Care in Africa - Insights From 5 Countries",
+          "url": "https://allafrica.com/stories/202603170148.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T14:15:11",
-          "lead": "[Premium Times] The NCDC said the case fatality rate currently stands at 23.2 per cent, higher than the 18.7 per cent re"
+          "published": "2026-03-17T09:33:03",
+          "lead": "[The Conversation Africa] When Idoko, a 23-year-old man living in rural Benue State, north central Nigeria, began hearin"
+        },
+        {
+          "title": "Nigeria: Bomb Explosions Rock Maiduguri",
+          "url": "https://allafrica.com/stories/202603170013.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:12:54",
+          "lead": "[Premium Times] It is not clear yet what caused the explosions, but residents said they suspected bombs planted by Boko "
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "BBC Africa",
         "RFI Afrique",
-        "DW Africa",
-        "Africanews",
+        "Al Jazeera",
         "AllAfrica",
-        "Le Monde Afrique",
-        "Al Jazeera"
+        "Africanews",
+        "DW Africa"
       ]
     },
     "Cape Verde": {
@@ -699,15 +746,22 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.65,
+      "ratio": 1.3,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Au Tchad, le désarroi et les difficultés d’un enseignant gréviste et sans salaire",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-au-tchad-le-d%C3%A9sarroi-et-les-difficult%C3%A9s-d-un-enseignant-gr%C3%A9viste-et-sans-salaire",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T09:21:43",
+          "lead": "Au Tchad et en particulier dans la capitale, des enseignants n’ont pas perçu de salaire depuis février 2026. En cause, u"
+        },
         {
           "title": "Le Tchad, confirme son potentiel de production de gomme arabique",
           "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260316-le-tchad-confirme-son-potentiel-de-production-de-gomme-arabique",
@@ -721,19 +775,15 @@
       ]
     },
     "Cameroon": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 3.0,
-      "ratio": 1.32,
+      "ratio": 0.99,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -754,23 +804,16 @@
           "lead": "Le gouvernement vient d’entamer des discussions avec le groupe britannique en vue de l’acquisition à l’amiable des centr"
         },
         {
-          "title": "Cameroun : Franck Hertz, fils de Chantal Biya, ou dauphin potentiel de Paul Biya ?",
-          "url": "https://www.jeuneafrique.com/1771486/politique/cameroun-franck-hertz-fils-de-chantal-biya-ou-dauphin-potentiel-de-paul-biya/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-16T07:00:00",
-          "lead": "Longtemps resté à distance des cercles visibles du pouvoir, Franck Hertz, l’un des fils de Chantal Biya, s’impose progre"
-        },
-        {
-          "title": "Congo begins vote count as President Denis Sassou N’Guesso eyes fifth term",
-          "url": "http://www.africanews.com/2026/03/16/congo-begins-vote-count-as-president-denis-sassou-nguesso-eyes-fifth-term/",
+          "title": "Pope Leo XIV to deliver prayers and calls for peace on landmark Africa tour",
+          "url": "http://www.africanews.com/2026/03/17/pope-leo-xiv-to-deliver-prayers-and-calls-for-peace-on-landmark-africa-tour/",
           "source": "Africanews",
-          "published": "2026-03-16T09:26:10",
-          "lead": "If confirmed, Sassou N’Guesso’s victory would reinforce a broader pattern of long-serving African leaders maintaining th"
+          "published": "2026-03-17T06:32:20",
+          "lead": "The head of the Catholic Church will travel to four countries — Algeria, Cameroon, Angola and Equatorial Guinea — delive"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
@@ -819,20 +862,15 @@
       "ratio": 2.0,
       "status": "normal",
       "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Congo begins vote count as President Denis Sassou N’Guesso eyes fifth term",
-          "url": "http://www.africanews.com/2026/03/16/congo-begins-vote-count-as-president-denis-sassou-nguesso-eyes-fifth-term/",
+          "title": "Pope Leo XIV to deliver prayers and calls for peace on landmark Africa tour",
+          "url": "http://www.africanews.com/2026/03/17/pope-leo-xiv-to-deliver-prayers-and-calls-for-peace-on-landmark-africa-tour/",
           "source": "Africanews",
-          "published": "2026-03-16T09:26:10",
-          "lead": "If confirmed, Sassou N’Guesso’s victory would reinforce a broader pattern of long-serving African leaders maintaining th"
+          "published": "2026-03-17T06:32:20",
+          "lead": "The head of the Catholic Church will travel to four countries — Algeria, Cameroon, Angola and Equatorial Guinea — delive"
         }
       ],
       "sources": [
@@ -842,8 +880,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.4,
-      "ratio": 0.7,
+      "baseline": 1.5,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -862,20 +900,20 @@
       ]
     },
     "Congo": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 2.0,
-      "ratio": 2.0,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
-          "word": "Election",
-          "count": 2
+          "word": "President",
+          "count": 3
         },
         {
-          "word": "President",
-          "count": 2
+          "word": "Election",
+          "count": 3
         },
         {
           "word": "Président",
@@ -885,7 +923,7 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Présidentielle au Congo-B: commission électorale satisfaite malgré la coupure des télécommunications",
+          "title": "Présidentielle au Congo-B: la commission électorale satisfaite malgré la coupure des télécommunications",
           "url": "https://www.rfi.fr/fr/afrique/20260317-pr%C3%A9sidentielle-au-congo-b-commission-%C3%A9lectorale-satisfaite-malgr%C3%A9-la-coupure-des-t%C3%A9l%C3%A9communications",
           "source": "RFI Afrique",
           "published": "2026-03-17T04:05:30",
@@ -906,6 +944,13 @@
           "lead": "\"Without the President of the Republic, we wouldn't be safe,\" says Joseph Batangouna, chief of the village of Mayitoukou"
         },
         {
+          "title": "Congo-Brazzaville: Low Turnout in Congo-Brazzaville Presidential Poll Expected to Extend Nguesso's Rule",
+          "url": "https://allafrica.com/stories/202603170046.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:30:48",
+          "lead": "[RFI] Votes are being counted in the Republic of Congo after a day of voting Sunday in a presidential election that is e"
+        },
+        {
           "title": "Congo-Brazzaville: Internet Outage Hits Congo-Brazzaville During Presidential Vote",
           "url": "https://allafrica.com/stories/202603160451.html",
           "source": "AllAfrica",
@@ -914,25 +959,21 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "DRC": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 7.4,
-      "ratio": 0.68,
+      "baseline": 7.3,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "M23",
-          "count": 2
-        },
-        {
-          "word": "Président",
           "count": 1
         },
         {
@@ -943,25 +984,18 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "La RDC salue la création d’une raffinerie d'or à Kalemie, la société civile demande de la transparence",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-la-rdc-salue-la-cr%C3%A9ation-d-une-raffinerie-d-or-%C3%A0-kalemie-la-soci%C3%A9t%C3%A9-civile-demande-de-la-transparence",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T09:16:35",
+          "lead": "En République démocratique du Congo (RDC), des acteurs de la société civile saluent l’inauguration d’une raffinerie d’or"
+        },
+        {
           "title": "Est de la RDC: échanges de tirs à Mugunga, des hommes armés tués et arrêtés, selon l’AFC/M23",
           "url": "https://www.rfi.fr/fr/afrique/20260317-est-de-la-rdc-%C3%A9changes-de-tirs-%C3%A0-mugunga-des-hommes-arm%C3%A9s-tu%C3%A9s-et-arr%C3%AAt%C3%A9s-selon-l-afc-m23",
           "source": "RFI Afrique",
           "published": "2026-03-17T04:03:26",
           "lead": "Incursions d’hommes armés et tirs nourris dans la nuit de dimanche à lundi à Mugunga, dans la commune de Karisimbi, à l’"
-        },
-        {
-          "title": "Est de la RDC: l’armée annonce l’interpellation de deux leaders de milices wazalendo",
-          "url": "https://www.rfi.fr/fr/afrique/20260316-est-de-la-rdc-l-arm%C3%A9e-annonce-l-interpellation-de-deux-leaders-de-milices-wazalendo",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T12:48:58",
-          "lead": "L’armée congolaise a interpellé ce 16 mars 2026 à Walikale deux chefs de groupes armés locaux alliés aux forces gouverne"
-        },
-        {
-          "title": "En RDC, quelle priorité pour le tribunal pénal économique et financier?",
-          "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260316-en-rdc-quelle-priorit%C3%A9-pour-le-tribunal-p%C3%A9nal-%C3%A9conomique-et-financier",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T16:26:44",
-          "lead": "Le président Tshisekedi a annoncé la création d'une nouvelle juridiction spécialisée dans la lutte contre la criminalité"
         },
         {
           "title": "Est de la RDC : des émissaires de Félix Tshisekedi et Paul Kagame attendus à Washington",
@@ -979,9 +1013,9 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Jeune Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -997,15 +1031,19 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.0,
-      "ratio": 1.03,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 3.1,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1017,17 +1055,33 @@
           "source": "DW Africa",
           "published": "2026-03-16T14:00:00",
           "lead": "Could African oil-producing countries such as Nigeria and Angola increase production in the short term and thus ease glo"
+        },
+        {
+          "title": "Pope Leo XIV to deliver prayers and calls for peace on landmark Africa tour",
+          "url": "http://www.africanews.com/2026/03/17/pope-leo-xiv-to-deliver-prayers-and-calls-for-peace-on-landmark-africa-tour/",
+          "source": "Africanews",
+          "published": "2026-03-17T06:32:20",
+          "lead": "The head of the Catholic Church will travel to four countries — Algeria, Cameroon, Angola and Equatorial Guinea — delive"
+        },
+        {
+          "title": "Angola: Telecoms Minister Praises Start of Angeo-1 Project for Consolidation of Space Program",
+          "url": "https://allafrica.com/stories/202603170036.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:22:00",
+          "lead": "[ANGOP] Luanda -- Angolan Minister of Telecommunications, Information Technologies and Social Communication, M&#xe1;rio "
         }
       ],
       "sources": [
+        "AllAfrica",
+        "Africanews",
         "DW Africa"
       ]
     },
     "Eritrea": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.5,
+      "baseline": 0.6,
+      "ratio": 1.58,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1061,16 +1115,16 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 3.3,
-      "ratio": 0.3,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Combat",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1089,17 +1143,13 @@
       ]
     },
     "Somalia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.97,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        },
         {
           "word": "War",
           "count": 1
@@ -1107,13 +1157,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fourth-world-nation-trump-slams-somalia-ilhan-omar?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-16T21:16:51",
-          "lead": "Speaking at the Oval office, US President Donald Trump stated that Somalia is a “fourth world nation.”"
-        },
         {
           "title": "Somalia warns against Israeli military base plans in Somaliland",
           "url": "http://www.africanews.com/2026/03/16/somalia-warns-against-israeli-military-base-plans-in-somaliland/",
@@ -1123,71 +1166,52 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Al Jazeera"
+        "Africanews"
       ]
     },
     "Uganda": {
-      "article_count": 3,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.58,
-      "status": "elevated",
-      "confidence": "low",
+      "ratio": 1.05,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
+          "word": "Élection",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Uganda: Uganda's Public Debt Surpasses Shs130tn",
-          "url": "https://allafrica.com/stories/202603160551.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T12:30:13",
-          "lead": "[Nile Post] Uganda's public debt has surpassed the Shs130 trillion mark, reaching $34.86 billion (Shs130.844 trillion) b"
+          "title": "Ouganda: le parti de Bobi Wine justifie le départ à l’étranger du principal opposant",
+          "url": "https://www.rfi.fr/fr/afrique/20260317-ouganda-le-parti-de-bobi-wine-justifie-le-d%C3%A9part-%C3%A0-l-%C3%A9tranger-du-principal-opposant",
+          "source": "RFI Afrique",
+          "published": "2026-03-17T07:49:44",
+          "lead": "Si le lieu où il se trouve reste inconnu, sa détermination, elle, est claire, dit-il. Le leader de l’opposition ougandai"
         },
         {
-          "title": "Uganda: Women Activists Call for Urgent Cyber Law Reforms Amid Rising Online Gender-Based Violence",
-          "url": "https://allafrica.com/stories/202603160549.html",
+          "title": "East Africa: Aga Khan Exits Media to Back High-Impact Sectors",
+          "url": "https://allafrica.com/stories/202603170094.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T12:29:30",
-          "lead": "[Nile Post] Women's rights activists have called for urgent reforms to Uganda's cyber laws, warning that existing legisl"
-        },
-        {
-          "title": "Uganda: Uganda Faces Silent Nutrition Crisis, Experts Urge Action in Workplaces",
-          "url": "https://allafrica.com/stories/202603160546.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T12:28:22",
-          "lead": "[Nile Post] Uganda is confronting a growing but largely hidden nutrition crisis, with rising rates of obesity, hypertens"
+          "published": "2026-03-17T08:54:32",
+          "lead": "[Independent (Kampala)] News Analysis -- The Aga Khan Development Network (AKDN) is poised to exit East Africa's traditi"
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 15,
+      "article_count": 12,
       "source_count": 6,
-      "baseline": 6.2,
-      "ratio": 2.41,
+      "baseline": 6.3,
+      "ratio": 1.9,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Government",
-          "count": 3
-        },
-        {
-          "word": "Flood",
-          "count": 3
-        },
         {
           "word": "Minister",
           "count": 2
@@ -1197,8 +1221,8 @@
           "count": 2
         },
         {
-          "word": "Killed",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
           "word": "Fighting",
@@ -1209,7 +1233,7 @@
           "count": 1
         },
         {
-          "word": "Protest",
+          "word": "Killed",
           "count": 1
         }
       ],
@@ -1265,6 +1289,13 @@
           "lead": "Kenya says Russia has agreed to stop accepting Kenyan nationals into its military after concerns that hundreds of citize"
         },
         {
+          "title": "Kenya: Bill Proposes AI Regulator, Sh5mn Fine for Offenders",
+          "url": "https://allafrica.com/stories/202603170041.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:23:41",
+          "lead": "[Capital FM] Nairobi -- Nominated Senator Karen Nyamu has proposed the creation of an Office of the Artificial Intellige"
+        },
+        {
           "title": "Kenya: Why Kenyans May No Longer Be Able to Watch Football On Illegal Streaming Sites",
           "url": "https://allafrica.com/stories/202603160439.html",
           "source": "AllAfrica",
@@ -1272,41 +1303,34 @@
           "lead": "[Capital FM] Illegal streaming of sports events may well become a thing of the past in Kenya if a proposed bill gets to "
         },
         {
-          "title": "Kenya: City Hall Mandates 48-Hour Action Plan in Govt-Backed Flood Response",
-          "url": "https://allafrica.com/stories/202603160672.html",
+          "title": "Kenya: Health Ministry Defends Supplementary Budget As Cancer Agency Seeks Sh250mn for Prevention and Diagnosis",
+          "url": "https://allafrica.com/stories/202603170083.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T14:21:49",
-          "lead": "[Capital FM] Nairobi -- The Implementation Committee on the Cooperation Agreement between the National Government and Na"
+          "published": "2026-03-17T08:49:24",
+          "lead": "[Capital FM] Nairobi -- The government's main agency tasked with coordinating cancer control efforts has appealed to Par"
         },
         {
-          "title": "Kenya: Mudavadi Secures Deal Barring Recruitment of Kenyans Into Russian Army",
-          "url": "https://allafrica.com/stories/202603160485.html",
+          "title": "Kenya: City Hall Urges Residents in Riperian Lands to Relocate After Shauri Moyo Building Collapse",
+          "url": "https://allafrica.com/stories/202603170008.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T11:37:20",
-          "lead": "[Capital FM] Nairobi -- Kenyans will no longer be eligible for enlistment into the Russian military following diplomatic"
+          "published": "2026-03-17T06:57:12",
+          "lead": "[Capital FM] Nairobi -- Nairobi City County has called on residents living along riverbanks and riparian areas to take i"
         },
         {
-          "title": "Kenya: Reparations for Protest Victims About Justice, Not 'Paying People for Dying' - KNCHR Says",
-          "url": "https://allafrica.com/stories/202603160460.html",
+          "title": "Kenya: DPP Appeals Acquittal of Trans Nzoia Governor Natembeya",
+          "url": "https://allafrica.com/stories/202603170007.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T10:56:02",
-          "lead": "[Capital FM] Nairobi -- The Kenya National Commission on Human Rights (KNCHR) has emphasized that the planned reparation"
-        },
-        {
-          "title": "Kenya: Govt Finalizes Plans for 369km SGR Line to Western Kenya",
-          "url": "https://allafrica.com/stories/202603160440.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T10:45:37",
-          "lead": "[Capital FM] Nairobi -- Theb government has entered the final phase of preparations for the groundbreaking of the extens"
+          "published": "2026-03-17T06:56:31",
+          "lead": "[Capital FM] Nairobi -- The Director of Public Prosecutions (DPP) has filed a Notice of Appeal challenging a High Court "
         }
       ],
       "sources": [
-        "BBC Africa",
-        "The Guardian Africa",
-        "RFI Afrique",
-        "DW Africa",
         "Africanews",
-        "AllAfrica"
+        "BBC Africa",
+        "RFI Afrique",
+        "AllAfrica",
+        "The Guardian Africa",
+        "DW Africa"
       ]
     },
     "Rwanda": {
@@ -1344,15 +1368,15 @@
       "sources": []
     },
     "Tanzania": {
-      "article_count": 1,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.15,
-      "status": "normal",
+      "ratio": 3.46,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         },
         {
@@ -1360,18 +1384,32 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Malawi: Tanzania, Mozambique and Malawi Launch $7.12 Million GEF Project to Protect the Ruvuma Basin",
+          "url": "https://allafrica.com/stories/202603170043.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:28:18",
+          "lead": "[IPS] Dar es Salaam, Tanzania -- At dawn, the Ruvuma River moves quietly through a vast wetland along the border between"
+        },
+        {
           "title": "Tanzania: High Court Backs Inquiry into Post-Election Violence",
           "url": "https://allafrica.com/stories/202603160461.html",
           "source": "AllAfrica",
           "published": "2026-03-16T10:58:09",
           "lead": "[Daily News] Dar es Salaam -- THREE individuals have lost their bid to challenge the President of the United Republic of"
+        },
+        {
+          "title": "East Africa: Aga Khan Exits Media to Back High-Impact Sectors",
+          "url": "https://allafrica.com/stories/202603170094.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T08:54:32",
+          "lead": "[Independent (Kampala)] News Analysis -- The Aga Khan Development Network (AKDN) is poised to exit East Africa's traditi"
         }
       ],
       "sources": [
@@ -1379,42 +1417,38 @@
       ]
     },
     "Madagascar": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.2,
-      "ratio": 1.79,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
-          "count": 2
-        },
-        {
           "word": "Gouvernement",
-          "count": 2
-        },
-        {
-          "word": "Minister",
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "Président",
           "count": 1
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Election",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Madagascar: les chantiers sensibles qui attendent le nouveau Premier ministre",
-          "url": "https://www.rfi.fr/fr/afrique/20260316-madagascar-les-chantiers-sensibles-qui-attendent-le-nouveau-premier-ministre",
-          "source": "RFI Afrique",
-          "published": "2026-03-16T16:12:32",
-          "lead": "À Madagascar, le nouveau chef du gouvernement, Mamitiana Rajaonarison, a promis d’aller vite. Lors de la passation de po"
+          "title": "A Madagascar, un proche du colonel Michaël Randrianirina nommé premier ministre",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/17/a-madagascar-un-proche-du-colonel-michael-randrianirina-nomme-premier-ministre_6671678_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-17T09:26:24",
+          "lead": "Inconnu du grand public, Mamitiana Rajaonarison a fait l’essentiel de sa carrière dans l’administration publique et la l"
         },
         {
           "title": "À Madagascar, le président Randrianirina, déjà critiqué, fait le pari d’un Premier ministre « anticorruption »",
@@ -1422,13 +1456,6 @@
           "source": "Jeune Afrique",
           "published": "2026-03-16T17:20:14",
           "lead": "Le nouveau chef du gouvernement, Rajaonarison Mamitiana, entre en fonction alors que les autorités cherchent toujours à "
-        },
-        {
-          "title": "Madagascar leader appoints financial intelligence chief as new prime minister",
-          "url": "http://www.africanews.com/2026/03/16/madagascar-leader-appoints-financial-intelligence-chief-as-new-prime-minister/",
-          "source": "Africanews",
-          "published": "2026-03-16T08:14:33",
-          "lead": "Speaking during a ceremony at the presidential palace in Antananarivo, Randrianirina said the nation required “bold deci"
         },
         {
           "title": "FORBIDDEN STORIES: Mbalula's covert meetings and manoeuvres of Russian influence agents in SA, Namibia and Madagascar",
@@ -1440,9 +1467,8 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "RFI Afrique",
-        "Daily Maverick",
-        "Africanews"
+        "Le Monde Afrique",
+        "Daily Maverick"
       ]
     },
     "Comoros": {
@@ -1494,21 +1520,35 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 1,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 1.43,
-      "status": "normal",
+      "ratio": 4.5,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Malawi: 'The Optics Are Deeply Problematic' - Experts Question PAC's Lakeside Meeting With Rbm Ahead of Amaryllis Inquiry",
-          "url": "https://allafrica.com/stories/202603160665.html",
+          "title": "Malawi: Cost of Living Drops 4.6 Percent in February",
+          "url": "https://allafrica.com/stories/202603170031.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T14:18:48",
-          "lead": "[Nyasa Times] Governance and political commentators have raised serious concerns over a lakeside meeting between the Pub"
+          "published": "2026-03-17T07:16:53",
+          "lead": "[Nyasa Times] The cost of living for an average urban household has dropped by 4.6 percent in February, offering a sligh"
+        },
+        {
+          "title": "Malawi: Tanzania, Mozambique and Malawi Launch $7.12 Million GEF Project to Protect the Ruvuma Basin",
+          "url": "https://allafrica.com/stories/202603170043.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:28:18",
+          "lead": "[IPS] Dar es Salaam, Tanzania -- At dawn, the Ruvuma River moves quietly through a vast wetland along the border between"
+        },
+        {
+          "title": "Malawi: 'Spare Him' - Pressure Mounts As Ailing Kalumo Denied Medical Access in Custody",
+          "url": "https://allafrica.com/stories/202603170029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:16:09",
+          "lead": "[Nyasa Times] A storm is brewing over the continued detention of former Immigration chief Brigadier Charles Kalumo, with"
         }
       ],
       "sources": [
@@ -1516,62 +1556,91 @@
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.07,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Malawi: Tanzania, Mozambique and Malawi Launch $7.12 Million GEF Project to Protect the Ruvuma Basin",
+          "url": "https://allafrica.com/stories/202603170043.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:28:18",
+          "lead": "[IPS] Dar es Salaam, Tanzania -- At dawn, the Ruvuma River moves quietly through a vast wetland along the border between"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 2.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Namibia": {
       "article_count": 3,
-      "source_count": 2,
-      "baseline": 0.7,
-      "ratio": 4.5,
-      "status": "high",
-      "confidence": "medium",
+      "source_count": 1,
+      "baseline": 2.6,
+      "ratio": 1.14,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Election",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Namibia: NamPower Warns N$700 Million in Unpaid Bills Threatens Finances",
-          "url": "https://allafrica.com/stories/202603160255.html",
+          "title": "Southern Africa: Opposition Appeals to UN, SADC to Block Constitutional Amendment Extending Mnangagwa's Term",
+          "url": "https://allafrica.com/stories/202603170035.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T07:52:52",
-          "lead": "[Namibian] The Namibia Power Corporation (NamPower) says it is struggling to recover about N$700 million in unpaid elect"
+          "published": "2026-03-17T07:19:36",
+          "lead": "[New Zimbabwe] The Defend the Constitution Platform (DCP) has escalated its opposition to the controversial Constitution"
         },
         {
-          "title": "Namibia: Oversight Needed to Avoid Oil Resource Curse - IPPR",
-          "url": "https://allafrica.com/stories/202603160537.html",
+          "title": "Zimbabwe: Citizens 'Pressured to Support' Constitutional Amendment Bill",
+          "url": "https://allafrica.com/stories/202603170004.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T12:20:15",
-          "lead": "[Namibian] The Institute for Public Policy Research says several governance issues need to be addressed to put Namibia i"
+          "published": "2026-03-17T06:54:18",
+          "lead": "[New Zimbabwe] Local human rights watchdog Zimbabwe Peace Project (ZPP) says growing intimidation and violence are under"
         },
+        {
+          "title": "South Africa: Lack of Border Fences Between SA and Zim Compounding Foot &#x26;amp; Mouth Spread - Steenhuisen",
+          "url": "https://allafrica.com/stories/202603170005.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T06:55:08",
+          "lead": "[New Zimbabwe] Lack of a border fence between South Africa and Zimbabwe and broken redline fences are compounding the sp"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
+    },
+    "Namibia": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.7,
+      "ratio": 1.5,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Election",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
         {
           "title": "FORBIDDEN STORIES: Mbalula's covert meetings and manoeuvres of Russian influence agents in SA, Namibia and Madagascar",
           "url": "https://www.dailymaverick.co.za/article/mbalulas-covert-meetings-and-manoeuvres-of-russian-influence-agents-in-sa-namibia-and-madagascar",
@@ -1581,7 +1650,6 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Daily Maverick"
       ]
     },
@@ -1595,24 +1663,24 @@
       "keywords": [
         {
           "word": "Government",
-          "count": 2
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Botswana: Industrial Court Deploys New Strategy to Eradicate Case Backlog",
+          "url": "https://allafrica.com/stories/202603170027.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T07:15:10",
+          "lead": "[Botswana Daily News] Gaborone -- The Industrial Court is set to devise new means to eradicate its case backlog through "
+        },
         {
           "title": "Botswana: Hunting Quota to Address Human-Lion Conflict",
           "url": "https://allafrica.com/stories/202603160669.html",
           "source": "AllAfrica",
           "published": "2026-03-16T14:20:00",
           "lead": "[Botswana Daily News] Maun -- Government has introduced an experimental spatial lion hunting quota as part of efforts to"
-        },
-        {
-          "title": "Botswana: Botswana Pushes to Strengthen Sanitation Services",
-          "url": "https://allafrica.com/stories/202603160667.html",
-          "source": "AllAfrica",
-          "published": "2026-03-16T14:19:29",
-          "lead": "[Botswana Daily News] Gaborone -- Government officials, development partners and sector stakeholders have called for ren"
         }
       ],
       "sources": [
@@ -1620,16 +1688,20 @@
       ]
     },
     "South Africa": {
-      "article_count": 17,
-      "source_count": 6,
-      "baseline": 14.8,
-      "ratio": 1.15,
+      "article_count": 19,
+      "source_count": 7,
+      "baseline": 14.7,
+      "ratio": 1.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
           "count": 3
+        },
+        {
+          "word": "Minister",
+          "count": 2
         },
         {
           "word": "Dead",
@@ -1640,7 +1712,7 @@
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -1648,15 +1720,11 @@
           "count": 1
         },
         {
+          "word": "Election",
+          "count": 1
+        },
+        {
           "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         }
       ],
@@ -1684,6 +1752,13 @@
           "lead": "Une commission d’enquête était censée établir pourquoi certains criminels de l’époque, qui n'avaient pas obtenu l'amnist"
         },
         {
+          "title": "Guerre à Gaza : la bataille des interventions devant la Cour internationale de justice",
+          "url": "https://www.lemonde.fr/international/article/2026/03/17/guerre-a-gaza-la-bataille-des-interventions-devant-la-cour-internationale-de-justice_6671677_3210.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-17T09:20:50",
+          "lead": "Les Etats-Unis et le Paraguay ont récemment transmis aux juges de La Haye des requêtes réfutant l’accusation de génocide"
+        },
+        {
           "title": "South African farmers reeling from foot-and-mouth disaster",
           "url": "http://www.africanews.com/2026/03/16/south-african-farmers-reeling-from-foot-and-mouth-disaster/",
           "source": "Africanews",
@@ -1691,32 +1766,39 @@
           "lead": "Farmers in South Africa facing an eruption of foot-and-mouth disease say a government vaccination effort has come too la"
         },
         {
-          "title": "South Africa: A New TB Dashboard Can Help Boost Testing, We Need to Make the Most of It",
-          "url": "https://allafrica.com/stories/202603160301.html",
+          "title": "South Africa: Eskom Electricity Tariffs Going Up 8.76 Percent From April",
+          "url": "https://allafrica.com/stories/202603170087.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T09:01:21",
-          "lead": "[spotlight] The new government TB dashboard is a step forward for transparency and accountability in South Africa's resp"
+          "published": "2026-03-17T08:52:37",
+          "lead": "[Scrolla] Eskom will raise electricity tariffs by 8.76% from 1 April 2026, following a decision by South Africa's energy"
         },
         {
-          "title": "Africa: Trump Watch - US Launches Trade Investigation Into South Africa and 59 Other Countries",
-          "url": "https://allafrica.com/stories/202603160545.html",
+          "title": "South Africa: Activists Say SA's Menstrual Product Regulation Is Not Transparent Enough, Despite Government Reassurance",
+          "url": "https://allafrica.com/stories/202603170045.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T12:26:56",
-          "lead": "[Scrolla] Donald Trump matters a lot to Mzansi and the rest of the world right now. Trump is changing the way America wo"
+          "published": "2026-03-17T07:30:05",
+          "lead": "[Health-e] While the health department has sought to reassure the public about hormone-disrupting chemicals found in san"
         },
         {
-          "title": "South Africa: Criminals Break Into Motherwell Clinic Leaving Hundreds Without Medical Care",
-          "url": "https://allafrica.com/stories/202603160544.html",
+          "title": "Africa: The Hunt for a New TB Vaccine - Why We Are Now So Close, and Why It Matters",
+          "url": "https://allafrica.com/stories/202603170079.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T12:25:59",
-          "lead": "[Scrolla] The burglary at Motherwell Community Health Centre in Gqeberha forced some services to close and sent staff fo"
+          "published": "2026-03-17T08:47:59",
+          "lead": "[spotlight] The only tuberculosis vaccine we have is a century old and offers only limited efficacy in children. With le"
         },
         {
-          "title": "South Africa: New Play Honours Murdered Environmental Activist Fikile Ntshangase",
-          "url": "https://allafrica.com/stories/202603160442.html",
+          "title": "South Africa: Judiciary Fails to Report On Late Judgments",
+          "url": "https://allafrica.com/stories/202603170028.html",
           "source": "AllAfrica",
-          "published": "2026-03-16T10:46:40",
-          "lead": "[GroundUp] Isitha Sabantu explores the threats that climate activists face"
+          "published": "2026-03-17T07:15:35",
+          "lead": "[GroundUp] Most recent list published, October 2025, reflected the status of late judgments from nearly a year ago."
+        },
+        {
+          "title": "South Africa: Lack of Border Fences Between SA and Zim Compounding Foot &#x26;amp; Mouth Spread - Steenhuisen",
+          "url": "https://allafrica.com/stories/202603170005.html",
+          "source": "AllAfrica",
+          "published": "2026-03-17T06:55:08",
+          "lead": "[New Zimbabwe] Lack of a border fence between South Africa and Zimbabwe and broken redline fences are compounding the sp"
         },
         {
           "title": "FORBIDDEN STORIES: Mbalula's covert meetings and manoeuvres of Russian influence agents in SA, Namibia and Madagascar",
@@ -1731,29 +1813,16 @@
           "source": "Daily Maverick",
           "published": "2026-03-16T22:25:55",
           "lead": "South African couple Melany and Peet Viljoen were recently arrested in the US for allegedly shoplifting groceries worth "
-        },
-        {
-          "title": "‘MISALIGNED LOYALTY’: Why the silence on Iran’s brutality, asks economist Iraj Abedian of SA",
-          "url": "https://www.dailymaverick.co.za/article/why-the-silence-on-irans-brutality-asks-economist-iraj-abedian-of-sa",
-          "source": "Daily Maverick",
-          "published": "2026-03-16T21:43:21",
-          "lead": "Economist Iraj Abedian criticises South Africa’s indifference to the brutal regime in Iran, highlighting the urgent need"
-        },
-        {
-          "title": "EXPLAINER: Don’t hold your breath — ICJ decision on SA’s genocide case may take years",
-          "url": "https://www.dailymaverick.co.za/article/dont-hold-your-breath-icj-decision-on-sas-genocide-case-may-take-years",
-          "source": "Daily Maverick",
-          "published": "2026-03-16T21:13:03",
-          "lead": "As South Africa’s genocide case against Israel progresses, the International Court of Justice’s eventual ruling may take"
         }
       ],
       "sources": [
-        "BBC Africa",
+        "Le Monde Afrique",
         "Daily Maverick",
+        "BBC Africa",
         "RFI Afrique",
-        "Africanews",
+        "Al Jazeera",
         "AllAfrica",
-        "Al Jazeera"
+        "Africanews"
       ]
     },
     "Eswatini": {
