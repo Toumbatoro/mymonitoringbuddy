@@ -1,27 +1,23 @@
 {
-  "generated_at": "2026-03-20T18:35:43.456271",
+  "generated_at": "2026-03-20T21:22:43.759291",
   "summary": {
-    "high": 2,
-    "elevated": 12,
-    "normal": 22,
-    "quiet": 18
+    "high": 3,
+    "elevated": 11,
+    "normal": 23,
+    "quiet": 17
   },
   "countries": {
     "Morocco": {
-      "article_count": 10,
-      "source_count": 4,
+      "article_count": 8,
+      "source_count": 3,
       "baseline": 4.6,
-      "ratio": 2.17,
+      "ratio": 1.75,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Combat",
           "count": 2
-        },
-        {
-          "word": "President",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -69,13 +65,6 @@
           "lead": "Le royaume chérifien s’emploie à faire émerger une filière de l’industrie militaire, notamment grâce à des incitations f"
         },
         {
-          "title": "CAN 2025 :  Motsepe prend la parole, la fédération sénégalaise lui répond, et le bras de fer continue",
-          "url": "https://www.jeuneafrique.com/1776072/politique/can-2025-motsepe-prend-la-parole-la-federation-senegalaise-lui-repond-et-le-bras-de-fer-continue/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-19T18:54:46",
-          "lead": "Après la décision du jury d’appel de la CAF de retirer le titre de champion d’Afrique 2025 au Sénégal, au profit du Maro"
-        },
-        {
           "title": "Africa: How Morocco Is Redrawing Africa's Avocado Trade Map",
           "url": "https://allafrica.com/stories/202603200455.html",
           "source": "AllAfrica",
@@ -88,20 +77,12 @@
           "source": "AllAfrica",
           "published": "2026-03-20T09:42:12",
           "lead": "[Vanguard] The Guinea Football Federation has urged the Confederation of African Football (CAF) to review the 1976 AFCON"
-        },
-        {
-          "title": "Africa: African Football Boss Defends Ruling That Gave Cup of Nations Title to Morocco",
-          "url": "https://allafrica.com/stories/202603200014.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:32:57",
-          "lead": "[RFI] Africa's top football body on Thursday defended a decision to strip Senegal of the 2025 Africa Cup of Nations titl"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "France24 Afrique",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "France24 Afrique",
+        "AllAfrica"
       ]
     },
     "Algeria": {
@@ -194,11 +175,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa",
+        "Jeune Afrique",
         "AllAfrica",
+        "BBC Africa",
         "Africanews",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Libya": {
@@ -236,27 +217,28 @@
       ]
     },
     "Sudan": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 5.6,
-      "ratio": 0.72,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
           "word": "War",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "President",
-          "count": 1
+          "word": "Displaced",
+          "count": 2
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Displaced",
+          "War"
+        ]
+      ],
       "articles": [
         {
           "title": "Tchad: deux ministres et le chef d'état-major dans l’Est après une frappe de drone soudanais sur Tiné",
@@ -266,38 +248,30 @@
           "lead": "Le ministre des Armées Issakha Malloua Djamous et celui de la Sécurité publique Ali Ahmat Akhabache se trouvent depuis c"
         },
         {
+          "title": "In Sudan's refugee camps, Eid is overshadowed by war",
+          "url": "http://www.africanews.com/2026/03/20/in-sudans-refugee-camps-eid-is-overshadowed-by-war/",
+          "source": "Africanews",
+          "published": "2026-03-20T20:22:39",
+          "lead": "Displaced Sudanese citizens gathered for Eid prayers and preparec food in Tawila camp in North Darfur, as the war in the"
+        },
+        {
           "title": "Sudanese artists rebuild cultural life in wartime shelter",
           "url": "http://www.africanews.com/2026/03/20/sudanese-artists-rebuild-cultural-life-in-wartime-shelter/",
           "source": "Africanews",
           "published": "2026-03-20T15:37:36",
           "lead": "In a school-turned-shelter on the Red Sea coast, music rises above the hardships of war as displaced Sudanese artists re"
-        },
-        {
-          "title": "Chad: Chad Shuts Sudan Border After Drone Strike Kills Civilians in El Tina",
-          "url": "https://allafrica.com/stories/202603200024.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:38:33",
-          "lead": "[Dabanga] El Tina / N'djamena / Mabrouka -- Chadian President Mahamat Idriss D&#xe9;by has ordered the immediate closure"
-        },
-        {
-          "title": "Sudan: The UK's 'Emergency Brake' On Sudanese Students Is a Cynical Act of Collective Punishment",
-          "url": "https://allafrica.com/stories/202603200023.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:37:58",
-          "lead": "[African Arguments] The UK Home Secretary Shabana Mahmood recently announced an \"emergency brake\" on sponsored study vis"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Mauritania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.36,
+      "baseline": 0.8,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -318,8 +292,8 @@
     "Mali": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.67,
+      "baseline": 1.9,
+      "ratio": 1.58,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -356,7 +330,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 1.5,
-      "ratio": 2.05,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -390,8 +364,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -399,7 +373,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 1.9,
-      "ratio": 2.14,
+      "ratio": 2.07,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -454,10 +428,10 @@
       ]
     },
     "Senegal": {
-      "article_count": 13,
-      "source_count": 5,
-      "baseline": 5.9,
-      "ratio": 2.22,
+      "article_count": 9,
+      "source_count": 4,
+      "baseline": 5.8,
+      "ratio": 1.56,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -471,10 +445,6 @@
         },
         {
           "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "President",
           "count": 1
         }
       ],
@@ -537,39 +507,17 @@
           "lead": "La filiale sénégalaise de Société générale adhère à la plateforme d’interopérabilité de la Banque centrale ouest-africai"
         },
         {
-          "title": "CAN 2025 :  Motsepe prend la parole, la fédération sénégalaise lui répond, et le bras de fer continue",
-          "url": "https://www.jeuneafrique.com/1776072/politique/can-2025-motsepe-prend-la-parole-la-federation-senegalaise-lui-repond-et-le-bras-de-fer-continue/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-19T18:54:46",
-          "lead": "Après la décision du jury d’appel de la CAF de retirer le titre de champion d’Afrique 2025 au Sénégal, au profit du Maro"
-        },
-        {
-          "title": "AFCON 2025 title \"cannot be taken away\" from Senegal, says FSF",
-          "url": "http://www.africanews.com/2026/03/19/afcon-2025-title-cannot-be-taken-away-from-senegal-says-fsf/",
-          "source": "Africanews",
-          "published": "2026-03-19T20:59:31",
-          "lead": "The Senegalese Football Federation (FSF) said Thursday that the Africa Cup title cannot be taken away from Senegal, foll"
-        },
-        {
           "title": "Morocco/Senegal: CAF Faces Pressure As Guinea Contests Morocco's 1976 Afcon Win",
           "url": "https://allafrica.com/stories/202603200033.html",
           "source": "AllAfrica",
           "published": "2026-03-20T09:42:12",
           "lead": "[Vanguard] The Guinea Football Federation has urged the Confederation of African Football (CAF) to review the 1976 AFCON"
-        },
-        {
-          "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-          "url": "https://allafrica.com/stories/202603200018.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:34:52",
-          "lead": "[The Conversation Africa] The attacks by the US and Israel on Iran, which started on 28 February 2026, upended key suppl"
         }
       ],
       "sources": [
-        "France24 Afrique",
         "Le Monde Afrique",
+        "France24 Afrique",
         "AllAfrica",
-        "Africanews",
         "Jeune Afrique"
       ]
     },
@@ -600,8 +548,8 @@
     "Guinea": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.3,
-      "ratio": 1.32,
+      "baseline": 2.2,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -635,8 +583,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Sierra Leone": {
@@ -717,15 +665,19 @@
       ]
     },
     "Ghana": {
-      "article_count": 1,
+      "article_count": 4,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.45,
-      "status": "normal",
+      "baseline": 2.1,
+      "ratio": 1.88,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -737,6 +689,27 @@
           "source": "AllAfrica",
           "published": "2026-03-20T12:28:20",
           "lead": "[Ghanaian Times] THE Northern Regional Minister, Mr Ali Adolf John Mburidiba, yesterday launched the Shea 2026 Conferenc"
+        },
+        {
+          "title": "Ghana: Aib Commissions Team to Investigate Aircraft Accident",
+          "url": "https://allafrica.com/stories/202603200202.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T12:28:58",
+          "lead": "[Ghanaian Times] A three-member investigation team, led by the Head of Investigations at the Aircraft Accident and Incid"
+        },
+        {
+          "title": "Ghana: Northern Ghana Faces Rising Climate Threats - Bewda",
+          "url": "https://allafrica.com/stories/202603200200.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T12:27:54",
+          "lead": "[Ghanaian Times] A local non-profit organisation, the Belim Wusa Development Agency (BEWDA), has called for stronger col"
+        },
+        {
+          "title": "Ghana: Shea Industry - a Sleeping Giant We Must Awaken",
+          "url": "https://allafrica.com/stories/202603200029.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T09:39:24",
+          "lead": "[Ghanaian Times] GHANA has long prided itself on being a nation rich in natural resources and human ingenuity. Yet, in t"
         }
       ],
       "sources": [
@@ -747,7 +720,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.58,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -805,10 +778,10 @@
       ]
     },
     "Nigeria": {
-      "article_count": 12,
+      "article_count": 10,
       "source_count": 5,
       "baseline": 8.9,
-      "ratio": 1.35,
+      "ratio": 1.12,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -888,20 +861,6 @@
           "lead": "[Premium Times] PREMIUM TIMES reports that the agreement was signed during President Bola Tinubu's state visit to the UK"
         },
         {
-          "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-          "url": "https://allafrica.com/stories/202603200018.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:34:52",
-          "lead": "[The Conversation Africa] The attacks by the US and Israel on Iran, which started on 28 February 2026, upended key suppl"
-        },
-        {
-          "title": "Africa: Afreximbank Urges Acceleration of Implementation of the Single Continental Market With AfCFTA Adjustment Fund",
-          "url": "https://allafrica.com/stories/202603200071.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T11:16:42",
-          "lead": "[Afreximbank] On 10 March, the AfCFTA Adjustment Fund Corporation organised a stakeholders' engagement event in Lagos to"
-        },
-        {
           "title": "Nigeria: Ex-Rep Member Dumps PDP for ADC in Cross River",
           "url": "https://allafrica.com/stories/202603200451.html",
           "source": "AllAfrica",
@@ -917,11 +876,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "The Guardian Africa",
-        "Le Monde Afrique",
         "AllAfrica",
-        "Africanews"
+        "Le Monde Afrique",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Cape Verde": {
@@ -937,18 +896,13 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.6,
-      "ratio": 1.84,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 1.22,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -964,25 +918,17 @@
           "source": "RFI Afrique",
           "published": "2026-03-20T06:22:20",
           "lead": "Le français est la quatrième langue la plus parlée dans le monde, selon le rapport de l’OIF publié à l’occasion de la jo"
-        },
-        {
-          "title": "Chad: Chad Shuts Sudan Border After Drone Strike Kills Civilians in El Tina",
-          "url": "https://allafrica.com/stories/202603200024.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:38:33",
-          "lead": "[Dabanga] El Tina / N'djamena / Mabrouka -- Chadian President Mahamat Idriss D&#xe9;by has ordered the immediate closure"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 3.1,
-      "ratio": 1.94,
+      "ratio": 1.6,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -1022,19 +968,11 @@
           "source": "Africanews",
           "published": "2026-03-20T13:35:25",
           "lead": "Cameroonian lawmakers yet again voted on Thursday to extend their mandate, according to official media."
-        },
-        {
-          "title": "Sudan: The UK's 'Emergency Brake' On Sudanese Students Is a Cynical Act of Collective Punishment",
-          "url": "https://allafrica.com/stories/202603200023.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:37:58",
-          "lead": "[African Arguments] The UK Home Secretary Shabana Mahmood recently announced an \"emergency brake\" on sponsored study vis"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
-        "AllAfrica",
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -1152,10 +1090,10 @@
       ]
     },
     "DRC": {
-      "article_count": 7,
+      "article_count": 6,
       "source_count": 3,
-      "baseline": 7.7,
-      "ratio": 0.91,
+      "baseline": 7.6,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1207,19 +1145,12 @@
           "source": "Africanews",
           "published": "2026-03-20T11:11:30",
           "lead": "Several thousand children are estimated to live on the streets in the Congolese capital, Kinshasa."
-        },
-        {
-          "title": "Congolese citizens welcome Belgian court trial in Lumumba case",
-          "url": "http://www.africanews.com/2026/03/19/congolese-citizens-welcome-belgian-court-trial-in-lumumba-case/",
-          "source": "Africanews",
-          "published": "2026-03-19T19:49:58",
-          "lead": "Several Congolese citizens welcomed a Belgian court's decision to put 93-year-old former diplomat Etienne Davignon on tr"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Africanews",
         "France24 Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1271,19 +1202,19 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.9,
-      "ratio": 1.02,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 3.0,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -1306,19 +1237,11 @@
           "source": "Jeune Afrique",
           "published": "2026-03-20T17:52:41",
           "lead": "Alors que la guerre au Moyen-Orient fait flamber les cours du pétrole et du gaz, le prix du kérosène s’envole lui aussi."
-        },
-        {
-          "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-          "url": "https://allafrica.com/stories/202603200018.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:34:52",
-          "lead": "[The Conversation Africa] The attacks by the US and Israel on Iran, which started on 28 February 2026, upended key suppl"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "Jeune Afrique"
       ]
     },
     "Somalia": {
@@ -1330,11 +1253,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1356,7 +1279,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 2.0,
-      "ratio": 1.53,
+      "ratio": 1.5,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1395,19 +1318,19 @@
       ]
     },
     "Kenya": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 2,
       "baseline": 5.9,
-      "ratio": 1.02,
+      "ratio": 0.85,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -1436,20 +1359,6 @@
           "lead": "[Capital FM] Nairobi -- Defence Cabinet Secretary Soipan Tuya has assured Kenyans that the country remains vigilant in t"
         },
         {
-          "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-          "url": "https://allafrica.com/stories/202603200018.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:34:52",
-          "lead": "[The Conversation Africa] The attacks by the US and Israel on Iran, which started on 28 February 2026, upended key suppl"
-        },
-        {
-          "title": "Africa: Kenya's Chance to Redefine Africa's Role in Global Ocean Diplomacy",
-          "url": "https://allafrica.com/stories/202603200012.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:31:33",
-          "lead": "[ISS] As host of the first Our Ocean Conference in Africa, Kenya could pursue a three-pronged strategy to achieve decisi"
-        },
-        {
           "title": "Kenya: Kenya's Finance Minister Defends Infrastructure Fund but Includes Misleading Claims",
           "url": "https://allafrica.com/stories/202603200242.html",
           "source": "AllAfrica",
@@ -1462,18 +1371,25 @@
           "source": "AllAfrica",
           "published": "2026-03-20T09:56:13",
           "lead": "[Capital FM] Kisumu -- Kisumu Governor Prof. Anyang' Nyong'o has called on residents to turn-out in large numbers for th"
+        },
+        {
+          "title": "Kenya: Kenyan Sprinter Hopes to Leave World Indoor Championships a Superstar",
+          "url": "https://allafrica.com/stories/202603200456.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T16:37:16",
+          "lead": "[Capital FM] NAIROBI, Kenya, March 20, 2026 - Kenyan sprinter Mercy Oketch hopes to make an indelible mark at the ongoin"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa"
+        "BBC Africa",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 2,
       "baseline": 2.8,
-      "ratio": 1.08,
+      "ratio": 0.72,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1492,18 +1408,11 @@
           "source": "AllAfrica",
           "published": "2026-03-20T09:23:36",
           "lead": "[allAfrica] Rwanda is improving its surgical care with the opening of a newly renovated surgical department at Kibungo L"
-        },
-        {
-          "title": "Rwanda: Rwanda Takes UK to Court Seeking &#xa3;100m Over Failed Migrant Deal",
-          "url": "https://allafrica.com/stories/202603200016.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:33:45",
-          "lead": "[RFI] Rwanda is seeking more than &#xa3;100 million it says the United Kingdom still owes from a scrapped 2022 deal to d"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1564,24 +1473,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Madagascar": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 5,
+      "source_count": 5,
       "baseline": 1.9,
-      "ratio": 2.07,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 2.68,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 2
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 2
         },
         {
@@ -1614,6 +1523,13 @@
           "lead": "À Madagascar, la Cour des comptes a présenté ce 19 mars 2026 les résultats d’une série d’audits réalisés depuis novembre"
         },
         {
+          "title": "Madagascar, les futurs ministres soumis au détecteur de mensonge",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260320-madagascar-les-futurs-ministres-soumis-au-d%C3%A9tecteur-de-mensonge",
+          "source": "France24 Afrique",
+          "published": "2026-03-20T21:18:13",
+          "lead": "C’est une méthode radicale pour un pays en pleine transition. À Antananarivo, le pouvoir militaire soumet désormais ses "
+        },
+        {
           "title": "Le président malgache passe ses futurs ministres au détecteur de mensonge et se félicite « d’un grand pas vers l’Etat de droit »",
           "url": "https://www.lemonde.fr/international/article/2026/03/19/le-president-malgache-passe-ses-futurs-ministres-au-detecteur-de-mensonges-et-se-felicite-d-un-grand-pas-vers-l-etat-de-droit_6672474_3210.html",
           "source": "Le Monde Afrique",
@@ -1629,10 +1545,11 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews",
+        "The Guardian Africa",
+        "France24 Afrique",
         "Le Monde Afrique",
-        "The Guardian Africa"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -1666,8 +1583,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Mauritius": {
@@ -1707,16 +1624,39 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.25,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Casualties",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Malawi - Flash floods (IFRC, NOAA-CPC, media) (ECHO Daily Flash of 20 March 2026)",
+          "url": "https://reliefweb.int/report/malawi/malawi-flash-floods-ifrc-noaa-cpc-media-echo-daily-flash-20-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-20T12:29:12",
+          "lead": "Country: Malawi\n                                      Source: European Commission's Directorate-General for European Civ"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Mozambique": {
       "article_count": 1,
@@ -1744,7 +1684,7 @@
       "article_count": 4,
       "source_count": 2,
       "baseline": 2.8,
-      "ratio": 1.45,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1785,8 +1725,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Namibia": {
@@ -1814,10 +1754,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 16,
+      "article_count": 13,
       "source_count": 5,
       "baseline": 14.7,
-      "ratio": 1.09,
+      "ratio": 0.88,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1835,10 +1775,6 @@
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Violence",
           "count": 1
         }
       ],
@@ -1873,13 +1809,6 @@
           "lead": "Anti-apartheid activist, human rights campaigner, and constitutional lawyer, Nicholas “Fink” Haysom, died on Wednesday a"
         },
         {
-          "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-          "url": "https://allafrica.com/stories/202603200018.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:34:52",
-          "lead": "[The Conversation Africa] The attacks by the US and Israel on Iran, which started on 28 February 2026, upended key suppl"
-        },
-        {
           "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
           "url": "https://allafrica.com/stories/202603200179.html",
           "source": "AllAfrica",
@@ -1899,6 +1828,13 @@
           "source": "AllAfrica",
           "published": "2026-03-20T07:42:52",
           "lead": "[GroundUp] Almost one in five residents of Clanwilliam and Citrusdal live in informal settlements with limited access to"
+        },
+        {
+          "title": "South Africa: What Cape Town Is Spending On Homes, Roads and the N2 Wall",
+          "url": "https://allafrica.com/stories/202603200007.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T07:08:26",
+          "lead": "[GroundUp] The municipality's plans have been hotly debated"
         },
         {
           "title": "FOOD CRISIS: Rights body criticises ministers for dodging accountability in SA's food system inquiry",
@@ -1930,11 +1866,11 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
+        "Jeune Afrique",
         "AllAfrica",
-        "Africanews",
         "Daily Maverick",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Eswatini": {
