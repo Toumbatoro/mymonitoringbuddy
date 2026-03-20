@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-20T01:17:19.256435",
+  "generated_at": "2026-03-20T04:42:16.286898",
   "summary": {
-    "high": 5,
+    "high": 6,
     "elevated": 10,
-    "normal": 20,
+    "normal": 19,
     "quiet": 19
   },
   "countries": {
     "Morocco": {
       "article_count": 16,
       "source_count": 8,
-      "baseline": 4.3,
-      "ratio": 3.69,
+      "baseline": 4.8,
+      "ratio": 3.36,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -124,21 +124,21 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Africanews",
         "AllAfrica",
+        "France24 Afrique",
         "Al Jazeera",
         "Jeune Afrique",
+        "The Guardian Africa",
+        "RFI Afrique",
         "Le Monde Afrique",
-        "France24 Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Algeria": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.65,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -168,8 +168,8 @@
     "Tunisia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.07,
+      "baseline": 1.0,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -190,7 +190,7 @@
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -203,7 +203,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.1,
-      "ratio": 1.76,
+      "ratio": 1.82,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -230,15 +230,15 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Africanews"
       ]
     },
     "Sudan": {
       "article_count": 6,
       "source_count": 6,
-      "baseline": 5.6,
-      "ratio": 1.08,
+      "baseline": 5.7,
+      "ratio": 1.06,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -247,7 +247,7 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -255,7 +255,7 @@
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -309,12 +309,12 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Le Monde Afrique",
-        "BBC Africa",
         "Jeune Afrique",
         "DW Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -332,8 +332,8 @@
     "Mali": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 0.52,
+      "baseline": 1.8,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -354,17 +354,17 @@
     "Burkina Faso": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.59,
+      "baseline": 1.4,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Violence",
+          "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -385,17 +385,17 @@
     "Niger": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 0.53,
+      "baseline": 1.8,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Violence",
+          "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -416,8 +416,8 @@
     "Senegal": {
       "article_count": 15,
       "source_count": 8,
-      "baseline": 5.5,
-      "ratio": 2.73,
+      "baseline": 5.8,
+      "ratio": 2.57,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -530,14 +530,14 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Africanews",
+        "France24 Afrique",
+        "Le Monde Afrique",
         "Al Jazeera",
         "Jeune Afrique",
-        "Le Monde Afrique",
+        "The Guardian Africa",
+        "RFI Afrique",
         "BBC Africa",
-        "France24 Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Gambia": {
@@ -565,24 +565,31 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 4,
-      "baseline": 2.1,
-      "ratio": 2.34,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.3,
+      "ratio": 2.65,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "France: Vincent Bolloré sera jugé au mois de décembre dans l'affaire des «ports africains»",
+          "url": "https://www.rfi.fr/fr/afrique/20260320-france-vincent-bollor%C3%A9-sera-jug%C3%A9-au-mois-de-d%C3%A9cembre-dans-l-affaire-des-ports-africains",
+          "source": "RFI Afrique",
+          "published": "2026-03-20T04:08:43",
+          "lead": "Poursuivi entre autres pour « corruption d'agents publics étrangers » et « complicité d'abus de confiance » dans le cadr"
+        },
         {
           "title": "La Guinée, premier pays exportateur de bauxite, cherche à peser sur les cours",
           "url": "https://www.rfi.fr/fr/podcasts/chronique-des-mati%C3%A8res-premi%C3%A8res/20260320-la-guin%C3%A9e-premier-pays-exportateur-de-bauxite-cherche-%C3%A0-peser-sur-les-cours",
@@ -630,7 +637,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.15,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -652,16 +659,16 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.61,
+      "ratio": 0.62,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -680,15 +687,27 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 2.0,
-      "ratio": 0.51,
+      "ratio": 1.0,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Terroriste",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La France, la Côte d'Ivoire et le Bénin affichent leur volonté de poursuivre leur coopération dans la lutte antiterroriste",
+          "url": "https://www.rfi.fr/fr/afrique/20260320-la-france-la-c%C3%B4te-d-ivoire-et-le-b%C3%A9nin-affichent-leur-volont%C3%A9-de-poursuivre-leur-coop%C3%A9ration-dans-la-lutte-antiterroriste",
+          "source": "RFI Afrique",
+          "published": "2026-03-20T04:09:37",
+          "lead": "Au cours d'une réunion tripartite organisée jeudi 19 mars à Cotonou, les chefs d'état-major des armées française, ivoiri"
+        },
         {
           "title": "Mondial 2026: Elye Wahi, nouveau renfort de poids pour les Éléphants de Côte d’Ivoire",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260319-mondial-2026-elye-wahi-nouveau-renfort-de-poids-pour-les-%C3%A9l%C3%A9phants-de-c%C3%B4te-d-ivoire",
@@ -704,7 +723,7 @@
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.2,
+      "baseline": 2.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -714,10 +733,10 @@
       "sources": []
     },
     "Togo": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 0.6,
-      "ratio": 6.67,
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 0.7,
+      "ratio": 7.14,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -728,6 +747,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "France: Vincent Bolloré sera jugé au mois de décembre dans l'affaire des «ports africains»",
+          "url": "https://www.rfi.fr/fr/afrique/20260320-france-vincent-bollor%C3%A9-sera-jug%C3%A9-au-mois-de-d%C3%A9cembre-dans-l-affaire-des-ports-africains",
+          "source": "RFI Afrique",
+          "published": "2026-03-20T04:08:43",
+          "lead": "Poursuivi entre autres pour « corruption d'agents publics étrangers » et « complicité d'abus de confiance » dans le cadr"
+        },
         {
           "title": "Vincent Bolloré sera jugé à Paris pour corruption d'agent public au Togo",
           "url": "https://www.france24.com/fr/afrique/20260319-vincent-bollor%C3%A9-proces-decembre-2026-paris-pour-corruption-au-togo-guinee",
@@ -758,21 +784,34 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Le Monde Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.3,
-      "ratio": 0.75,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 1.54,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Terroriste",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "La France, la Côte d'Ivoire et le Bénin affichent leur volonté de poursuivre leur coopération dans la lutte antiterroriste",
+          "url": "https://www.rfi.fr/fr/afrique/20260320-la-france-la-c%C3%B4te-d-ivoire-et-le-b%C3%A9nin-affichent-leur-volont%C3%A9-de-poursuivre-leur-coop%C3%A9ration-dans-la-lutte-antiterroriste",
+          "source": "RFI Afrique",
+          "published": "2026-03-20T04:09:37",
+          "lead": "Au cours d'une réunion tripartite organisée jeudi 19 mars à Cotonou, les chefs d'état-major des armées française, ivoiri"
+        },
         {
           "title": "Financiers, consultants, diplomates… Autour de Romuald Wadagni, un réseau très sélect",
           "url": "https://www.jeuneafrique.com/1775573/politique/financiers-consultants-diplomates-autour-de-romuald-wadagni-un-reseau-tres-select/",
@@ -782,14 +821,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
       "article_count": 21,
       "source_count": 6,
       "baseline": 9.2,
-      "ratio": 2.29,
+      "ratio": 2.27,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -802,11 +842,11 @@
           "count": 2
         },
         {
-          "word": "Violence",
+          "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -914,12 +954,12 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "Africanews",
         "AllAfrica",
-        "BBC Africa",
         "DW Africa",
-        "RFI Afrique"
+        "The Guardian Africa",
+        "RFI Afrique",
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -937,8 +977,8 @@
     "Chad": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 1.8,
-      "ratio": 2.26,
+      "baseline": 1.7,
+      "ratio": 2.4,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -947,7 +987,7 @@
           "count": 1
         },
         {
-          "word": "Killed",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -955,7 +995,7 @@
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -996,8 +1036,8 @@
       ],
       "sources": [
         "DW Africa",
-        "RFI Afrique",
         "BBC Africa",
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -1005,7 +1045,7 @@
       "article_count": 5,
       "source_count": 3,
       "baseline": 3.1,
-      "ratio": 1.6,
+      "ratio": 1.61,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1077,8 +1117,8 @@
     "CAR": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.64,
+      "baseline": 1.5,
+      "ratio": 0.68,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1099,7 +1139,7 @@
     "South Sudan": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.1,
+      "baseline": 2.0,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1123,8 +1163,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.64,
+      "baseline": 1.3,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1146,16 +1186,16 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.2,
-      "ratio": 0.91,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Violence",
+          "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -1182,27 +1222,23 @@
       ]
     },
     "DRC": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 4,
       "baseline": 7.6,
-      "ratio": 1.05,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Violence",
-          "count": 1
-        },
         {
           "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Crise",
           "count": 1
         },
         {
@@ -1211,6 +1247,10 @@
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -1230,6 +1270,13 @@
           "source": "The Guardian Africa",
           "published": "2026-03-19T05:01:00",
           "lead": "Nigeria had largest increase in terrorism-related deaths, ranking fourth in global index behind Pakistan, Burkina Faso a"
+        },
+        {
+          "title": "Relance du processus de paix entre la RDC et le Rwanda: à quoi se sont réellement engagés Kinshasa et Kigali?",
+          "url": "https://www.rfi.fr/fr/afrique/20260320-relance-du-processus-de-paix-entre-la-rdc-et-le-rwanda-ce-que-l-on-sai",
+          "source": "RFI Afrique",
+          "published": "2026-03-20T04:10:23",
+          "lead": "Alors que le Rwanda et la RDC disent avoir convenu de « mesures concrètes » pour relancer le processus de paix entre les"
         },
         {
           "title": "Francophonie: à la rencontre de la poétesse congolaise Do Nsoseme",
@@ -1282,10 +1329,10 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "The Guardian Africa",
-        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1303,7 +1350,7 @@
     "Angola": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1315,7 +1362,7 @@
     "Eritrea": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1359,16 +1406,16 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 3.0,
-      "ratio": 1.0,
+      "ratio": 1.01,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1397,25 +1444,25 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "BBC Africa",
         "AllAfrica",
-        "BBC Africa"
+        "Africanews"
       ]
     },
     "Somalia": {
       "article_count": 4,
       "source_count": 2,
-      "baseline": 2.0,
-      "ratio": 1.97,
+      "baseline": 2.1,
+      "ratio": 1.94,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -1463,8 +1510,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "BBC Africa"
+        "BBC Africa",
+        "AllAfrica"
       ]
     },
     "Uganda": {
@@ -1519,17 +1566,17 @@
     "Kenya": {
       "article_count": 9,
       "source_count": 3,
-      "baseline": 5.9,
-      "ratio": 1.53,
+      "baseline": 6.0,
+      "ratio": 1.51,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Drought",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -1616,16 +1663,16 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "BBC Africa",
         "AllAfrica",
-        "BBC Africa"
+        "Africanews"
       ]
     },
     "Rwanda": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 3,
       "baseline": 2.8,
-      "ratio": 1.81,
+      "ratio": 2.12,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1634,15 +1681,15 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
-          "count": 1
-        },
-        {
           "word": "Déplacés",
           "count": 1
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -1658,6 +1705,13 @@
           "source": "BBC Africa",
           "published": "2026-03-19T11:14:02",
           "lead": "The conflict has persisted despite a peace deal signed by DR Congo and Rwanda in December."
+        },
+        {
+          "title": "Relance du processus de paix entre la RDC et le Rwanda: à quoi se sont réellement engagés Kinshasa et Kigali?",
+          "url": "https://www.rfi.fr/fr/afrique/20260320-relance-du-processus-de-paix-entre-la-rdc-et-le-rwanda-ce-que-l-on-sai",
+          "source": "RFI Afrique",
+          "published": "2026-03-20T04:10:23",
+          "lead": "Alors que le Rwanda et la RDC disent avoir convenu de « mesures concrètes » pour relancer le processus de paix entre les"
         },
         {
           "title": "RDC et Rwanda «ont convenu de mesures concrètes» sur l’application de l’accord de paix, selon Washington",
@@ -1689,15 +1743,15 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "BBC Africa",
         "RFI Afrique",
-        "BBC Africa"
+        "Africanews"
       ]
     },
     "Burundi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.3,
+      "baseline": 1.2,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1709,8 +1763,8 @@
     "Tanzania": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 0.9,
-      "ratio": 3.33,
+      "baseline": 1.0,
+      "ratio": 3.0,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -1744,15 +1798,15 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "The Guardian Africa"
       ]
     },
     "Madagascar": {
       "article_count": 4,
       "source_count": 3,
       "baseline": 1.9,
-      "ratio": 2.11,
+      "ratio": 2.14,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1797,9 +1851,9 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Comoros": {
@@ -1893,8 +1947,8 @@
     "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.0,
+      "baseline": 0.8,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1928,7 +1982,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.67,
+      "ratio": 1.58,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1959,10 +2013,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 13,
+      "article_count": 12,
       "source_count": 2,
-      "baseline": 14.8,
-      "ratio": 0.88,
+      "baseline": 14.6,
+      "ratio": 0.82,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2035,7 +2089,7 @@
           "url": "https://www.dailymaverick.co.za/article/a-billion-rand-blunder-inside-nsfass-suspicious-student-housing-outsourcing-saga",
           "source": "Daily Maverick",
           "published": "2026-03-19T19:30:32",
-          "lead": "NSFAS’s controversial outsourcing practices have cost South African taxpayers up to R1-billion, exposing failures in man"
+          "lead": "NSFAS’s controversial outsourcing practices have cost South African taxpayers up to R1bn, exposing failures in managing "
         },
         {
           "title": "FINANCE WELLNESS COACH: Should you set up a trust for your child’s education in South Africa?",
