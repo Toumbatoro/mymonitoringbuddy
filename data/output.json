@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-21T06:32:13.644952",
+  "generated_at": "2026-03-21T09:23:57.050174",
   "summary": {
-    "high": 3,
-    "elevated": 5,
-    "normal": 24,
-    "quiet": 22
+    "high": 2,
+    "elevated": 8,
+    "normal": 18,
+    "quiet": 26
   },
   "countries": {
     "Morocco": {
@@ -80,49 +80,38 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "Le Monde Afrique",
         "RFI Afrique",
+        "France24 Afrique",
         "AllAfrica"
       ]
     },
     "Algeria": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 0.65,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Terroriste",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Sahara occidental: des sénateurs américains veulent faire classer le Polisario comme «organisation terroriste»",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-sahara-occidental-des-s%C3%A9nateurs-am%C3%A9ricains-veulent-faire-classer-le-polisario-comme-organisation-terroriste",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T08:45:33",
-          "lead": "Aux États-Unis, trois sénateurs républicains ont déposé un projet de loi visant à faire classer le Front Polisario parmi"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tunisia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 1.2,
-      "ratio": 2.5,
+      "ratio": 3.43,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Président",
           "count": 1
         }
       ],
@@ -134,6 +123,13 @@
           "source": "BBC Africa",
           "published": "2026-03-20T13:17:56",
           "lead": "Saadia Mosbah campaigned for migrants, particularly after President Kais Saied said they posed a demographic threat to t"
+        },
+        {
+          "title": "Tunisie : l’icône antiraciste Saadia Mosbah condamnée à huit ans de prison",
+          "url": "https://www.jeuneafrique.com/1776156/politique/tunisie-licone-antiraciste-saadia-mosbah-condamnee-a-huit-ans-de-prison/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T10:01:53",
+          "lead": "La militante avait été en première ligne pour défendre les migrants provenant d’Afrique subsaharienne après un virulent "
         },
         {
           "title": "Tunisian anti-racism activist sentenced to eight years in prison",
@@ -153,7 +149,8 @@
       "sources": [
         "Africanews",
         "BBC Africa",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Libya": {
@@ -191,16 +188,16 @@
       ]
     },
     "Sudan": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
       "baseline": 5.0,
-      "ratio": 0.4,
+      "ratio": 0.6,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Displaced",
-          "count": 2
+          "count": 3
         },
         {
           "word": "War",
@@ -214,6 +211,13 @@
         ]
       ],
       "articles": [
+        {
+          "title": "'Where is Eid?' For displaced people at Sudan's Tawila camp, holiday brings no relief",
+          "url": "http://www.africanews.com/2026/03/21/where-is-eid-for-displaced-people-at-sudans-tawila-camp-holiday-brings-no-relief/",
+          "source": "Africanews",
+          "published": "2026-03-21T07:50:08",
+          "lead": "As Sudan celebrated the first day of Eid on Friday, displaced people at North Darfur’s Tawila camp gathered for prayers."
+        },
         {
           "title": "In Sudan's refugee camps, Eid is overshadowed by war",
           "url": "http://www.africanews.com/2026/03/20/in-sudans-refugee-camps-eid-is-overshadowed-by-war/",
@@ -256,12 +260,12 @@
       ]
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 2.0,
-      "ratio": 1.02,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.53,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -278,25 +282,28 @@
           "source": "RFI Afrique",
           "published": "2026-03-20T13:02:46",
           "lead": "Arrivé à l’été 2025 en provenance du Red Star, Fodé Doucouré est au Havre jusqu'en juin 2027. Il avait quitté l'élite du"
+        },
+        {
+          "title": "Que cherche Donald Trump en renouant avec les juntes de l’AES ?",
+          "url": "https://www.jeuneafrique.com/1776366/politique/que-cherche-donald-trump-en-renouant-avec-les-juntes-de-laes/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T19:04:32",
+          "lead": "Les États-Unis ont relancé le dialogue avec le Mali, le Burkina Faso et le Niger. Au cœur des discussions : la relance d"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 3,
-      "source_count": 2,
+      "source_count": 3,
       "baseline": 1.5,
       "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -307,11 +314,11 @@
           "lead": "Face aux attaques des groupes jihadistes et au risque considéré comme élevé d'enlèvement de ressortissants étrangers dan"
         },
         {
-          "title": "Burkina Faso: non Ibrahim Traoré n’a pas été arrêté par Donald Trump",
-          "url": "https://www.rfi.fr/fr/podcasts/les-dessous-de-l-infox-la-chronique/20260320-burkina-faso-non-ibrahim-traor%C3%A9-n-a-pas-%C3%A9t%C3%A9-arr%C3%AAt%C3%A9-par-donald-trump",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T10:11:44",
-          "lead": "Au Burkina Faso, une rumeur cible actuellement le président de la transition. Une série de vidéos diffusées sur les rése"
+          "title": "Que cherche Donald Trump en renouant avec les juntes de l’AES ?",
+          "url": "https://www.jeuneafrique.com/1776366/politique/que-cherche-donald-trump-en-renouant-avec-les-juntes-de-laes/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T19:04:32",
+          "lead": "Les États-Unis ont relancé le dialogue avec le Mali, le Burkina Faso et le Niger. Au cœur des discussions : la relance d"
         },
         {
           "title": "Burkina Faso’s tomato export ban raises concerns over regional supply",
@@ -322,17 +329,18 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Africanews",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Niger": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 7,
+      "source_count": 5,
       "baseline": 2.0,
-      "ratio": 2.0,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.5,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "President",
@@ -340,6 +348,14 @@
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         },
         {
@@ -364,11 +380,32 @@
           "lead": "Face aux attaques des groupes jihadistes et au risque considéré comme élevé d'enlèvement de ressortissants étrangers dan"
         },
         {
+          "title": "Le Parlement européen demande la libération de Mohamed Bazoum et provoque une crise à Niamey",
+          "url": "https://www.rfi.fr/fr/podcasts/le-regard-de-newton-ahmed-barry/20260321-le-parlement-europ%C3%A9en-demande-la-lib%C3%A9ration-de-mohamed-bazoum-et-provoque-une-crise-%C3%A0-niamey",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T08:52:18",
+          "lead": "La résolution du Parlement européen, largement adoptée, demandant la libération du président Mohamed Bazoum, au Niger, n"
+        },
+        {
           "title": "Au Niger, l’Allemagne évacue son ambassade et demande à ses citoyens de quitter le pays",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/21/au-niger-l-allemagne-evacue-son-ambassade-et-demande-a-ses-citoyens-de-quitter-ce-pays_6672855_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-21T00:08:41",
-          "lead": "Berlin justifie sa décision par un risque élevé « d’enlèvements, de crimes violents et d’attentats terroristes » notamme"
+          "lead": "Berlin justifie sa décision par un risque élevé d’« enlèvements, de crimes violents et d’attentats terroristes » notamme"
+        },
+        {
+          "title": "Que cherche Donald Trump en renouant avec les juntes de l’AES ?",
+          "url": "https://www.jeuneafrique.com/1776366/politique/que-cherche-donald-trump-en-renouant-avec-les-juntes-de-laes/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T19:04:32",
+          "lead": "Les États-Unis ont relancé le dialogue avec le Mali, le Burkina Faso et le Niger. Au cœur des discussions : la relance d"
+        },
+        {
+          "title": "L’AES dit son « indignation » après une résolution européenne appelant à libérer Mohamed Bazoum",
+          "url": "https://www.jeuneafrique.com/1776169/politique/laes-dit-son-indignation-apres-une-resolution-europeenne-appelant-a-liberer-mohamed-bazoum/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T10:28:34",
+          "lead": "Les députés européens avaient demandé la semaine dernière la libération « immédiate et inconditionnelle » de Mohamed Baz"
         },
         {
           "title": "Alliance of Sahel states outraged at EU demand to free Niger's president",
@@ -379,22 +416,31 @@
         }
       ],
       "sources": [
+        "DW Africa",
         "Africanews",
         "RFI Afrique",
         "Le Monde Afrique",
-        "DW Africa"
+        "Jeune Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 6,
-      "source_count": 4,
+      "article_count": 9,
+      "source_count": 5,
       "baseline": 5.5,
-      "ratio": 1.09,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.63,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -436,18 +482,40 @@
           "lead": "Depuis le retrait du titre de champion continental au Sénégal la Confédération africaine de football fait face à de vive"
         },
         {
+          "title": "Ethiopian, South African Airways, Air Sénégal… Le choc pétrolier frappe toutes les compagnies africaines",
+          "url": "https://www.jeuneafrique.com/1775366/economie-entreprises/ethiopian-south-african-airways-air-senegal-le-choc-petrolier-frappe-toutes-les-compagnies-africaines/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T17:52:41",
+          "lead": "Alors que la guerre au Moyen-Orient fait flamber les cours du pétrole et du gaz, le prix du kérosène s’envole lui aussi."
+        },
+        {
+          "title": "Engrais : pourquoi la charge d’Ousmane Sonko contre Indorama est un pari risqué pour le Sénégal",
+          "url": "https://www.jeuneafrique.com/1775733/economie-entreprises/engrais-pourquoi-la-charge-dousmane-sonko-contre-indorama-est-un-pari-risque-pour-le-senegal/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T13:01:43",
+          "lead": "En s’attaquant aux Industries chimiques du Sénégal, contrôlées par le groupe asiatique Indorama, le gouvernement ouvre u"
+        },
+        {
           "title": "Morocco/Senegal: CAF Faces Pressure As Guinea Contests Morocco's 1976 Afcon Win",
           "url": "https://allafrica.com/stories/202603200033.html",
           "source": "AllAfrica",
           "published": "2026-03-20T09:42:12",
           "lead": "[Vanguard] The Guinea Football Federation has urged the Confederation of African Football (CAF) to review the 1976 AFCON"
+        },
+        {
+          "title": "Senegal/Liberia: George Weah Faults CAF On Decision to Strip Senegal",
+          "url": "https://allafrica.com/stories/202603200298.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T14:00:47",
+          "lead": "[This Day] Former Ballon d'Or winner and three-time African Player of the Year, George Manneh Weah, Sr, has faulted CAF'"
         }
       ],
       "sources": [
+        "RFI Afrique",
         "France24 Afrique",
         "Le Monde Afrique",
-        "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
@@ -521,12 +589,12 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.62,
+      "ratio": 1.25,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "President",
@@ -541,6 +609,13 @@
           "source": "AllAfrica",
           "published": "2026-03-20T09:44:46",
           "lead": "[FrontPageAfrica] Monrovia -- President Joseph Boakai and members of the Liberian Senate are maintaining silence over th"
+        },
+        {
+          "title": "Senegal/Liberia: George Weah Faults CAF On Decision to Strip Senegal",
+          "url": "https://allafrica.com/stories/202603200298.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T14:00:47",
+          "lead": "[This Day] Former Ballon d'Or winner and three-time African Player of the Year, George Manneh Weah, Sr, has faulted CAF'"
         }
       ],
       "sources": [
@@ -584,13 +659,18 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.4,
-      "ratio": 0.73,
+      "ratio": 1.46,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -599,17 +679,25 @@
           "source": "RFI Afrique",
           "published": "2026-03-20T22:21:51",
           "lead": "Nouvelle vague de restitutions d'objets pillés au Nigeria. Le Musée d'ethnographie de Genève, le musée Rietberg et le Mu"
+        },
+        {
+          "title": "Rencontre des chefs d’état-major à Cotonou : la France, le Bénin et la Côte d’Ivoire font front commun",
+          "url": "https://www.jeuneafrique.com/1776412/politique/rencontre-des-chefs-detat-major-a-cotonou-la-france-le-benin-et-la-cote-divoire-font-front-commun/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T19:25:07",
+          "lead": "La réunion des chefs d’état-major des armées française, béninoise et ivoirienne, qui s’est tenue à Cotonou ce 19 mars, a"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 10,
-      "source_count": 4,
+      "article_count": 12,
+      "source_count": 5,
       "baseline": 8.8,
-      "ratio": 1.13,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -618,7 +706,7 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -646,6 +734,13 @@
           "lead": "Lundi 16 mars, Maiduguri, la capitale de l’Etat de Borno, a été ciblée par trois attentats-suicides, les plus meurtriers"
         },
         {
+          "title": "Tunis, Casablanca, Le Caire, Lagos… Que contient le panier de l’Aïd cette année ?",
+          "url": "https://www.jeuneafrique.com/1775807/economie-entreprises/tunis-casablanca-le-caire-lagos-que-contient-le-panier-de-laid-cette-annee/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-21T08:25:00",
+          "lead": "De l’alimentation au carburant, la crise mondiale au Moyen-Orient fait grimper le coût des célébrations de la fin du ram"
+        },
+        {
           "title": "Nigerian Muslims mark End of Ramadan with Eid al-Fitr prayers",
           "url": "http://www.africanews.com/2026/03/20/nigerian-muslims-mark-end-of-ramadan-with-eid-al-fitr-prayers/",
           "source": "Africanews",
@@ -667,13 +762,6 @@
           "lead": "[Premium Times] Governor Babagana Zulum disclosed this in an interview with the BBC Hausa Service, monitored in Damaturu"
         },
         {
-          "title": "Nigeria: Nigeria Signs Deal With UK to Deport Visa Overstayers, Failed Asylum Seekers, Criminals",
-          "url": "https://allafrica.com/stories/202603200001.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:00:50",
-          "lead": "[Premium Times] PREMIUM TIMES reports that the agreement was signed during President Bola Tinubu's state visit to the UK"
-        },
-        {
           "title": "Nigeria: Ex-Rep Member Dumps PDP for ADC in Cross River",
           "url": "https://allafrica.com/stories/202603200451.html",
           "source": "AllAfrica",
@@ -693,13 +781,28 @@
           "source": "AllAfrica",
           "published": "2026-03-20T11:16:42",
           "lead": "[Afreximbank] On 10 March, the AfCFTA Adjustment Fund Corporation organised a stakeholders' engagement event in Lagos to"
+        },
+        {
+          "title": "West Africa: Nigeria, UK Seal &#xa3;746m Deal to Rebuild Apapa, Tin Can Ports",
+          "url": "https://allafrica.com/stories/202603200271.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T13:07:09",
+          "lead": "[Leadership] Nigeria has secured a &#xa3;746 million export finance agreement with the United Kingdom to support the red"
+        },
+        {
+          "title": "Nigeria: Beyond the Numbers - What Data and Community Voices Reveal About Maternal Deaths in Nigeria",
+          "url": "https://allafrica.com/stories/202603200231.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T12:48:01",
+          "lead": "[Nigeria Health Watch] Oladimeji Solomon Yemi and Safiya Shuaibu Isa (Lead writers)"
         }
       ],
       "sources": [
         "Africanews",
-        "Le Monde Afrique",
         "RFI Afrique",
-        "AllAfrica"
+        "Le Monde Afrique",
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Cape Verde": {
@@ -727,10 +830,10 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 3.1,
-      "ratio": 0.98,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -744,11 +847,18 @@
           "lead": "Au Cameroun, on s'achemine vers la prolongation d'un mandat des députés, qui avait déjà été prorogé d’un an en mars 2025"
         },
         {
-          "title": "Le Congolais Pascal Boroto, lauréat de la 5e édition du prix littéraire Voix d’Afriques",
-          "url": "https://www.rfi.fr/fr/culture/20260320-le-congolais-pascal-boroto-laur%C3%A9at-de-la-5e-%C3%A9dition-du-prix-litt%C3%A9raire-voix-d-afriques",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T07:50:18",
-          "lead": "C’est officiel depuis ce vendredi 20 mars, le prix Voix d’Afriques 2026 récompense le jeune écrivain de RDC, Pascal Boro"
+          "title": "Cameroun : Marcel Niat Njifenji, enfin la retraite pour le baobab du Sénat et du système Biya",
+          "url": "https://www.jeuneafrique.com/1775698/politique/cameroun-marcel-niat-njifenji-enfin-la-retraite-pour-le-baobab-du-senat-et-du-systeme-biya/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-21T09:03:00",
+          "lead": "À 91 ans, affaibli par l’âge, Marcel Niat Njifenji quitte la présidence du Sénat. Une sortie sans fracas pour cette figu"
+        },
+        {
+          "title": "Cameroun : le mandat des députés de nouveau prolongé",
+          "url": "https://www.jeuneafrique.com/1776184/politique/cameroun-le-mandat-des-deputes-de-nouveau-prolonge/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T10:49:05",
+          "lead": "Le dernier scrutin législatif a eu lieu en janvier 2020, pour un mandat qui devait initialement durer cinq ans."
         },
         {
           "title": "Cameroon delays parliamentary elections, lawmakers to stay until end 2026",
@@ -759,8 +869,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Africanews",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "CAR": {
@@ -825,9 +936,31 @@
       "sources": []
     },
     "Gabon": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.2,
+      "ratio": 0.81,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Henri-Claude Oyima : « Le succès de l’introduction en Bourse de BGFI nous engage tous dans une nouvelle dynamique »",
+          "url": "https://www.jeuneafrique.com/1772575/economie-entreprises/henri-claude-oyima-le-succes-de-lintroduction-en-bourse-de-bgfi-nous-engage-tous-dans-une-nouvelle-dynamique/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T12:31:45",
+          "lead": "Après avoir été ministre de l’Économie du Gabon, Henri-Claude Oyima retrouve son fauteuil de PDG à la BGFIBank. Il tire "
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
+    },
+    "Congo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 2.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -836,28 +969,6 @@
       "articles": [],
       "sources": []
     },
-    "Congo": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.48,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Le Congolais Pascal Boroto, lauréat de la 5e édition du prix littéraire Voix d’Afriques",
-          "url": "https://www.rfi.fr/fr/culture/20260320-le-congolais-pascal-boroto-laur%C3%A9at-de-la-5e-%C3%A9dition-du-prix-litt%C3%A9raire-voix-d-afriques",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T07:50:18",
-          "lead": "C’est officiel depuis ce vendredi 20 mars, le prix Voix d’Afriques 2026 récompense le jeune écrivain de RDC, Pascal Boro"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
-    },
     "DRC": {
       "article_count": 6,
       "source_count": 3,
@@ -865,12 +976,7 @@
       "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -888,18 +994,18 @@
           "lead": "Dans l’est de la République démocratique du Congo, les attaques des ADF, groupe armé d’origine ougandaise affilié à l’or"
         },
         {
-          "title": "Le Congolais Pascal Boroto, lauréat de la 5e édition du prix littéraire Voix d’Afriques",
-          "url": "https://www.rfi.fr/fr/culture/20260320-le-congolais-pascal-boroto-laur%C3%A9at-de-la-5e-%C3%A9dition-du-prix-litt%C3%A9raire-voix-d-afriques",
+          "title": "RDC: selon l'institut Ebuteli, «la pratique du pouvoir a fragilisé l’équilibre institutionnel»",
+          "url": "https://www.rfi.fr/fr/afrique/20260321-rdc-selon-l-institut-ebuteli-la-pratique-du-pouvoir-a-fragilis%C3%A9-l-%C3%A9quilibre-institutionnel",
           "source": "RFI Afrique",
-          "published": "2026-03-20T07:50:18",
-          "lead": "C’est officiel depuis ce vendredi 20 mars, le prix Voix d’Afriques 2026 récompense le jeune écrivain de RDC, Pascal Boro"
+          "published": "2026-03-21T07:35:13",
+          "lead": "En République démocratique du Congo, le débat sur une éventuelle révision de la Constitution s’est invité dans la vie po"
         },
         {
-          "title": "Comores: le choc après la mort au large de Mitsamiouli de 18 migrants africains trompés par un passeur",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-comores-le-choc-apr%C3%A8s-la-mort-au-large-de-mitsamiouli-de-18-migrants-africains-tromp%C3%A9s-par-un-passeur",
+          "title": "À la Une: démission de Modeste Bahati, psychose à Kinshasa, Stanis Bujakera et les faits",
+          "url": "https://www.rfi.fr/fr/podcasts/la-une-de-la-presse-cette-semaine-%C3%A0-kinshasa/20260321-%C3%A0-la-une-d%C3%A9mission-de-modeste-bahati-psychose-%C3%A0-kinshasa-stanis-bujakera-et-les-faits",
           "source": "RFI Afrique",
-          "published": "2026-03-20T08:08:38",
-          "lead": "Aux Comores, 18 personnes, des Burundais et des Congolais de RDC, dont un enfant de 3 ans, ont péri dans la nuit du 18 a"
+          "published": "2026-03-21T06:46:36",
+          "lead": ""
         },
         {
           "title": "RD Congo : quel débat autour de la Constitution congolaise ?",
@@ -917,9 +1023,9 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "São Tomé": {
@@ -971,16 +1077,31 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.36,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ethiopian, South African Airways, Air Sénégal… Le choc pétrolier frappe toutes les compagnies africaines",
+          "url": "https://www.jeuneafrique.com/1775366/economie-entreprises/ethiopian-south-african-airways-air-senegal-le-choc-petrolier-frappe-toutes-les-compagnies-africaines/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T17:52:41",
+          "lead": "Alors que la guerre au Moyen-Orient fait flamber les cours du pétrole et du gaz, le prix du kérosène s’envole lui aussi."
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Somalia": {
       "article_count": 0,
@@ -996,12 +1117,16 @@
     },
     "Uganda": {
       "article_count": 4,
-      "source_count": 2,
+      "source_count": 3,
       "baseline": 2.1,
       "ratio": 1.9,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Combat",
+          "count": 1
+        },
         {
           "word": "Minister",
           "count": 1
@@ -1009,6 +1134,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Ouganda − Bobi Wine : « Ordre avait été donné de me tuer »",
+          "url": "https://www.jeuneafrique.com/1776318/politique/ouganda-bobi-wine-ordre-avait-ete-donne-de-me-tuer/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T18:22:46",
+          "lead": "Deux mois après s’être volatilisé, l’opposant Bobi Wine est réapparu à Washington. Dans une interview accordée à Jeune A"
+        },
         {
           "title": "Uganda: Rhinos return to Kidepo Valley Park for first time since 1983",
           "url": "http://www.africanews.com/2026/03/20/uganda-rhinos-return-to-kidepo-valley-park-for-first-time-since-1983/",
@@ -1029,25 +1161,19 @@
           "source": "AllAfrica",
           "published": "2026-03-21T00:49:35",
           "lead": "[Premium Times] Washington, DC -- Uganda's Minister of Energy &#x26;amp; Mineral Development, Ruth Ssentamu, stressed th"
-        },
-        {
-          "title": "Uganda: Residents Demand Ban On Children in Quarry After Deadly Collapse in Mityana",
-          "url": "https://allafrica.com/stories/202603200010.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:26:25",
-          "lead": "[Nile Post] Residents of Minana Village in Mityana District are calling for strict regulations to stop children below th"
         }
       ],
       "sources": [
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 2,
       "baseline": 5.5,
-      "ratio": 0.91,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1057,6 +1183,10 @@
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1096,6 +1226,13 @@
           "source": "AllAfrica",
           "published": "2026-03-20T16:37:16",
           "lead": "[Capital FM] NAIROBI, Kenya, March 20, 2026 - Kenyan sprinter Mercy Oketch hopes to make an indelible mark at the ongoin"
+        },
+        {
+          "title": "Kenya: Partnerships Drive Push for Digital Health Growth At Smart Summit 2026",
+          "url": "https://allafrica.com/stories/202603200230.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T12:47:26",
+          "lead": "[Capital FM] Nairobi -- Industry leaders, government officials, and innovators have called for deeper collaboration to u"
         }
       ],
       "sources": [
@@ -1104,76 +1241,39 @@
       ]
     },
     "Rwanda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.7,
-      "ratio": 0.38,
-      "status": "normal",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Burundi": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.2,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Tanzania": {
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 1.0,
+      "ratio": 2.07,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Rwanda: Rwanda Expands Surgical Access with New Kibungo Teaching Hospital Spoke",
-          "url": "https://allafrica.com/stories/202603200028.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T09:23:36",
-          "lead": "[allAfrica] Rwanda is improving its surgical care with the opening of a newly renovated surgical department at Kibungo L"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
-    },
-    "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.81,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Comores: le choc après la mort au large de Mitsamiouli de 18 migrants africains trompés par un passeur",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-comores-le-choc-apr%C3%A8s-la-mort-au-large-de-mitsamiouli-de-18-migrants-africains-tromp%C3%A9s-par-un-passeur",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T08:08:38",
-          "lead": "Aux Comores, 18 personnes, des Burundais et des Congolais de RDC, dont un enfant de 3 ans, ont péri dans la nuit du 18 a"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
-    },
-    "Tanzania": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 3.1,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Comores: le choc après la mort au large de Mitsamiouli de 18 migrants africains trompés par un passeur",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-comores-le-choc-apr%C3%A8s-la-mort-au-large-de-mitsamiouli-de-18-migrants-africains-tromp%C3%A9s-par-un-passeur",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T08:08:38",
-          "lead": "Aux Comores, 18 personnes, des Burundais et des Congolais de RDC, dont un enfant de 3 ans, ont péri dans la nuit du 18 a"
-        },
         {
           "title": "Tanzania: Tanzania Network Pushes to Raise Legal Marriage Age for Girls to 18",
           "url": "https://allafrica.com/stories/202603200079.html",
@@ -1190,7 +1290,6 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "AllAfrica"
       ]
     },
@@ -1203,15 +1302,15 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Government",
-          "count": 2
-        },
-        {
           "word": "Minister",
           "count": 2
         },
         {
           "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Government",
           "count": 2
         },
         {
@@ -1255,46 +1354,23 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
         "Africanews",
-        "The Guardian Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique",
+        "The Guardian Africa"
       ]
     },
     "Comoros": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 3.75,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Comores: le choc après la mort au large de Mitsamiouli de 18 migrants africains trompés par un passeur",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-comores-le-choc-apr%C3%A8s-la-mort-au-large-de-mitsamiouli-de-18-migrants-africains-tromp%C3%A9s-par-un-passeur",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T08:08:38",
-          "lead": "Aux Comores, 18 personnes, des Burundais et des Congolais de RDC, dont un enfant de 3 ans, ont péri dans la nuit du 18 a"
-        },
-        {
-          "title": "At least 18 African migrants drown off coast of Comoros",
-          "url": "http://www.africanews.com/2026/03/20/at-least-18-african-migrants-drown-off-coast-of-comoros/",
-          "source": "Africanews",
-          "published": "2026-03-20T07:50:47",
-          "lead": "They were part of a group of about 50 people dropped off by smugglers in the sea, with many unable to swim."
-        }
-      ],
-      "sources": [
-        "Africanews",
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mauritius": {
       "article_count": 1,
@@ -1348,39 +1424,16 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.7,
-      "ratio": 1.36,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Casualties",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Malawi - Flash floods (IFRC, NOAA-CPC, media) (ECHO Daily Flash of 20 March 2026)",
-          "url": "https://reliefweb.int/report/malawi/malawi-flash-floods-ifrc-noaa-cpc-media-echo-daily-flash-20-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-20T12:29:12",
-          "lead": "Country: Malawi\n                                      Source: European Commission's Directorate-General for European Civ"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Mozambique": {
       "article_count": 1,
@@ -1410,33 +1463,26 @@
       ]
     },
     "Zimbabwe": {
-      "article_count": 3,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.11,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Coup",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Zimbabwe: Bishops Warn Constitutional Amendment Bill No. 3 Threatens Zimbabwe's Democracy",
-          "url": "https://allafrica.com/stories/202603200008.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:22:20",
-          "lead": "[New Zimbabwe] Zimbabwe's Catholic bishops have raised concerns over the proposed Constitutional Amendment Bill Number 3"
-        },
-        {
-          "title": "Zimbabwe: Zimbabwe Fuel Costs Among Highest in the Region - MPs Demand Clarity From Energy Minister",
-          "url": "https://allafrica.com/stories/202603200004.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:03:31",
-          "lead": "[New Zimbabwe] PARLIAMENT has demanded that the Minister of Energy and Power Development, July Moyo deliver a ministeria"
+          "title": "Le Zimbabwe met un coup de frein brutal à ses exportations de minerais au détriment de la Chine",
+          "url": "https://www.rfi.fr/fr/afrique/20260321-le-zimbabwe-met-un-coup-de-frein-brutal-%C3%A0-ses-exportations-de-minerais-au-d%C3%A9triment-de-la-chine",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T06:39:15",
+          "lead": "Le pays a décidé de suspendre les ventes de matières premières brutes, notamment le lithium, stratégique pour les batter"
         },
         {
           "title": "Zimbabwe: Senator Challenges Impact of Global Wars On Zimbabwe Fuel Costs",
@@ -1447,15 +1493,16 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "AllAfrica"
       ]
     },
     "Namibia": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 0.6,
-      "ratio": 1.58,
-      "status": "normal",
+      "ratio": 3.16,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
@@ -1466,6 +1513,13 @@
           "source": "AllAfrica",
           "published": "2026-03-20T15:03:16",
           "lead": "[Namibian] More than three decades after Michelle McLean was crowned Miss Universe, she is finally welcoming the friends"
+        },
+        {
+          "title": "Namibia: Five People Die in Car Crash Between Okahandja and Otjiwarongo, One Survivor",
+          "url": "https://allafrica.com/stories/202603200339.html",
+          "source": "AllAfrica",
+          "published": "2026-03-20T15:03:11",
+          "lead": "[Namibian] Five people died in a car crash between Okahandja and Otjiwarongo on Thursday evening at 18h00."
         }
       ],
       "sources": [
@@ -1486,12 +1540,20 @@
     },
     "South Africa": {
       "article_count": 13,
-      "source_count": 4,
-      "baseline": 14.3,
-      "ratio": 0.91,
+      "source_count": 6,
+      "baseline": 14.4,
+      "ratio": 0.9,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "War",
           "count": 1
@@ -1508,11 +1570,25 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Afrique du Sud: l'ANC dément toute «influence extérieure» sur les processus électoraux",
+          "url": "https://www.rfi.fr/fr/afrique/20260321-afrique-du-sud-l-anc-d%C3%A9ment-toute-influence-ext%C3%A9rieure-sur-les-processus-%C3%A9lectoraux",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T09:13:32",
+          "lead": "En Afrique du Sud, l’ANC, le parti au pouvoir, rejette les conclusions de l’enquête Propaganda Machine, menée par un rés"
+        },
+        {
           "title": "A Johannesburg, où la criminalité est devenue incontrôlable, l’armée se déploie dans un quartier de Soweto… pendant deux heures",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/20/a-johannesburg-une-operation-militaire-eclair-pour-lutter-contre-la-criminalite-quelques-jours-apres-on-a-eu-une-nouvelle-fusillade_6672735_3212.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-20T14:30:07",
           "lead": "L’armée sud-africaine a lancé en mars la mission Prosper pour s’attaquer au crime organisé qui gangrène les quartiers. A"
+        },
+        {
+          "title": "Ethiopian, South African Airways, Air Sénégal… Le choc pétrolier frappe toutes les compagnies africaines",
+          "url": "https://www.jeuneafrique.com/1775366/economie-entreprises/ethiopian-south-african-airways-air-senegal-le-choc-petrolier-frappe-toutes-les-compagnies-africaines/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-20T17:52:41",
+          "lead": "Alors que la guerre au Moyen-Orient fait flamber les cours du pétrole et du gaz, le prix du kérosène s’envole lui aussi."
         },
         {
           "title": "South Africa's traditional circumcision claims dozens of young lives",
@@ -1541,20 +1617,6 @@
           "source": "AllAfrica",
           "published": "2026-03-20T10:01:25",
           "lead": "[Scrolla] Petroleum companies have started limiting fuel in Nelson Mandela Bay, blaming the Gulf war for putting local s"
-        },
-        {
-          "title": "South Africa: Cederberg Municipality Battles to Keep Up With Sprawling Informal Settlements",
-          "url": "https://allafrica.com/stories/202603200027.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:42:52",
-          "lead": "[GroundUp] Almost one in five residents of Clanwilliam and Citrusdal live in informal settlements with limited access to"
-        },
-        {
-          "title": "South Africa: What Cape Town Is Spending On Homes, Roads and the N2 Wall",
-          "url": "https://allafrica.com/stories/202603200007.html",
-          "source": "AllAfrica",
-          "published": "2026-03-20T07:08:26",
-          "lead": "[GroundUp] The municipality's plans have been hotly debated"
         },
         {
           "title": "South Africa: Decline in Road Crash Stats",
@@ -1593,10 +1655,12 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
         "Africanews",
+        "Daily Maverick",
+        "RFI Afrique",
         "Le Monde Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Eswatini": {
