@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-22T01:21:37.784408",
+  "generated_at": "2026-03-22T04:47:22.223795",
   "summary": {
-    "high": 2,
-    "elevated": 3,
-    "normal": 20,
+    "high": 1,
+    "elevated": 6,
+    "normal": 18,
     "quiet": 29
   },
   "countries": {
     "Morocco": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 4.4,
-      "ratio": 0.45,
+      "baseline": 4.2,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -59,13 +59,22 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
-      "baseline": 1.1,
-      "ratio": 0.94,
-      "status": "normal",
+      "baseline": 1.0,
+      "ratio": 2.07,
+      "status": "elevated",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -74,6 +83,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-21T23:44:32",
           "lead": "L'ONG tunisienne Intersection, qui travaille sur les droits humains, a présenté ce 18 mars un rapport sur les violations"
+        },
+        {
+          "title": "Tunisie: l'immigration au centre de l'entretien téléphonique entre les présidents Saïed et Macron",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-tunisie-l-immigration-au-centre-de-l-entretien-t%C3%A9l%C3%A9phonique-entre-les-pr%C3%A9sidents-sa%C3%AFed-et-macron",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T02:01:44",
+          "lead": "En Tunisie, le président Kaïs Saïed s’est entretenu avec son homologue français Emmanuel Macron vendredi 20 mars à l’occ"
         }
       ],
       "sources": [
@@ -105,19 +121,23 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 7,
-      "source_count": 7,
+      "article_count": 8,
+      "source_count": 8,
       "baseline": 5.1,
-      "ratio": 1.38,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.56,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Attack",
-          "count": 3
+          "count": 4
         },
         {
           "word": "Killed",
+          "count": 3
+        },
+        {
+          "word": "Wounded",
           "count": 2
         },
         {
@@ -125,7 +145,11 @@
           "count": 1
         },
         {
-          "word": "Wounded",
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
           "count": 1
         },
         {
@@ -133,19 +157,16 @@
           "count": 1
         },
         {
-          "word": "Rsf",
-          "count": 1
-        },
-        {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Attack",
+          "Killed"
+        ]
+      ],
       "articles": [
         {
           "title": "WHO says attack on Sudan hospital killed 64, including 13 children",
@@ -153,6 +174,13 @@
           "source": "Al Jazeera",
           "published": "2026-03-21T22:43:25",
           "lead": "The attack on a teaching hospital in Al Deain, the capital of East Darfur state, has rendered the facility non-functiona"
+        },
+        {
+          "title": "Sudan: Over 60 killed in strike on hospital, WHO says",
+          "url": "https://www.dw.com/en/sudan-over-60-killed-in-strike-on-hospital-who-says/a-76471162?maca=en-rss-en-africa-8291-xml-mrss",
+          "source": "DW Africa",
+          "published": "2026-03-22T03:35:00",
+          "lead": "The World Health Organization's chief said nearly 90 others were wounded in the attack on a hospital in east Darfur."
         },
         {
           "title": "Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports",
@@ -172,7 +200,7 @@
           "title": "Soudan : au moins 64 morts, dont 13 enfants, dans une attaque contre un hôpital du Darfour-Est",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/22/soudan-au-moins-64-morts-dont-13-enfants-dans-une-attaque-contre-un-hopital-du-darfour-est_6673375_3212.html",
           "source": "Le Monde Afrique",
-          "published": "2026-03-22T01:10:41",
+          "published": "2026-03-22T01:10:39",
           "lead": "L’assaut, qui a impliqué « des armes lourdes », selon l’OMS, a visé l’hôpital universitaire d’Ed Daein. La capitale de l"
         },
         {
@@ -198,20 +226,21 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Le Monde Afrique",
-        "The Guardian Africa",
-        "AllAfrica",
-        "Al Jazeera",
+        "Africanews",
         "Jeune Afrique",
-        "Africanews"
+        "Le Monde Afrique",
+        "France24 Afrique",
+        "The Guardian Africa",
+        "DW Africa",
+        "AllAfrica",
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 1.3,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -232,8 +261,8 @@
     "Mali": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 2.0,
-      "ratio": 1.53,
+      "baseline": 1.9,
+      "ratio": 1.55,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -271,18 +300,18 @@
         }
       ],
       "sources": [
+        "Africanews",
         "France24 Afrique",
-        "Le Monde Afrique",
-        "Africanews"
+        "Le Monde Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.5,
-      "ratio": 2.0,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.3,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "President",
@@ -295,13 +324,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "L'Allemagne suspend l'activité de son ambassade au Niger en raison de la situation sécuritaire",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-l-allemagne-suspend-l-activit%C3%A9-de-son-ambassade-au-niger-en-raison-de-la-situation-s%C3%A9curitaire",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T03:48:00",
-          "lead": "Face aux attaques des groupes jihadistes et au risque considéré comme élevé d'enlèvement de ressortissants étrangers dan"
-        },
         {
           "title": "Le Sahel, zone de guerres oubliée sur la carte mondiale des crises",
           "url": "https://www.lemonde.fr/idees/article/2026/03/21/le-sahel-zone-de-guerres-oubliee-sur-la-carte-mondiale-des-crises_6673284_3232.html",
@@ -318,18 +340,17 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "Le Monde Afrique"
       ]
     },
     "Niger": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 3,
-      "baseline": 2.1,
-      "ratio": 2.9,
-      "status": "high",
-      "confidence": "high",
+      "baseline": 2.2,
+      "ratio": 2.27,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
@@ -352,11 +373,11 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Jihadist",
           "count": 1
         },
         {
-          "word": "Jihadist",
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -368,13 +389,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-21T23:40:13",
           "lead": "Un millier de personnes, selon l'AFP, ont manifesté ce samedi 21 mars contre une résolution du Parlement européen demand"
-        },
-        {
-          "title": "L'Allemagne suspend l'activité de son ambassade au Niger en raison de la situation sécuritaire",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-l-allemagne-suspend-l-activit%C3%A9-de-son-ambassade-au-niger-en-raison-de-la-situation-s%C3%A9curitaire",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T03:48:00",
-          "lead": "Face aux attaques des groupes jihadistes et au risque considéré comme élevé d'enlèvement de ressortissants étrangers dan"
         },
         {
           "title": "Le Parlement européen demande la libération de Mohamed Bazoum et provoque une crise à Niamey",
@@ -406,16 +420,16 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Le Monde Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
-      "baseline": 5.4,
-      "ratio": 0.37,
+      "baseline": 5.1,
+      "ratio": 0.59,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -426,6 +440,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Sénégal: importante saisie de poissons juvéniles dont la pêche rarifie les ressources",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-s%C3%A9n%C3%A9gal-importante-saisie-de-poissons-juv%C3%A9niles-dont-la-p%C3%AAche-rarifie-les-ressources",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T04:13:38",
+          "lead": "Au Sénégal, le ministère des Pêches annonce une saisie importante de poissons juvéniles qui n'ont pas l'âge et la taille"
+        },
         {
           "title": "CAN 2025: «Le TAS offre plus de garanties en neutralité et en indépendance»",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260321-can-2025-le-tas-offre-plus-de-garanties-en-neutralit%C3%A9-et-en-ind%C3%A9pendance",
@@ -496,7 +517,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -509,7 +530,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.52,
+      "ratio": 0.54,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -535,7 +556,7 @@
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -547,7 +568,7 @@
     "Togo": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -560,7 +581,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 1.5,
-      "ratio": 2.67,
+      "ratio": 2.61,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -613,8 +634,8 @@
     "Nigeria": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 8.6,
-      "ratio": 0.35,
+      "baseline": 8.4,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -656,9 +677,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
+        "Jeune Afrique",
         "BBC Africa",
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -676,8 +697,8 @@
     "Chad": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.65,
+      "baseline": 1.6,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -698,8 +719,8 @@
     "Cameroon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 3.0,
-      "ratio": 0.33,
+      "baseline": 2.8,
+      "ratio": 0.36,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -742,7 +763,7 @@
     "South Sudan": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.0,
+      "baseline": 1.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -776,12 +797,12 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.48,
+      "ratio": 0.97,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Election",
@@ -796,6 +817,13 @@
           "source": "AllAfrica",
           "published": "2026-03-22T00:23:29",
           "lead": "[RFI] Civil society groups in Congo-Brazzaville are challenging the integrity of last weekend's presidential election, w"
+        },
+        {
+          "title": "Congo-Kinshasa: Young Congolese Author Pascal Boroto Wins African Literary Prize",
+          "url": "https://allafrica.com/stories/202603220017.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:20:16",
+          "lead": "[RFI] The 2026 Voix d'Afriques (Voices from Africa) literature prize has been awarded to Pascal Boroto, a young writer f"
         }
       ],
       "sources": [
@@ -804,9 +832,9 @@
     },
     "DRC": {
       "article_count": 5,
-      "source_count": 2,
-      "baseline": 7.4,
-      "ratio": 0.68,
+      "source_count": 3,
+      "baseline": 7.2,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -818,13 +846,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-22T00:42:50",
           "lead": "En République démocratique du Congo, le débat sur une éventuelle révision de la constitution s’est invité dans la vie po"
-        },
-        {
-          "title": "RDC: un nouveau rapport vient confirmer la hausse incontrôlée de la masse salariale dans la fonction publique",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-rdc-un-nouveau-rapport-vient-confirmer-la-hausse-incontr%C3%B4l%C3%A9e-de-la-masse-salariale-dans-la-fonction-publique",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T03:49:44",
-          "lead": "Selon le document publié vendredi 20 mars par le Centre de recherche en finances publiques et développement local, les d"
         },
         {
           "title": "Est de la RDC: des populations traumatisées racontent l'ampleur des exactions des ADF",
@@ -846,9 +867,17 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-21T14:00:10",
           "lead": "La République démocratique du Congo est devenue un enjeu pour Washington, qui cherche notamment à obtenir un accès aux m"
+        },
+        {
+          "title": "Congo-Kinshasa: Young Congolese Author Pascal Boroto Wins African Literary Prize",
+          "url": "https://allafrica.com/stories/202603220017.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:20:16",
+          "lead": "[RFI] The 2026 Voix d'Afriques (Voices from Africa) literature prize has been awarded to Pascal Boroto, a young writer f"
         }
       ],
       "sources": [
+        "AllAfrica",
         "Le Monde Afrique",
         "RFI Afrique"
       ]
@@ -869,7 +898,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.9,
-      "ratio": 1.15,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -914,7 +943,7 @@
     "Ethiopia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.8,
+      "baseline": 2.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -951,12 +980,12 @@
       ]
     },
     "Uganda": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 1.45,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.88,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Government",
@@ -965,6 +994,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Kenya-Chine: relance du projet ferroviaire sino-kenyan arrêté depuis 6 ans",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-kenya-chine-relance-du-projet-ferroviaire-sino-kenyan-arr%C3%AAt%C3%A9-depuis-6-ans",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T03:07:20",
+          "lead": "C’est un projet emblématique de la présence chinoise en Afrique qui reprend vie. Ce 21 mars, les présidents kenyan et ou"
+        },
         {
           "title": "De Centrafrique jusqu'en Ouganda, les amateurs de films de gros bras se souviennent de Chuck Norris",
           "url": "https://www.rfi.fr/fr/afrique/20260321-de-centrafrique-jusqu-en-ouganda-les-amateurs-de-films-de-gros-bras-se-souviennent-de-chuck-norris",
@@ -995,19 +1031,19 @@
     "Kenya": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 5.4,
-      "ratio": 0.56,
+      "baseline": 5.3,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Le Kenya envisage de rapatrier ses 500 000 ressortissants installés dans les pays du Golfe",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-le-kenya-envisage-de-rapatrier-ses-500-000-ressortissants-install%C3%A9s-dans-les-pays-du-golfe",
+          "title": "Kenya-Chine: relance du projet ferroviaire sino-kenyan arrêté depuis 6 ans",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-kenya-chine-relance-du-projet-ferroviaire-sino-kenyan-arr%C3%AAt%C3%A9-depuis-6-ans",
           "source": "RFI Afrique",
-          "published": "2026-03-21T03:49:11",
-          "lead": "En vue de l'opération qui s'annonce titanesque, le ministère kenyan des Affaires étrangères a demandé au Parlement le dé"
+          "published": "2026-03-22T03:07:20",
+          "lead": "C’est un projet emblématique de la présence chinoise en Afrique qui reprend vie. Ce 21 mars, les présidents kenyan et ou"
         },
         {
           "title": "Chad to deploy 800 troops to Haiti's Gang Suppression Force as Kenya steps back",
@@ -1025,15 +1061,15 @@
         }
       ],
       "sources": [
+        "Africanews",
         "AllAfrica",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Rwanda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.7,
+      "baseline": 2.6,
       "ratio": 0.38,
       "status": "normal",
       "confidence": "low",
@@ -1055,7 +1091,7 @@
     "Burundi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1065,16 +1101,26 @@
       "sources": []
     },
     "Tanzania": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.15,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tanzanie: Human rights watch presse les autorités à faire la lumière sur les violences post-électotales",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-tanzanie-human-rights-watch-presse-les-autorit%C3%A9s-%C3%A0-faire-la-lumi%C3%A8re-sur-les-violences-post-%C3%A9lectotales",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T02:22:59",
+          "lead": "En Tanzanie, alors que les conclusions de la commission d’enquête sur les violences post-électorales sont attendues le 3"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Madagascar": {
       "article_count": 3,
@@ -1126,31 +1172,16 @@
       "sources": []
     },
     "Mauritius": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Maurice: Paul Bérenger quitte son poste de Premier ministre adjoint",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-maurice-paul-b%C3%A9renger-quitte-son-poste-de-premier-ministre-adjoint",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T03:46:46",
-          "lead": "En profond désaccord avec le chef du gouvernement Navin Ramgoolam sur plusieurs sujets, le leader historique du Mouvemen"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Seychelles": {
       "article_count": 0,
@@ -1203,8 +1234,8 @@
     "Zimbabwe": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 0.76,
+      "baseline": 2.5,
+      "ratio": 0.8,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1242,7 +1273,7 @@
     "Namibia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.6,
+      "baseline": 0.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1266,8 +1297,8 @@
     "South Africa": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 14.1,
-      "ratio": 0.28,
+      "baseline": 13.7,
+      "ratio": 0.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1316,10 +1347,10 @@
         }
       ],
       "sources": [
+        "Daily Maverick",
         "France24 Afrique",
         "Le Monde Afrique",
-        "RFI Afrique",
-        "Daily Maverick"
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
