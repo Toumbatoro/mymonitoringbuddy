@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-22T06:39:35.402571",
+  "generated_at": "2026-03-22T09:24:10.943971",
   "summary": {
     "high": 1,
-    "elevated": 5,
+    "elevated": 6,
     "normal": 19,
-    "quiet": 29
+    "quiet": 28
   },
   "countries": {
     "Morocco": {
@@ -42,8 +42,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
@@ -67,11 +67,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -122,7 +122,7 @@
     },
     "Sudan": {
       "article_count": 8,
-      "source_count": 8,
+      "source_count": 7,
       "baseline": 5.2,
       "ratio": 1.55,
       "status": "elevated",
@@ -141,15 +141,15 @@
           "count": 2
         },
         {
+          "word": "Attaque",
+          "count": 2
+        },
+        {
           "word": "Humanitarian",
           "count": 1
         },
         {
           "word": "Milice",
-          "count": 1
-        },
-        {
-          "word": "Rsf",
           "count": 1
         },
         {
@@ -190,6 +190,13 @@
           "lead": "Victims of army drone attack on East Darfur health facility included children and medical personnel A strike on a health"
         },
         {
+          "title": "Soudan : une attaque contre un hôpital fait plus de 60 morts, dont 13 enfants",
+          "url": "https://www.france24.com/fr/afrique/20260322-soudan-une-attaque-contre-un-h%C3%B4pital-fait-plus-de-60-morts-dont-des-enfants",
+          "source": "France24 Afrique",
+          "published": "2026-03-22T06:47:06",
+          "lead": "Une attaque contre un hôpital universitaire de la capitale du Darfour-Est, El-Daein, a fait au moins 60 morts, dont 13 e"
+        },
+        {
           "title": "Le Soudan toujours déchiré par la guerre : les déplacés se rassemblent pour l'Aïd",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260321-le-soudan-toujours-d%C3%A9chir%C3%A9-par-la-guerre-les-d%C3%A9plac%C3%A9s-se-rassemblent-pour-l-a%C3%AFd",
           "source": "France24 Afrique",
@@ -211,13 +218,6 @@
           "lead": "À moins d’un mois de l’élection présidentielle du 12 avril au Bénin, Jeune Afrique a interviewé Romuald Wadagni, actuel "
         },
         {
-          "title": "'Where is Eid?' For displaced people at Sudan's Tawila camp, holiday brings no relief",
-          "url": "http://www.africanews.com/2026/03/21/where-is-eid-for-displaced-people-at-sudans-tawila-camp-holiday-brings-no-relief/",
-          "source": "Africanews",
-          "published": "2026-03-21T07:50:08",
-          "lead": "As Sudan celebrated the first day of Eid on Friday, displaced people at North Darfur’s Tawila camp gathered for prayers."
-        },
-        {
           "title": "Sudan: Dr Tedros Condemns Attack on Sudan Hospital, Cals for De-escalation and Civilian Protections",
           "url": "https://allafrica.com/stories/202603210068.html",
           "source": "AllAfrica",
@@ -226,14 +226,13 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
+        "Le Monde Afrique",
         "Jeune Afrique",
-        "The Guardian Africa",
-        "DW Africa",
         "AllAfrica",
+        "The Guardian Africa",
         "France24 Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "DW Africa",
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
@@ -267,11 +266,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Protest",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Protest",
           "count": 1
         }
       ],
@@ -300,9 +299,9 @@
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "France24 Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "Africanews"
       ]
     },
     "Burkina Faso": {
@@ -314,11 +313,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Protest",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Protest",
           "count": 1
         }
       ],
@@ -340,32 +339,24 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Niger": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 2.2,
-      "ratio": 2.31,
+      "ratio": 1.85,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 2
-        },
         {
           "word": "Manifestation",
           "count": 1
         },
         {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Protest",
+          "word": "Président",
           "count": 1
         },
         {
@@ -373,11 +364,15 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Protest",
           "count": 1
         },
         {
           "word": "Jihadist",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -389,13 +384,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-21T23:40:13",
           "lead": "Un millier de personnes, selon l'AFP, ont manifesté ce samedi 21 mars contre une résolution du Parlement européen demand"
-        },
-        {
-          "title": "Le Parlement européen demande la libération de Mohamed Bazoum et provoque une crise à Niamey",
-          "url": "https://www.rfi.fr/fr/podcasts/le-regard-de-newton-ahmed-barry/20260321-le-parlement-europ%C3%A9en-demande-la-lib%C3%A9ration-de-mohamed-bazoum-et-provoque-une-crise-%C3%A0-niamey",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T08:52:18",
-          "lead": "La résolution du Parlement européen, largement adoptée, demandant la libération du président Mohamed Bazoum, au Niger, n"
         },
         {
           "title": "Le Sahel, zone de guerres oubliée sur la carte mondiale des crises",
@@ -420,9 +408,9 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Senegal": {
@@ -547,16 +535,31 @@
       ]
     },
     "Ghana": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.53,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ghana pushes for slave trade to be declared a crime against Humanity",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/22/ghana-pushes-for-slave-trade-to-be-declared-a-crime-against-humanity?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-22T08:22:02",
+          "lead": "Ghana&#039;s foreign minister proposed a resolution recognizing the trans-Atlantic slave trade as a crime against humani"
+        }
+      ],
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     "Togo": {
       "article_count": 0,
@@ -619,9 +622,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
+        "RFI Afrique",
         "France24 Afrique",
-        "RFI Afrique"
+        "Jeune Afrique"
       ]
     },
     "Nigeria": {
@@ -637,7 +640,7 @@
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Terrorist",
           "count": 1
         },
         {
@@ -655,11 +658,11 @@
           "lead": "How a lack of justice and trust in the security forces perpetuates deadly violence in Plateau state."
         },
         {
-          "title": "Tunis, Casablanca, Le Caire, Lagos… Que contient le panier de l’Aïd cette année ?",
-          "url": "https://www.jeuneafrique.com/1775807/economie-entreprises/tunis-casablanca-le-caire-lagos-que-contient-le-panier-de-laid-cette-annee/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-21T08:25:00",
-          "lead": "De l’alimentation au carburant, la crise mondiale au Moyen-Orient fait grimper le coût des célébrations de la fin du ram"
+          "title": "US troops in Nigeria using drones to detect and disrupt terrorist activity",
+          "url": "http://www.africanews.com/2026/03/22/us-troops-in-nigeria-using-drones-to-detect-and-disrupt-terrorist-activity/",
+          "source": "Africanews",
+          "published": "2026-03-22T08:33:27",
+          "lead": "US military trainers deployed to Nigeria are using high-powered drones for surveillance and intelligence gathering, the "
         },
         {
           "title": "Nigeria: U.S. Drones Deployed to Nigeria Alongside Troops for Intelligence and Training",
@@ -672,7 +675,7 @@
       "sources": [
         "BBC Africa",
         "AllAfrica",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "Cape Verde": {
@@ -720,11 +723,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Cameroun : Marcel Niat Njifenji, enfin la retraite pour le baobab du Sénat et du système Biya",
-          "url": "https://www.jeuneafrique.com/1775698/politique/cameroun-marcel-niat-njifenji-enfin-la-retraite-pour-le-baobab-du-senat-et-du-systeme-biya/",
+          "title": "Pape Léon XIV au Cameroun : les enjeux d’une visite et d’un pari risqués",
+          "url": "https://www.jeuneafrique.com/1774779/politique/pape-leon-xiv-au-cameroun-les-enjeux-dune-visite-et-dun-pari-risques/",
           "source": "Jeune Afrique",
-          "published": "2026-03-21T09:03:00",
-          "lead": "À 91 ans, affaibli par l’âge, Marcel Niat Njifenji quitte la présidence du Sénat. Une sortie sans fracas pour cette figu"
+          "published": "2026-03-22T08:55:00",
+          "lead": "Le pape Léon XIV se rendra au Cameroun du 15 au 18 avril, avec des étapes à Yaoundé, Bamenda et Douala. Une visite très "
         }
       ],
       "sources": [
@@ -790,10 +793,10 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.95,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -804,6 +807,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
+          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
+          "source": "Africanews",
+          "published": "2026-03-22T07:30:05",
+          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+        },
         {
           "title": "Congo-Brazzaville: Congo's 'Nintendo Election' Was Rigged From the Start, Observer Says",
           "url": "https://allafrica.com/stories/202603220021.html",
@@ -820,23 +830,24 @@
         }
       ],
       "sources": [
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "DRC": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 7.2,
-      "ratio": 0.56,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -864,6 +875,13 @@
           "lead": "La République démocratique du Congo est devenue un enjeu pour Washington, qui cherche notamment à obtenir un accès aux m"
         },
         {
+          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
+          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
+          "source": "Africanews",
+          "published": "2026-03-22T07:30:05",
+          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+        },
+        {
           "title": "Congo-Kinshasa: Young Congolese Author Pascal Boroto Wins African Literary Prize",
           "url": "https://allafrica.com/stories/202603220017.html",
           "source": "AllAfrica",
@@ -872,9 +890,10 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "AllAfrica",
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -948,37 +967,22 @@
       "sources": []
     },
     "Somalia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.8,
-      "ratio": 0.55,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "President",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Trump threatens to deploy ICE to airports amid Homeland Security shutdown",
-          "url": "https://www.aljazeera.com/news/2026/3/21/trump-threatens-to-deploy-ice-to-airports-amid-homeland-security-shutdown?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-21T16:57:54",
-          "lead": "The US president called on immigration agents to place &#039;heavy emphasis&#039; on the arrest of Somali immigrants."
-        }
-      ],
-      "sources": [
-        "Al Jazeera"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Uganda": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 5,
+      "source_count": 3,
       "baseline": 2.2,
-      "ratio": 1.85,
+      "ratio": 2.31,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1004,6 +1008,13 @@
           "lead": "L’acteur américain Chuck Norris, icône des arts martiaux et du cinéma d’action, s’est éteint vendredi à l’âge de 86 ans."
         },
         {
+          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
+          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
+          "source": "Africanews",
+          "published": "2026-03-22T07:30:05",
+          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+        },
+        {
           "title": "Kenya: Kenya, Uganda Open Rail Extension Burdened By Chinese Debt",
           "url": "https://allafrica.com/stories/202603220030.html",
           "source": "AllAfrica",
@@ -1020,14 +1031,15 @@
       ],
       "sources": [
         "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Kenya": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 5.3,
-      "ratio": 0.57,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1039,6 +1051,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-22T03:07:20",
           "lead": "C’est un projet emblématique de la présence chinoise en Afrique qui reprend vie. Ce 21 mars, les présidents kenyan et ou"
+        },
+        {
+          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
+          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
+          "source": "Africanews",
+          "published": "2026-03-22T07:30:05",
+          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
         },
         {
           "title": "Chad to deploy 800 troops to Haiti's Gang Suppression Force as Kenya steps back",
@@ -1057,20 +1076,27 @@
       ],
       "sources": [
         "AllAfrica",
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Rwanda": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.6,
-      "ratio": 0.38,
+      "ratio": 0.77,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Rwanda batter becomes youngest women's T20 centurion",
+          "url": "https://www.bbc.com/sport/cricket/articles/cdxdrk9jzzqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-21T19:02:56",
+          "lead": "Rwanda's Fanny Utagushimaninde says it was like \"a dream\" after becoming the youngest woman to make a T20 international "
+        },
         {
           "title": "Jason K. Stearns, chercheur : « Les sanctions américaines contre le Rwanda marquent un virage majeur dans le conflit en RDC »",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/21/jason-k-stearns-chercheur-les-sanctions-americaines-contre-le-rwanda-marquent-un-virage-majeur-dans-le-conflit-en-rdc_6673276_3212.html",
@@ -1080,6 +1106,7 @@
         }
       ],
       "sources": [
+        "BBC Africa",
         "Le Monde Afrique"
       ]
     },
@@ -1118,15 +1145,31 @@
       ]
     },
     "Madagascar": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.05,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "ratio": 1.61,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Madagascar: la guerre au Moyen-Orient met l'approvisionnement en carburant sous tension",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-madagascar-la-guerre-au-moyen-orient-met-l-approvisionnement-en-carburant-sous-tension",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T06:44:34",
+          "lead": "À Madagascar, Antananarivo est au point mort. Depuis plusieurs jours, la chasse au carburant paralyse les rues de la cap"
+        },
         {
           "title": "Le nouvel an malgache, une tradition signe de renouveau et de purification",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260321-le-nouvel-an-malgache-une-tradition-signe-de-renouveau-et-de-purification",
@@ -1143,8 +1186,8 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Comoros": {
@@ -1184,16 +1227,26 @@
       "sources": []
     },
     "Zambia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.88,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Traitement VIH contre terres rares : l'odieux chantage de l'administration Trump en Zambie",
+          "url": "https://www.france24.com/fr/afrique/20260322-traitement-vih-contre-terres-rares-odieux-chantage-de-administration-trump-zambie",
+          "source": "France24 Afrique",
+          "published": "2026-03-22T08:25:44",
+          "lead": "Selon une note du Département d'État, l'administration Trump envisage de suspendre son aide aux personnes séropositives "
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
     },
     "Malawi": {
       "article_count": 0,
@@ -1232,11 +1285,11 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Élection",
           "count": 1
         },
         {
-          "word": "Élection",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -1288,16 +1341,12 @@
     },
     "South Africa": {
       "article_count": 4,
-      "source_count": 4,
+      "source_count": 3,
       "baseline": 13.7,
       "ratio": 0.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
         {
           "word": "Gouvernement",
           "count": 1
@@ -1305,17 +1354,14 @@
         {
           "word": "Guerre",
           "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Afrique du Sud: l'ANC dément toute «influence extérieure» sur les processus électoraux",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-afrique-du-sud-l-anc-d%C3%A9ment-toute-influence-ext%C3%A9rieure-sur-les-processus-%C3%A9lectoraux",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T09:13:32",
-          "lead": "En Afrique du Sud, l’ANC, le parti au pouvoir, rejette les conclusions de l’enquête Propaganda Machine, menée par un rés"
-        },
         {
           "title": "Hausse du prix à la pompe en Afrique du Sud : quelles répercussions de la guerre en Iran ?",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260321-hausse-du-prix-%C3%A0-la-pompe-en-afrique-du-sud-quelles-r%C3%A9percussions-de-la-guerre-en-iran",
@@ -1331,18 +1377,24 @@
           "lead": "En plus de la plainte sud-africaine pour génocide déposée contre Israël devant la justice internationale, l’administrati"
         },
         {
-          "title": "THE WEEKEND WRAP: Republicans’ Iran problem, Mbalula’s Russian connections and the impact of fuel price hikes",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-21-republicans-iran-problem-mbalulas-russian-connections-and-the-impact-of-fuel-price-hikes-/",
+          "title": "LONG-DISTANCE CHAMP: ‘Keep on pushing’: SA running sensation Adriaan Wildschutt on inspiring others and staying grounded",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-22-keep-on-pushing-sa-running-sensation-adriaan-wildschutt-on-inspiring-others-and-staying-grounded/",
           "source": "Daily Maverick",
-          "published": "2026-03-21T07:00:00",
-          "lead": "The Weekend Wrap highlights how the escalating Iranian conflict is driving fuel shortages and threatening South African "
+          "published": "2026-03-22T10:13:31",
+          "lead": "By becoming South Africa’s first winner of the New York City Half-Marathon, the athlete has rubber-stamped his reputatio"
+        },
+        {
+          "title": "VIDEO: Watch – Mkhwanazi vs McBride: Clashing claims tear South Africa’s security apart",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-22-watch-mkhwanazi-vs-mcbride-clashing-claims-tear-south-africas-security-apart/",
+          "source": "Daily Maverick",
+          "published": "2026-03-22T09:18:15",
+          "lead": "Two competing narratives have emerged since KwaZulu-Natal police chief Nhlanhla Mkhwanazi alleged in July 2025 that a ca"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Daily Maverick",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "France24 Afrique",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
