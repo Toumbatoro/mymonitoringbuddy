@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-22T12:31:20.362852",
+  "generated_at": "2026-03-22T15:17:52.458404",
   "summary": {
     "high": 0,
     "elevated": 7,
-    "normal": 17,
-    "quiet": 30
+    "normal": 16,
+    "quiet": 31
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 2,
-      "baseline": 4.2,
-      "ratio": 0.94,
+      "baseline": 4.3,
+      "ratio": 1.16,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -46,6 +46,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-21T22:08:32",
           "lead": "Michel Brizoua-Bi, avocat ivoirien et ancien président de la Commission de gouvernance de la CAF et arbitre au Tribunal "
+        },
+        {
+          "title": "Narcos de Dubaï : comment le Maroc bataille pour ne pas devenir leur nouvelle base arrière",
+          "url": "https://www.jeuneafrique.com/1774439/societe/narcos-de-dubai-comment-le-maroc-bataille-pour-ne-pas-devenir-leur-nouvelle-base-arriere/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-22T15:50:00",
+          "lead": "Si certains réseaux de narcotrafic fuyant le Moyen-Orient envisagent un repli au Maroc, l’énergie déployée par le royaum"
         },
         {
           "title": "Pour les narcos de Dubaï, la tentation d’un refuge au Maroc",
@@ -135,10 +142,10 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 9,
-      "source_count": 8,
+      "article_count": 10,
+      "source_count": 9,
       "baseline": 5.2,
-      "ratio": 1.74,
+      "ratio": 1.92,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -148,6 +155,10 @@
         },
         {
           "word": "Attack",
+          "count": 4
+        },
+        {
+          "word": "Attaque",
           "count": 3
         },
         {
@@ -155,30 +166,31 @@
           "count": 2
         },
         {
-          "word": "Attaque",
-          "count": 2
-        },
-        {
           "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Milice",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
+          "word": "Rsf",
           "count": 1
         },
         {
           "word": "Guerre",
           "count": 1
+        },
+        {
+          "word": "Milice",
+          "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Attack",
+          "Killed"
+        ]
+      ],
       "articles": [
         {
-          "title": "Sudan army denies deadly Eid strike on key hospital in Darfur",
+          "title": "Sudan drone attack on key hospital killed 64 people during Eid, WHO says",
           "url": "https://www.bbc.com/news/articles/cr715xynkvvo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Africa",
           "published": "2026-03-22T12:15:05",
@@ -197,6 +209,13 @@
           "source": "The Guardian Africa",
           "published": "2026-03-21T23:15:04",
           "lead": "Victims of army drone attack on East Darfur health facility included children and medical personnel A strike on a health"
+        },
+        {
+          "title": "Soudan: plus d'une soixantaine de morts dans une attaque contre un hôpital au Darfour",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-soudan-plus-d-une-soixantaine-de-morts-dans-une-attaque-contre-un-h%C3%B4pital-au-darfour",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T13:24:48",
+          "lead": "Au Soudan, une attaque contre un hôpital situé dans une zone contrôlée par les paramilitaires, dans l'est du Darfour, a "
         },
         {
           "title": "Soudan : une attaque contre un hôpital fait plus de 60 morts, dont 13 enfants",
@@ -230,7 +249,7 @@
           "title": "At least 13 children killed in strike on Sudanese hospital, WHO confirms",
           "url": "http://www.africanews.com/2026/03/22/at-least-13-children-killed-in-strike-on-sudanese-hospital-who-confirms/",
           "source": "Africanews",
-          "published": "2026-03-22T11:53:28",
+          "published": "2026-03-22T11:53:29",
           "lead": "At least 64 people were killed in a strike on a hospital in Sudan’s western Darfur region, the World Health Organization"
         },
         {
@@ -242,21 +261,22 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "DW Africa",
-        "AllAfrica",
+        "France24 Afrique",
         "Jeune Afrique",
         "BBC Africa",
+        "RFI Afrique",
+        "Africanews",
+        "AllAfrica",
+        "The Guardian Africa",
         "Le Monde Afrique",
-        "France24 Afrique",
-        "The Guardian Africa"
+        "DW Africa"
       ]
     },
     "Mauritania": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 0.8,
-      "ratio": 2.5,
+      "ratio": 2.4,
       "status": "elevated",
       "confidence": "low",
       "keywords": [],
@@ -284,8 +304,8 @@
     "Mali": {
       "article_count": 4,
       "source_count": 3,
-      "baseline": 1.9,
-      "ratio": 2.07,
+      "baseline": 2.0,
+      "ratio": 2.03,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -330,9 +350,9 @@
         }
       ],
       "sources": [
-        "Africanews",
+        "France24 Afrique",
         "Le Monde Afrique",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "Burkina Faso": {
@@ -370,24 +390,24 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Niger": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 3,
       "baseline": 2.1,
-      "ratio": 1.88,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.41,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Manifestation",
           "count": 1
         },
         {
-          "word": "Manifestation",
+          "word": "Président",
           "count": 1
         },
         {
@@ -396,14 +416,6 @@
         },
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Jihadist",
           "count": 1
         }
       ],
@@ -429,26 +441,19 @@
           "source": "Africanews",
           "published": "2026-03-21T16:24:09",
           "lead": "Civil society organisations in Niger have condemned a European Union resolution demanding the release of the country’s f"
-        },
-        {
-          "title": "Germany pulls embassy staff out of Niger citing concerns over growing jihadist violence",
-          "url": "http://www.africanews.com/2026/03/21/germany-pulls-embassy-staff-out-of-niger-citing-concerns-over-growing-jihadist-violence/",
-          "source": "Africanews",
-          "published": "2026-03-21T14:40:54",
-          "lead": "Germany said on Friday it had temporarily pulled its diplomatic staff out of Niger because of the security situation in "
         }
       ],
       "sources": [
-        "Africanews",
+        "RFI Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "Africanews"
       ]
     },
     "Senegal": {
       "article_count": 3,
       "source_count": 1,
       "baseline": 5.1,
-      "ratio": 0.59,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -615,7 +620,7 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 1.5,
-      "ratio": 1.96,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -711,9 +716,9 @@
       ],
       "sources": [
         "Africanews",
-        "BBC Africa",
+        "Jeune Afrique",
         "AllAfrica",
-        "Jeune Afrique"
+        "BBC Africa"
       ]
     },
     "Cape Verde": {
@@ -729,26 +734,16 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.6,
-      "ratio": 0.64,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Chad to deploy 800 troops to Haiti's Gang Suppression Force as Kenya steps back",
-          "url": "http://www.africanews.com/2026/03/21/chad-to-deploy-800-troops-to-haitis-gang-suppression-force-as-kenya-steps-back/",
-          "source": "Africanews",
-          "published": "2026-03-21T13:52:32",
-          "lead": "Chad is getting ready to deploy some 800 police officers to Haiti. They’ll join an international effort aimed at tacklin"
-        }
-      ],
-      "sources": [
-        "Africanews"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Cameroon": {
       "article_count": 2,
@@ -788,7 +783,7 @@
     "CAR": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.5,
+      "baseline": 1.4,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -834,10 +829,10 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.94,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -861,6 +856,13 @@
           "source": "AllAfrica",
           "published": "2026-03-22T00:23:29",
           "lead": "[RFI] Civil society groups in Congo-Brazzaville are challenging the integrity of last weekend's presidential election, w"
+        },
+        {
+          "title": "Congo-Kinshasa: Young Congolese Author Pascal Boroto Wins African Literary Prize",
+          "url": "https://allafrica.com/stories/202603220017.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:20:16",
+          "lead": "[RFI] The 2026 Voix d'Afriques (Voices from Africa) literature prize has been awarded to Pascal Boroto, a young writer f"
         }
       ],
       "sources": [
@@ -869,23 +871,15 @@
       ]
     },
     "DRC": {
-      "article_count": 5,
+      "article_count": 6,
       "source_count": 4,
       "baseline": 7.2,
-      "ratio": 0.69,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 1
-        },
-        {
           "word": "Militia",
-          "count": 1
-        },
-        {
-          "word": "Attack",
           "count": 1
         },
         {
@@ -893,11 +887,23 @@
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Attack",
           "count": 1
         },
         {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -925,11 +931,11 @@
           "lead": "En République démocratique du Congo, la principale compagnie aérienne nationale Congo Airways traverse une crise majeure"
         },
         {
-          "title": "Jason K. Stearns, chercheur : « Les sanctions américaines contre le Rwanda marquent un virage majeur dans le conflit en RDC »",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/21/jason-k-stearns-chercheur-les-sanctions-americaines-contre-le-rwanda-marquent-un-virage-majeur-dans-le-conflit-en-rdc_6673276_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-21T14:00:10",
-          "lead": "La République démocratique du Congo est devenue un enjeu pour Washington, qui cherche notamment à obtenir un accès aux m"
+          "title": "DRC's Tshisekedi tasks PM with plan to save struggling national airline",
+          "url": "http://www.africanews.com/2026/03/22/drcs-tshisekedi-tasks-pm-with-plan-to-save-struggling-national-airline/",
+          "source": "Africanews",
+          "published": "2026-03-22T13:58:17",
+          "lead": "The President of the Democratic Republic of the Congo, Félix Tshisekedi, has instructed the relevant authorities to deve"
         },
         {
           "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
@@ -937,13 +943,20 @@
           "source": "Africanews",
           "published": "2026-03-22T07:30:05",
           "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+        },
+        {
+          "title": "Congo-Kinshasa: Young Congolese Author Pascal Boroto Wins African Literary Prize",
+          "url": "https://allafrica.com/stories/202603220017.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:20:16",
+          "lead": "[RFI] The 2026 Voix d'Afriques (Voices from Africa) literature prize has been awarded to Pascal Boroto, a young writer f"
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique",
         "RFI Afrique",
-        "The Guardian Africa"
+        "Africanews",
+        "The Guardian Africa",
+        "AllAfrica"
       ]
     },
     "São Tomé": {
@@ -1070,17 +1083,17 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Africanews",
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 4,
       "baseline": 5.3,
-      "ratio": 0.94,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -1108,13 +1121,6 @@
           "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
         },
         {
-          "title": "Chad to deploy 800 troops to Haiti's Gang Suppression Force as Kenya steps back",
-          "url": "http://www.africanews.com/2026/03/21/chad-to-deploy-800-troops-to-haitis-gang-suppression-force-as-kenya-steps-back/",
-          "source": "Africanews",
-          "published": "2026-03-21T13:52:32",
-          "lead": "Chad is getting ready to deploy some 800 police officers to Haiti. They’ll join an international effort aimed at tacklin"
-        },
-        {
           "title": "Kenya: Kenya, Uganda Open Rail Extension Burdened By Chinese Debt",
           "url": "https://allafrica.com/stories/202603220030.html",
           "source": "AllAfrica",
@@ -1123,19 +1129,19 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Africanews",
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.6,
-      "ratio": 0.76,
+      "ratio": 0.38,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1145,18 +1151,10 @@
           "source": "BBC Africa",
           "published": "2026-03-21T19:02:56",
           "lead": "Rwanda's Fanny Utagushimaninde says it was like \"a dream\" after becoming the youngest woman to make a T20 international "
-        },
-        {
-          "title": "Jason K. Stearns, chercheur : « Les sanctions américaines contre le Rwanda marquent un virage majeur dans le conflit en RDC »",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/21/jason-k-stearns-chercheur-les-sanctions-americaines-contre-le-rwanda-marquent-un-virage-majeur-dans-le-conflit-en-rdc_6673276_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-21T14:00:10",
-          "lead": "La République démocratique du Congo est devenue un enjeu pour Washington, qui cherche notamment à obtenir un accès aux m"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Le Monde Afrique"
+        "BBC Africa"
       ]
     },
     "Burundi": {
@@ -1172,15 +1170,35 @@
       "sources": []
     },
     "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.9,
-      "ratio": 1.11,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 2.22,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Energy shock talk grabs headlines but the Iran war is also driving the world towards a food crisis | Heather Stewart",
+          "url": "https://www.theguardian.com/business/2026/mar/22/energy-shock-iran-war-also-driving-world-towards-food-crisis",
+          "source": "The Guardian Africa",
+          "published": "2026-03-22T12:53:50",
+          "lead": "Growers face soaring fertiliser and fuel costs as shipping choke point of the strait of Hormuz hits supply chains‘The st"
+        },
         {
           "title": "Tanzanie: Human rights watch presse les autorités à faire la lumière sur les violences post-électotales",
           "url": "https://www.rfi.fr/fr/afrique/20260322-tanzanie-human-rights-watch-presse-les-autorit%C3%A9s-%C3%A0-faire-la-lumi%C3%A8re-sur-les-violences-post-%C3%A9lectotales",
@@ -1190,14 +1208,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Madagascar": {
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.9,
-      "ratio": 1.05,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1317,7 +1336,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.5,
-      "ratio": 1.2,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1359,9 +1378,9 @@
         }
       ],
       "sources": [
-        "DW Africa",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "DW Africa"
       ]
     },
     "Namibia": {
@@ -1390,7 +1409,7 @@
     },
     "South Africa": {
       "article_count": 4,
-      "source_count": 2,
+      "source_count": 1,
       "baseline": 13.7,
       "ratio": 0.29,
       "status": "normal",
@@ -1412,11 +1431,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "En Afrique du Sud, des milliers de personnes défilent « en défense de la souveraineté », après des mois de pressions américaines",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/21/en-afrique-du-sud-des-milliers-de-personnes-defilent-en-defense-de-la-souverainete-apres-des-mois-de-pressions-americaines_6673272_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-21T13:20:31",
-          "lead": "En plus de la plainte sud-africaine pour génocide déposée contre Israël devant la justice internationale, l’administrati"
+          "title": "FOREIGN AFFAIRS: isiZulu-speaking German ambassador Peschke is the envy of the diplomatic corps",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-22-isizulu-speaking-german-ambassador-peschke-is-the-envy-of-the-diplomatic-corps/",
+          "source": "Daily Maverick",
+          "published": "2026-03-22T15:21:59",
+          "lead": "The German ambassador manages a key relationship for South Africa, since Germany is its second-largest trading partner."
         },
         {
           "title": "Human rights promise rings hollow as violence against women persists",
@@ -1441,7 +1460,6 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "Daily Maverick"
       ]
     },
