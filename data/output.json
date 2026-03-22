@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-21T21:17:06.072667",
+  "generated_at": "2026-03-22T01:21:37.784408",
   "summary": {
     "high": 2,
-    "elevated": 2,
-    "normal": 18,
-    "quiet": 32
+    "elevated": 3,
+    "normal": 20,
+    "quiet": 29
   },
   "countries": {
     "Morocco": {
@@ -16,6 +16,10 @@
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Président",
+          "count": 1
+        },
+        {
           "word": "Guerre",
           "count": 1
         }
@@ -23,11 +27,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Maroc: Agadir, la troisième ville du pays qui accueille le plus de résidents étrangers",
-          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260320-maroc-agadir-la-troisi%C3%A8me-ville-du-pays-qui-accueille-le-plus-de-r%C3%A9sidents-%C3%A9trangers",
+          "title": "CAN 2025: «Le TAS offre plus de garanties en neutralité et en indépendance»",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260321-can-2025-le-tas-offre-plus-de-garanties-en-neutralit%C3%A9-et-en-ind%C3%A9pendance",
           "source": "RFI Afrique",
-          "published": "2026-03-20T23:47:00",
-          "lead": "Neuvième ville du pays en nombre d'habitants, la cité balnéaire est pourtant la troisième ville du Maroc qui compte le p"
+          "published": "2026-03-21T22:08:32",
+          "lead": "Michel Brizoua-Bi, avocat ivoirien et ancien président de la Commission de gouvernance de la CAF et arbitre au Tribunal "
         },
         {
           "title": "Pour les narcos de Dubaï, la tentation d’un refuge au Maroc",
@@ -38,36 +42,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.5,
-      "ratio": 0.65,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Lin Yu-ting cleared to return to boxing after sex eligibility review",
-          "url": "https://www.aljazeera.com/sports/2026/3/21/olympic-champion-lin-yu-ting-cleared-to-return-to-boxing-after-sex-eligibility-review?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-21T10:40:59",
-          "lead": "Lin and Algerian boxer Imane Khelif were embroiled in a dispute over biological sex at the 2024 Paris Olympics."
-        }
-      ],
-      "sources": [
-        "Al Jazeera"
-      ]
-    },
-    "Tunisia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.1,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -75,6 +57,28 @@
       "keyword_pairs": [],
       "articles": [],
       "sources": []
+    },
+    "Tunisia": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.1,
+      "ratio": 0.94,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Tunisie: des violations des droits humains observées sur tout le territoire",
+          "url": "https://www.rfi.fr/fr/afrique/20260321-tunisie-des-violations-des-droits-humains-observ%C3%A9es-sur-tout-le-territoire",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T23:44:32",
+          "lead": "L'ONG tunisienne Intersection, qui travaille sur les droits humains, a présenté ce 18 mars un rapport sur les violations"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Libya": {
       "article_count": 0,
@@ -101,15 +105,27 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 7,
+      "source_count": 7,
       "baseline": 5.1,
-      "ratio": 0.59,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Attack",
+          "count": 3
+        },
+        {
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Wounded",
           "count": 1
         },
         {
@@ -117,34 +133,47 @@
           "count": 1
         },
         {
-          "word": "Déplacés",
-          "count": 1
-        },
-        {
           "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Élection",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
+          "word": "Déplacés",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "WHO says attack on Sudan hospital killed 64, including 13 children",
+          "url": "https://www.aljazeera.com/news/2026/3/21/who-says-attack-on-sudan-hospital-killed-64-including-13-children?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-21T22:43:25",
+          "lead": "The attack on a teaching hospital in Al Deain, the capital of East Darfur state, has rendered the facility non-functiona"
+        },
+        {
+          "title": "Strike on Sudan hospital kills at least 64 and wounds 89 more, WHO reports",
+          "url": "https://www.theguardian.com/world/2026/mar/21/strike-on-sudan-hospital-kills-wounds-world-health-organization-reports",
+          "source": "The Guardian Africa",
+          "published": "2026-03-21T23:15:04",
+          "lead": "Victims of army drone attack on East Darfur health facility included children and medical personnel A strike on a health"
+        },
+        {
           "title": "Le Soudan toujours déchiré par la guerre : les déplacés se rassemblent pour l'Aïd",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260321-le-soudan-toujours-d%C3%A9chir%C3%A9-par-la-guerre-les-d%C3%A9plac%C3%A9s-se-rassemblent-pour-l-a%C3%AFd",
           "source": "France24 Afrique",
           "published": "2026-03-21T15:50:49",
           "lead": "Des Soudanais déplacés se rassemblent pour les prières de l'Aïd dans le camp de Tawila, au Darfour-Nord, alors que la gu"
+        },
+        {
+          "title": "Soudan : au moins 64 morts, dont 13 enfants, dans une attaque contre un hôpital du Darfour-Est",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/22/soudan-au-moins-64-morts-dont-13-enfants-dans-une-attaque-contre-un-hopital-du-darfour-est_6673375_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-22T01:10:41",
+          "lead": "L’assaut, qui a impliqué « des armes lourdes », selon l’OMS, a visé l’hôpital universitaire d’Ed Daein. La capitale de l"
         },
         {
           "title": "Présidentielle au Bénin : Wadagni ne sera pas un « président sous tutelle »",
@@ -159,33 +188,54 @@
           "source": "Africanews",
           "published": "2026-03-21T07:50:08",
           "lead": "As Sudan celebrated the first day of Eid on Friday, displaced people at North Darfur’s Tawila camp gathered for prayers."
+        },
+        {
+          "title": "Sudan: Dr Tedros Condemns Attack on Sudan Hospital, Cals for De-escalation and Civilian Protections",
+          "url": "https://allafrica.com/stories/202603210068.html",
+          "source": "AllAfrica",
+          "published": "2026-03-21T23:59:59",
+          "lead": "[WHO] @WHO has verified yet another attack on health care in #Sudan. This time, Al Deain Teaching Hospital in East Darfu"
         }
       ],
       "sources": [
-        "Africanews",
         "France24 Afrique",
-        "Jeune Afrique"
+        "Le Monde Afrique",
+        "The Guardian Africa",
+        "AllAfrica",
+        "Al Jazeera",
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Mauritania": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.3,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Tensions entre la Mauritanie et le Mali: les 2 voisins prônent la désescalade",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260321-tensions-entre-la-mauritanie-et-le-mali-les-2-voisins-pr%C3%B4nent-la-d%C3%A9sescalade",
+          "source": "France24 Afrique",
+          "published": "2026-03-21T21:51:52",
+          "lead": "Le 15 mars, le Mali accusait la Mauritanie d’avoir fermé les yeux sur la détention sur son territoire de deux militaires"
+        }
+      ],
+      "sources": [
+        "France24 Afrique"
+      ]
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.0,
-      "ratio": 1.0,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.53,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
@@ -198,6 +248,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Tensions entre la Mauritanie et le Mali: les 2 voisins prônent la désescalade",
+          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260321-tensions-entre-la-mauritanie-et-le-mali-les-2-voisins-pr%C3%B4nent-la-d%C3%A9sescalade",
+          "source": "France24 Afrique",
+          "published": "2026-03-21T21:51:52",
+          "lead": "Le 15 mars, le Mali accusait la Mauritanie d’avoir fermé les yeux sur la détention sur son territoire de deux militaires"
+        },
         {
           "title": "Le Sahel, zone de guerres oubliée sur la carte mondiale des crises",
           "url": "https://www.lemonde.fr/idees/article/2026/03/21/le-sahel-zone-de-guerres-oubliee-sur-la-carte-mondiale-des-crises_6673284_3232.html",
@@ -214,15 +271,16 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique"
+        "France24 Afrique",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Burkina Faso": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 1.5,
-      "ratio": 1.96,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -260,25 +318,29 @@
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "Africanews"
       ]
     },
     "Niger": {
       "article_count": 6,
       "source_count": 3,
       "baseline": 2.1,
-      "ratio": 2.86,
+      "ratio": 2.9,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Manifestation",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         },
         {
@@ -301,6 +363,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Niger: manifestation contre la demande européenne de libération du président déchu Mohamed Bazoum",
+          "url": "https://www.rfi.fr/fr/afrique/20260321-niger-manifestation-contre-la-demande-europ%C3%A9enne-de-lib%C3%A9ration-du-pr%C3%A9sident-d%C3%A9chu-mohamed-bazoum",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T23:40:13",
+          "lead": "Un millier de personnes, selon l'AFP, ont manifesté ce samedi 21 mars contre une résolution du Parlement européen demand"
+        },
+        {
           "title": "L'Allemagne suspend l'activité de son ambassade au Niger en raison de la situation sécuritaire",
           "url": "https://www.rfi.fr/fr/afrique/20260321-l-allemagne-suspend-l-activit%C3%A9-de-son-ambassade-au-niger-en-raison-de-la-situation-s%C3%A9curitaire",
           "source": "RFI Afrique",
@@ -322,13 +391,6 @@
           "lead": "Depuis l’arrivée de juntes au pouvoir au Mali, au Burkina Faso et au Niger, entre 2020 et 2023, les djihadistes ont tout"
         },
         {
-          "title": "Au Niger, l’Allemagne évacue son ambassade et demande à ses citoyens de quitter le pays",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/21/au-niger-l-allemagne-evacue-son-ambassade-et-demande-a-ses-citoyens-de-quitter-ce-pays_6672855_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-21T00:08:41",
-          "lead": "Berlin justifie sa décision par un risque élevé d’« enlèvements, de crimes violents et d’attentats terroristes » notamme"
-        },
-        {
           "title": "AES calls for simultaneous mobilisation to condemn EU resolution on Niger's ex-president",
           "url": "http://www.africanews.com/2026/03/21/aes-calls-for-simultaneous-mobilisation-to-condemn-eu-resolution-on-nigers-ex-president/",
           "source": "Africanews",
@@ -344,21 +406,33 @@
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "RFI Afrique",
-        "Africanews",
-        "Le Monde Afrique"
+        "Africanews"
       ]
     },
     "Senegal": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 5.4,
-      "ratio": 0.19,
+      "ratio": 0.37,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "CAN 2025: «Le TAS offre plus de garanties en neutralité et en indépendance»",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260321-can-2025-le-tas-offre-plus-de-garanties-en-neutralit%C3%A9-et-en-ind%C3%A9pendance",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T22:08:32",
+          "lead": "Michel Brizoua-Bi, avocat ivoirien et ancien président de la Commission de gouvernance de la CAF et arbitre au Tribunal "
+        },
         {
           "title": "Souleymane Gueye: «Il y a une prise de conscience concernant la place des langues nationales au Sénégal»",
           "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260321-souleymane-gueye-il-y-a-une-prise-de-conscience-concernant-la-place-des-langues-nationales-au-s%C3%A9n%C3%A9gal",
@@ -432,16 +506,31 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.52,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "CAN 2025: «Le TAS offre plus de garanties en neutralité et en indépendance»",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260321-can-2025-le-tas-offre-plus-de-garanties-en-neutralit%C3%A9-et-en-ind%C3%A9pendance",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T22:08:32",
+          "lead": "Michel Brizoua-Bi, avocat ivoirien et ancien président de la Commission de gouvernance de la CAF et arbitre au Tribunal "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Ghana": {
       "article_count": 0,
@@ -468,10 +557,10 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 1.5,
-      "ratio": 3.33,
+      "ratio": 2.67,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -492,13 +581,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-21T18:54:10",
           "lead": "À une semaine du lancement officiel de la campagne présidentielle, Romuald Wadagni, 49 ans, candidat de la majorité au p"
-        },
-        {
-          "title": "Trois musées suisses vont restituer au Nigeria 28 bronzes du royaume du Bénin",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-trois-mus%C3%A9es-suisses-vont-restituer-au-nigeria-28-bronzes-du-royaume-du-b%C3%A9nin",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T22:21:51",
-          "lead": "Nouvelle vague de restitutions d'objets pillés au Nigeria. Le Musée d'ethnographie de Genève, le musée Rietberg et le Mu"
         },
         {
           "title": "Salon du livre africain à Paris : comment raconter l'Afrique aux jeunes ?",
@@ -523,32 +605,40 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 8.6,
-      "ratio": 0.23,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Violence",
+          "count": 1
+        },
+        {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Combat",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Trois musées suisses vont restituer au Nigeria 28 bronzes du royaume du Bénin",
-          "url": "https://www.rfi.fr/fr/afrique/20260320-trois-mus%C3%A9es-suisses-vont-restituer-au-nigeria-28-bronzes-du-royaume-du-b%C3%A9nin",
-          "source": "RFI Afrique",
-          "published": "2026-03-20T22:21:51",
-          "lead": "Nouvelle vague de restitutions d'objets pillés au Nigeria. Le Musée d'ethnographie de Genève, le musée Rietberg et le Mu"
+          "title": "'Peace is a gradual thing': How land, cattle and identity fuel a deadly Nigerian conflict",
+          "url": "https://www.bbc.com/news/articles/clyv1j8ne7ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-22T00:55:31",
+          "lead": "How a lack of justice and trust in the security forces perpetuates deadly violence in Plateau state."
         },
         {
           "title": "Tunis, Casablanca, Le Caire, Lagos… Que contient le panier de l’Aïd cette année ?",
@@ -556,10 +646,18 @@
           "source": "Jeune Afrique",
           "published": "2026-03-21T08:25:00",
           "lead": "De l’alimentation au carburant, la crise mondiale au Moyen-Orient fait grimper le coût des célébrations de la fin du ram"
+        },
+        {
+          "title": "Nigeria: U.S. Drones Deployed to Nigeria Alongside Troops for Intelligence and Training",
+          "url": "https://allafrica.com/stories/202603220022.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:24:17",
+          "lead": "[RFI] The US military has multiple MQ-9 drones operating in Nigeria alongside 200 troops - in a non-combat role providin"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "AllAfrica",
+        "BBC Africa",
         "Jeune Afrique"
       ]
     },
@@ -678,16 +776,31 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.48,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Election",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Congo-Brazzaville: Congo's 'Nintendo Election' Was Rigged From the Start, Observer Says",
+          "url": "https://allafrica.com/stories/202603220021.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:23:29",
+          "lead": "[RFI] Civil society groups in Congo-Brazzaville are challenging the integrity of last weekend's presidential election, w"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "DRC": {
       "article_count": 5,
@@ -699,6 +812,13 @@
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RDC: le débat sur la réforme constitutionnelle pose la question du respect des règles existantes",
+          "url": "https://www.rfi.fr/fr/afrique/20260322-rdc-le-d%C3%A9bat-sur-la-r%C3%A9forme-constitutionnelle-pose-la-question-du-respect-des-r%C3%A8gles-existantes",
+          "source": "RFI Afrique",
+          "published": "2026-03-22T00:42:50",
+          "lead": "En République démocratique du Congo, le débat sur une éventuelle révision de la constitution s’est invité dans la vie po"
+        },
         {
           "title": "RDC: un nouveau rapport vient confirmer la hausse incontrôlée de la masse salariale dans la fonction publique",
           "url": "https://www.rfi.fr/fr/afrique/20260321-rdc-un-nouveau-rapport-vient-confirmer-la-hausse-incontr%C3%B4l%C3%A9e-de-la-masse-salariale-dans-la-fonction-publique",
@@ -712,13 +832,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-21T05:28:14",
           "lead": "Dans l’est de la République démocratique du Congo, les attaques des ADF, groupe armé d’origine ougandaise affilié à l’or"
-        },
-        {
-          "title": "RDC: selon l'institut Ebuteli, «la pratique du pouvoir a fragilisé l’équilibre institutionnel»",
-          "url": "https://www.rfi.fr/fr/afrique/20260321-rdc-selon-l-institut-ebuteli-la-pratique-du-pouvoir-a-fragilis%C3%A9-l-%C3%A9quilibre-institutionnel",
-          "source": "RFI Afrique",
-          "published": "2026-03-21T07:35:13",
-          "lead": "En République démocratique du Congo, le débat sur une éventuelle révision de la Constitution s’est invité dans la vie po"
         },
         {
           "title": "À la Une: démission de Modeste Bahati, psychose à Kinshasa, Stanis Bujakera et les faits",
@@ -736,8 +849,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -839,26 +952,19 @@
     },
     "Uganda": {
       "article_count": 3,
-      "source_count": 3,
+      "source_count": 2,
       "baseline": 2.1,
-      "ratio": 1.43,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "‘I have fought for Aaron’: A Ugandan mother confronts disability and stigma",
-          "url": "https://www.aljazeera.com/features/longform/2026/3/21/i-have-fought-for-aaron-a-ugandan-mother-confronts-disability-and-stigma?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-21T09:42:23",
-          "lead": "Martha Apolot, 21, rejected by her family and community when her disabled son was born, fights daily to meet his needs."
-        },
         {
           "title": "De Centrafrique jusqu'en Ouganda, les amateurs de films de gros bras se souviennent de Chuck Norris",
           "url": "https://www.rfi.fr/fr/afrique/20260321-de-centrafrique-jusqu-en-ouganda-les-amateurs-de-films-de-gros-bras-se-souviennent-de-chuck-norris",
@@ -867,24 +973,30 @@
           "lead": "L’acteur américain Chuck Norris, icône des arts martiaux et du cinéma d’action, s’est éteint vendredi à l’âge de 86 ans."
         },
         {
-          "title": "Africa: Sun Africa, Exim, African Ministers Set Project-Focused Tone At Powering Africa Summit",
-          "url": "https://allafrica.com/stories/202603210006.html",
+          "title": "Kenya: Kenya, Uganda Open Rail Extension Burdened By Chinese Debt",
+          "url": "https://allafrica.com/stories/202603220030.html",
           "source": "AllAfrica",
-          "published": "2026-03-21T00:49:35",
-          "lead": "[Premium Times] Washington, DC -- Uganda's Minister of Energy &#x26;amp; Mineral Development, Ruth Ssentamu, stressed th"
+          "published": "2026-03-22T00:24:46",
+          "lead": "[RFI] Nairobi (AFP) - The presidents of Kenya and Uganda met near their shared border Saturday to mark the multi-billion"
+        },
+        {
+          "title": "Uganda: Ugandan Opposition Leader Bobi Wine 'Ran Away for Safety' to Us",
+          "url": "https://allafrica.com/stories/202603220019.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:21:56",
+          "lead": "[RFI] The leader of Ugandan opposition party, the National Unity Platform, Bobi Wine has resurfaced in the United States"
         }
       ],
       "sources": [
-        "RFI Afrique",
         "AllAfrica",
-        "Al Jazeera"
+        "RFI Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 5.4,
-      "ratio": 0.37,
+      "ratio": 0.56,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -903,9 +1015,17 @@
           "source": "Africanews",
           "published": "2026-03-21T13:52:32",
           "lead": "Chad is getting ready to deploy some 800 police officers to Haiti. They’ll join an international effort aimed at tacklin"
+        },
+        {
+          "title": "Kenya: Kenya, Uganda Open Rail Extension Burdened By Chinese Debt",
+          "url": "https://allafrica.com/stories/202603220030.html",
+          "source": "AllAfrica",
+          "published": "2026-03-22T00:24:46",
+          "lead": "[RFI] Nairobi (AFP) - The presidents of Kenya and Uganda met near their shared border Saturday to mark the multi-billion"
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique",
         "Africanews"
       ]
@@ -960,12 +1080,19 @@
       "article_count": 3,
       "source_count": 2,
       "baseline": 1.9,
-      "ratio": 1.61,
+      "ratio": 1.58,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Le nouvel an malgache, une tradition signe de renouveau et de purification",
+          "url": "https://www.rfi.fr/fr/podcasts/reportage-afrique/20260321-le-nouvel-an-malgache-une-tradition-signe-de-renouveau-et-de-purification",
+          "source": "RFI Afrique",
+          "published": "2026-03-21T23:07:05",
+          "lead": "À Madagascar se sont achevées ce samedi 21 mars les festivités du nouvel an malgache, aussi connu sous le nom de Alahama"
+        },
         {
           "title": "À Madagascar, produire des semences locales adaptées au climat et améliorer la sécurité alimentaire",
           "url": "https://www.rfi.fr/fr/podcasts/un-jour-au-village/20260321-%C3%A0-madagascar-produire-des-semences-locales-adapt%C3%A9es-au-climat-et-am%C3%A9liorer-la-s%C3%A9curit%C3%A9-alimentaire",
@@ -979,18 +1106,11 @@
           "source": "France24 Afrique",
           "published": "2026-03-21T10:29:32",
           "lead": "À Antananarivo, le pouvoir militaire soumet désormais ses futurs ministres au détecteur de mensonges avant leur nominati"
-        },
-        {
-          "title": "Madagascar, les futurs ministres soumis au détecteur de mensonge",
-          "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260320-madagascar-les-futurs-ministres-soumis-au-d%C3%A9tecteur-de-mensonge",
-          "source": "France24 Afrique",
-          "published": "2026-03-20T21:18:13",
-          "lead": "C’est une méthode radicale pour un pays en pleine transition. À Antananarivo, le pouvoir militaire soumet désormais ses "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Comoros": {
@@ -1084,7 +1204,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.6,
-      "ratio": 0.77,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1196,10 +1316,10 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Daily Maverick",
         "France24 Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
