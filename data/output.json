@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-23T04:57:37.827280",
+  "generated_at": "2026-03-23T06:59:11.973920",
   "summary": {
-    "high": 0,
-    "elevated": 1,
-    "normal": 24,
-    "quiet": 29
+    "high": 1,
+    "elevated": 3,
+    "normal": 23,
+    "quiet": 27
   },
   "countries": {
     "Morocco": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 4.3,
-      "ratio": 0.92,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 4.4,
+      "ratio": 0.69,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -37,18 +37,10 @@
           "source": "Jeune Afrique",
           "published": "2026-03-22T15:50:00",
           "lead": "Si certains réseaux de narcotrafic fuyant le Moyen-Orient envisagent un repli au Maroc, l’énergie déployée par le royaum"
-        },
-        {
-          "title": "Senegal: Bank of Africa Senegal Net Profit Rises 10% to 21.9b Xof in 2025",
-          "url": "https://allafrica.com/stories/202603230012.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:21",
-          "lead": "[Daba Finance] Bank of Africa Senegal, a unit of Morocco's BMCE Group, posted a net profit of 21.9 billion XOF ($38.5 mi"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "AllAfrica",
         "Jeune Afrique"
       ]
     },
@@ -77,16 +69,26 @@
       "sources": []
     },
     "Libya": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.36,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Power without a throne: how Khalifa Haftar controls Libya – podcast",
+          "url": "https://www.theguardian.com/news/audio/2026/mar/23/power-without-a-throne-how-khalifa-haftar-controls-libya-podcast",
+          "source": "The Guardian Africa",
+          "published": "2026-03-23T05:00:42",
+          "lead": "When Nato helped overthrow Gaddafi in 2011, there were hopes of a new beginning. More than a decade later, a former CIA "
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "Egypt": {
       "article_count": 0,
@@ -101,24 +103,24 @@
       "sources": []
     },
     "Sudan": {
-      "article_count": 6,
-      "source_count": 5,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 5.2,
-      "ratio": 1.15,
+      "ratio": 0.76,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Killed",
-          "count": 3
+          "count": 2
         },
         {
           "word": "Attack",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Attaque",
-          "count": 2
+          "count": 1
         },
         {
           "word": "Gouvernement",
@@ -131,18 +133,9 @@
         {
           "word": "Dead",
           "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
         }
       ],
-      "keyword_pairs": [
-        [
-          "Attack",
-          "Killed"
-        ]
-      ],
+      "keyword_pairs": [],
       "articles": [
         {
           "title": "Sudan drone attack on key hospital killed 64 people during Eid, WHO says",
@@ -166,33 +159,18 @@
           "lead": "La guerre civile soudanaise déborde t'elle chez le voisin tchadien ? Mercredi 18 mars, une frappe de drone a fait au moi"
         },
         {
-          "title": "Soudan : une attaque contre un hôpital fait plus de 60 morts, dont 13 enfants",
-          "url": "https://www.france24.com/fr/afrique/20260322-soudan-une-attaque-contre-un-h%C3%B4pital-fait-plus-de-60-morts-dont-des-enfants",
-          "source": "France24 Afrique",
-          "published": "2026-03-22T06:47:06",
-          "lead": "Une attaque contre un hôpital universitaire de la capitale du Darfour-Est, El-Daein, a fait au moins 60 morts, dont 13 e"
-        },
-        {
           "title": "At least 13 children killed in strike on Sudanese hospital, WHO confirms",
           "url": "http://www.africanews.com/2026/03/22/at-least-13-children-killed-in-strike-on-sudanese-hospital-who-confirms/",
           "source": "Africanews",
           "published": "2026-03-22T11:53:29",
           "lead": "At least 64 people were killed in a strike on a hospital in Sudan’s western Darfur region, the World Health Organization"
-        },
-        {
-          "title": "Sudan: WHO Verifies Deadly Hospital Attack in War-Torn Sudan",
-          "url": "https://allafrica.com/stories/202603230022.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:45:59",
-          "lead": "[UN News] The World Health Organization (WHO) verified on Saturday a hospital attack in war-torn Sudan that killed 64 pe"
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
         "Africanews",
-        "BBC Africa",
-        "AllAfrica",
-        "France24 Afrique"
+        "BBC Africa"
       ]
     },
     "Mauritania": {
@@ -218,15 +196,27 @@
       ]
     },
     "Mali": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 6,
+      "source_count": 4,
       "baseline": 2.0,
-      "ratio": 2.0,
-      "status": "elevated",
+      "ratio": 2.95,
+      "status": "high",
       "confidence": "medium",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Jihadist",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "États-Unis-AES: «C'est l'intérêt sécuritaire qui est primordial pour l'administration Trump pour le moment»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260323-%C3%A9tats-unis-aes-c-est-l-int%C3%A9r%C3%AAt-s%C3%A9curitaire-qui-est-primordial-pour-l-administration-trump-pour-le-moment",
+          "source": "RFI Afrique",
+          "published": "2026-03-23T06:22:19",
+          "lead": "Une nouvelle stratégie des États-Unis vis-à-vis des pays de l’AES – l’Alliance des États du Sahel ? Nick Checker, haut r"
+        },
         {
           "title": "Mali: plus d'une centaine de présumés jihadistes libérés contre une trêve de l'embargo sur le carburant",
           "url": "https://www.rfi.fr/fr/afrique/20260322-mali-plus-d-une-centaine-de-pr%C3%A9sum%C3%A9s-jihadistes-lib%C3%A9r%C3%A9s-contre-une-tr%C3%AAve-de-l-embargo-sur-le-carburant",
@@ -249,6 +239,13 @@
           "lead": "Le 15 mars, le Mali accusait la Mauritanie d’avoir fermé les yeux sur la détention sur son territoire de deux militaires"
         },
         {
+          "title": "Jihadist prisoner release secures fuel convoy truce in Mali",
+          "url": "http://www.africanews.com/2026/03/23/jihadist-prisoner-release-secures-fuel-convoy-truce-in-mali/",
+          "source": "Africanews",
+          "published": "2026-03-23T05:55:41",
+          "lead": "More than 100 suspected jihadists have been freed in Mali under a deal to halt attacks on fuel convoys that had paralyze"
+        },
+        {
           "title": "Africa: African Michelin-Starred Chef Mory Sacko Designs Meals for Air France",
           "url": "https://allafrica.com/stories/202603230006.html",
           "source": "AllAfrica",
@@ -257,40 +254,74 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
         "RFI Afrique",
-        "AllAfrica",
-        "France24 Afrique"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Burkina Faso": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.7,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "États-Unis-AES: «C'est l'intérêt sécuritaire qui est primordial pour l'administration Trump pour le moment»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260323-%C3%A9tats-unis-aes-c-est-l-int%C3%A9r%C3%AAt-s%C3%A9curitaire-qui-est-primordial-pour-l-administration-trump-pour-le-moment",
+          "source": "RFI Afrique",
+          "published": "2026-03-23T06:22:19",
+          "lead": "Une nouvelle stratégie des États-Unis vis-à-vis des pays de l’AES – l’Alliance des États du Sahel ? Nick Checker, haut r"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.02,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "États-Unis-AES: «C'est l'intérêt sécuritaire qui est primordial pour l'administration Trump pour le moment»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260323-%C3%A9tats-unis-aes-c-est-l-int%C3%A9r%C3%AAt-s%C3%A9curitaire-qui-est-primordial-pour-l-administration-trump-pour-le-moment",
+          "source": "RFI Afrique",
+          "published": "2026-03-23T06:22:19",
+          "lead": "Une nouvelle stratégie des États-Unis vis-à-vis des pays de l’AES – l’Alliance des États du Sahel ? Nick Checker, haut r"
+        },
+        {
+          "title": "Nigeria: Oil Theft - Niger Delta Stakeholders Want Pipeline Security Decentralised",
+          "url": "https://allafrica.com/stories/202603230095.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T06:51:52",
+          "lead": "[Daily Trust] Stakeholders under the Niger Delta Roundtable have called on President Bola Ahmed Tinubu to decentralise p"
+        }
+      ],
+      "sources": [
+        "RFI Afrique",
+        "AllAfrica"
+      ]
     },
     "Senegal": {
-      "article_count": 4,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 5.1,
-      "ratio": 0.78,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -321,13 +352,6 @@
           "source": "AllAfrica",
           "published": "2026-03-23T04:38:37",
           "lead": "[RFI] Air France has asked Michelin-starred chef Mory Sacko to create dishes to be served to its first and business clas"
-        },
-        {
-          "title": "Senegal: Bank of Africa Senegal Net Profit Rises 10% to 21.9b Xof in 2025",
-          "url": "https://allafrica.com/stories/202603230012.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:21",
-          "lead": "[Daba Finance] Bank of Africa Senegal, a unit of Morocco's BMCE Group, posted a net profit of 21.9 billion XOF ($38.5 mi"
         }
       ],
       "sources": [
@@ -384,12 +408,12 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 1.36,
+      "ratio": 0.65,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -399,13 +423,6 @@
           "source": "AllAfrica",
           "published": "2026-03-23T04:52:39",
           "lead": "[New Dawn] Monrovia, Liberia - March 23, 2026 -- More than 25 Liberians have completed a specialized maritime and port s"
-        },
-        {
-          "title": "Liberia: Women Leaders Push for Reforms to Boost Entrepreneurship in Liberia",
-          "url": "https://allafrica.com/stories/202603230024.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:52:35",
-          "lead": "[New Dawn] Monrovia, March 23, 2026 -- Some of Liberia's most influential women leaders--including former Director Gener"
         }
       ],
       "sources": [
@@ -416,7 +433,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.57,
+      "ratio": 0.56,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -435,26 +452,16 @@
       ]
     },
     "Ghana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.8,
-      "ratio": 0.56,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Ghana: Ghana Stock Exchange Index Surges Past 15,000 in Record Rally",
-          "url": "https://allafrica.com/stories/202603230014.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:22",
-          "lead": "[Daba Finance] The Ghana Stock Exchange Composite Index crossed 15,000 points for the first time, closing at 15,185.49 o"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Togo": {
       "article_count": 0,
@@ -469,43 +476,62 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.71,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Élection",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Bénin – Romuald Wadagni : « Le président Talon est un homme de parole. Si je suis élu, il s’effacera »",
+          "url": "https://www.jeuneafrique.com/1774279/politique/benin-romuald-wadagni-le-president-talon-est-un-homme-de-parole-si-je-suis-elu-il-seffacera/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-23T06:55:00",
+          "lead": "Favori d’un scrutin dont l’issue laisse peu de place au doute, ministre et architecte de la politique économique de Patr"
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "Nigeria": {
-      "article_count": 11,
+      "article_count": 19,
       "source_count": 4,
-      "baseline": 8.5,
-      "ratio": 1.29,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 8.8,
+      "ratio": 2.17,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
-          "count": 3
+          "count": 5
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Minister",
+          "count": 2
         },
         {
           "word": "Terrorist",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "War",
+          "word": "Government",
           "count": 1
         }
       ],
@@ -547,53 +573,60 @@
           "lead": "[This Day] President Bola Tinubu's high-profile diplomatic engagements, including his recent state visit to the United K"
         },
         {
-          "title": "Nigeria: Nigerians' Woes Deepen As Petrol Hits N1,400/L",
-          "url": "https://allafrica.com/stories/202603230031.html",
+          "title": "Nigeria: No Boat Mishap Involving Bandits - Sokoto Residents, Police",
+          "url": "https://allafrica.com/stories/202603230099.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:52:39",
-          "lead": "[Daily Trust] The steady rise in the pump price of Premium Motor Spirit (PMS), commonly known as petrol, has intensified"
+          "published": "2026-03-23T06:51:54",
+          "lead": "[Daily Trust] Residents of Sabon Gida in Gada Local Government Area of Sokoto State have dismissed reports of a boat mis"
         },
         {
-          "title": "Nigeria: Nigerian Navy Intercepts Illegal Fuel, Arrests Eight Suspects in Rivers",
-          "url": "https://allafrica.com/stories/202603230029.html",
+          "title": "Nigeria: CBN Bags Global 'Central Bank of the Year' Award",
+          "url": "https://allafrica.com/stories/202603230097.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:52:38",
-          "lead": "[This Day] The Nigerian Navy has intercepted about 44,000 litres of suspected illegally refined petroleum products and a"
+          "published": "2026-03-23T06:51:53",
+          "lead": "[Vanguard] The Central Bank of Nigeria, CBN, has been named Central Bank of the Year by Central Banking magazine, in rec"
         },
         {
-          "title": "Nigeria: Nigeria Has No Electricity Sector Roadmap, Seeks Merger of Gas, Power Ministries - NLC",
-          "url": "https://allafrica.com/stories/202603230027.html",
+          "title": "Nigeria: What You Should Know About Disapora Mortgage, Other Housing Mortgages",
+          "url": "https://allafrica.com/stories/202603230098.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:52:37",
-          "lead": "[This Day] The President of the Nigeria Labour Congress (NLC) Joe Ajaero, at the weekend said Nigeria's persistent elect"
+          "published": "2026-03-23T06:51:53",
+          "lead": "[Daily Trust] Nigeria's housing sector has been a subject of conversation for decades owing to huge housing gap running "
         },
         {
-          "title": "Nigeria: We Won't Allow Insecurity Overshadow Our Efforts - Tinubu",
-          "url": "https://allafrica.com/stories/202603230030.html",
+          "title": "Nigeria: Oil Theft - Niger Delta Stakeholders Want Pipeline Security Decentralised",
+          "url": "https://allafrica.com/stories/202603230095.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:52:38",
-          "lead": "[Daily Trust] President Bola Ahmed Tinubu has said his administration will intensify efforts to tackle the challenges of"
+          "published": "2026-03-23T06:51:52",
+          "lead": "[Daily Trust] Stakeholders under the Niger Delta Roundtable have called on President Bola Ahmed Tinubu to decentralise p"
         },
         {
-          "title": "Nigeria: Iran War Could Add to Nigeria's Security Troubles. What to Watch Out for",
-          "url": "https://allafrica.com/stories/202603230010.html",
+          "title": "Nigeria: Dangote Refinery Sells PMs Cargoes to Cote d'Ivoire, Cameroon, 3 Others",
+          "url": "https://allafrica.com/stories/202603230096.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:40:59",
-          "lead": "[The Conversation Africa] The war between Iran and Israel and the US may have far-reaching regional and global implicati"
+          "published": "2026-03-23T06:51:52",
+          "lead": "[Daily Trust] The Dangote Petroleum Refinery has strengthened Nigeria's presence in the regional energy market with the "
         },
         {
-          "title": "Nigeria: Dangote Nears Refinery IPO in Deal That Could Reshape Nigerian Market",
-          "url": "https://allafrica.com/stories/202603230016.html",
+          "title": "Nigeria: Navy Intercepts Illegal Product, Apprehend Eight Suspects in Rivers",
+          "url": "https://allafrica.com/stories/202603230094.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:43:22",
-          "lead": "[Daba Finance] Dangote Group has appointed Stanbic IBTC Capital, Vetiva Capital Management and FirstCap to lead the plan"
+          "published": "2026-03-23T06:51:51",
+          "lead": "[Vanguard] The Nigerian Navy has intercepted about 44,000 litres of suspected illegally refined petroleum products and a"
+        },
+        {
+          "title": "Nigeria: Nigeria in Talks With UK, France for Support in Fight Against Insecurity - Tinubu",
+          "url": "https://allafrica.com/stories/202603230091.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T06:51:50",
+          "lead": "[This Day] President Bola Tinubu, yesterday, disclosed that he held talks with the governments of United Kingdom and Fra"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "Jeune Afrique",
         "Africanews",
-        "AllAfrica",
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
@@ -640,10 +673,10 @@
       ]
     },
     "Cameroon": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.7,
-      "ratio": 0.73,
+      "ratio": 1.1,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -667,11 +700,19 @@
           "source": "Jeune Afrique",
           "published": "2026-03-22T08:55:00",
           "lead": "Le pape Léon XIV se rendra au Cameroun du 15 au 18 avril, avec des étapes à Yaoundé, Bamenda et Douala. Une visite très "
+        },
+        {
+          "title": "Nigeria: Dangote Refinery Sells PMs Cargoes to Cote d'Ivoire, Cameroon, 3 Others",
+          "url": "https://allafrica.com/stories/202603230096.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T06:51:52",
+          "lead": "[Daily Trust] The Dangote Petroleum Refinery has strengthened Nigeria's presence in the regional energy market with the "
         }
       ],
       "sources": [
+        "France24 Afrique",
         "Jeune Afrique",
-        "France24 Afrique"
+        "AllAfrica"
       ]
     },
     "CAR": {
@@ -770,10 +811,10 @@
       ]
     },
     "DRC": {
-      "article_count": 7,
+      "article_count": 6,
       "source_count": 4,
-      "baseline": 7.2,
-      "ratio": 0.97,
+      "baseline": 7.3,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -782,7 +823,7 @@
           "count": 2
         },
         {
-          "word": "Attack",
+          "word": "Militia",
           "count": 1
         },
         {
@@ -790,15 +831,7 @@
           "count": 1
         },
         {
-          "word": "Militia",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Crise",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -807,6 +840,14 @@
         },
         {
           "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "War",
           "count": 1
         }
       ],
@@ -834,13 +875,6 @@
           "lead": "En RDC, c'est la clôture de la deuxième édition du Festival international des arts de la scène « Série 7 », qui s’est te"
         },
         {
-          "title": "RDC: le président Tshisekedi demande un plan de relance pour la compagnie aérienne Congo Airways",
-          "url": "https://www.rfi.fr/fr/afrique/20260322-rdc-le-pr%C3%A9sident-tshisekedi-demande-un-plan-de-relance-pour-la-compagnie-a%C3%A9rienne-congo-airways",
-          "source": "RFI Afrique",
-          "published": "2026-03-22T05:30:00",
-          "lead": "En République démocratique du Congo, la principale compagnie aérienne nationale Congo Airways traverse une crise majeure"
-        },
-        {
           "title": "DRC's Tshisekedi tasks PM with plan to save struggling national airline",
           "url": "http://www.africanews.com/2026/03/22/drcs-tshisekedi-tasks-pm-with-plan-to-save-struggling-national-airline/",
           "source": "Africanews",
@@ -864,8 +898,8 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Africanews",
         "The Guardian Africa",
+        "Africanews",
         "Daily Maverick"
       ]
     },
@@ -918,23 +952,15 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.6,
-      "ratio": 1.14,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.7,
+      "ratio": 0.37,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         }
       ],
@@ -946,25 +972,10 @@
           "source": "RFI Afrique",
           "published": "2026-03-22T22:45:19",
           "lead": "Le Gabon a lancé le rapatriement de ses citoyens bloqués dans le Moyen-Orient à cause de la guerre entre l'Iran, Israël "
-        },
-        {
-          "title": "Ethiopia: PM Abiy Inaugurates Niin Lee Palm Lodge in Afar Region of Ethiopia",
-          "url": "https://allafrica.com/stories/202603230023.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:52:35",
-          "lead": "[ENA] Addis Ababa -- Prime Minister Abiy Ahmed has officially inaugurated the newly developed Niin Lee Palm Lodge in Afa"
-        },
-        {
-          "title": "Ethiopia: Ethiopia Launches Neway Trading App to Expand Access to Capital Market",
-          "url": "https://allafrica.com/stories/202603230013.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:21",
-          "lead": "[Daba Finance] Ethiopian Securities Exchange has launched Neway, its first web and mobile trading platform, as the count"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Somalia": {
@@ -1018,18 +1029,27 @@
       ],
       "sources": [
         "RFI Afrique",
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Kenya": {
-      "article_count": 6,
+      "article_count": 9,
       "source_count": 4,
-      "baseline": 5.4,
-      "ratio": 1.12,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [],
+      "baseline": 5.5,
+      "ratio": 1.65,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1054,6 +1074,20 @@
           "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
         },
         {
+          "title": "Kenya: Govt Grants Amnesty for Kenyans Who Joined Russian Military After Stop List Agreement",
+          "url": "https://allafrica.com/stories/202603230048.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T05:07:44",
+          "lead": "[Capital FM] Nairobi -- The government will grant amnesty to Kenyans who illegally joined Russian military operations in"
+        },
+        {
+          "title": "Kenya: Kericho Mass Grave - Police Investigate Alleged Burial of 14 Mutilated Bodies",
+          "url": "https://allafrica.com/stories/202603230043.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T05:07:41",
+          "lead": "[Capital FM] Nairobi -- The Police Serive has launched an investigation following the discovery of a suspected mass grav"
+        },
+        {
           "title": "Africa: African Michelin-Starred Chef Mory Sacko Designs Meals for Air France",
           "url": "https://allafrica.com/stories/202603230006.html",
           "source": "AllAfrica",
@@ -1061,34 +1095,41 @@
           "lead": "[RFI] Air France has asked Michelin-starred chef Mory Sacko to create dishes to be served to its first and business clas"
         },
         {
-          "title": "Kenya: Kenya Pipeline Lists On Nairobi Exchange in $823m IPO",
-          "url": "https://allafrica.com/stories/202603230015.html",
+          "title": "Africa: Earth Records Hottest 11-Year Period As Climate Crisis Deepens - WMO",
+          "url": "https://allafrica.com/stories/202603230089.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:43:22",
-          "lead": "[Daba Finance] Kenya Pipeline Company began trading on the Nairobi Securities Exchange on March 10 after completing an o"
+          "published": "2026-03-23T06:42:50",
+          "lead": "[Capital FM] Nairobi -- The period from 2015 to 2025 has been the hottest 11-year stretch on record, with Earth's climat"
         },
         {
-          "title": "Kenya: ALP Reit Lists On NSE As First USD-Based Security",
-          "url": "https://allafrica.com/stories/202603230018.html",
+          "title": "Kenya: Motorists Rerouted As Floods Damage Key Road to Lodwar",
+          "url": "https://allafrica.com/stories/202603230085.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:43:22",
-          "lead": "[Daba Finance] The Nairobi Securities Exchange listed the ALP Industrial Real Estate Investment Trust on March 11, marki"
+          "published": "2026-03-23T06:33:30",
+          "lead": "[Capital FM] Nairobi -- Heavy rains have washed away a section of the Kitale-Morpus road, disrupting traffic and forcing"
+        },
+        {
+          "title": "Kenya: Kenya Steps Up Push for Clean Water Access As Women Bear Burden of Shortages",
+          "url": "https://allafrica.com/stories/202603230084.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T06:33:29",
+          "lead": "[Capital FM] Nairobi -- Kenya marked this year's World Water Day with renewed calls to address gender inequalities in ac"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "Jeune Afrique",
         "Africanews",
-        "AllAfrica",
-        "Jeune Afrique"
+        "AllAfrica"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
+      "article_count": 1,
       "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 0.39,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1098,13 +1139,6 @@
           "source": "AllAfrica",
           "published": "2026-03-23T04:52:36",
           "lead": "[New Times] Youth have been urged to actively preserve Kinyarwanda and promote its use in daily life as part of efforts "
-        },
-        {
-          "title": "Rwanda: Fitch Revises Rwanda Outlook to Stable, Affirms B+ Rating",
-          "url": "https://allafrica.com/stories/202603230019.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:22",
-          "lead": "[Daba Finance] Fitch Ratings revised the outlook on Rwanda's long-term foreign-currency sovereign rating to Stable from "
         }
       ],
       "sources": [
@@ -1126,17 +1160,17 @@
     "Tanzania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.03,
+      "baseline": 0.9,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Attack",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Attack",
           "count": 1
         },
         {
@@ -1159,35 +1193,16 @@
       ]
     },
     "Madagascar": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.9,
-      "ratio": 0.53,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Madagascar: la guerre au Moyen-Orient met l'approvisionnement en carburant sous tension",
-          "url": "https://www.rfi.fr/fr/afrique/20260322-madagascar-la-guerre-au-moyen-orient-met-l-approvisionnement-en-carburant-sous-tension",
-          "source": "RFI Afrique",
-          "published": "2026-03-22T06:44:34",
-          "lead": "À Madagascar, Antananarivo est au point mort. Depuis plusieurs jours, la chasse au carburant paralyse les rues de la cap"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Comoros": {
       "article_count": 0,
@@ -1248,16 +1263,26 @@
       ]
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.43,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Malawi: $1.4bn Lost, $2bn Needed - Relentless Disasters Are Draining Malawi and Entrenching Poverty",
+          "url": "https://allafrica.com/stories/202603230058.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T05:09:51",
+          "lead": "[Nyasa Times] Malawi has lost at least $1.427 billion (about K2.5 trillion) to major climate-related disasters in just e"
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Mozambique": {
       "article_count": 0,
@@ -1272,42 +1297,60 @@
       "sources": []
     },
     "Zimbabwe": {
-      "article_count": 2,
+      "article_count": 4,
       "source_count": 2,
       "baseline": 2.5,
-      "ratio": 0.79,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Élection",
-          "count": 2
+          "count": 1
         },
         {
-          "word": "Président",
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Projet de réforme constitutionnelle au Zimbabwe: le leader d'opposition Tendai Biti arrêté",
-          "url": "https://www.rfi.fr/fr/afrique/20260322-projet-de-r%C3%A9forme-constitutionnelle-au-zimbabwe-le-leader-d-opposition-tendai-biti-arr%C3%AAt%C3%A9",
-          "source": "RFI Afrique",
-          "published": "2026-03-22T06:16:49",
-          "lead": "Au Zimbabwe, la tension politique monte d'un cran. L'ancien ministre des Finances, désormais opposant Tendai Biti a été "
-        },
-        {
           "title": "Au Zimbabwe, qui tente d’empêcher un troisième mandat d’Emmerson Mnangagwa ?",
           "url": "https://www.jeuneafrique.com/1774353/politique/au-zimbabwe-qui-tente-dempecher-un-troisieme-mandat-demmerson-mnangagwa/",
           "source": "Jeune Afrique",
           "published": "2026-03-22T12:15:00",
           "lead": "Le projet de loi visant à modifier la Constitution pour permettre au chef de l’État de rester au pouvoir sans élection j"
+        },
+        {
+          "title": "Zimbabwe: Zimbabwe's Ban On Raw Minerals Exports Puts Chinese Firms Under Pressure",
+          "url": "https://allafrica.com/stories/202603230034.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T05:04:57",
+          "lead": "[New Zimbabwe] The Chinese Embassy in Zimbabwe has warned its nationals and companies operating in the country to exerci"
+        },
+        {
+          "title": "Zimbabwe: Biti Spends Weekend Behind Bars Following Arrest in Mutare, Set to Appear in Court",
+          "url": "https://allafrica.com/stories/202603230087.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T06:42:23",
+          "lead": "[New Zimbabwe] OUTSPOKEN opposition politician-cum-lawyer, Tendai Biti, spent the weekend in police custody following hi"
+        },
+        {
+          "title": "Zimbabwe: Back to Court for Zimbabwean Permit Holders Seeking to Stay in South Africa",
+          "url": "https://allafrica.com/stories/202603230086.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T06:42:22",
+          "lead": "[New Zimbabwe] Anti-immigration group Operation Dudula announced on Friday that it is taking Home Affairs Minister Leon "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Namibia": {
@@ -1323,32 +1366,22 @@
       "sources": []
     },
     "Botswana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Botswana: S&#x26;amp;P Downgrades Botswana With Negative Outlook On Diamond Weakness",
-          "url": "https://allafrica.com/stories/202603230020.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:23",
-          "lead": "[Daba Finance] S&#x26;amp;P Global Ratings downgraded Botswana's sovereign credit rating to BBB- from BBB and assigned a"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Africa": {
-      "article_count": 11,
+      "article_count": 10,
       "source_count": 2,
-      "baseline": 13.9,
-      "ratio": 0.79,
+      "baseline": 14.0,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1372,25 +1405,18 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "South Africa: How Commercial Crime Quietly Became South Africa's Most Dangerous Growth Industry",
-          "url": "https://allafrica.com/stories/202603230025.html",
+          "title": "South Africa: Heatwave Expected for Northern and Western Cape - South African News Briefs - March 23, 2026",
+          "url": "https://allafrica.com/stories/202603230079.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:52:36",
-          "lead": "[Daily Maverick] Commercial crime is the only major crime category in South Africa -- other than kidnapping -- that poli"
+          "published": "2026-03-23T05:37:53",
+          "lead": "[allAfrica]"
         },
         {
-          "title": "South Africa: South Africa's Gig Economy Workers Set to Get More Protection Under Planned Labour Law Reforms",
-          "url": "https://allafrica.com/stories/202603230011.html",
+          "title": "Zimbabwe: Back to Court for Zimbabwean Permit Holders Seeking to Stay in South Africa",
+          "url": "https://allafrica.com/stories/202603230086.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:40:59",
-          "lead": "[The Conversation Africa] South Africa's minister of employment and labour has published a sweeping set of proposed amen"
-        },
-        {
-          "title": "South Africa: JSE Lists China-Focused Active Etf Under Panda Ticker",
-          "url": "https://allafrica.com/stories/202603230017.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:43:22",
-          "lead": "[Daba Finance] The Johannesburg Stock Exchange has listed the Prescient China Balanced Feeder Actively Managed Exchange "
+          "published": "2026-03-23T06:42:22",
+          "lead": "[New Zimbabwe] Anti-immigration group Operation Dudula announced on Friday that it is taking Home Affairs Minister Leon "
         },
         {
           "title": "THE INVISIBLE HEIST (Part One): How commercial crime quietly became SA’s most dangerous growth industry",
@@ -1450,8 +1476,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Daily Maverick"
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Eswatini": {
