@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-23T06:59:11.973920",
+  "generated_at": "2026-03-23T09:55:04.878116",
   "summary": {
-    "high": 1,
-    "elevated": 3,
-    "normal": 23,
-    "quiet": 27
+    "high": 5,
+    "elevated": 12,
+    "normal": 22,
+    "quiet": 15
   },
   "countries": {
     "Morocco": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 2,
-      "baseline": 4.4,
-      "ratio": 0.69,
+      "baseline": 4.3,
+      "ratio": 0.92,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -32,6 +32,13 @@
           "lead": "Le ramadan venant de s’achever, le Maroc a changé d’heure la nuit dernière. Depuis 2018, le royaume chérifien a choisi c"
         },
         {
+          "title": "CAN : le Sénégalais Idrissa Gueye prêt « à rendre les médailles au Maroc »",
+          "url": "https://www.jeuneafrique.com/1776555/politique/can-le-senegalais-idrissa-gueye-pret-a-rendre-les-medailles-au-maroc/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-23T09:55:41",
+          "lead": "Le milieu de terrain du Sénégal Idrissa Gueye, considérant que son pays était bien le champion d’Afrique, s’est dit tout"
+        },
+        {
           "title": "Narcos de Dubaï : comment le Maroc bataille pour ne pas devenir leur nouvelle base arrière",
           "url": "https://www.jeuneafrique.com/1774439/societe/narcos-de-dubai-comment-le-maroc-bataille-pour-ne-pas-devenir-leur-nouvelle-base-arriere/",
           "source": "Jeune Afrique",
@@ -40,8 +47,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -57,22 +64,32 @@
       "sources": []
     },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 1.07,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "À la Une: en Tunisie, lourde condamnation pour la militante antiraciste Saadia Mosbah",
+          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260323-%C3%A0-la-une-en-tunisie-lourde-condamnation-pour-la-militante-antiraciste-saadia-mosbah",
+          "source": "RFI Afrique",
+          "published": "2026-03-23T07:25:32",
+          "lead": ""
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Libya": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.36,
+      "baseline": 0.8,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -91,47 +108,70 @@
       ]
     },
     "Egypt": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Sudan": {
-      "article_count": 4,
-      "source_count": 4,
-      "baseline": 5.2,
-      "ratio": 0.76,
+      "ratio": 0.97,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 2
-        },
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Qatar Development Fund supports more than 10,600 Palestinian familes stranded in the Arab Republic of Egypt [EN/AR]",
+          "url": "https://reliefweb.int/report/egypt/qatar-development-fund-supports-more-10600-palestinian-familes-stranded-arab-republic-egypt-enar",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:37:30",
+          "lead": "Countries: Egypt, occupied Palestinian territory\n                                      Source: Qatar Fund for Developmen"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Sudan": {
+      "article_count": 12,
+      "source_count": 5,
+      "baseline": 5.2,
+      "ratio": 2.32,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
         {
           "word": "Attack",
-          "count": 1
+          "count": 4
         },
         {
-          "word": "Attaque",
-          "count": 1
+          "word": "Killed",
+          "count": 4
         },
         {
-          "word": "Gouvernement",
-          "count": 1
+          "word": "War",
+          "count": 3
         },
         {
           "word": "Guerre",
-          "count": 1
+          "count": 2
         },
         {
-          "word": "Dead",
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -164,13 +204,70 @@
           "source": "Africanews",
           "published": "2026-03-22T11:53:29",
           "lead": "At least 64 people were killed in a strike on a hospital in Sudan’s western Darfur region, the World Health Organization"
+        },
+        {
+          "title": "Sudan: Drone Strike on Ed Dain Teaching Hospital Represents a Grave Escalation in Attacks on Healthcare Amid Increased Strain on Health System",
+          "url": "https://reliefweb.int/report/sudan/sudan-drone-strike-ed-dain-teaching-hospital-represents-grave-escalation-attacks-healthcare-amid-increased-strain-health-system",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:35:12",
+          "lead": "Country: Sudan\n                                      Source: Sudan INGO Forum\n                                          "
+        },
+        {
+          "title": "Attacks on Health Care in Sudan, 04 - 17 March 2026",
+          "url": "https://reliefweb.int/report/sudan/attacks-health-care-sudan-04-17-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:21:46",
+          "lead": "Country: Sudan\n                                      Source: Insecurity Insight\n                                        "
+        },
+        {
+          "title": "WFP Sudan Monthly Factsheet - February 2026",
+          "url": "https://reliefweb.int/report/sudan/wfp-sudan-monthly-factsheet-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T08:33:15",
+          "lead": "Country: Sudan\n                                      Source: World Food Programme\n                                      "
+        },
+        {
+          "title": "WFP Sudan - February 2026 Snapshot",
+          "url": "https://reliefweb.int/report/sudan/wfp-sudan-february-2026-snapshot",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T08:32:15",
+          "lead": "Country: Sudan\n                                      Source: World Food Programme\n                                      "
+        },
+        {
+          "title": "WFP Sudan Country Brief - February 2026",
+          "url": "https://reliefweb.int/report/sudan/wfp-sudan-country-brief-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T08:23:00",
+          "lead": "Country: Sudan\n                                      Source: World Food Programme\n                                      "
+        },
+        {
+          "title": "Tchad : quand l’eau devient une quête quotidienne",
+          "url": "https://reliefweb.int/report/chad/tchad-quand-leau-devient-une-quete-quotidienne",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T07:45:38",
+          "lead": "Country: Chad\n                                      Source: International Committee of the Red Cross\n                   "
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        },
+        {
+          "title": "Sudan: Attack on Al-Daein Teaching Hospital in East Darfur - CARE",
+          "url": "https://reliefweb.int/report/sudan/sudan-attack-al-daein-teaching-hospital-east-darfur-care",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T19:03:06",
+          "lead": "Country: Sudan\n                                      Source: CARE\n                                                      "
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "BBC Africa",
+        "ReliefWeb",
         "RFI Afrique",
         "Africanews",
-        "BBC Africa"
+        "France24 Afrique"
       ]
     },
     "Mauritania": {
@@ -196,15 +293,23 @@
       ]
     },
     "Mali": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 2.0,
-      "ratio": 2.95,
+      "article_count": 8,
+      "source_count": 6,
+      "baseline": 2.1,
+      "ratio": 3.81,
       "status": "high",
-      "confidence": "medium",
+      "confidence": "high",
       "keywords": [
         {
+          "word": "Crise",
+          "count": 1
+        },
+        {
           "word": "Jihadist",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -239,6 +344,13 @@
           "lead": "Le 15 mars, le Mali accusait la Mauritanie d’avoir fermé les yeux sur la détention sur son territoire de deux militaires"
         },
         {
+          "title": "Crise du carburant au Mali : plus d’une centaine de jihadistes présumés libérés contre le passage des convois",
+          "url": "https://www.jeuneafrique.com/1776559/politique/crise-du-carburant-au-mali-plus-dune-centaine-de-jihadistes-presumes-liberes-contre-le-passage-des-convois/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-23T10:39:38",
+          "lead": "Un élu malien a confirmé la « libération de plus de 100 jihadistes » contre l’ouverture d’un corridor « pour laisser pas"
+        },
+        {
           "title": "Jihadist prisoner release secures fuel convoy truce in Mali",
           "url": "http://www.africanews.com/2026/03/23/jihadist-prisoner-release-secures-fuel-convoy-truce-in-mali/",
           "source": "Africanews",
@@ -251,23 +363,57 @@
           "source": "AllAfrica",
           "published": "2026-03-23T04:38:37",
           "lead": "[RFI] Air France has asked Michelin-starred chef Mory Sacko to create dishes to be served to its first and business clas"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "ReliefWeb",
+        "AllAfrica",
         "RFI Afrique",
         "Africanews",
-        "AllAfrica"
+        "France24 Afrique",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.4,
-      "ratio": 0.7,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 1.5,
+      "ratio": 2.73,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -276,22 +422,52 @@
           "source": "RFI Afrique",
           "published": "2026-03-23T06:22:19",
           "lead": "Une nouvelle stratégie des États-Unis vis-à-vis des pays de l’AES – l’Alliance des États du Sahel ? Nick Checker, haut r"
+        },
+        {
+          "title": "Burkina Faso | Floods: Early Action Protocol Summary (EAP No.: EAP2025BF02, Operation No.: MDRBF024)",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-floods-early-action-protocol-summary-eap-no-eap2025bf02-operation-no-mdrbf024",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:51:20",
+          "lead": "Country: Burkina Faso\n                                      Source: International Federation of Red Cross and Red Cresce"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        },
+        {
+          "title": "UNFPA Burkina Faso Country Appeal 2026",
+          "url": "https://reliefweb.int/report/burkina-faso/unfpa-burkina-faso-country-appeal-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:40:56",
+          "lead": "Country: Burkina Faso\n                                      Source: United Nations Population Fund\n                     "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Niger": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 2.0,
-      "ratio": 1.02,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.97,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -310,18 +486,33 @@
           "source": "AllAfrica",
           "published": "2026-03-23T06:51:52",
           "lead": "[Daily Trust] Stakeholders under the Niger Delta Roundtable have called on President Bola Ahmed Tinubu to decentralise p"
+        },
+        {
+          "title": "Burkina Faso | Floods: Early Action Protocol Summary (EAP No.: EAP2025BF02, Operation No.: MDRBF024)",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-floods-early-action-protocol-summary-eap-no-eap2025bf02-operation-no-mdrbf024",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:51:20",
+          "lead": "Country: Burkina Faso\n                                      Source: International Federation of Red Cross and Red Cresce"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "ReliefWeb",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 5.1,
-      "ratio": 0.58,
+      "ratio": 0.78,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -347,6 +538,13 @@
           "lead": "Le milieu de terrain du Sénégal Idrissa Gueye, considérant que son pays était bien le champion d'Afrique, s'est dit tout"
         },
         {
+          "title": "CAN : le Sénégalais Idrissa Gueye prêt « à rendre les médailles au Maroc »",
+          "url": "https://www.jeuneafrique.com/1776555/politique/can-le-senegalais-idrissa-gueye-pret-a-rendre-les-medailles-au-maroc/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-23T09:55:41",
+          "lead": "Le milieu de terrain du Sénégal Idrissa Gueye, considérant que son pays était bien le champion d’Afrique, s’est dit tout"
+        },
+        {
           "title": "Africa: African Michelin-Starred Chef Mory Sacko Designs Meals for Air France",
           "url": "https://allafrica.com/stories/202603230006.html",
           "source": "AllAfrica",
@@ -355,8 +553,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "Jeune Afrique",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -411,18 +610,18 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.5,
-      "ratio": 0.65,
+      "ratio": 0.67,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Africa: Over 25 Liberians Complete EU-Funded Scope Africa Port Security Training",
-          "url": "https://allafrica.com/stories/202603230032.html",
+          "title": "Liberia: Liberian Women, Guardians of Peace and Pillars of Democracy",
+          "url": "https://allafrica.com/stories/202603230106.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T04:52:39",
-          "lead": "[New Dawn] Monrovia, Liberia - March 23, 2026 -- More than 25 Liberians have completed a specialized maritime and port s"
+          "published": "2026-03-23T08:21:22",
+          "lead": "[New Dawn] On International Women's Day, Liberia honors the remarkable contributions of women who have shaped the nation"
         }
       ],
       "sources": [
@@ -430,13 +629,18 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.8,
-      "ratio": 0.56,
+      "ratio": 1.11,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -445,9 +649,17 @@
           "source": "AllAfrica",
           "published": "2026-03-23T04:38:37",
           "lead": "[RFI] Air France has asked Michelin-starred chef Mory Sacko to create dishes to be served to its first and business clas"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -464,74 +676,101 @@
       "sources": []
     },
     "Togo": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Benin": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.4,
-      "ratio": 0.71,
+      "baseline": 0.5,
+      "ratio": 2.0,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Élection",
+          "word": "Famine",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Benin": {
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 1.4,
+      "ratio": 2.09,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Élection",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Bénin: pas représenté à la présidentielle, le parti d’opposition Les Démocrates ne soutiendra aucun candidat",
+          "url": "https://www.rfi.fr/fr/afrique/20260323-b%C3%A9nin-pas-repr%C3%A9sent%C3%A9-%C3%A0-la-pr%C3%A9sidentielle-le-parti-d-opposition-les-d%C3%A9mocrates-ne-soutiendra-aucun-candidat",
+          "source": "RFI Afrique",
+          "published": "2026-03-23T08:52:50",
+          "lead": "Au Bénin, la campagne n'a pas encore officiellement commencé mais c'est tout comme, avant la présidentielle du 12 avril "
+        },
+        {
           "title": "Bénin – Romuald Wadagni : « Le président Talon est un homme de parole. Si je suis élu, il s’effacera »",
           "url": "https://www.jeuneafrique.com/1774279/politique/benin-romuald-wadagni-le-president-talon-est-un-homme-de-parole-si-je-suis-elu-il-seffacera/",
           "source": "Jeune Afrique",
           "published": "2026-03-23T06:55:00",
           "lead": "Favori d’un scrutin dont l’issue laisse peu de place au doute, ministre et architecte de la politique économique de Patr"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "ReliefWeb",
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 19,
-      "source_count": 4,
-      "baseline": 8.8,
-      "ratio": 2.17,
+      "article_count": 17,
+      "source_count": 5,
+      "baseline": 9.0,
+      "ratio": 1.88,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "President",
-          "count": 5
-        },
-        {
-          "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "Minister",
-          "count": 2
-        },
-        {
-          "word": "Terrorist",
-          "count": 1
+          "count": 4
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -559,18 +798,53 @@
           "lead": "The city of Abuja, Nigeria witnessed a major cultural revival with the return of the Abuja Alternate Festival (AAF) 2026"
         },
         {
-          "title": "US troops in Nigeria using drones to detect and disrupt terrorist activity",
-          "url": "http://www.africanews.com/2026/03/22/us-troops-in-nigeria-using-drones-to-detect-and-disrupt-terrorist-activity/",
-          "source": "Africanews",
-          "published": "2026-03-22T08:33:27",
-          "lead": "US military trainers deployed to Nigeria are using high-powered drones for surveillance and intelligence gathering, the "
-        },
-        {
           "title": "Nigeria: U.S. Pushes Hardline Africa Policy, Tinubu's Diplomacy Faces Questions",
           "url": "https://allafrica.com/stories/202603230028.html",
           "source": "AllAfrica",
           "published": "2026-03-23T04:52:37",
           "lead": "[This Day] President Bola Tinubu's high-profile diplomatic engagements, including his recent state visit to the United K"
+        },
+        {
+          "title": "Nigeria: Emir Sanusi Hails Governor Yusuf for Allocating 30% of Budget to Education",
+          "url": "https://allafrica.com/stories/202603230113.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:41:28",
+          "lead": "[Leadership] The 16th Emir of Kano, Muhammadu Sanusi II, on Sunday threw his weight behind the policy initiatives of Kan"
+        },
+        {
+          "title": "Nigeria: Rights Group Asks Akpabio to Reveal Suspect Names in Alleged N210trn Missing Funds",
+          "url": "https://allafrica.com/stories/202603230114.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:41:28",
+          "lead": "[Leadership] The Socio-Economic Rights and Accountability Project (SERAP) has urged Senate President Godswill Akpabio to"
+        },
+        {
+          "title": "Nigeria: 8 Days to Go - 33 Banks Beat CBN Recapitalisation Deadline With N6.5trn Capital Base",
+          "url": "https://allafrica.com/stories/202603230112.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:41:27",
+          "lead": "[Leadership] With just about eight days to the deadline given to banks in the country to shore up their capital base, ne"
+        },
+        {
+          "title": "Nigeria: Nigeria Police Restructure Tactical Units Nationwide, Deny Blanket Disbandment Order",
+          "url": "https://allafrica.com/stories/202603230109.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:31:33",
+          "lead": "[Premium Times] Under the new structure, tactical teams at Zonal and State commands are to be reduced to a maximum of fi"
+        },
+        {
+          "title": "Nigeria: Civil Servants Celebrate As Tinubu Approves Full Gratuity Scheme From 2026",
+          "url": "https://allafrica.com/stories/202603230104.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:16:56",
+          "lead": "[Vanguard] Thousands of Federal Civil Servants across the country have welco-med the decision of President Bola Ahmed Ti"
+        },
+        {
+          "title": "Nigeria: BUK Expels 171 Students Over Falsified Admission Credentials",
+          "url": "https://allafrica.com/stories/202603230102.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:16:54",
+          "lead": "[Daily Trust] The Senate of Bayero University Kano (BUK) has approved the expulsion of 171 students for falsifying their"
         },
         {
           "title": "Nigeria: No Boat Mishap Involving Bandits - Sokoto Residents, Police",
@@ -585,48 +859,14 @@
           "source": "AllAfrica",
           "published": "2026-03-23T06:51:53",
           "lead": "[Vanguard] The Central Bank of Nigeria, CBN, has been named Central Bank of the Year by Central Banking magazine, in rec"
-        },
-        {
-          "title": "Nigeria: What You Should Know About Disapora Mortgage, Other Housing Mortgages",
-          "url": "https://allafrica.com/stories/202603230098.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:51:53",
-          "lead": "[Daily Trust] Nigeria's housing sector has been a subject of conversation for decades owing to huge housing gap running "
-        },
-        {
-          "title": "Nigeria: Oil Theft - Niger Delta Stakeholders Want Pipeline Security Decentralised",
-          "url": "https://allafrica.com/stories/202603230095.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:51:52",
-          "lead": "[Daily Trust] Stakeholders under the Niger Delta Roundtable have called on President Bola Ahmed Tinubu to decentralise p"
-        },
-        {
-          "title": "Nigeria: Dangote Refinery Sells PMs Cargoes to Cote d'Ivoire, Cameroon, 3 Others",
-          "url": "https://allafrica.com/stories/202603230096.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:51:52",
-          "lead": "[Daily Trust] The Dangote Petroleum Refinery has strengthened Nigeria's presence in the regional energy market with the "
-        },
-        {
-          "title": "Nigeria: Navy Intercepts Illegal Product, Apprehend Eight Suspects in Rivers",
-          "url": "https://allafrica.com/stories/202603230094.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:51:51",
-          "lead": "[Vanguard] The Nigerian Navy has intercepted about 44,000 litres of suspected illegally refined petroleum products and a"
-        },
-        {
-          "title": "Nigeria: Nigeria in Talks With UK, France for Support in Fight Against Insecurity - Tinubu",
-          "url": "https://allafrica.com/stories/202603230091.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:51:50",
-          "lead": "[This Day] President Bola Tinubu, yesterday, disclosed that he held talks with the governments of United Kingdom and Fra"
         }
       ],
       "sources": [
+        "ReliefWeb",
+        "AllAfrica",
         "RFI Afrique",
-        "Jeune Afrique",
         "Africanews",
-        "AllAfrica"
+        "Jeune Afrique"
       ]
     },
     "Cape Verde": {
@@ -642,19 +882,39 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 0.64,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.91,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 2
+        },
         {
           "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -666,22 +926,41 @@
           "source": "France24 Afrique",
           "published": "2026-03-22T21:55:18",
           "lead": "La guerre civile soudanaise déborde t'elle chez le voisin tchadien ? Mercredi 18 mars, une frappe de drone a fait au moi"
+        },
+        {
+          "title": "Tchad : quand l’eau devient une quête quotidienne",
+          "url": "https://reliefweb.int/report/chad/tchad-quand-leau-devient-une-quete-quotidienne",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T07:45:38",
+          "lead": "Country: Chad\n                                      Source: International Committee of the Red Cross\n                   "
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "France24 Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.7,
-      "ratio": 1.1,
-      "status": "normal",
-      "confidence": "normal",
+      "article_count": 5,
+      "source_count": 4,
+      "baseline": 2.8,
+      "ratio": 1.81,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Président",
+          "count": 3
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -695,11 +974,18 @@
           "lead": "Au Cameroun, les députés viennent une nouvelle fois de prolonger leur mandat, cette fois-ci jusqu’en décembre 2026. Cett"
         },
         {
-          "title": "Pape Léon XIV au Cameroun : les enjeux d’une visite et d’un pari risqués",
-          "url": "https://www.jeuneafrique.com/1774779/politique/pape-leon-xiv-au-cameroun-les-enjeux-dune-visite-et-dun-pari-risques/",
+          "title": "Pourquoi Ecobank change d’actionnaire mais pas de cap",
+          "url": "https://www.jeuneafrique.com/1769824/economie-entreprises/pourquoi-ecobank-change-dactionnaire-mais-pas-de-cap/",
           "source": "Jeune Afrique",
-          "published": "2026-03-22T08:55:00",
-          "lead": "Le pape Léon XIV se rendra au Cameroun du 15 au 18 avril, avec des étapes à Yaoundé, Bamenda et Douala. Une visite très "
+          "published": "2026-03-23T08:17:56",
+          "lead": "En rachetant les parts de la banque sud-africaine Nedbank, le financier camerounais Alain Nkontchou devient premier acti"
+        },
+        {
+          "title": "Cameroun : le film de la chute de Cavayé Yéguié Djibril, pilier historique du régime Biya",
+          "url": "https://www.jeuneafrique.com/1775902/politique/cameroun-le-film-de-la-chute-de-cavaye-yeguie-djibril-pilier-historique-du-regime-biya/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-23T08:08:32",
+          "lead": "Le départ du président de l’Assemblée nationale marque la fin d’une époque au Cameroun. Entre santé déclinante, frasques"
         },
         {
           "title": "Nigeria: Dangote Refinery Sells PMs Cargoes to Cote d'Ivoire, Cameroon, 3 Others",
@@ -707,22 +993,35 @@
           "source": "AllAfrica",
           "published": "2026-03-23T06:51:52",
           "lead": "[Daily Trust] The Dangote Petroleum Refinery has strengthened Nigeria's presence in the regional energy market with the "
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "France24 Afrique",
+        "ReliefWeb",
         "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "France24 Afrique"
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.4,
-      "ratio": 0.71,
+      "ratio": 1.43,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -731,23 +1030,72 @@
           "source": "RFI Afrique",
           "published": "2026-03-23T01:16:50",
           "lead": "La Centrafrique franchit une nouvelle étape dans son accès à Internet. Lundi 16 mars à Bangui, les autorités nationales "
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "South Sudan - Access Constraints Map, 19 March 2026",
+          "url": "https://reliefweb.int/map/south-sudan/south-sudan-access-constraints-map-19-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T07:40:06",
+          "lead": "Country: South Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n            "
+        },
+        {
+          "title": "Building Livelihoods and Trust in Uganda’s Refugee-Hosting Communities",
+          "url": "https://reliefweb.int/report/uganda/building-livelihoods-and-trust-ugandas-refugee-hosting-communities",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T06:05:30",
+          "lead": "Countries: Uganda, South Sudan, World\n                                      Source: World Bank\n                         "
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -795,43 +1143,48 @@
       "ratio": 0.48,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Militia",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
-          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
-          "source": "Africanews",
-          "published": "2026-03-22T07:30:05",
-          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+          "title": "Central Africa: Intensified UPDF Patrols Reduce Cross-Border Militia Attacks On Lake Albert",
+          "url": "https://allafrica.com/stories/202603230108.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:31:33",
+          "lead": "[Independent (Kampala)] Kikuube, Uganda -- Heightened and intensified patrols on the waters of Lake Albert in Kikuube Di"
         }
       ],
       "sources": [
-        "Africanews"
+        "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 6,
-      "source_count": 4,
-      "baseline": 7.3,
-      "ratio": 0.83,
+      "article_count": 7,
+      "source_count": 5,
+      "baseline": 7.2,
+      "ratio": 0.97,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Militia",
+          "count": 2
+        },
         {
           "word": "Killed",
           "count": 2
         },
         {
-          "word": "Militia",
+          "word": "Attack",
           "count": 1
         },
         {
           "word": "Armed group",
-          "count": 1
-        },
-        {
-          "word": "Attack",
           "count": 1
         },
         {
@@ -861,6 +1214,13 @@
           "lead": "Survivors describe how rangers and staff were targeted by an armed group during a raid on DRC’s national park earlier th"
         },
         {
+          "title": "Est de la RDC: à Goma, une campagne pour «booster la couverture vaccinale» contre la rougeole",
+          "url": "https://www.rfi.fr/fr/afrique/20260323-est-de-la-rdc-%C3%A0-goma-une-campagne-pour-booster-la-couverture-vaccinale-contre-la-rougeole",
+          "source": "RFI Afrique",
+          "published": "2026-03-23T09:05:14",
+          "lead": "En République démocratique du Congo (RDC), la rougeole demeure l’une des maladies les plus contagieuses et continue de r"
+        },
+        {
           "title": "RDC: saisie de valises contenant deux millions de dollars à l'aéroport de Kinshasa",
           "url": "https://www.rfi.fr/fr/afrique/20260323-rdc-saisie-de-valises-contenant-deux-millions-de-dollars-%C3%A0-l-a%C3%A9roport-de-kinshasa",
           "source": "RFI Afrique",
@@ -882,11 +1242,11 @@
           "lead": "The President of the Democratic Republic of the Congo, Félix Tshisekedi, has instructed the relevant authorities to deve"
         },
         {
-          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
-          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
-          "source": "Africanews",
-          "published": "2026-03-22T07:30:05",
-          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+          "title": "Central Africa: Intensified UPDF Patrols Reduce Cross-Border Militia Attacks On Lake Albert",
+          "url": "https://allafrica.com/stories/202603230108.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:31:33",
+          "lead": "[Independent (Kampala)] Kikuube, Uganda -- Heightened and intensified patrols on the waters of Lake Albert in Kikuube Di"
         },
         {
           "title": "AFRICA UNSCRAMBLED OP-ED: War in eastern DRC — the Rumble in the Jungle that keeps rumbling",
@@ -897,9 +1257,10 @@
         }
       ],
       "sources": [
+        "AllAfrica",
         "RFI Afrique",
-        "The Guardian Africa",
         "Africanews",
+        "The Guardian Africa",
         "Daily Maverick"
       ]
     },
@@ -916,16 +1277,31 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.25,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Eritrea": {
       "article_count": 0,
@@ -940,24 +1316,39 @@
       "sources": []
     },
     "Djibouti": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Ethiopia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.7,
-      "ratio": 0.37,
+      "baseline": 0.5,
+      "ratio": 2.0,
       "status": "normal",
       "confidence": "low",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Ethiopia": {
+      "article_count": 4,
+      "source_count": 2,
+      "baseline": 2.6,
+      "ratio": 1.52,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Guerre",
@@ -972,34 +1363,110 @@
           "source": "RFI Afrique",
           "published": "2026-03-22T22:45:19",
           "lead": "Le Gabon a lancé le rapatriement de ses citoyens bloqués dans le Moyen-Orient à cause de la guerre entre l'Iran, Israël "
+        },
+        {
+          "title": "South Africa: La visite de la Directrice générale de l'OIM vient confirmer l’engagement de l'Afrique du Sud en matière de migration",
+          "url": "https://reliefweb.int/report/south-africa/la-visite-de-la-directrice-generale-de-loim-vient-confirmer-lengagement-de-lafrique-du-sud-en-matiere-de-migration",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:33:09",
+          "lead": "Countries: South Africa, Lesotho, World\n                                      Source: International Organization for Mig"
+        },
+        {
+          "title": "Ethiopia ES/NFI Cluster Operational Presence of Organization (February 28, 2026)",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-esnfi-cluster-operational-presence-organization-february-28-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T05:58:31",
+          "lead": "Country: Ethiopia\n                                      Sources: International Organization for Migration, Shelter Clust"
+        },
+        {
+          "title": "Ethiopia Emergency Shelter and NFI Cluster Monthly Response Monitoring Dashboard, as of 28 February 2026",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-emergency-shelter-and-nfi-cluster-monthly-response-monitoring-dashboard-28-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T05:57:05",
+          "lead": "Country: Ethiopia\n                                      Sources: International Organization for Migration, Shelter Clust"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Uganda": {
-      "article_count": 3,
-      "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 1.32,
+      "ratio": 1.13,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
+          "count": 1
+        },
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Kenya | Cholera - Simplified Early Action Protocol (EAP No.: sEAP2025KE04, Operation No: MDRKE071)",
+          "url": "https://reliefweb.int/report/kenya/kenya-cholera-simplified-early-action-protocol-eap-no-seap2025ke04-operation-no-mdrke071",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:25:59",
+          "lead": "Country: Kenya\n                                      Source: International Federation of Red Cross and Red Crescent Soci"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Uganda": {
+      "article_count": 8,
+      "source_count": 4,
+      "baseline": 2.3,
+      "ratio": 3.53,
+      "status": "high",
+      "confidence": "high",
+      "keywords": [
+        {
           "word": "Élection",
+          "count": 1
+        },
+        {
+          "word": "Militia",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -1020,38 +1487,105 @@
           "lead": "Les présidents kényan et ougandais se sont rencontrés ce samedi 21 mars, près de leur frontière commune, afin de relance"
         },
         {
-          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
-          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
-          "source": "Africanews",
-          "published": "2026-03-22T07:30:05",
-          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+          "title": "Uganda: Uganda's Choice for EALA Should Be Strategic, Not Routine",
+          "url": "https://allafrica.com/stories/202603230119.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:51:03",
+          "lead": "[Nile Post] There are candidates you evaluate on paper, and there are those you understand through proximity. Comrade Dr"
+        },
+        {
+          "title": "Uganda: Ragga Dee Urges Artists to Treat Music As Business Amid Copyright Reforms",
+          "url": "https://allafrica.com/stories/202603230110.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:31:34",
+          "lead": "[Nile Post] Renowned Ugandan musician Daniel Kazibwe, popularly known as Ragga Dee, has called on upcoming artists to ap"
+        },
+        {
+          "title": "Central Africa: Intensified UPDF Patrols Reduce Cross-Border Militia Attacks On Lake Albert",
+          "url": "https://allafrica.com/stories/202603230108.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:31:33",
+          "lead": "[Independent (Kampala)] Kikuube, Uganda -- Heightened and intensified patrols on the waters of Lake Albert in Kikuube Di"
+        },
+        {
+          "title": "South Africa: La visite de la Directrice générale de l'OIM vient confirmer l’engagement de l'Afrique du Sud en matière de migration",
+          "url": "https://reliefweb.int/report/south-africa/la-visite-de-la-directrice-generale-de-loim-vient-confirmer-lengagement-de-lafrique-du-sud-en-matiere-de-migration",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:33:09",
+          "lead": "Countries: South Africa, Lesotho, World\n                                      Source: International Organization for Mig"
+        },
+        {
+          "title": "Building Livelihoods and Trust in Uganda’s Refugee-Hosting Communities",
+          "url": "https://reliefweb.int/report/uganda/building-livelihoods-and-trust-ugandas-refugee-hosting-communities",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T06:05:30",
+          "lead": "Countries: Uganda, South Sudan, World\n                                      Source: World Bank\n                         "
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique",
-        "Africanews"
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Kenya": {
-      "article_count": 9,
-      "source_count": 4,
-      "baseline": 5.5,
-      "ratio": 1.65,
+      "article_count": 11,
+      "source_count": 6,
+      "baseline": 5.6,
+      "ratio": 1.98,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Killed",
+          "count": 2
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
         {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Kenyan police investigate alleged disappearance of ex-foreign minister",
+          "url": "https://www.bbc.com/news/articles/c3ex8vglvkxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Africa",
+          "published": "2026-03-23T09:29:27",
+          "lead": "The reported disappearance of Raphael Tuju has led to claims he may have been abducted."
+        },
         {
           "title": "Kenya: colère dans les bidonvilles de Nairobi après les pluies torrentielles",
           "url": "https://www.rfi.fr/fr/afrique/20260323-kenya-col%C3%A8re-dans-les-bidonvilles-de-nairobi-apr%C3%A8s-les-pluies-torrentielles",
@@ -1067,11 +1601,11 @@
           "lead": "Les présidents kényan et ougandais se sont rencontrés ce samedi 21 mars, près de leur frontière commune, afin de relance"
         },
         {
-          "title": "Presidents of Kenya and Uganda launch next phase of cross-border railway",
-          "url": "http://www.africanews.com/2026/03/22/presidents-of-kenya-and-uganda-launch-next-phase-of-cross-border-railway/",
+          "title": "Flash floods in Kenya have killed at least 81 and displace thousands",
+          "url": "http://www.africanews.com/2026/03/23/flash-floods-in-kenya-have-killed-at-least-81-and-displace-thousands/",
           "source": "Africanews",
-          "published": "2026-03-22T07:30:05",
-          "lead": "Kenya and Uganda take a major step towards regional integration, launching a new phase of the Standard Gauge Railway aim"
+          "published": "2026-03-23T07:58:19",
+          "lead": "Torrential rains and flash floods have killed at least 81 people across Kenya this month, authorities said, as heavy dow"
         },
         {
           "title": "Kenya: Govt Grants Amnesty for Kenyans Who Joined Russian Military After Stop List Agreement",
@@ -1095,75 +1629,104 @@
           "lead": "[RFI] Air France has asked Michelin-starred chef Mory Sacko to create dishes to be served to its first and business clas"
         },
         {
-          "title": "Africa: Earth Records Hottest 11-Year Period As Climate Crisis Deepens - WMO",
-          "url": "https://allafrica.com/stories/202603230089.html",
+          "title": "Kenya: 6 Arrested in Kisumu, Trans Nzoia As Police Crack Down On Theft",
+          "url": "https://allafrica.com/stories/202603230111.html",
           "source": "AllAfrica",
-          "published": "2026-03-23T06:42:50",
-          "lead": "[Capital FM] Nairobi -- The period from 2015 to 2025 has been the hottest 11-year stretch on record, with Earth's climat"
+          "published": "2026-03-23T08:33:48",
+          "lead": "[Capital FM] Nairobi -- Police have arrested six suspects in separate intelligence-led operations in Kisumu and Trans Nz"
         },
         {
-          "title": "Kenya: Motorists Rerouted As Floods Damage Key Road to Lodwar",
-          "url": "https://allafrica.com/stories/202603230085.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:33:30",
-          "lead": "[Capital FM] Nairobi -- Heavy rains have washed away a section of the Kitale-Morpus road, disrupting traffic and forcing"
+          "title": "Sudan: Drone Strike on Ed Dain Teaching Hospital Represents a Grave Escalation in Attacks on Healthcare Amid Increased Strain on Health System",
+          "url": "https://reliefweb.int/report/sudan/sudan-drone-strike-ed-dain-teaching-hospital-represents-grave-escalation-attacks-healthcare-amid-increased-strain-health-system",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:35:12",
+          "lead": "Country: Sudan\n                                      Source: Sudan INGO Forum\n                                          "
         },
         {
-          "title": "Kenya: Kenya Steps Up Push for Clean Water Access As Women Bear Burden of Shortages",
-          "url": "https://allafrica.com/stories/202603230084.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:33:29",
-          "lead": "[Capital FM] Nairobi -- Kenya marked this year's World Water Day with renewed calls to address gender inequalities in ac"
+          "title": "Kenya | Cholera - Simplified Early Action Protocol (EAP No.: sEAP2025KE04, Operation No: MDRKE071)",
+          "url": "https://reliefweb.int/report/kenya/kenya-cholera-simplified-early-action-protocol-eap-no-seap2025ke04-operation-no-mdrke071",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:25:59",
+          "lead": "Country: Kenya\n                                      Source: International Federation of Red Cross and Red Crescent Soci"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
+        "BBC Africa",
+        "ReliefWeb",
+        "AllAfrica",
         "RFI Afrique",
-        "Jeune Afrique",
         "Africanews",
-        "AllAfrica"
+        "Jeune Afrique"
       ]
     },
     "Rwanda": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.39,
+      "ratio": 0.4,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Rwanda: Youth Urged to Preserve Kinyarwanda, Uphold Culture",
-          "url": "https://allafrica.com/stories/202603230026.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T04:52:36",
-          "lead": "[New Times] Youth have been urged to actively preserve Kinyarwanda and promote its use in daily life as part of efforts "
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Tanzania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.07,
+      "baseline": 1.1,
+      "ratio": 0.91,
       "status": "normal",
       "confidence": "low",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Tanzania": {
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 0.9,
+      "ratio": 3.21,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Crisis",
@@ -1176,6 +1739,22 @@
         {
           "word": "War",
           "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
+          "count": 1
+        },
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1186,23 +1765,64 @@
           "source": "The Guardian Africa",
           "published": "2026-03-22T12:53:50",
           "lead": "Growers face soaring fertiliser and fuel costs as shipping choke point of the strait of Hormuz hits supply chains‘The st"
+        },
+        {
+          "title": "Kenya | Cholera - Simplified Early Action Protocol (EAP No.: sEAP2025KE04, Operation No: MDRKE071)",
+          "url": "https://reliefweb.int/report/kenya/kenya-cholera-simplified-early-action-protocol-eap-no-seap2025ke04-operation-no-mdrke071",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:25:59",
+          "lead": "Country: Kenya\n                                      Source: International Federation of Red Cross and Red Crescent Soci"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "The Guardian Africa"
+        "The Guardian Africa",
+        "ReliefWeb"
       ]
     },
     "Madagascar": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.07,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Madagascar : Rapport Diagnostique Abris/Habitat/CCCM pour la réponse à CT Gezani (19 mars 2026)",
+          "url": "https://reliefweb.int/report/madagascar/madagascar-rapport-diagnostique-abrishabitatcccm-pour-la-reponse-ct-gezani-19-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T05:52:27",
+          "lead": "Country: Madagascar\n                                      Sources: CCCM Cluster, International Organization for Migratio"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Comoros": {
       "article_count": 0,
@@ -1247,29 +1867,39 @@
       "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Traitement VIH contre terres rares : l'odieux chantage de l'administration Trump en Zambie",
-          "url": "https://www.france24.com/fr/afrique/20260322-traitement-vih-contre-terres-rares-odieux-chantage-de-administration-trump-zambie",
-          "source": "France24 Afrique",
-          "published": "2026-03-22T08:25:44",
-          "lead": "Selon une note du Département d'État, l'administration Trump envisage de suspendre son aide aux personnes séropositives "
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
-        "France24 Afrique"
+        "ReliefWeb"
       ]
     },
     "Malawi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.43,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 2.73,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1278,29 +1908,71 @@
           "source": "AllAfrica",
           "published": "2026-03-23T05:09:51",
           "lead": "[Nyasa Times] Malawi has lost at least $1.427 billion (about K2.5 trillion) to major climate-related disasters in just e"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Mozambique": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 3.0,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Mozambique | Flood 2026 DREF Operation Update 1 (MDRMZ027)",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-flood-2026-dref-operation-update-1-mdrmz027",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:29:00",
+          "lead": "Country: Mozambique\n                                      Source: International Federation of Red Cross and Red Crescent"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Zimbabwe": {
-      "article_count": 4,
-      "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 1.58,
+      "article_count": 5,
+      "source_count": 3,
+      "baseline": 2.6,
+      "ratio": 1.92,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -1313,7 +1985,7 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Famine",
           "count": 1
         }
       ],
@@ -1327,6 +1999,13 @@
           "lead": "Le projet de loi visant à modifier la Constitution pour permettre au chef de l’État de rester au pouvoir sans élection j"
         },
         {
+          "title": "Zimbabwe: Harare Rolls Out 15,000 Smart Water Meters in Infrastructure Overhaul Drive",
+          "url": "https://allafrica.com/stories/202603230105.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:20:25",
+          "lead": "[263Chat] The City of Harare has installed over 15,000 smart prepaid water meters as part of an ongoing push to modernis"
+        },
+        {
           "title": "Zimbabwe: Zimbabwe's Ban On Raw Minerals Exports Puts Chinese Firms Under Pressure",
           "url": "https://allafrica.com/stories/202603230034.html",
           "source": "AllAfrica",
@@ -1334,36 +2013,47 @@
           "lead": "[New Zimbabwe] The Chinese Embassy in Zimbabwe has warned its nationals and companies operating in the country to exerci"
         },
         {
-          "title": "Zimbabwe: Biti Spends Weekend Behind Bars Following Arrest in Mutare, Set to Appear in Court",
-          "url": "https://allafrica.com/stories/202603230087.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:42:23",
-          "lead": "[New Zimbabwe] OUTSPOKEN opposition politician-cum-lawyer, Tendai Biti, spent the weekend in police custody following hi"
+          "title": "Zimbabwe Malaria 2025 - DREF Final Report (MDRZW025)",
+          "url": "https://reliefweb.int/report/zimbabwe/zimbabwe-malaria-2025-dref-final-report-mdrzw025",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T01:48:53",
+          "lead": "Country: Zimbabwe\n                                      Source: International Federation of Red Cross and Red Crescent S"
         },
         {
-          "title": "Zimbabwe: Back to Court for Zimbabwean Permit Holders Seeking to Stay in South Africa",
-          "url": "https://allafrica.com/stories/202603230086.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:42:22",
-          "lead": "[New Zimbabwe] Anti-immigration group Operation Dudula announced on Friday that it is taking Home Affairs Minister Leon "
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "Jeune Afrique",
         "AllAfrica"
       ]
     },
     "Namibia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Namibia: FMD Control Area Established in ||kharas",
+          "url": "https://allafrica.com/stories/202603230115.html",
+          "source": "AllAfrica",
+          "published": "2026-03-23T08:41:29",
+          "lead": "[Namibian] The Ministry of Agriculture, Fisheries, Water and Land Reform has established a foot-and-mouth disease (FMD) "
+        }
+      ],
+      "sources": [
+        "AllAfrica"
+      ]
     },
     "Botswana": {
       "article_count": 0,
@@ -1378,19 +2068,15 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 10,
-      "source_count": 2,
+      "article_count": 9,
+      "source_count": 3,
       "baseline": 14.0,
-      "ratio": 0.71,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Crisis",
-          "count": 2
-        },
-        {
-          "word": "Minister",
           "count": 1
         },
         {
@@ -1410,13 +2096,6 @@
           "source": "AllAfrica",
           "published": "2026-03-23T05:37:53",
           "lead": "[allAfrica]"
-        },
-        {
-          "title": "Zimbabwe: Back to Court for Zimbabwean Permit Holders Seeking to Stay in South Africa",
-          "url": "https://allafrica.com/stories/202603230086.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T06:42:22",
-          "lead": "[New Zimbabwe] Anti-immigration group Operation Dudula announced on Friday that it is taking Home Affairs Minister Leon "
         },
         {
           "title": "THE INVISIBLE HEIST (Part One): How commercial crime quietly became SA’s most dangerous growth industry",
@@ -1468,16 +2147,17 @@
           "lead": "By becoming South Africa’s first winner of the New York City Half-Marathon, the athlete has rubber-stamped his reputatio"
         },
         {
-          "title": "VIDEO: Watch – Mkhwanazi vs McBride: Clashing claims tear South Africa’s security apart",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-22-watch-mkhwanazi-vs-mcbride-clashing-claims-tear-south-africas-security-apart/",
-          "source": "Daily Maverick",
-          "published": "2026-03-22T09:18:15",
-          "lead": "Two competing narratives have emerged since KwaZulu-Natal police chief Nhlanhla Mkhwanazi alleged in July 2025 that a ca"
+          "title": "South Africa: La visite de la Directrice générale de l'OIM vient confirmer l’engagement de l'Afrique du Sud en matière de migration",
+          "url": "https://reliefweb.int/report/south-africa/la-visite-de-la-directrice-generale-de-loim-vient-confirmer-lengagement-de-lafrique-du-sud-en-matiere-de-migration",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:33:09",
+          "lead": "Countries: South Africa, Lesotho, World\n                                      Source: International Organization for Mig"
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "AllAfrica"
+        "ReliefWeb",
+        "AllAfrica",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
@@ -1493,16 +2173,38 @@
       "sources": []
     },
     "Lesotho": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 4.0,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "South Africa: La visite de la Directrice générale de l'OIM vient confirmer l’engagement de l'Afrique du Sud en matière de migration",
+          "url": "https://reliefweb.int/report/south-africa/la-visite-de-la-directrice-generale-de-loim-vient-confirmer-lengagement-de-lafrique-du-sud-en-matiere-de-migration",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T09:33:09",
+          "lead": "Countries: South Africa, Lesotho, World\n                                      Source: International Organization for Mig"
+        },
+        {
+          "title": "Sudan: Peak Food Assistance Needs Outlook Brief: February 2026 - January 2027",
+          "url": "https://reliefweb.int/report/sudan/peak-food-assistance-needs-outlook-brief-february-2026-january-2027",
+          "source": "ReliefWeb",
+          "published": "2026-03-22T23:59:51",
+          "lead": "Countries: Sudan, Afghanistan, Angola, Bangladesh, Benin, Bolivia (Plurinational State of), Burkina Faso, Burundi, Camer"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     }
   }
 }
