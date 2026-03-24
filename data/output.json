@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-24T06:54:15.505501",
+  "generated_at": "2026-03-24T09:46:50.590104",
   "summary": {
-    "high": 2,
-    "elevated": 6,
-    "normal": 22,
-    "quiet": 24
+    "high": 5,
+    "elevated": 7,
+    "normal": 31,
+    "quiet": 11
   },
   "countries": {
     "Morocco": {
@@ -73,34 +73,42 @@
       ]
     },
     "Tunisia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.0,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Libya": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.4,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [],
+      "ratio": 1.03,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Réfugiés",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Damaged Russian tanker adrift in Mediterranean to be towed to Libyan port",
-          "url": "http://www.africanews.com/2026/03/23/damaged-russian-tanker-adrift-in-mediterranean-to-be-towed-to-libyan-port/",
-          "source": "Africanews",
-          "published": "2026-03-23T09:14:27",
-          "lead": "A damaged Russian gas tanker that was abandoned in the Mediterranean will be towed to a Libyan port, according to a stat"
-        },
+          "title": "Méditerranée: comment l’Ocean Viking a procédé au sauvetage de migrants réfugiés sur une plateforme gazière",
+          "url": "https://www.rfi.fr/fr/afrique/20260324-m%C3%A9diterran%C3%A9e-comment-l-ocean-viking-a-proc%C3%A9d%C3%A9-au-sauvetage-de-migrants-r%C3%A9fugi%C3%A9s-sur-une-plateforme-gazi%C3%A8re",
+          "source": "RFI Afrique",
+          "published": "2026-03-24T08:47:12",
+          "lead": "L’Ocean Viking, de l'ONG française SOS Méditerranée, s’est rendu ce lundi en Italie après avoir secouru 116 migrants qui"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
+    },
+    "Libya": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.8,
+      "ratio": 1.25,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
         {
           "title": "THE SENTRY INVESTIGATION: Libya’s $210m investment in Sandton yields zero benefits for the north African nation's people",
           "url": "https://www.dailymaverick.co.za/article/2026-03-24-libyas-210m-investment-in-sandton-yields-zero-benefits-for-its-people/",
@@ -110,43 +118,140 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Daily Maverick"
       ]
     },
     "Egypt": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.1,
-      "ratio": 0.91,
-      "status": "normal",
+      "ratio": 1.82,
+      "status": "elevated",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Africa: Afreximbank and Fci to Host Africa Regional Conference On Factoring, Receivables Finance &#x26;amp; Credit Insurance in Kampala",
-          "url": "https://allafrica.com/stories/202603230596.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T16:28:43",
-          "lead": "[Afreximbank] Cairo/Amsterdam -- African Export-Import Bank (Afreximbank) and FCI will jointly host the Africa Regional "
+          "title": "Sudan: La IFRC advierte: la crisis de Sudán se extiende más allá de las fronteras a medida que se agrava la crisis humanitaria",
+          "url": "https://reliefweb.int/report/sudan/la-ifrc-advierte-la-crisis-de-sudan-se-extiende-mas-alla-de-las-fronteras-medida-que-se-agrava-la-crisis-humanitaria",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:53:26",
+          "lead": "Countries: Sudan, Chad, Egypt, Ethiopia, South Sudan, Uganda\n                                      Source: International"
+        },
+        {
+          "title": "Egypt: New Arrivals from Sudan as of 19 March 2026",
+          "url": "https://reliefweb.int/report/egypt/egypt-new-arrivals-sudan-19-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T16:03:14",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "ReliefWeb"
       ]
     },
     "Sudan": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 4.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 6,
+      "source_count": 1,
+      "baseline": 4.8,
+      "ratio": 1.24,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 4
+        },
+        {
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Sudan: La IFRC advierte: la crisis de Sudán se extiende más allá de las fronteras a medida que se agrava la crisis humanitaria",
+          "url": "https://reliefweb.int/report/sudan/la-ifrc-advierte-la-crisis-de-sudan-se-extiende-mas-alla-de-las-fronteras-medida-que-se-agrava-la-crisis-humanitaria",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:53:26",
+          "lead": "Countries: Sudan, Chad, Egypt, Ethiopia, South Sudan, Uganda\n                                      Source: International"
+        },
+        {
+          "title": "South Sudan Key Message Update: Conflict drives Emergency and risk of Famine in Jonglei and Upper Nile through September, March - September 2026",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-key-message-update-conflict-drives-emergency-and-risk-famine-jonglei-and-upper-nile-through-september-march-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:39:18",
+          "lead": "Countries: South Sudan, Sudan\n                                      Source: Famine Early Warning System Network\n        "
+        },
+        {
+          "title": "Sudan, conflict Global ETC Teleconference Minutes (Date: 16/03/2026 Time: 11:05 UTC)",
+          "url": "https://reliefweb.int/report/sudan/sudan-conflict-global-etc-teleconference-minutes-date-16032026-time-1105-utc",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T16:03:15",
+          "lead": "Country: Sudan\n                                      Sources: Emergency Telecommunications Cluster, World Food Programme"
+        },
+        {
+          "title": "Egypt: New Arrivals from Sudan as of 19 March 2026",
+          "url": "https://reliefweb.int/report/egypt/egypt-new-arrivals-sudan-19-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T16:03:14",
+          "lead": "Countries: Egypt, Sudan\n                                      Source: UN High Commissioner for Refugees\n                "
+        },
+        {
+          "title": "Eastern Chad - Sudanese Situation - Flash Updates #48 (18 march 2026)",
+          "url": "https://reliefweb.int/report/chad/eastern-chad-sudanese-situation-flash-updates-48-18-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T15:03:15",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "Bureau de Coordination à l’Est du Chad : Urgence du Soudan - Flash Info #48 (18 mars 2026)",
+          "url": "https://reliefweb.int/report/chad/bureau-de-coordination-lest-du-chad-urgence-du-soudan-flash-info-48-18-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T15:03:12",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Mauritania": {
       "article_count": 2,
@@ -183,23 +288,23 @@
       ]
     },
     "Mali": {
-      "article_count": 6,
+      "article_count": 7,
       "source_count": 3,
-      "baseline": 2.5,
-      "ratio": 2.43,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 2.4,
+      "ratio": 2.92,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Mort",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Président",
           "count": 1
         },
         {
@@ -217,6 +322,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "À la Une: la condamnation à deux ans de prison du journaliste malien Youssouf Sissoko",
+          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260324-%C3%A0-la-une-la-condamnation-%C3%A0-deux-ans-de-prison-du-journaliste-malien-youssouf-sissoko",
+          "source": "RFI Afrique",
+          "published": "2026-03-24T08:56:54",
+          "lead": ""
+        },
         {
           "title": "Deux éleveurs mauritaniens tués au Mali dans des conditions encore floues",
           "url": "https://www.rfi.fr/fr/afrique/20260323-deux-%C3%A9leveurs-mauritaniens-tu%C3%A9s-au-mali-dans-des-conditions-encore-floues",
@@ -261,25 +373,41 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 1.6,
-      "ratio": 1.25,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.55,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Famine",
+          "count": 2
+        },
         {
           "word": "President",
           "count": 1
         },
         {
           "word": "Protest",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -298,27 +426,42 @@
           "source": "Africanews",
           "published": "2026-03-23T10:30:50",
           "lead": "Civil society organisations in Niger have condemned a European Union resolution demanding the release of the country’s f"
+        },
+        {
+          "title": "Burkina Faso - Perspectives sur la sécurité alimentaire : L’approvisionnement irrégulier des marchés détériore davantage l’accès alimentaire dans le nord et l’est du pays, Février - Septembre 2026",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-perspectives-sur-la-securite-alimentaire-lapprovisionnement-irregulier-des-marches-deteriore-davantage-lacces-alimentaire-dans-le-nord-et-lest-du-pays-fevrier-septembre-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:42:56",
+          "lead": "Country: Burkina Faso\n                                      Source: Famine Early Warning System Network\n                "
+        },
+        {
+          "title": "Burkina Faso - Food Security Outlook: Food access is deteriorating in the north and east due to irregular market supply, February - September 2026",
+          "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-food-security-outlook-food-access-deteriorating-north-and-east-due-irregular-market-supply-february-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:41:37",
+          "lead": "Country: Burkina Faso\n                                      Source: Famine Early Warning System Network\n                "
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb",
+        "Africanews"
       ]
     },
     "Niger": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.2,
-      "ratio": 1.34,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Président",
           "count": 1
         },
         {
@@ -355,25 +498,25 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Senegal": {
       "article_count": 3,
       "source_count": 2,
       "baseline": 5.1,
-      "ratio": 0.59,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         },
         {
@@ -395,7 +538,7 @@
           "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260324-awa-fall-diop-le-combat-continuera-tant-qu-il-y-aura-une-seule-femme-sur-cette-plan%C3%A8te-qui-subit-l-oppression-patriarcale",
           "source": "RFI Afrique",
           "published": "2026-03-24T05:41:13",
-          "lead": "Au Sénégal, elle est l’une des voix qui bousculent le patriarcat depuis 50 ans : Awa Fall-Diop sera honorée ce mardi 24 "
+          "lead": "Au Sénégal, elle est l’une des voix qui bousculent le patriarcat depuis 50 ans : Awa Fall-Diop est honorée ce mardi 24 m"
         },
         {
           "title": "CAN : le Sénégalais Idrissa Gueye prêt « à rendre les médailles au Maroc »",
@@ -423,16 +566,26 @@
       "sources": []
     },
     "Guinea-Bissau": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Madagascar: AIRA Infodemic Insights Report 1 January - 28 February, 2026 (Weekly brief #174)",
+          "url": "https://reliefweb.int/report/madagascar/aira-infodemic-insights-report-1-january-28-february-2026-weekly-brief-174",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T06:33:06",
+          "lead": "Countries: Madagascar, Comoros, Democratic Republic of the Congo, Guinea-Bissau, Kenya\n                                 "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Guinea": {
       "article_count": 3,
@@ -472,22 +625,41 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Sierra Leone": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.3,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "WFP Sierra Leone Country Brief, February 2026",
+          "url": "https://reliefweb.int/report/sierra-leone/wfp-sierra-leone-country-brief-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T18:58:34",
+          "lead": "Country: Sierra Leone\n                                      Source: World Food Programme\n                               "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Liberia": {
       "article_count": 0,
@@ -502,19 +674,19 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.8,
-      "ratio": 0.57,
+      "ratio": 1.13,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -526,23 +698,41 @@
           "source": "RFI Afrique",
           "published": "2026-03-23T17:19:47",
           "lead": "Le journaliste malien Youssouf Sissoko a été condamné ce lundi 23 mars 2026 à deux années de prison ferme et à une amend"
+        },
+        {
+          "title": "Air Côte d’Ivoire reporte sa liaison Abidjan-Beyrouth sur fond de tensions au Liban",
+          "url": "https://www.jeuneafrique.com/1776848/economie-entreprises/air-cote-divoire-reporte-sa-liaison-abidjan-beyrouth-sur-fond-de-tensions-au-liban/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-24T09:10:11",
+          "lead": "La compagnie ivoirienne évoque la dégradation de la situation sécuritaire au Moyen-Orient pour justifier sa décision. Et"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.58,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Ghana leads UN effort to acknowledg slave trade as crime against humanity",
+          "url": "http://www.africanews.com/2026/03/24/ghana-leads-un-effort-to-acknowledg-slave-trade-as-crime-against-humanity/",
+          "source": "Africanews",
+          "published": "2026-03-24T07:06:14",
+          "lead": "Ghana is calling for global support at the United Nations for a draft resolution that would recognize the transatlantic "
+        }
+      ],
+      "sources": [
+        "Africanews"
+      ]
     },
     "Togo": {
       "article_count": 0,
@@ -557,16 +747,16 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 8,
+      "article_count": 6,
       "source_count": 5,
       "baseline": 1.9,
-      "ratio": 4.29,
+      "ratio": 3.21,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "Président",
-          "count": 5
+          "count": 3
         },
         {
           "word": "Attaque",
@@ -574,10 +764,6 @@
         },
         {
           "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Élection",
           "count": 1
         },
         {
@@ -596,13 +782,6 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Bénin: pas représenté à la présidentielle, le parti d’opposition Les Démocrates ne soutiendra aucun candidat",
-          "url": "https://www.rfi.fr/fr/afrique/20260323-b%C3%A9nin-pas-repr%C3%A9sent%C3%A9-%C3%A0-la-pr%C3%A9sidentielle-le-parti-d-opposition-les-d%C3%A9mocrates-ne-soutiendra-aucun-candidat",
-          "source": "RFI Afrique",
-          "published": "2026-03-23T08:52:50",
-          "lead": "Au Bénin, la campagne n'a pas encore officiellement commencé mais c'est tout comme, avant la présidentielle du 12 avril "
-        },
-        {
           "title": "Mali: la condamnation du journaliste Youssouf Sissoko à deux ans de prison suscite l'indignation",
           "url": "https://www.rfi.fr/fr/afrique/20260323-mali-la-condamnation-du-journaliste-youssouf-sissoko-%C3%A0-deux-ans-de-prison-suscite-l-indignation",
           "source": "RFI Afrique",
@@ -610,11 +789,11 @@
           "lead": "Le journaliste malien Youssouf Sissoko a été condamné ce lundi 23 mars 2026 à deux années de prison ferme et à une amend"
         },
         {
-          "title": "Présidentielle au Bénin: R. Wadagni présente son projet; les démocrates ne soutiendront personnes",
+          "title": "Présidentielle au Bénin : R. Wadagni présente son projet, Les Démocrates ne soutiendront personne",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260323-pr%C3%A9sidentielle-au-b%C3%A9nin-r-wadagni-pr%C3%A9sente-son-projet-les-d%C3%A9mocrates-ne-soutiendront-personnes",
           "source": "France24 Afrique",
           "published": "2026-03-23T22:11:20",
-          "lead": "Au Bénin, à une semaine du coup d’envoi de la campagne électorale pour la présidentielle du 12 avril, le décor est posé."
+          "lead": "Au Bénin, à une semaine du coup d’envoi de la campagne électorale pour la présidentielle du 12 avril, le décor est posé."
         },
         {
           "title": "Au Bénin, Les Démocrates tournent la page Boni Yayi sur fond de tensions internes",
@@ -622,13 +801,6 @@
           "source": "Jeune Afrique",
           "published": "2026-03-23T18:28:50",
           "lead": "Nourénou Atchadé, jusque-là deuxième vice-président du parti, a été porté à la tête de la principale formation d’opposit"
-        },
-        {
-          "title": "Bénin – Romuald Wadagni : « Le président Talon est un homme de parole. Si je suis élu, il s’effacera »",
-          "url": "https://www.jeuneafrique.com/1774279/politique/benin-romuald-wadagni-le-president-talon-est-un-homme-de-parole-si-je-suis-elu-il-seffacera/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-23T06:55:00",
-          "lead": "Favori d’un scrutin dont l’issue laisse peu de place au doute, ministre et architecte de la politique économique de Patr"
         },
         {
           "title": "Benin's main opposition party won't back any candidate in April presidential vote",
@@ -653,18 +825,18 @@
         }
       ],
       "sources": [
+        "France24 Afrique",
+        "AllAfrica",
         "RFI Afrique",
         "Jeune Afrique",
-        "Africanews",
-        "AllAfrica",
-        "France24 Afrique"
+        "Africanews"
       ]
     },
     "Nigeria": {
-      "article_count": 17,
-      "source_count": 5,
-      "baseline": 9.3,
-      "ratio": 1.83,
+      "article_count": 18,
+      "source_count": 6,
+      "baseline": 9.4,
+      "ratio": 1.92,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -689,11 +861,15 @@
           "count": 1
         },
         {
+          "word": "Attack",
+          "count": 1
+        },
+        {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -785,11 +961,12 @@
         }
       ],
       "sources": [
-        "BBC Africa",
+        "AllAfrica",
         "RFI Afrique",
-        "Daily Maverick",
+        "ReliefWeb",
         "Africanews",
-        "AllAfrica"
+        "BBC Africa",
+        "Daily Maverick"
       ]
     },
     "Cape Verde": {
@@ -805,49 +982,122 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 4,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.86,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Humanitarian Action for Children 2026 - Cameroon",
+          "url": "https://reliefweb.int/report/cameroon/humanitarian-action-children-2026-cameroon",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T09:22:52",
+          "lead": "Countries: Cameroon, Chad, Nigeria\n                                      Source: UN Children's Fund\n                    "
+        },
+        {
+          "title": "Sudan: La IFRC advierte: la crisis de Sudán se extiende más allá de las fronteras a medida que se agrava la crisis humanitaria",
+          "url": "https://reliefweb.int/report/sudan/la-ifrc-advierte-la-crisis-de-sudan-se-extiende-mas-alla-de-las-fronteras-medida-que-se-agrava-la-crisis-humanitaria",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:53:26",
+          "lead": "Countries: Sudan, Chad, Egypt, Ethiopia, South Sudan, Uganda\n                                      Source: International"
+        },
+        {
+          "title": "Eastern Chad - Sudanese Situation - Flash Updates #48 (18 march 2026)",
+          "url": "https://reliefweb.int/report/chad/eastern-chad-sudanese-situation-flash-updates-48-18-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T15:03:15",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        },
+        {
+          "title": "Bureau de Coordination à l’Est du Chad : Urgence du Soudan - Flash Info #48 (18 mars 2026)",
+          "url": "https://reliefweb.int/report/chad/bureau-de-coordination-lest-du-chad-urgence-du-soudan-flash-info-48-18-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T15:03:12",
+          "lead": "Countries: Chad, Sudan\n                                      Source: UN High Commissioner for Refugees\n                 "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Cameroon": {
       "article_count": 2,
-      "source_count": 1,
+      "source_count": 2,
       "baseline": 2.7,
       "ratio": 0.73,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
-          "count": 2
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Pourquoi Ecobank change d’actionnaire mais pas de cap",
-          "url": "https://www.jeuneafrique.com/1769824/economie-entreprises/pourquoi-ecobank-change-dactionnaire-mais-pas-de-cap/",
+          "title": "Visite du pape au Cameroun : bras de fer explosif entre Ketcha Courtès et la mairie de Yaoundé",
+          "url": "https://www.jeuneafrique.com/1776568/politique/visite-du-pape-au-cameroun-bras-de-fer-explosif-entre-ketcha-courtes-et-la-mairie-de-yaounde/",
           "source": "Jeune Afrique",
-          "published": "2026-03-23T08:17:56",
-          "lead": "En rachetant les parts de la banque sud-africaine Nedbank, le financier camerounais Alain Nkontchou devient premier acti"
+          "published": "2026-03-24T07:57:06",
+          "lead": "Retards de travaux, intervention musclée et affrontements avec la police : la réhabilitation d’un axe clé de Yaoundé ava"
         },
         {
-          "title": "Cameroun : le film de la chute de Cavayé Yéguié Djibril, pilier historique du régime Biya",
-          "url": "https://www.jeuneafrique.com/1775902/politique/cameroun-le-film-de-la-chute-de-cavaye-yeguie-djibril-pilier-historique-du-regime-biya/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-23T08:08:32",
-          "lead": "Le départ du président de l’Assemblée nationale marque la fin d’une époque au Cameroun. Entre santé déclinante, frasques"
+          "title": "Humanitarian Action for Children 2026 - Cameroon",
+          "url": "https://reliefweb.int/report/cameroon/humanitarian-action-children-2026-cameroon",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T09:22:52",
+          "lead": "Countries: Cameroon, Chad, Nigeria\n                                      Source: UN Children's Fund\n                    "
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "CAR": {
@@ -859,11 +1109,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -882,16 +1132,73 @@
       ]
     },
     "South Sudan": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 1.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Crisis",
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Epidemic",
+          "count": 1
+        },
+        {
+          "word": "Flood",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "DR Congo: Weekly Bulletin on Outbreaks and Other Emergencies: Week 6: 02 - 08 February 2026 (Data as reported by: 17:00; 08 February 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/weekly-bulletin-outbreaks-and-other-emergencies-week-6-02-08-february-2026-data-reported-1700-08-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T04:20:13",
+          "lead": "Countries: Democratic Republic of the Congo, Mozambique, South Sudan, World\n                                      Source"
+        },
+        {
+          "title": "Sudan: La IFRC advierte: la crisis de Sudán se extiende más allá de las fronteras a medida que se agrava la crisis humanitaria",
+          "url": "https://reliefweb.int/report/sudan/la-ifrc-advierte-la-crisis-de-sudan-se-extiende-mas-alla-de-las-fronteras-medida-que-se-agrava-la-crisis-humanitaria",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:53:26",
+          "lead": "Countries: Sudan, Chad, Egypt, Ethiopia, South Sudan, Uganda\n                                      Source: International"
+        },
+        {
+          "title": "South Sudan Key Message Update: Conflict drives Emergency and risk of Famine in Jonglei and Upper Nile through September, March - September 2026",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-key-message-update-conflict-drives-emergency-and-risk-famine-jonglei-and-upper-nile-through-september-march-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:39:18",
+          "lead": "Countries: South Sudan, Sudan\n                                      Source: Famine Early Warning System Network\n        "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Eq. Guinea": {
       "article_count": 0,
@@ -908,8 +1215,8 @@
     "Gabon": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.2,
-      "ratio": 0.81,
+      "baseline": 1.3,
+      "ratio": 0.79,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -940,19 +1247,43 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 7.2,
-      "ratio": 0.56,
+      "ratio": 0.83,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Mort",
+          "count": 2
+        },
+        {
+          "word": "Humanitaire",
+          "count": 2
+        },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Tué",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
           "count": 1
         }
       ],
@@ -973,22 +1304,37 @@
           "lead": "La RDC s’engage pour un nouveau recensement de la population plus de 40 ans après le dernier effectué dans le pays. Les "
         },
         {
-          "title": "Est de la RDC: à Goma, une campagne pour «booster la couverture vaccinale» contre la rougeole",
-          "url": "https://www.rfi.fr/fr/afrique/20260323-est-de-la-rdc-%C3%A0-goma-une-campagne-pour-booster-la-couverture-vaccinale-contre-la-rougeole",
-          "source": "RFI Afrique",
-          "published": "2026-03-23T09:05:14",
-          "lead": "En République démocratique du Congo (RDC), la rougeole demeure l’une des maladies les plus contagieuses et continue de r"
-        },
-        {
           "title": "Démission de Bahati Lukwebo : en RDC, la majorité ne tolère pas les fausses notes",
           "url": "https://www.jeuneafrique.com/1776630/politique/demission-de-bahati-lukwebo-en-rdc-la-majorite-ne-tolere-pas-les-fausses-notes/",
           "source": "Jeune Afrique",
           "published": "2026-03-24T07:30:00",
           "lead": "Alors que le débat sur la modification de la Constitution refait surface, l’Union sacrée de Félix Tshisekedi impose une "
+        },
+        {
+          "title": "DR Congo: RD Congo : Situation humanitaire dans la province de l'Ituri – rapport de situation #3, 24 mars 2026",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/rd-congo-situation-humanitaire-dans-la-province-de-lituri-rapport-de-situation-3-24-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T08:42:04",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
+        },
+        {
+          "title": "DR Congo: RD Congo : Situation humanitaire dans la province du Sud-Kivu – rapport de situation #3, 24 mars 2026",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/rd-congo-situation-humanitaire-dans-la-province-du-sud-kivu-rapport-de-situation-3-24-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T08:27:32",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
+        },
+        {
+          "title": "DR Congo: Weekly Bulletin on Outbreaks and Other Emergencies: Week 6: 02 - 08 February 2026 (Data as reported by: 17:00; 08 February 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/weekly-bulletin-outbreaks-and-other-emergencies-week-6-02-08-february-2026-data-reported-1700-08-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T04:20:13",
+          "lead": "Countries: Democratic Republic of the Congo, Mozambique, South Sudan, World\n                                      Source"
         }
       ],
       "sources": [
         "RFI Afrique",
+        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
@@ -1042,16 +1388,26 @@
       ]
     },
     "Eritrea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Eritrea to end 18-year AFCON isolation by playing Eswatini in qualifier",
+          "url": "https://www.aljazeera.com/sports/2026/3/24/eritrea-to-end-18-year-afcon-isolation-by-playing-eswatini-in-qualifier?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-24T07:27:35",
+          "lead": "Eritrea vs Eswatini on Wednesday will serve as the first AFCON qualifier for the east African nation since 2008."
+        }
+      ],
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     "Djibouti": {
       "article_count": 0,
@@ -1066,16 +1422,66 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.77,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Famine",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Sudan: La IFRC advierte: la crisis de Sudán se extiende más allá de las fronteras a medida que se agrava la crisis humanitaria",
+          "url": "https://reliefweb.int/report/sudan/la-ifrc-advierte-la-crisis-de-sudan-se-extiende-mas-alla-de-las-fronteras-medida-que-se-agrava-la-crisis-humanitaria",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:53:26",
+          "lead": "Countries: Sudan, Chad, Egypt, Ethiopia, South Sudan, Uganda\n                                      Source: International"
+        },
+        {
+          "title": "South Sudan Key Message Update: Conflict drives Emergency and risk of Famine in Jonglei and Upper Nile through September, March - September 2026",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-key-message-update-conflict-drives-emergency-and-risk-famine-jonglei-and-upper-nile-through-september-march-september-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:39:18",
+          "lead": "Countries: South Sudan, Sudan\n                                      Source: Famine Early Warning System Network\n        "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Somalia": {
       "article_count": 0,
@@ -1091,9 +1497,9 @@
     },
     "Uganda": {
       "article_count": 2,
-      "source_count": 1,
-      "baseline": 2.4,
-      "ratio": 0.82,
+      "source_count": 2,
+      "baseline": 2.3,
+      "ratio": 0.86,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1103,6 +1509,14 @@
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1116,31 +1530,32 @@
           "lead": "[WFP] The East African nation has long offered asylum to some of the continent's most vulnerable people. But steep cuts "
         },
         {
-          "title": "Africa: Afreximbank and Fci to Host Africa Regional Conference On Factoring, Receivables Finance &#x26;amp; Credit Insurance in Kampala",
-          "url": "https://allafrica.com/stories/202603230596.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T16:28:43",
-          "lead": "[Afreximbank] Cairo/Amsterdam -- African Export-Import Bank (Afreximbank) and FCI will jointly host the Africa Regional "
+          "title": "Sudan: La IFRC advierte: la crisis de Sudán se extiende más allá de las fronteras a medida que se agrava la crisis humanitaria",
+          "url": "https://reliefweb.int/report/sudan/la-ifrc-advierte-la-crisis-de-sudan-se-extiende-mas-alla-de-las-fronteras-medida-que-se-agrava-la-crisis-humanitaria",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T01:53:26",
+          "lead": "Countries: Sudan, Chad, Egypt, Ethiopia, South Sudan, Uganda\n                                      Source: International"
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
     "Kenya": {
       "article_count": 13,
-      "source_count": 4,
-      "baseline": 6.0,
-      "ratio": 2.17,
+      "source_count": 5,
+      "baseline": 6.1,
+      "ratio": 2.14,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Killed",
-          "count": 3
+          "word": "Minister",
+          "count": 2
         },
         {
-          "word": "Minister",
+          "word": "Killed",
           "count": 2
         },
         {
@@ -1149,6 +1564,14 @@
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1190,13 +1613,6 @@
           "lead": "Former Kenyan cabinet minister Raphael Tuju has said he went into hiding after suspecting he was being followed, a day a"
         },
         {
-          "title": "Flash floods in Kenya have killed at least 81 and displace thousands",
-          "url": "http://www.africanews.com/2026/03/23/flash-floods-in-kenya-have-killed-at-least-81-and-displace-thousands/",
-          "source": "Africanews",
-          "published": "2026-03-23T07:58:19",
-          "lead": "Torrential rains and flash floods have killed at least 81 people across Kenya this month, authorities said, as heavy dow"
-        },
-        {
           "title": "Kenya: Tuju Faces 3-Year Jail Term As DCI Pursues 'Staged Disappearance'",
           "url": "https://allafrica.com/stories/202603240115.html",
           "source": "AllAfrica",
@@ -1225,32 +1641,40 @@
           "lead": "[Capital FM] Nairobi -- Former Cabinet Secretary Raphael Tuju was on Monday arrested shortly after resurfacing from what"
         },
         {
-          "title": "Kenya: KNH Lists 102 Unclaimed Bodies, Gives 7-Day Window for Collection",
-          "url": "https://allafrica.com/stories/202603240124.html",
+          "title": "Kenya: KeNHA Invites Consulting Firms to Prepare National Expressway Blueprint",
+          "url": "https://allafrica.com/stories/202603240144.html",
           "source": "AllAfrica",
-          "published": "2026-03-24T06:41:06",
-          "lead": "[Capital FM] Nairobi -- Kenyatta National Hospital (KNH) has issued a public notice listing 102 unclaimed bodies at its "
+          "published": "2026-03-24T08:31:08",
+          "lead": "[Capital FM] Nairobi -- The Kenya National Highways Authority (KeNHA) has invited consulting firms to submit Expressions"
         },
         {
-          "title": "Kenya: Explained - How Section 129 Could Shape Raphael Tuju's Legal Battle",
-          "url": "https://allafrica.com/stories/202603240125.html",
+          "title": "Kenya: Nakuru Water Leak Detection Officer Apprehended in Bribe Sting",
+          "url": "https://allafrica.com/stories/202603240141.html",
           "source": "AllAfrica",
-          "published": "2026-03-24T06:41:06",
-          "lead": "[Capital FM] Nairobi -- The arrest of former Cabinet Secretary Raphael Tuju has thrust Section 129 of Kenya's Penal Code"
+          "published": "2026-03-24T08:31:07",
+          "lead": "[Capital FM] Nairobi -- The Ethics and Anti-Corruption Commission (EACC) has arrested an officer at the Nakuru Water and"
+        },
+        {
+          "title": "Madagascar: AIRA Infodemic Insights Report 1 January - 28 February, 2026 (Weekly brief #174)",
+          "url": "https://reliefweb.int/report/madagascar/aira-infodemic-insights-report-1-january-28-february-2026-weekly-brief-174",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T06:33:06",
+          "lead": "Countries: Madagascar, Comoros, Democratic Republic of the Congo, Guinea-Bissau, Kenya\n                                 "
         }
       ],
       "sources": [
-        "Africanews",
-        "BBC Africa",
+        "AllAfrica",
         "RFI Afrique",
-        "AllAfrica"
+        "ReliefWeb",
+        "Africanews",
+        "BBC Africa"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 2.5,
-      "ratio": 0.79,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 2.6,
+      "ratio": 1.17,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1265,6 +1689,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Jean-Guy Afrika : « Nous voulons faire du Rwanda la passerelle pour les investissements en Afrique de l’Est et au-delà »",
+          "url": "https://www.jeuneafrique.com/1771277/economie-entreprises/jean-guy-afrika-nous-voulons-faire-du-rwanda-la-passerelle-pour-les-investissements-en-afrique-de-lest-et-au-dela/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-24T08:26:48",
+          "lead": "Tourisme, agroindustrie, partenariats sportifs… Malgré les tensions régionales, le Rwanda Development Board (RDB), fer d"
+        },
         {
           "title": "Rwanda: Kagame Urges Leaders to Put Citizens First, End Repeat Failures",
           "url": "https://allafrica.com/stories/202603240048.html",
@@ -1281,40 +1712,61 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "AllAfrica"
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Tanzania": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Madagascar": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 0.54,
+      "baseline": 1.1,
+      "ratio": 0.91,
       "status": "normal",
       "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Burundi - Cartographie de la mobilité de la population : Point de suivi de flux de Rumonge | septembre 2025",
+          "url": "https://reliefweb.int/report/burundi/burundi-cartographie-de-la-mobilite-de-la-population-point-de-suivi-de-flux-de-rumonge-septembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T21:03:18",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, United Republic of Tanzania\n                                      "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Tanzania": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.9,
+      "ratio": 1.11,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Burundi - Cartographie de la mobilité de la population : Point de suivi de flux de Rumonge | septembre 2025",
+          "url": "https://reliefweb.int/report/burundi/burundi-cartographie-de-la-mobilite-de-la-population-point-de-suivi-de-flux-de-rumonge-septembre-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T21:03:18",
+          "lead": "Countries: Burundi, Democratic Republic of the Congo, United Republic of Tanzania\n                                      "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Madagascar": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.9,
+      "ratio": 1.07,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Attaque",
@@ -1329,23 +1781,41 @@
           "source": "RFI Afrique",
           "published": "2026-03-24T03:19:55",
           "lead": "Les éléments dévoilés dans le rapport de la Cour des comptes sont accablants. Les semences de riz hybride importées de C"
+        },
+        {
+          "title": "Madagascar: AIRA Infodemic Insights Report 1 January - 28 February, 2026 (Weekly brief #174)",
+          "url": "https://reliefweb.int/report/madagascar/aira-infodemic-insights-report-1-january-28-february-2026-weekly-brief-174",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T06:33:06",
+          "lead": "Countries: Madagascar, Comoros, Democratic Republic of the Congo, Guinea-Bissau, Kenya\n                                 "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Comoros": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Madagascar: AIRA Infodemic Insights Report 1 January - 28 February, 2026 (Weekly brief #174)",
+          "url": "https://reliefweb.int/report/madagascar/aira-infodemic-insights-report-1-january-28-february-2026-weekly-brief-174",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T06:33:06",
+          "lead": "Countries: Madagascar, Comoros, Democratic Republic of the Congo, Guinea-Bissau, Kenya\n                                 "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Mauritius": {
       "article_count": 0,
@@ -1421,42 +1891,114 @@
       "sources": []
     },
     "Mozambique": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 0.7,
-      "ratio": 1.36,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 8.18,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Flood",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
           "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes",
+          "url": "http://www.africanews.com/2026/03/24/zimbabwe-opposition-leader-granted-bail-amid-growing-tensions-over-constitutional-changes/",
+          "source": "Africanews",
+          "published": "2026-03-24T08:13:49",
+          "lead": "Opposition leader Tendai Biti has been granted bail after spending the weekend in detention. He was arrested near the Mo"
+        },
+        {
           "title": "Mozambique: 18 Dead in Second Wave of Floods",
           "url": "https://allafrica.com/stories/202603230564.html",
           "source": "AllAfrica",
           "published": "2026-03-23T15:53:32",
           "lead": "[AIM] Maputo -- At least 18 people have lost their lives in the second wave of flooding in Mozambique, according to the "
+        },
+        {
+          "title": "Madagascar: AIRA Infodemic Insights Report 1 January - 28 February, 2026 (Weekly brief #174)",
+          "url": "https://reliefweb.int/report/madagascar/aira-infodemic-insights-report-1-january-28-february-2026-weekly-brief-174",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T06:33:06",
+          "lead": "Countries: Madagascar, Comoros, Democratic Republic of the Congo, Guinea-Bissau, Kenya\n                                 "
+        },
+        {
+          "title": "DR Congo: Weekly Bulletin on Outbreaks and Other Emergencies: Week 6: 02 - 08 February 2026 (Data as reported by: 17:00; 08 February 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/weekly-bulletin-outbreaks-and-other-emergencies-week-6-02-08-february-2026-data-reported-1700-08-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T04:20:13",
+          "lead": "Countries: Democratic Republic of the Congo, Mozambique, South Sudan, World\n                                      Source"
+        },
+        {
+          "title": "Mozambique | Floods - Flash Update #9 (22 March 2026)",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-floods-flash-update-9-22-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T21:03:06",
+          "lead": "Country: Mozambique\n                                      Source: International Organization for Migration\n             "
+        },
+        {
+          "title": "UNHCR Mozambique Operational Update (October - December 2025)",
+          "url": "https://reliefweb.int/report/mozambique/unhcr-mozambique-operational-update-october-december-2025",
+          "source": "ReliefWeb",
+          "published": "2026-03-23T16:03:22",
+          "lead": "Country: Mozambique\n                                      Source: UN High Commissioner for Refugees\n                    "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "ReliefWeb",
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Zimbabwe": {
-      "article_count": 5,
-      "source_count": 1,
-      "baseline": 2.6,
-      "ratio": 1.95,
+      "article_count": 6,
+      "source_count": 3,
+      "baseline": 2.7,
+      "ratio": 2.25,
       "status": "elevated",
-      "confidence": "low",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes",
+          "url": "http://www.africanews.com/2026/03/24/zimbabwe-opposition-leader-granted-bail-amid-growing-tensions-over-constitutional-changes/",
+          "source": "Africanews",
+          "published": "2026-03-24T08:13:49",
+          "lead": "Opposition leader Tendai Biti has been granted bail after spending the weekend in detention. He was arrested near the Mo"
+        },
         {
           "title": "Zimbabwe: Parirenyatwa Hospital Wards Deserted As Nurses Down Tools, Demand Salary Increment",
           "url": "https://allafrica.com/stories/202603240041.html",
@@ -1472,13 +2014,6 @@
           "lead": "[263Chat] Constitutional lawyer Tendai Biti who is also convener of the Constitution Defenders Forum (CDF) a civil socie"
         },
         {
-          "title": "Zimbabwe: Harare Rolls Out 15,000 Smart Water Meters in Infrastructure Overhaul Drive",
-          "url": "https://allafrica.com/stories/202603230105.html",
-          "source": "AllAfrica",
-          "published": "2026-03-23T08:20:25",
-          "lead": "[263Chat] The City of Harare has installed over 15,000 smart prepaid water meters as part of an ongoing push to modernis"
-        },
-        {
           "title": "Zimbabwe: Rio Zim Challenges Cancellation of 40-Year Mining Grant",
           "url": "https://allafrica.com/stories/202603230440.html",
           "source": "AllAfrica",
@@ -1486,27 +2021,40 @@
           "lead": "[263Chat] MINING giant Rio Zim have upped their fight for control of Sengwa's coal fields with a High Court application "
         },
         {
-          "title": "Zimbabwe: Biti Granted $500 Bail Under Strict Orders",
-          "url": "https://allafrica.com/stories/202603240123.html",
+          "title": "Zimbabwe: Elderly Harare Woman Faces U.S.$4m Money-Laundering Charges",
+          "url": "https://allafrica.com/stories/202603240147.html",
           "source": "AllAfrica",
-          "published": "2026-03-24T06:38:59",
-          "lead": "[New Zimbabwe] Constitution Defenders Forum (CDF) convener Tendai Biti and activist Morgan Ncube were granted US$500 bai"
+          "published": "2026-03-24T08:31:11",
+          "lead": "[263Chat] A 76-year-old Harare woman appeared at the Harare Magistrates' Court after she reportedly transferred US$4 085"
+        },
+        {
+          "title": "Madagascar: AIRA Infodemic Insights Report 1 January - 28 February, 2026 (Weekly brief #174)",
+          "url": "https://reliefweb.int/report/madagascar/aira-infodemic-insights-report-1-january-28-february-2026-weekly-brief-174",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T06:33:06",
+          "lead": "Countries: Madagascar, Comoros, Democratic Republic of the Congo, Guinea-Bissau, Kenya\n                                 "
         }
       ],
       "sources": [
-        "AllAfrica"
+        "ReliefWeb",
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Namibia": {
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 2,
       "baseline": 0.7,
-      "ratio": 3.0,
+      "ratio": 4.5,
       "status": "high",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1525,11 +2073,18 @@
           "source": "AllAfrica",
           "published": "2026-03-23T12:10:48",
           "lead": "[Namibian] The government has dismissed circulating reports of a fuel shortage in Namibia, assuring the public that the "
+        },
+        {
+          "title": "Namibia: Our Identity As Namibians Must Always Stand Above Our Differences - Ngurare",
+          "url": "https://allafrica.com/stories/202603240146.html",
+          "source": "AllAfrica",
+          "published": "2026-03-24T08:31:10",
+          "lead": "[Namibian] Prime minister Elijah Ngurare has called for national unity during the country's 36th independence celebratio"
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ]
     },
     "Botswana": {
@@ -1555,13 +2110,17 @@
       ]
     },
     "South Africa": {
-      "article_count": 12,
-      "source_count": 6,
+      "article_count": 15,
+      "source_count": 7,
       "baseline": 14.3,
-      "ratio": 0.84,
+      "ratio": 1.05,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Crisis",
+          "count": 2
+        },
         {
           "word": "Attack",
           "count": 1
@@ -1576,10 +2135,6 @@
         },
         {
           "word": "Dead",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         },
         {
@@ -1599,6 +2154,13 @@
           "source": "BBC Africa",
           "published": "2026-03-23T16:48:13",
           "lead": "A court in Cape Town found Iain Wares guilty of indecently assaulting a former student who accused him of sexual abuse i"
+        },
+        {
+          "title": "Airbnb in firing line as Cape Town’s housing crisis catches up with middle class",
+          "url": "https://www.theguardian.com/world/2026/mar/24/airbnb-cape-town-housing-crisis-middle-class",
+          "source": "The Guardian Africa",
+          "published": "2026-03-24T09:21:04",
+          "lead": "Social media full of complaints about digital nomads, while waiting list for social housing gets longerEarlier this mont"
         },
         {
           "title": "La Chine à l’offensive au Kenya, en Afrique du Sud et aux Seychelles pour sécuriser ses intérêts",
@@ -1629,6 +2191,20 @@
           "lead": "[allAfrica] Motsoaledi Ready for Tribunal in Gauteng Deaths Probe"
         },
         {
+          "title": "South Africa: TB Stigma Still Keeps People From Testing and Treatment in South Africa",
+          "url": "https://allafrica.com/stories/202603240131.html",
+          "source": "AllAfrica",
+          "published": "2026-03-24T08:25:47",
+          "lead": "[Health-e] Tuberculosis (TB) remains South Africa's deadliest infectious disease, with 56 000 people dying from the dise"
+        },
+        {
+          "title": "SPOTLIGHT: Uncertainty around asymptomatic TB leaving critical gaps in public health response",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-24-uncertainty-around-asymptomatic-tb-leaving-critical-gaps-in-public-health-response/",
+          "source": "Daily Maverick",
+          "published": "2026-03-24T11:12:39",
+          "lead": "TB can be cured, but it is still spreading in South Africa at alarming rates. One reason could be that some people with "
+        },
+        {
           "title": "SA-US CYBERCRIME: Million-dollar hacker who targeted US businesses from SA jailed in America, faces deportation",
           "url": "https://www.dailymaverick.co.za/article/2026-03-23-million-dollar-hacker-who-targeted-us-businesses-from-sa-jailed-in-america-faces-deportation/",
           "source": "Daily Maverick",
@@ -1640,7 +2216,7 @@
           "url": "https://www.dailymaverick.co.za/article/2026-03-23-watch-geordin-hill-lewis-da-leader-cape-towns-mayor-or-both/",
           "source": "Daily Maverick",
           "published": "2026-03-23T20:45:10",
-          "lead": "Daily Maverick’s Associate Editor Ferial Haffajee puts the hard questions to Cape Town's Executive Mayor Geordin Hill-Le"
+          "lead": "Daily Maverick’s Associate Editor Ferial Haffajee puts the hard questions to Cape Town’s Executive Mayor Geordin Hill-Le"
         },
         {
           "title": "Conservation by choice or by chance: Understanding human-nature interactions in SA",
@@ -1655,49 +2231,39 @@
           "source": "Daily Maverick",
           "published": "2026-03-23T20:09:36",
           "lead": "The migration pressures confronting South Africa are not simply about who crosses the border, but about whether the coun"
-        },
-        {
-          "title": "AGE OF THE ASSASSIN: Sibanye lawyer shot dead in Joburg CBD while working on labour dispute case",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-23-sibanye-lawyer-shot-dead-in-joburg-cbd-while-working-on-labour-dispute-case/",
-          "source": "Daily Maverick",
-          "published": "2026-03-23T19:49:33",
-          "lead": "The murder comes in the wake of the assassination of Johannesburg insolvency attorney Bouwer van Niekerk in September 20"
-        },
-        {
-          "title": "NUTRITION PROBE: ‘Constitutional crisis’: Experts flag UIF, data gaps amid rising food insecurity in SA’s stunting scourge",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-23-constitutional-crisis-experts-flag-uif-data-gaps-amid-rising-food-insecurity-in-sas-stunting-scourge/",
-          "source": "Daily Maverick",
-          "published": "2026-03-23T13:19:30",
-          "lead": "A grant for pregnant women was among the proposals to tackle stunting heard on the final day of the South African Human "
-        },
-        {
-          "title": "MEETING HALFWAY: Sunshine Tour must be part of future LIV Golf SA events",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-23-sunshine-tour-must-be-part-of-future-liv-golf-sa-events/",
-          "source": "Daily Maverick",
-          "published": "2026-03-23T13:09:40",
-          "lead": "The inaugural LIV Golf South Africa tournament at Steyn City was by any measure a resounding public relations and sporti"
         }
       ],
       "sources": [
-        "BBC Africa",
+        "AllAfrica",
+        "The Guardian Africa",
         "RFI Afrique",
         "Le Monde Afrique",
-        "Daily Maverick",
         "Africanews",
-        "AllAfrica"
+        "BBC Africa",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Eritrea to end 18-year AFCON isolation by playing Eswatini in qualifier",
+          "url": "https://www.aljazeera.com/sports/2026/3/24/eritrea-to-end-18-year-afcon-isolation-by-playing-eswatini-in-qualifier?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-24T07:27:35",
+          "lead": "Eritrea vs Eswatini on Wednesday will serve as the first AFCON qualifier for the east African nation since 2008."
+        }
+      ],
+      "sources": [
+        "Al Jazeera"
+      ]
     },
     "Lesotho": {
       "article_count": 0,
