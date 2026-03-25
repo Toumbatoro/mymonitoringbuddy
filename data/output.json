@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-03-25T18:44:09.975094",
+  "generated_at": "2026-03-25T21:30:00.491827",
   "summary": {
-    "high": 2,
-    "elevated": 12,
-    "normal": 20,
-    "quiet": 20
+    "high": 5,
+    "elevated": 10,
+    "normal": 21,
+    "quiet": 18
   },
   "countries": {
     "Morocco": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 4.2,
-      "ratio": 0.71,
+      "baseline": 4.3,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Ceasefire",
-          "count": 1
-        },
         {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
           "count": 1
         },
         {
@@ -36,7 +36,7 @@
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -71,10 +71,10 @@
       ]
     },
     "Algeria": {
-      "article_count": 7,
-      "source_count": 5,
-      "baseline": 1.4,
-      "ratio": 4.88,
+      "article_count": 8,
+      "source_count": 6,
+      "baseline": 1.5,
+      "ratio": 5.33,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -91,15 +91,15 @@
           "count": 1
         },
         {
-          "word": "Ceasefire",
-          "count": 1
-        },
-        {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
           "count": 1
         },
         {
@@ -113,6 +113,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
+          "url": "https://www.theguardian.com/football/2026/mar/25/fans-and-players-from-five-african-world-cup-countries-face-15000-bond-to-enter-us",
+          "source": "The Guardian Africa",
+          "published": "2026-03-25T19:04:34",
+          "lead": "State department to expand program on 2 AprilAlgeria, Côte d’Ivoire, Senegal, Tunisia, Cape Verde affectedNo apparent ex"
+        },
         {
           "title": "Niger-Algérie: relance de la coopération lors d'une visite du Premier ministre algérien à Niamey",
           "url": "https://www.rfi.fr/fr/afrique/20260325-niger-alg%C3%A9rie-relance-de-la-coop%C3%A9ration-lors-d-une-visite-du-premier-ministre-alg%C3%A9rien-%C3%A0-niamey",
@@ -164,20 +171,21 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique",
         "RFI Afrique",
-        "Human Rights Watch",
-        "Jeune Afrique"
+        "The Guardian Africa",
+        "Le Monde Afrique",
+        "Jeune Afrique",
+        "Africanews",
+        "Human Rights Watch"
       ]
     },
     "Tunisia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.0,
-      "ratio": 1.03,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.07,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
@@ -187,6 +195,13 @@
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
+          "url": "https://www.theguardian.com/football/2026/mar/25/fans-and-players-from-five-african-world-cup-countries-face-15000-bond-to-enter-us",
+          "source": "The Guardian Africa",
+          "published": "2026-03-25T19:04:34",
+          "lead": "State department to expand program on 2 AprilAlgeria, Côte d’Ivoire, Senegal, Tunisia, Cape Verde affectedNo apparent ex"
+        },
+        {
           "title": "Tunisie: la centrale syndicale UGTT se réunit en congrès pour élire son nouveau leader",
           "url": "https://www.rfi.fr/fr/afrique/20260325-tunisie-la-centrale-syndicale-ugtt-se-r%C3%A9unit-en-congr%C3%A8s-pour-%C3%A9lire-son-nouveau-leader",
           "source": "RFI Afrique",
@@ -195,7 +210,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Libya": {
@@ -229,62 +245,92 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.2,
-      "ratio": 2.43,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [],
+      "ratio": 0.81,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Combat",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Salah to leave Liverpool at end of season",
-          "url": "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-24T20:34:23",
-          "lead": "The Egypt forward says Liverpool fans \"gave me the best time of my life\" and \"stood by me in the toughest times\"."
-        },
-        {
-          "title": "Mohamed Salah: Is Liverpool exit the end? Can World Cup spur Egypt star?",
-          "url": "https://www.aljazeera.com/sports/2026/3/25/mohamed-salah-is-liverpool-exit-the-end-or-can-world-cup-spur-egypt-star?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-25T13:44:24",
-          "lead": "With his time at Liverpool, and apparently the world&#039;s most elite league, coming to an end, what is left to drive S"
-        },
-        {
-          "title": "Why is Mohamed Salah leaving Liverpool, and which club will he join next?",
-          "url": "https://www.aljazeera.com/sports/2026/3/25/why-is-mohamed-salah-leaving-liverpool-and-which-club-will-he-join-next?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-25T12:32:05",
-          "lead": "Al Jazeera explains the Liverpool and Egypt icon&#039;s departure from the Premier League and what happens next."
+          "title": "Egypt: Launch of the “Consortium for Alexandria” to strengthen resilience against crises, disasters, and climate change",
+          "url": "https://reliefweb.int/report/egypt/launch-consortium-alexandria-strengthen-resilience-against-crises-disasters-and-climate-change",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T09:03:06",
+          "lead": "Country: Egypt\n                                      Source: UN Office for Disaster Risk Reduction\n                     "
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Al Jazeera"
+        "ReliefWeb"
       ]
     },
     "Sudan": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 8,
+      "source_count": 4,
       "baseline": 4.8,
-      "ratio": 0.83,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.67,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
+          "word": "Humanitarian",
+          "count": 5
+        },
+        {
           "word": "Rsf",
-          "count": 1
+          "count": 4
+        },
+        {
+          "word": "Displaced",
+          "count": 4
         },
         {
           "word": "War",
-          "count": 1
+          "count": 3
+        },
+        {
+          "word": "Famine",
+          "count": 3
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Attack",
+          "count": 2
+        },
+        {
+          "word": "Fighting",
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -304,24 +350,53 @@
           "lead": "L'organisation Reporters sans frontières a publié mardi 24 mars une enquête sur les détentions de plusieurs civils et jo"
         },
         {
-          "title": "Soudan: d'intenses combats signalés dans la région du Nil Bleu à la frontière avec l'Éthiopie",
-          "url": "https://www.rfi.fr/fr/afrique/20260324-soudan-d-intenses-combats-signal%C3%A9s-dans-la-r%C3%A9gion-du-nil-bleu-%C3%A0-la-fronti%C3%A8re-avec-l-%C3%A9thiopie",
-          "source": "RFI Afrique",
-          "published": "2026-03-24T23:40:57",
-          "lead": "De violents combats opposent depuis le 22 mars l'armée soudanaise aux paramilitaires des Forces de soutien rapide et leu"
-        },
-        {
           "title": "Food security concerns mount as Iran war hurts fertilizer trade",
           "url": "http://www.africanews.com/2026/03/25/food-security-concerns-mount-as-iran-war-hurts-fertilizer-trade/",
           "source": "Africanews",
           "published": "2026-03-25T15:23:08",
           "lead": "Countries like Sudan, Somalia, Tanzania, and Mozambique rely heavily on imported fertilizers - much of it coming through"
+        },
+        {
+          "title": "CAR: République centrafricaine : Rapport de situation N°60, au 24 mars 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg60-au-24-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T15:52:29",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
+        },
+        {
+          "title": "South Sudan: Grateful for water, but is other help coming?",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-grateful-water-other-help-coming",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T10:09:19",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
+        },
+        {
+          "title": "Counting the Dead: Explosive weapons’ devastating impact on civilians in Sudan",
+          "url": "https://reliefweb.int/report/sudan/counting-dead-explosive-weapons-devastating-impact-civilians-sudan",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T00:27:40",
+          "lead": "Country: Sudan\n                                      Source: Action on Armed Violence\n                                  "
+        },
+        {
+          "title": "Sudan Crisis Situation Analysis: (Period: 16/03/26 - 22/03/26)",
+          "url": "https://reliefweb.int/report/sudan/sudan-crisis-situation-analysis-period-160326-220326",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T00:00:00",
+          "lead": "Country: Sudan\n                                      Source: Data Friendly Space\n                                       "
+        },
+        {
+          "title": "Sudan: Gender Alert: Escalation of hostilities in Kordofan",
+          "url": "https://reliefweb.int/report/sudan/gender-alert-escalation-hostilities-kordofan",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T23:15:04",
+          "lead": "Country: Sudan\n                                      Source: UN Women\n                                                  "
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "The Guardian Africa"
+        "ReliefWeb",
+        "The Guardian Africa",
+        "Africanews"
       ]
     },
     "Mauritania": {
@@ -337,19 +412,31 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 5,
+      "source_count": 4,
       "baseline": 2.4,
-      "ratio": 1.64,
+      "ratio": 2.05,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
         {
           "word": "Wagner",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -382,18 +469,26 @@
           "source": "Jeune Afrique",
           "published": "2026-03-25T09:07:42",
           "lead": "En renforçant sa coopération sécuritaire et économique avec Abdourahamane Tiani, Abdejmadjid Tebboune espère maintenir l"
+        },
+        {
+          "title": "Déchiffrer la crise de Protection au Mali - Résultats de l’Evaluation Multi-Sectorielle de Besoins 2025 (mars 2026)",
+          "url": "https://reliefweb.int/report/mali/dechiffrer-la-crise-de-protection-au-mali-resultats-de-levaluation-multi-sectorielle-de-besoins-2025-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T03:26:27",
+          "lead": "Country: Mali\n                                      Source: REACH Initiative\n                                           "
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "Burkina Faso": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.6,
+      "baseline": 1.5,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -406,7 +501,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.3,
-      "ratio": 1.3,
+      "ratio": 1.32,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -449,20 +544,36 @@
       ],
       "sources": [
         "RFI Afrique",
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Senegal": {
-      "article_count": 9,
-      "source_count": 6,
-      "baseline": 5.4,
-      "ratio": 1.68,
+      "article_count": 12,
+      "source_count": 8,
+      "baseline": 5.5,
+      "ratio": 2.2,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Gouvernement",
+          "word": "Refugees",
+          "count": 4
+        },
+        {
+          "word": "M23",
+          "count": 3
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
           "count": 2
         },
         {
@@ -470,27 +581,11 @@
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -502,6 +597,13 @@
           "source": "BBC Africa",
           "published": "2026-03-25T16:50:20",
           "lead": "The Court of Arbitration for Sport (Cas) says it will rule on Senegal's appeal against being stripped of the Africa Cup "
+        },
+        {
+          "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
+          "url": "https://www.theguardian.com/football/2026/mar/25/fans-and-players-from-five-african-world-cup-countries-face-15000-bond-to-enter-us",
+          "source": "The Guardian Africa",
+          "published": "2026-03-25T19:04:34",
+          "lead": "State department to expand program on 2 AprilAlgeria, Côte d’Ivoire, Senegal, Tunisia, Cape Verde affectedNo apparent ex"
         },
         {
           "title": "CAN 2025: le Sénégal remet son dossier devant le TAS concernant la victoire attribuée au Maroc",
@@ -516,13 +618,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-25T01:56:04",
           "lead": "Après sa participation en juin 2025 à la 4ème Conférence internationale sur le financement du développement à Séville, l"
-        },
-        {
-          "title": "Sénégal: polémique suscitée par un emprunt «secret» pour rembourser la dette",
-          "url": "https://www.rfi.fr/fr/afrique/20260325-s%C3%A9n%C3%A9gal-pol%C3%A9mique-suscit%C3%A9e-par-un-emprunt-secret-pour-rembourser-la-dette",
-          "source": "RFI Afrique",
-          "published": "2026-03-25T01:04:47",
-          "lead": "Au Sénégal, l’emprunt par les autorités de 650 millions d’euros, l’année dernière, via un instrument financier peu connu"
         },
         {
           "title": "Sénégal : des pêcheurs locaux en lutte face à la pêche industrielle et illégale",
@@ -553,6 +648,27 @@
           "lead": "Debt-laden Senegal has denied a report in the Financial Times that it covertly borrowed 650 million euros ($754 million)"
         },
         {
+          "title": "DR Congo: Más de 33.000 refugiados congoleños regresan desde Burundi en solo un mes y ACNUR pide apoyo urgente",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/mas-de-33000-refugiados-congolenos-regresan-desde-burundi-en-solo-un-mes-y-acnur-pide-apoyo-urgente",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:49:27",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
+          "title": "DR Congo: Une aide d'urgence nécessaire alors que 33 000 congolais sont rentrés chez eux depuis le Burundi en l’espace d’un mois",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/une-aide-durgence-necessaire-alors-que-33-000-congolais-sont-rentres-chez-eux-depuis-le-burundi-en-lespace-dun-mois",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:48:53",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
+          "title": "DR Congo: Urgent support needed as 33,000 Congolese refugees return home from Burundi in a month",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/urgent-support-needed-33000-congolese-refugees-return-home-burundi-month",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:48:15",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
           "title": "UN: Western Sahara Peoples’ Self-Determination at Risk",
           "url": "https://www.hrw.org/news/2026/03/25/un-western-sahara-peoples-self-determination-at-risk",
           "source": "Human Rights Watch",
@@ -561,12 +677,14 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "France24 Afrique",
         "RFI Afrique",
-        "Human Rights Watch",
+        "ReliefWeb",
+        "The Guardian Africa",
         "Jeune Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "Africanews",
+        "Human Rights Watch",
+        "France24 Afrique"
       ]
     },
     "Gambia": {
@@ -594,20 +712,20 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 4,
-      "source_count": 2,
-      "baseline": 2.3,
-      "ratio": 1.71,
+      "article_count": 5,
+      "source_count": 3,
+      "baseline": 2.4,
+      "ratio": 2.11,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Government",
+          "word": "Mort",
           "count": 2
         },
         {
-          "word": "Mort",
-          "count": 1
+          "word": "Government",
+          "count": 2
         },
         {
           "word": "President",
@@ -620,6 +738,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Guinée: mort d'Aboubacar Diakité dit Toumba, ex-aide de camp de Moussa Dadis Camara et condamné à 10 ans de prison",
+          "url": "https://www.rfi.fr/fr/afrique/20260325-guin%C3%A9e-mort-d-aboubacar-diakit%C3%A9-dit-toumba-ex-aide-de-camp-de-moussa-dadis-camara-et-condamn%C3%A9-%C3%A0-10-ans-de-prison",
+          "source": "RFI Afrique",
+          "published": "2026-03-25T20:11:00",
+          "lead": "En Guinée, l'administration pénitentiaire vient d'annoncer le décès de l’ancien aide de camp du capitaine Moussa Dadis C"
+        },
         {
           "title": "Guinée : les autorités annoncent la mort de Toumba Diakité",
           "url": "https://www.jeuneafrique.com/1783220/politique/guinee-les-autorites-annoncent-la-mort-de-toumba-diakite/",
@@ -650,8 +775,9 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "RFI Afrique",
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Sierra Leone": {
@@ -669,8 +795,8 @@
     "Liberia": {
       "article_count": 6,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 3.46,
+      "baseline": 1.8,
+      "ratio": 3.4,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -737,19 +863,15 @@
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 1.9,
-      "ratio": 2.07,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.0,
+      "ratio": 1.0,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         }
       ],
@@ -768,47 +890,56 @@
           "source": "Jeune Afrique",
           "published": "2026-03-25T17:59:20",
           "lead": "Lors de cette visite officielle, le ministre ivoirien délégué chargé de l’Intégration africaine et des Ivoiriens de l’ex"
-        },
-        {
-          "title": "Ivory Coast cocoa producers suffer amid global price fall",
-          "url": "http://www.africanews.com/2026/03/24/ivory-coast-cocoa-producers-suffer-amid-global-price-fall/",
-          "source": "Africanews",
-          "published": "2026-03-24T20:03:12",
-          "lead": "Cocoa farmers in Ivory Coast are counting on losses from the reduced global prices."
-        },
-        {
-          "title": "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth",
-          "url": "https://allafrica.com/stories/202603240671.html",
-          "source": "AllAfrica",
-          "published": "2026-03-24T20:07:00",
-          "lead": "[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the"
         }
       ],
       "sources": [
-        "Africanews",
-        "AllAfrica",
         "Jeune Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 5,
-      "source_count": 3,
-      "baseline": 2.4,
-      "ratio": 2.11,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 9,
+      "source_count": 5,
+      "baseline": 2.2,
+      "ratio": 4.03,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
-          "word": "Président",
+          "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Combat",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "UN adopts slavery resolution despite resistance",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/un-adopts-slavery-resolution-despite-resistance?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-25T20:50:15",
+          "lead": "The UN has adopted a Ghana-led resolution recognising transatlantic slavery as the “gravest crime against humanity”."
+        },
+        {
+          "title": "UN votes to describe slave trade as ‘gravest crime against humanity’",
+          "url": "https://www.theguardian.com/news/2026/mar/25/un-votes-slave-trade-gravest-crime-against-humanity-reparatory-justice",
+          "source": "The Guardian Africa",
+          "published": "2026-03-25T19:16:41",
+          "lead": "Members call for reparatory justice as landmark resolution aims for ‘political recognition at the highest level’The Unit"
+        },
+        {
+          "title": "L'Assemblée générale de l'ONU proclame la traite des esclaves africains «plus grave crime contre l'humanité»",
+          "url": "https://www.rfi.fr/fr/afrique/20260325-l-assembl%C3%A9e-g%C3%A9n%C3%A9rale-de-l-onu-proclame-la-traite-des-esclaves-africains-plus-grave-crime-contre-l-humanit%C3%A9",
+          "source": "RFI Afrique",
+          "published": "2026-03-25T17:24:13",
+          "lead": "L'Assemblée générale de l'ONU a proclamé ce mercredi 25 mars la traite des esclaves africains comme le crime le plus gra"
+        },
         {
           "title": "À l'ONU, le Ghana souhaite élever la traite des esclaves au rang de «crime le plus grave contre l'humanité»",
           "url": "https://www.rfi.fr/fr/afrique/20260325-%C3%A0-l-onu-le-ghana-souhaite-%C3%A9lever-la-traite-des-esclaves-au-rang-de-crime-le-plus-grave-contre-l-humanit%C3%A9",
@@ -831,6 +962,13 @@
           "lead": "La résolution, qui sera présentée, le 25 mars, lors de l’Assemblée générale des Nations unies, devrait être soutenue par"
         },
         {
+          "title": "UN declares transatlantic slave trade a crime against humanity, demands reparations",
+          "url": "http://www.africanews.com/2026/03/25/un-declares-transatlantic-slave-trade-a-crime-against-humanity-demands-reparations/",
+          "source": "Africanews",
+          "published": "2026-03-25T20:17:20",
+          "lead": "The landmark resolution was an historic victory for Ghana which tabled the motion earlier this month."
+        },
+        {
           "title": "Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity",
           "url": "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/",
           "source": "Africanews",
@@ -846,9 +984,11 @@
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "Al Jazeera",
+        "The Guardian Africa",
+        "Le Monde Afrique",
+        "Africanews"
       ]
     },
     "Togo": {
@@ -864,19 +1004,19 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.8,
-      "ratio": 1.11,
+      "ratio": 0.57,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Crise",
-          "count": 2
+          "word": "Guerre",
+          "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -888,25 +1028,17 @@
           "source": "RFI Afrique",
           "published": "2026-03-25T12:24:59",
           "lead": "Au Bénin, le principal parti d'opposition n'en finit pas de traverser les turbulences. Déjà fragilisés par une vague de "
-        },
-        {
-          "title": "Présidentielle au Bénin : le fils de Thomas Boni Yayi apporte son soutien à Romuald Wadagni",
-          "url": "https://www.jeuneafrique.com/1777241/politique/presidentielle-au-benin-le-fils-de-thomas-boni-yayi-apporte-son-soutien-a-romuald-wadagni/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-24T19:41:05",
-          "lead": "À trois semaines de la présidentielle, Chabi Yayi rallie Romuald Wadagni, le candidat désigné par Patrice Talon. Annoncé"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 10,
-      "source_count": 4,
+      "article_count": 9,
+      "source_count": 3,
       "baseline": 8.8,
-      "ratio": 1.14,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -915,11 +1047,11 @@
           "count": 2
         },
         {
-          "word": "Killed",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Killed",
           "count": 1
         },
         {
@@ -929,13 +1061,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Iran, Nigeria, and Africa’s oil dependency",
-          "url": "https://www.aljazeera.com/video/africa-now/2026/3/25/iran-nigeria-and-africas-oil-dependency?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-25T16:16:23",
-          "lead": "Could this be the moment Africa breaks its dependency on foreign energy?"
-        },
         {
           "title": "Nigeria moves to broaden security alliances amid ongoing insurgency threats",
           "url": "https://www.dw.com/en/nigeria-moves-to-broaden-security-alliances-amid-ongoing-insurgency-threats/a-76512959?maca=en-rss-en-africa-8291-xml-mrss",
@@ -1001,29 +1126,38 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Al Jazeera",
+        "Le Monde Afrique",
         "DW Africa",
-        "Le Monde Afrique"
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
+          "url": "https://www.theguardian.com/football/2026/mar/25/fans-and-players-from-five-african-world-cup-countries-face-15000-bond-to-enter-us",
+          "source": "The Guardian Africa",
+          "published": "2026-03-25T19:04:34",
+          "lead": "State department to expand program on 2 AprilAlgeria, Côte d’Ivoire, Senegal, Tunisia, Cape Verde affectedNo apparent ex"
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "Chad": {
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.3,
-      "ratio": 0.75,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1090,42 +1224,112 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 0.52,
+      "baseline": 1.4,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Attaque",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Déplacés",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Soudan: d'intenses combats signalés dans la région du Nil Bleu à la frontière avec l'Éthiopie",
-          "url": "https://www.rfi.fr/fr/afrique/20260324-soudan-d-intenses-combats-signal%C3%A9s-dans-la-r%C3%A9gion-du-nil-bleu-%C3%A0-la-fronti%C3%A8re-avec-l-%C3%A9thiopie",
-          "source": "RFI Afrique",
-          "published": "2026-03-24T23:40:57",
-          "lead": "De violents combats opposent depuis le 22 mars l'armée soudanaise aux paramilitaires des Forces de soutien rapide et leu"
+          "title": "CAR: République centrafricaine : Rapport de situation N°60, au 24 mars 2026",
+          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg60-au-24-mars-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T15:52:29",
+          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "ReliefWeb"
+      ]
+    },
+    "South Sudan": {
+      "article_count": 3,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 1.55,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "South Sudan: Grateful for water, but is other help coming?",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-grateful-water-other-help-coming",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T10:09:19",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
+        },
+        {
+          "title": "South Sudan: Humanitarian Snapshot (February 2026)",
+          "url": "https://reliefweb.int/report/south-sudan/south-sudan-humanitarian-snapshot-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T09:41:17",
+          "lead": "Country: South Sudan\n                                      Source: UN Office for the Coordination of Humanitarian Affair"
+        },
+        {
+          "title": "South Sudan - Concept of Operations Map - March 2026",
+          "url": "https://reliefweb.int/map/south-sudan/south-sudan-concept-operations-map-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T07:40:05",
+          "lead": "Country: South Sudan\n                                      Sources: Logistics Cluster, World Food Programme\n            "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
       ]
     },
     "Eq. Guinea": {
@@ -1153,12 +1357,12 @@
       "sources": []
     },
     "Congo": {
-      "article_count": 4,
-      "source_count": 3,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.3,
-      "ratio": 1.76,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.44,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "War",
@@ -1168,48 +1372,33 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "En Angola, le français devient obligatoire dès l’école primaire",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/24/en-angola-le-francais-devient-obligatoire-des-l-ecole-primaire_6674123_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-24T19:30:02",
-          "lead": "Une réforme de juin 2025 rend l’enseignement de la langue française obligatoire pour les écoliers angolais. Une façon po"
-        },
-        {
-          "title": "Électricité : pourquoi le contrat de la Senelec est en passe d’être débloqué au Congo",
-          "url": "https://www.jeuneafrique.com/1777219/economie-entreprises/electricite-pourquoi-le-contrat-de-la-senelec-est-en-passe-detre-debloque-au-congo/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-24T19:48:40",
-          "lead": "L’attribution du marché de la distribution d’électricité à la société sénégalaise avait provoqué de vives tensions au Co"
-        },
-        {
           "title": "A two hour wait for fuel: Kinshasa feels first effects of Middle East war",
           "url": "http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/",
           "source": "Africanews",
           "published": "2026-03-25T09:33:23",
           "lead": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortage"
-        },
-        {
-          "title": "Second set of rare gorilla twins born in DR Congo reserve Goma, DR Congo",
-          "url": "http://www.africanews.com/2026/03/24/second-set-of-rare-gorilla-twins-born-in-dr-congo-reserve-goma-dr-congo/",
-          "source": "Africanews",
-          "published": "2026-03-24T20:15:06",
-          "lead": "An endangered mountain gorilla has given birth to twins in the Virunga National Park in eastern Democratic Republic of C"
         }
       ],
       "sources": [
-        "Africanews",
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Africanews"
       ]
     },
     "DRC": {
-      "article_count": 8,
-      "source_count": 3,
+      "article_count": 10,
+      "source_count": 5,
       "baseline": 7.2,
-      "ratio": 1.11,
+      "ratio": 1.39,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "M23",
+          "count": 4
+        },
+        {
+          "word": "Refugees",
+          "count": 3
+        },
         {
           "word": "Rsf",
           "count": 1
@@ -1219,11 +1408,19 @@
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
@@ -1265,11 +1462,11 @@
           "lead": "Selon une enquête de Reporters sans frontières, le Mouvement du 23 mars aurait détenu de « nombreuses personnes » dans d"
         },
         {
-          "title": "En Angola, le français devient obligatoire dès l’école primaire",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/24/en-angola-le-francais-devient-obligatoire-des-l-ecole-primaire_6674123_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-24T19:30:02",
-          "lead": "Une réforme de juin 2025 rend l’enseignement de la langue française obligatoire pour les écoliers angolais. Une façon po"
+          "title": "RDC : ce que l’on sait sur les 3,5 millions de dollars saisis à l’aéroport de Kinshasa",
+          "url": "https://www.jeuneafrique.com/1777035/politique/rdc-ce-que-lon-sait-sur-les-35-millions-de-dollars-saisis-a-laeroport-de-kinshasa/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-25T20:03:31",
+          "lead": "Ce sont des valises non étiquetées qui ont attiré l’attention des services de sécurité. À l’intérieur : 3,5 millions de "
         },
         {
           "title": "A two hour wait for fuel: Kinshasa feels first effects of Middle East war",
@@ -1279,17 +1476,33 @@
           "lead": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortage"
         },
         {
-          "title": "Second set of rare gorilla twins born in DR Congo reserve Goma, DR Congo",
-          "url": "http://www.africanews.com/2026/03/24/second-set-of-rare-gorilla-twins-born-in-dr-congo-reserve-goma-dr-congo/",
-          "source": "Africanews",
-          "published": "2026-03-24T20:15:06",
-          "lead": "An endangered mountain gorilla has given birth to twins in the Virunga National Park in eastern Democratic Republic of C"
+          "title": "DR Congo: Más de 33.000 refugiados congoleños regresan desde Burundi en solo un mes y ACNUR pide apoyo urgente",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/mas-de-33000-refugiados-congolenos-regresan-desde-burundi-en-solo-un-mes-y-acnur-pide-apoyo-urgente",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:49:27",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
+          "title": "DR Congo: Une aide d'urgence nécessaire alors que 33 000 congolais sont rentrés chez eux depuis le Burundi en l’espace d’un mois",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/une-aide-durgence-necessaire-alors-que-33-000-congolais-sont-rentres-chez-eux-depuis-le-burundi-en-lespace-dun-mois",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:48:53",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
+          "title": "DR Congo: Urgent support needed as 33,000 Congolese refugees return home from Burundi in a month",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/urgent-support-needed-33000-congolese-refugees-return-home-burundi-month",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:48:15",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
         }
       ],
       "sources": [
-        "Africanews",
         "RFI Afrique",
-        "Le Monde Afrique"
+        "ReliefWeb",
+        "Le Monde Afrique",
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1305,26 +1518,16 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.8,
-      "ratio": 1.25,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "En Angola, le français devient obligatoire dès l’école primaire",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/24/en-angola-le-francais-devient-obligatoire-des-l-ecole-primaire_6674123_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-24T19:30:02",
-          "lead": "Une réforme de juin 2025 rend l’enseignement de la langue française obligatoire pour les écoliers angolais. Une façon po"
-        }
-      ],
-      "sources": [
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eritrea": {
       "article_count": 0,
@@ -1352,7 +1555,7 @@
     },
     "Ethiopia": {
       "article_count": 2,
-      "source_count": 1,
+      "source_count": 2,
       "baseline": 2.6,
       "ratio": 0.76,
       "status": "normal",
@@ -1360,6 +1563,14 @@
       "keywords": [
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -1373,22 +1584,23 @@
           "lead": "C’est le volet sanitaire de la stratégie « America First » du président Trump : les États-Unis concluent ces dernières s"
         },
         {
-          "title": "Soudan: d'intenses combats signalés dans la région du Nil Bleu à la frontière avec l'Éthiopie",
-          "url": "https://www.rfi.fr/fr/afrique/20260324-soudan-d-intenses-combats-signal%C3%A9s-dans-la-r%C3%A9gion-du-nil-bleu-%C3%A0-la-fronti%C3%A8re-avec-l-%C3%A9thiopie",
-          "source": "RFI Afrique",
-          "published": "2026-03-24T23:40:57",
-          "lead": "De violents combats opposent depuis le 22 mars l'armée soudanaise aux paramilitaires des Forces de soutien rapide et leu"
+          "title": "Ethiopia Emergency Response, Situation Report #1 (January – 15 March 2026)",
+          "url": "https://reliefweb.int/report/ethiopia/ethiopia-emergency-response-situation-report-1-january-15-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T11:38:50",
+          "lead": "Country: Ethiopia\n                                      Source: CESVI\n                                                  "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Somalia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.7,
-      "ratio": 0.58,
+      "baseline": 1.8,
+      "ratio": 0.57,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1414,8 +1626,8 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.2,
-      "ratio": 0.46,
+      "baseline": 2.1,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1434,39 +1646,43 @@
       ]
     },
     "Kenya": {
-      "article_count": 15,
+      "article_count": 19,
       "source_count": 7,
       "baseline": 6.2,
-      "ratio": 2.41,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.06,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
-          "word": "Government",
-          "count": 2
+          "word": "Humanitarian",
+          "count": 5
+        },
+        {
+          "word": "Refugees",
+          "count": 5
         },
         {
           "word": "Displaced",
-          "count": 2
+          "count": 4
         },
         {
-          "word": "Humanitarian",
-          "count": 2
+          "word": "Government",
+          "count": 3
+        },
+        {
+          "word": "M23",
+          "count": 3
         },
         {
           "word": "President",
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
+          "word": "Humanitaire",
           "count": 1
         }
       ],
@@ -1478,13 +1694,6 @@
           "source": "BBC Africa",
           "published": "2026-03-25T11:11:50",
           "lead": "Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries."
-        },
-        {
-          "title": "Dozens of bodies including children exhumed from mass grave in Kenya",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/dozens-of-bodies-including-children-exhumed-from-mass-grave-in-kenya?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-25T12:36:14",
-          "lead": "Kenyan authorities have exhumed 32 bodies, including children and foetuses from a mass grave in the town of Kericho."
         },
         {
           "title": "Severe flooding in Kenya after two rivers overflowed their banks – video",
@@ -1555,32 +1764,39 @@
           "source": "AllAfrica",
           "published": "2026-03-25T15:10:05",
           "lead": "[Capital FM] Nairobi -- The Court of Appeal has dismissed an attempt by the Assets Recovery Agency (ARA) to freeze milli"
+        },
+        {
+          "title": "Kenya: Wandayi Warns Oil Firms Against Hoarding, Cites Licence Risk",
+          "url": "https://allafrica.com/stories/202603250319.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T12:16:13",
+          "lead": "[Capital FM] Nairobi -- Energy Cabinet Secretary Opiyo Wandayi has warned Oil Marketing Companies (OMCs) against hoardin"
         }
       ],
       "sources": [
-        "Africanews",
-        "Daily Maverick",
-        "AllAfrica",
-        "Human Rights Watch",
+        "ReliefWeb",
         "The Guardian Africa",
         "BBC Africa",
-        "Al Jazeera"
+        "Africanews",
+        "Human Rights Watch",
+        "Daily Maverick",
+        "AllAfrica"
       ]
     },
     "Rwanda": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.4,
-      "ratio": 1.25,
+      "baseline": 2.5,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "President",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1609,21 +1825,78 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Burundi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 3,
+      "source_count": 1,
       "baseline": 0.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 3.21,
+      "status": "elevated",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Refugees",
+          "count": 3
+        },
+        {
+          "word": "M23",
+          "count": 3
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Réfugiés",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
+          "count": 1
+        },
+        {
+          "word": "Armed group",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "DR Congo: Más de 33.000 refugiados congoleños regresan desde Burundi en solo un mes y ACNUR pide apoyo urgente",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/mas-de-33000-refugiados-congolenos-regresan-desde-burundi-en-solo-un-mes-y-acnur-pide-apoyo-urgente",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:49:27",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
+          "title": "DR Congo: Une aide d'urgence nécessaire alors que 33 000 congolais sont rentrés chez eux depuis le Burundi en l’espace d’un mois",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/une-aide-durgence-necessaire-alors-que-33-000-congolais-sont-rentres-chez-eux-depuis-le-burundi-en-lespace-dun-mois",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:48:53",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        },
+        {
+          "title": "DR Congo: Urgent support needed as 33,000 Congolese refugees return home from Burundi in a month",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/urgent-support-needed-33000-congolese-refugees-return-home-burundi-month",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:48:15",
+          "lead": "Countries: Democratic Republic of the Congo, Burundi\n                                      Source: UN High Commissioner "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Tanzania": {
       "article_count": 2,
@@ -1753,30 +2026,53 @@
         }
       ],
       "sources": [
-        "Daily Maverick",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Daily Maverick"
       ]
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.58,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Malawi, Mozambique | Ongoing floods - DG ECHO Daily Map | 25/03/2026",
+          "url": "https://reliefweb.int/map/malawi/malawi-mozambique-ongoing-floods-dg-echo-daily-map-25032026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T17:17:16",
+          "lead": "Countries: Malawi, Mozambique\n                                      Source: European Commission's Directorate-General fo"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Mozambique": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 2.4,
-      "status": "elevated",
-      "confidence": "medium",
+      "article_count": 6,
+      "source_count": 3,
+      "baseline": 0.9,
+      "ratio": 6.92,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Government",
+          "count": 2
+        },
         {
           "word": "War",
           "count": 1
@@ -1797,18 +2093,47 @@
           "source": "Africanews",
           "published": "2026-03-25T15:23:08",
           "lead": "Countries like Sudan, Somalia, Tanzania, and Mozambique rely heavily on imported fertilizers - much of it coming through"
+        },
+        {
+          "title": "Malawi, Mozambique | Ongoing floods - DG ECHO Daily Map | 25/03/2026",
+          "url": "https://reliefweb.int/map/malawi/malawi-mozambique-ongoing-floods-dg-echo-daily-map-25032026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T17:17:16",
+          "lead": "Countries: Malawi, Mozambique\n                                      Source: European Commission's Directorate-General fo"
+        },
+        {
+          "title": "Mozambique: Boletim Diário da Cólera Data: 24/03/2026 [PT]",
+          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-24032026-pt",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T13:21:56",
+          "lead": "Country: Mozambique\n                                      Source: Government of Mozambique\n                             "
+        },
+        {
+          "title": "Mozambique - Severe weather and floods, update (INGD, UN OCHA, NOAA Southern Africa, media) (ECHO Daily Flash of 25 March 2026)",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-severe-weather-and-floods-update-ingd-un-ocha-noaa-southern-africa-media-echo-daily-flash-25-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T10:29:12",
+          "lead": "Country: Mozambique\n                                      Source: European Commission's Directorate-General for European"
+        },
+        {
+          "title": "Mozambique Economic Update: From Fragility to Stability – Why Fiscal Reforms Cannot Wait (March 2026)",
+          "url": "https://reliefweb.int/report/mozambique/mozambique-economic-update-fragility-stability-why-fiscal-reforms-cannot-wait-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-25T01:12:22",
+          "lead": "Country: Mozambique\n                                      Source: World Bank\n                                           "
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb",
+        "Africanews"
       ]
     },
     "Zimbabwe": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1832,10 +2157,18 @@
           "source": "RFI Afrique",
           "published": "2026-03-25T05:32:22",
           "lead": "C’est le volet sanitaire de la stratégie « America First » du président Trump : les États-Unis concluent ces dernières s"
+        },
+        {
+          "title": "Zimbabwe - Food Security and Markets Monitoring Report, February 2026",
+          "url": "https://reliefweb.int/report/zimbabwe/zimbabwe-food-security-and-markets-monitoring-report-february-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-24T23:29:05",
+          "lead": "Country: Zimbabwe\n                                      Source: World Food Programme\n                                   "
         }
       ],
       "sources": [
         "RFI Afrique",
+        "ReliefWeb",
         "The Guardian Africa"
       ]
     },
@@ -1843,7 +2176,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 0.7,
-      "ratio": 1.43,
+      "ratio": 1.5,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1867,46 +2200,31 @@
       ]
     },
     "Botswana": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Minister",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth",
-          "url": "https://allafrica.com/stories/202603240671.html",
-          "source": "AllAfrica",
-          "published": "2026-03-24T20:07:00",
-          "lead": "[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "South Africa": {
-      "article_count": 18,
+      "article_count": 21,
       "source_count": 5,
       "baseline": 14.5,
-      "ratio": 1.24,
+      "ratio": 1.45,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
-          "count": 1
+          "word": "Crisis",
+          "count": 2
         },
         {
-          "word": "Crisis",
+          "word": "Minister",
           "count": 1
         },
         {
@@ -1980,33 +2298,33 @@
           "lead": "[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers i"
         },
         {
-          "title": "INVESTMENT INSIGHTS: How Middle East conflict is hitting your investment portfolio — what (not) to do",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-25-how-middle-east-conflict-is-hitting-your-investment-portfolio-what-not-to-do/",
+          "title": "POURING OIL ON TROUBLED WATERS: Gwede Mantashe warns against panic buying amid rising fuel supply fears",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-25-gwede-mantashe-warns-against-panic-buying-amid-rising-fuel-supply-fears/",
           "source": "Daily Maverick",
-          "published": "2026-03-25T20:39:02",
-          "lead": "For South African investors, the impact of the Middle East conflict is not an abstract concept, but is showing up in the"
+          "published": "2026-03-25T21:59:58",
+          "lead": "Gwede Mantashe says South Africa’s fuel supply is secure despite panic buying and scattered diesel shortages, but report"
         },
         {
-          "title": "GRASSROOTS GUARDIAN: ‘Malo’: The woman who became a mother to Soweto’s lost children",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-25-malo-the-woman-who-became-a-mother-to-sowetos-lost-children/",
+          "title": "THE INVISIBLE HEIST: Inside job — the fraud question South African banks won't answer",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-25-inside-job-the-fraud-question-south-african-banks-wont-answer/",
           "source": "Daily Maverick",
-          "published": "2026-03-25T16:36:34",
-          "lead": "Long after the height of South Africa’s HIV/Aids crisis, its consequences remain. In Soweto, Carol Dyantyi – known as Mu"
+          "published": "2026-03-25T21:39:40",
+          "lead": "Banks insist that digital fraud is almost always the customer's fault. Court records, withheld audit logs, and the confi"
         },
         {
-          "title": "BHEKISISA: A R60 test could help SA find millions more TB patients — but will it miss the most dangerous cases?",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-25-a-r60-test-could-help-sa-find-millions-more-tb-patients-but-will-it-miss-the-most-dangerous-cases/",
+          "title": "Why SA’s energy security is a feminist and economic emergency",
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-03-25-why-sas-energy-security-is-a-feminist-and-economic-emergency/",
           "source": "Daily Maverick",
-          "published": "2026-03-25T16:15:18",
-          "lead": "South Africa is trialling a cheap, portable TB test that costs a third of the current standard. But the new test can’t d"
+          "published": "2026-03-25T20:47:48",
+          "lead": "Every year South Africa remains dependent on fossil fuels is another year in which distant conflicts, global price shock"
         }
       ],
       "sources": [
+        "The Guardian Africa",
+        "BBC Africa",
         "Africanews",
         "Daily Maverick",
-        "AllAfrica",
-        "The Guardian Africa",
-        "BBC Africa"
+        "AllAfrica"
       ]
     },
     "Eswatini": {
