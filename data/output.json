@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-03-25T04:49:01.328765",
+  "generated_at": "2026-03-25T06:53:04.274492",
   "summary": {
-    "high": 1,
-    "elevated": 9,
-    "normal": 26,
-    "quiet": 18
+    "high": 2,
+    "elevated": 15,
+    "normal": 20,
+    "quiet": 17
   },
   "countries": {
     "Morocco": {
       "article_count": 4,
       "source_count": 4,
       "baseline": 4.3,
-      "ratio": 0.94,
+      "ratio": 0.93,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -20,7 +20,7 @@
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Refugees",
           "count": 1
         },
         {
@@ -28,11 +28,11 @@
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Ceasefire",
           "count": 1
         },
         {
@@ -40,7 +40,7 @@
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -76,30 +76,30 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique",
         "RFI Afrique",
-        "Human Rights Watch"
+        "France24 Afrique",
+        "Human Rights Watch",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
       "article_count": 3,
       "source_count": 3,
-      "baseline": 1.3,
-      "ratio": 2.37,
+      "baseline": 1.4,
+      "ratio": 2.2,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Crise",
-          "count": 1
-        },
         {
           "word": "Président",
           "count": 1
         },
         {
-          "word": "Displaced",
+          "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
           "count": 1
         },
         {
@@ -107,11 +107,11 @@
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Ceasefire",
           "count": 1
         },
         {
@@ -119,7 +119,7 @@
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -148,9 +148,9 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "RFI Afrique",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "Le Monde Afrique"
       ]
     },
     "Tunisia": {
@@ -162,18 +162,18 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Réfugiés",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Méditerranée: comment l’Ocean Viking a procédé au sauvetage de migrants réfugiés sur une plateforme gazière",
-          "url": "https://www.rfi.fr/fr/afrique/20260324-m%C3%A9diterran%C3%A9e-comment-l-ocean-viking-a-proc%C3%A9d%C3%A9-au-sauvetage-de-migrants-r%C3%A9fugi%C3%A9s-sur-une-plateforme-gazi%C3%A8re",
+          "title": "Tunisie: la centrale syndicale UGTT se réunit en congrès pour élire son nouveau leader",
+          "url": "https://www.rfi.fr/fr/afrique/20260325-tunisie-la-centrale-syndicale-ugtt-se-r%C3%A9unit-en-congr%C3%A8s-pour-%C3%A9lire-son-nouveau-leader",
           "source": "RFI Afrique",
-          "published": "2026-03-24T08:47:12",
-          "lead": "L’Ocean Viking, de l'ONG française SOS Méditerranée, s’est rendu ce lundi en Italie après avoir secouru 116 migrants qui"
+          "published": "2026-03-25T05:11:56",
+          "lead": "En Tunisie, le congrès électif de l'UGTT, la Centrale syndicale tunisienne, s'ouvre aujourd'hui à Monastir, jusqu'au 27 "
         }
       ],
       "sources": [
@@ -183,8 +183,8 @@
     "Libya": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 0.9,
-      "ratio": 2.14,
+      "baseline": 0.8,
+      "ratio": 2.4,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -206,18 +206,23 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Le Monde Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.3,
-      "ratio": 0.75,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 1.2,
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "War",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -226,17 +231,25 @@
           "source": "BBC Africa",
           "published": "2026-03-24T20:34:23",
           "lead": "The Egypt forward says Liverpool fans \"gave me the best time of my life\" and \"stood by me in the toughest times\"."
+        },
+        {
+          "title": "From Pakistan to Egypt, Iran war drives up prices in Global South",
+          "url": "https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-25T05:20:18",
+          "lead": "Developing economies in Asia, Africa and the Middle East are bearing the brunt of surging energy costs."
         }
       ],
       "sources": [
+        "Al Jazeera",
         "BBC Africa"
       ]
     },
     "Sudan": {
       "article_count": 5,
       "source_count": 4,
-      "baseline": 5.0,
-      "ratio": 1.01,
+      "baseline": 4.8,
+      "ratio": 1.03,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -296,17 +309,17 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "RFI Afrique",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Le Monde Afrique"
       ]
     },
     "Mauritania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.07,
+      "baseline": 0.8,
+      "ratio": 1.2,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -330,10 +343,10 @@
       ]
     },
     "Mali": {
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 2.6,
-      "ratio": 1.92,
+      "baseline": 2.5,
+      "ratio": 1.62,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -375,13 +388,6 @@
           "lead": "La Mauritanie « condamne » les « attaques répétées » de ressortissants mauritaniens au Mali. Dans un communiqué publié l"
         },
         {
-          "title": "À la Une: la condamnation à deux ans de prison du journaliste malien Youssouf Sissoko",
-          "url": "https://www.rfi.fr/fr/podcasts/revue-de-presse-afrique/20260324-%C3%A0-la-une-la-condamnation-%C3%A0-deux-ans-de-prison-du-journaliste-malien-youssouf-sissoko",
-          "source": "RFI Afrique",
-          "published": "2026-03-24T08:56:54",
-          "lead": ""
-        },
-        {
           "title": "Au Mali, un journaliste condamné à deux ans de prison pour un article critiquant la junte au Niger",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/24/au-mali-un-journaliste-condamne-a-deux-ans-de-prison-pour-un-article-critiquant-la-junte-au-niger_6674062_3212.html",
           "source": "Le Monde Afrique",
@@ -397,16 +403,16 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "Le Monde Afrique"
       ]
     },
     "Burkina Faso": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.7,
-      "ratio": 1.2,
+      "baseline": 1.6,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -433,24 +439,24 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Niger": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.3,
-      "ratio": 1.29,
+      "ratio": 1.32,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Crise",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Crise",
           "count": 1
         },
         {
@@ -487,9 +493,9 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "Le Monde Afrique"
       ]
     },
     "Senegal": {
@@ -509,7 +515,7 @@
           "count": 2
         },
         {
-          "word": "Displaced",
+          "word": "Refugees",
           "count": 1
         },
         {
@@ -517,11 +523,11 @@
           "count": 1
         },
         {
-          "word": "Ceasefire",
+          "word": "Humanitarian",
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Ceasefire",
           "count": 1
         },
         {
@@ -529,7 +535,7 @@
           "count": 1
         },
         {
-          "word": "Refugees",
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -593,8 +599,8 @@
         }
       ],
       "sources": [
-        "Africanews",
         "France24 Afrique",
+        "Africanews",
         "Jeune Afrique",
         "RFI Afrique",
         "Human Rights Watch"
@@ -625,12 +631,12 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 2.3,
-      "ratio": 1.29,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.71,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -649,6 +655,13 @@
           "lead": "Si le nombre d’attaques est en recul dans le Sahel, elles se font sans cesse plus meurtrières, et la région reste l’épic"
         },
         {
+          "title": "Liberia: Ex-Combatants Issue One-Week Ultimatum to Guinean Troops Amid Border Tensions",
+          "url": "https://allafrica.com/stories/202603250049.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T04:59:07",
+          "lead": "[Liberian Investigator] GANTA, Nimba County - Former fighters have issued a stark one-week ultimatum to Guinean troops r"
+        },
+        {
           "title": "Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil",
           "url": "https://allafrica.com/stories/202603240190.html",
           "source": "AllAfrica",
@@ -657,9 +670,9 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "RFI Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Sierra Leone": {
@@ -675,15 +688,22 @@
       "sources": []
     },
     "Liberia": {
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 1.6,
-      "ratio": 0.62,
+      "ratio": 1.25,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Liberia: Ex-Combatants Issue One-Week Ultimatum to Guinean Troops Amid Border Tensions",
+          "url": "https://allafrica.com/stories/202603250049.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T04:59:07",
+          "lead": "[Liberian Investigator] GANTA, Nimba County - Former fighters have issued a stark one-week ultimatum to Guinean troops r"
+        },
         {
           "title": "Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil",
           "url": "https://allafrica.com/stories/202603240190.html",
@@ -700,7 +720,7 @@
       "article_count": 4,
       "source_count": 3,
       "baseline": 2.0,
-      "ratio": 2.03,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -749,16 +769,16 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Ghana": {
       "article_count": 12,
       "source_count": 6,
-      "baseline": 2.4,
-      "ratio": 4.93,
+      "baseline": 2.5,
+      "ratio": 4.86,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -884,11 +904,11 @@
       ],
       "sources": [
         "BBC Africa",
+        "AllAfrica",
         "Africanews",
         "Jeune Afrique",
         "Le Monde Afrique",
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Togo": {
@@ -904,12 +924,12 @@
       "sources": []
     },
     "Benin": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.8,
-      "ratio": 1.13,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.7,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Djihadiste",
@@ -939,18 +959,26 @@
           "source": "Jeune Afrique",
           "published": "2026-03-24T19:41:05",
           "lead": "À trois semaines de la présidentielle, Chabi Yayi rallie Romuald Wadagni, le candidat désigné par Patrice Talon. Annoncé"
+        },
+        {
+          "title": "Nigeria: Switzerland to Return Benin Bronzes, Back Nigeria On Security",
+          "url": "https://allafrica.com/stories/202603250061.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T04:59:13",
+          "lead": "[Leadership] Nigeria and Switzerland have agreed to actively strengthen their bilateral relations, focusing on a multi-f"
         }
       ],
       "sources": [
         "Jeune Afrique",
+        "AllAfrica",
         "Le Monde Afrique"
       ]
     },
     "Nigeria": {
       "article_count": 5,
       "source_count": 2,
-      "baseline": 8.9,
-      "ratio": 0.56,
+      "baseline": 8.7,
+      "ratio": 0.58,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -959,11 +987,11 @@
           "count": 1
         },
         {
-          "word": "President",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "President",
           "count": 1
         }
       ],
@@ -975,6 +1003,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-24T23:01:38",
           "lead": "Imaginez Lagos en 1993. La ville gronde, les militaires sont dans les rues, le Nigeria retient son souffle après une éle"
+        },
+        {
+          "title": "Nigeria: Switzerland to Return Benin Bronzes, Back Nigeria On Security",
+          "url": "https://allafrica.com/stories/202603250061.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T04:59:13",
+          "lead": "[Leadership] Nigeria and Switzerland have agreed to actively strengthen their bilateral relations, focusing on a multi-f"
         },
         {
           "title": "Nigeria: Iran War May Push Nigerians to Work From Home - Dangote",
@@ -996,13 +1031,6 @@
           "source": "AllAfrica",
           "published": "2026-03-24T10:30:43",
           "lead": "[This Day] Abuja -- The Nigerian Navy has rescued seven survivors following a boat mishap in the waterways of Bayelsa St"
-        },
-        {
-          "title": "Nigeria: Clean Cooking Can Save Money, Improve Health - Report",
-          "url": "https://allafrica.com/stories/202603250023.html",
-          "source": "AllAfrica",
-          "published": "2026-03-25T04:45:30",
-          "lead": "[This Day] A new international study has found that switching to clean cooking energy in Nigeria can reduce long-term ho"
         }
       ],
       "sources": [
@@ -1025,10 +1053,10 @@
     "Chad": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.5,
-      "ratio": 1.33,
-      "status": "normal",
-      "confidence": "normal",
+      "baseline": 1.3,
+      "ratio": 1.5,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Refugees",
@@ -1062,15 +1090,19 @@
       ]
     },
     "Cameroon": {
-      "article_count": 4,
+      "article_count": 5,
       "source_count": 2,
       "baseline": 2.9,
-      "ratio": 1.38,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.74,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Président",
           "count": 1
         },
         {
@@ -1090,6 +1122,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-24T10:38:57",
           "lead": "Dans l’ouest de la RCA, à Baoro, située à environ 200 kilomètres de la frontière avec le Cameroun, les écoles bénéficien"
+        },
+        {
+          "title": "Cameroun : Théodore Datouo, l’homme de l’ombre que Biya a propulsé président de l’Assemblée nationale",
+          "url": "https://www.jeuneafrique.com/1776679/politique/cameroun-theodore-datouo-lhomme-de-lombre-que-biya-a-propulse-president-de-lassemblee-nationale/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-25T06:55:00",
+          "lead": "Longtemps resté sous les radars, ce député des Hauts-Plateaux s’impose aujourd’hui au sommet de la chambre basse. Retour"
         },
         {
           "title": "Cameroun : Taïwan se retire d’une réunion de l’OMC pour avoir été nommé par Yaoundé « province de Chine »",
@@ -1114,15 +1153,15 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "CAR": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.64,
+      "baseline": 1.4,
+      "ratio": 0.7,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -1148,8 +1187,8 @@
     "South Sudan": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.48,
+      "baseline": 1.9,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1242,18 +1281,27 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Le Monde Afrique",
-        "Africanews"
+        "Africanews",
+        "Le Monde Afrique"
       ]
     },
     "DRC": {
-      "article_count": 5,
-      "source_count": 4,
-      "baseline": 7.2,
-      "ratio": 0.7,
+      "article_count": 7,
+      "source_count": 5,
+      "baseline": 7.1,
+      "ratio": 0.99,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "M23",
+          "count": 1
+        },
+        {
+          "word": "Mort",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1262,6 +1310,20 @@
           "source": "The Guardian Africa",
           "published": "2026-03-24T12:42:56",
           "lead": "Conservationists celebrate second twin birth just two months after another set discovered in Virunga national parkA seco"
+        },
+        {
+          "title": "RDC: la somme d'argent découverte à l'aéroport Ndjili s'élevait en fait à 3,7 millions de dollars",
+          "url": "https://www.rfi.fr/fr/afrique/20260325-rdc-la-somme-d-argent-d%C3%A9couverte-%C3%A0-l-a%C3%A9roport-ndjili-s-%C3%A9levait-en-fait-%C3%A0-3-7-millions-de-dollars",
+          "source": "RFI Afrique",
+          "published": "2026-03-25T04:50:27",
+          "lead": "En République démocratique du Congo, un scandale financier secoue Kinshasa après la découverte, samedi dernier, d'une gr"
+        },
+        {
+          "title": "Dans l’est de la RDC, des civils enfermés dans des conteneurs par le M23 : « C’est la vallée de la mort »",
+          "url": "https://www.lemonde.fr/afrique/article/2026/03/25/dans-l-est-de-la-rdc-des-civils-enfermes-dans-des-conteneurs-par-le-m23-c-est-la-vallee-de-la-mort_6674169_3212.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-25T06:30:04",
+          "lead": "Selon une enquête de Reporters sans frontières, le Mouvement du 23 mars aurait détenu de « nombreuses personnes » dans d"
         },
         {
           "title": "En Angola, le français devient obligatoire dès l’école primaire",
@@ -1293,10 +1355,11 @@
         }
       ],
       "sources": [
+        "The Guardian Africa",
+        "Africanews",
         "Jeune Afrique",
         "Le Monde Afrique",
-        "The Guardian Africa",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1342,8 +1405,8 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Le Monde Afrique"
       ]
     },
     "Eritrea": {
@@ -1393,45 +1456,37 @@
       ]
     },
     "Ethiopia": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.7,
-      "ratio": 1.1,
+      "ratio": 0.75,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Minister",
+          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Santé en Afrique: «Nous voulons que nos pathogènes, nos maladies, puissent être d'abord traités par les Africains»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260325-sant%C3%A9-en-afrique-nous-voulons-que-nos-pathog%C3%A8nes-nos-maladies-puissent-%C3%AAtre-d-abord-trait%C3%A9s-par-les-africains",
+          "source": "RFI Afrique",
+          "published": "2026-03-25T05:32:22",
+          "lead": "C’est le volet sanitaire de la stratégie « America First » du président Trump : les États-Unis concluent ces dernières s"
+        },
+        {
           "title": "Soudan: d'intenses combats signalés dans la région du Nil Bleu à la frontière avec l'Éthiopie",
           "url": "https://www.rfi.fr/fr/afrique/20260324-soudan-d-intenses-combats-signal%C3%A9s-dans-la-r%C3%A9gion-du-nil-bleu-%C3%A0-la-fronti%C3%A8re-avec-l-%C3%A9thiopie",
           "source": "RFI Afrique",
           "published": "2026-03-24T23:40:57",
           "lead": "De violents combats opposent depuis le 22 mars l'armée soudanaise aux paramilitaires des Forces de soutien rapide et leu"
-        },
-        {
-          "title": "Ethiopia: Innovation Reshaping Financial Landscape of Ethiopia - National Bank Governor",
-          "url": "https://allafrica.com/stories/202603250018.html",
-          "source": "AllAfrica",
-          "published": "2026-03-25T04:39:17",
-          "lead": "[ENA] Addis Ababa -- Innovation is reshaping the financial landscape in Ethiopia as the country continues its financial "
-        },
-        {
-          "title": "Ethiopia: Ethiopia's Corridor Dev't Initiatives Delivering Far-Reaching Socio-Economic Benefits, Says PM Abiy",
-          "url": "https://allafrica.com/stories/202603250017.html",
-          "source": "AllAfrica",
-          "published": "2026-03-25T04:39:16",
-          "lead": "[ENA] Addis Ababa -- Prime Minister Abiy Ahmed has underscored that Ethiopia's ongoing corridor development initiatives "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica"
+        "RFI Afrique"
       ]
     },
     "Somalia": {
@@ -1449,24 +1504,24 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.3,
-      "ratio": 0.43,
+      "baseline": 2.1,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Zimbabwe: Biti's Arrest a Cowardly Act Says Ugandan Opposition Leader Bobi Wine",
-          "url": "https://allafrica.com/stories/202603240114.html",
+          "title": "Uganda: Police Vacate Bobi Wine's Magere Home After Two-Month Siege",
+          "url": "https://allafrica.com/stories/202603250079.html",
           "source": "AllAfrica",
-          "published": "2026-03-24T06:25:02",
-          "lead": "[New Zimbabwe] Exiled Ugandan opposition leader Robert Kyagulanyi Ssentamu popularly known as Bobi Wine has condemned th"
+          "published": "2026-03-25T05:13:25",
+          "lead": "[Nile Post] Police have completely withdrawn from the private residence of National Unity Platform (NUP) president Rober"
         }
       ],
       "sources": [
@@ -1474,12 +1529,12 @@
       ]
     },
     "Kenya": {
-      "article_count": 7,
+      "article_count": 9,
       "source_count": 3,
       "baseline": 5.9,
-      "ratio": 1.19,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.52,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "War",
@@ -1490,11 +1545,11 @@
           "count": 2
         },
         {
-          "word": "Drought",
+          "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Drought",
           "count": 1
         },
         {
@@ -1502,15 +1557,15 @@
           "count": 1
         },
         {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
+          "word": "Refugees",
           "count": 1
         },
         {
           "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Ceasefire",
           "count": 1
         }
       ],
@@ -1531,11 +1586,32 @@
           "lead": "Kenya Airways says bookings on its flights have surged sharply in recent weeks, as disruptions linked to the conflict in"
         },
         {
+          "title": "Kenya: 33 Bodies Exhumed From Kericho Mass Grave, 25 Children Among Victims",
+          "url": "https://allafrica.com/stories/202603250037.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T04:48:26",
+          "lead": "[Capital FM] Kericho -- Thirty-three bodies have been exhumed from a mass grave in Kericho, pathologist Dr Richard Njoro"
+        },
+        {
+          "title": "Kenya: Tuju Secures Anticipatory Bond At the High Court",
+          "url": "https://allafrica.com/stories/202603250036.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T04:48:25",
+          "lead": "[Capital FM] Nairobi -- Former Cabinet Secretary Raphael Tuju has been granted an anticipatory bond of Sh200,000 to prev"
+        },
+        {
           "title": "Kenya: Government Moves to Calm Fears Over Kenya's Unpreparedness to Host Afcon 2027",
           "url": "https://allafrica.com/stories/202603240360.html",
           "source": "AllAfrica",
           "published": "2026-03-24T12:08:07",
           "lead": "[Capital FM] NAIROBI, Kenya, March 24, 2026 - Sports Cabinet Secretary Salim Mvurya says they are working overtime to pa"
+        },
+        {
+          "title": "Kenya: Men Accounted for 90% of Victims of Police Killings in Kenya in 2025 - Missing Voices Report",
+          "url": "https://allafrica.com/stories/202603250106.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T05:19:31",
+          "lead": "[Capital FM] Nairobi -- Men accounted for about 90 per cent of victims of police killings in Kenya in 2025, a newly rele"
         },
         {
           "title": "Kenya: Kenya's Double Climate Crisis - It Needs Funds to Adapt, and Disaster Aid Is Damaging the Environment",
@@ -1552,13 +1628,6 @@
           "lead": "[Africa Check] No, Kenyan health minister Aden Duale was not injured in road crash"
         },
         {
-          "title": "Kenya: Kenya Flags Off First Exports to China Under Zero-Tariff Agreement",
-          "url": "https://allafrica.com/stories/202603240187.html",
-          "source": "AllAfrica",
-          "published": "2026-03-24T09:45:56",
-          "lead": "[Capital FM] Nairobi -- Kenya on Monday flagged off its first consignment of exports to China under a newly implemented "
-        },
-        {
           "title": "UN: Western Sahara Peoples’ Self-Determination at Risk",
           "url": "https://www.hrw.org/news/2026/03/25/un-western-sahara-peoples-self-determination-at-risk",
           "source": "Human Rights Watch",
@@ -1567,9 +1636,9 @@
         }
       ],
       "sources": [
-        "Human Rights Watch",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Human Rights Watch"
       ]
     },
     "Rwanda": {
@@ -1598,14 +1667,14 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "AllAfrica"
+        "AllAfrica",
+        "Jeune Afrique"
       ]
     },
     "Burundi": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.0,
+      "baseline": 0.9,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1690,6 +1759,33 @@
       "sources": []
     },
     "Zambia": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.6,
+      "ratio": 1.76,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Santé en Afrique: «Nous voulons que nos pathogènes, nos maladies, puissent être d'abord traités par les Africains»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260325-sant%C3%A9-en-afrique-nous-voulons-que-nos-pathog%C3%A8nes-nos-maladies-puissent-%C3%AAtre-d-abord-trait%C3%A9s-par-les-africains",
+          "source": "RFI Afrique",
+          "published": "2026-03-25T05:32:22",
+          "lead": "C’est le volet sanitaire de la stratégie « America First » du président Trump : les États-Unis concluent ces dernières s"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
+    },
+    "Malawi": {
       "article_count": 0,
       "source_count": 0,
       "baseline": 0.6,
@@ -1701,23 +1797,11 @@
       "articles": [],
       "sources": []
     },
-    "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
     "Mozambique": {
       "article_count": 3,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 3.1,
+      "baseline": 0.9,
+      "ratio": 3.33,
       "status": "elevated",
       "confidence": "low",
       "keywords": [
@@ -1756,18 +1840,18 @@
     },
     "Zimbabwe": {
       "article_count": 4,
-      "source_count": 3,
+      "source_count": 4,
       "baseline": 2.5,
       "ratio": 1.58,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
-          "word": "President",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         }
       ],
@@ -1779,6 +1863,13 @@
           "source": "The Guardian Africa",
           "published": "2026-03-25T03:06:10",
           "lead": "Grammy winner seeks more than $20m in damages over mistranslation of The Lion King chantA Grammy-winning South African c"
+        },
+        {
+          "title": "Santé en Afrique: «Nous voulons que nos pathogènes, nos maladies, puissent être d'abord traités par les Africains»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260325-sant%C3%A9-en-afrique-nous-voulons-que-nos-pathog%C3%A8nes-nos-maladies-puissent-%C3%AAtre-d-abord-trait%C3%A9s-par-les-africains",
+          "source": "RFI Afrique",
+          "published": "2026-03-25T05:32:22",
+          "lead": "C’est le volet sanitaire de la stratégie « America First » du président Trump : les États-Unis concluent ces dernières s"
         },
         {
           "title": "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes",
@@ -1793,29 +1884,28 @@
           "source": "AllAfrica",
           "published": "2026-03-24T10:27:25",
           "lead": "[New Zimbabwe] Johannesburg -- The son of former Zimbabwean president Robert Mugabe, Bellarmine, is expected back in the"
-        },
-        {
-          "title": "Zimbabwe: Biti's Arrest a Cowardly Act Says Ugandan Opposition Leader Bobi Wine",
-          "url": "https://allafrica.com/stories/202603240114.html",
-          "source": "AllAfrica",
-          "published": "2026-03-24T06:25:02",
-          "lead": "[New Zimbabwe] Exiled Ugandan opposition leader Robert Kyagulanyi Ssentamu popularly known as Bobi Wine has condemned th"
         }
       ],
       "sources": [
         "The Guardian Africa",
         "Africanews",
+        "RFI Afrique",
         "AllAfrica"
       ]
     },
     "Namibia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.5,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 3.0,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1824,9 +1914,17 @@
           "source": "BBC Africa",
           "published": "2026-03-24T10:50:17",
           "lead": "Namibia's regulator noted that Starlink's subsidiary is not locally owned."
+        },
+        {
+          "title": "Namibia: Namibia Rejects Starlink Licence Over Legal and Security Concerns",
+          "url": "https://allafrica.com/stories/202603250076.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T05:13:24",
+          "lead": "[Namibian] The government has rejected satellite internet service Starlink's application for a licence to operate in Nam"
         }
       ],
       "sources": [
+        "AllAfrica",
         "BBC Africa"
       ]
     },
@@ -1858,10 +1956,10 @@
       ]
     },
     "South Africa": {
-      "article_count": 17,
+      "article_count": 16,
       "source_count": 4,
-      "baseline": 14.4,
-      "ratio": 1.18,
+      "baseline": 14.5,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1874,11 +1972,11 @@
           "count": 2
         },
         {
-          "word": "Government",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Government",
           "count": 1
         },
         {
@@ -1912,6 +2010,13 @@
           "source": "Africanews",
           "published": "2026-03-24T11:44:00",
           "lead": "South African airlines are facing mounting pressures as rising fuel prices and regional tensions disrupt operations. Jet"
+        },
+        {
+          "title": "South Africa: Western Cape Water Levels Drop, Six Months' Supply Remains - South African News Briefs - March 25, 2026",
+          "url": "https://allafrica.com/stories/202603250107.html",
+          "source": "AllAfrica",
+          "published": "2026-03-25T05:38:37",
+          "lead": "[allAfrica]"
         },
         {
           "title": "South Africa: How Climate Change is Quietly Reshaping Lung Health in South Africa",
@@ -1949,20 +2054,6 @@
           "lead": "[New Zimbabwe] Johannesburg -- The son of former Zimbabwean president Robert Mugabe, Bellarmine, is expected back in the"
         },
         {
-          "title": "South Africa: TB Stigma Still Keeps People From Testing and Treatment in South Africa",
-          "url": "https://allafrica.com/stories/202603240131.html",
-          "source": "AllAfrica",
-          "published": "2026-03-24T08:25:47",
-          "lead": "[Health-e] Tuberculosis (TB) remains South Africa's deadliest infectious disease, with 56 000 people dying from the dise"
-        },
-        {
-          "title": "South Africa: Motsoaledi Vows Tribunal Over Hospital Deaths - South African News Briefs - March 24, 2026",
-          "url": "https://allafrica.com/stories/202603240108.html",
-          "source": "AllAfrica",
-          "published": "2026-03-24T05:33:58",
-          "lead": "[allAfrica] Motsoaledi Ready for Tribunal in Gauteng Deaths Probe"
-        },
-        {
           "title": "THE INVISIBLE HEIST: The second ordeal — what happens when SA fraud victims fight back?",
           "url": "https://www.dailymaverick.co.za/article/2026-03-24-the-second-ordeal-what-happens-when-sa-fraud-victims-fight-back-1/",
           "source": "Daily Maverick",
@@ -1975,13 +2066,20 @@
           "source": "Daily Maverick",
           "published": "2026-03-24T21:02:20",
           "lead": "The US is probing the trade practices of dozens of countries, including South Africa, as President Donald Trump moves to"
+        },
+        {
+          "title": "LEGAL CHALLENGE: ‘Nothing about us without us’: Fishers fight TotalEnergies’ exploration plans",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-24-nothing-about-us-without-us-fishers-fight-totalenergies-exploration-plans/",
+          "source": "Daily Maverick",
+          "published": "2026-03-24T20:52:12",
+          "lead": "TotalEnergies EP South Africa has once again been taken to the Western Cape High Court by small-scale fishing communitie"
         }
       ],
       "sources": [
-        "Daily Maverick",
         "The Guardian Africa",
         "Africanews",
-        "AllAfrica"
+        "AllAfrica",
+        "Daily Maverick"
       ]
     },
     "Eswatini": {
