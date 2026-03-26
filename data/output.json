@@ -1,22 +1,29 @@
 {
-  "generated_at": "2026-03-26T05:00:23.069752",
+  "generated_at": "2026-03-26T06:58:48.503900",
   "summary": {
-    "high": 10,
-    "elevated": 12,
+    "high": 2,
+    "elevated": 7,
     "normal": 25,
-    "quiet": 7
+    "quiet": 20
   },
   "countries": {
     "Morocco": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 4.1,
-      "ratio": 0.24,
+      "ratio": 0.49,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Senegal appeal to CAS against handing over of AFCON title to Morocco",
+          "url": "https://www.aljazeera.com/sports/2026/3/26/senegal-appeal-to-cas-against-handing-over-of-afcon-title-to-morocco?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-26T06:16:38",
+          "lead": "Senegal hope to overturn CAF&#039;s decision to crown Morocco champions after a walkout by Senegalese players in the fin"
+        },
         {
           "title": "CAN 2025: le Sénégal remet son dossier devant le TAS concernant la victoire attribuée au Maroc",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260325-can-2025-le-s%C3%A9n%C3%A9gal-remet-son-dossier-devant-le-tas-concernant-la-victoire-attribu%C3%A9e-au-maroc",
@@ -26,14 +33,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Al Jazeera"
       ]
     },
     "Algeria": {
       "article_count": 6,
       "source_count": 5,
-      "baseline": 1.8,
-      "ratio": 3.33,
+      "baseline": 1.7,
+      "ratio": 3.46,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -96,18 +104,18 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Le Monde Afrique",
-        "The Guardian Africa",
         "Jeune Afrique",
-        "Africanews"
+        "Africanews",
+        "Le Monde Afrique",
+        "France24 Afrique",
+        "The Guardian Africa"
       ]
     },
     "Tunisia": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.0,
-      "ratio": 2.07,
+      "ratio": 2.0,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [],
@@ -129,8 +137,8 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "The Guardian Africa"
       ]
     },
     "Libya": {
@@ -164,20 +172,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Egypt": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 0.91,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 1.82,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Minister",
+          "count": 2
+        },
+        {
+          "word": "War",
           "count": 1
         }
       ],
@@ -189,51 +201,59 @@
           "source": "Al Jazeera",
           "published": "2026-03-25T23:44:14",
           "lead": "Egypt’s Foreign Minister Badr Abdelatty said Cairo is ready to host talks on Iran to support de-escalation."
+        },
+        {
+          "title": "Egypt ready to host meetings related to de-escalating Iran war, says FM",
+          "url": "http://www.africanews.com/2026/03/26/egypt-ready-to-host-meetings-related-to-de-escalating-iran-war-says-fm/",
+          "source": "Africanews",
+          "published": "2026-03-26T06:07:05",
+          "lead": "Egypt's Foreign Minister Badr Abdelatty said during a press conference on Wednesday that his country's mediation between"
         }
       ],
       "sources": [
+        "Africanews",
         "Al Jazeera"
       ]
     },
     "Sudan": {
-      "article_count": 10,
+      "article_count": 6,
       "source_count": 5,
-      "baseline": 4.9,
-      "ratio": 2.05,
-      "status": "elevated",
-      "confidence": "medium",
+      "baseline": 5.1,
+      "ratio": 1.18,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
-        {
-          "word": "Réfugiés",
-          "count": 3
-        },
-        {
-          "word": "Humanitarian",
-          "count": 3
-        },
         {
           "word": "War",
           "count": 2
         },
         {
-          "word": "Déplacés",
-          "count": 2
+          "word": "Rsf",
+          "count": 1
         },
         {
-          "word": "Famine",
-          "count": 2
+          "word": "Combat",
+          "count": 1
         },
         {
-          "word": "Refugees",
-          "count": 2
+          "word": "Fighting",
+          "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 2
+          "word": "Humanitarian",
+          "count": 1
         },
         {
-          "word": "Displaced",
-          "count": 2
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -267,39 +287,11 @@
           "lead": "Countries like Sudan, Somalia, Tanzania, and Mozambique rely heavily on imported fertilizers - much of it coming through"
         },
         {
-          "title": "Tchad Perspectives sur la sécurité alimentaire: Février - Septembre 2026: Détérioration de l’insécurité alimentaire au Tchad sous l’effet combiné des afflux de réfugiés et des conflits",
-          "url": "https://reliefweb.int/report/chad/tchad-perspectives-sur-la-securite-alimentaire-fevrier-septembre-2026-deterioration-de-linsecurite-alimentaire-au-tchad-sous-leffet-combine-des-afflux-de-refugies-et-des-conflits",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:46:17",
-          "lead": "Countries: Chad, Sudan\n                                      Source: Famine Early Warning System Network\n               "
-        },
-        {
-          "title": "Chad Food Security Outlook: February - September 2026: Food insecurity deteriorates in Chad due to effects of refugee influx and conflict",
-          "url": "https://reliefweb.int/report/chad/chad-food-security-outlook-february-september-2026-food-insecurity-deteriorates-chad-due-effects-refugee-influx-and-conflict",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:42:40",
-          "lead": "Countries: Chad, Sudan\n                                      Source: Famine Early Warning System Network\n               "
-        },
-        {
-          "title": "Sudan: Floods - Final Report (MDRSD028)",
-          "url": "https://reliefweb.int/report/sudan/sudan-floods-final-report-mdrsd028",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T23:31:45",
-          "lead": "Country: Sudan\n                                      Source: International Federation of Red Cross and Red Crescent Soci"
-        },
-        {
-          "title": "CAR: République centrafricaine : Rapport de situation N°60, au 24 mars 2026",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg60-au-24-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:52:29",
-          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
-        },
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
+          "title": "Sudan: Sudan Calls for Exceptional Support to Conflict-Affected Countries Within 2026-2029 International Cooperation Strategy",
+          "url": "https://allafrica.com/stories/202603260098.html",
+          "source": "AllAfrica",
+          "published": "2026-03-26T05:17:47",
+          "lead": "[SNA] Geneva, March 25, 2026 (SUNA) - Sudan emphasized the importance of taking into account the specific conditions of "
         },
         {
           "title": "Middle East Conflict: Rhetoric, Actions Flout Laws of War",
@@ -310,35 +302,23 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Human Rights Watch",
-        "ReliefWeb",
+        "AllAfrica",
         "The Guardian Africa",
-        "RFI Afrique",
-        "Africanews"
+        "RFI Afrique"
       ]
     },
     "Mauritania": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 0.8,
-      "ratio": 3.75,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 0.9,
+      "ratio": 1.11,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
           "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -350,48 +330,20 @@
           "source": "RFI Afrique",
           "published": "2026-03-26T01:40:25",
           "lead": "En Mauritanie, la politique de lutte contre l’immigration irrégulière entamée il y a plusieurs mois par le gouvernement "
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Mali": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 2.6,
-      "ratio": 1.95,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 1.14,
+      "status": "normal",
+      "confidence": "normal",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -414,93 +366,36 @@
           "source": "Jeune Afrique",
           "published": "2026-03-25T09:07:42",
           "lead": "En renforçant sa coopération sécuritaire et économique avec Abdourahamane Tiani, Abdejmadjid Tebboune espère maintenir l"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Jeune Afrique",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Jeune Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.5,
-      "ratio": 1.36,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Niger": {
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 2.3,
+      "ratio": 1.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
-    },
-    "Niger": {
-      "article_count": 4,
-      "source_count": 3,
-      "baseline": 2.3,
-      "ratio": 1.76,
-      "status": "elevated",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
+          "count": 2
         }
       ],
       "keyword_pairs": [],
@@ -520,48 +415,28 @@
           "lead": "[Premium Times] Hamisu Abdullahi allegedly shouted \"No water, no light\" during Governor Mohammed Bago's visit to Suleja"
         },
         {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
+          "title": "Nigeria: Ex-Niger Delta Agitators, NDSF Call On Tinubu to Decentralise Pipeline Surveillance Contracts",
+          "url": "https://allafrica.com/stories/202603260143.html",
+          "source": "AllAfrica",
+          "published": "2026-03-26T06:53:45",
+          "lead": "[Vanguard] Port Harcourt -- Leaders of former Niger Delta agitators and the Niger Delta Stakeholders Forum (NDSF) have u"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "AllAfrica"
       ]
     },
     "Senegal": {
       "article_count": 9,
       "source_count": 7,
-      "baseline": 5.8,
-      "ratio": 1.56,
+      "baseline": 5.7,
+      "ratio": 1.57,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -573,6 +448,13 @@
           "source": "BBC Africa",
           "published": "2026-03-25T16:50:20",
           "lead": "The Court of Arbitration for Sport (Cas) says it will rule on Senegal's appeal against being stripped of the Africa Cup "
+        },
+        {
+          "title": "Senegal appeal to CAS against handing over of AFCON title to Morocco",
+          "url": "https://www.aljazeera.com/sports/2026/3/26/senegal-appeal-to-cas-against-handing-over-of-afcon-title-to-morocco?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-26T06:16:38",
+          "lead": "Senegal hope to overturn CAF&#039;s decision to crown Morocco champions after a walkout by Senegalese players in the fin"
         },
         {
           "title": "Fans and players from five African World Cup countries face $15,000 bond to enter US",
@@ -622,102 +504,49 @@
           "source": "Africanews",
           "published": "2026-03-25T12:57:05",
           "lead": "Debt-laden Senegal has denied a report in the Financial Times that it covertly borrowed 650 million euros ($754 million)"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "France24 Afrique",
-        "ReliefWeb",
-        "The Guardian Africa",
         "Jeune Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "BBC Africa",
+        "Al Jazeera",
+        "France24 Afrique",
+        "The Guardian Africa",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Guinea-Bissau": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Guinea": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 1.62,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.2,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Mort",
@@ -729,18 +558,6 @@
         },
         {
           "word": "President",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -766,64 +583,33 @@
           "source": "AllAfrica",
           "published": "2026-03-25T09:58:17",
           "lead": "[FrontPageAfrica] Monrovia -- Liberia's deepening border dispute with Guinea has entered a new phase of diplomatic urgen"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
         }
       ],
       "sources": [
-        "AllAfrica",
         "Jeune Afrique",
-        "ReliefWeb",
-        "RFI Afrique"
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Sierra Leone": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.8,
-      "ratio": 1.3,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Liberia": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 2.73,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 4,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 2.14,
+      "status": "elevated",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Government",
@@ -835,18 +621,6 @@
         },
         {
           "word": "Minister",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -879,42 +653,22 @@
           "source": "AllAfrica",
           "published": "2026-03-25T09:56:47",
           "lead": "[Liberian Observer] Baba Mohammed Boika, program manager for monitoring and investigations at the Liberia Anti-Corruptio"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "ReliefWeb"
+        "AllAfrica"
       ]
     },
     "Côte d'Ivoire": {
-      "article_count": 4,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.0,
-      "ratio": 2.03,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 0.98,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
@@ -933,32 +687,17 @@
           "source": "Jeune Afrique",
           "published": "2026-03-25T17:59:20",
           "lead": "Lors de cette visite officielle, le ministre ivoirien délégué chargé de l’Intégration africaine et des Ivoiriens de l’ex"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Ghana": {
-      "article_count": 10,
-      "source_count": 6,
+      "article_count": 7,
+      "source_count": 4,
       "baseline": 2.5,
-      "ratio": 4.05,
+      "ratio": 2.76,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -967,31 +706,12 @@
           "count": 3
         },
         {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
           "word": "Combat",
-          "count": 1
-        },
-        {
-          "word": "Coup",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "UN adopts slavery resolution despite resistance",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/un-adopts-slavery-resolution-despite-resistance?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-25T20:50:15",
-          "lead": "The UN has adopted a Ghana-led resolution recognising transatlantic slavery as the “gravest crime against humanity”."
-        },
         {
           "title": "UN adopts Ghana's resolution to class slave trade as crime against humanity – video",
           "url": "https://www.theguardian.com/world/video/2026/mar/25/un-adopts-ghanas-resolution-to-class-slave-trade-as-against-humanity-video",
@@ -1040,137 +760,100 @@
           "source": "Africanews",
           "published": "2026-03-25T09:35:49",
           "lead": "Ghana’s embassy in the United States has criticised Lincoln University's last-minute decision to cancel plans to confer "
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
         }
       ],
       "sources": [
-        "Al Jazeera",
         "Le Monde Afrique",
-        "ReliefWeb",
-        "The Guardian Africa",
         "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "The Guardian Africa"
       ]
     },
     "Togo": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "elevated",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Benin": {
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.8,
+      "ratio": 0.56,
+      "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 2
+          "word": "Guerre",
+          "count": 1
         },
         {
-          "word": "Refugees",
-          "count": 2
+          "word": "Élection",
+          "count": 1
         },
         {
-          "word": "Coup",
+          "word": "Président",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
+          "title": "Présidentielle au Bénin: Romuald Wadagni, candidat du parti au pouvoir, rejoint par le fils de Boni Yayi",
+          "url": "https://www.rfi.fr/fr/afrique/20260326-pr%C3%A9sidentielle-au-b%C3%A9nin-romuald-wadagni-candidat-du-parti-au-pouvoir-rejoint-par-le-fils-de-boni-yayi",
+          "source": "RFI Afrique",
+          "published": "2026-03-26T06:13:19",
+          "lead": "Les turbulences n'en finissent plus de secouer le parti d'opposition Les Démocrates à l'approche de l'élection président"
         }
       ],
       "sources": [
-        "ReliefWeb"
-      ]
-    },
-    "Benin": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 1.8,
-      "ratio": 1.13,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "Benin: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (Central Sahel Outflow), 31 December 2025",
-          "url": "https://reliefweb.int/report/benin/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-central-sahel-outflow-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:26:10",
-          "lead": "Countries: Benin, Burkina Faso, Côte d'Ivoire, Ghana, Mali, Mauritania, Togo\n                                      Sourc"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
+        "RFI Afrique"
       ]
     },
     "Nigeria": {
-      "article_count": 8,
-      "source_count": 3,
+      "article_count": 11,
+      "source_count": 4,
       "baseline": 8.8,
-      "ratio": 0.91,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Government",
+          "count": 4
+        },
+        {
+          "word": "Killed",
           "count": 2
         },
         {
           "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
+          "count": 2
         },
         {
           "word": "President",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Dead",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
           "count": 1
         }
       ],
@@ -1189,6 +872,13 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-25T08:30:04",
           "lead": "Pour son premier long-métrage, Akinola Davies Jr ancre son récit au début des années 1990, au moment d’une transition dé"
+        },
+        {
+          "title": "Nigeria: Nigeria Expands Security Ties Amid Insurgency",
+          "url": "https://allafrica.com/stories/202603260107.html",
+          "source": "AllAfrica",
+          "published": "2026-03-26T06:16:25",
+          "lead": "[DW] Nigeria is expanding security partnerships as extremist threats rise, strengthening cooperation with France, receiv"
         },
         {
           "title": "Nigeria: U.S. Troops in Nigeria to Help Fight Terrorism Could End Up Making It Worse - Analyst",
@@ -1231,35 +921,37 @@
           "source": "AllAfrica",
           "published": "2026-03-25T09:49:57",
           "lead": "[Vanguard] Gunmen on Tuesday night stormed Rim Village in Riyom Local Government Area of Plateau State, killing two pers"
+        },
+        {
+          "title": "Nigeria: Ex-Niger Delta Agitators, NDSF Call On Tinubu to Decentralise Pipeline Surveillance Contracts",
+          "url": "https://allafrica.com/stories/202603260143.html",
+          "source": "AllAfrica",
+          "published": "2026-03-26T06:53:45",
+          "lead": "[Vanguard] Port Harcourt -- Leaders of former Niger Delta agitators and the Niger Delta Stakeholders Forum (NDSF) have u"
+        },
+        {
+          "title": "Nigeria: Maiduguri Bombings Show New Threat to Civilians",
+          "url": "https://www.hrw.org/news/2026/03/26/nigeria-maiduguri-bombings-show-new-threat-to-civilians",
+          "source": "Human Rights Watch",
+          "published": "2026-03-26T06:00:00",
+          "lead": "Click to expand Image\n          \n\n\n\n  \n        \n  \n\n        \n                      \n      \n        \n              An arm"
         }
       ],
       "sources": [
+        "Le Monde Afrique",
         "DW Africa",
-        "AllAfrica",
-        "Le Monde Afrique"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Cape Verde": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 4.0,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1268,61 +960,20 @@
           "source": "The Guardian Africa",
           "published": "2026-03-25T19:04:34",
           "lead": "State department to expand program on 2 AprilAlgeria, Côte d’Ivoire, Senegal, Tunisia, Cape Verde affectedNo apparent ex"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "The Guardian Africa"
       ]
     },
     "Chad": {
-      "article_count": 5,
-      "source_count": 2,
-      "baseline": 1.3,
-      "ratio": 3.85,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 3
-        },
-        {
-          "word": "Famine",
-          "count": 2
-        },
-        {
-          "word": "Réfugiés",
-          "count": 2
-        },
-        {
-          "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Déplacés",
-          "count": 1
-        },
-        {
-          "word": "Terrorist",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.4,
+      "ratio": 0.7,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1331,71 +982,22 @@
           "source": "Jeune Afrique",
           "published": "2026-03-25T10:04:28",
           "lead": "N’Djamena va déployer 750 membres de ses forces de sécurité dans le cadre de la Force de répression des gangs (FRG) en H"
-        },
-        {
-          "title": "Tchad Perspectives sur la sécurité alimentaire: Février - Septembre 2026: Détérioration de l’insécurité alimentaire au Tchad sous l’effet combiné des afflux de réfugiés et des conflits",
-          "url": "https://reliefweb.int/report/chad/tchad-perspectives-sur-la-securite-alimentaire-fevrier-septembre-2026-deterioration-de-linsecurite-alimentaire-au-tchad-sous-leffet-combine-des-afflux-de-refugies-et-des-conflits",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:46:17",
-          "lead": "Countries: Chad, Sudan\n                                      Source: Famine Early Warning System Network\n               "
-        },
-        {
-          "title": "Chad Food Security Outlook: February - September 2026: Food insecurity deteriorates in Chad due to effects of refugee influx and conflict",
-          "url": "https://reliefweb.int/report/chad/chad-food-security-outlook-february-september-2026-food-insecurity-deteriorates-chad-due-effects-refugee-influx-and-conflict",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:42:40",
-          "lead": "Countries: Chad, Sudan\n                                      Source: Famine Early Warning System Network\n               "
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Cameroon": {
-      "article_count": 6,
-      "source_count": 3,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 2.9,
-      "ratio": 2.09,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.02,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
           "word": "Crise",
-          "count": 1
-        },
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
           "count": 1
         }
       ],
@@ -1416,79 +1018,33 @@
           "lead": "L’ingénieur financier de 41 ans, fils de l’homme politique Roger Melingui, vient d’être porté à la tête de la société de"
         },
         {
-          "title": "Cameroun : Théodore Datouo, l’homme de l’ombre que Biya a propulsé président de l’Assemblée nationale",
-          "url": "https://www.jeuneafrique.com/1776679/politique/cameroun-theodore-datouo-lhomme-de-lombre-que-biya-a-propulse-president-de-lassemblee-nationale/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-25T06:55:00",
-          "lead": "Longtemps resté sous les radars, ce député des Hauts-Plateaux s’impose aujourd’hui au sommet de la chambre basse. Retour"
-        },
-        {
           "title": "Taiwan skips WTO meeting after Cameroon labels it ‘Province of China’",
           "url": "http://www.africanews.com/2026/03/25/taiwan-skips-wto-meeting-after-cameroon-labels-it-province-of-china/",
           "source": "Africanews",
           "published": "2026-03-25T11:15:51",
           "lead": "Taiwan has announced it will for the first time skip a major World Trade Organization (WTO) ministerial meeting after a "
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Jeune Afrique",
         "Africanews"
       ]
     },
     "CAR": {
-      "article_count": 6,
-      "source_count": 2,
-      "baseline": 1.4,
-      "ratio": 4.29,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.6,
+      "ratio": 0.62,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 3
+          "word": "Coup",
+          "count": 1
         },
         {
           "word": "Crise",
-          "count": 2
-        },
-        {
-          "word": "Coup",
-          "count": 2
-        },
-        {
-          "word": "Déplacés",
-          "count": 2
-        },
-        {
-          "word": "Famine",
-          "count": 2
-        },
-        {
-          "word": "Humanitaire",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 2
-        },
-        {
-          "word": "Réfugiés",
-          "count": 2
+          "count": 1
         }
       ],
       "keyword_pairs": [],
@@ -1499,194 +1055,58 @@
           "source": "RFI Afrique",
           "published": "2026-03-26T02:42:40",
           "lead": "La Minusca est-elle en train de plier bagages en République centrafricaine, ou s’agit-il simplement d’une réorganisation"
-        },
-        {
-          "title": "CAR: République centrafricaine - Perspectives sur la sécurité alimentaire: Le conflit prolongé, les marchés perturbés et l’épuisement rapide de stocks aggravent l’accès alimentaire (Février - Septembre 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-perspectives-sur-la-securite-alimentaire-le-conflit-prolonge-les-marches-perturbes-et-lepuisement-rapide-de-stocks-aggravent-lacces-alimentaire-fevrier-septembre-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:35:46",
-          "lead": "Country: Central African Republic\n                                      Source: Famine Early Warning System Network\n    "
-        },
-        {
-          "title": "Central African Republic - Food Security Outlook: Prolonged conflict, disrupted markets, and rapid stock depletion worsen food access (February - September 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/central-african-republic-food-security-outlook-prolonged-conflict-disrupted-markets-and-rapid-stock-depletion-worsen-food-access-february-september-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:33:16",
-          "lead": "Country: Central African Republic\n                                      Source: Famine Early Warning System Network\n    "
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "CAR: République centrafricaine : Rapport de situation N°60, au 24 mars 2026",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg60-au-24-mars-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:52:29",
-          "lead": "Country: Central African Republic\n                                      Source: UN Office for the Coordination of Humani"
-        },
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "South Sudan": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 1.03,
-      "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 2.0,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Somalia: Status of River Breakages River Juba, March 2026",
-          "url": "https://reliefweb.int/map/somalia/somalia-status-river-breakages-river-juba-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:16:54",
-          "lead": "Country: Somalia\n                                      Source: Food and Agriculture Organization of the United Nations\n "
-        },
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eq. Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Gabon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.2,
-      "ratio": 0.86,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Congo": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 2.1,
-      "ratio": 1.41,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.2,
+      "ratio": 0.45,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
           "count": 1
         }
       ],
@@ -1698,65 +1118,26 @@
           "source": "Africanews",
           "published": "2026-03-25T09:33:23",
           "lead": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortage"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "DR Congo: Democratic Republic of Congo | Population Movement - Operation Update #6 (MDRCD043)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-population-movement-operation-update-6-mdrcd043",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T23:27:21",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Federation of Red "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Africanews"
       ]
     },
     "DRC": {
-      "article_count": 9,
-      "source_count": 5,
-      "baseline": 7.0,
-      "ratio": 1.29,
+      "article_count": 5,
+      "source_count": 3,
+      "baseline": 7.1,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "M23",
-          "count": 3
-        },
-        {
-          "word": "Humanitarian",
-          "count": 3
-        },
-        {
-          "word": "War",
-          "count": 2
-        },
-        {
-          "word": "Violence",
-          "count": 2
-        },
-        {
-          "word": "Displaced",
-          "count": 2
-        },
         {
           "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
+          "word": "War",
           "count": 1
         }
       ],
@@ -1784,13 +1165,6 @@
           "lead": "Deux bébés gorilles des montagnes, des jumeaux, sont récemment nés dans le parc des Virunga, à l’est de la RDC. Un événe"
         },
         {
-          "title": "Dans l’est de la RDC, des civils enfermés dans des conteneurs par le M23 : « C’est la vallée de la mort »",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/25/dans-l-est-de-la-rdc-des-civils-enfermes-dans-des-conteneurs-par-le-m23-c-est-la-vallee-de-la-mort_6674169_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-25T06:30:04",
-          "lead": "Selon une enquête de Reporters sans frontières, le Mouvement du 23 mars aurait détenu de « nombreuses personnes » dans d"
-        },
-        {
           "title": "RDC : ce que l’on sait sur les 3,5 millions de dollars saisis à l’aéroport de Kinshasa",
           "url": "https://www.jeuneafrique.com/1777035/politique/rdc-ce-que-lon-sait-sur-les-35-millions-de-dollars-saisis-a-laeroport-de-kinshasa/",
           "source": "Jeune Afrique",
@@ -1803,126 +1177,37 @@
           "source": "Africanews",
           "published": "2026-03-25T09:33:23",
           "lead": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortage"
-        },
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        },
-        {
-          "title": "DR Congo: Democratic Republic of Congo | Population Movement - Operation Update #6 (MDRCD043)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-population-movement-operation-update-6-mdrcd043",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T23:27:21",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Federation of Red "
-        },
-        {
-          "title": "DR Congo: Keynote Speech of SRSG Patten at the high-level side event “Turning Partnership into Protection for SGBV Survivors, insights from the DRC”, 12 March 2026, New York",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/keynote-speech-srsg-patten-high-level-side-event-turning-partnership-protection-sgbv-survivors-insights-drc-12-march-2026-new-york",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T17:33:05",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office of the SRSG on Sexual "
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "ReliefWeb",
         "Jeune Afrique",
         "RFI Afrique",
         "Africanews"
       ]
     },
     "São Tomé": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Coup",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Congo: UNICEF West and Central Africa Region Humanitarian Situation Report No. 2 (End of Year), 31 December 2025",
-          "url": "https://reliefweb.int/report/congo/unicef-west-and-central-africa-region-humanitarian-situation-report-no-2-end-year-31-december-2025",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:29:44",
-          "lead": "Countries: Congo, Benin, Burkina Faso, Cameroon, Central African Republic, Chad, Côte d'Ivoire, Democratic Republic of t"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Angola": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.7,
-      "ratio": 1.36,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.8,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "DR Congo: Democratic Republic of Congo | Population Movement - Operation Update #6 (MDRCD043)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-population-movement-operation-update-6-mdrcd043",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T23:27:21",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Federation of Red "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Eritrea": {
       "article_count": 0,
@@ -1949,22 +1234,13 @@
       "sources": []
     },
     "Ethiopia": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 0.79,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 2.6,
+      "ratio": 0.39,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1973,42 +1249,26 @@
           "source": "RFI Afrique",
           "published": "2026-03-25T22:56:09",
           "lead": "Au Soudan, les paramilitaires des Forces de soutien rapide (FSR) ont annoncé ce 24 mars avoir pris la ville d'al-Kurmuk "
-        },
-        {
-          "title": "Ethiopia Emergency Response, Situation Report #1 (January – 15 March 2026)",
-          "url": "https://reliefweb.int/report/ethiopia/ethiopia-emergency-response-situation-report-1-january-15-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T11:38:50",
-          "lead": "Country: Ethiopia\n                                      Source: CESVI\n                                                  "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 5,
+      "article_count": 2,
       "source_count": 2,
-      "baseline": 1.7,
-      "ratio": 3.0,
-      "status": "high",
-      "confidence": "medium",
+      "baseline": 1.8,
+      "ratio": 1.11,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "War",
           "count": 1
         },
         {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Wounded",
+          "word": "Al-shabaab",
           "count": 1
         }
       ],
@@ -2022,52 +1282,26 @@
           "lead": "Countries like Sudan, Somalia, Tanzania, and Mozambique rely heavily on imported fertilizers - much of it coming through"
         },
         {
-          "title": "ICRC voices: How physical rehabilitation is changing lives in Somalia",
-          "url": "https://reliefweb.int/report/somalia/icrc-voices-how-physical-rehabilitation-changing-lives-somalia",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T03:56:46",
-          "lead": "Country: Somalia\n                                      Source: International Committee of the Red Cross\n                "
-        },
-        {
-          "title": "Somalia - Emergency Trend Tracking (ETT) - 5 Districts assessed | Week 55 (14 - 18 March 2026)",
-          "url": "https://reliefweb.int/report/somalia/somalia-emergency-trend-tracking-ett-5-districts-assessed-week-55-14-18-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:33:06",
-          "lead": "Country: Somalia\n                                      Source: International Organization for Migration\n                "
-        },
-        {
-          "title": "Somalia: Status of River Breakages River Juba, March 2026",
-          "url": "https://reliefweb.int/map/somalia/somalia-status-river-breakages-river-juba-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:16:54",
-          "lead": "Country: Somalia\n                                      Source: Food and Agriculture Organization of the United Nations\n "
-        },
-        {
-          "title": "Somalia: Status of River Breakages River Shabelle, March 2026",
-          "url": "https://reliefweb.int/map/somalia/somalia-status-river-breakages-river-shabelle-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T01:11:31",
-          "lead": "Country: Somalia\n                                      Source: Food and Agriculture Organization of the United Nations\n "
+          "title": "Somalia: Somali Cabinet Fires Prisons Chief Amid Political Fall-Out With Southwest State",
+          "url": "https://allafrica.com/stories/202603260092.html",
+          "source": "AllAfrica",
+          "published": "2026-03-26T05:17:44",
+          "lead": "[Shabelle] Mogadishu -- The cabinet of Somalia met for its weekly session on Wednesday, discussing the country's overall"
         }
       ],
       "sources": [
-        "ReliefWeb",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Uganda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.97,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Violence",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -2076,46 +1310,34 @@
           "source": "Africanews",
           "published": "2026-03-25T14:32:30",
           "lead": "Strong consumer demand and high activity in sectors such as construction drove Uganda's economy to expand by 8.5% during"
-        },
-        {
-          "title": "Mediating Resilience: Inclusive and Climate-Informed Pathways to Peace - Evidence from Uganda and Kenya (March 2026)",
-          "url": "https://reliefweb.int/report/uganda/mediating-resilience-inclusive-and-climate-informed-pathways-peace-evidence-uganda-and-kenya-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:12:17",
-          "lead": "Countries: Uganda, Kenya\n                                      Source: Mercy Corps\n                                     "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Africanews"
       ]
     },
     "Kenya": {
-      "article_count": 13,
-      "source_count": 6,
-      "baseline": 6.6,
-      "ratio": 1.96,
+      "article_count": 11,
+      "source_count": 5,
+      "baseline": 6.5,
+      "ratio": 1.68,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
-        {
-          "word": "Displaced",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
         {
           "word": "Government",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Displaced",
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "President",
           "count": 1
         }
       ],
@@ -2164,6 +1386,13 @@
           "lead": "Authorities in Kenya have uncovered a disturbing mass grave in Kericho, where officials exhumed dozens of bodies, includ"
         },
         {
+          "title": "Kenya: No Apology! Gachagua Doubles Down in Bitter Clash With Ruto",
+          "url": "https://allafrica.com/stories/202603260081.html",
+          "source": "AllAfrica",
+          "published": "2026-03-26T05:16:24",
+          "lead": "[Capital FM] Nairobi -- DCP Party Leader Rigathi Gachagua has refused to apologize over his controversial remarks about "
+        },
+        {
           "title": "Kenya: Death Toll From Ongoing Floods Climb to 88, Police Say",
           "url": "https://allafrica.com/stories/202603250308.html",
           "source": "AllAfrica",
@@ -2190,131 +1419,56 @@
           "source": "AllAfrica",
           "published": "2026-03-25T10:32:54",
           "lead": "[Africa Check] Old video used to claim that Kenyan governor Johnson Sakaja was stoned after 2026 market fire"
-        },
-        {
-          "title": "Kenya: Men Accounted for 90% of Victims of Police Killings in Kenya in 2025 - Missing Voices Report",
-          "url": "https://allafrica.com/stories/202603250106.html",
-          "source": "AllAfrica",
-          "published": "2026-03-25T05:19:31",
-          "lead": "[Capital FM] Nairobi -- Men accounted for about 90 per cent of victims of police killings in Kenya in 2025, a newly rele"
-        },
-        {
-          "title": "Mediating Resilience: Inclusive and Climate-Informed Pathways to Peace - Evidence from Uganda and Kenya (March 2026)",
-          "url": "https://reliefweb.int/report/uganda/mediating-resilience-inclusive-and-climate-informed-pathways-peace-evidence-uganda-and-kenya-march-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-26T04:12:17",
-          "lead": "Countries: Uganda, Kenya\n                                      Source: Mercy Corps\n                                     "
         }
       ],
       "sources": [
+        "Africanews",
         "BBC Africa",
-        "ReliefWeb",
-        "The Guardian Africa",
         "AllAfrica",
-        "RFI Afrique",
-        "Africanews"
+        "The Guardian Africa",
+        "RFI Afrique"
       ]
     },
     "Rwanda": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 1.22,
+      "ratio": 0.81,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Ceasefire",
-          "count": 1
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Rwanda : Olivier Nduhungirehe, bras armé diplomatique et hyperconnecté de Paul Kagame",
+          "url": "https://www.jeuneafrique.com/1772891/politique/rwanda-olivier-nduhungirehe-bras-arme-diplomatique-et-hyperconnecte-de-paul-kagame/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-26T06:55:00",
+          "lead": "Hyperactif sur X, le ministre rwandais des Affaires étrangères ne laisse passer aucune critique de la communication poli"
+        },
         {
           "title": "Incident à Washington : que s’est-il passé au Four Seasons entre les délégations congolaise et rwandaise ?",
           "url": "https://www.jeuneafrique.com/1780438/politique/incident-a-washington-que-sest-il-passe-au-four-seasons-entre-les-delegations-congolaise-et-rwandaise/",
           "source": "Jeune Afrique",
           "published": "2026-03-25T16:30:20",
           "lead": "Les équipes de la première dame congolaise et d’un officiel rwandais se sont croisées dans un hôtel de la capitale améri"
-        },
-        {
-          "title": "DR Congo: Democratic Republic of Congo | Population Movement - Operation Update #6 (MDRCD043)",
-          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-population-movement-operation-update-6-mdrcd043",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T23:27:21",
-          "lead": "Country: Democratic Republic of the Congo\n                                      Source: International Federation of Red "
-        },
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Jeune Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.07,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Réfugiés",
-          "count": 1
-        }
-      ],
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.0,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "CAR: République Centrafricaine : Statistiques des Réfugiés et Demandeurs d’Asile (Au 28 Fevrier 2026)",
-          "url": "https://reliefweb.int/report/central-african-republic/republique-centrafricaine-statistiques-des-refugies-et-demandeurs-dasile-au-28-fevrier-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T15:03:12",
-          "lead": "Countries: Central African Republic, Burundi, Cameroon, Chad, Democratic Republic of the Congo, Rwanda, South Sudan, Sud"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tanzania": {
       "article_count": 2,
@@ -2351,8 +1505,8 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "AllAfrica"
       ]
     },
     "Madagascar": {
@@ -2407,26 +1561,16 @@
       "sources": []
     },
     "Seychelles": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Zimbabwe: Top Zimbabwean Lawyer to Head Seychelles Commission of Inquiry On 2024 Prison Deaths",
-          "url": "https://allafrica.com/stories/202603260024.html",
-          "source": "AllAfrica",
-          "published": "2026-03-26T04:42:28",
-          "lead": "[New Zimbabwe] ZIMBABWEAN constitutional law expert Professor Justice Mavedzenge has been appointed head of a Seychelles"
-        }
-      ],
-      "sources": [
-        "AllAfrica"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Zambia": {
       "article_count": 1,
@@ -2451,50 +1595,27 @@
       ]
     },
     "Malawi": {
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 0.7,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
+      "keyword_pairs": [],
+      "articles": [],
+      "sources": []
+    },
+    "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.6,
-      "ratio": 1.58,
+      "baseline": 1.1,
+      "ratio": 0.94,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Humanitarian",
-          "count": 1
-        }
-      ],
-      "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Malawi, Mozambique | Ongoing floods - DG ECHO Daily Map | 25/03/2026",
-          "url": "https://reliefweb.int/map/malawi/malawi-mozambique-ongoing-floods-dg-echo-daily-map-25032026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T17:17:16",
-          "lead": "Countries: Malawi, Mozambique\n                                      Source: European Commission's Directorate-General fo"
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
-    },
-    "Mozambique": {
-      "article_count": 3,
-      "source_count": 2,
-      "baseline": 1.0,
-      "ratio": 2.9,
-      "status": "high",
-      "confidence": "medium",
-      "keywords": [
-        {
           "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -2506,45 +1627,22 @@
           "source": "Africanews",
           "published": "2026-03-25T15:23:08",
           "lead": "Countries like Sudan, Somalia, Tanzania, and Mozambique rely heavily on imported fertilizers - much of it coming through"
-        },
-        {
-          "title": "Malawi, Mozambique | Ongoing floods - DG ECHO Daily Map | 25/03/2026",
-          "url": "https://reliefweb.int/map/malawi/malawi-mozambique-ongoing-floods-dg-echo-daily-map-25032026",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T17:17:16",
-          "lead": "Countries: Malawi, Mozambique\n                                      Source: European Commission's Directorate-General fo"
-        },
-        {
-          "title": "Mozambique: Boletim Diário da Cólera Data: 24/03/2026 [PT]",
-          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-24032026-pt",
-          "source": "ReliefWeb",
-          "published": "2026-03-25T13:21:56",
-          "lead": "Country: Mozambique\n                                      Source: Government of Mozambique\n                             "
         }
       ],
       "sources": [
-        "ReliefWeb",
         "Africanews"
       ]
     },
     "Zimbabwe": {
-      "article_count": 8,
-      "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 3.16,
-      "status": "high",
-      "confidence": "medium",
+      "article_count": 2,
+      "source_count": 1,
+      "baseline": 2.8,
+      "ratio": 0.72,
+      "status": "normal",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 3
-        },
-        {
-          "word": "Killed",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         },
         {
@@ -2552,31 +1650,16 @@
           "count": 1
         },
         {
-          "word": "Attack",
+          "word": "Killed",
           "count": 1
         },
         {
           "word": "Minister",
           "count": 1
-        },
-        {
-          "word": "Fighting",
-          "count": 1
-        },
-        {
-          "word": "Protest",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas",
-          "url": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas",
-          "source": "The Guardian Africa",
-          "published": "2026-03-26T03:59:51",
-          "lead": "Ukrainian president says peace deal proposed by US included ceding land to Russia. What we know on day 1,492The US is ma"
-        },
         {
           "title": "Zimbabwe: Mnangagwa Falls Over Himself in Chivayo Praise, Says Controversial Businessman Has Golden Heart",
           "url": "https://allafrica.com/stories/202603260025.html",
@@ -2585,58 +1668,22 @@
           "lead": "[New Zimbabwe] PRESIDENT Emmerson Mnangagwa, has showered praises on controversial businessman Wicknell Chivayo whom he "
         },
         {
-          "title": "Zimbabwe: 17 New Magistrates Sworn in As Courts Struggle With Heavy Workload",
-          "url": "https://allafrica.com/stories/202603260028.html",
+          "title": "Zimbabwe: 15 Zimbabweans Killed in Russia-Ukraine War After Being Duped Into Foreign Military Recruitment",
+          "url": "https://allafrica.com/stories/202603260072.html",
           "source": "AllAfrica",
-          "published": "2026-03-26T04:42:30",
-          "lead": "[New Zimbabwe] Seventeen new magistrates were sworn in on Wednesday in Harare, as the judiciary moves to ease mounting p"
-        },
-        {
-          "title": "Zimbabwe: Woman Arrested for Child Brutality After Forcing Minor to Touch Burning Gas Stove in Viral Video",
-          "url": "https://allafrica.com/stories/202603260026.html",
-          "source": "AllAfrica",
-          "published": "2026-03-26T04:42:29",
-          "lead": "[New Zimbabwe] POLICE have arrested a Harare woman captured in a viral video while torturing her son for allegedly steal"
-        },
-        {
-          "title": "Zimbabwe: RBZ Shelves Plans to Withhold 10% Forex Earnings From Small Scale Miners",
-          "url": "https://allafrica.com/stories/202603260027.html",
-          "source": "AllAfrica",
-          "published": "2026-03-26T04:42:29",
-          "lead": "[New Zimbabwe] THE Reserve Bank of Zimbabwe (RBZ) has temporarily halted earlier plans to withhold 10% foreign currency "
-        },
-        {
-          "title": "Zimbabwe: Top Zimbabwean Lawyer to Head Seychelles Commission of Inquiry On 2024 Prison Deaths",
-          "url": "https://allafrica.com/stories/202603260024.html",
-          "source": "AllAfrica",
-          "published": "2026-03-26T04:42:28",
-          "lead": "[New Zimbabwe] ZIMBABWEAN constitutional law expert Professor Justice Mavedzenge has been appointed head of a Seychelles"
-        },
-        {
-          "title": "Zimbabwe: Kuimba Shiri Claims U.S.$86,000 in Damages Due to Lake Chivero Pollution As Court Knocks Out Harare Council, ZINWA Defence",
-          "url": "https://allafrica.com/stories/202603260022.html",
-          "source": "AllAfrica",
-          "published": "2026-03-26T04:42:27",
-          "lead": "[New Zimbabwe] Discover moreAfrican art and craftsEconomy news reportsZimbabwe news subscriptionKuimba Shiri (Private) L"
-        },
-        {
-          "title": "Zimbabwe: MDC to Stage Demonstration Against Constitutional Amendment Bill Extending Mnangagwa's Term",
-          "url": "https://allafrica.com/stories/202603260023.html",
-          "source": "AllAfrica",
-          "published": "2026-03-26T04:42:27",
-          "lead": "[New Zimbabwe] MOVEMENT for Democratic Change (MDC) will next week hold a protest in Harare against the Constitutional A"
+          "published": "2026-03-26T05:10:43",
+          "lead": "[New Zimbabwe] At least 15 Zimbabweans have died in the Russia-Ukraine war after being duped into joining foreign milita"
         }
       ],
       "sources": [
-        "AllAfrica",
-        "The Guardian Africa"
+        "AllAfrica"
       ]
     },
     "Namibia": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.8,
-      "ratio": 1.3,
+      "baseline": 0.7,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -2672,10 +1719,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 20,
+      "article_count": 22,
       "source_count": 5,
-      "baseline": 14.8,
-      "ratio": 1.35,
+      "baseline": 14.7,
+      "ratio": 1.49,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -2684,11 +1731,15 @@
           "count": 2
         },
         {
+          "word": "Combat",
+          "count": 1
+        },
+        {
           "word": "Épidémie",
           "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -2717,6 +1768,13 @@
           "lead": "Les éleveurs sud-africains font face, depuis plusieurs mois, à une grande épidémie de fièvre aphteuse. Cette maladie san"
         },
         {
+          "title": "South Africa: 12 police officers charged with corruption appear in court",
+          "url": "http://www.africanews.com/2026/03/26/south-africa-12-police-officers-charged-with-corruption-appear-in-court/",
+          "source": "Africanews",
+          "published": "2026-03-26T06:33:08",
+          "lead": "South African anti-graft investigators have arrested 12 senior police officers on allegations of corruption and fraud, p"
+        },
+        {
           "title": "Protesters in South Africa call for stricter immigration laws and border controls",
           "url": "http://www.africanews.com/2026/03/25/protesters-in-south-africa-call-for-stricter-immigration-laws-and-border-controls/",
           "source": "Africanews",
@@ -2738,10 +1796,10 @@
           "lead": "South African anti-graft investigators have arrested 12 senior police officers on allegations of corruption and fraud, p"
         },
         {
-          "title": "South Africa: Western Cape Water Levels Drop, Six Months' Supply Remains - South African News Briefs - March 25, 2026",
-          "url": "https://allafrica.com/stories/202603250107.html",
+          "title": "South Africa: Cape Town Gang Violence Intensifies - South African News Briefs - March 26, 2026",
+          "url": "https://allafrica.com/stories/202603260103.html",
           "source": "AllAfrica",
-          "published": "2026-03-25T05:38:37",
+          "published": "2026-03-26T05:37:37",
           "lead": "[allAfrica]"
         },
         {
@@ -2766,33 +1824,26 @@
           "lead": "[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers i"
         },
         {
+          "title": "MARCH BY-ELECTIONS: ANC holds on to Dunoon ward with reduced support, but loses to PA in Oudtshoorn",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-26-anc-holds-on-to-dunoon-ward-with-reduced-support-but-loses-to-pa-in-oudtshoorn/",
+          "source": "Daily Maverick",
+          "published": "2026-03-26T08:39:38",
+          "lead": "The ANC retained a Cape Town stronghold with a significantly reduced majority and lost a second successive ward to the P"
+        },
+        {
           "title": "POURING OIL ON TROUBLED WATERS: Gwede Mantashe warns against panic buying amid rising fuel supply fears",
           "url": "https://www.dailymaverick.co.za/article/2026-03-25-gwede-mantashe-warns-against-panic-buying-amid-rising-fuel-supply-fears/",
           "source": "Daily Maverick",
           "published": "2026-03-25T21:59:58",
           "lead": "Gwede Mantashe says South Africa’s fuel supply is secure despite panic buying and scattered diesel shortages, but report"
-        },
-        {
-          "title": "THE INVISIBLE HEIST: Inside job — the fraud question South African banks won't answer",
-          "url": "https://www.dailymaverick.co.za/article/2026-03-25-inside-job-the-fraud-question-south-african-banks-wont-answer/",
-          "source": "Daily Maverick",
-          "published": "2026-03-25T21:39:40",
-          "lead": "Banks insist that digital fraud is almost always the customer's fault. Court records, withheld audit logs, and the confi"
-        },
-        {
-          "title": "Why SA’s energy security is a feminist and economic emergency",
-          "url": "https://www.dailymaverick.co.za/opinionista/2026-03-25-why-sas-energy-security-is-a-feminist-and-economic-emergency/",
-          "source": "Daily Maverick",
-          "published": "2026-03-25T20:47:48",
-          "lead": "Every year South Africa remains dependent on fossil fuels is another year in which distant conflicts, global price shock"
         }
       ],
       "sources": [
-        "BBC Africa",
-        "AllAfrica",
-        "RFI Afrique",
         "Africanews",
-        "Daily Maverick"
+        "BBC Africa",
+        "Daily Maverick",
+        "AllAfrica",
+        "RFI Afrique"
       ]
     },
     "Eswatini": {
