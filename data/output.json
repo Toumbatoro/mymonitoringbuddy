@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-28T04:47:48.693673",
+  "generated_at": "2026-03-28T06:47:55.629414",
   "summary": {
-    "high": 2,
-    "elevated": 4,
-    "normal": 31,
-    "quiet": 17
+    "high": 6,
+    "elevated": 10,
+    "normal": 26,
+    "quiet": 12
   },
   "countries": {
     "Morocco": {
@@ -45,24 +45,24 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.22,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Attaque",
           "count": 1
         },
         {
-          "word": "Attaque",
+          "word": "Guerre",
           "count": 1
         }
       ],
@@ -84,8 +84,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Tunisia": {
@@ -165,29 +165,94 @@
       ]
     },
     "Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 6,
+      "source_count": 3,
       "baseline": 4.4,
-      "ratio": 0.23,
+      "ratio": 1.37,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Guerre",
+          "count": 2
+        },
+        {
           "word": "Displaced",
+          "count": 2
+        },
+        {
+          "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Violence",
+          "count": 2
+        },
+        {
+          "word": "Crisis",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
+        },
+        {
           "title": "Sudan: Global Fund Approves Emergency TB Funding for Conflict-Affected Sudan",
           "url": "https://allafrica.com/stories/202603270413.html",
           "source": "AllAfrica",
           "published": "2026-03-27T12:22:44",
           "lead": "[Global Fund] Geneva -- The Global Fund to Fight AIDS, Tuberculosis and Malaria (the Global Fund) has approved US$1,607,"
+        },
+        {
+          "title": "Le manque de financement dans l’Est du Tchad menace la protection essentielle des femmes et des filles!",
+          "url": "https://reliefweb.int/report/chad/le-manque-de-financement-dans-lest-du-tchad-menace-la-protection-essentielle-des-femmes-et-des-filles",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:42:55",
+          "lead": "Country: Chad\n                                      Source: United Nations Population Fund\n                             "
+        },
+        {
+          "title": "“We watched them die before our eyes”: Health workers in Sudan’s North Kordofan State describe dire conditions",
+          "url": "https://reliefweb.int/report/sudan/we-watched-them-die-our-eyes-health-workers-sudans-north-kordofan-state-describe-dire-conditions",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:33:33",
+          "lead": "Country: Sudan\n                                      Source: United Nations Population Fund\n                            "
+        },
+        {
+          "title": "WFP Chad Country Brief, March 2026",
+          "url": "https://reliefweb.int/report/chad/wfp-chad-country-brief-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:12:58",
+          "lead": "Countries: Chad, Sudan\n                                      Source: World Food Programme\n                              "
+        },
+        {
+          "title": "Concern supports 30,000 people in South Sudan with healthcare and cash assistance | Concern Worldwide",
+          "url": "https://reliefweb.int/report/south-sudan/concern-supports-30000-people-south-sudan-healthcare-and-cash-assistance-concern-worldwide",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:43:58",
+          "lead": "Country: South Sudan\n                                      Source: Concern Worldwide\n                                   "
         }
       ],
       "sources": [
+        "RFI Afrique",
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -204,15 +269,19 @@
       "sources": []
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.7,
-      "ratio": 0.74,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Crise",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -231,27 +300,39 @@
           "source": "Jeune Afrique",
           "published": "2026-03-27T17:14:02",
           "lead": "Plusieurs anciens ministres d’Ibrahim Boubacar Keïta (IBK), ainsi que des militaires, ont été reconnus coupables de déto"
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "Burkina Faso": {
-      "article_count": 2,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.6,
-      "ratio": 1.25,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.88,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Déplacés",
+          "count": 1
+        },
         {
           "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Déplacés",
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -270,23 +351,46 @@
           "source": "RFI Afrique",
           "published": "2026-03-27T14:52:28",
           "lead": "Au Burkina Faso, Laure Zongo, ex-ministre de l'Action humanitaire, a été condamnée, vendredi 27 mars, à Ouagadougou pour"
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Niger": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.48,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Senegal": {
       "article_count": 7,
@@ -311,6 +415,13 @@
           "lead": "Présenté aux 55 États membres de l'organisation continentale ce vendredi 27 mars, le projet de décision a été retoqué pa"
         },
         {
+          "title": "Dudu Sarr (Dakar Music Expo): «Il n'y a pas mieux que la musique pour rassembler»",
+          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20260328-dudu-sarr-dakar-music-expo-il-n-y-a-pas-mieux-que-la-musique-pour-rassembler",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:15:02",
+          "lead": "Direction Dakar pour retrouver notre Grand invité Afrique ce samedi. La capitale sénégalaise est bercée ce week-end par "
+        },
+        {
           "title": "Football: en amical, le Sénégal se tourne vers le Pérou, sans tourner la page CAF",
           "url": "https://www.rfi.fr/fr/afrique-foot/20260327-football-en-amical-le-s%C3%A9n%C3%A9gal-se-tourne-vers-le-p%C3%A9rou-sans-tourner-la-page-caf",
           "source": "RFI Afrique",
@@ -323,13 +434,6 @@
           "source": "RFI Afrique",
           "published": "2026-03-27T11:31:26",
           "lead": "L’annonce de la victoire sur tapis vert de la sélection marocaine contre le Sénégal après la finale mouvementée de la de"
-        },
-        {
-          "title": "Au Dakar Music Expo, la mobilité des artistes africains en question",
-          "url": "https://www.rfi.fr/fr/musique/20260327-au-dakar-music-expo-la-mobilit%C3%A9-des-artistes-africains-en-question",
-          "source": "RFI Afrique",
-          "published": "2026-03-27T09:35:29",
-          "lead": "Le Dakar Music Expo s’est ouvert le 26 mars dans la capitale sénégalaise. Comme chaque année, l'événement réunit des pro"
         },
         {
           "title": "L’Union africaine ne soutient pas la candidature de Macky Sall à l’ONU",
@@ -383,31 +487,24 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 3,
+      "article_count": 2,
       "source_count": 1,
       "baseline": 2.6,
-      "ratio": 1.15,
+      "ratio": 0.77,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Crisis",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Crisis",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Guinea: Convicted Guinea Stadium Massacre Figure Dies in Custody",
-          "url": "https://allafrica.com/stories/202603270094.html",
-          "source": "AllAfrica",
-          "published": "2026-03-27T06:27:48",
-          "lead": "[allAfrica] Aboubacar Sidiki Diakit&#xe9;, a key figure convicted of crimes against humanity in Guinea's 2009 stadium ma"
-        },
         {
           "title": "Liberia: Liberians React to Government's Handling of Guinea-Liberia Border Crisis",
           "url": "https://allafrica.com/stories/202603270221.html",
@@ -428,19 +525,27 @@
       ]
     },
     "Sierra Leone": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.7,
-      "ratio": 1.43,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 2.86,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        },
         {
           "word": "Crisis",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Violence",
           "count": 1
         }
       ],
@@ -452,9 +557,17 @@
           "source": "AllAfrica",
           "published": "2026-03-27T09:44:31",
           "lead": "[FrontPageAfrica] Following escalating tensions along the Guinea-Liberia border, the Government of Liberia has been enga"
+        },
+        {
+          "title": "WFP Sierra Leone Country Brief, March 2026",
+          "url": "https://reliefweb.int/report/sierra-leone/wfp-sierra-leone-country-brief-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:50",
+          "lead": "Country: Sierra Leone\n                                      Source: World Food Programme\n                               "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -524,8 +637,8 @@
     "Côte d'Ivoire": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 1.9,
-      "ratio": 1.03,
+      "baseline": 2.0,
+      "ratio": 1.02,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -565,11 +678,11 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         }
       ],
@@ -591,8 +704,8 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
-        "BBC Africa"
+        "BBC Africa",
+        "The Guardian Africa"
       ]
     },
     "Togo": {
@@ -611,7 +724,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.59,
+      "ratio": 0.6,
       "status": "normal",
       "confidence": "low",
       "keywords": [
@@ -635,10 +748,10 @@
       ]
     },
     "Nigeria": {
-      "article_count": 8,
-      "source_count": 3,
+      "article_count": 12,
+      "source_count": 4,
       "baseline": 8.4,
-      "ratio": 0.95,
+      "ratio": 1.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -647,11 +760,11 @@
           "count": 1
         },
         {
-          "word": "Election",
+          "word": "President",
           "count": 1
         },
         {
-          "word": "President",
+          "word": "Election",
           "count": 1
         },
         {
@@ -660,6 +773,14 @@
         },
         {
           "word": "Boko haram",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
           "count": 1
         }
       ],
@@ -720,11 +841,40 @@
           "source": "AllAfrica",
           "published": "2026-03-27T12:07:15",
           "lead": "[Vanguard] The Nigerian Army, under Operation Hadin Kai, has achieved major gains in the North-East insurgency by intens"
+        },
+        {
+          "title": "Nigeria: Nigerian Poultry Farmers Kick Against Proposed $900m China Partnership",
+          "url": "https://allafrica.com/stories/202603270384.html",
+          "source": "AllAfrica",
+          "published": "2026-03-27T11:54:23",
+          "lead": "[Leadership] Poultry farmers in Nigeria have expressed strong opposition to the proposed $900 million investment deal be"
+        },
+        {
+          "title": "Nigeria: APC Suspends Dagogo Over Alleged Anti-Party Activities",
+          "url": "https://allafrica.com/stories/202603270380.html",
+          "source": "AllAfrica",
+          "published": "2026-03-27T11:52:13",
+          "lead": "[Vanguard] The All Progressives Congress, APC, has suspended a chieftain of the party, Mr Fubara Dagogo, over alleged gr"
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
+        },
+        {
+          "title": "Nigeria — North-east Nigeria — Zamfara State Flash Report 281 (13 March 2026)",
+          "url": "https://reliefweb.int/report/nigeria/nigeria-north-east-nigeria-zamfara-state-flash-report-281-13-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:33:06",
+          "lead": "Country: Nigeria\n                                      Source: International Organization for Migration\n                "
         }
       ],
       "sources": [
-        "AllAfrica",
         "Africanews",
+        "AllAfrica",
+        "ReliefWeb",
         "DW Africa"
       ]
     },
@@ -741,44 +891,106 @@
       "sources": []
     },
     "Chad": {
-      "article_count": 1,
+      "article_count": 4,
       "source_count": 1,
       "baseline": 1.2,
-      "ratio": 0.86,
-      "status": "normal",
+      "ratio": 3.43,
+      "status": "elevated",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Wagner",
+          "word": "Humanitarian",
+          "count": 4
+        },
+        {
+          "word": "Réfugiés",
+          "count": 2
+        },
+        {
+          "word": "Humanitaire",
+          "count": 2
+        },
+        {
+          "word": "Crise",
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Au Tchad, les ressorts d'une offensive russe «pour éloigner Ndjamena de l’Occident» en 2024",
-          "url": "https://www.rfi.fr/fr/afrique/20260327-au-tchad-les-ressorts-d-une-offensive-russe-pour-%C3%A9loigner-ndjamena-de-l-occident-en-2024",
-          "source": "RFI Afrique",
-          "published": "2026-03-27T06:30:09",
-          "lead": "Dans la série d'enquêtes « Propaganda Machine », un consortium d'investigation autour du média sud-africain The Continen"
+          "title": "Le manque de financement dans l’Est du Tchad menace la protection essentielle des femmes et des filles!",
+          "url": "https://reliefweb.int/report/chad/le-manque-de-financement-dans-lest-du-tchad-menace-la-protection-essentielle-des-femmes-et-des-filles",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:42:55",
+          "lead": "Country: Chad\n                                      Source: United Nations Population Fund\n                             "
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
+        },
+        {
+          "title": "WFP Chad Country Brief, March 2026",
+          "url": "https://reliefweb.int/report/chad/wfp-chad-country-brief-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:12:58",
+          "lead": "Countries: Chad, Sudan\n                                      Source: World Food Programme\n                              "
+        },
+        {
+          "title": "Tchad - Dashbord du suivi de la réponse du HNRP 2026 (au 31 janvier 2026)",
+          "url": "https://reliefweb.int/report/chad/tchad-dashbord-du-suivi-de-la-reponse-du-hnrp-2026-au-31-janvier-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T08:54:42",
+          "lead": "Country: Chad\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n     "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "ReliefWeb"
       ]
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 2.5,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 1.58,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Coup",
+          "count": 1
+        },
+        {
+          "word": "Epidemic",
+          "count": 1
+        },
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -787,20 +999,47 @@
           "source": "RFI Afrique",
           "published": "2026-03-27T10:38:34",
           "lead": "Les États-Unis s'en sont pris à l'Organisation mondiale du commerce (OMC) à l'ouverture, ce jeudi 26 mars, d'une confére"
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
+        },
+        {
+          "title": "Cameroon: Cameroun : En un coup d'œil | Besoins et Plan de Réponse Humanitaires 2026",
+          "url": "https://reliefweb.int/report/cameroon/cameroun-en-un-coup-doeil-besoins-et-plan-de-reponse-humanitaires-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:35:13",
+          "lead": "Country: Cameroon\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n "
+        },
+        {
+          "title": "Ensuring food safety to protect lives in Cameroon",
+          "url": "https://reliefweb.int/report/cameroon/ensuring-food-safety-protect-lives-cameroon",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:00:57",
+          "lead": "Country: Cameroon\n                                      Source: World Health Organization\n                              "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "CAR": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.4,
-      "ratio": 0.7,
+      "ratio": 1.4,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -809,20 +1048,49 @@
           "source": "Jeune Afrique",
           "published": "2026-03-27T19:00:55",
           "lead": "Près de trois mois après avoir été proclamé vainqueur de la présidentielle, Faustin-Archange Touadéra sera officiellemen"
+        },
+        {
+          "title": "DR Congo: West and Central Africa: 2026 Humanitarian Needs & Requirements (as of 16 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/west-and-central-africa-2026-humanitarian-needs-requirements-16-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:41:39",
+          "lead": "Countries: Democratic Republic of the Congo, Burkina Faso, Cameroon, Central African Republic, Chad, Mali, Niger, Nigeri"
         }
       ],
       "sources": [
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "ReliefWeb"
       ]
     },
     "South Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 3,
+      "source_count": 2,
       "baseline": 1.9,
-      "ratio": 0.54,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 1.61,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "War",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Drought",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -831,9 +1099,24 @@
           "source": "AllAfrica",
           "published": "2026-03-27T10:18:18",
           "lead": "[Shabelle] Nairobi -- Israel has said that Iran possesses missile capabilities that could reach parts of East Africa, in"
+        },
+        {
+          "title": "Concern supports 30,000 people in South Sudan with healthcare and cash assistance | Concern Worldwide",
+          "url": "https://reliefweb.int/report/south-sudan/concern-supports-30000-people-south-sudan-healthcare-and-cash-assistance-concern-worldwide",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:43:58",
+          "lead": "Country: South Sudan\n                                      Source: Concern Worldwide\n                                   "
+        },
+        {
+          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 27 Mar 2026",
+          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-27-mar-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:39:40",
+          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -904,33 +1187,29 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Africanews",
+        "RFI Afrique",
         "France24 Afrique"
       ]
     },
     "Congo": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.2,
-      "ratio": 0.91,
+      "ratio": 1.36,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Government",
+          "count": 3
+        },
         {
           "word": "M23",
           "count": 2
         },
         {
-          "word": "Government",
-          "count": 2
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Rebel",
+          "word": "Humanitarian",
           "count": 1
         },
         {
@@ -938,11 +1217,15 @@
           "count": 1
         },
         {
-          "word": "Humanitarian",
+          "word": "Violence",
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Rebel",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -961,20 +1244,28 @@
           "source": "AllAfrica",
           "published": "2026-03-27T12:03:14",
           "lead": "[IPS] United Nations -- In the month following the reopening of the Burundi-Democratic Republic of Congo (DRC) border, t"
+        },
+        {
+          "title": "Angola Launches National Campaign to Vaccinate More Than 9 Million Children Against Polio",
+          "url": "https://reliefweb.int/report/angola/angola-launches-national-campaign-vaccinate-more-9-million-children-against-polio",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:06:08",
+          "lead": "Country: Angola\n                                      Source: World Health Organization\n                                "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "DRC": {
-      "article_count": 7,
-      "source_count": 5,
+      "article_count": 11,
+      "source_count": 6,
       "baseline": 6.9,
-      "ratio": 1.01,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.59,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "M23",
@@ -982,26 +1273,26 @@
         },
         {
           "word": "Government",
-          "count": 2
+          "count": 3
+        },
+        {
+          "word": "Humanitarian",
+          "count": 3
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
         },
         {
           "word": "Crise",
           "count": 1
         },
         {
-          "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Rebel",
-          "count": 1
-        },
-        {
           "word": "Refugees",
-          "count": 1
-        },
-        {
-          "word": "Humanitarian",
           "count": 1
         },
         {
@@ -1011,6 +1302,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
+        },
         {
           "title": "RDC: une vidéo d’une femme maltraitée par un médecin juste après un accouchement provoque l’émoi",
           "url": "https://www.rfi.fr/fr/afrique/20260327-rdc-une-vid%C3%A9o-d-une-femme-maltrait%C3%A9e-par-un-m%C3%A9decin-juste-apr%C3%A8s-un-accouchement-provoque-l-%C3%A9moi",
@@ -1059,14 +1357,36 @@
           "source": "AllAfrica",
           "published": "2026-03-27T12:03:14",
           "lead": "[IPS] United Nations -- In the month following the reopening of the Burundi-Democratic Republic of Congo (DRC) border, t"
+        },
+        {
+          "title": "Democratic Republic of the Congo - Severe weather and floods (IFRC, Meteo DRC, NOAA-CPC) (ECHO Daily Flash of 27 March 2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/democratic-republic-congo-severe-weather-and-floods-ifrc-meteo-drc-noaa-cpc-echo-daily-flash-27-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:29:14",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: European Commission's Directorat"
+        },
+        {
+          "title": "Angola Launches National Campaign to Vaccinate More Than 9 Million Children Against Polio",
+          "url": "https://reliefweb.int/report/angola/angola-launches-national-campaign-vaccinate-more-9-million-children-against-polio",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:06:08",
+          "lead": "Country: Angola\n                                      Source: World Health Organization\n                                "
+        },
+        {
+          "title": "DR Congo: Enoncé du Coordonnateur Humanitaire en RDC - Fonds Humanitaire en RDC - Allocation Réserve 2 (2026)",
+          "url": "https://reliefweb.int/report/democratic-republic-congo/enonce-du-coordonnateur-humanitaire-en-rdc-fonds-humanitaire-en-rdc-allocation-reserve-2-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T08:25:43",
+          "lead": "Country: Democratic Republic of the Congo\n                                      Source: UN Office for the Coordination o"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews",
         "AllAfrica",
+        "RFI Afrique",
+        "Jeune Afrique",
+        "Africanews",
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "ReliefWeb"
       ]
     },
     "São Tomé": {
@@ -1082,16 +1402,31 @@
       "sources": []
     },
     "Angola": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 1.88,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Angola Launches National Campaign to Vaccinate More Than 9 Million Children Against Polio",
+          "url": "https://reliefweb.int/report/angola/angola-launches-national-campaign-vaccinate-more-9-million-children-against-polio",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:06:08",
+          "lead": "Country: Angola\n                                      Source: World Health Organization\n                                "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Eritrea": {
       "article_count": 0,
@@ -1106,12 +1441,12 @@
       "sources": []
     },
     "Djibouti": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 4.0,
+      "status": "high",
+      "confidence": "medium",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1121,17 +1456,25 @@
           "source": "RFI Afrique",
           "published": "2026-03-28T04:01:51",
           "lead": "Le drame, qui s'est déroulé dans la nuit du mardi 24 au mercredi 25 mars, a fait au moins neuf morts et 45 disparus, sel"
+        },
+        {
+          "title": "Nueve fallecidos y 45 desaparecidos en el primer naufragio de 2026 cerca de Djibouti",
+          "url": "https://reliefweb.int/report/djibouti/nueve-fallecidos-y-45-desaparecidos-en-el-primer-naufragio-de-2026-cerca-de-djibouti",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T13:03:08",
+          "lead": "Country: Djibouti\n                                      Source: International Organization for Migration\n               "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Ethiopia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.2,
-      "ratio": 0.92,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1141,6 +1484,10 @@
         },
         {
           "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Drought",
           "count": 1
         }
       ],
@@ -1159,24 +1506,32 @@
           "source": "AllAfrica",
           "published": "2026-03-27T10:18:18",
           "lead": "[Shabelle] Nairobi -- Israel has said that Iran possesses missile capabilities that could reach parts of East Africa, in"
+        },
+        {
+          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 27 Mar 2026",
+          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-27-mar-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:39:40",
+          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "RFI Afrique"
+        "RFI Afrique",
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "Somalia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 1.7,
-      "ratio": 1.2,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 1.8,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Drought",
-          "count": 1
+          "count": 2
         },
         {
           "word": "War",
@@ -1198,23 +1553,47 @@
           "source": "AllAfrica",
           "published": "2026-03-27T10:18:18",
           "lead": "[Shabelle] Nairobi -- Israel has said that Iran possesses missile capabilities that could reach parts of East Africa, in"
+        },
+        {
+          "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 27 Mar 2026",
+          "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-27-mar-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:39:40",
+          "lead": "Country: Somalia\n                                      Source: Radio Ergo\n                                              "
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "ReliefWeb",
+        "AllAfrica"
       ]
     },
     "Uganda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.2,
-      "ratio": 0.92,
+      "ratio": 1.38,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
+        },
         {
           "title": "Nigeria’s return to Windsor castle signals new era in UK economic partnership",
           "url": "http://www.africanews.com/2026/03/26/nigerias-return-to-windsor-castle-signals-new-era-in-uk-economic-partnership/",
@@ -1231,24 +1610,49 @@
         }
       ],
       "sources": [
-        "AllAfrica",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique",
+        "AllAfrica"
       ]
     },
     "Kenya": {
-      "article_count": 9,
-      "source_count": 6,
+      "article_count": 13,
+      "source_count": 7,
       "baseline": 6.0,
-      "ratio": 1.5,
+      "ratio": 2.15,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
           "word": "War",
+          "count": 2
+        },
+        {
+          "word": "Humanitarian",
+          "count": 2
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
           "count": 1
         },
         {
           "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Fighting",
+          "count": 1
+        },
+        {
+          "word": "Displaced",
           "count": 1
         }
       ],
@@ -1267,6 +1671,20 @@
           "source": "The Guardian Africa",
           "published": "2026-03-27T10:00:03",
           "lead": "Conserving the watershed of the Tana and improving farming methods is securing water supplies and livelihoods alike in a"
+        },
+        {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
+        },
+        {
+          "title": "Kenya: l'enquête se développe après la découverte d'une mystérieuse fosse commune",
+          "url": "https://www.rfi.fr/fr/afrique/20260328-kenya-l-enqu%C3%AAte-se-d%C3%A9veloppe-apr%C3%A8s-la-d%C3%A9couverte-d-une-myst%C3%A9rieuse-fosse-commune",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:10:26",
+          "lead": "Au Kenya, les autopsies des dépouilles de Kericho, se poursuivent. Une fosse commune a été découverte - le week-end pass"
         },
         {
           "title": "Le Kenya a expédié vers la Chine sa première cargaison de produits exemptés de droits de douane",
@@ -1304,11 +1722,11 @@
           "lead": "[RFI] French officials have denied claims by Ramaphosa's presidential office that it has excluded South Africa from the "
         },
         {
-          "title": "Africa: Nova Garage - African Tech Entrepreneurs At The Heart Of The Africa Forward Summit",
-          "url": "https://allafrica.com/stories/202603270562.html",
+          "title": "Kenya: KWS Dismisses Claims of Forest Destruction At Nairobi National Park",
+          "url": "https://allafrica.com/stories/202603270378.html",
           "source": "AllAfrica",
-          "published": "2026-03-27T17:27:25",
-          "lead": "[InfoWire] In Nairobi on 11 May 2026, a new platform aims to reveal the next generation of African entrepreneurs to deci"
+          "published": "2026-03-27T11:51:32",
+          "lead": "[Capital FM] Nairobi -- The Kenya Wildlife Service (KWS) has dismissed allegations that upland forest within Nairobi Nat"
         },
         {
           "title": "FOREIGN AFFAIRS: France denies that Trump pressured Macron to disinvite Ramaphosa from the G7",
@@ -1316,25 +1734,41 @@
           "source": "Daily Maverick",
           "published": "2026-03-27T12:28:45",
           "lead": "Foreign Minister Jean-Noël Barrot said France instead invited Kenya to a ‘streamlined’ G7 summit."
+        },
+        {
+          "title": "Concern supports 30,000 people in South Sudan with healthcare and cash assistance | Concern Worldwide",
+          "url": "https://reliefweb.int/report/south-sudan/concern-supports-30000-people-south-sudan-healthcare-and-cash-assistance-concern-worldwide",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:43:58",
+          "lead": "Country: South Sudan\n                                      Source: Concern Worldwide\n                                   "
         }
       ],
       "sources": [
         "The Guardian Africa",
-        "Daily Maverick",
-        "RFI Afrique",
-        "Africanews",
+        "AllAfrica",
         "BBC Africa",
-        "AllAfrica"
+        "RFI Afrique",
+        "Daily Maverick",
+        "Africanews",
+        "ReliefWeb"
       ]
     },
     "Rwanda": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.5,
-      "ratio": 0.81,
+      "ratio": 1.22,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
         {
           "word": "M23",
           "count": 1
@@ -1342,6 +1776,13 @@
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
+        },
         {
           "title": "L’UE ne financera la force rwandaise déployée au Mozambique contre les djihadistes affiliés à l’Etat islamique",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/27/l-ue-coupe-le-financement-de-la-force-rwandaise-deployee-au-mozambique-contre-les-djihadistes-affilies-a-l-etat-islamique_6674572_3212.html",
@@ -1359,14 +1800,15 @@
       ],
       "sources": [
         "Le Monde Afrique",
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
     "Burundi": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
       "baseline": 1.0,
-      "ratio": 2.9,
+      "ratio": 3.87,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -1379,19 +1821,11 @@
           "count": 1
         },
         {
-          "word": "Crisis",
+          "word": "Rsf",
           "count": 1
         },
         {
-          "word": "M23",
-          "count": 1
-        },
-        {
-          "word": "Rebel",
-          "count": 1
-        },
-        {
-          "word": "Refugees",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -1400,6 +1834,14 @@
         },
         {
           "word": "Government",
+          "count": 1
+        },
+        {
+          "word": "Refugees",
+          "count": 1
+        },
+        {
+          "word": "Rebel",
           "count": 1
         }
       ],
@@ -1411,6 +1853,13 @@
           "source": "RFI Afrique",
           "published": "2026-03-27T23:19:44",
           "lead": "Présenté aux 55 États membres de l'organisation continentale ce vendredi 27 mars, le projet de décision a été retoqué pa"
+        },
+        {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
         },
         {
           "title": "Congo-Kinshasa: Escalating Violence and Influx of Returnees in DR Congo Fuel Regional Instability",
@@ -1428,36 +1877,79 @@
         }
       ],
       "sources": [
-        "AllAfrica",
         "RFI Afrique",
-        "Human Rights Watch"
+        "Human Rights Watch",
+        "AllAfrica"
       ]
     },
     "Tanzania": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 3,
       "baseline": 1.0,
-      "ratio": 1.03,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 4.14,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
           "word": "Killed",
+          "count": 1
+        },
+        {
+          "word": "Humanitarian",
+          "count": 1
+        },
+        {
+          "word": "Casualties",
+          "count": 1
+        },
+        {
+          "word": "Government",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
+          "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
+          "source": "RFI Afrique",
+          "published": "2026-03-28T06:24:52",
+          "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
+        },
+        {
           "title": "Tanzania landslides kill 20 as heavy rains hit East Africa",
           "url": "http://www.africanews.com/2026/03/27/tanzania-landslides-kill-20-as-heavy-rains-hit-east-africa/",
           "source": "Africanews",
           "published": "2026-03-27T20:13:10",
           "lead": "At least 20 people have been killed in landslides in southern Tanzania after days of intense rainfall, as extreme weathe"
+        },
+        {
+          "title": "Tanzania - Landslide (IFRC, Meteo Tanzania) (ECHO Daily Flash of 27 March 2026)",
+          "url": "https://reliefweb.int/report/united-republic-tanzania/tanzania-landslide-ifrc-meteo-tanzania-echo-daily-flash-27-march-2026",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T10:29:13",
+          "lead": "Country: United Republic of Tanzania\n                                      Source: European Commission's Directorate-Gen"
+        },
+        {
+          "title": "Bringing care for severe noncommunicable diseases closer to communities in Eswatini",
+          "url": "https://reliefweb.int/report/eswatini/bringing-care-severe-noncommunicable-diseases-closer-communities-eswatini",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:04:55",
+          "lead": "Country: Eswatini\n                                      Source: World Health Organization\n                              "
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "RFI Afrique",
+        "ReliefWeb"
       ]
     },
     "Madagascar": {
@@ -1469,11 +1961,11 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Gouvernement",
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -1504,16 +1996,31 @@
       "sources": []
     },
     "Mauritius": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "WHO supports Mauritius in undertaking a comprehensive Health Labour Market Analysis",
+          "url": "https://reliefweb.int/report/mauritius/who-supports-mauritius-undertaking-comprehensive-health-labour-market-analysis",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:03:36",
+          "lead": "Country: Mauritius\n                                      Source: World Health Organization\n                             "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Seychelles": {
       "article_count": 0,
@@ -1540,25 +2047,45 @@
       "sources": []
     },
     "Malawi": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 0.6,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
-      "keyword_pairs": [],
-      "articles": [],
-      "sources": []
-    },
-    "Mozambique": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 0.9,
-      "ratio": 1.07,
+      "baseline": 0.6,
+      "ratio": 1.67,
       "status": "normal",
       "confidence": "low",
-      "keywords": [],
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
+      "keyword_pairs": [],
+      "articles": [
+        {
+          "title": "Bringing care for severe noncommunicable diseases closer to communities in Eswatini",
+          "url": "https://reliefweb.int/report/eswatini/bringing-care-severe-noncommunicable-diseases-closer-communities-eswatini",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:04:55",
+          "lead": "Country: Eswatini\n                                      Source: World Health Organization\n                              "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
+    },
+    "Mozambique": {
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 0.9,
+      "ratio": 2.14,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1567,10 +2094,18 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-27T14:30:09",
           "lead": "Les Etats européens excluent l’idée de reconduire une troisième fois l’aide de 20 millions d’euros à l’armée de Kigali, "
+        },
+        {
+          "title": "Mozambique: Boletim Diário da Cólera Data: 26/03/2026 [PT]",
+          "url": "https://reliefweb.int/report/mozambique/boletim-diario-da-colera-data-26032026-pt",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T08:48:27",
+          "lead": "Country: Mozambique\n                                      Source: Government of Mozambique\n                             "
         }
       ],
       "sources": [
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "ReliefWeb"
       ]
     },
     "Zimbabwe": {
@@ -1617,13 +2152,18 @@
       ]
     },
     "Namibia": {
-      "article_count": 3,
-      "source_count": 1,
+      "article_count": 4,
+      "source_count": 2,
       "baseline": 0.9,
-      "ratio": 3.46,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [],
+      "ratio": 4.62,
+      "status": "high",
+      "confidence": "medium",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -1646,9 +2186,17 @@
           "source": "AllAfrica",
           "published": "2026-03-27T12:10:09",
           "lead": "[Namibian] First gentleman Denga Ndaitwah has called on leaders to adopt a self-critical and forward-thinking approach, "
+        },
+        {
+          "title": "Angola Launches National Campaign to Vaccinate More Than 9 Million Children Against Polio",
+          "url": "https://reliefweb.int/report/angola/angola-launches-national-campaign-vaccinate-more-9-million-children-against-polio",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:06:08",
+          "lead": "Country: Angola\n                                      Source: World Health Organization\n                                "
         }
       ],
       "sources": [
+        "ReliefWeb",
         "AllAfrica"
       ]
     },
@@ -1665,10 +2213,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 14,
-      "source_count": 6,
+      "article_count": 11,
+      "source_count": 5,
       "baseline": 14.9,
-      "ratio": 0.94,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1678,18 +2226,6 @@
         },
         {
           "word": "Violence",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
-          "count": 1
-        },
-        {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Explosion",
           "count": 1
         },
         {
@@ -1714,13 +2250,6 @@
           "lead": "Piece by late South African artist Dumile Feni is part of new series History Doesn’t Repeat Itself, But It Does Rhyme On"
         },
         {
-          "title": "Au Tchad, les ressorts d'une offensive russe «pour éloigner Ndjamena de l’Occident» en 2024",
-          "url": "https://www.rfi.fr/fr/afrique/20260327-au-tchad-les-ressorts-d-une-offensive-russe-pour-%C3%A9loigner-ndjamena-de-l-occident-en-2024",
-          "source": "RFI Afrique",
-          "published": "2026-03-27T06:30:09",
-          "lead": "Dans la série d'enquêtes « Propaganda Machine », un consortium d'investigation autour du média sud-africain The Continen"
-        },
-        {
           "title": "Global mohair supply flourishes in South Africa's desert",
           "url": "http://www.africanews.com/2026/03/27/global-mohair-supply-flourishes-in-south-africas-desert/",
           "source": "Africanews",
@@ -1742,25 +2271,11 @@
           "lead": "France on Thursday denied accusations it caved into US pressure and withdrew an alleged invitation for South Africa to a"
         },
         {
-          "title": "South Africa: France Rescinds South Africa's G7 Summit Invitation",
-          "url": "https://allafrica.com/stories/202603270093.html",
-          "source": "AllAfrica",
-          "published": "2026-03-27T06:26:35",
-          "lead": "[allAfrica] South Africa has said that it had been excluded from the upcoming G7 summit in France after initially being "
-        },
-        {
           "title": "South Africa: France Denies Excluding South Africa From G7 Summit Under Pressure From U.S.",
           "url": "https://allafrica.com/stories/202603270187.html",
           "source": "AllAfrica",
           "published": "2026-03-27T09:26:57",
           "lead": "[RFI] French officials have denied claims by Ramaphosa's presidential office that it has excluded South Africa from the "
-        },
-        {
-          "title": "South Africa: Explosion Leaves Roodepoort Without Power - South African News Briefs - March 27, 2026",
-          "url": "https://allafrica.com/stories/202603270092.html",
-          "source": "AllAfrica",
-          "published": "2026-03-27T05:33:35",
-          "lead": "[allAfrica]"
         },
         {
           "title": "South Africa: Bheki Cele Refuses to Comment On Arrest of 12 Officers He Appointed",
@@ -1782,28 +2297,56 @@
           "source": "Daily Maverick",
           "published": "2026-03-27T12:11:01",
           "lead": "South Africa does not have a simple xenophobia problem. It has a poverty problem, a labour market problem and a state fa"
+        },
+        {
+          "title": "SERVANT LEADERSHIP: Living the dream — Philisa Young Minds Academy for early learning opens in CT",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-27-living-the-dream-philisa-young-minds-academy-for-early-learning-opens-in-ct/",
+          "source": "Daily Maverick",
+          "published": "2026-03-27T11:55:45",
+          "lead": "The opening of a new early childhood development centre alongside the Philisa Abafazi Bethu Women and Family Centre in R"
+        },
+        {
+          "title": "SCHOOLBOY RUGBY: Powerhouses under pressure as North-South tournament sets stage for explosive schoolboy clashes",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-27-powerhouses-under-pressure-as-north-south-tournament-sets-stage-for-explosive-schoolboy-clashes/",
+          "source": "Daily Maverick",
+          "published": "2026-03-27T09:49:34",
+          "lead": "The North-South tournament kicks off in Pretoria this weekend, signalling a high-stakes season."
         }
       ],
       "sources": [
         "The Guardian Africa",
-        "Daily Maverick",
-        "RFI Afrique",
-        "Africanews",
+        "AllAfrica",
         "BBC Africa",
-        "AllAfrica"
+        "Daily Maverick",
+        "Africanews"
       ]
     },
     "Eswatini": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 2.0,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Bringing care for severe noncommunicable diseases closer to communities in Eswatini",
+          "url": "https://reliefweb.int/report/eswatini/bringing-care-severe-noncommunicable-diseases-closer-communities-eswatini",
+          "source": "ReliefWeb",
+          "published": "2026-03-27T09:04:55",
+          "lead": "Country: Eswatini\n                                      Source: World Health Organization\n                              "
+        }
+      ],
+      "sources": [
+        "ReliefWeb"
+      ]
     },
     "Lesotho": {
       "article_count": 0,
