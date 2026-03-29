@@ -1,52 +1,42 @@
 {
-  "generated_at": "2026-03-29T09:28:46.395475",
+  "generated_at": "2026-03-29T12:34:49.605970",
   "summary": {
-    "high": 2,
-    "elevated": 2,
-    "normal": 26,
-    "quiet": 24
+    "high": 3,
+    "elevated": 0,
+    "normal": 19,
+    "quiet": 32
   },
   "countries": {
     "Morocco": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.2,
-      "ratio": 0.24,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 4.1,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "France-Maroc : ce que cinq siècles de diplomatie disent de la relation actuelle",
-          "url": "https://www.jeuneafrique.com/1774716/politique/france-maroc-ce-que-cinq-siecles-de-diplomatie-disent-des-tensions-actuelles/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T10:14:24",
-          "lead": "Avec l’annonce du départ de Christophe Lecourtier, nommé à la tête de l’Agence française de développement, le sujet des "
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Algeria": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.5,
-      "ratio": 1.36,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
         {
           "word": "Guerre",
           "count": 1
         },
         {
           "word": "Mort",
+          "count": 1
+        },
+        {
+          "word": "Président",
           "count": 1
         }
       ],
@@ -56,7 +46,7 @@
           "title": "Liamine Zéroual, ancien président et visage de l’Etat algérien durant la « décennie noire », est mort",
           "url": "https://www.lemonde.fr/international/article/2026/03/29/liamine-zeroual-ancien-president-et-visage-de-l-etat-algerien-durant-la-decennie-noire-est-mort_6675228_3210.html",
           "source": "Le Monde Afrique",
-          "published": "2026-03-29T09:15:45",
+          "published": "2026-03-29T09:15:40",
           "lead": "Militaire propulsé au sommet du pouvoir par ses pairs, Liamine Zéroual aura dirigé l’Algérie dans la douleur au fil de l"
         },
         {
@@ -114,9 +104,9 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "Africanews",
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Libya": {
@@ -132,16 +122,16 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 4,
+      "article_count": 6,
       "source_count": 3,
       "baseline": 1.3,
-      "ratio": 3.16,
+      "ratio": 4.74,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "War",
-          "count": 2
+          "count": 4
         },
         {
           "word": "Crisis",
@@ -160,6 +150,20 @@
           "source": "BBC Africa",
           "published": "2026-03-28T23:00:49",
           "lead": "Retail and dining premises will have to shut by 21:00 each night for the next month to conserve power."
+        },
+        {
+          "title": "Pakistan hosts four-nation bid to encourage US, Iran towards diplomacy",
+          "url": "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-29T11:10:43",
+          "lead": "Top diplomats of Pakistan, Egypt, Saudi Arabia and Turkiye meet to prepare ground for de-escalation in war on Iran."
+        },
+        {
+          "title": "US-Israel war on Iran: What’s happening on day 30 of attacks?",
+          "url": "https://www.aljazeera.com/news/2026/3/29/us-israel-war-on-iran-whats-happening-on-day-30-of-attacks?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-29T08:54:04",
+          "lead": "Foreign ministers from Pakistan, Turkiye, Egypt and Saudi Arabia hold talks in Islamabad to end US-Israel war on Iran."
         },
         {
           "title": "Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran",
@@ -184,9 +188,9 @@
         }
       ],
       "sources": [
+        "Al Jazeera",
         "RFI Afrique",
-        "BBC Africa",
-        "Al Jazeera"
+        "BBC Africa"
       ]
     },
     "Sudan": {
@@ -198,19 +202,19 @@
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Président",
-          "count": 1
-        },
-        {
           "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -237,12 +241,12 @@
       ]
     },
     "Mauritania": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 0.9,
-      "ratio": 2.31,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 3.46,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
         {
           "word": "Mort",
@@ -263,6 +267,13 @@
           "lead": "Entre la Mauritanie et le Mali, le ton monte à nouveau. Nouakchott accuse l'armée malienne d'avoir commis de nouvelles e"
         },
         {
+          "title": "Frontière Mali-Mauritanie : nouvelles tensions après des accusations d’exactions civiles",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-fronti%C3%A8re-mali-mauritanie-nouvelles-tensions-apr%C3%A8s-des-accusations-d-exactions-civiles",
+          "source": "France24 Afrique",
+          "published": "2026-03-29T11:15:33",
+          "lead": "La Mauritanie accuse une nouvelle fois le Mali d’exactions contre des civils mauritaniens dans la zone frontalière entre"
+        },
+        {
           "title": "Mort de citoyens mauritaniens au Mali : Nouakchott exprime sa « profonde inquiétude »",
           "url": "https://www.jeuneafrique.com/1784084/politique/mort-de-citoyens-mauritaniens-au-mali-nouakchott-exprime-sa-profonde-inquietude/",
           "source": "Jeune Afrique",
@@ -271,15 +282,16 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 2.7,
-      "ratio": 0.75,
+      "ratio": 1.12,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -302,6 +314,13 @@
           "lead": "Entre la Mauritanie et le Mali, le ton monte à nouveau. Nouakchott accuse l'armée malienne d'avoir commis de nouvelles e"
         },
         {
+          "title": "Frontière Mali-Mauritanie : nouvelles tensions après des accusations d’exactions civiles",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-fronti%C3%A8re-mali-mauritanie-nouvelles-tensions-apr%C3%A8s-des-accusations-d-exactions-civiles",
+          "source": "France24 Afrique",
+          "published": "2026-03-29T11:15:33",
+          "lead": "La Mauritanie accuse une nouvelle fois le Mali d’exactions contre des civils mauritaniens dans la zone frontalière entre"
+        },
+        {
           "title": "Mort de citoyens mauritaniens au Mali : Nouakchott exprime sa « profonde inquiétude »",
           "url": "https://www.jeuneafrique.com/1784084/politique/mort-de-citoyens-mauritaniens-au-mali-nouakchott-exprime-sa-profonde-inquietude/",
           "source": "Jeune Afrique",
@@ -310,8 +329,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
@@ -342,12 +362,12 @@
       ]
     },
     "Niger": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.1,
-      "ratio": 0.95,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
           "word": "Coup",
@@ -362,25 +382,17 @@
           "source": "RFI Afrique",
           "published": "2026-03-29T05:09:34",
           "lead": "Au Niger, interdiction de diffuser des images de personnes recevant des aides, comme par exemple des dons alimentaires. "
-        },
-        {
-          "title": "Le Niger va créer des groupes civils « d’autodéfense » pour lutter contre le jihadisme",
-          "url": "https://www.jeuneafrique.com/1784065/politique/le-niger-va-creer-des-groupes-civils-dautodefense-pour-lutter-contre-le-jihadisme/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T11:01:45",
-          "lead": "Le régime militaire du Niger a annoncé la création prochaine d’auxiliaires civils de l’armée pour combattre les groupes "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "Senegal": {
       "article_count": 8,
-      "source_count": 5,
-      "baseline": 6.2,
-      "ratio": 1.28,
+      "source_count": 6,
+      "baseline": 6.1,
+      "ratio": 1.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -389,11 +401,7 @@
           "count": 1
         },
         {
-          "word": "War",
-          "count": 1
-        },
-        {
-          "word": "Protest",
+          "word": "Président",
           "count": 1
         }
       ],
@@ -428,6 +436,13 @@
           "lead": "Devant près de 80 000 spectateurs réunis au Stade de France de Saint-Denis pour un match amical contre le Pérou, la séle"
         },
         {
+          "title": "L'Union africaine ne soutient pas la candidature de Macky Sall à l'ONU",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-l-union-africaine-ne-soutient-pas-la-candidature-de-macky-sall-%C3%A0-l-onu",
+          "source": "France24 Afrique",
+          "published": "2026-03-29T11:14:23",
+          "lead": "L’Union africaine a refusé de soutenir la candidature de l’ancien président sénégalais Macky Sall au poste de secrétaire"
+        },
+        {
           "title": "Le Sénégal présente le trophée de la CAN au Stade de France, devant la diaspora rassemblée pour célébrer les « seuls champions d’Afrique »",
           "url": "https://www.lemonde.fr/afrique/article/2026/03/28/football-au-stade-de-france-la-diaspora-senegalaise-a-celebre-les-seuls-champions-d-afrique_6675090_3212.html",
           "source": "Le Monde Afrique",
@@ -447,21 +462,15 @@
           "source": "Africanews",
           "published": "2026-03-28T13:25:09",
           "lead": "Dakar has been transformed into a vast construction site, seven months before the Youth Olympic Games – the first global"
-        },
-        {
-          "title": "Demonstrators gather in Dakar to protest Iran war and show solidarity",
-          "url": "http://www.africanews.com/2026/03/28/demonstrators-gather-in-dakar-to-protest-iran-war-and-show-solidarity/",
-          "source": "Africanews",
-          "published": "2026-03-28T09:52:05",
-          "lead": "Dozens of demonstrators gathered in Dakar on Friday to protest the ongoing Iran war, voicing opposition to military acti"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "BBC Africa",
-        "RFI Afrique",
         "Africanews",
-        "Jeune Afrique"
+        "BBC Africa",
+        "Jeune Afrique",
+        "France24 Afrique",
+        "Le Monde Afrique",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -489,31 +498,16 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.5,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Guinée équatoriale : le gouvernement nie prélever des fonds sur salaire pour la visite du pape",
-          "url": "https://www.jeuneafrique.com/1784068/politique/guinee-equatoriale-le-gouvernement-nie-prelever-des-fonds-sur-salaire-pour-la-visite-du-pape/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T11:38:40",
-          "lead": "Avant l’arrivée de Léon XIV à Malabo le 21 avril, les autorités de Guinée équatoriale ont pratiqué, en février, des rete"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Sierra Leone": {
       "article_count": 0,
@@ -540,18 +534,13 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 1.8,
-      "ratio": 1.09,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 0.54,
       "status": "normal",
-      "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "confidence": "low",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -560,18 +549,10 @@
           "source": "France24 Afrique",
           "published": "2026-03-29T07:12:34",
           "lead": "Alassane Ouattara a été réélu en octobre avec près de 90 % des voix dès le premier tour. Selon les autorités, 1 658 pers"
-        },
-        {
-          "title": "Houphouët-Boigny, en 1985 : « Comme les crocodiles de Yamoussoukro, je dors les yeux ouverts »",
-          "url": "https://www.jeuneafrique.com/1725453/politique/houphouet-boigny-en-1985-comme-les-crocodiles-de-yamoussoukro-je-dors-les-yeux-ouverts/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T11:41:23",
-          "lead": "Son enfance, les libertés, la religion, la mort, l’argent, le football… Dans cette interview, réalisée par Abdelaziz Dah"
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "France24 Afrique"
       ]
     },
     "Ghana": {
@@ -617,30 +598,34 @@
       "article_count": 2,
       "source_count": 1,
       "baseline": 1.7,
-      "ratio": 1.15,
+      "ratio": 1.18,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Coup",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
         {
+          "title": "Bénin : coup d'envoi de la campagne pour la présidentielle du 12 avril",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-b%C3%A9nin-coup-d-envoi-de-la-campagne-pour-la-pr%C3%A9sidentielle-du-12-avril",
+          "source": "France24 Afrique",
+          "published": "2026-03-29T11:17:13",
+          "lead": "Au Bénin, la campagne présidentielle est désormais lancée. Après dix ans au pouvoir, le président Patrice Talon achève s"
+        },
+        {
           "title": "Bénin, début de la campagne de la présidentielle du 12 avril prochain",
           "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20260328-b%C3%A9nin-d%C3%A9but-de-la-campagne-de-la-pr%C3%A9sidentielle-du-12-avril-prochain",
           "source": "France24 Afrique",
           "published": "2026-03-28T21:29:39",
           "lead": "Au Bénin, la campagne présidentielle est bien lancée depuis ce vendredi. Après 10 ans au pouvoir, le président Patrice T"
-        },
-        {
-          "title": "Au Bénin, la fermeture de la réserve de la Pendjari fragilise toute la région",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260328-au-b%C3%A9nin-la-fermeture-de-la-r%C3%A9serve-de-la-pendjari-fragilise-toute-la-r%C3%A9gion",
-          "source": "France24 Afrique",
-          "published": "2026-03-28T12:25:29",
-          "lead": "Le Sahel est la région la plus touchée au monde par le terrorisme, et les conséquences débordent sur les pays voisins. A"
         }
       ],
       "sources": [
@@ -648,26 +633,16 @@
       ]
     },
     "Nigeria": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 7.9,
-      "ratio": 0.13,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Au Nigeria, la raffinerie d’Aliko Dangote tourne à plein régime, sur fond de pénuries",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/28/au-nigeria-la-raffinerie-d-aliko-dangote-tourne-a-plein-regime-sur-fond-de-penuries_6675038_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-28T10:00:07",
-          "lead": "La méga infrastructure construite en banlieue de Lagos par le milliardaire nigérian exporte désormais du carburant vers "
-        }
-      ],
-      "sources": [
-        "Le Monde Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Cape Verde": {
       "article_count": 0,
@@ -694,39 +669,16 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 2.5,
-      "ratio": 0.39,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Président",
-          "count": 1
-        },
-        {
-          "word": "Élection",
-          "count": 1
-        },
-        {
-          "word": "Mort",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Cameroun: interdiction des hommages à l’opposant Anicet Ekane, mort en détention",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-cameroun-interdiction-des-hommages-%C3%A0-l-opposant-anicet-ekane-mort-en-d%C3%A9tention",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T10:49:49",
-          "lead": "Au Cameroun, les autorités ont interrompu des cérémonies d’hommage à Anicet Ekane, dans la région de l'Ouest du pays, ce"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "CAR": {
       "article_count": 1,
@@ -737,7 +689,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Wagner",
+          "word": "Violence",
           "count": 1
         },
         {
@@ -745,7 +697,7 @@
           "count": 1
         },
         {
-          "word": "Violence",
+          "word": "Wagner",
           "count": 1
         }
       ],
@@ -772,19 +724,19 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Président",
-          "count": 1
-        },
-        {
           "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Crise",
+          "word": "Humanitaire",
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -803,31 +755,16 @@
       ]
     },
     "Eq. Guinea": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Guinée équatoriale : le gouvernement nie prélever des fonds sur salaire pour la visite du pape",
-          "url": "https://www.jeuneafrique.com/1784068/politique/guinee-equatoriale-le-gouvernement-nie-prelever-des-fonds-sur-salaire-pour-la-visite-du-pape/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T11:38:40",
-          "lead": "Avant l’arrivée de Léon XIV à Malabo le 21 avril, les autorités de Guinée équatoriale ont pratiqué, en février, des rete"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Gabon": {
       "article_count": 1,
@@ -852,15 +789,19 @@
       ]
     },
     "Congo": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.47,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 2.2,
+      "ratio": 0.92,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Election",
           "count": 1
         }
       ],
@@ -872,17 +813,25 @@
           "source": "RFI Afrique",
           "published": "2026-03-29T07:00:14",
           "lead": "Au Congo-Brazzaville, la Cour constitutionnelle valide la victoire de Denis Sassou Nguesso. La Cour constitutionnelle a "
+        },
+        {
+          "title": "Congo-Brazzaville court confirms Sassou Nguesso re‑election with 95%",
+          "url": "http://www.africanews.com/2026/03/29/congo-brazzaville-court-confirms-sassou-nguesso-reelection-with-95/",
+          "source": "Africanews",
+          "published": "2026-03-29T09:39:40",
+          "lead": "Sassou Nguesso Extends Four-Decade Rule After Controversial 95% Victory"
         }
       ],
       "sources": [
+        "Africanews",
         "RFI Afrique"
       ]
     },
     "DRC": {
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "baseline": 6.5,
-      "ratio": 0.46,
+      "ratio": 0.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -891,11 +840,11 @@
           "count": 2
         },
         {
-          "word": "Gouvernement",
-          "count": 2
+          "word": "Combat",
+          "count": 1
         },
         {
-          "word": "Combat",
+          "word": "Gouvernement",
           "count": 1
         }
       ],
@@ -914,18 +863,10 @@
           "source": "RFI Afrique",
           "published": "2026-03-29T04:46:16",
           "lead": "En République démocratique du Congo (RDC), le gouvernement est en alerte face à des risques de radiation radioactive sur"
-        },
-        {
-          "title": "RD Congo: une vidéo virale souligne un problème de prise en charge de la santé des femmes",
-          "url": "https://www.france24.com/fr/vid%C3%A9o/20260328-rd-congo-une-vid%C3%A9o-virale-souligne-un-probl%C3%A8me-de-prise-en-charge-de-la-sant%C3%A9-des-femmes",
-          "source": "France24 Afrique",
-          "published": "2026-03-28T11:28:17",
-          "lead": "Une vidéo qui montre des violences sur une femme qui vient d'accoucher est devenue virale sur les réseaux sociaux en RD "
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "France24 Afrique"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -965,39 +906,24 @@
       "sources": []
     },
     "Djibouti": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 0.5,
-      "ratio": 2.0,
-      "status": "normal",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Guerre en Iran : la présence américaine en Afrique face aux risques de représailles",
-          "url": "https://www.jeuneafrique.com/1775707/politique/guerre-en-iran-la-presence-americaine-en-afrique-face-aux-risques-de-represailles/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T12:31:45",
-          "lead": "Sans donner de détails, Washington prend au sérieux les menaces qui pèsent sur ses ressortissants comme sur ses installa"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Ethiopia": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.0,
-      "ratio": 0.98,
+      "ratio": 0.49,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
@@ -1007,79 +933,23 @@
           "source": "RFI Afrique",
           "published": "2026-03-28T23:47:01",
           "lead": "Le 26 mars 2026, la ville éthiopienne de Harar, située à 400 kilomètres d'Addis-Abeba, a accueilli le festival Shuwalid."
-        },
-        {
-          "title": "Kidnapped and tortured on an infamous migration route to Saudi Arabia",
-          "url": "https://news.un.org/feed/view/en/story/2026/03/1167212",
-          "source": "UN News Africa",
-          "published": "2026-03-28T12:00:00",
-          "lead": "An Ethiopian man describes how he was tortured by human traffickers as he went in search of his nephew on a now infamous"
         }
       ],
       "sources": [
-        "UN News Africa",
         "RFI Afrique"
       ]
     },
     "Somalia": {
-      "article_count": 4,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.7,
-      "ratio": 2.35,
-      "status": "elevated",
-      "confidence": "low",
-      "keywords": [
-        {
-          "word": "Drought",
-          "count": 2
-        },
-        {
-          "word": "Humanitarian",
-          "count": 2
-        },
-        {
-          "word": "Displaced",
-          "count": 1
-        },
-        {
-          "word": "Crisis",
-          "count": 1
-        }
-      ],
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
+      "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Statement by the Humanitarian Coordinator for Somalia Mr. George Conway",
-          "url": "https://reliefweb.int/report/somalia/statement-humanitarian-coordinator-somalia-mr-george-conway",
-          "source": "ReliefWeb",
-          "published": "2026-03-28T14:46:14",
-          "lead": "Country: Somalia\n                                      Source: UN Office for the Coordination of Humanitarian Affairs\n  "
-        },
-        {
-          "title": "Somalia Health Cluster Partners Operational Presence Map : Februray 2026",
-          "url": "https://reliefweb.int/report/somalia/somalia-health-cluster-partners-operational-presence-map-februray-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-28T14:01:41",
-          "lead": "Country: Somalia\n                                      Source: Health Cluster\n                                          "
-        },
-        {
-          "title": "Snapshot for Somalia Health Cluster Response - February 2026",
-          "url": "https://reliefweb.int/report/somalia/snapshot-somalia-health-cluster-response-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-28T13:52:30",
-          "lead": "Country: Somalia\n                                      Source: Health Cluster\n                                          "
-        },
-        {
-          "title": "Somalia: Health Cluster Bulletin, February 2026",
-          "url": "https://reliefweb.int/report/somalia/somalia-health-cluster-bulletin-february-2026",
-          "source": "ReliefWeb",
-          "published": "2026-03-28T13:37:40",
-          "lead": "Country: Somalia\n                                      Source: Health Cluster\n                                          "
-        }
-      ],
-      "sources": [
-        "ReliefWeb"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Uganda": {
       "article_count": 0,
@@ -1097,7 +967,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 5.7,
-      "ratio": 0.53,
+      "ratio": 0.52,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1136,14 +1006,14 @@
       ],
       "sources": [
         "Africanews",
-        "BBC Africa",
-        "RFI Afrique"
+        "RFI Afrique",
+        "BBC Africa"
       ]
     },
     "Rwanda": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1187,26 +1057,16 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.7,
-      "ratio": 0.59,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Justice à Madagascar: faute de moyens, de nombreux mineurs toujours placés en détention",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-justice-%C3%A0-madagascar-faute-de-moyens-de-nombreux-mineurs-toujours-plac%C3%A9s-en-d%C3%A9tention",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T12:13:42",
-          "lead": "Magistrats, responsables du ministère de la Justice, associations… À Madagascar, un séminaire national vient de réunir, "
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Comoros": {
       "article_count": 0,
@@ -1327,24 +1187,35 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 14.0,
-      "ratio": 0.21,
+      "ratio": 0.29,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Government",
+          "word": "President",
           "count": 1
         },
         {
           "word": "Minister",
           "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Olympic gender test ‘a disrespect for women’, South Africa’s Semenya says",
+          "url": "https://www.aljazeera.com/sports/2026/3/29/olympic-gender-test-a-disrespect-for-women-south-africas-semenya-says?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-29T10:33:51",
+          "lead": "Olympic gold medallist lashes out at IOC and its president, Kirsty Coventry, for asking women to prove themselves."
+        },
         {
           "title": "Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions",
           "url": "https://www.theguardian.com/world/2026/mar/29/graaff-reinet-robert-sobukwe-south-african-town-name-change-stirs-racial-tensions",
@@ -1370,6 +1241,7 @@
       "sources": [
         "Africanews",
         "The Guardian Africa",
+        "Al Jazeera",
         "Daily Maverick"
       ]
     },
