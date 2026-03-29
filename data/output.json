@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-29T01:29:16.915115",
+  "generated_at": "2026-03-29T05:05:12.696836",
   "summary": {
-    "high": 2,
-    "elevated": 4,
-    "normal": 19,
-    "quiet": 29
+    "high": 1,
+    "elevated": 5,
+    "normal": 20,
+    "quiet": 28
   },
   "countries": {
     "Morocco": {
@@ -72,7 +72,7 @@
       "article_count": 4,
       "source_count": 2,
       "baseline": 1.1,
-      "ratio": 3.75,
+      "ratio": 3.53,
       "status": "high",
       "confidence": "medium",
       "keywords": [
@@ -125,14 +125,14 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Libya": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -142,11 +142,11 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.2,
-      "ratio": 2.57,
-      "status": "high",
+      "ratio": 1.62,
+      "status": "elevated",
       "confidence": "medium",
       "keywords": [
         {
@@ -169,35 +169,39 @@
           "source": "RFI Afrique",
           "published": "2026-03-28T23:04:05",
           "lead": "C'est la première fois que le peintre égyptien Hamed Abdalla, disparu en 1985, bénéficie d'une rétrospective en France. "
-        },
-        {
-          "title": "Africa: Afreximbank to Hold Its 33rd Annual Meetings in El Alamein, Egypt, From 21-24 June 2026",
-          "url": "https://allafrica.com/stories/202603280063.html",
-          "source": "AllAfrica",
-          "published": "2026-03-28T08:45:02",
-          "lead": "[Afreximbank] African Export-Import Bank (Afreximbank) has announced that it will hold its 33rd Annual Meetings (AAM2026"
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "AllAfrica",
-        "BBC Africa"
+        "BBC Africa",
+        "RFI Afrique"
       ]
     },
     "Sudan": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 4.4,
-      "ratio": 0.45,
+      "article_count": 3,
+      "source_count": 3,
+      "baseline": 4.2,
+      "ratio": 0.71,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
+        {
+          "word": "Guerre",
+          "count": 2
+        },
         {
           "word": "Rsf",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Crise",
           "count": 1
         }
       ],
@@ -211,6 +215,13 @@
           "lead": "L’ONG Reporters sans frontières (RSF) a publié, ce jeudi 26 mars, un rapport sur la pratique du journalisme dans la régi"
         },
         {
+          "title": "Le Soudan du Sud est-il en train de replonger dans une guerre civile ? Comprendre en trois minutes",
+          "url": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/03/29/le-soudan-du-sud-est-il-en-train-de-replonger-dans-une-guerre-civile-comprendre-en-trois-minutes_6675207_6176282.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-29T04:00:41",
+          "lead": "Le très jeune Etat, devenu indépendant en 2011, traverse une grave crise humanitaire et sécuritaire, sur fond de tension"
+        },
+        {
           "title": "Faure Gnassingbé et l’AES : si proche et si loin à la fois",
           "url": "https://www.jeuneafrique.com/1783814/politique/faure-gnassingbe-et-laes-si-proche-et-si-loin-a-la-fois/",
           "source": "Jeune Afrique",
@@ -219,8 +230,9 @@
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Le Monde Afrique"
       ]
     },
     "Mauritania": {
@@ -258,8 +270,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Mali": {
@@ -297,31 +309,21 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 1.6,
-      "ratio": 0.64,
-      "status": "normal",
-      "confidence": "low",
+      "article_count": 0,
+      "source_count": 0,
+      "baseline": 1.4,
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Le Burkina Faso adopte une «Charte de la révolution» qui redéfinit les règles de gouvernance dans le pays",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-le-burkina-faso-adopte-une-charte-de-la-r%C3%A9volution-qui-red%C3%A9finit-les-r%C3%A8gles-de-gouvernance-dans-le-pays",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T04:00:47",
-          "lead": "Le document, dont l'objectif est de permettre au pays de rompre avec les « modèles politiques impérialistes et néocoloni"
-        }
-      ],
-      "sources": [
-        "RFI Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Niger": {
       "article_count": 1,
@@ -348,8 +350,8 @@
     "Senegal": {
       "article_count": 13,
       "source_count": 6,
-      "baseline": 6.0,
-      "ratio": 2.18,
+      "baseline": 6.3,
+      "ratio": 2.07,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -358,11 +360,11 @@
           "count": 2
         },
         {
-          "word": "Protest",
+          "word": "War",
           "count": 1
         },
         {
-          "word": "War",
+          "word": "Protest",
           "count": 1
         },
         {
@@ -463,11 +465,11 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Al Jazeera",
-        "RFI Afrique",
-        "Africanews",
         "BBC Africa",
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Al Jazeera",
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Gambia": {
@@ -524,7 +526,7 @@
     "Sierra Leone": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.7,
+      "baseline": 0.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -536,7 +538,7 @@
     "Liberia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.8,
+      "baseline": 1.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -546,17 +548,13 @@
       "sources": []
     },
     "Côte d'Ivoire": {
-      "article_count": 2,
-      "source_count": 2,
-      "baseline": 2.0,
-      "ratio": 1.02,
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.9,
+      "ratio": 0.54,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
-        {
-          "word": "Élection",
-          "count": 1
-        },
         {
           "word": "Mort",
           "count": 1
@@ -564,13 +562,6 @@
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Côte d'Ivoire: le secrétaire exécutif du PDCI Calice Yapo jugé non coupable de «troubles à l’ordre public»",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-c%C3%B4te-d-ivoire-le-secr%C3%A9taire-ex%C3%A9cutif-du-pdci-calice-yapo-jug%C3%A9-non-coupable-de-troubles-%C3%A0-l-ordre-public",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T04:01:35",
-          "lead": "Rendu vendredi 27 mars, ce jugement va à l'encontre des réquisitions du parquet qui avait demandé 36 mois de prison avec"
-        },
         {
           "title": "Houphouët-Boigny, en 1985 : « Comme les crocodiles de Yamoussoukro, je dors les yeux ouverts »",
           "url": "https://www.jeuneafrique.com/1725453/politique/houphouet-boigny-en-1985-comme-les-crocodiles-de-yamoussoukro-je-dors-les-yeux-ouverts/",
@@ -580,14 +571,13 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
     "Ghana": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.4,
+      "baseline": 2.3,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -650,15 +640,15 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "France24 Afrique"
       ]
     },
     "Nigeria": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 8.2,
-      "ratio": 0.12,
+      "baseline": 7.9,
+      "ratio": 0.13,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -713,11 +703,11 @@
           "count": 1
         },
         {
-          "word": "Mort",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Mort",
           "count": 1
         }
       ],
@@ -736,28 +726,78 @@
       ]
     },
     "CAR": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.4,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.71,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Violence",
+          "count": 1
+        },
+        {
+          "word": "Rebelle",
+          "count": 1
+        },
+        {
+          "word": "Wagner",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Centrafrique: affrontements meurtriers dans la ville minière de Ndassima, dans le centre du pays",
+          "url": "https://www.rfi.fr/fr/afrique/20260329-centrafrique-affrontements-meurtriers-dans-la-ville-mini%C3%A8re-de-ndassima-dans-le-centre-du-pays",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T03:04:03",
+          "lead": "L'assassinat d'un artisan minier par un « Russe noir », un ancien rebelle centrafricain aujourd'hui intégré aux forces a"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "South Sudan": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 1.8,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 1.6,
+      "ratio": 0.62,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "Guerre",
+          "count": 1
+        },
+        {
+          "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Humanitaire",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Le Soudan du Sud est-il en train de replonger dans une guerre civile ? Comprendre en trois minutes",
+          "url": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/03/29/le-soudan-du-sud-est-il-en-train-de-replonger-dans-une-guerre-civile-comprendre-en-trois-minutes_6675207_6176282.html",
+          "source": "Le Monde Afrique",
+          "published": "2026-03-29T04:00:41",
+          "lead": "Le très jeune Etat, devenu indépendant en 2011, traverse une grave crise humanitaire et sécuritaire, sur fond de tension"
+        }
+      ],
+      "sources": [
+        "Le Monde Afrique"
+      ]
     },
     "Eq. Guinea": {
       "article_count": 1,
@@ -789,7 +829,7 @@
     "Gabon": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.2,
+      "baseline": 1.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -811,15 +851,19 @@
       "sources": []
     },
     "DRC": {
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 3,
-      "baseline": 6.8,
-      "ratio": 0.44,
+      "baseline": 6.5,
+      "ratio": 0.62,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "Gouvernement",
+          "count": 2
+        },
+        {
+          "word": "Président",
           "count": 1
         },
         {
@@ -827,12 +871,19 @@
           "count": 1
         },
         {
-          "word": "Gouvernement",
+          "word": "Rsf",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RDC: pollution à Kolwezi et menace d’une contamination radioactive",
+          "url": "https://www.rfi.fr/fr/afrique/20260329-rdc-pollution-%C3%A0-kolwezi-et-menace-d-une-contamination-radioactive",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T04:46:16",
+          "lead": "En République démocratique du Congo (RDC), le gouvernement est en alerte face à des risques de radiation radioactive sur"
+        },
         {
           "title": "Dans l’est de la RDC, il est de plus en plus difficile d'exercer le métier de journaliste",
           "url": "https://www.rfi.fr/fr/podcasts/menaces-sur-l-information/20260328-dans-l-est-de-la-rdc-il-est-de-plus-en-plus-difficile-d-exercer-le-m%C3%A9tier-de-journaliste",
@@ -856,9 +907,9 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
+        "Jeune Afrique",
         "France24 Afrique",
-        "Jeune Afrique"
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -927,8 +978,8 @@
     "Ethiopia": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.1,
-      "ratio": 0.94,
+      "baseline": 2.0,
+      "ratio": 0.98,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -950,8 +1001,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "UN News Africa"
+        "UN News Africa",
+        "RFI Afrique"
       ]
     },
     "Somalia": {
@@ -969,17 +1020,17 @@
     "Uganda": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 2.1,
-      "ratio": 0.47,
+      "baseline": 2.0,
+      "ratio": 0.49,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Rsf",
           "count": 1
         }
       ],
@@ -1046,24 +1097,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "RFI Afrique"
       ]
     },
     "Rwanda": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 1.2,
+      "baseline": 2.4,
+      "ratio": 1.25,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Rsf",
           "count": 1
         }
       ],
@@ -1092,8 +1143,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Burundi": {
@@ -1105,11 +1156,11 @@
       "confidence": "medium",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Rsf",
           "count": 1
         }
       ],
@@ -1131,24 +1182,24 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Tanzania": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.0,
-      "ratio": 1.03,
+      "baseline": 0.9,
+      "ratio": 1.07,
       "status": "normal",
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rsf",
+          "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Guerre",
+          "word": "Rsf",
           "count": 1
         }
       ],
@@ -1170,7 +1221,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.58,
+      "ratio": 0.59,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -1251,7 +1302,7 @@
     "Mozambique": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.9,
+      "baseline": 0.8,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1263,7 +1314,7 @@
     "Zimbabwe": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 2.3,
+      "baseline": 2.1,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1275,7 +1326,7 @@
     "Namibia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 0.8,
+      "baseline": 0.7,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -1297,15 +1348,31 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 14.4,
-      "ratio": 0.07,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 13.9,
+      "ratio": 0.14,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Minister",
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions",
+          "url": "https://www.theguardian.com/world/2026/mar/29/graaff-reinet-robert-sobukwe-south-african-town-name-change-stirs-racial-tensions",
+          "source": "The Guardian Africa",
+          "published": "2026-03-29T04:00:46",
+          "lead": "Minister’s decision to ditch town’s colonial-era identity and honour anti-apartheid activist divides residentsA South Af"
+        },
         {
           "title": "Montreux Jazz Festival makes African debut in South Africa’s wine country",
           "url": "http://www.africanews.com/2026/03/28/montreux-jazz-festival-makes-african-debut-in-south-africas-wine-country/",
@@ -1315,7 +1382,8 @@
         }
       ],
       "sources": [
-        "Africanews"
+        "Africanews",
+        "The Guardian Africa"
       ]
     },
     "Eswatini": {
