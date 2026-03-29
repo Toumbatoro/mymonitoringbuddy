@@ -1,53 +1,79 @@
 {
-  "generated_at": "2026-03-29T12:34:49.605970",
+  "generated_at": "2026-03-29T15:22:51.539447",
   "summary": {
-    "high": 3,
+    "high": 4,
     "elevated": 0,
-    "normal": 19,
-    "quiet": 32
+    "normal": 20,
+    "quiet": 30
   },
   "countries": {
     "Morocco": {
-      "article_count": 0,
-      "source_count": 0,
-      "baseline": 4.1,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "article_count": 1,
+      "source_count": 1,
+      "baseline": 4.0,
+      "ratio": 0.25,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "CAF: Véron-Mosengo s'en va, Motsepe lance une réforme sur l'arbitrage et annonce une visite au Sénégal",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260329-caf-v%C3%A9ron-mosengo-s-en-va-motsepe-lance-une-r%C3%A9forme-sur-l-arbitrage-et-annonce-une-visite-au-s%C3%A9n%C3%A9gal",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T13:16:39",
+          "lead": "Réuni au Caire, le comité exécutif de la Confédération africaine de football (CAF) a entériné la démission de son secrét"
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Algeria": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 4,
+      "source_count": 4,
       "baseline": 1.5,
-      "ratio": 1.3,
-      "status": "normal",
-      "confidence": "normal",
+      "ratio": 2.61,
+      "status": "high",
+      "confidence": "high",
       "keywords": [
+        {
+          "word": "Président",
+          "count": 2
+        },
+        {
+          "word": "Mort",
+          "count": 2
+        },
         {
           "word": "Guerre",
           "count": 1
         },
         {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Président",
+          "word": "President",
           "count": 1
         }
       ],
-      "keyword_pairs": [],
+      "keyword_pairs": [
+        [
+          "Mort",
+          "Président"
+        ]
+      ],
       "articles": [
+        {
+          "title": "Algérie: l'ancien président Liamine Zeroual est mort à l'âge de 84 ans",
+          "url": "https://www.rfi.fr/fr/afrique/20260329-alg%C3%A9rie-l-ancien-pr%C3%A9sident-liamine-zeroual-est-mort-%C3%A0-l-%C3%A2ge-de-84-ans",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T13:48:06",
+          "lead": "Il était le visage de l'État algérien lors de la décennie noire des années 1990. L'ancien président Liamine Zeroual est "
+        },
         {
           "title": "Liamine Zéroual, ancien président et visage de l’Etat algérien durant la « décennie noire », est mort",
           "url": "https://www.lemonde.fr/international/article/2026/03/29/liamine-zeroual-ancien-president-et-visage-de-l-etat-algerien-durant-la-decennie-noire-est-mort_6675228_3210.html",
           "source": "Le Monde Afrique",
           "published": "2026-03-29T09:15:40",
-          "lead": "Militaire propulsé au sommet du pouvoir par ses pairs, Liamine Zéroual aura dirigé l’Algérie dans la douleur au fil de l"
+          "lead": "Le militaire, propulsé au sommet du pouvoir par ses pairs, aura dirigé l’Algérie dans la douleur au fil de la sanglante "
         },
         {
           "title": "La diplomatie sportive est-elle une priorité pour l’Algérie ?",
@@ -55,11 +81,20 @@
           "source": "Jeune Afrique",
           "published": "2026-03-29T10:03:17",
           "lead": "Plusieurs pays africains ont opté pour une politique de diplomatie sportive. Malgré ses moyens et une modernisation inte"
+        },
+        {
+          "title": "Former Algerian president Liamine Zeroual dies at 84",
+          "url": "http://www.africanews.com/2026/03/29/former-algerian-president-liamine-zeroual-dies-at-84/",
+          "source": "Africanews",
+          "published": "2026-03-29T12:18:34",
+          "lead": "Algeria announced three days of national mourning on Sunday after the death of 84-year-old Liamine Zeroual, the former s"
         }
       ],
       "sources": [
         "Le Monde Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Tunisia": {
@@ -105,8 +140,8 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Libya": {
@@ -122,16 +157,16 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 3,
       "baseline": 1.3,
-      "ratio": 4.74,
+      "ratio": 3.75,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
           "word": "War",
-          "count": 4
+          "count": 3
         },
         {
           "word": "Crisis",
@@ -173,13 +208,6 @@
           "lead": "Talks are under way in Islamabad, as the Pakistani government acts as mediator between the US and Iran."
         },
         {
-          "title": "Iran war live: Pakistan, Turkiye, Egypt, Saudi seek to de-escalate",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/29/iran-war-live-houthis-attack-israel-anti-war-protesters-rally-in-tel-aviv?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-29T00:00:00",
-          "lead": "Push for diplomacy as Iran threatens retaliatory attacks on Israeli, US universities in the Middle East."
-        },
-        {
           "title": "Les «Signes d'Égypte» du peintre Hamed Abdalla exposés à l'IMA-Tourcoing",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-culture/20260328-les-signes-d-%C3%A9gypte-du-peintre-hamed-abdalla-expos%C3%A9s-%C3%A0-l-ima-tourcoing",
           "source": "RFI Afrique",
@@ -188,9 +216,9 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
         "RFI Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "Al Jazeera"
       ]
     },
     "Sudan": {
@@ -206,11 +234,11 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -244,7 +272,7 @@
       "article_count": 3,
       "source_count": 3,
       "baseline": 0.9,
-      "ratio": 3.46,
+      "ratio": 3.33,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -283,15 +311,15 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Mali": {
       "article_count": 3,
       "source_count": 3,
       "baseline": 2.7,
-      "ratio": 1.12,
+      "ratio": 1.11,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -330,8 +358,8 @@
       ],
       "sources": [
         "Jeune Afrique",
-        "France24 Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "France24 Afrique"
       ]
     },
     "Burkina Faso": {
@@ -362,15 +390,19 @@
       ]
     },
     "Niger": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.48,
+      "ratio": 0.97,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
         {
           "word": "Coup",
+          "count": 1
+        },
+        {
+          "word": "Attaque",
           "count": 1
         }
       ],
@@ -382,17 +414,25 @@
           "source": "RFI Afrique",
           "published": "2026-03-29T05:09:34",
           "lead": "Au Niger, interdiction de diffuser des images de personnes recevant des aides, comme par exemple des dons alimentaires. "
+        },
+        {
+          "title": "« Seules les femmes ont été laissées en vie » : dans l’ouest du Niger, des assaillants armés exécutent 16 civils",
+          "url": "https://www.jeuneafrique.com/1784103/politique/seules-les-femmes-ont-ete-laissees-en-vie-dans-louest-du-niger-des-assaillants-armes-executent-16-civils/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-29T16:47:10",
+          "lead": "Ce vendredi 27 mars, seize civils ont été tués dans l’ouest du Niger lors d’une attaque « d’hommes armés » dans le dépar"
         }
       ],
       "sources": [
+        "Jeune Afrique",
         "RFI Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 8,
+      "article_count": 9,
       "source_count": 6,
       "baseline": 6.1,
-      "ratio": 1.31,
+      "ratio": 1.48,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -402,6 +442,10 @@
         },
         {
           "word": "Président",
+          "count": 1
+        },
+        {
+          "word": "Crisis",
           "count": 1
         }
       ],
@@ -413,6 +457,13 @@
           "source": "BBC Africa",
           "published": "2026-03-28T18:13:22",
           "lead": "Senegal parade the Africa Cup of Nations trophy before Saturday's friendly match against Peru in Paris - despite being s"
+        },
+        {
+          "title": "CAF: Véron-Mosengo s'en va, Motsepe lance une réforme sur l'arbitrage et annonce une visite au Sénégal",
+          "url": "https://www.rfi.fr/fr/afrique-foot/20260329-caf-v%C3%A9ron-mosengo-s-en-va-motsepe-lance-une-r%C3%A9forme-sur-l-arbitrage-et-annonce-une-visite-au-s%C3%A9n%C3%A9gal",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T13:16:39",
+          "lead": "Réuni au Caire, le comité exécutif de la Confédération africaine de football (CAF) a entériné la démission de son secrét"
         },
         {
           "title": "Football: face au Pérou en amical, le Sénégal fait le plein de confiance et enchante ses supporters",
@@ -457,20 +508,20 @@
           "lead": "Vingt États membres de l’Union africaine se sont opposés à la candidature de l’ex-dirigeant du Sénégal. Celle-ci avait é"
         },
         {
-          "title": "Dakar races to finish line as Youth Olympic countdown begins",
-          "url": "http://www.africanews.com/2026/03/28/dakar-races-to-finish-line-as-youth-olympic-countdown-begins/",
-          "source": "Africanews",
-          "published": "2026-03-28T13:25:09",
-          "lead": "Dakar has been transformed into a vast construction site, seven months before the Youth Olympic Games – the first global"
+          "title": "Africa: CAF's Senegal Decision Exposes a Deeper Crisis in African Football",
+          "url": "https://allafrica.com/stories/202603290076.html",
+          "source": "AllAfrica",
+          "published": "2026-03-29T15:09:41",
+          "lead": "[allAfrica] By any reasonable standard, the Confederation of African Football (CAF) decision to penalize Senegal for the"
         }
       ],
       "sources": [
-        "Africanews",
-        "BBC Africa",
         "Jeune Afrique",
-        "France24 Afrique",
+        "RFI Afrique",
         "Le Monde Afrique",
-        "RFI Afrique"
+        "France24 Afrique",
+        "AllAfrica",
+        "BBC Africa"
       ]
     },
     "Gambia": {
@@ -536,8 +587,8 @@
     "Côte d'Ivoire": {
       "article_count": 1,
       "source_count": 1,
-      "baseline": 1.9,
-      "ratio": 0.54,
+      "baseline": 1.8,
+      "ratio": 0.55,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -669,16 +720,26 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.4,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "OMC à Yaoundé : l’organisation s’achemine vers un accord a minima sur sa réforme",
+          "url": "https://www.jeuneafrique.com/1784088/economie-entreprises/omc-a-yaounde-lorganisation-sachemine-vers-un-accord-a-minima-sur-sa-reforme/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-29T16:28:27",
+          "lead": "Les négociations en vue de lancer la réforme de l’Organisation mondiale du commerce semblent s’acheminer vers un accord "
+        }
+      ],
+      "sources": [
+        "Jeune Afrique"
+      ]
     },
     "CAR": {
       "article_count": 1,
@@ -689,15 +750,15 @@
       "confidence": "low",
       "keywords": [
         {
+          "word": "Wagner",
+          "count": 1
+        },
+        {
           "word": "Violence",
           "count": 1
         },
         {
           "word": "Rebelle",
-          "count": 1
-        },
-        {
-          "word": "Wagner",
           "count": 1
         }
       ],
@@ -728,11 +789,11 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Président",
           "count": 1
         },
         {
-          "word": "Président",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -792,7 +853,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.2,
-      "ratio": 0.92,
+      "ratio": 0.91,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -823,15 +884,15 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "DRC": {
-      "article_count": 2,
-      "source_count": 1,
-      "baseline": 6.5,
-      "ratio": 0.31,
+      "article_count": 3,
+      "source_count": 2,
+      "baseline": 6.4,
+      "ratio": 0.47,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -845,6 +906,14 @@
         },
         {
           "word": "Gouvernement",
+          "count": 1
+        },
+        {
+          "word": "Rebel",
+          "count": 1
+        },
+        {
+          "word": "M23",
           "count": 1
         }
       ],
@@ -863,10 +932,18 @@
           "source": "RFI Afrique",
           "published": "2026-03-29T04:46:16",
           "lead": "En République démocratique du Congo (RDC), le gouvernement est en alerte face à des risques de radiation radioactive sur"
+        },
+        {
+          "title": "DR Congo conflict: M23’s alleged withdrawal shrouded in confusion",
+          "url": "http://www.africanews.com/2026/03/29/dr-congo-conflict-m23s-alleged-withdrawal-shrouded-in-confusion/",
+          "source": "Africanews",
+          "published": "2026-03-29T13:29:04",
+          "lead": "Conflicting reports from local sources, rebel leaders, and a silent Kinshasa leave it unclear whether M23 fighters are t"
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -921,7 +998,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.0,
-      "ratio": 0.49,
+      "ratio": 0.5,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -942,7 +1019,7 @@
     "Somalia": {
       "article_count": 0,
       "source_count": 0,
-      "baseline": 1.7,
+      "baseline": 1.6,
       "ratio": 0.0,
       "status": "quiet",
       "confidence": "none",
@@ -964,17 +1041,13 @@
       "sources": []
     },
     "Kenya": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 5.7,
-      "ratio": 0.52,
+      "ratio": 0.35,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
-        {
-          "word": "Guerre",
-          "count": 1
-        },
         {
           "word": "Killed",
           "count": 1
@@ -990,13 +1063,6 @@
           "lead": "The craze for collecting ants takes Kenya by surprise as smugglers zone in to make a profit."
         },
         {
-          "title": "Kenya: près de 8000 tonnes de thé bloquées à Mombasa en raison de la guerre au Moyen-Orient",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-kenya-pr%C3%A8s-de-8000-tonnes-de-th%C3%A9-bloqu%C3%A9es-%C3%A0-mombasa-en-raison-de-la-guerre-au-moyen-orient",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T14:05:28",
-          "lead": "L’économie kényane est dans la tourmente, à cause de la guerre au Moyen-Orient. L’Association est-africaine du commerce "
-        },
-        {
           "title": "Kenya faces deadly flooding with at least 108 people killed",
           "url": "http://www.africanews.com/2026/03/29/kenya-faces-deadly-flooding-with-at-least-108-people-killed/",
           "source": "Africanews",
@@ -1005,9 +1071,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique",
-        "BBC Africa"
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Rwanda": {
@@ -1187,10 +1252,10 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 4,
-      "source_count": 4,
+      "article_count": 3,
+      "source_count": 3,
       "baseline": 14.0,
-      "ratio": 0.29,
+      "ratio": 0.21,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -1199,11 +1264,11 @@
           "count": 1
         },
         {
-          "word": "Minister",
+          "word": "Government",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Minister",
           "count": 1
         }
       ],
@@ -1224,13 +1289,6 @@
           "lead": "Minister’s decision to ditch town’s colonial-era identity and honour anti-apartheid activist divides residentsA South Af"
         },
         {
-          "title": "Montreux Jazz Festival makes African debut in South Africa’s wine country",
-          "url": "http://www.africanews.com/2026/03/28/montreux-jazz-festival-makes-african-debut-in-south-africas-wine-country/",
-          "source": "Africanews",
-          "published": "2026-03-28T14:58:21",
-          "lead": "The Montreux Jazz Festival made its African debut on Friday, staged in the vineyard‑lined Franschhoek Valley of South Af"
-        },
-        {
           "title": "GROWTH ENGINES: Revved for retail: Falling fuel revenue drives forecourt reinvention in South Africa",
           "url": "https://www.dailymaverick.co.za/article/2026-03-29-revved-for-retail-falling-fuel-revenue-drives-forecourt-reinvention-in-south-africa/",
           "source": "Daily Maverick",
@@ -1239,9 +1297,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "The Guardian Africa",
         "Al Jazeera",
+        "The Guardian Africa",
         "Daily Maverick"
       ]
     },
