@@ -1,20 +1,25 @@
 {
-  "generated_at": "2026-03-29T15:22:51.539447",
+  "generated_at": "2026-03-29T18:29:29.737191",
   "summary": {
-    "high": 4,
-    "elevated": 0,
-    "normal": 20,
-    "quiet": 30
+    "high": 2,
+    "elevated": 2,
+    "normal": 22,
+    "quiet": 28
   },
   "countries": {
     "Morocco": {
-      "article_count": 1,
-      "source_count": 1,
-      "baseline": 4.0,
-      "ratio": 0.25,
+      "article_count": 2,
+      "source_count": 2,
+      "baseline": 4.1,
+      "ratio": 0.49,
       "status": "normal",
-      "confidence": "low",
-      "keywords": [],
+      "confidence": "normal",
+      "keywords": [
+        {
+          "word": "Président",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
       "articles": [
         {
@@ -23,26 +28,34 @@
           "source": "RFI Afrique",
           "published": "2026-03-29T13:16:39",
           "lead": "Réuni au Caire, le comité exécutif de la Confédération africaine de football (CAF) a entériné la démission de son secrét"
+        },
+        {
+          "title": "CAN 2025 : le président de la CAF promet de « respecter » la décision du TAS, saisi par le Sénégal",
+          "url": "https://www.jeuneafrique.com/1784119/societe/can-2025-le-president-de-la-caf-promet-de-respecter-la-decision-du-tas-saisi-par-le-senegal/",
+          "source": "Jeune Afrique",
+          "published": "2026-03-29T17:32:16",
+          "lead": "Ce 27 mars, le président de la Confédération africaine de football, Patrice Motsepe, a assuré qu’il « respecterait » la "
         }
       ],
       "sources": [
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Algeria": {
       "article_count": 4,
       "source_count": 4,
-      "baseline": 1.5,
-      "ratio": 2.61,
+      "baseline": 1.6,
+      "ratio": 2.5,
       "status": "high",
       "confidence": "high",
       "keywords": [
         {
-          "word": "Président",
+          "word": "Mort",
           "count": 2
         },
         {
-          "word": "Mort",
+          "word": "Président",
           "count": 2
         },
         {
@@ -91,26 +104,22 @@
         }
       ],
       "sources": [
+        "Africanews",
         "Le Monde Afrique",
-        "Jeune Afrique",
         "RFI Afrique",
-        "Africanews"
+        "Jeune Afrique"
       ]
     },
     "Tunisia": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.1,
-      "ratio": 2.73,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.82,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
           "word": "Gouvernement",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -124,13 +133,6 @@
           "lead": "En Tunisie, le nouveau dirigeant de la Centrale syndicale Union générale tunisienne du travail (UGTT), est Slaheddine Se"
         },
         {
-          "title": "Tunisie : un nouveau chef pour la puissante centrale syndicale UGTT",
-          "url": "https://www.jeuneafrique.com/1784077/politique/tunisie-un-nouveau-chef-pour-la-puissante-centrale-syndicale-ugtt/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T17:19:51",
-          "lead": "L’UGTT, acteur social et politique de poids en Tunisie, qui traverse une crise interne et connaît des tensions avec le p"
-        },
-        {
           "title": "Tunisia's main union picks Selmi as new leader, role in politics uncertain",
           "url": "http://www.africanews.com/2026/03/29/tunisias-main-union-picks-selmi-as-new-leader-role-in-politics-uncertain/",
           "source": "Africanews",
@@ -139,9 +141,8 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "Libya": {
@@ -160,7 +161,7 @@
       "article_count": 5,
       "source_count": 3,
       "baseline": 1.3,
-      "ratio": 3.75,
+      "ratio": 3.85,
       "status": "high",
       "confidence": "high",
       "keywords": [
@@ -222,15 +223,15 @@
       ]
     },
     "Sudan": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 4.2,
-      "ratio": 0.48,
+      "ratio": 0.24,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -238,7 +239,7 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -254,37 +255,20 @@
           "source": "Le Monde Afrique",
           "published": "2026-03-29T04:00:41",
           "lead": "Le très jeune Etat, devenu indépendant en 2011, traverse une grave crise humanitaire et sécuritaire, sur fond de tension"
-        },
-        {
-          "title": "Faure Gnassingbé et l’AES : si proche et si loin à la fois",
-          "url": "https://www.jeuneafrique.com/1783814/politique/faure-gnassingbe-et-laes-si-proche-et-si-loin-a-la-fois/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T18:00:46",
-          "lead": "Faure Gnassingbé cultive une diplomatie d’équilibre entre l’Occident et les régimes militaires sahéliens. Derrière la re"
         }
       ],
       "sources": [
-        "Le Monde Afrique",
-        "Jeune Afrique"
+        "Le Monde Afrique"
       ]
     },
     "Mauritania": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 0.9,
-      "ratio": 3.33,
-      "status": "high",
-      "confidence": "high",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "ratio": 2.22,
+      "status": "elevated",
+      "confidence": "medium",
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -300,38 +284,21 @@
           "source": "France24 Afrique",
           "published": "2026-03-29T11:15:33",
           "lead": "La Mauritanie accuse une nouvelle fois le Mali d’exactions contre des civils mauritaniens dans la zone frontalière entre"
-        },
-        {
-          "title": "Mort de citoyens mauritaniens au Mali : Nouakchott exprime sa « profonde inquiétude »",
-          "url": "https://www.jeuneafrique.com/1784084/politique/mort-de-citoyens-mauritaniens-au-mali-nouakchott-exprime-sa-profonde-inquietude/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T17:59:46",
-          "lead": "Le gouvernement mauritanien appelle les autorités maliennes à mettre un terme à ces « exactions répétées, qui, depuis qu"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Mali": {
-      "article_count": 3,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.7,
-      "ratio": 1.11,
+      "ratio": 0.74,
       "status": "normal",
       "confidence": "normal",
-      "keywords": [
-        {
-          "word": "Mort",
-          "count": 1
-        },
-        {
-          "word": "Gouvernement",
-          "count": 1
-        }
-      ],
+      "keywords": [],
       "keyword_pairs": [],
       "articles": [
         {
@@ -347,19 +314,11 @@
           "source": "France24 Afrique",
           "published": "2026-03-29T11:15:33",
           "lead": "La Mauritanie accuse une nouvelle fois le Mali d’exactions contre des civils mauritaniens dans la zone frontalière entre"
-        },
-        {
-          "title": "Mort de citoyens mauritaniens au Mali : Nouakchott exprime sa « profonde inquiétude »",
-          "url": "https://www.jeuneafrique.com/1784084/politique/mort-de-citoyens-mauritaniens-au-mali-nouakchott-exprime-sa-profonde-inquietude/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T17:59:46",
-          "lead": "Le gouvernement mauritanien appelle les autorités maliennes à mettre un terme à ces « exactions répétées, qui, depuis qu"
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
-        "France24 Afrique"
+        "France24 Afrique",
+        "RFI Afrique"
       ]
     },
     "Burkina Faso": {
@@ -393,7 +352,7 @@
       "article_count": 2,
       "source_count": 2,
       "baseline": 2.1,
-      "ratio": 0.97,
+      "ratio": 0.95,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -424,24 +383,24 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Senegal": {
-      "article_count": 9,
-      "source_count": 6,
+      "article_count": 8,
+      "source_count": 5,
       "baseline": 6.1,
-      "ratio": 1.48,
+      "ratio": 1.3,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
-          "word": "Guerre",
-          "count": 1
+          "word": "Président",
+          "count": 3
         },
         {
-          "word": "Président",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -452,11 +411,11 @@
       "keyword_pairs": [],
       "articles": [
         {
-          "title": "Senegal parade Afcon trophy despite title controversy",
-          "url": "https://www.bbc.com/sport/football/articles/cqxl0gj9787o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Africa",
-          "published": "2026-03-28T18:13:22",
-          "lead": "Senegal parade the Africa Cup of Nations trophy before Saturday's friendly match against Peru in Paris - despite being s"
+          "title": "Sénégal: l'ex-président Macky Sall maintient sa candidature au poste de secrétaire général de l'ONU",
+          "url": "https://www.rfi.fr/fr/afrique/20260329-s%C3%A9n%C3%A9gal-l-ex-pr%C3%A9sident-macky-sall-maintient-sa-candidature-au-poste-de-secr%C3%A9taire-g%C3%A9n%C3%A9ral-de-l-onua",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T16:02:40",
+          "lead": "Même s'il n'a pas reçu le soutien de l'Union africaine, Macky Sall maintient sa candidature au poste de secrétaire génér"
         },
         {
           "title": "CAF: Véron-Mosengo s'en va, Motsepe lance une réforme sur l'arbitrage et annonce une visite au Sénégal",
@@ -480,13 +439,6 @@
           "lead": "Le Sénégal a de nouveau été dégradé, vendredi 27 mars, par l'agence de notation Standard & Poor's. Sa note en monnaie lo"
         },
         {
-          "title": "Au Stade de France, le Sénégal a bel et bien brandi sa Coupe d'Afrique devant 80 000 supporters",
-          "url": "https://www.rfi.fr/fr/afrique-foot/20260328-au-stade-de-france-le-s%C3%A9n%C3%A9gal-a-bel-et-bien-brandi-sa-coupe-d-afrique-devant-80-000-supporters",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T16:24:38",
-          "lead": "Devant près de 80 000 spectateurs réunis au Stade de France de Saint-Denis pour un match amical contre le Pérou, la séle"
-        },
-        {
           "title": "L'Union africaine ne soutient pas la candidature de Macky Sall à l'ONU",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-l-union-africaine-ne-soutient-pas-la-candidature-de-macky-sall-%C3%A0-l-onu",
           "source": "France24 Afrique",
@@ -501,11 +453,11 @@
           "lead": "Samedi, les Lions de la Teranga ont battu le Pérou (2-0) lors d’un match amical, à Saint-Denis. Les supporteurs ont fêté"
         },
         {
-          "title": "Macky Sall maintient sa candidature au poste de secrétaire général de l’ONU",
-          "url": "https://www.jeuneafrique.com/1784073/politique/macky-sall-maintient-sa-candidature-au-poste-de-secretaire-general-de-lonu/",
+          "title": "CAN 2025 : le président de la CAF promet de « respecter » la décision du TAS, saisi par le Sénégal",
+          "url": "https://www.jeuneafrique.com/1784119/societe/can-2025-le-president-de-la-caf-promet-de-respecter-la-decision-du-tas-saisi-par-le-senegal/",
           "source": "Jeune Afrique",
-          "published": "2026-03-28T16:36:32",
-          "lead": "Vingt États membres de l’Union africaine se sont opposés à la candidature de l’ex-dirigeant du Sénégal. Celle-ci avait é"
+          "published": "2026-03-29T17:32:16",
+          "lead": "Ce 27 mars, le président de la Confédération africaine de football, Patrice Motsepe, a assuré qu’il « respecterait » la "
         },
         {
           "title": "Africa: CAF's Senegal Decision Exposes a Deeper Crisis in African Football",
@@ -516,12 +468,11 @@
         }
       ],
       "sources": [
-        "Jeune Afrique",
-        "RFI Afrique",
         "Le Monde Afrique",
-        "France24 Afrique",
         "AllAfrica",
-        "BBC Africa"
+        "France24 Afrique",
+        "RFI Afrique",
+        "Jeune Afrique"
       ]
     },
     "Gambia": {
@@ -549,16 +500,26 @@
       "sources": []
     },
     "Guinea": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.4,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Guinée: les premières cargaisons de fer de la mine de Simandou sont arrivées en Chine",
+          "url": "https://www.rfi.fr/fr/afrique/20260329-guin%C3%A9e-les-premi%C3%A8res-cargaisons-de-fer-de-la-mine-de-simandou-sont-arriv%C3%A9es-en-chine",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T15:22:13",
+          "lead": "Après des années d'attente et une première phase de tests, le mégaprojet minier de Simandou franchit un cap décisif. La "
+        }
+      ],
+      "sources": [
+        "RFI Afrique"
+      ]
     },
     "Sierra Leone": {
       "article_count": 0,
@@ -607,16 +568,31 @@
       ]
     },
     "Ghana": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.3,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.43,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Recognising the slave trade as a crime against humanity is an essential first step | Letters",
+          "url": "https://www.theguardian.com/world/2026/mar/29/recognising-the-slave-trade-as-a-against-humanity-is-an-essential-first-step",
+          "source": "The Guardian Africa",
+          "published": "2026-03-29T16:06:08",
+          "lead": "Kenneth B Ati-John and Ndine Wa‑Chiuta respond to an article by Ghana’s president, John Dramani Mahama The president of "
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "Togo": {
       "article_count": 1,
@@ -684,16 +660,31 @@
       ]
     },
     "Nigeria": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 7.9,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
-      "keywords": [],
+      "ratio": 0.13,
+      "status": "normal",
+      "confidence": "low",
+      "keywords": [
+        {
+          "word": "President",
+          "count": 1
+        }
+      ],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "Recognising the slave trade as a crime against humanity is an essential first step | Letters",
+          "url": "https://www.theguardian.com/world/2026/mar/29/recognising-the-slave-trade-as-a-against-humanity-is-an-essential-first-step",
+          "source": "The Guardian Africa",
+          "published": "2026-03-29T16:06:08",
+          "lead": "Kenneth B Ati-John and Ndine Wa‑Chiuta respond to an article by Ghana’s president, John Dramani Mahama The president of "
+        }
+      ],
+      "sources": [
+        "The Guardian Africa"
+      ]
     },
     "Cape Verde": {
       "article_count": 0,
@@ -720,15 +711,22 @@
       "sources": []
     },
     "Cameroon": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 2.5,
-      "ratio": 0.4,
+      "ratio": 0.79,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "Cameroun: une adolescente opérée avec succès d'une tumeur géante au cerveau",
+          "url": "https://www.rfi.fr/fr/afrique/20260329-cameroun-une-adolescente-op%C3%A9r%C3%A9e-avec-succ%C3%A8s-d-une-tumeur-g%C3%A9ante-au-cerveau",
+          "source": "RFI Afrique",
+          "published": "2026-03-29T17:53:21",
+          "lead": "Prouesse médicale au Cameroun à l'hôpital régional de Garoua : le 20 février 2026, l'équipe du neurochirurgien Ignatius "
+        },
         {
           "title": "OMC à Yaoundé : l’organisation s’achemine vers un accord a minima sur sa réforme",
           "url": "https://www.jeuneafrique.com/1784088/economie-entreprises/omc-a-yaounde-lorganisation-sachemine-vers-un-accord-a-minima-sur-sa-reforme/",
@@ -738,6 +736,7 @@
         }
       ],
       "sources": [
+        "RFI Afrique",
         "Jeune Afrique"
       ]
     },
@@ -750,7 +749,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Wagner",
+          "word": "Rebelle",
           "count": 1
         },
         {
@@ -758,7 +757,7 @@
           "count": 1
         },
         {
-          "word": "Rebelle",
+          "word": "Wagner",
           "count": 1
         }
       ],
@@ -785,7 +784,7 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Guerre",
+          "word": "Humanitaire",
           "count": 1
         },
         {
@@ -793,7 +792,7 @@
           "count": 1
         },
         {
-          "word": "Humanitaire",
+          "word": "Guerre",
           "count": 1
         },
         {
@@ -884,15 +883,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "DRC": {
       "article_count": 3,
       "source_count": 2,
-      "baseline": 6.4,
-      "ratio": 0.47,
+      "baseline": 6.5,
+      "ratio": 0.46,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -909,11 +908,11 @@
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "M23",
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Rebel",
           "count": 1
         }
       ],
@@ -942,8 +941,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Africanews"
+        "Africanews",
+        "RFI Afrique"
       ]
     },
     "São Tomé": {
@@ -1071,8 +1070,8 @@
         }
       ],
       "sources": [
-        "BBC Africa",
-        "Africanews"
+        "Africanews",
+        "BBC Africa"
       ]
     },
     "Rwanda": {
@@ -1088,26 +1087,16 @@
       "sources": []
     },
     "Burundi": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 0,
+      "source_count": 0,
       "baseline": 1.0,
-      "ratio": 1.0,
-      "status": "normal",
-      "confidence": "low",
+      "ratio": 0.0,
+      "status": "quiet",
+      "confidence": "none",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [
-        {
-          "title": "Macky Sall maintient sa candidature au poste de secrétaire général de l’ONU",
-          "url": "https://www.jeuneafrique.com/1784073/politique/macky-sall-maintient-sa-candidature-au-poste-de-secretaire-general-de-lonu/",
-          "source": "Jeune Afrique",
-          "published": "2026-03-28T16:36:32",
-          "lead": "Vingt États membres de l’Union africaine se sont opposés à la candidature de l’ex-dirigeant du Sénégal. Celle-ci avait é"
-        }
-      ],
-      "sources": [
-        "Jeune Afrique"
-      ]
+      "articles": [],
+      "sources": []
     },
     "Tanzania": {
       "article_count": 0,
@@ -1252,23 +1241,23 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 3,
+      "article_count": 6,
       "source_count": 3,
       "baseline": 14.0,
-      "ratio": 0.21,
+      "ratio": 0.43,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
+          "count": 2
+        },
+        {
+          "word": "Minister",
           "count": 1
         },
         {
           "word": "Government",
-          "count": 1
-        },
-        {
-          "word": "Minister",
           "count": 1
         }
       ],
@@ -1282,11 +1271,32 @@
           "lead": "Olympic gold medallist lashes out at IOC and its president, Kirsty Coventry, for asking women to prove themselves."
         },
         {
+          "title": "Recognising the slave trade as a crime against humanity is an essential first step | Letters",
+          "url": "https://www.theguardian.com/world/2026/mar/29/recognising-the-slave-trade-as-a-against-humanity-is-an-essential-first-step",
+          "source": "The Guardian Africa",
+          "published": "2026-03-29T16:06:08",
+          "lead": "Kenneth B Ati-John and Ndine Wa‑Chiuta respond to an article by Ghana’s president, John Dramani Mahama The president of "
+        },
+        {
           "title": "Goodbye Graaff-Reinet: South African town’s name change stirs racial tensions",
           "url": "https://www.theguardian.com/world/2026/mar/29/graaff-reinet-robert-sobukwe-south-african-town-name-change-stirs-racial-tensions",
           "source": "The Guardian Africa",
           "published": "2026-03-29T04:00:46",
           "lead": "Minister’s decision to ditch town’s colonial-era identity and honour anti-apartheid activist divides residentsA South Af"
+        },
+        {
+          "title": "INVESTMENT INSIGHTS: Advtech, PSG Financial Services and Standard Bank reap the rewards of robust growth strategies",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-29-advtech-psg-financial-services-and-standard-bank-reap-the-rewards-of-robust-growth-strategies/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T20:23:42",
+          "lead": "Why do some companies perform so well, while others struggle? Is it about the level of commitment of the people involved"
+        },
+        {
+          "title": "LANGUAGE EQUALITY: Sepedi Animal Farm translation aims to break barriers in SA classrooms",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-29-sepedi-animal-farm-translation-aims-to-break-barriers-in-sa-classrooms/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T17:42:27",
+          "lead": "A new Sepedi translation of George Orwell’s Animal Farm aspires to enhance political discourse and critical thinking amo"
         },
         {
           "title": "GROWTH ENGINES: Revved for retail: Falling fuel revenue drives forecourt reinvention in South Africa",
@@ -1297,9 +1307,9 @@
         }
       ],
       "sources": [
-        "Al Jazeera",
         "The Guardian Africa",
-        "Daily Maverick"
+        "Daily Maverick",
+        "Al Jazeera"
       ]
     },
     "Eswatini": {
