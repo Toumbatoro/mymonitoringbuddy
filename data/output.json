@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-29T18:29:29.737191",
+  "generated_at": "2026-03-29T21:24:13.673890",
   "summary": {
-    "high": 2,
+    "high": 1,
     "elevated": 2,
-    "normal": 22,
-    "quiet": 28
+    "normal": 24,
+    "quiet": 27
   },
   "countries": {
     "Morocco": {
@@ -38,8 +38,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Algeria": {
@@ -104,17 +104,17 @@
         }
       ],
       "sources": [
-        "Africanews",
         "Le Monde Afrique",
         "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "Africanews"
       ]
     },
     "Tunisia": {
       "article_count": 2,
       "source_count": 2,
       "baseline": 1.1,
-      "ratio": 1.82,
+      "ratio": 1.88,
       "status": "elevated",
       "confidence": "medium",
       "keywords": [
@@ -141,8 +141,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "Libya": {
@@ -158,23 +158,15 @@
       "sources": []
     },
     "Egypt": {
-      "article_count": 5,
-      "source_count": 3,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 1.3,
-      "ratio": 3.85,
-      "status": "high",
-      "confidence": "high",
+      "ratio": 1.54,
+      "status": "elevated",
+      "confidence": "medium",
       "keywords": [
         {
-          "word": "War",
-          "count": 3
-        },
-        {
           "word": "Crisis",
-          "count": 1
-        },
-        {
-          "word": "Government",
           "count": 1
         }
       ],
@@ -188,27 +180,6 @@
           "lead": "Retail and dining premises will have to shut by 21:00 each night for the next month to conserve power."
         },
         {
-          "title": "Pakistan hosts four-nation bid to encourage US, Iran towards diplomacy",
-          "url": "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-29T11:10:43",
-          "lead": "Top diplomats of Pakistan, Egypt, Saudi Arabia and Turkiye meet to prepare ground for de-escalation in war on Iran."
-        },
-        {
-          "title": "US-Israel war on Iran: What’s happening on day 30 of attacks?",
-          "url": "https://www.aljazeera.com/news/2026/3/29/us-israel-war-on-iran-whats-happening-on-day-30-of-attacks?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-29T08:54:04",
-          "lead": "Foreign ministers from Pakistan, Turkiye, Egypt and Saudi Arabia hold talks in Islamabad to end US-Israel war on Iran."
-        },
-        {
-          "title": "Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran",
-          "url": "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-top-saudi-turkish-egyptian-diplomats-over-war-in-iran?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-29T08:11:52",
-          "lead": "Talks are under way in Islamabad, as the Pakistani government acts as mediator between the US and Iran."
-        },
-        {
           "title": "Les «Signes d'Égypte» du peintre Hamed Abdalla exposés à l'IMA-Tourcoing",
           "url": "https://www.rfi.fr/fr/podcasts/reportage-culture/20260328-les-signes-d-%C3%A9gypte-du-peintre-hamed-abdalla-expos%C3%A9s-%C3%A0-l-ima-tourcoing",
           "source": "RFI Afrique",
@@ -218,18 +189,29 @@
       ],
       "sources": [
         "RFI Afrique",
-        "BBC Africa",
-        "Al Jazeera"
+        "BBC Africa"
       ]
     },
     "Sudan": {
-      "article_count": 1,
-      "source_count": 1,
+      "article_count": 2,
+      "source_count": 2,
       "baseline": 4.2,
-      "ratio": 0.24,
+      "ratio": 0.48,
       "status": "normal",
-      "confidence": "low",
+      "confidence": "normal",
       "keywords": [
+        {
+          "word": "Attack",
+          "count": 1
+        },
+        {
+          "word": "Rsf",
+          "count": 1
+        },
+        {
+          "word": "Crise",
+          "count": 1
+        },
         {
           "word": "Humanitaire",
           "count": 1
@@ -241,14 +223,17 @@
         {
           "word": "Guerre",
           "count": 1
-        },
-        {
-          "word": "Crise",
-          "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
+        {
+          "title": "RSF attack on Sudan’s South Kordofan kills at least 14, including children",
+          "url": "https://www.aljazeera.com/news/2026/3/29/rsf-attack-on-sudans-south-kordofan-kills-at-least-14-including-children?traffic_source=rss",
+          "source": "Al Jazeera",
+          "published": "2026-03-29T19:22:33",
+          "lead": "Sudan Doctors Network said RSF and allies shelled residential areas in the city of Dilling for several hours."
+        },
         {
           "title": "Le Soudan du Sud est-il en train de replonger dans une guerre civile ? Comprendre en trois minutes",
           "url": "https://www.lemonde.fr/comprendre-en-3-minutes/video/2026/03/29/le-soudan-du-sud-est-il-en-train-de-replonger-dans-une-guerre-civile-comprendre-en-trois-minutes_6675207_6176282.html",
@@ -258,26 +243,20 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique"
+        "Le Monde Afrique",
+        "Al Jazeera"
       ]
     },
     "Mauritania": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 0.9,
-      "ratio": 2.22,
-      "status": "elevated",
-      "confidence": "medium",
+      "ratio": 1.15,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Mauritanie-Mali: Nouakchott hausse le ton après de nouveaux incidents à la frontière",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-mauritanie-mali-nouakchott-hausse-le-ton-apr%C3%A8s-de-nouveaux-incidents-%C3%A0-la-fronti%C3%A8re",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T21:22:45",
-          "lead": "Entre la Mauritanie et le Mali, le ton monte à nouveau. Nouakchott accuse l'armée malienne d'avoir commis de nouvelles e"
-        },
         {
           "title": "Frontière Mali-Mauritanie : nouvelles tensions après des accusations d’exactions civiles",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-fronti%C3%A8re-mali-mauritanie-nouvelles-tensions-apr%C3%A8s-des-accusations-d-exactions-civiles",
@@ -287,27 +266,19 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Mali": {
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 2.7,
-      "ratio": 0.74,
+      "ratio": 0.38,
       "status": "normal",
-      "confidence": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Mauritanie-Mali: Nouakchott hausse le ton après de nouveaux incidents à la frontière",
-          "url": "https://www.rfi.fr/fr/afrique/20260328-mauritanie-mali-nouakchott-hausse-le-ton-apr%C3%A8s-de-nouveaux-incidents-%C3%A0-la-fronti%C3%A8re",
-          "source": "RFI Afrique",
-          "published": "2026-03-28T21:22:45",
-          "lead": "Entre la Mauritanie et le Mali, le ton monte à nouveau. Nouakchott accuse l'armée malienne d'avoir commis de nouvelles e"
-        },
         {
           "title": "Frontière Mali-Mauritanie : nouvelles tensions après des accusations d’exactions civiles",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-fronti%C3%A8re-mali-mauritanie-nouvelles-tensions-apr%C3%A8s-des-accusations-d-exactions-civiles",
@@ -317,8 +288,7 @@
         }
       ],
       "sources": [
-        "France24 Afrique",
-        "RFI Afrique"
+        "France24 Afrique"
       ]
     },
     "Burkina Faso": {
@@ -383,15 +353,15 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "Senegal": {
       "article_count": 8,
-      "source_count": 5,
+      "source_count": 4,
       "baseline": 6.1,
-      "ratio": 1.3,
+      "ratio": 1.31,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
@@ -439,18 +409,18 @@
           "lead": "Le Sénégal a de nouveau été dégradé, vendredi 27 mars, par l'agence de notation Standard & Poor's. Sa note en monnaie lo"
         },
         {
+          "title": "Loi anti-homosexualité au Sénégal : l'avocate camerounaise Alice Nkom réagit",
+          "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-loi-anti-homosexualit%C3%A9-au-s%C3%A9n%C3%A9gal-l-avocate-camerounaise-alice-nkom-r%C3%A9agit",
+          "source": "France24 Afrique",
+          "published": "2026-03-29T20:22:13",
+          "lead": "La première des préoccupations des dirigeants est de \"regarder dans la culotte des sénégalais\".  \n \nAu Sénégal, une nouv"
+        },
+        {
           "title": "L'Union africaine ne soutient pas la candidature de Macky Sall à l'ONU",
           "url": "https://www.france24.com/fr/vid%C3%A9o/20260329-l-union-africaine-ne-soutient-pas-la-candidature-de-macky-sall-%C3%A0-l-onu",
           "source": "France24 Afrique",
           "published": "2026-03-29T11:14:23",
           "lead": "L’Union africaine a refusé de soutenir la candidature de l’ancien président sénégalais Macky Sall au poste de secrétaire"
-        },
-        {
-          "title": "Le Sénégal présente le trophée de la CAN au Stade de France, devant la diaspora rassemblée pour célébrer les « seuls champions d’Afrique »",
-          "url": "https://www.lemonde.fr/afrique/article/2026/03/28/football-au-stade-de-france-la-diaspora-senegalaise-a-celebre-les-seuls-champions-d-afrique_6675090_3212.html",
-          "source": "Le Monde Afrique",
-          "published": "2026-03-28T19:18:01",
-          "lead": "Samedi, les Lions de la Teranga ont battu le Pérou (2-0) lors d’un match amical, à Saint-Denis. Les supporteurs ont fêté"
         },
         {
           "title": "CAN 2025 : le président de la CAF promet de « respecter » la décision du TAS, saisi par le Sénégal",
@@ -468,7 +438,6 @@
         }
       ],
       "sources": [
-        "Le Monde Afrique",
         "AllAfrica",
         "France24 Afrique",
         "RFI Afrique",
@@ -503,7 +472,7 @@
       "article_count": 1,
       "source_count": 1,
       "baseline": 2.5,
-      "ratio": 0.4,
+      "ratio": 0.39,
       "status": "normal",
       "confidence": "low",
       "keywords": [],
@@ -713,8 +682,8 @@
     "Cameroon": {
       "article_count": 2,
       "source_count": 2,
-      "baseline": 2.5,
-      "ratio": 0.79,
+      "baseline": 2.6,
+      "ratio": 0.78,
       "status": "normal",
       "confidence": "normal",
       "keywords": [],
@@ -736,8 +705,8 @@
         }
       ],
       "sources": [
-        "RFI Afrique",
-        "Jeune Afrique"
+        "Jeune Afrique",
+        "RFI Afrique"
       ]
     },
     "CAR": {
@@ -749,15 +718,15 @@
       "confidence": "low",
       "keywords": [
         {
-          "word": "Rebelle",
-          "count": 1
-        },
-        {
           "word": "Violence",
           "count": 1
         },
         {
           "word": "Wagner",
+          "count": 1
+        },
+        {
+          "word": "Rebelle",
           "count": 1
         }
       ],
@@ -784,6 +753,10 @@
       "confidence": "low",
       "keywords": [
         {
+          "word": "Crise",
+          "count": 1
+        },
+        {
           "word": "Humanitaire",
           "count": 1
         },
@@ -793,10 +766,6 @@
         },
         {
           "word": "Guerre",
-          "count": 1
-        },
-        {
-          "word": "Crise",
           "count": 1
         }
       ],
@@ -883,8 +852,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "DRC": {
@@ -908,11 +877,11 @@
           "count": 1
         },
         {
-          "word": "M23",
+          "word": "Rebel",
           "count": 1
         },
         {
-          "word": "Rebel",
+          "word": "M23",
           "count": 1
         }
       ],
@@ -941,8 +910,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "RFI Afrique"
+        "RFI Afrique",
+        "Africanews"
       ]
     },
     "São Tomé": {
@@ -1070,8 +1039,8 @@
         }
       ],
       "sources": [
-        "Africanews",
-        "BBC Africa"
+        "BBC Africa",
+        "Africanews"
       ]
     },
     "Rwanda": {
@@ -1111,16 +1080,26 @@
       "sources": []
     },
     "Madagascar": {
-      "article_count": 0,
-      "source_count": 0,
+      "article_count": 1,
+      "source_count": 1,
       "baseline": 1.7,
-      "ratio": 0.0,
-      "status": "quiet",
-      "confidence": "none",
+      "ratio": 0.6,
+      "status": "normal",
+      "confidence": "low",
       "keywords": [],
       "keyword_pairs": [],
-      "articles": [],
-      "sources": []
+      "articles": [
+        {
+          "title": "From Gen Z revolt to junta control, Madagascar’s promise of change is slipping away",
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-03-29-from-gen-z-revolt-to-junta-control-madagascars-promise-of-change-is-slipping-away/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T20:27:23",
+          "lead": "Madagascar’s youth-led uprising promised a break from corruption and exclusion, but six months after the military takeov"
+        }
+      ],
+      "sources": [
+        "Daily Maverick"
+      ]
     },
     "Comoros": {
       "article_count": 0,
@@ -1241,35 +1220,32 @@
       "sources": []
     },
     "South Africa": {
-      "article_count": 6,
-      "source_count": 3,
-      "baseline": 14.0,
-      "ratio": 0.43,
+      "article_count": 9,
+      "source_count": 2,
+      "baseline": 14.1,
+      "ratio": 0.64,
       "status": "normal",
       "confidence": "normal",
       "keywords": [
         {
           "word": "President",
-          "count": 2
+          "count": 1
+        },
+        {
+          "word": "Government",
+          "count": 1
         },
         {
           "word": "Minister",
           "count": 1
         },
         {
-          "word": "Government",
+          "word": "Violence",
           "count": 1
         }
       ],
       "keyword_pairs": [],
       "articles": [
-        {
-          "title": "Olympic gender test ‘a disrespect for women’, South Africa’s Semenya says",
-          "url": "https://www.aljazeera.com/sports/2026/3/29/olympic-gender-test-a-disrespect-for-women-south-africas-semenya-says?traffic_source=rss",
-          "source": "Al Jazeera",
-          "published": "2026-03-29T10:33:51",
-          "lead": "Olympic gold medallist lashes out at IOC and its president, Kirsty Coventry, for asking women to prove themselves."
-        },
         {
           "title": "Recognising the slave trade as a crime against humanity is an essential first step | Letters",
           "url": "https://www.theguardian.com/world/2026/mar/29/recognising-the-slave-trade-as-a-against-humanity-is-an-essential-first-step",
@@ -1283,6 +1259,34 @@
           "source": "The Guardian Africa",
           "published": "2026-03-29T04:00:46",
           "lead": "Minister’s decision to ditch town’s colonial-era identity and honour anti-apartheid activist divides residentsA South Af"
+        },
+        {
+          "title": "MISSING IN ACTION: AG finds SANDF can’t keep track of military assets as R823m troop deployment begins",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-29-ag-finds-sandf-cant-keep-track-of-military-assets-as-r823m-troop-deployment-begins/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T20:38:09",
+          "lead": "The Auditor-General has found the Department of Defence was unable to locate a portion of its R68.95bn military asset ba"
+        },
+        {
+          "title": "VIDEO: Watch – From Real Housewives fame to real ‘shoplifting’ arrest infamy",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-29-watch-from-real-housewives-fame-to-real-shoplifting-arrest-infamy/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T20:34:36",
+          "lead": "South African couple Melany and Peet Viljoen revelled in the limelight. Melany featured on the reality TV show The Real "
+        },
+        {
+          "title": "VIDEO: Watch – How Cape Town's municipal bills are outrunning its middle-class residents",
+          "url": "https://www.dailymaverick.co.za/article/2026-03-29-watch-how-cape-towns-municipal-bills-are-outrunning-its-middle-class-residents-/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T20:31:37",
+          "lead": "Cape Town homeowners who do not qualify for income-linked rebates are paying municipal bills that have significantly out"
+        },
+        {
+          "title": "Obstetric violence: A scandal hindering women’s reproductive justice today",
+          "url": "https://www.dailymaverick.co.za/opinionista/2026-03-29-obstetric-violence-a-scandal-hindering-womens-reproductive-justice-today/",
+          "source": "Daily Maverick",
+          "published": "2026-03-29T20:26:20",
+          "lead": "Women’s activism continues to shape South Africa’s democracy, from the Union Buildings to maternity wards."
         },
         {
           "title": "INVESTMENT INSIGHTS: Advtech, PSG Financial Services and Standard Bank reap the rewards of robust growth strategies",
@@ -1307,9 +1311,8 @@
         }
       ],
       "sources": [
-        "The Guardian Africa",
         "Daily Maverick",
-        "Al Jazeera"
+        "The Guardian Africa"
       ]
     },
     "Eswatini": {
